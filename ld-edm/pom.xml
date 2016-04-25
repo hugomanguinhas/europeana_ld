@@ -5,12 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>eu.europeana</groupId>
-    <artifactId>ld-utils</artifactId>
+    <artifactId>ld-edm</artifactId>
     <version>0.1</version>
     <packaging>jar</packaging>
 
-
-    <name>Linked Data Utilities Project</name>
+    <name>Linked Data EDM</name>
     <url>http://www.europeanalabs.eu</url>
 
     <organization>
@@ -48,26 +47,11 @@ the specific language governing permissions and limitations under the Licence.
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>repo1</id>
-            <url>http://repo1.maven.org/maven2</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-
     <dependencies>
         <dependency>
-            <groupId>commons-httpclient</groupId>
-            <artifactId>commons-httpclient</artifactId>
-            <version>3.1</version>
-        </dependency>
-        <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
-            <version>2.4</version>
+            <groupId>eu.europeana</groupId>
+            <artifactId>ld-utils</artifactId>
+            <version>0.1</version>
         </dependency>
         <dependency>
             <groupId>org.apache.jena</groupId>

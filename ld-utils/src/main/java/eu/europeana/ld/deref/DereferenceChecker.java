@@ -20,6 +20,7 @@ import org.apache.commons.httpclient.HttpMethod;
 import org.apache.commons.httpclient.methods.GetMethod;
 import org.apache.commons.httpclient.methods.HeadMethod;
 import org.apache.commons.httpclient.params.HttpMethodParams;
+import org.apache.commons.io.IOUtils;
 
 /**
  * @author Hugo Manguinhas <hugo.manguinhas@europeana.eu>
@@ -38,12 +39,10 @@ public class DereferenceChecker
     private CSVPrinter          _printer;
     private boolean             _useHEAD;
 
-    public DereferenceChecker(File cache, boolean useHEAD) throws IOException
+    public DereferenceChecker(File cache, boolean useHEAD)
     {
-        _cacheFile = cache;
         _useHEAD   = useHEAD;
-        loadCache();
-        adjustCursor();
+        _cacheFile = initCache(cache);
     }
 
     public Boolean check(String url)
@@ -87,6 +86,8 @@ public class DereferenceChecker
         synchronized (_cache)
         {
             _cache.put(url, value);
+
+            if ( _cacheFile == null ) { return value; }
             try                   { _printer.printRecord(url, value);   }
             catch (IOException e) { System.err.println("Error: "
                                                      + e.getMessage()); }
@@ -94,27 +95,36 @@ public class DereferenceChecker
         return value;
     }
 
-    private void loadCache() throws IOException
+    private File initCache(File cache)
     {
-        if ( !_cacheFile.exists() ) { return; }
+        if ( cache == null ) { return null; }
+
+        try                   { adjustCursor(loadCache(cache));   }
+        catch (IOException e) { e.printStackTrace(); return null; }
+
+        return cache;
+    }
+
+    private File loadCache(File cache) throws IOException
+    {
+        if ( !cache.exists() ) { return cache; }
 
         CSVParser  parser = null;
         try {
-            parser = CSVParser.parse(_cacheFile, _charset, _format);
+            parser = CSVParser.parse(cache, _charset, _format);
             for ( CSVRecord record : parser )
             {
                 _cache.put(record.get(0), Boolean.parseBoolean(record.get(1)));
             }
         }
-        finally
-        {
-            if ( parser != null ) { parser.close(); }
-        }
+        finally { IOUtils.closeQuietly(parser); }
+
+        return cache;
     }
 
-    private void adjustCursor() throws IOException
+    private void adjustCursor(File cache) throws IOException
     {
-        _printer = new CSVPrinter(new PrintStream(_cacheFile), _format);
+        _printer = new CSVPrinter(new PrintStream(cache), _format);
         for ( String url : _cache.keySet() )
         {
             Boolean b = _cache.get(url);
