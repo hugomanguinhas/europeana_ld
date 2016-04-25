@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>eu.europeana</groupId>
-    <artifactId>ld-edm</artifactId>
+    <artifactId>europeana-vocs</artifactId>
     <version>0.1</version>
     <packaging>jar</packaging>
 
@@ -50,7 +50,7 @@ the specific language governing permissions and limitations under the Licence.
     <dependencies>
         <dependency>
             <groupId>eu.europeana</groupId>
-            <artifactId>ld-utils</artifactId>
+            <artifactId>ld-edm</artifactId>
             <version>0.1</version>
         </dependency>
     </dependencies>

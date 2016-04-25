@@ -94,13 +94,15 @@ public class Dereferencer
 
     private Model read(HttpMethod method, String lang) throws IOException
     {
-        InputStream is = getInputStream(method);
-
-        Model       m  = ModelFactory.createDefaultModel();
+        Model m  = ModelFactory.createDefaultModel();
         if ( lang == null ) { return m; }
 
-        try     { m.read(is, lang);         }
+        InputStream is = getInputStream(method);
+        try  {
+            m.read(is, lang);
+        }
         finally { IOUtils.closeQuietly(is); }
+
         return m;
     }
 
@@ -111,23 +113,30 @@ public class Dereferencer
         Header encoding = method.getResponseHeader(CONTENT_ENCODING);
         if ( encoding == null ) { return is; }
 
-        try {
-            String value = encoding.getValue().toLowerCase();
-            if ( value.equals("gzip")   ) { return new GZIPInputStream(is);    }
-            if ( value.equals("deflate")) { return new InflaterInputStream(is);}
-            return is;
-        }
-        finally { IOUtils.closeQuietly(is); }
+        String value = encoding.getValue().toLowerCase();
+        if ( value.equals("gzip")   ) { return new GZIPInputStream(is);    }
+        if ( value.equals("deflate")) { return new InflaterInputStream(is);}
+        return is;
     }
 
     private String getJenaLang(HttpMethod method)
+    {
+        String mime = getContentMime(method);
+        if ( mime == null   ) { return null; }
+
+        Lang lang   = RDFLanguages.contentTypeToLang(mime);
+        if ( lang == null   ) { return null; }
+
+        return lang.getLabel();
+    }
+
+    private String getContentMime(HttpMethod method)
     {
         Header header = method.getResponseHeader(CONTENT_TYPE);
         if ( header == null ) { return null; }
 
         String mime = header.getValue();
-        Lang lang   = RDFLanguages.contentTypeToLang(mime);
-        if ( lang == null   ) { return null; }
-        return lang.getLabel();
+        int i = mime.indexOf(';');
+        return (i < 0 ? mime : mime.substring(0, i));
     }
 }
