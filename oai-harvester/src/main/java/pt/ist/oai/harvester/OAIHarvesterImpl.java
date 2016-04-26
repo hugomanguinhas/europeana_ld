@@ -10,22 +10,31 @@ import java.util.Date;
 import java.util.List;
 import java.util.Properties;
 
+import org.apache.http.impl.client.HttpClientBuilder;
+
 import static pt.ist.oai.harvester.impl.HarvesterUtils.asNormalizedDate;
 
 public class OAIHarvesterImpl implements OAIHarvester
 {
-    protected OAIDataSource _dataSource;
+    protected OAIDataSource     _dataSource;
+    protected HttpClientBuilder _builder;
+
+    public OAIHarvesterImpl(String baseURL, HttpClientBuilder builder)
+    {
+        _dataSource = new Identify(builder).identify(baseURL);
+        _dataSource.setBaseURL(baseURL);
+        _builder = builder;
+    }
 
     public OAIHarvesterImpl(String baseURL)
     {
-        _dataSource = new Identify().identify(baseURL);
+        this(baseURL, HttpClientBuilder.create());
     }
 
-    private ReadOnlyProperties createProp() { return new ReadOnlyProperties(); }
 
-    /****************************************************/
-    /*               Interface OAIHarvester             */
-    /****************************************************/
+    /***************************************************************************
+     * Interface OAIHarvester
+     **************************************************************************/
     //Identity
     @Override
     public OAIDataSource identify() throws OAIException { return _dataSource; }
@@ -138,15 +147,14 @@ public class OAIHarvesterImpl implements OAIHarvester
 
     //List Records
     @Override
-    public List<OAIRecord> listRecords(
-            Properties props) throws OAIException
+    public List<OAIRecord> listRecords(Properties props) throws OAIException
     {
         return newListRecords(props).handle();
     }
 
     @Override
-    public List<OAIRecord> listRecords(
-            String metadataPrefix) throws OAIException
+    public List<OAIRecord> listRecords(String metadataPrefix) 
+           throws OAIException
     {
         return newListRecords(metadataPrefix).handle();
     }
@@ -224,72 +232,77 @@ public class OAIHarvesterImpl implements OAIHarvester
         return newCountRecords(set, metadataPrefix, from, to).handle();
     }
 
-    /****************************************************/
-    /*                 Requests Builder                   */
-    /****************************************************/
+    /***************************************************************************
+     * Methods for building requests
+     **************************************************************************/
     //List Metadata Formats
     public OAIRequest<List<OAIMetadataFormat>> newListMetadataFormats(
            Properties props)
     {
-        return new ListMetadataFormats(_dataSource, props);
+        return new ListMetadataFormats(_dataSource, props, _builder);
     }
 
     public OAIRequest<List<OAIMetadataFormat>> newListMetadataFormats()
     {
-        return new ListMetadataFormats(_dataSource, createProp());
+        return new ListMetadataFormats(_dataSource, createProp(), _builder);
     }
 
     public OAIRequest<List<OAIMetadataFormat>> newListMetadataFormats(
            String itemIdentifier)
     {
         return new ListMetadataFormats(_dataSource, createProp().
-            append("identifier", itemIdentifier));
+            append("identifier", itemIdentifier), _builder);
     }
 
     //List Identifiers
     public OAIRequest<List<OAIRecordHeader>> newListIdentifiers(
            Properties props)
     {
-        return new ListIdentifiers(_dataSource, props);
+        return new ListIdentifiers(_dataSource, props, _builder);
     }
 
     public OAIRequest<List<OAIRecordHeader>> newListIdentifiers(
            String set)
     {
-        return new ListIdentifiers(_dataSource, createProp().append("set",set));
+        return new ListIdentifiers(_dataSource, createProp().append("set",set)
+                                 , _builder);
     }
 
     public OAIRequest<List<OAIRecordHeader>> newListIdentifiers(
            String set, String metadataPrefix)
     {
-        return new ListIdentifiers(_dataSource, createProp()
-            .append("set"           , set)
-            .append("metadataPrefix", metadataPrefix));
+        return new ListIdentifiers(
+                       _dataSource
+                      , createProp().append("set"           , set)
+                                    .append("metadataPrefix", metadataPrefix)
+                      , _builder);
     }
 
     public OAIRequest<List<OAIRecordHeader>> newListIdentifiers(
            String set, String metadataPrefix, Date from, Date to)
     {
         GranularityType type = _dataSource.getGranularity();
-        return new ListIdentifiers(_dataSource, createProp()
-            .append("set"           , set)
-            .append("metadataPrefix", metadataPrefix)
-            .append("from"          , asNormalizedDate(from, type))
-            .append("until"         , asNormalizedDate(to, type)));
+        return new ListIdentifiers(
+                       _dataSource
+                     , createProp().append("set"           , set)
+                                   .append("metadataPrefix", metadataPrefix)
+                                   .append("from"          , asNormalizedDate(from, type))
+                                   .append("until"         , asNormalizedDate(to, type))
+                     , _builder);
     }
 
 
     public OAIRequest<CloseableIterable<OAIRecordHeader>> newIterateIdentifiers(
            Properties props)
     {
-        return new IterateIdentifiers(_dataSource, props);
+        return new IterateIdentifiers(_dataSource, props, _builder);
     }
 
     public OAIRequest<CloseableIterable<OAIRecordHeader>> newIterateIdentifiers(
            String set)
     {
         return new IterateIdentifiers(_dataSource, createProp()
-            .append("set", set));
+            .append("set", set), _builder);
     }
 
     public OAIRequest<CloseableIterable<OAIRecordHeader>> newIterateIdentifiers(
@@ -297,7 +310,7 @@ public class OAIHarvesterImpl implements OAIHarvester
     {
         return new IterateIdentifiers(_dataSource, createProp()
             .append("set"           , set)
-            .append("metadataPrefix", metadataPrefix));
+            .append("metadataPrefix", metadataPrefix), _builder);
     }
 
     public OAIRequest<CloseableIterable<OAIRecordHeader>> newIterateIdentifiers(
@@ -308,43 +321,46 @@ public class OAIHarvesterImpl implements OAIHarvester
             .append("set"           , set)
             .append("metadataPrefix", metadataPrefix)
             .append("from"          , asNormalizedDate(from, type))
-            .append("until"         , asNormalizedDate(to, type)));
+            .append("until"         , asNormalizedDate(to, type)), _builder);
     }
 
     //List Sets
     public OAIRequest<List<OAIMetadataSet>> newListSets()
     {
-        return new ListSets(_dataSource, createProp());
+        return new ListSets(_dataSource, createProp(), _builder);
     }
 
     public OAIRequest<CloseableIterable<OAIMetadataSet>> newIterateSets()
     {
-        return new IterateSets(_dataSource, createProp());
+        return new IterateSets(_dataSource, createProp(), _builder);
     }
 
     //Get Record
     public OAIRequest<OAIRecord> newGetRecord(Properties props)
     {
-        return new GetRecord(_dataSource, props);
+        return new GetRecord(_dataSource, props, _builder);
     }
 
     public OAIRequest<OAIRecord> newGetRecord(String id, String metadataPrefix)
     {
-        return new GetRecord(_dataSource, createProp().
-            append("identifier", id).append("metadataPrefix", metadataPrefix));
+        return new GetRecord(
+                       _dataSource
+                     , createProp().append("identifier", id)
+                                   .append("metadataPrefix", metadataPrefix)
+                     , _builder);
     }
 
     //List Records
     public OAIRequest<List<OAIRecord>> newListRecords(Properties props)
     {
-        return new ListRecords(_dataSource, props);
+        return new ListRecords(_dataSource, props, _builder);
     }
 
     public OAIRequest<List<OAIRecord>> newListRecords(
            String metadataPrefix)
     {
         return new ListRecords(_dataSource, createProp()
-            .append("metadataPrefix", metadataPrefix));
+            .append("metadataPrefix", metadataPrefix), _builder);
     }
 
     public OAIRequest<List<OAIRecord>> newListRecords(
@@ -352,7 +368,7 @@ public class OAIHarvesterImpl implements OAIHarvester
     {
         return new ListRecords(_dataSource, createProp()
             .append("set"           , set)
-            .append("metadataPrefix", metadataPrefix));
+            .append("metadataPrefix", metadataPrefix), _builder);
     }
 
     public OAIRequest<List<OAIRecord>> newListRecords(
@@ -363,21 +379,21 @@ public class OAIHarvesterImpl implements OAIHarvester
             .append("set"           , set)
             .append("metadataPrefix", metadataPrefix)
             .append("from"          , asNormalizedDate(from, type))
-            .append("until"         , asNormalizedDate(to, type)));
+            .append("until"         , asNormalizedDate(to, type)), _builder);
     }
 
     //Iterate Records
     public OAIRequest<CloseableIterable<OAIRecord>> newIterateRecords(
            Properties props)
     {
-        return new IterateRecords(_dataSource, props);
+        return new IterateRecords(_dataSource, props, _builder);
     }
 
     public OAIRequest<CloseableIterable<OAIRecord>> newIterateRecords(
            String metadataPrefix)
     {
         return new IterateRecords(_dataSource, createProp()
-            .append("metadataPrefix", metadataPrefix));
+            .append("metadataPrefix", metadataPrefix), _builder);
     }
 
     public OAIRequest<CloseableIterable<OAIRecord>> newIterateRecords(
@@ -385,7 +401,7 @@ public class OAIHarvesterImpl implements OAIHarvester
     {
         return new IterateRecords(_dataSource, createProp()
             .append("set"           , set)
-            .append("metadataPrefix", metadataPrefix));
+            .append("metadataPrefix", metadataPrefix), _builder);
     }
 
     public OAIRequest<CloseableIterable<OAIRecord>> newIterateRecords(
@@ -396,7 +412,7 @@ public class OAIHarvesterImpl implements OAIHarvester
             .append("set"           , set)
             .append("metadataPrefix", metadataPrefix)
             .append("from"          , asNormalizedDate(from, type))
-            .append("until"         , asNormalizedDate(to, type)));
+            .append("until"         , asNormalizedDate(to, type)), _builder);
     }
 
     //Count Records
@@ -404,7 +420,7 @@ public class OAIHarvesterImpl implements OAIHarvester
     public OAIRequest<Long> newCountRecords(
            Properties props) throws OAIException
     {
-        return new CountRecords(_dataSource, props);
+        return new CountRecords(_dataSource, props, _builder);
     }
 
     @Override
@@ -412,15 +428,18 @@ public class OAIHarvesterImpl implements OAIHarvester
            String metadataPrefix) throws OAIException
     {
         return new CountRecords(_dataSource, createProp().
-            append("metadataPrefix", metadataPrefix));
+            append("metadataPrefix", metadataPrefix), _builder);
     }
 
     @Override
     public OAIRequest<Long> newCountRecords(
            String set, String metadataPrefix) throws OAIException
     {
-        return new CountRecords(_dataSource, createProp().
-            append("set", set).append("metadataPrefix", metadataPrefix));
+        return new CountRecords(
+                       _dataSource
+                     , createProp().append("set", set)
+                                   .append("metadataPrefix", metadataPrefix)
+                     , _builder);
     }
 
     @Override
@@ -431,6 +450,14 @@ public class OAIHarvesterImpl implements OAIHarvester
         return new CountRecords(_dataSource, createProp().
             append("set", set).append("metadataPrefix", metadataPrefix).
             append("from", asNormalizedDate(from, _dataSource.getGranularity())).
-            append("until", asNormalizedDate(to, _dataSource.getGranularity())));
+            append("until", asNormalizedDate(to, _dataSource.getGranularity()))
+            , _builder);
     }
+
+
+    /***************************************************************************
+     * Private Methods
+     **************************************************************************/
+    private ReadOnlyProperties createProp() { return new ReadOnlyProperties(); }
+
 }

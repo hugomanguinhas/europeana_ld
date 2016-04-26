@@ -4,7 +4,10 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
-import org.xml.sax.*;
+import org.apache.commons.io.IOUtils;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClientBuilder;
 
 import pt.ist.oai.harvester.exceptions.*;
 import pt.ist.oai.harvester.model.*;
@@ -23,18 +26,19 @@ public abstract class IterationHandler<O>
 
     public IterationHandler(OAIDataSource source
                           , Map<QName,ParserStrategy<HarvesterContext>> strats
-                          , Properties params)
+                          , Properties params, HttpClientBuilder builder)
     {
-        super(source, strats, params);
+        super(source, strats, params, builder);
     }
 
-    /****************************************************/
-    /*                Interface OAIRequest               */
-    /****************************************************/
+
+    /***************************************************************************
+     * Interface OAIRequest
+     **************************************************************************/
     public CloseableIterable<O> handle() throws OAIException
     {
-        _info = new OAICmdInfoImpl();
-        _token = null;
+        _info   = new OAICmdInfoImpl();
+        _token  = null;
         _return = null;
         _producer.start();
         _consumer.start();
@@ -42,9 +46,10 @@ public abstract class IterationHandler<O>
         return this;
     }
 
-    /****************************************************/
-    /*             Interface HarvesterContext           */
-    /****************************************************/
+
+    /***************************************************************************
+     * Interface HarvesterContext
+     **************************************************************************/
     @Override
     public void newObject(Object obj)
     {
@@ -54,54 +59,56 @@ public abstract class IterationHandler<O>
         _info._cursor++;
     }
 
-    /****************************************************/
-    /*                 Interface Runnable                 */
-    /****************************************************/
+
+    /***************************************************************************
+     * Interface Runnable
+     **************************************************************************/
     @SuppressWarnings("deprecation")
     @Override
     public void run()
     {
+        CloseableHttpClient client = null;
         try {
+            client = _builder.build();
             _token = null;
             String url = getRequestURI();
             String baseRequest = _source.getBaseURL() + "?verb=" + getVerb();
             while(true)
             {
-                try {
-                    InputStream in = RequestHandler.handle(url);
-                    parse(new InputSource(in));
-                    if(_token == null || _token.isComplete()) { break; }
-                    url = baseRequest + "&resumptionToken=" + URLEncoder.encode(_token.getValue());
-                }
-                catch(ParsingException p) {
-                    _return = (OAIException)p.getCause();
-                    return;
-                }
-                catch(IOException e) {
-                    _return = new OAIOtherException(e);
-                    return;
-                }
-                catch(StoppingException e) { break; }
+                client.execute(new HttpGet(url), this);
+
+                if(_token == null || _token.isComplete()) { break; }
+                url = baseRequest + "&resumptionToken="
+                    + URLEncoder.encode(_token.getValue());
             }
         }
-        finally {
-            close();
+        catch(ParsingException p) {
+            _return = (OAIException)p.getCause(); return;
         }
-        if(_info._completeListSize < 0) _info._completeListSize = _info._cursor;
+        catch(IOException e) {
+            _return = new OAIOtherException(e); return;
+        }
+        catch(StoppingException e) {}
+        finally { close(); IOUtils.closeQuietly(client); }
+
+        if(_info._completeListSize < 0) {
+            _info._completeListSize = _info._cursor;
+        }
         _info._cursor = -1;
         _info._expirationDate = null;
     }
 
-    /****************************************************/
-    /*                Interface Iterable                 */
-    /****************************************************/
+
+    /***************************************************************************
+     * Interface Iterable
+     **************************************************************************/
     @Override
     public Iterator<O> iterator() { return this; }
 
 
-    /****************************************************/
-    /*                Interface Iterator                 */
-    /****************************************************/
+    /***************************************************************************
+     * Interface Iterator
+     **************************************************************************/
     @Override
     public boolean hasNext()
     {
@@ -151,9 +158,10 @@ public abstract class IterationHandler<O>
     @Override
     public void remove() { throw new UnsupportedOperationException(); }
 
-    /****************************************************/
-    /*            Interface CloseableIterable           */
-    /****************************************************/
+
+    /***************************************************************************
+     * Interface CloseableIterable
+     **************************************************************************/
     public void close()
     {
         _producer.stop();

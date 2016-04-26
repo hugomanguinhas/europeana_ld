@@ -9,12 +9,14 @@ public class OAICmdInfoImpl implements OAICmdInfo
     protected long _cursor;
     protected long _completeListSize;
     protected Date _expirationDate;
+    protected Date _responseDate;
 
     public OAICmdInfoImpl()
     {
-        _cursor = 0;
+        _cursor           = 0;
         _completeListSize = -1;
-        _expirationDate = null;
+        _expirationDate   = null;
+        _responseDate     = null;
     }
 
     @Override
@@ -31,4 +33,12 @@ public class OAICmdInfoImpl implements OAICmdInfo
 
     @Override
     public Date    getExpirationDate()   { return _expirationDate; }
+
+    @Override
+    public boolean hasResponseDate()     { return (_responseDate != null); }
+
+    @Override
+    public Date    getResponseDate()     { return _responseDate; }
+
+    public void setResponseDate(Date rspDate) { _responseDate = rspDate; } 
 }

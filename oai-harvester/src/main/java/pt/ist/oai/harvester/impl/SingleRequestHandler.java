@@ -3,6 +3,10 @@ package pt.ist.oai.harvester.impl;
 import java.io.*;
 import java.util.*;
 
+import org.apache.commons.io.IOUtils;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClientBuilder;
 import org.xml.sax.*;
 
 import pt.ist.oai.harvester.exceptions.*;
@@ -13,9 +17,10 @@ import pt.ist.xml.parser.*;
 public abstract class SingleRequestHandler<O> extends VerbHandler<O,O>
 {
     public SingleRequestHandler(
-            OAIDataSource source, Map<QName,ParserStrategy<HarvesterContext>> strategies, 
-            Properties params) {
-        super(source, strategies, params);
+            OAIDataSource source
+          , Map<QName,ParserStrategy<HarvesterContext>> strategies
+          , Properties params, HttpClientBuilder builder) {
+        super(source, strategies, params, builder);
     }
 
 
@@ -25,9 +30,11 @@ public abstract class SingleRequestHandler<O> extends VerbHandler<O,O>
     @Override
     public O handle() throws OAIException
     {
+        _info = new OAICmdInfoImpl();
+        CloseableHttpClient client = null;
         try {
-            InputStream in = RequestHandler.handle(getRequestURI());
-            return parse(new InputSource(in));
+            client = _builder.build();
+            return client.execute(new HttpGet(getRequestURI()), this);
         }
         catch(ParsingException p) {
             Throwable t = p.getCause();
@@ -35,13 +42,8 @@ public abstract class SingleRequestHandler<O> extends VerbHandler<O,O>
             throw new OAIOtherException(p);
         }
         catch(IOException e) { throw new OAIOtherException(e); }
+        finally { IOUtils.closeQuietly(client); }
     }
-
-    @Override
-    public boolean hasInfo() { return false; }
-
-    @Override
-    public OAICmdInfoImpl getInfo() { return null; }
 
 
     /****************************************************/

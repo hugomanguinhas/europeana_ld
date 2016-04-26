@@ -105,4 +105,6 @@ public class OAIDataSource
               + ", granularity=" + _granularity + ", compression="
               + _compression + "]");
     }
+
+    public void setBaseURL(String baseURL) { _baseURL = baseURL; }
 }

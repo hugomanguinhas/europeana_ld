@@ -28,6 +28,7 @@ public class RecordStrategy<Context extends HarvesterContext>
     public Object parse(ParserSupport support, Context context)
            throws SAXException
     {
+        
         ParsedObject    obj    = support.getParsedObject();
         OAIRecordHeader header = obj.getChild(OAIRecordHeader.class);
 

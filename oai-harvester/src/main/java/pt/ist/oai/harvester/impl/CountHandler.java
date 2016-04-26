@@ -6,6 +6,10 @@ import java.io.*;
 import java.net.URLEncoder;
 import java.util.*;
 
+import org.apache.commons.io.IOUtils;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClientBuilder;
 import org.xml.sax.*;
 
 import pt.ist.oai.harvester.exceptions.*;
@@ -38,27 +42,30 @@ public abstract class CountHandler extends ResumptionHandler<Long,Long>
                 return null;
             }
         });
-        _strategies.put(new QName(NAMESPACE_URI, "identifier"), def);
-        _strategies.put(new QName(NAMESPACE_URI, "datestamp"), def);
-        _strategies.put(new QName(NAMESPACE_URI, "setSpec"), def);
+        _strategies.put(new QName(NAMESPACE_URI, "identifier")     , def);
+        _strategies.put(new QName(NAMESPACE_URI, "datestamp")      , def);
+        _strategies.put(new QName(NAMESPACE_URI, "setSpec")        , def);
         _strategies.put(new QName(NAMESPACE_URI, "ListIdentifiers"), def);
-        _strategies.put(new QName(NAMESPACE_URI, "ListRecords"), def);
+        _strategies.put(new QName(NAMESPACE_URI, "ListRecords")    , def);
     }
 
-    public CountHandler(OAIDataSource source, Properties params)
+    public CountHandler(OAIDataSource source, Properties params
+                      , HttpClientBuilder builder)
     {
-        super(source, _strategies, params);
+        super(source, _strategies, params, builder);
     }
 
-    /****************************************************/
-    /*             Interface HarvesterContext           */
-    /****************************************************/
+
+    /***************************************************************************
+     * Interface HarvesterContext
+     **************************************************************************/
     @Override
     public void newObject(Object obj) { _info._cursor++; }
 
-    /****************************************************/
-    /*                Interface OAIRequest              */
-    /****************************************************/
+
+    /***************************************************************************
+     * Interface OAIRequest
+     **************************************************************************/
     @SuppressWarnings("deprecation")
     public Long handle() throws OAIException
     {
@@ -66,24 +73,25 @@ public abstract class CountHandler extends ResumptionHandler<Long,Long>
         _token = null;
         String baseRequest = _source.getBaseURL() + "?verb=" + getVerb();
         String url = getRequestURI();
-        while(true)
-        {
-            try {
-                InputStream in = RequestHandler.handle(url);
-                try {
-                    parse(new InputSource(in));
-                    if(_token == null || _token.isComplete()) { break; }
-                    if(_token.hasCompleteListSize()) {
-                        _info._completeListSize = _token.getCompleteListSize();
-                        return _info._completeListSize;
-                    }
-                    url = baseRequest + "&resumptionToken="
-                        + URLEncoder.encode(_token.getValue());
+        CloseableHttpClient client = null;
+        try {
+            client = _builder.build();
+            while(true)
+            {
+                client.execute(new HttpGet(url), this);
+                if(_token == null || _token.isComplete()) { break; }
+
+                if(_token.hasCompleteListSize()) {
+                    _info._completeListSize = _token.getCompleteListSize();
+                    return _info._completeListSize;
                 }
-                catch(ParsingException p) { throw (OAIException)p.getCause(); }
+
+                url = baseRequest + "&resumptionToken="
+                    + URLEncoder.encode(_token.getValue());
             }
-            catch(IOException e) { throw new OAIOtherException(e); }
         }
+        catch(IOException e) { throw new OAIOtherException(e); }
+        finally              { IOUtils.closeQuietly(client);   }
 
         if(_info._completeListSize < 0) { 
             _info._completeListSize = _info._cursor;

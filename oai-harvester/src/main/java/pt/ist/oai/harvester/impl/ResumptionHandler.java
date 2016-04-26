@@ -2,6 +2,8 @@ package pt.ist.oai.harvester.impl;
 
 import java.util.*;
 
+import org.apache.http.impl.client.HttpClientBuilder;
+
 import pt.ist.oai.harvester.model.*;
 import pt.ist.xml.namespace.*;
 import pt.ist.xml.parser.*;
@@ -9,29 +11,23 @@ import pt.ist.xml.parser.*;
 public abstract class ResumptionHandler<O,Return> extends VerbHandler<O,Return>
 {
     protected ResumptionToken _token;
-    protected OAICmdInfoImpl  _info;
+
+
+    /***************************************************************************
+     * Constructors
+     **************************************************************************/
 
     public ResumptionHandler(OAIDataSource source
                            , Map<QName,ParserStrategy<HarvesterContext>> strats
-                           , Properties params)
+                           , Properties params, HttpClientBuilder builder)
     {
-        super(source, strats, params);
+        super(source, strats, params, builder);
     }
 
 
-    /****************************************************/
-    /*                Interface OAIRequest               */
-    /****************************************************/
-    @Override
-    public boolean hasInfo() { return (_info != null); }
-
-    @Override
-    public OAICmdInfo getInfo() { return _info; }
-
-
-    /****************************************************/
-    /*             Interface HarvesterContext           */
-    /****************************************************/
+    /***************************************************************************
+     * Interface HarvesterContext
+     **************************************************************************/
     @Override
     public void newToken(ResumptionToken token)
     {

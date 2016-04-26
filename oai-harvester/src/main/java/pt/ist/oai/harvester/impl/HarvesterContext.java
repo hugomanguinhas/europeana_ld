@@ -12,4 +12,6 @@ public interface HarvesterContext extends ParserContext
     public Date getNormalizedDate(String datestamp);
 
     public void newObject(Object obj);
+
+    public OAICmdInfo getInfo();
 }

@@ -8,10 +8,11 @@ import java.util.Date;
  */
 public interface OAICmdInfo
 {
-
     public long    getCursor();
     public boolean hasCompleteListSize();
     public long    getCompleteListSize();
     public boolean hasExpirationDate();
     public Date    getExpirationDate();
+    public boolean hasResponseDate();
+    public Date    getResponseDate();
 }

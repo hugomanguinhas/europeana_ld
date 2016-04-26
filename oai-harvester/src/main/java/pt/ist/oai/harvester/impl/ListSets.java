@@ -2,7 +2,8 @@ package pt.ist.oai.harvester.impl;
 
 import java.util.*;
 
-import pt.ist.oai.harvester.*;
+import org.apache.http.impl.client.HttpClientBuilder;
+
 import pt.ist.oai.harvester.impl.strategy.*;
 import pt.ist.oai.harvester.model.*;
 import pt.ist.xml.namespace.*;
@@ -19,26 +20,20 @@ public class ListSets extends ListHandler<OAIMetadataSet>
         new SetStrategy().initStrategy(_strats);
     }
 
-    public ListSets(OAIDataSource source, Properties params)
+
+    /***************************************************************************
+     * Constructors
+     **************************************************************************/
+    public ListSets(OAIDataSource source, Properties params
+                  , HttpClientBuilder builder)
     {
-        super(source, _strats, params);
+        super(source, _strats, params, builder);
     }
 
 
-    /****************************************************/
-    /*                Interface OAIRequest               */
-    /****************************************************/
+    /***************************************************************************
+     * Interface OAIRequest
+     **************************************************************************/
     @Override
     public String getVerb() { return "ListSets"; }
-
-    public static final void main(String[] args) throws Exception
-    {
-        //String baseURL = "http://bd1.inesc-id.pt:8080/repoxEuDML/OAIHandler";
-        String baseURL = "http://oai.bnf.fr/oai2/OAIHandler";
-        OAIHarvester harvester = new OAIHarvesterImpl(baseURL);
-        OAIRequest<List<OAIMetadataSet>> ret = harvester.newListSets();
-        List<OAIMetadataSet> list = ret.handle();
-        System.err.println("ret[" + ret.getInfo().getCompleteListSize() + "]["
-                         + list.size() + "]=" + ret);
-    }
 }

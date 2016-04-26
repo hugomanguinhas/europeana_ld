@@ -14,9 +14,9 @@ public class OAIRecord
 
     public OAIRecord(OAIRecordHeader header, Document metadata, Document about)
     {
-        _header = header;
+        _header   = header;
         _metadata = metadata;
-        _about = about;
+        _about    = about;
     }
 
     public OAIRecordHeader getHeader()   { return _header;   }
@@ -28,6 +28,7 @@ public class OAIRecord
 
     public String toString()
     {
-        return "record[" + _header + ", metadata=" + _metadata + ", about=" + _about + "]";
+        return ( "record[" + _header + ", metadata=" + _metadata
+               + ", about=" + _about + "]" );
     }
 }

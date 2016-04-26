@@ -2,24 +2,23 @@ package pt.ist.oai.harvester.impl;
 
 import java.util.*;
 
+import org.apache.http.impl.client.HttpClientBuilder;
 import org.xml.sax.*;
 
-import pt.ist.oai.harvester.*;
 import pt.ist.oai.harvester.impl.strategy.*;
 import pt.ist.oai.harvester.model.*;
-import pt.ist.util.iterator.*;
 import pt.ist.xml.namespace.*;
 import pt.ist.xml.parser.*;
 
 public class IterateIdentifiers extends IterationHandler<OAIRecordHeader>
 {
-    protected static Map<QName,ParserStrategy<HarvesterContext>> _strategies = 
+    protected static Map<QName,ParserStrategy<HarvesterContext>> _strats = 
         new HashMap<QName,ParserStrategy<HarvesterContext>>();
 
     static
     {
-        new ErrorStrategy<HarvesterContext>().initStrategy(_strategies);
-        new ResumptionTokenStrategy<HarvesterContext>().initStrategy(_strategies);
+        new ErrorStrategy<HarvesterContext>().initStrategy(_strats);
+        new ResumptionTokenStrategy<HarvesterContext>().initStrategy(_strats);
         new RecordHeaderStrategy()
         {
             @Override
@@ -29,35 +28,25 @@ public class IterateIdentifiers extends IterationHandler<OAIRecordHeader>
                 Object obj = super.parse(support, ctx); ctx.newObject(obj);
                 return obj;
             }
-        }.initStrategy(_strategies);
+        }.initStrategy(_strats);
+        new ResponseDateStrategy<HarvesterContext>().initStrategy(_strats);
     }
 
-    public IterateIdentifiers(OAIDataSource source, Properties params)
+
+    /***************************************************************************
+     * Constructors
+     **************************************************************************/
+
+    public IterateIdentifiers(OAIDataSource source, Properties params
+                            , HttpClientBuilder builder)
     {
-        super(source, _strategies, params);
+        super(source, _strats, params, builder);
     }
 
-    /****************************************************/
-    /*                Interface OAIRequest               */
-    /****************************************************/
+
+    /***************************************************************************
+     * Interface OAIRequest
+     **************************************************************************/
     @Override
     public String getVerb() { return "ListIdentifiers"; }
-
-    public static final void main(String[] args) throws Exception
-    {
-        String baseURL = "http://oai.bnf.fr/oai2/OAIHandler";
-        //String baseURL = "http://bd1.inesc-id.pt:8080/repoxEuDML/OAIHandler";
-        OAIHarvester harvester = new OAIHarvesterImpl(baseURL);
-        int i = 0;
-        CloseableIterable<OAIRecordHeader> iter
-            = harvester.iterateIdentifiers("gallica:theme:1:19", "oai_dc");
-        try {
-            for(OAIRecordHeader header : iter)
-            {
-                if(new Random().nextInt(1000) < 1) { break; }
-                System.err.println("header[" + (++i) + "]=" + header.getIdentifier());
-            }
-        }
-        finally { iter.close(); }
-    }
 }

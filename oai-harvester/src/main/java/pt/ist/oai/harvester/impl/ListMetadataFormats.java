@@ -2,9 +2,9 @@ package pt.ist.oai.harvester.impl;
 
 import java.util.*;
 
+import org.apache.http.impl.client.HttpClientBuilder;
 import org.xml.sax.*;
 
-import pt.ist.oai.harvester.*;
 import pt.ist.oai.harvester.impl.strategy.*;
 import pt.ist.oai.harvester.model.*;
 import pt.ist.xml.namespace.*;
@@ -13,8 +13,9 @@ import pt.ist.xml.parser.*;
 import static pt.ist.oai.harvester.OAIConstants.*;
 import static pt.ist.oai.harvester.impl.HarvesterUtils.*;
 
-public class ListMetadataFormats extends SingleRequestHandler<List<OAIMetadataFormat>> {
-
+public class ListMetadataFormats
+       extends SingleRequestHandler<List<OAIMetadataFormat>>
+{
     protected static Map<QName,ParserStrategy<HarvesterContext>> _strats = 
         new HashMap<QName,ParserStrategy<HarvesterContext>>();
 
@@ -63,23 +64,22 @@ public class ListMetadataFormats extends SingleRequestHandler<List<OAIMetadataFo
 
     protected String _request;
 
-    public ListMetadataFormats(OAIDataSource dataSource, Properties params)
+
+    /***************************************************************************
+     * Constructors
+     **************************************************************************/
+
+    public ListMetadataFormats(OAIDataSource dataSource, Properties params
+                             , HttpClientBuilder builder)
     {
-        super(dataSource, _strats, params);
+        super(dataSource, _strats, params, builder);
         _request = append(_source.getBaseURL() + "?verb=" + getVerb(), params);
     }
 
-    /****************************************************/
-    /*                Interface OAIRequest               */
-    /****************************************************/
+
+    /***************************************************************************
+     * Interface OAIRequest
+     **************************************************************************/
     @Override
     public String getVerb() { return "ListMetadataFormats"; }
-
-    public static final void main(String[] args) throws Exception
-    {
-        String baseURL = "http://bd2.inesc-id.pt:8080/repox2Eudml/OAIHandler";
-        OAIHarvester harvester = new OAIHarvesterImpl(baseURL);
-        List<OAIMetadataFormat> ret = harvester.listMetadataFormats();
-        System.err.println("ret=" + ret);
-    }
 }

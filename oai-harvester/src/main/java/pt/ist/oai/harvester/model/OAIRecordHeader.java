@@ -19,9 +19,9 @@ public class OAIRecordHeader
                          , Collection<String> setSpecs, boolean deleted)
     {
         _identifier = identifier;
-        _datestamp = datestamp;
-        _setSpecs = setSpecs;
-        _deleted = deleted;
+        _datestamp  = datestamp;
+        _setSpecs   = setSpecs;
+        _deleted    = deleted;
     }
 
     public String toString()

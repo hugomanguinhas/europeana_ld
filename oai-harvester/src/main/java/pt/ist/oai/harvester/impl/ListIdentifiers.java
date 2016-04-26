@@ -2,7 +2,8 @@ package pt.ist.oai.harvester.impl;
 
 import java.util.*;
 
-import pt.ist.oai.harvester.*;
+import org.apache.http.impl.client.HttpClientBuilder;
+
 import pt.ist.oai.harvester.impl.strategy.*;
 import pt.ist.oai.harvester.model.*;
 import pt.ist.xml.namespace.*;
@@ -18,25 +19,19 @@ public class ListIdentifiers extends ListHandler<OAIRecordHeader>
         new ErrorStrategy<HarvesterContext>().initStrategy(_strats);
         new ResumptionTokenStrategy<HarvesterContext>().initStrategy(_strats);
         new RecordHeaderStrategy(true).initStrategy(_strats);
+        new ResponseDateStrategy<HarvesterContext>().initStrategy(_strats);
     }
 
-    public ListIdentifiers(OAIDataSource source, Properties params)
+    public ListIdentifiers(OAIDataSource source, Properties params
+                         , HttpClientBuilder builder)
     {
-        super(source, _strats, params);
+        super(source, _strats, params, builder);
     }
 
-    /****************************************************/
-    /*                Interface OAIRequest               */
-    /****************************************************/
+
+    /***************************************************************************
+     * Interface OAIRequest
+     **************************************************************************/
     @Override
     public String getVerb() { return "ListIdentifiers"; }
-
-    public static final void main(String[] args) throws Exception
-    {
-        String baseURL = "http://oai.bnf.fr/oai2/OAIHandler";
-        //String baseURL = "http://bd1.inesc-id.pt:8080/repoxEuDML/OAIHandler";
-        OAIHarvester harvester = new OAIHarvesterImpl(baseURL);
-        List<OAIRecordHeader> ret = harvester.listIdentifiers("gallica:theme:8:80", "oai_dc");
-        System.err.println("ret[" + ret.size() + "]");
-    }
 }

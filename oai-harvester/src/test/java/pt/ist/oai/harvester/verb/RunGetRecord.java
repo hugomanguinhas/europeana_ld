@@ -19,9 +19,9 @@ public class RunGetRecord
 {
     public static final void main(String[] args) throws Exception
     {
-        String baseURL = "http://oai.bnf.fr/oai2/OAIHandler";
+        String baseURL = "http://www.mimo-db.eu:8080/oaicat/OAIHandler";
         OAIHarvester harvester = new OAIHarvesterImpl(baseURL);
-        OAIRecord ret = harvester.getRecord("oai:bnf.fr:gallica/ark:/12148/bpt6k941300", "oai_dc");
+        OAIRecord ret = harvester.getRecord("oai:oaicat.mimo:OAI_ULEI_M0000086", "lido");
         System.err.println("ret=" + ret);
         TransformerFactory.newInstance().newTransformer().transform(new DOMSource(ret.getMetadata()), new StreamResult(System.err));
     }
