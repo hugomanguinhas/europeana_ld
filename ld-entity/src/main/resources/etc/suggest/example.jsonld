@@ -1,0 +1,52 @@
+{
+  "@context": [
+    "<URL-context-for-entities>",
+    { "@language": "en" }
+  ]
+  "type": [ "BasicContainer", "Collection" ],
+  "totalItems": 2,
+  "contains": [
+    {
+      "id": "http://data.europeana.eu/agent/base/60237",
+      "type": "Agent",
+      "prefLabel": "Rudyard Kipling",
+      "dateOfBirth": "1865-12-30",
+      "dateOfDeath": "1936-01-18",
+      "professionOrOccupation": [ "Short story writer, novelist, poet, journalist" ]
+    },
+    {
+      "id": "http://data.europeana.eu/agent/base/60237",
+      "type": "Agent",
+      "prefLabel": "Rudyard Kipling",
+      "dateOfBirth": "1865-12-30",
+      "dateOfDeath": "1936-01-18",
+      "professionOrOccupation": [ 
+        {
+          "id": "http://dbpedia.org/resource/Novelist",
+          "prefLabel": "Novelist"
+        },
+        {
+          "id": "http://dbpedia.org/resource/Poet",
+          "prefLabel": "Poet"
+        },
+        {
+          "id": "http://dbpedia.org/resource/Journalist",
+          "prefLabel": "Journalist"
+        }
+      ]
+    },
+    {
+      "id": "http://data.europeana.eu/place/base/2",
+      "type": "Place",
+      "prefLabel": "The Hague",
+      "isPartOf": {
+        "id": "http://data.europeana.eu/place/base/200",
+        "prefLabel": "Netherlands"
+      }
+    },
+    {
+      "id": "http://data.europeana.eu/concept/base/2",
+      "type": "Concept",
+    }
+  ]
+}
