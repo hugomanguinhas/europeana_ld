@@ -1,10 +1,11 @@
 {
   "@context": [
-    "<URL-context-for-entities>",
+    "http://www.w3.org/ns/ldp.jsonld",
+    "https://raw.githubusercontent.com/hugomanguinhas/europeana_ld/master/ld-entity/src/main/resources/etc/edm_entity_context.jsonld",
     { "@language": "en" }
   ]
-  "type": [ "BasicContainer", "Collection" ],
-  "totalItems": 2,
+  "type": "BasicContainer",
+  "total": 2,
   "contains": [
     {
       "id": "http://data.europeana.eu/agent/base/60237",
