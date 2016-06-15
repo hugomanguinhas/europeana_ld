@@ -1,4 +1,5 @@
 {
+  "@context": "https://raw.githubusercontent.com/hugomanguinhas/europeana_ld/master/ld-entity/src/main/resources/etc/edm_entity_context.jsonld",
   "id": "http://data.europeana.eu/agent/base/146741",
   "type": "Agent",
   "prefLabel": "Leonardo da Vinci",
