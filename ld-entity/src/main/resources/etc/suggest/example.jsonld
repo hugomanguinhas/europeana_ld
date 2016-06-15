@@ -3,7 +3,7 @@
     "http://www.w3.org/ns/ldp.jsonld",
     "https://raw.githubusercontent.com/hugomanguinhas/europeana_ld/master/ld-entity/src/main/resources/etc/entity/edm_entity_context.jsonld",
     { "@language": "en" }
-  ]
+  ],
   "type": "BasicContainer",
   "total": 2,
   "contains": [
@@ -40,6 +40,7 @@
       "id": "http://data.europeana.eu/place/base/2",
       "type": "Place",
       "prefLabel": "The Hague",
+      "edm:country": "Netherlands",
       "isPartOf": {
         "id": "http://data.europeana.eu/place/base/200",
         "prefLabel": "Netherlands"
@@ -47,7 +48,7 @@
     },
     {
       "id": "http://data.europeana.eu/concept/base/2",
-      "type": "Concept",
+      "type": "Concept"
     }
   ]
 }

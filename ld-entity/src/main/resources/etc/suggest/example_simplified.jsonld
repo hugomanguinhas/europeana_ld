@@ -1,0 +1,38 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/ldp.jsonld",
+    "https://raw.githubusercontent.com/hugomanguinhas/europeana_ld/master/ld-entity/src/main/resources/etc/entity/edm_entity_context.jsonld",
+    { "@language": "en" }
+  ],
+  "type": "BasicContainer",
+  "total": 2,
+  "contains": [
+    {
+      "id": "http://data.europeana.eu/agent/base/60237",
+      "type": "Agent",
+      "prefLabel": "Rudyard Kipling",
+      "dateOfBirth": "1865-12-30",
+      "dateOfDeath": "1936-01-18",
+      "professionOrOccupation": [ "Short story writer, novelist, poet, journalist" ]
+    },
+    {
+      "id": "http://data.europeana.eu/agent/base/60237",
+      "type": "Agent",
+      "prefLabel": "Rudyard Kipling",
+      "dateOfBirth": "1865-12-30",
+      "dateOfDeath": "1936-01-18",
+      "professionOrOccupation": [ "Novelist", "Poet", "Journalist" ]
+    },
+    {
+      "id": "http://data.europeana.eu/place/base/2",
+      "type": "Place",
+      "prefLabel": "The Hague",
+      "edm:country": "Netherlands",
+    },
+    {
+      "id": "http://data.europeana.eu/concept/base/2",
+      "type": "Concept",
+      "prefLabel": "Architecture"
+    }
+  ]
+}
