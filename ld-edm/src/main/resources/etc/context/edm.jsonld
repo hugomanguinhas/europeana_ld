@@ -81,6 +81,6 @@
     "tableOfContents"     : { "@id": "dcterms:tableOfContents" , "@container": "@set"                 },
     "temporal"            : { "@id": "dcterms:temporal"        , "@container": "@set"                 },
     "title"               : { "@id": "dc:title"                , "@container": "@language"            },
-    "sameAs"              : { "@id": "owl:sameAs"              , "@container": "@set", "@type": "@id" },
+    "sameAs"              : { "@id": "owl:sameAs"              , "@container": "@set", "@type": "@id" }
   }
 }
