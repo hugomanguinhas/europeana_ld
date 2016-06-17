@@ -20,7 +20,7 @@
     "Proxy"      : { "@id": "ore:Proxy"       },
     "WebResource": { "@id": "edm:WebResource" },
 
-    "aggregatedCHO"       : { "@id": "edm:aggregatedCHO"       ,                     , "@type": "@id" },
+    "aggregatedCHO"       : { "@id": "edm:aggregatedCHO"                             , "@type": "@id" },
     "alternative"         : { "@id": "dcterms:alternative"     , "@container": "@language"            },
     "conformsTo"          : { "@id": "dcterms:conformsTo"      , "@container": "@set"                 },
     "contributor"         : { "@id": "dc:contributor"          , "@container": "@set"                 },
