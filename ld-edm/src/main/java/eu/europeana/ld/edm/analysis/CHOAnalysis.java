@@ -3,7 +3,6 @@ package eu.europeana.ld.edm.analysis;
 import java.io.IOException;
 
 import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.ResIterator;
 import org.apache.jena.vocabulary.DC;
 import org.apache.jena.vocabulary.RDF;

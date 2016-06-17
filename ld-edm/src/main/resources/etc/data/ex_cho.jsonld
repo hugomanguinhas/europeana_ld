@@ -1,0 +1,10 @@
+{
+  "@context": "https://raw.githubusercontent.com/hugomanguinhas/europeana_ld/master/ld-edm/src/main/resources/etc/context/edm.jsonld",
+  "id": "http://data.europeana.eu/item/2059207/data_sounds_T471_5",
+  "type": "ProvidedCHO",
+  "isSimilarTo": {
+    "id": "http://thesession.org/tunes/52",
+    "format": "text/html",
+    "title": { "en": "The Kid On The Mountain (slip jig) on The Session" }
+  }
+}

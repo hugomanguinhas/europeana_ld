@@ -11,6 +11,7 @@
     "skos"     : "http://www.w3.org/2004/02/skos/core#",
     "xsd"      : "http://www.w3.org/2001/XMLSchema#",
     "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "as"       : "http://www.w3.org/ns/activitystreams#",
 
     "id"   : { "@id": "@id"   , "@type": "@id" },
     "type" : { "@id": "@type" , "@type": "@id" },
@@ -61,6 +62,8 @@
     "related"                : { "@id": "skos:related", "@type": "@id" },
     "relatedMatch"           : { "@id": "skos:relatedMatch", "@type": "@id" },
     "sameAs"                 : { "@id": "owl:sameAs", "@type": "@id"
-                               , "@container": "@set" }
+                               , "@container": "@set" },
+
+    "total"                  : "as:totalItems"
   }
 }
