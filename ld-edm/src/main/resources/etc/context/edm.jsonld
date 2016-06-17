@@ -28,7 +28,7 @@
     "creator"             : { "@id": "dc:creator"              , "@container": "@set"                 },
     "created"             : { "@id": "dcterms:created"         , "@container": "@set"                 },
     "currentLocation"     : { "@id": "edm:currentLocation"                           , "@type": "@id" },
-    "dataProvider"        : { "@id": "edm:dataProvider"        ,                     , "@type": "@id" },
+    "dataProvider"        : { "@id": "edm:dataProvider"                              , "@type": "@id" },
     "date"                : { "@id": "dc:date"                 , "@container": "@set"                 },
     "dcRights"            : { "@id": "dc:rights"               , "@container": "@set"                 },
     "dcType"              : { "@id": "dc:type"                 , "@container": "@set"                 },
