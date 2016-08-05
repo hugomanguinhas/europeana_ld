@@ -45,6 +45,7 @@ public class EDM
     public static final Property hasType              = createProperty(NS, "hasType");
     public static final Property hasView              = createProperty(NS, "hasView");
     public static final Property incorporates         = createProperty(NS, "incorporates");
+    public static final Property intermediateProvider = createProperty(NS, "intermediateProvider");
     public static final Property isDerivativeOf       = createProperty(NS, "isDerivativeOf");
     public static final Property isNextInSequence     = createProperty(NS, "isNextInSequence");
     public static final Property isRelatedTo          = createProperty(NS, "isRelatedTo");
