@@ -4,9 +4,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
 
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.riot.Lang;
@@ -27,15 +24,6 @@ public class OWLFormatsBuilder
         _formats = Arrays.asList(formats);
     }
 
-    private File getFormatFile(File file, Lang lang)
-    {
-        String text  = lang.getFileExtensions().get(0);
-        String name = file.getName();
-        String sext = FileUtils.getFilenameExt(name);
-        name = name.substring(name.length() - sext.length()) + text;
-        return new File(file.getParentFile(), name);
-    }
-
     public void generateFormats(File file) throws IOException
     {
         Model m = load(file);
@@ -48,8 +36,12 @@ public class OWLFormatsBuilder
         }
     }
 
-    public static void main(String[] args) throws IOException {
-        File file = new File("C:\\Users\\mangas\\Google Drive\\Europeana\\EDM\\owl\\edm.owl");
-        new OWLFormatsBuilder().generateFormats(file);
+    private File getFormatFile(File file, Lang lang)
+    {
+        String text = lang.getFileExtensions().get(0);
+        String name = file.getName();
+        String sext = FileUtils.getFilenameExt(name);
+        name = name.substring(0, name.length() - sext.length()) + text;
+        return new File(file.getParentFile(), name);
     }
 }

@@ -34,14 +34,40 @@ public class EDM
     public static final Resource Event                = createResource(NS + "Event");
     public static final Resource PhysicalThing        = createResource(NS + "PhysicalThing");
 
-    public static final Property about            = createProperty(RDF.getURI(), "about");
-    public static final Property begin            = createProperty(NS, "begin");
-    public static final Property end              = createProperty(NS, "end");
-    public static final Property hasMet           = createProperty(NS, "hasMet");
-    public static final Property isRelatedTo      = createProperty(NS, "isRelatedTo");
-    public static final Property isNextInSequence = createProperty(NS, "isNextInSequence");
-    public static final Property language         = createProperty(NS, "language");
-    public static final Property year             = createProperty(NS, "year");
+    public static final Property about                = createProperty(RDF.getURI(), "about");
+    public static final Property aggregatedCHO        = createProperty(NS, "aggregatedCHO");
+    public static final Property begin                = createProperty(NS, "begin");
+    public static final Property country              = createProperty(NS, "country");
+    public static final Property currentLocation      = createProperty(NS, "currentLocation");
+    public static final Property dataProvider         = createProperty(NS, "dataProvider");
+    public static final Property end                  = createProperty(NS, "end");
+    public static final Property hasMet               = createProperty(NS, "hasMet");
+    public static final Property hasType              = createProperty(NS, "hasType");
+    public static final Property hasView              = createProperty(NS, "hasView");
+    public static final Property incorporates         = createProperty(NS, "incorporates");
+    public static final Property isDerivativeOf       = createProperty(NS, "isDerivativeOf");
+    public static final Property isNextInSequence     = createProperty(NS, "isNextInSequence");
+    public static final Property isRelatedTo          = createProperty(NS, "isRelatedTo");
+    public static final Property isRepresentationOf   = createProperty(NS, "isRepresentationOf");
+    public static final Property isShownBy            = createProperty(NS, "isShownBy");
+    public static final Property isShownAt            = createProperty(NS, "isShownAt");
+    public static final Property isSimilarTo          = createProperty(NS, "isSimilarTo");
+    public static final Property isSuccessorOf        = createProperty(NS, "isSuccessorOf");
+    public static final Property landingPage          = createProperty(NS, "landingPage");
+    public static final Property realizes             = createProperty(NS, "realizes");
+    public static final Property rights               = createProperty(NS, "rights");
+    public static final Property language             = createProperty(NS, "language");
+    public static final Property object               = createProperty(NS, "object");
+    public static final Property preview              = createProperty(NS, "preview");
+    public static final Property provider             = createProperty(NS, "provider");
+    public static final Property type                 = createProperty(NS, "type");
+    public static final Property ugc                  = createProperty(NS, "ugc");
+    @Deprecated
+    public static final Property unstored             = createProperty(NS, "unstored");
+    public static final Property wasPresentAt         = createProperty(NS, "wasPresentAt");
+    public static final Property year                 = createProperty(NS, "year");
+
+
 
     public  static Resource[] CLASSES
         = { EDM.ProvidedCHO, ORE.Aggregation, EDM.EuropeanaAggregation
@@ -67,5 +93,6 @@ public class EDM
         PREFIXES.put("rdfs"       , RDFS.getURI());
         PREFIXES.put("skos"       , SKOS.getURI());
         PREFIXES.put(WGS84.PREFIX , WGS84.NS);
+        PREFIXES.put("ore"        , ORE.NS);
     }
 }

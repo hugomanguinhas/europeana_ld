@@ -17,6 +17,7 @@ public class ORE
     public static final Resource Aggregation = createResource(NS + "Aggregation");
     public static final Resource Proxy       = createResource(NS + "Proxy");
 
+    public static final Property aggregates  = createProperty(NS, "aggregates");
     public static final Property proxyFor    = createProperty(NS, "proxyFor");
     public static final Property proxyIn     = createProperty(NS, "proxyIn");
 }
