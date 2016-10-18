@@ -91,14 +91,14 @@ public class DumpCmd extends ToolkitCmd
 
         writer.start(out);
         try                 { handleCmd(harv, cb, line);       }
-        finally             { /*client.close();*/ writer.finish(); }
+        finally             { harv.close(); writer.finish(); }
     }
 
     protected File getOutput(CommandLine line)
     {
         File file = new File(line.getOptionValue("out"));
         File dir  = file.getParentFile();
-        if ( !dir.exists() ) { dir.mkdirs(); }
+        if ( dir != null && !dir.exists() ) { dir.mkdirs(); }
         return file;
     }
 
@@ -110,7 +110,7 @@ public class DumpCmd extends ToolkitCmd
 
         MongoClient   client = new MongoClient(host, port);
         MongoDatabase db     = client.getDatabase(dbName);
-        return new MongoEDMHarvester(db, null);
+        return new MongoEDMHarvester(client, db, null);
     }
 
     protected HarvesterCallback getCallback(CommandLine line
@@ -147,6 +147,7 @@ public class DumpCmd extends ToolkitCmd
         }
 
         if ( line.hasOption("search") ) {
+            System.out.println("query=" + line.getOptionValue("search"));
             harvester.harvestBySearch(line.getOptionValue("search"), cb);
             return;
         }

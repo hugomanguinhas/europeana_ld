@@ -95,5 +95,7 @@ public abstract class ToolkitCmd
     {
         _ps.println();
         _ps.println("Error: " + t.getMessage());
+        _ps.println();
+        t.printStackTrace(_ps);
     }
 }
