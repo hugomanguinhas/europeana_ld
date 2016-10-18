@@ -13,9 +13,11 @@ import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.vocabulary.RDF;
+import org.apache.log4j.Logger;
 import org.bson.Document;
 
 import eu.europeana.ld.edm.EBUCORE;
+import eu.europeana.ld.harvester.LDHarvester;
 
 /**
  * @author Hugo Manguinhas <hugo.manguinhas@europeana.eu>
@@ -23,6 +25,8 @@ import eu.europeana.ld.edm.EBUCORE;
  */
 public class MongoEDMParser
 {
+    private static Logger _log = Logger.getLogger(LDHarvester.class);
+
     private static List<String> _filter = Arrays.asList("_id", "className"
                                                       , "about"
                                                       , "edmPreviewNoDistribute"
@@ -39,22 +43,24 @@ public class MongoEDMParser
      * Public Methods
      **************************************************************************/
 
-    //public Properties getProperties() { return _props; }
-
     public Resource parse(Document doc, Model model)
     {
         String uri = doc.getString("about");
-        if ( uri == null ) { System.err.println("Blank node: " + doc.getString("_id")); }
+        if ( uri == null ) {
+            _log.error("Missing uri for <" + doc.getString("_id")
+                     + "> of type <" + doc.getString("className") + ">");
+            return null;
+        }
+
         if ( uri.startsWith("/") ) { uri = DATA_NS + uri; }
 
         Resource resource = (uri == null ? model.createResource()
                                          : model.getResource(uri));
 
-        String type = doc.getString("className");
-        MongoClassDef def = MongoClassDef.getDefinition(type);
+        String        type = doc.getString("className");
+        MongoClassDef def  = MongoClassDef.getDefinition(type);
         if ( def == null ) {
-            System.err.println("Unknown entity: " + type);
-            return null;
+            _log.error("Unknown entity: " + type); return null;
         }
         resource.addProperty(RDF.type, def.getType());
 

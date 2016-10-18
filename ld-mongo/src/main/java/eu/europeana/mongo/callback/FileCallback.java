@@ -28,7 +28,7 @@ public class FileCallback implements HarvesterCallback
     }
 
     @Override
-    public void handle(Resource r)
+    public void handle(Resource r, Status status)
     {
         try                   { _writer.write(r);    }
         catch (IOException e) { e.printStackTrace(); }

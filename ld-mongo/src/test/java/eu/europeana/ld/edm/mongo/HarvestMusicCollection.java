@@ -42,9 +42,9 @@ public class HarvestMusicCollection
 {
     public static final void main(String[] args) throws IOException
     {
-        File src = new File("D:\\work\\incoming\\joris\\search.json");
-        MongoClient   client = new MongoClient("mongo1.eanadev.org", 27017);
-        MongoDatabase db     = client.getDatabase("europeana");
+        File          src = new File("D:\\work\\incoming\\joris\\search.json");
+        MongoClient   cli = new MongoClient("mongo1.eanadev.org", 27017);
+        MongoDatabase db  = cli.getDatabase("europeana");
 
         Map m = deserialize(new FileInputStream(src));
 
@@ -67,7 +67,7 @@ public class HarvestMusicCollection
             }
         }
         catch (Throwable t) { t.printStackTrace(); }
-        finally { client.close(); cb.finish(); }
+        finally { cli.close(); cb.finish(); }
     }
 
     private static void printMessage(int cursor, int total, String uri)

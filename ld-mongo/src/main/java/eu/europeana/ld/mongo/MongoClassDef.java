@@ -228,6 +228,7 @@ public class MongoClassDef extends HashMap<String,Property>
         def.put("isNextInSequence"               , EDM.isNextInSequence);
         def.put("latitude"                       , WGS84.latitude);
         def.put("longitude"                      , WGS84.longitude);
+        def.put("altitude"                       , WGS84.altitude);
         //def.put("lat"                            , WGS84.latitude);
         //def.put("long"                           , WGS84.longitude);
         //def.put("alt"                            , WGS84.altitude);

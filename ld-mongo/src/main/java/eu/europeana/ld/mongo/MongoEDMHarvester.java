@@ -39,6 +39,7 @@ import eu.europeana.ld.edm.EuropeanaDataUtils;
 import eu.europeana.ld.edm.ORE;
 import eu.europeana.ld.harvester.HarvesterCallback;
 import eu.europeana.ld.harvester.LDHarvester;
+import eu.europeana.ld.harvester.HarvesterCallback.Status;
 
 /**
  * @author Hugo Manguinhas <hugo.manguinhas@europeana.eu>
@@ -46,7 +47,7 @@ import eu.europeana.ld.harvester.LDHarvester;
  */
 public class MongoEDMHarvester implements LDHarvester
 {
-    private static Logger               _log      = Logger.getLogger(LDHarvester.class);
+    private static Logger _log = Logger.getLogger(LDHarvester.class);
     private static Map<Resource,String> _tableMap = new HashMap();
 
     private static String               CLASS_AGGREGATION
@@ -104,14 +105,14 @@ public class MongoEDMHarvester implements LDHarvester
     @Override
     public Model    harvestAll()
     {
-        throw new RuntimeException("Method not implemented!");
+        return fetchAll(ModelFactory.createDefaultModel(), null);
     }
 
 
     @Override
     public void harvestAll(HarvesterCallback cb)
     {
-        fetch(getCollection().find(), cb);
+        fetchAll(ModelFactory.createDefaultModel(), cb);
     }
 
     @Override
@@ -165,25 +166,36 @@ public class MongoEDMHarvester implements LDHarvester
         return _db.getCollection(table == null ? "record" : table);
     }
 
-    private void fetch(FindIterable<Document> iterable, HarvesterCallback cb)
+
+    /***************************************************************************
+     * Private Methods - Fetch All
+     **************************************************************************/
+
+    private Model fetchAll(Model model, HarvesterCallback cb)
     {
-        MongoCursor<Document> iter = iterable.iterator();
+        MongoCollection<Document> col = getCollection();
+        if ( col == null ) { return null; }
+
+        Status status = new Status(col.count(), 0);
+
+        MongoCursor<Document> iter = col.find().iterator();
         try {
-            int i = 0;
-            Model model = ModelFactory.createDefaultModel();
             while ( iter.hasNext() )
             {
+                status.cursor++;
                 Document doc = iter.next();
-                Resource obj = isRecord(doc) ? parseRecord(doc, model)
+                String id = doc.getString("about");
+
+                Resource r = isRecord(doc) ? parseRecord(doc, model)
                                              : _parser.parse(doc, model);
-                if ( obj != null ) { cb.handle(obj); }
+                logSuccess(id, status);
 
-              //if ( _cleanAfterHandle ) { model.removeAll(); }
-
-                if ( ++i % 10000 == 0 ) { System.out.println("Harvested " + i + " items"); }
+                if ( cb != null ) { cb.handle(r, status); }
             }
         }
         finally { iter.close(); }
+
+        return model;
     }
 
 
@@ -196,16 +208,14 @@ public class MongoEDMHarvester implements LDHarvester
         MongoCollection<Document> col = getCollection();
         if ( col == null ) { return null; }
 
-        int size = uris.size();
-        int i    = 0;
+        Status status = new Status(uris.size(), 0);
+
         BasicDBObject filter = new BasicDBObject();
         for ( String uri : uris )
         {
-            i++;
+            status.cursor++;
             String id = normalizeURI(uri);
             filter.put("about", id);
-
-            String msg = "Harvesting <" + id + "> " + i + " of " + size;
 
             MongoCursor<Document> iter   = col.find(filter).iterator();
             try {
@@ -214,11 +224,11 @@ public class MongoEDMHarvester implements LDHarvester
                     Document doc = iter.next();
                     Resource r   = isRecord(doc) ? parseRecord(doc, model)
                                                  : _parser.parse(doc, model);
-                    _log.info(msg + ": DONE");
+                    logSuccess(id, status);
 
-                    if ( cb != null ) { cb.handle(r); }
+                    if ( cb != null ) { cb.handle(r, status); }
                 }
-                _log.info(msg + ": NOT FOUND");
+                logNotFound(id, status);
             }
             finally { iter.close(); }
         }
@@ -230,24 +240,21 @@ public class MongoEDMHarvester implements LDHarvester
         MongoCollection<Document> col = getCollection();
         if ( col == null ) { return null; }
 
-        long size = col.count(filter);
-        long i    = 0;
+        Status status = new Status(col.count(filter), 0);
 
         MongoCursor<Document> iter = col.find(filter).iterator();
         try {
             while ( iter.hasNext() )
             {
-                i++;
+                status.cursor++;
                 Document doc = iter.next();
                 String id = doc.getString("about");
 
-                String msg = "Harvesting <" + id + "> " + i + " of " + size;
-
                 Resource r = isRecord(doc) ? parseRecord(doc, model)
                                              : _parser.parse(doc, model);
-                _log.info(msg + ": DONE");
+                logSuccess(id, status);
 
-                if ( cb != null ) { cb.handle(r); }
+                if ( cb != null ) { cb.handle(r, status); }
             }
         }
         finally { iter.close(); }
@@ -265,8 +272,8 @@ public class MongoEDMHarvester implements LDHarvester
         MongoCollection<Document> col = getCollection();
         if ( col == null ) { return null; }
 
-        String id = normalizeURI(uri);
-        String msg = "Harvesting <" + uri + ">";
+        String id     = normalizeURI(uri);
+        Status status = new Status(1, 1);
 
         BasicDBObject         filter = new BasicDBObject("about", id);
         MongoCursor<Document> iter   = col.find(filter).iterator();
@@ -276,12 +283,12 @@ public class MongoEDMHarvester implements LDHarvester
                 Document doc = iter.next();
                 Resource r   = isRecord(doc) ? parseRecord(doc, model)
                                              : _parser.parse(doc, model);
-                _log.info(msg + ": DONE");
+                logSuccess(id, status);
 
-                if ( cb != null ) { cb.handle(r); }
+                if ( cb != null ) { cb.handle(r, status); }
                 return r;
             }
-            _log.info(msg + ": NOT FOUND");
+            logNotFound(id, status);
         }
         finally { iter.close(); }
 
@@ -389,11 +396,20 @@ public class MongoEDMHarvester implements LDHarvester
         Document docTm = fetch(_db.getCollection("WebResourceMetaInfo"), id);
         if ( docTm == null ) { return docWr; }
 
-        Object obj = docTm.get("imageMetaInfo");
-        if ( obj == null || !(obj instanceof Map) ) { return docTm; }
+        return appendFields(docTm, docWr, "imageMetaInfo", "audioMetaInfo");
+    }
+    
 
-        docWr.putAll((Map)obj);
-        return docWr;
+    private Document appendFields(Document src, Document trg, String... fields)
+    {
+        for ( String field : fields )
+        {
+            Object obj = src.get("imageMetaInfo");
+            if ( obj == null || !(obj instanceof Map) ) { return trg; }
+    
+            trg.putAll((Map)obj);
+        }
+        return trg;
     }
 
 
@@ -446,5 +462,26 @@ public class MongoEDMHarvester implements LDHarvester
         finally { iter.close(); }
 
         return null;
+    }
+
+
+    /***************************************************************************
+     * Private Methods - Logging
+     **************************************************************************/
+
+    private void logSuccess(String id, Status status)
+    {
+        if (!_log.isInfoEnabled()) { return; }
+
+        _log.info("Harvesting <" + id + "> "
+                + status.cursor + " of " + status.total + ": DONE");
+    }
+
+    private void logNotFound(String id, Status status)
+    {
+        if (!_log.isInfoEnabled()) { return; }
+
+        _log.info("Harvesting <" + id + "> "
+                + status.cursor + " of " + status.total + ": NOT FOUND");
     }
 }
