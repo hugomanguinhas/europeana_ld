@@ -1,0 +1,27 @@
+db.getCollection('TermList').find({"representation":{"rdaGr2ProfessionOrOccupation":"http://dbpedia.org/resource/Illustrator"}})
+
+db.getCollection('TermList').find({"representation.about":"http://data.europeana.eu/place/base/1"})
+db.getCollection('TermList').find({})
+db.getCollection('TermList').find({"representation.rdaGr2ProfessionOrOccupation":{ $exists: true }})
+
+db.getCollection('TermList').find({"representation.rdaGr2ProfessionOrOccupation.def":{ $exists: true }},{"representation.rdaGr2ProfessionOrOccupation.def":1})
+
+
+db.getCollection('PhysicalThing').find({'europeanaProxy':true,'dcCreator.def[0]':{ $exists: true }})
+
+db.getCollection('TermList').distinct("representation.rdaGr2ProfessionOrOccupation.def",{"representation.rdaGr2ProfessionOrOccupation.def":{ $regex: ".*_1$" }})
+
+
+
+db.getCollection('PhysicalThing').find({'dcCreator.def[0]':'urn:rijksmuseum:people:RM0001.PEOPLE.98030'})
+
+db.getCollection('PhysicalThing').find({'dcLanguage.def[0]':{ $exists: true }})
+
+db.getCollection('EuropeanaAggregation').find({'edmCountry.def':'fr'},{'aggregatedCHO':1, _id: 0})
+
+db.getCollection('PhysicalThing').find({'dcTitle.fr':{ $exists: true }})
+
+db.getCollection('PhysicalThing').find({'dcTitle.fr':{ $exists: true },{'about':1, _id: 0}})
+
+db.getCollection('PhysicalThing').find({'dcTitle.fr':{ $exists: true }).distinct('about')
+
