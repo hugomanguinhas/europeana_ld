@@ -5,6 +5,7 @@
 <entry key="info.name">mongo</entry>
 <entry key="info.help">Prints this message</entry>
 
+<entry key="info.option.silent">Disables basic logging (keeping only logging for errors)</entry>
 <entry key="info.option.host">Host name or IP address of MongoDB</entry>
 <entry key="info.option.port">Port number where MongoDB is listening, defaults to 27017</entry>
 <entry key="info.option.db">The Mongo collection where the records are stored</entry>

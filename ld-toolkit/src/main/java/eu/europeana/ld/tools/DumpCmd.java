@@ -19,12 +19,15 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.io.FileUtils;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Resource;
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
 
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoDatabase;
 
 import eu.europeana.ld.edm.io.EDMTurtleWriter;
 import eu.europeana.ld.harvester.HarvesterCallback;
+import eu.europeana.ld.harvester.LDHarvester;
 import eu.europeana.ld.mongo.MongoEDMHarvester;
 
 /**
@@ -40,53 +43,58 @@ public class DumpCmd extends ToolkitCmd
     @SuppressWarnings("static-access")
     protected Options buildOptions()
     {
-        Options options = new Options();
-        options.addOption(new Option("help", getProperty("info.option.help")));
-        options.addOption(OptionBuilder.withArgName("host")
+        Options options = new Options()
+            .addOption(new Option("silent"
+                                , getProperty("info.option.silent")))
+            .addOption(new Option("help"
+                                , getProperty("info.option.help")))
+            .addOption(OptionBuilder.withArgName("host")
                 .hasArg()
                 .withDescription(getProperty("info.option.host"))
                 .isRequired()
-                .create("host"));
-        options.addOption(OptionBuilder.withArgName("port")
+                .create("host"))
+            .addOption(OptionBuilder.withArgName("port")
                 .hasArg()
                 .withDescription(getProperty("info.option.port"))
                 .withType(Integer.class)
-                .create("port"));
+                .create("port"))
+            .addOption(OptionBuilder.withArgName("out")
+                .hasArg()
+                .withDescription(getProperty("info.option.file"))
+                .isRequired()
+                .create("out"));
 
-        OptionGroup group = new OptionGroup();
-        group.setRequired(true);
-        group.addOption(OptionBuilder
+        OptionGroup group = new OptionGroup()
+            .addOption(OptionBuilder
                 .withDescription(getProperty("info.option.all"))
                 .create("all"))
-             .addOption(OptionBuilder
+            .addOption(OptionBuilder
                 .withArgName("uris")
                 .hasArgs()
                 .withValueSeparator(',')
                 .withDescription(getProperty("info.option.uris"))
                 .create("uris"))
-             .addOption(OptionBuilder
+            .addOption(OptionBuilder
                 .withArgName("file")
                 .hasArg()
                 .withDescription(getProperty("info.option.file"))
                 .create("file"))
-             .addOption(OptionBuilder
+            .addOption(OptionBuilder
                 .withArgName("query")
                 .hasArg()
                 .withDescription(getProperty("info.option.search"))
                 .create("search"));
+        group.setRequired(true);
         options.addOptionGroup(group);
 
-        options.addOption(OptionBuilder.withArgName("out")
-                .hasArg()
-                .withDescription(getProperty("info.option.file"))
-                .isRequired()
-                .create("out"));
         return options;
     }
 
     @Override
     protected void process(CommandLine line) throws Throwable
     {
+        checkLogging(line);
+
         MongoEDMHarvester harv   = getHarvester(line);
         File              out    = getOutput(line);
         EDMTurtleWriter   writer = new EDMTurtleWriter();
@@ -95,6 +103,12 @@ public class DumpCmd extends ToolkitCmd
         writer.start(out);
         try                 { handleCmd(harv, cb, line);     }
         finally             { harv.close(); writer.finish(); }
+    }
+
+    protected void checkLogging(CommandLine line)
+    {
+        if ( !line.hasOption("silent") ) { return; }
+        Logger.getLogger(LDHarvester.class.getName()).setLevel(Level.OFF);
     }
 
     protected File getOutput(CommandLine line)
