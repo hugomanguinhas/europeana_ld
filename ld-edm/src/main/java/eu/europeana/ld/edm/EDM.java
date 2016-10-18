@@ -12,6 +12,7 @@ import org.apache.jena.vocabulary.OWL;
 import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.RDFS;
 import org.apache.jena.vocabulary.SKOS;
+import org.apache.jena.vocabulary.XSD;
 
 import static org.apache.jena.rdf.model.ResourceFactory.*;
 
@@ -38,9 +39,11 @@ public class EDM
     public static final Property aggregatedCHO        = createProperty(NS, "aggregatedCHO");
     public static final Property begin                = createProperty(NS, "begin");
     public static final Property country              = createProperty(NS, "country");
+    public static final Property collectionName       = createProperty(NS, "collectionName");
     public static final Property currentLocation      = createProperty(NS, "currentLocation");
     public static final Property dataProvider         = createProperty(NS, "dataProvider");
     public static final Property end                  = createProperty(NS, "end");
+    public static final Property europeanaProxy       = createProperty(NS, "europeanaProxy");
     public static final Property hasMet               = createProperty(NS, "hasMet");
     public static final Property hasType              = createProperty(NS, "hasType");
     public static final Property hasView              = createProperty(NS, "hasView");
@@ -68,11 +71,16 @@ public class EDM
     public static final Property wasPresentAt         = createProperty(NS, "wasPresentAt");
     public static final Property year                 = createProperty(NS, "year");
 
-
+    //Technical Metadata
+    public static final Property codecName            = createProperty(NS, "codecName");
+    public static final Property componentColor       = createProperty(NS, "componentColor");
+    public static final Property hasColorSpace        = createProperty(NS, "hasColorSpace");
+    public static final Property spatialResolution    = createProperty(NS, "spatialResolution");
 
     public  static Resource[] CLASSES
         = { EDM.ProvidedCHO, ORE.Aggregation, EDM.EuropeanaAggregation
-          , ORE.Proxy, EDM.Place, EDM.Agent, EDM.TimeSpan, SKOS.Concept };
+          , ORE.Proxy, EDM.WebResource
+          , EDM.Place, EDM.Agent, EDM.TimeSpan, SKOS.Concept };
 
     public static String[] NAMESPACES
         = { RDF.getURI(), RDFS.getURI(), EDM.NS, DC.NS, DCTerms.NS, FOAF.NS
@@ -84,16 +92,18 @@ public class EDM
         = { Place, Agent, SKOS.Concept, TimeSpan };
 
     static {
-        PREFIXES.put("dc"         , DC.NS);
-        PREFIXES.put("dcterms"    , DCTerms.NS);
-        PREFIXES.put(EDM.PREFIX   , EDM.NS);
-        PREFIXES.put("foaf"       , FOAF.NS);
-        PREFIXES.put("owl"        , OWL.NS);
-        PREFIXES.put(RDAGR2.PREFIX, RDAGR2.NS);
-        PREFIXES.put("rdf"        , RDF.getURI());
-        PREFIXES.put("rdfs"       , RDFS.getURI());
-        PREFIXES.put("skos"       , SKOS.getURI());
-        PREFIXES.put(WGS84.PREFIX , WGS84.NS);
-        PREFIXES.put("ore"        , ORE.NS);
+        PREFIXES.put("dc"          , DC.NS);
+        PREFIXES.put("dcterms"     , DCTerms.NS);
+        PREFIXES.put(EDM.PREFIX    , EDM.NS);
+        PREFIXES.put("foaf"        , FOAF.NS);
+        PREFIXES.put("owl"         , OWL.NS);
+        PREFIXES.put(RDAGR2.PREFIX , RDAGR2.NS);
+        PREFIXES.put("rdf"         , RDF.getURI());
+        PREFIXES.put("rdfs"        , RDFS.getURI());
+        PREFIXES.put("skos"        , SKOS.getURI());
+        PREFIXES.put(WGS84.PREFIX  , WGS84.NS);
+        PREFIXES.put("ore"         , ORE.NS);
+        PREFIXES.put(EBUCORE.PREFIX, EBUCORE.NS);
+        PREFIXES.put("xsd"         , XSD.NS);
     }
 }

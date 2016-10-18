@@ -74,7 +74,6 @@
     "relation"            : { "@id": "dc:relation"             , "@container": "@set"                 },
     "replaces"            : { "@id": "dcterms:replaces"        , "@container": "@set"                 },
     "requires"            : { "@id": "dcterms:requires"        , "@container": "@set"                 },
-    "rights"              : { "@id": "dc:rights"               , "@container": "@set"                 },
     "source"              : { "@id": "dc:source"               , "@container": "@set"                 },
     "spatial"             : { "@id": "dcterms:spatial"         , "@container": "@set"                 },
     "subject"             : { "@id": "dc:subject"              , "@container": "@set"                 },

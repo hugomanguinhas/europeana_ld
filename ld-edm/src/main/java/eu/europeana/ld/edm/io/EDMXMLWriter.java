@@ -3,6 +3,7 @@ package eu.europeana.ld.edm.io;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.io.PrintStream;
 import java.util.Arrays;
 import java.util.Collection;
@@ -11,6 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.commons.lang3.StringEscapeUtils;
+import org.apache.jena.datatypes.RDFDatatype;
 import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
@@ -22,17 +24,31 @@ import org.apache.jena.rdf.model.StmtIterator;
 import org.apache.jena.vocabulary.RDF;
 
 import eu.europeana.ld.edm.EDM;
+import eu.europeana.ld.jena.ModelWriter;
 import static eu.europeana.ld.jena.JenaUtils.*;
 
-public class EDMXMLWriter
+public class EDMXMLWriter implements ModelWriter
 {
     private static String   SEPARATOR = "  ";
 
     private Collection<Resource> _classes;
 
+    public EDMXMLWriter() { this(EDM.CLASSES); }
+
     public EDMXMLWriter(Resource... classes)
     {
         _classes = Arrays.asList(classes);
+    }
+
+
+    /***************************************************************************
+     * Interface ModelWriter
+     **************************************************************************/
+
+    @Override
+    public void write(Model m, OutputStream out) throws IOException
+    {
+        write(m, new PrintStream(out));
     }
 
     public void write(Model m, File output) throws IOException
@@ -55,6 +71,11 @@ public class EDMXMLWriter
         for ( Resource rsrc : list ) { writeResource(rsrc, out); }
         writeEnd(out);
     }
+
+
+    /***************************************************************************
+     * Private Methods
+     **************************************************************************/
 
     private Resource getType(Resource rsrc)
     {
@@ -80,10 +101,22 @@ public class EDMXMLWriter
         return StringEscapeUtils.escapeXml(rsrc.getURI());
     }
 
+    private boolean isToWrite(Resource type)
+    {
+        if ( type == null ) { return false; }
+
+        String stype = type.getURI();
+        for ( Resource r : _classes )
+        {
+            if ( r.getURI().equals(stype) ) { return true; }
+        }
+        return false;
+    }
+
     private void writeResource(Resource rsrc, PrintStream out)
     {
         Resource type = getType(rsrc);
-        if ( (type == null) || !_classes.contains(type.getURI())) { return; }
+        if ( !isToWrite(type) ) { return; }
 
         String name = getQName(type);
         out.println(SEPARATOR + "<" + name + " rdf:about=\"" + getURI(rsrc) + "\">");
@@ -104,21 +137,39 @@ public class EDMXMLWriter
         Map<String,String> attrs = null;
         String             value = null;
         RDFNode node = stmt.getObject();
-        if ( node.isLiteral() )
+
+        if ( node.isResource() )
         {
-            Literal l = node.asLiteral();
-            value = l.getString();
-
-            String lang = l.getLanguage();
-            if ( !lang.isEmpty()  ) { attrs = Collections.singletonMap("xml:lang", lang); }
-
-            String datatype = l.getDatatypeURI();
-            if ( datatype != null ) { attrs = Collections.singletonMap("rdf:datatype", datatype); }
+            attrs = Collections.singletonMap("rdf:resource"
+                                           , getURI(node.asResource()));
+            writeProperty(name, attrs, value, out);
+            return;
         }
-        else {
-            attrs = Collections.singletonMap("rdf:resource", getURI(node.asResource()));
+
+        if ( !node.isLiteral() ) { return; }
+
+        Literal l = node.asLiteral();
+        value = l.getString();
+
+        String lang = l.getLanguage();
+        if ( !lang.isEmpty() )
+        {
+            attrs = Collections.singletonMap("xml:lang", lang);
+            writeProperty(name, attrs, value, out);
+            return;
+        }
+
+        RDFDatatype dt = l.getDatatype();
+        if ( hasDatatype(dt) ) {
+            attrs = Collections.singletonMap("rdf:datatype", dt.getURI());
         }
         writeProperty(name, attrs, value, out);
+    }
+
+    private boolean hasDatatype(RDFDatatype dt)
+    {
+        return ( (dt != null)
+               && !dt.getURI().equals("http://www.w3.org/2001/XMLSchema#string"));
     }
 
     private void writeProperty(String label, Map<String,String> attrs

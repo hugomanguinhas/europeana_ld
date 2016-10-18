@@ -53,6 +53,12 @@ the specific language governing permissions and limitations under the Licence.
             <artifactId>ld-utils</artifactId>
             <version>0.1</version>
         </dependency>
+        <!--  To support bz2 and other compression formats -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-compress</artifactId>
+            <version>1.9</version>
+        </dependency>
     </dependencies>
 
 </project>
