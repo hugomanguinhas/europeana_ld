@@ -1,7 +1,7 @@
 /**
  * 
  */
-package eu.europeana.ld.toolkit;
+package eu.europeana.ld.tools;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -16,6 +16,7 @@ import org.apache.commons.cli.Option;
 import org.apache.commons.cli.OptionBuilder;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
+import org.apache.log4j.Logger;
 
 /**
  * @author Hugo Manguinhas <hugo.manguinhas@europeana.eu>
@@ -23,6 +24,7 @@ import org.apache.commons.cli.ParseException;
  */
 public abstract class ToolkitCmd
 {
+    private static Logger _log = Logger.getLogger(ToolkitCmd.class);
     protected static final Properties PROPERTIES = new Properties();
     
     protected static void loadProperties(String cfg)
@@ -39,8 +41,8 @@ public abstract class ToolkitCmd
         return PROPERTIES.getProperty(key);
     }
 
-    private HelpFormatter _formatter = new HelpFormatter();
-    private PrintStream   _ps        = System.out;
+    protected HelpFormatter _formatter = new HelpFormatter();
+    protected PrintStream   _ps        = System.out;
 
     public ToolkitCmd() {}
 
@@ -59,6 +61,7 @@ public abstract class ToolkitCmd
             printHeader();
             try                { process(line); }
             catch(Throwable t) { printError(t); }
+            printFooter();
         }
         catch(ParseException exp)
         {
@@ -80,7 +83,6 @@ public abstract class ToolkitCmd
     protected void printUsage(Options opts, String msg)
     {
         printHeader();
-        _ps.println();
         _ps.println(msg);
         _ps.println();
         printUsage(opts);
@@ -91,9 +93,14 @@ public abstract class ToolkitCmd
         _ps.print(PROPERTIES.getProperty("layout.header"));
     }
 
+    protected void printFooter()
+    {
+        _ps.print(PROPERTIES.getProperty("layout.footer"));
+    }
+
     protected void printError(Throwable t)
     {
-        _ps.println();
+        _log.error("Unexpected error", t);
         _ps.println("Error: " + t.getMessage());
         _ps.println();
         t.printStackTrace(_ps);

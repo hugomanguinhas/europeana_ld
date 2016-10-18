@@ -1,10 +1,13 @@
 /**
  * 
  */
-package eu.europeana.ld.toolkit;
+package eu.europeana.ld.tools;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.PrintStream;
+import java.text.DecimalFormat;
+import java.text.MessageFormat;
 import java.util.Arrays;
 import java.util.List;
 
@@ -90,7 +93,7 @@ public class DumpCmd extends ToolkitCmd
         HarvesterCallback cb     = getCallback(line, writer);
 
         writer.start(out);
-        try                 { handleCmd(harv, cb, line);       }
+        try                 { handleCmd(harv, cb, line);     }
         finally             { harv.close(); writer.finish(); }
     }
 
@@ -116,14 +119,33 @@ public class DumpCmd extends ToolkitCmd
     protected HarvesterCallback getCallback(CommandLine line
                                           , EDMTurtleWriter writer)
     {
-        return new HarvesterCallback() {
+        PrintStream ps = _ps;
+        return new HarvesterCallback()
+        {
+            private DecimalFormat _df = new DecimalFormat("00.0%");
+            private String        _prev = null;
+
             @Override
-            public void handle(Resource r)
+            public void handle(Resource r, Status status)
             {
                 Model m = r.getModel();
                 try                  { writer.write(m);               }
                 catch(IOException e) { throw new RuntimeException(e); }
                 finally              { m.removeAll();                 }
+                printStatus(status);
+            }
+
+            private void printStatus(Status status)
+            {
+                if ( _prev == null ) { ps.print("| Harvesting... "); }
+
+                double percent = (double)status.cursor / status.total;
+                String str = _df.format(percent);
+                if ( str.equals(_prev) ) { return; }
+
+                if ( _prev != null ) { ps.print("\b\b\b\b\b"); }
+                _prev = str;
+                ps.print(str);
             }
         };
     }
@@ -147,7 +169,6 @@ public class DumpCmd extends ToolkitCmd
         }
 
         if ( line.hasOption("search") ) {
-            System.out.println("query=" + line.getOptionValue("search"));
             harvester.harvestBySearch(line.getOptionValue("search"), cb);
             return;
         }
