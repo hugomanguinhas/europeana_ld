@@ -1,0 +1,1 @@
+java -Xmx2g -cp "../lib/*" eu.europeana.ld.mongo.RunMongoIRICheck $1 $2
