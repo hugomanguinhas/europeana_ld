@@ -20,7 +20,7 @@ import eu.europeana.ld.edm.EDM;
 import eu.europeana.ld.harvester.HarvesterCallback;
 import eu.europeana.ld.jena.JenaUtils;
 import eu.europeana.ld.mongo.MongoEntityHarvester;
-import eu.europeana.mongo.callback.FileCallback;
+import eu.europeana.ld.mongo.callback.FileCallback;
 
 /**
  * @author Hugo Manguinhas <hugo.manguinhas@europeana.eu>

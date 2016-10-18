@@ -91,8 +91,8 @@ public class MongoEDMParser
 
             Property p = def.get(key);
             if ( p == null ) { 
-                System.err.println("Unsupported label: " + key
-                                 + " for definition: " + def.getType().getLocalName());
+                _log.error("Unsupported label: " + key
+                         + " for definition: " + def.getType().getLocalName());
                 continue;
             }
 

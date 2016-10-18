@@ -25,9 +25,9 @@ import eu.europeana.ld.harvester.StoreCallback;
 import eu.europeana.ld.jena.JenaUtils;
 import eu.europeana.ld.mongo.MongoEDMHarvester;
 import eu.europeana.ld.mongo.MongoEntityHarvester;
+import eu.europeana.ld.mongo.callback.FileCallback;
 import eu.europeana.ld.store.LDStore;
 import eu.europeana.ld.store.ZipLDStore;
-import eu.europeana.mongo.callback.FileCallback;
 
 import org.apache.jena.riot.EDMLang;
 

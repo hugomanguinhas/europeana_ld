@@ -9,7 +9,10 @@ import java.util.List;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.vocabulary.RDF;
+import org.apache.log4j.Logger;
 import org.bson.Document;
+
+import eu.europeana.ld.harvester.LDHarvester;
 
 /**
  * @author Hugo Manguinhas <hugo.manguinhas@europeana.eu>
@@ -17,6 +20,7 @@ import org.bson.Document;
  */
 public class MongoEntityParser extends MongoEDMParser
 {
+    private static Logger _log = Logger.getLogger(LDHarvester.class);
     private static List<String> _filter = Arrays.asList("id", "about");
 
     public MongoEntityParser() { super(); }
@@ -36,7 +40,7 @@ public class MongoEntityParser extends MongoEDMParser
         String type = doc.getString("entityType");
         MongoClassDef def = MongoClassDef.getDefinition(type);
         if ( def == null ) {
-            System.err.println("Unknown entity: " + type);
+            _log.error("Unknown entity: " + type);
             return null;
         }
         resource.addProperty(RDF.type, def.getType());

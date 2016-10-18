@@ -1,7 +1,7 @@
 /**
  * 
  */
-package eu.europeana.mongo.callback;
+package eu.europeana.ld.mongo.callback;
 
 import java.io.File;
 import java.io.FileNotFoundException;

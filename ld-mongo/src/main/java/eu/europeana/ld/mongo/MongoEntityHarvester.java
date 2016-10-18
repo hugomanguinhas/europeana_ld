@@ -196,14 +196,14 @@ public class MongoEntityHarvester implements LDHarvester
                                        .iterator();
         try {
             if ( !iter.hasNext() ) {
-                System.err.println("Could not find entry with uri: " + uri);
+                _log.error("Could not find entry with uri: " + uri);
                 return null;
             }
 
             r = _parser.parse(iter.next(), r.getModel());
 
             if ( iter.hasNext() ) {
-                System.err.println("Found duplicate entry for uri: " + uri);
+                _log.error("Found duplicate entry for uri: " + uri);
             }
         }
         finally { iter.close(); }

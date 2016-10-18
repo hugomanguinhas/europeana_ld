@@ -344,7 +344,7 @@ public class MongoEDMHarvester implements LDHarvester
       //if ( o instanceof Double  ) { parseValue(r, p, (Double)o);   return; }
         if ( o instanceof List     ) { parseValue(r, p, (List)o);    return; }
 
-        System.err.println("Unknown object: " + o + " of type: " + o.getClass());
+        _log.error("Unknown object: " + o + " of type: " + o.getClass());
     }
 
     private void parseValue(Resource r, Property p, String str)
