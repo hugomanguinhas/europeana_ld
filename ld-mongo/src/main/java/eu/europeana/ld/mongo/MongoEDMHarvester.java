@@ -396,7 +396,13 @@ public class MongoEDMHarvester implements LDHarvester
         Document docTm = fetch(_db.getCollection("WebResourceMetaInfo"), id);
         if ( docTm == null ) { return docWr; }
 
-        return appendFields(docTm, docWr, "imageMetaInfo", "audioMetaInfo");
+        Document ret = appendFields(docTm, docWr
+                                  , "imageMetaInfo", "audioMetaInfo");
+        if ( !ret.containsKey("fileSize") ) {
+            _log.error("Technical metadata empty for record <" + recordId
+                     + ">, media resource <" + id + ">");
+        }
+        return ret;
     }
     
 
