@@ -79,16 +79,16 @@ public class ObjectStat extends AbsStat {
         }
     }
 
-    public void addPropertyValues(Model m, String... saProp)
+    public void addPropertyValues(Model m, Property... props)
     {
-        addPropertyValues(m, false, saProp);
+        addPropertyValues(m, false, props);
     }
 
-    public void addPropertyValues(Model m, boolean inversed, String... saProp)
+    public void addPropertyValues(Model m, boolean inversed, Property... props)
     {
-        for ( String prop : saProp )
+        for ( Property prop : props )
         {
-            this.addPropertyValue(new DefaultPropertyStat(m.getProperty(prop), inversed));
+            this.addPropertyValue(new DefaultPropertyStat(prop, inversed));
         }
     }
 

@@ -43,10 +43,20 @@ public class DereferenceChecker
     {
         _useHEAD   = useHEAD;
         _cacheFile = initCache(cache);
+        _cache     = new TreeMap();
+    }
+
+    public DereferenceChecker(boolean useHEAD)
+    {
+        _useHEAD   = useHEAD;
+        _cacheFile = null;
+        _cache     = null;
     }
 
     public Boolean check(String url)
     {
+        if ( _cache == null ) { return checkCacheImpl(url); }
+
         Boolean ret = checkCache(url);
         return ( ret != null ? ret : updateCache(url, checkCacheImpl(url)));
     }
