@@ -34,12 +34,7 @@ public class DumpCmd extends MongoHarvestCmd
         Options options = new Options();
         addDefaultOptions(options, _props);
         addMongoOptions(options, _props);
-
-        options.addOption(OptionBuilder.withArgName("out")
-                .hasArg()
-                .withDescription(getProperty("info.option.file"))
-                .isRequired()
-                .create("out"));
+        addOutputOptions(options, _props);
         return options;
     }
 
@@ -49,7 +44,7 @@ public class DumpCmd extends MongoHarvestCmd
         checkLogging(line);
 
         MongoEDMHarvester harv   = getHarvester(line, _props);
-        File              out    = getOutput(line);
+        File              out    = getOutputFile(line);
         EDMTurtleWriter   writer = new EDMTurtleWriter();
         HarvesterCallback cb     = getCallback(line, writer);
 
