@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintStream;
+import java.nio.charset.Charset;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
@@ -68,12 +69,12 @@ public class EDMTurtleWriter
         if ( name.endsWith(".ttl") ) { start(fos); return; }
         if ( name.endsWith(".gz" ) )
         {
-            start(new GZIPOutputStream(fos));
+            start(new GZIPOutputStream(fos, 65536));
             return;
         }
         if ( name.endsWith(".zip") )
         {
-            ZipOutputStream zos   = new ZipOutputStream(fos);
+            ZipOutputStream zos   = new ZipOutputStream(fos, Charset.forName("UTF-8"));
             String          zname = name.substring(0, name.length()-4) + ".ttl";
             zos.putNextEntry(new ZipEntry(zname));
             start(zos);
@@ -127,23 +128,30 @@ public class EDMTurtleWriter
 
     private void writeResource(Resource r) throws IOException
     {
-        Map<String,Property> props = getProperties(r);
-        int                  len   = calcMaxLength(props.keySet());
-
-        boolean first = true;
-        _ps.newLine();
-        writeValue(r);
-        for ( Map.Entry<String, Property> entry : props.entrySet() )
-        {
-            if ( first ) { first = false;    }
-            else         { _ps.append(" ;"); }
+        try {
+            Map<String,Property> props = getProperties(r);
+            int                  len   = calcMaxLength(props.keySet());
+    
+            boolean first = true;
             _ps.newLine();
-
-            writePropertyDecl(entry.getKey(), len);
-            writePropertyValues(r, entry.getValue());
+            writeValue(r);
+            for ( Map.Entry<String, Property> entry : props.entrySet() )
+            {
+                if ( first ) { first = false;    }
+                else         { _ps.append(" ;"); }
+                _ps.newLine();
+    
+                writePropertyDecl(entry.getKey(), len);
+                writePropertyValues(r, entry.getValue());
+            }
+            _ps.append(" .");
+            _ps.newLine();
         }
-        _ps.append(" .");
-        _ps.newLine();
+        catch (IOException e) { throw e; }
+        catch (Throwable   t) {
+            throw new IOException("Unexpected exception while writting: "
+                                + r.getURI(), t);
+        }
     }
 
     private void writeHeader(Model m) throws IOException
