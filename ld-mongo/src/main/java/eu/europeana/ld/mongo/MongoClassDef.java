@@ -3,13 +3,12 @@
  */
 package eu.europeana.ld.mongo;
 
-import static org.apache.jena.rdf.model.ResourceFactory.createProperty;
-
 import java.util.HashMap;
 import java.util.Map;
 
 import org.apache.jena.datatypes.RDFDatatype;
 import org.apache.jena.datatypes.xsd.XSDDatatype;
+import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
@@ -17,25 +16,49 @@ import org.apache.jena.sparql.vocabulary.FOAF;
 import org.apache.jena.vocabulary.DC;
 import org.apache.jena.vocabulary.DCTerms;
 import org.apache.jena.vocabulary.OWL;
-import org.apache.jena.vocabulary.RDF;
-import org.apache.jena.vocabulary.RDFS;
 import org.apache.jena.vocabulary.SKOS;
-import org.apache.jena.vocabulary.XSD;
 
 import eu.europeana.ld.edm.EBUCORE;
 import eu.europeana.ld.edm.EDM;
 import eu.europeana.ld.edm.ORE;
 import eu.europeana.ld.edm.RDAGR2;
+import eu.europeana.ld.edm.SVCS;
 import eu.europeana.ld.edm.WGS84;
+import eu.europeana.ld.mongo.MongoClassDef.PropertyDef;
+import eu.europeana.ld.mongo.MongoEDMParser.ParserContext;
 
 /**
  * @author Hugo Manguinhas <hugo.manguinhas@europeana.eu>
  * @since 15 Apr 2016
  */
-public class MongoClassDef extends HashMap<String,Property>
+public class MongoClassDef extends HashMap<String,PropertyDef>
 {
     private static Map<String,MongoClassDef> _definitions   = new HashMap();
-    private static Map<Property,RDFDatatype> _propDatatypes = new HashMap();
+
+    public static String CLASS_AGGREGATION
+        = "eu.europeana.corelib.solr.entity.AggregationImpl";
+    public static String CLASS_EUROPEANA_AGGREGATION
+        = "eu.europeana.corelib.solr.entity.EuropeanaAggregationImpl";
+    public static String CLASS_PROVIDED_CHO
+        = "eu.europeana.corelib.solr.entity.ProvidedCHOImpl";
+    public static String CLASS_PROXY
+        = "eu.europeana.corelib.solr.entity.ProxyImpl";
+    public static String CLASS_WEBRESOURCE
+        = "eu.europeana.corelib.solr.entity.WebResourceImpl";
+    public static String CLASS_PLACE
+        = "eu.europeana.corelib.solr.entity.PlaceImpl";
+    public static String CLASS_AGENT
+        = "eu.europeana.corelib.solr.entity.AgentImpl";
+    public static String CLASS_TIMESPAN
+        = "eu.europeana.corelib.solr.entity.TimespanImpl";
+    public static String CLASS_CONCEPT
+        = "eu.europeana.corelib.solr.entity.ConceptImpl";
+
+    //Abbreviations used for the enrichment database
+    public static String CLASS_PLACE_ABBR     = "PlaceImpl";
+    public static String CLASS_AGENT_ABBR     = "AgentImpl";
+    public static String CLASS_TIMESPAN_ABBR  = "TimespanImpl";
+    public static String CLASS_CONCEPT_ABBR   = "ConceptImpl";
 
     static
     {
@@ -44,242 +67,233 @@ public class MongoClassDef extends HashMap<String,Property>
         //Aggregations
 
         def = new MongoClassDef(ORE.Aggregation);
-        def.put("edmDataProvider"                , EDM.dataProvider);
-        def.put("edmIsShownBy"                   , EDM.isShownBy);
-        def.put("edmIsShownAt"                   , EDM.isShownAt);
-        def.put("edmObject"                      , EDM.object);
-        def.put("edmProvider"                    , EDM.provider);
-        def.put("edmRights"                      , EDM.rights);
-        def.put("edmUgc"                         , EDM.ugc);
-        def.put("dcRights"                       , DC.rights);
-        def.put("hasView"                        , EDM.hasView);
-        def.put("aggregatedCHO"                  , EDM.aggregatedCHO);
-        def.put("aggregates"                     , ORE.aggregates);
-        def.put("edmUnstored"                    , EDM.unstored);
+        def.put("edmDataProvider"                , newProp(EDM.dataProvider));
+        def.put("edmIsShownBy"                   , newRef(EDM.isShownBy));
+        def.put("edmIsShownAt"                   , newRef(EDM.isShownAt));
+        def.put("edmObject"                      , newRef(EDM.object));
+        def.put("edmProvider"                    , newProp(EDM.provider));
+        def.put("edmRights"                      , newRef(EDM.rights));
+        def.put("edmUgc"                         , newLiteral(EDM.ugc));
+        def.put("dcRights"                       , newLiteral(DC.rights));
+        def.put("hasView"                        , newRef(EDM.hasView));
+        def.put("aggregatedCHO"                  , newRef(EDM.aggregatedCHO));
+        def.put("aggregates"                     , newRef(ORE.aggregates));
+        def.put("edmUnstored"                    , newLiteral(EDM.unstored));
         def.setPrefixes(EDM.PREFIXES);
-        _definitions.put("eu.europeana.corelib.solr.entity.AggregationImpl", def);
+        _definitions.put(CLASS_AGGREGATION, def);
 
 
         def = new MongoClassDef(EDM.EuropeanaAggregation);
-        def.put("aggregatedCHO"                  , EDM.aggregatedCHO);
-        def.put("aggregates"                     , ORE.aggregates);
-        def.put("dcCreator"                      , DC.creator);
-        def.put("edmLandingPage"                 , EDM.landingPage);
-        def.put("edmIsShownBy"                   , EDM.isShownBy);
-        def.put("edmHasView"                     , EDM.hasView);
-        def.put("edmCountry"                     , EDM.country);
-        def.put("edmLanguage"                    , EDM.language);
-        def.put("edmRights"                      , EDM.rights);
-        def.put("edmPreview"                     , EDM.preview);
+        def.put("aggregatedCHO"                  , newRef(EDM.aggregatedCHO));
+        def.put("aggregates"                     , newRef(ORE.aggregates));
+        def.put("dcCreator"                      , newProp(DC.creator));
+        def.put("edmLandingPage"                 , newRef(EDM.landingPage));
+        def.put("edmIsShownBy"                   , newRef(EDM.isShownBy));
+        def.put("edmHasView"                     , newRef(EDM.hasView));
+        def.put("edmCountry"                     , newLiteral(EDM.country));
+        def.put("edmLanguage"                    , newLiteral(EDM.language));
+        def.put("edmRights"                      , newRef(EDM.rights));
+        def.put("edmPreview"                     , newRef(EDM.preview));
         def.setPrefixes(EDM.PREFIXES);
-        _definitions.put("eu.europeana.corelib.solr.entity.EuropeanaAggregationImpl", def);
+        _definitions.put(CLASS_EUROPEANA_AGGREGATION, def);
 
 
         // Provided CHO & Proxy 
 
         def = new MongoClassDef(EDM.ProvidedCHO);
-        def.put("owlSameAs"                      , OWL.sameAs);
+        def.put("owlSameAs"                      , newRef(OWL.sameAs));
         def.setPrefixes(EDM.PREFIXES);
-        _definitions.put("eu.europeana.corelib.solr.entity.ProvidedCHOImpl", def);
+        _definitions.put(CLASS_PROVIDED_CHO, def);
 
         def = new MongoClassDef(ORE.Proxy);
-        def.put("dcContributor"                  , DC.contributor);
-        def.put("dcCoverage"                     , DC.coverage);
-        def.put("dcCreator"                      , DC.creator);
-        def.put("dcDate"                         , DC.date);
-        def.put("dcDescription"                  , DC.description);
-        def.put("dcFormat"                       , DC.format);
-        def.put("dcIdentifier"                   , DC.identifier);
-        def.put("dcLanguage"                     , DC.language);
-        def.put("dcPublisher"                    , DC.publisher);
-        def.put("dcRelation"                     , DC.relation);
-        def.put("dcRights"                       , DC.rights);
-        def.put("dcSource"                       , DC.source);
-        def.put("dcSubject"                      , DC.subject);
-        def.put("dcTitle"                        , DC.title);
-        def.put("dcType"                         , DC.type);
-        def.put("dctermsAlternative"             , DCTerms.alternative);
-        def.put("dctermsConformsTo"              , DCTerms.conformsTo);
-        def.put("dctermsCreated"                 , DCTerms.created);
-        def.put("dctermsExtent"                  , DCTerms.extent);
-        def.put("dctermsHasFormat"               , DCTerms.hasFormat);
-        def.put("dctermsHasPart"                 , DCTerms.hasPart);
-        def.put("dctermsHasVersion"              , DCTerms.hasVersion);
-        def.put("dctermsIsFormatOf"              , DCTerms.isFormatOf);
-        def.put("dctermsIsPartOf"                , DCTerms.isPartOf);
-        def.put("dctermsIsReferencedBy"          , DCTerms.isReferencedBy);
-        def.put("dctermsIsReplacedBy"            , DCTerms.isRequiredBy);
-        def.put("dctermsIsRequiredBy"            , DCTerms.isRequiredBy);
-        def.put("dctermsIssued"                  , DCTerms.issued);
-        def.put("dctermsIsVersionOf"             , DCTerms.isVersionOf);
-        def.put("dctermsMedium"                  , DCTerms.medium);
-        def.put("dctermsProvenance"              , DCTerms.provenance);
-        def.put("dctermsReferences"              , DCTerms.references);
-        def.put("dctermsReplaces"                , DCTerms.replaces);
-        def.put("dctermsRequires"                , DCTerms.requires);
-        def.put("dctermsSpatial"                 , DCTerms.spatial);
-        def.put("dctermsTOC"                     , DCTerms.tableOfContents);
-        def.put("dctermsTemporal"                , DCTerms.temporal);
-        def.put("edmCurrentLocation"             , EDM.currentLocation);
-        def.put("edmHasMet"                      , EDM.hasMet);
-        def.put("edmHasType"                     , EDM.hasType);
-        def.put("edmIncorporates"                , EDM.incorporates);
-        def.put("edmIsDerivativeOf"              , EDM.isDerivativeOf);
-        def.put("edmIsNextInSequence"            , EDM.isNextInSequence);
-        def.put("edmIsRelatedTo"                 , EDM.isRelatedTo);
-        def.put("edmIsRepresentationOf"          , EDM.isRepresentationOf);
-        def.put("edmIsSimilarTo"                 , EDM.isSimilarTo);
-        def.put("edmIsSuccessorOf"               , EDM.isSuccessorOf);
-        def.put("edmRealizes"                    , EDM.realizes);
-        def.put("edmType"                        , EDM.type);
-        def.put("edmRights"                      , EDM.rights);
-        def.put("edmWasPresentAt"                , EDM.wasPresentAt);
-        def.put("europeanaProxy"                 , EDM.europeanaProxy);
-        def.put("proxyIn"                        , ORE.proxyIn);
-        def.put("proxyFor"                       , ORE.proxyFor);
-        def.put("year"                           , EDM.year);
+        def.put("dcContributor"                  , newProp(DC.contributor));
+        def.put("dcCoverage"                     , newProp(DC.coverage));
+        def.put("dcCreator"                      , newProp(DC.creator));
+        def.put("dcDate"                         , newProp(DC.date));
+        def.put("dcDescription"                  , newProp(DC.description));
+        def.put("dcFormat"                       , newProp(DC.format));
+        def.put("dcIdentifier"                   , newLiteral(DC.identifier));
+        def.put("dcLanguage"                     , newLiteral(DC.language));
+        def.put("dcPublisher"                    , newProp(DC.publisher));
+        def.put("dcRelation"                     , newProp(DC.relation));
+        def.put("dcRights"                       , newProp(DC.rights));
+        def.put("dcSource"                       , newProp(DC.source));
+        def.put("dcSubject"                      , newProp(DC.subject));
+        def.put("dcTitle"                        , newLiteral(DC.title));
+        def.put("dcType"                         , newRef(DC.type));
+        def.put("dctermsAlternative"             , newLiteral(DCTerms.alternative));
+        def.put("dctermsConformsTo"              , newProp(DCTerms.conformsTo));
+        def.put("dctermsCreated"                 , newProp(DCTerms.created));
+        def.put("dctermsExtent"                  , newProp(DCTerms.extent));
+        def.put("dctermsHasFormat"               , newProp(DCTerms.hasFormat));
+        def.put("dctermsHasPart"                 , newProp(DCTerms.hasPart));
+        def.put("dctermsHasVersion"              , newProp(DCTerms.hasVersion));
+        def.put("dctermsIsFormatOf"              , newProp(DCTerms.isFormatOf));
+        def.put("dctermsIsPartOf"                , newProp(DCTerms.isPartOf));
+        def.put("dctermsIsReferencedBy"          , newProp(DCTerms.isReferencedBy));
+        def.put("dctermsIsReplacedBy"            , newProp(DCTerms.isReplacedBy));
+        def.put("dctermsIsRequiredBy"            , newProp(DCTerms.isRequiredBy));
+        def.put("dctermsIssued"                  , newProp(DCTerms.issued));
+        def.put("dctermsIsVersionOf"             , newProp(DCTerms.isVersionOf));
+        def.put("dctermsMedium"                  , newProp(DCTerms.medium));
+        def.put("dctermsProvenance"              , newProp(DCTerms.provenance));
+        def.put("dctermsReferences"              , newProp(DCTerms.references));
+        def.put("dctermsReplaces"                , newProp(DCTerms.replaces));
+        def.put("dctermsRequires"                , newProp(DCTerms.requires));
+        def.put("dctermsSpatial"                 , newProp(DCTerms.spatial));
+        def.put("dctermsTOC"                     , newProp(DCTerms.tableOfContents));
+        def.put("dctermsTemporal"                , newProp(DCTerms.temporal));
+        def.put("edmCurrentLocation"             , newRef(EDM.currentLocation));
+        def.put("edmHasMet"                      , newRef(EDM.hasMet));
+        def.put("edmHasType"                     , newProp(EDM.hasType));
+        def.put("edmIncorporates"                , newRef(EDM.incorporates));
+        def.put("edmIsDerivativeOf"              , newRef(EDM.isDerivativeOf));
+        def.put("edmIsNextInSequence"            , newRef(EDM.isNextInSequence));
+        def.put("edmIsRelatedTo"                 , newProp(EDM.isRelatedTo));
+        def.put("edmIsRepresentationOf"          , newRef(EDM.isRepresentationOf));
+        def.put("edmIsSimilarTo"                 , newRef(EDM.isSimilarTo));
+        def.put("edmIsSuccessorOf"               , newRef(EDM.isSuccessorOf));
+        def.put("edmRealizes"                    , newRef(EDM.realizes));
+        def.put("edmType"                        , newLiteral(EDM.type));
+        //edm:unstored (DEPRECATED)
+        //edm:userTag (DEPRECATED)
+        def.put("edmRights"                      , newRef(EDM.rights)); //should not be here
+        def.put("edmWasPresentAt"                , newRef(EDM.wasPresentAt));
+        def.put("europeanaProxy"                 , newLiteral(EDM.europeanaProxy));
+        def.put("proxyIn"                        , newRef(ORE.proxyIn));
+        def.put("proxyFor"                       , newRef(ORE.proxyFor));
+        def.put("year"                           , newLiteral(EDM.year));
         def.setPrefixes(EDM.PREFIXES);
-        _definitions.put("eu.europeana.corelib.solr.entity.ProxyImpl", def);
+        _definitions.put(CLASS_PROXY, def);
 
         def = new MongoClassDef(EDM.WebResource);
-//        def.put("dcContributor"                  , DC.contributor);
-        def.put("dcCreator"                      , DC.creator);
-        def.put("dcDescription"                  , DC.description);
-        def.put("dcFormat"                       , DC.format);
-        def.put("dcSource"                       , DC.source);
-        def.put("dctermsConformsTo"              , DCTerms.conformsTo);
-        def.put("dctermsCreated"                 , DCTerms.created);
-        def.put("dctermsExtent"                  , DCTerms.extent);
-        def.put("dctermsHasPart"                 , DCTerms.hasPart);
-        def.put("dctermsIsFormatOf"              , DCTerms.isFormatOf);
-        def.put("isNextInSequence"               , EDM.isNextInSequence);
-        def.put("owlSameAs"                      , OWL.sameAs);
-        def.put("webResourceDcRights"            , DC.rights);
-        def.put("webResourceEdmRights"           , EDM.rights);
+        def.put("dcCreator"                      , newProp(DC.creator));
+        def.put("dcDescription"                  , newProp(DC.description));
+        def.put("dcFormat"                       , newProp(DC.format));
+        def.put("webResourceDcRights"            , newProp(DC.rights));
+        def.put("dcSource"                       , newProp(DC.source));
+        def.put("dctermsConformsTo"              , newProp(DCTerms.conformsTo));
+        def.put("dctermsCreated"                 , newProp(DCTerms.created));
+        def.put("dctermsExtent"                  , newProp(DCTerms.extent));
+        def.put("dctermsHasPart"                 , newRef(DCTerms.hasPart));
+        def.put("dctermsIsFormatOf"              , newProp(DCTerms.isFormatOf));
+        def.put("dctermsIsPartOf"                , newRef(DCTerms.isPartOf));
+        def.put("dctermsIsReferencedBy"          , newProp(DCTerms.isReferencedBy));
+        def.put("dctermsIssued"                  , newProp(DCTerms.issued));
+        def.put("isNextInSequence"               , newRef(EDM.isNextInSequence));
+        def.put("edmPreview"                     , newRef(EDM.preview));
+        def.put("webResourceEdmRights"           , newRef(EDM.rights));
+        def.put("owlSameAs"                      , newRef(OWL.sameAs));
+        def.put("svcsHasService"                 , newRef(SVCS.has_service)); //Check?!?
 
         //Technical Metadata Properties
-        def.put("edmCodecName"                   , EDM.codecName);
-        def.put("colorPalette"                   , EDM.componentColor);
-        def.put("colorSpace"                     , EDM.hasColorSpace);
-        def.put("spatialResolution"              , EDM.spatialResolution);
-        def.put("audioChannelNumber"             , EBUCORE.audioChannelNumber);
-        def.put("bitRate"                        , EBUCORE.bitRate);
-        def.put("duration"                       , EBUCORE.duration);
-        def.put("height"                         , EBUCORE.height);
-        def.put("fileSize"                       , EBUCORE.fileSize);
-        def.put("frameRate"                      , EBUCORE.frameRate);
-        def.put("mimeType"                       , EBUCORE.hasMimeType);
-        def.put("orientation"                    , EBUCORE.orientation);
-        def.put("sampleRate"                     , EBUCORE.sampleRate);
-        def.put("sampleSize"                     , EBUCORE.sampleSize);
-        def.put("width"                          , EBUCORE.width);
-
-        _propDatatypes.put(EDM.componentColor        , XSDDatatype.XSDhexBinary);
-        _propDatatypes.put(EDM.spatialResolution     , XSDDatatype.XSDnonNegativeInteger);
-        _propDatatypes.put(EBUCORE.audioChannelNumber, XSDDatatype.XSDnonNegativeInteger);
-        _propDatatypes.put(EBUCORE.bitRate           , XSDDatatype.XSDnonNegativeInteger);
-        //_propDatatypes.put(EBUCORE.duration);
-        _propDatatypes.put(EBUCORE.height            , XSDDatatype.XSDinteger);
-        _propDatatypes.put(EBUCORE.fileSize          , XSDDatatype.XSDlong);
-        _propDatatypes.put(EBUCORE.frameRate         , XSDDatatype.XSDdouble);
-        _propDatatypes.put(EBUCORE.orientation       , XSDDatatype.XSDstring);
-        _propDatatypes.put(EBUCORE.sampleRate        , XSDDatatype.XSDinteger);
-        _propDatatypes.put(EBUCORE.sampleSize        , XSDDatatype.XSDinteger);
-        _propDatatypes.put(EBUCORE.width             , XSDDatatype.XSDinteger);
+        def.put("edmCodecName"                   , newLiteral(EDM.codecName));
+        def.put("colorPalette"                   , newDT(EDM.componentColor, XSDDatatype.XSDhexBinary));
+        def.put("colorSpace"                     , newLiteral(EDM.hasColorSpace));
+        def.put("spatialResolution"              , newDT(EDM.spatialResolution, XSDDatatype.XSDnonNegativeInteger));
+        def.put("audioChannelNumber"             , newDT(EBUCORE.audioChannelNumber, XSDDatatype.XSDnonNegativeInteger));
+        def.put("bitRate"                        , newDT(EBUCORE.bitRate, XSDDatatype.XSDnonNegativeInteger));
+        def.put("duration"                       , newLiteral(EBUCORE.duration));
+        def.put("height"                         , newDT(EBUCORE.height, XSDDatatype.XSDinteger));
+        def.put("fileSize"                       , newDT(EBUCORE.fileSize, XSDDatatype.XSDlong));
+        def.put("frameRate"                      , newDT(EBUCORE.frameRate, XSDDatatype.XSDdouble));
+        def.put("mimeType"                       , newLiteral(EBUCORE.hasMimeType));
+        def.put("orientation"                    , newDT(EBUCORE.orientation, XSDDatatype.XSDstring, new OrientationProcessor()));
+        def.put("sampleRate"                     , newDT(EBUCORE.sampleRate, XSDDatatype.XSDinteger));
+        def.put("sampleSize"                     , newDT(EBUCORE.sampleSize, XSDDatatype.XSDinteger));
+        def.put("width"                          , newDT(EBUCORE.width, XSDDatatype.XSDinteger));
 
         def.setPrefixes(EDM.PREFIXES);
-        _definitions.put("eu.europeana.corelib.solr.entity.WebResourceImpl", def);
+        _definitions.put(CLASS_WEBRESOURCE, def);
 
         def = new MongoClassDef(EDM.Agent);
-        def.put("prefLabel"                      , SKOS.prefLabel);
-        def.put("altLabel"                       , SKOS.altLabel);
-        def.put("hiddenLabel"                    , SKOS.hiddenLabel);
-        def.put("note"                           , SKOS.note);
-        def.put("begin"                          , EDM.begin);
-        def.put("end"                            , EDM.end);
-        def.put("edmWasPresentAt"                , EDM.wasPresentAt);
-        def.put("edmHasMet"                      , EDM.hasMet);
-        def.put("edmIsRelatedTo"                 , EDM.isRelatedTo);
-        def.put("foafName"                       , FOAF.name);
-        def.put("dcDate"                         , DC.date);
-        def.put("dcIdentifier"                   , DC.identifier);
-        def.put("hasPart"                        , DCTerms.hasPart);
-        def.put("isPartOf"                       , DCTerms.isPartOf);
-        def.put("rdaGr2BiographicalInformation"  , RDAGR2.biographicalInformation);
-        def.put("rdaGr2DateOfBirth"              , RDAGR2.dateOfBirth);
-        def.put("rdaGr2DateOfDeath"              , RDAGR2.dateOfDeath);
-        def.put("rdaGr2DateOfEstablishment"      , RDAGR2.dateOfEstablishment);
-        def.put("rdaGr2DateOfTermination"        , RDAGR2.dateOfTermination);
-        def.put("rdaGr2Gender"                   , RDAGR2.gender);
-        def.put("rdaGr2PlaceOfBirth"             , RDAGR2.placeOfBirth);
-        def.put("rdaGr2PlaceOfDeath"             , RDAGR2.placeOfDeath);
-        def.put("rdaGr2ProfessionOrOccupation"   , RDAGR2.professionOrOccupation);
-        def.put("owlSameAs"                      , OWL.sameAs);
+        def.put("prefLabel"                      , newLiteral(SKOS.prefLabel));
+        def.put("altLabel"                       , newLiteral(SKOS.altLabel));
+        def.put("hiddenLabel"                    , newLiteral(SKOS.hiddenLabel)); //Deprecated
+        def.put("note"                           , newLiteral(SKOS.note));
+        def.put("dcDate"                         , newProp(DC.date));
+        def.put("dcIdentifier"                   , newLiteral(DC.identifier));
+        def.put("hasPart"                        , newRef(DCTerms.hasPart));
+        def.put("isPartOf"                       , newRef(DCTerms.isPartOf));
+        def.put("begin"                          , newLiteral(EDM.begin));
+        def.put("end"                            , newLiteral(EDM.end));
+        def.put("edmWasPresentAt"                , newRef(EDM.wasPresentAt));
+        def.put("edmHasMet"                      , newRef(EDM.hasMet));
+        def.put("edmIsRelatedTo"                 , newRef(EDM.isRelatedTo));
+        def.put("foafName"                       , newLiteral(FOAF.name));
+        def.put("rdaGr2BiographicalInformation"  , newLiteral(RDAGR2.biographicalInformation));
+        def.put("rdaGr2DateOfBirth"              , newLiteral(RDAGR2.dateOfBirth));
+        def.put("rdaGr2DateOfDeath"              , newLiteral(RDAGR2.dateOfDeath));
+        def.put("rdaGr2DateOfEstablishment"      , newLiteral(RDAGR2.dateOfEstablishment));
+        def.put("rdaGr2DateOfTermination"        , newLiteral(RDAGR2.dateOfTermination));
+        def.put("rdaGr2Gender"                   , newLiteral(RDAGR2.gender));
+        def.put("rdaGr2PlaceOfBirth"             , newProp(RDAGR2.placeOfBirth));
+        def.put("rdaGr2PlaceOfDeath"             , newProp(RDAGR2.placeOfDeath));
+        def.put("rdaGr2ProfessionOrOccupation"   , newProp(RDAGR2.professionOrOccupation));
+        def.put("owlSameAs"                      , newRef(OWL.sameAs));
         def.setPrefixes(EDM.PREFIXES);
-        _definitions.put("AgentImpl", def);
-        _definitions.put("eu.europeana.corelib.solr.entity.AgentImpl", def);
+        _definitions.put(CLASS_AGENT_ABBR, def);
+        _definitions.put(CLASS_AGENT     , def);
 
         def = new MongoClassDef(EDM.Place);
-        def.put("prefLabel"                      , SKOS.prefLabel);
-        def.put("altLabel"                       , SKOS.altLabel);
-        def.put("hasPart"                        , DCTerms.hasPart);
-        def.put("isPartOf"                       , DCTerms.isPartOf);
-        def.put("note"                           , SKOS.note);
-        def.put("isNextInSequence"               , EDM.isNextInSequence);
-        def.put("latitude"                       , WGS84.latitude);
-        def.put("longitude"                      , WGS84.longitude);
-        def.put("altitude"                       , WGS84.altitude);
+        def.put("latitude"                       , newLiteral(WGS84.latitude));
+        def.put("longitude"                      , newLiteral(WGS84.longitude));
+        def.put("altitude"                       , newLiteral(WGS84.altitude));
         //def.put("lat"                            , WGS84.latitude);
         //def.put("long"                           , WGS84.longitude);
         //def.put("alt"                            , WGS84.altitude);
-        def.put("owlSameAs"                      , OWL.sameAs);
+        def.put("prefLabel"                      , newLiteral(SKOS.prefLabel));
+        def.put("altLabel"                       , newLiteral(SKOS.altLabel));
+        def.put("hiddenLabel"                    , newLiteral(SKOS.hiddenLabel)); //Deprecated
+        def.put("note"                           , newLiteral(SKOS.note));
+        def.put("hasPart"                        , newRef(DCTerms.hasPart));
+        def.put("isPartOf"                       , newRef(DCTerms.isPartOf));
+        def.put("isNextInSequence"               , newRef(EDM.isNextInSequence));
+        def.put("owlSameAs"                      , newRef(OWL.sameAs));
         def.setPrefixes(EDM.PREFIXES);
-        _definitions.put("PlaceImpl", def);
-        _definitions.put("eu.europeana.corelib.solr.entity.PlaceImpl", def);
+        _definitions.put(CLASS_PLACE_ABBR, def);
+        _definitions.put(CLASS_PLACE     , def);
 
         def = new MongoClassDef(EDM.TimeSpan);
-        def.put("prefLabel"                      , SKOS.prefLabel);
-        def.put("altLabel"                       , SKOS.altLabel);
-        def.put("note"                           , SKOS.note);
-        def.put("begin"                          , EDM.begin);
-        def.put("end"                            , EDM.end);
-        def.put("hasPart"                        , DCTerms.hasPart);
-        def.put("isPartOf"                       , DCTerms.isPartOf);
-        def.put("isNextInSequence"               , EDM.isNextInSequence);
-        def.put("owlSameAs"                      , OWL.sameAs);
+        def.put("prefLabel"                      , newLiteral(SKOS.prefLabel));
+        def.put("altLabel"                       , newLiteral(SKOS.altLabel));
+        def.put("hiddenLabel"                    , newLiteral(SKOS.hiddenLabel)); //Deprecated
+        def.put("note"                           , newLiteral(SKOS.note));
+        def.put("begin"                          , newLiteral(EDM.begin));
+        def.put("end"                            , newLiteral(EDM.end));
+        def.put("hasPart"                        , newRef(DCTerms.hasPart));
+        def.put("isPartOf"                       , newRef(DCTerms.isPartOf));
+        def.put("isNextInSequence"               , newRef(EDM.isNextInSequence));
+        def.put("owlSameAs"                      , newRef(OWL.sameAs));
         def.setPrefixes(EDM.PREFIXES);
-        _definitions.put("TimespanImpl", def);
-        _definitions.put("eu.europeana.corelib.solr.entity.TimespanImpl", def);
+        _definitions.put(CLASS_TIMESPAN_ABBR, def);
+        _definitions.put(CLASS_TIMESPAN     , def);
 
         def = new MongoClassDef(SKOS.Concept);
-        def.put("prefLabel"                      , SKOS.prefLabel);
-        def.put("altLabel"                       , SKOS.altLabel);
-        def.put("note"                           , SKOS.note);
-        def.put("broader"                        , SKOS.broader);
-        def.put("narrower"                       , SKOS.narrower);
-        def.put("related"                        , SKOS.related);
-        def.put("broadMatch"                     , SKOS.broadMatch);
-        def.put("narrowMatch"                    , SKOS.narrowMatch);
-        def.put("relatedMatch"                   , SKOS.relatedMatch);
-        def.put("exactMatch"                     , SKOS.exactMatch);
-        def.put("closeMatch"                     , SKOS.closeMatch);
-        def.put("notation"                       , SKOS.notation);
-        def.put("owlSameAs"                      , OWL.sameAs);
+        def.put("prefLabel"                      , newLiteral(SKOS.prefLabel));
+        def.put("altLabel"                       , newLiteral(SKOS.altLabel));
+        def.put("hiddenLabel"                    , newLiteral(SKOS.hiddenLabel)); //Deprecated
+        def.put("note"                           , newLiteral(SKOS.note));
+        def.put("broader"                        , newRef(SKOS.broader));
+        def.put("narrower"                       , newRef(SKOS.narrower));
+        def.put("related"                        , newRef(SKOS.related));
+        def.put("broadMatch"                     , newRef(SKOS.broadMatch));
+        def.put("narrowMatch"                    , newRef(SKOS.narrowMatch));
+        def.put("relatedMatch"                   , newRef(SKOS.relatedMatch));
+        def.put("exactMatch"                     , newRef(SKOS.exactMatch));
+        def.put("closeMatch"                     , newRef(SKOS.closeMatch));
+        def.put("notation"                       , newLiteral(SKOS.notation));
+        def.put("inScheme"                       , newRef(SKOS.inScheme));
+        def.put("owlSameAs"                      , newRef(OWL.sameAs));
         def.setPrefixes(EDM.PREFIXES);
-        _definitions.put("ConceptImpl", def);
-        _definitions.put("eu.europeana.corelib.solr.entity.ConceptImpl", def);
+        _definitions.put(CLASS_CONCEPT_ABBR, def);
+        _definitions.put(CLASS_CONCEPT     , def);
     }
 
     public static MongoClassDef getDefinition(String name)
     {
         return _definitions.get(name);
     }
-
-    public static RDFDatatype getDatatype(Property p)
-    {
-        return _propDatatypes.get(p);
-    }
-
 
     private Resource           _type;
     private Map<String,String> _prefixes = new HashMap();
@@ -303,6 +317,138 @@ public class MongoClassDef extends HashMap<String,Property>
         for ( String prefix : _prefixes.keySet() )
         {
             model.setNsPrefix(prefix, _prefixes.get(prefix));
+        }
+    }
+
+    private static PropertyDef newProp(Property p)
+    {
+        return new PropertyDef(p, null);
+    }
+
+    private static PropertyDef newProp(Property p, ValueProcessor processor)
+    {
+        return new PropertyDef(p, processor);
+    }
+
+    private static PropertyDef newDT(Property p, RDFDatatype dt)
+    {
+        return new DatatypeProp(p, dt, null);
+    }
+
+    private static PropertyDef newDT(Property p, RDFDatatype dt
+                                   , ValueProcessor ps)
+    {
+        return new DatatypeProp(p, dt, ps);
+    }
+
+    private static PropertyDef newLiteral(Property p)
+    {
+        return new LiteralProp(p, null);
+    }
+
+    private static PropertyDef newRef(Property p)
+    {
+        return new ReferenceProp(p);
+    }
+
+
+    static interface ValueProcessor
+    {
+        public Object process(Object o);
+    }
+
+    static class OrientationProcessor implements ValueProcessor
+    {
+        @Override
+        public Object process(Object o)
+        {
+            return ( o.toString().toLowerCase() );
+        }
+    }
+
+    static class PropertyDef
+    {
+        protected Property       _prop;
+        protected ValueProcessor _ps;
+
+        public PropertyDef(Property prop, ValueProcessor ps)
+        {
+            _prop = prop;
+            _ps   = ps;
+        }
+
+        public Property getProperty()       { return _prop; }
+
+        public void newValue(Object o, ParserContext c)
+        {
+            createRef(o.toString(), c);
+        }
+
+        protected Object  process(Object o)
+        {
+            return ( _ps == null ? o : _ps.process(o) );
+        }
+
+        protected void createRef(String str, ParserContext c)
+        {
+            if ( !c.isResource(str.trim()) ) { createLiteral(str, c); return; }
+            c.getResource().addProperty(_prop, c.getModel().getResource(str));
+        }
+
+        protected void createLiteral(String str, ParserContext c)
+        {
+            Model  m = c.getModel();
+            if ( c.hasLang() ) {
+                c.getResource().addProperty(_prop
+                                          , m.createLiteral(str, c.getLang()));
+                return;
+            }
+
+            c.getResource().addProperty(_prop, m.createLiteral(str));
+        }
+    }
+
+    static class ReferenceProp extends PropertyDef
+    {
+        public ReferenceProp(Property p) { super(p, null); }
+
+        @Override
+        public void newValue(Object o, ParserContext c)
+        {
+            if ( o == null ) { return; }
+            createRef(o.toString(), c);
+        }
+    }
+
+    static class LiteralProp extends PropertyDef
+    {
+        public LiteralProp(Property p, ValueProcessor ps) { super(p, ps); }
+
+        @Override
+        public void newValue(Object o, ParserContext c)
+        {
+            if ( o == null ) { return; }
+            createLiteral(o.toString(), c);
+        }
+    }
+
+    static class DatatypeProp extends PropertyDef
+    {
+        protected RDFDatatype _dt;
+
+        public DatatypeProp(Property p, RDFDatatype dt, ValueProcessor pc)
+        {
+            super(p, pc);
+            _dt = dt;
+        }
+
+        @Override
+        public void newValue(Object o, ParserContext c)
+        {
+            if ( o == null ) { return; }
+
+            Literal l = c.getModel().createTypedLiteral(process(o), _dt);
+            c.getResource().addProperty(_prop, l);
         }
     }
 }

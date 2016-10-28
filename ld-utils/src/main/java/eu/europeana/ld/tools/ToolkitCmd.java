@@ -3,6 +3,7 @@
  */
 package eu.europeana.ld.tools;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintStream;
@@ -68,6 +69,14 @@ public abstract class ToolkitCmd
 
     protected abstract void process(CommandLine line) throws Throwable;
 
+    protected File getOutputFile(CommandLine line)
+    {
+        File file = new File(line.getOptionValue("out"));
+        File dir  = file.getParentFile();
+        if ( dir != null && !dir.exists() ) { dir.mkdirs(); }
+        return file;
+    }
+
     protected void printUsage(Options opts)
     {
         String name = getProperty("info.name");
@@ -99,6 +108,16 @@ public abstract class ToolkitCmd
                      , props.getProperty("info.option.silent")))
             .addOption(new Option("help"
                      , props.getProperty("info.option.help")));
+        return opts;
+    }
+
+    public static Options addOutputOptions(Options opts, Properties props)
+    {
+        opts.addOption(OptionBuilder.withArgName("out")
+                .hasArg()
+                .withDescription(props.getProperty("info.option.out"))
+                .isRequired()
+                .create("out"));
         return opts;
     }
 }

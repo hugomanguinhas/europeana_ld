@@ -4,6 +4,7 @@
 package eu.europeana.ld.mongo;
 
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 import java.util.Properties;
 
@@ -18,6 +19,8 @@ import org.bson.Document;
 
 import eu.europeana.ld.edm.EBUCORE;
 import eu.europeana.ld.harvester.LDHarvester;
+import eu.europeana.ld.iri.IRIChecker;
+import eu.europeana.ld.mongo.MongoClassDef.PropertyDef;
 
 /**
  * @author Hugo Manguinhas <hugo.manguinhas@europeana.eu>
@@ -32,7 +35,8 @@ public class MongoEDMParser
                                                       , "edmPreviewNoDistribute"
                                                       , "webResources"
                                                       , "fileFormat");
-    private static String DATA_NS = "http://data.europeana.eu";
+    private static String     DATA_NS = "http://data.europeana.eu";
+    private static IRIChecker CHECKER = new IRIChecker();
 
     protected Properties _props;
 
@@ -89,7 +93,7 @@ public class MongoEDMParser
         {
             if ( filter(key) ) { continue; }
 
-            Property p = def.get(key);
+            PropertyDef p = def.get(key);
             if ( p == null ) { 
                 _log.error("Unsupported label: " + key
                          + " for definition: " + def.getType().getLocalName());
@@ -110,12 +114,13 @@ public class MongoEDMParser
     {
         if ( o == null             ) { return; }
         if ( o instanceof String   ) { parseString((String)o, ctxt); return;  }
-        if ( o instanceof Boolean  ) { ctxt.newBoolean((Boolean)o);  return;  }
-        if ( o instanceof Number   ) { ctxt.newNumber((Number)o);    return;  }
         if ( o instanceof List     ) { parseArray((List)o, ctxt);    return;  }
         if ( o instanceof Document ) { parseDoc((Document)o, ctxt);  return;  }
 
-        System.err.println("Unknown object: " + o + " of type: " + o.getClass());
+        ctxt.newValue(o);
+      //if ( o instanceof Boolean  ) { ctxt.newValue((Boolean)o);    return;  }
+      //if ( o instanceof Number   ) { ctxt.newValue((Number)o);     return;  }
+      //System.err.println("Unknown object: " + o + " of type: " + o.getClass());
     }
 
     private void parseDoc(Document d, ParserContext ctxt)
@@ -128,9 +133,8 @@ public class MongoEDMParser
     {
         if ( str.trim().isEmpty() ) { return; }
 
-             if ( isRelativeResource(str) ) { ctxt.newResource(DATA_NS + str); }
-        else if ( isResource(str)         ) { ctxt.newResource(str);           }
-        else                                { ctxt.newLiteral(str);            }
+        if ( isRelativeResource(str) ) { ctxt.newValue(DATA_NS + str); }
+        else                           { ctxt.newValue(str);           }
     }
 
     private void parseArray(List list, ParserContext ctxt)
@@ -160,11 +164,6 @@ public class MongoEDMParser
              || uri.startsWith("/proxy/"));
     }
 
-    private boolean isResource(String uri)
-    {
-        return (uri.startsWith("http://") || uri.startsWith("https://"));
-    }
-
     private boolean isSingleton(Document doc)
     {
         return doc.containsKey("def");
@@ -177,10 +176,10 @@ public class MongoEDMParser
 
     protected class ParserContext
     {
-        private MongoClassDef  _def;
-        private Resource       _resource;
-        private Property       _property;
-        private String         _lang;
+        private MongoClassDef      _def;
+        private Resource           _resource;
+        private PropertyDef         _property;
+        private String             _lang;
 
         public ParserContext(Resource r, MongoClassDef def)
         {
@@ -188,29 +187,17 @@ public class MongoEDMParser
             _def      = def;
         }
 
-        public Model getModel()              { return _resource.getModel(); }
-        public MongoClassDef getDefinition() { return _def;   }
+        public boolean       hasLang()       { return _lang != null;        }
+        public MongoClassDef getDefinition() { return _def;                 }
+        public String        getLang()       { return _lang;                }
+        public Model         getModel()      { return _resource.getModel(); }
+        public Resource      getResource()   { return _resource;            }
 
-        public void setProperty(Property p) { _property = p; }
-        public void setLang(String lang)    { _lang = lang;  }
+        public void setProperty(PropertyDef p) { _property = p; }
+        public void setLang(String lang)       { _lang = lang;  }
 
-        public void newLiteral(String str)
-        {
-            if ( _property == EBUCORE.orientation ) { str = str.toLowerCase(); }
 
-            Model m = _resource.getModel();
-            if ( _lang != null ) {
-                _resource.addProperty(_property
-                                    , m.createLiteral(str, _lang));
-                return;
-            }
-
-            RDFDatatype type = MongoClassDef.getDatatype(_property);
-            Literal     l    = type == null ? m.createLiteral(str)
-                                            : m.createTypedLiteral(str, type);
-            _resource.addProperty(_property, l);
-        }
-
+/*
         public void newBoolean(Boolean b)
         {
             if ( b == null ) { return; }
@@ -230,13 +217,15 @@ public class MongoEDMParser
                                             : model.createTypedLiteral(n, type);
             _resource.addProperty(_property, l);
         }
-
-        public void newResource(String iri)
+*/
+        public boolean isResource(String str)
         {
-            if ( iri == null ) { return; }
+            return CHECKER.validate(str.trim());
+        }
 
-            Model model = _resource.getModel();
-            _resource.addProperty(_property, model.getResource(iri));
+        public void newValue(Object o)
+        {
+            _property.newValue(o, this);
         }
     }
 }

@@ -204,9 +204,16 @@ public class EDMTurtleWriter
     private void writeValue(Resource r) throws IOException
     {
         String uri  = r.getURI();
-        String name = getQName(r);
-        if ( uri.equals(name) ) { writeAsIRI(uri);  }
-        else                    { _ps.append(name); }
+        for ( Map.Entry<String, String> entry : _decl.entrySet() )
+        {
+            String value = entry.getValue();
+            if ( !uri.startsWith(value) ) { continue; }
+
+            _ps.append(entry.getKey() + ":" + uri.substring(value.length()));
+            return;
+        }
+
+        writeAsIRI(uri);
     }
 
     private void writeValue(Literal l) throws IOException
@@ -333,7 +340,7 @@ public class EDMTurtleWriter
       //File src = new File("D:\\work\\data\\virtuoso\\virtuoso_test.ttl");
       //File dst = new File("D:\\work\\data\\virtuoso\\virtuoso_test_new.ttl");
         File src = new File("D:\\work\\data\\dump\\44_201-EDM.ttl");
-        File dst = new File("D:\\work\\data\\dump\\44_201-EDM.ttl.gz");
+        File dst = new File("D:\\work\\data\\dump\\44_201-EDM_new.ttl");
 
         Model m = ModelFactory.createDefaultModel();
         m.read(new FileReader(src), null, "TTL");

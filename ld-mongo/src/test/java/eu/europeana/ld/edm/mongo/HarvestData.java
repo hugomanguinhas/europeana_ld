@@ -8,6 +8,7 @@ import java.io.IOException;
 
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.riot.Lang;
 
 import com.mongodb.MongoClient;
@@ -17,6 +18,7 @@ import eu.europeana.ld.edm.EDM;
 import eu.europeana.ld.edm.ORE;
 import eu.europeana.ld.edm.io.EDMDataFileNaming;
 import eu.europeana.ld.edm.io.EDMXMLWriter;
+import eu.europeana.ld.harvester.HarvesterCallback;
 import eu.europeana.ld.harvester.StoreCallback;
 import eu.europeana.ld.jena.JenaUtils;
 import eu.europeana.ld.mongo.MongoEDMHarvester;
@@ -35,8 +37,8 @@ public class HarvestData
 {
     public static final void main(String[] args) throws IOException
     {
-        MongoClient   client = new MongoClient("144.76.218.178", 27017);
-        MongoDatabase db     = client.getDatabase("europeana");
+        MongoClient   cli = new MongoClient("144.76.218.178", 27017);
+        MongoDatabase db  = cli.getDatabase("europeana");
 
         /*
         File dst = new File("D:/work/data/mongo/aggregation.xml");
@@ -56,18 +58,25 @@ public class HarvestData
         cb.finish();
         */
 
-        MongoEDMHarvester harvester = new MongoEDMHarvester(db, null, true);
-        File dstZip = new File("D:/work/data/mongo/dataset.zip");
-        LDStore store = new ZipLDStore(dstZip, new EDMXMLWriter()
-                      , Lang.RDFXML, new EDMDataFileNaming());
-        StoreCallback cb = new StoreCallback(store);
-        cb.begin();
-        try { 
-            //harvester.harvest("http://data.europeana.eu/item/2063602/SWE_280_001", cb);
-            harvester.harvestBySearch("{'about': { $regex: '^/2063602/.*' }}", cb);
+        EDMXMLWriter writer = new EDMXMLWriter();
+        MongoEDMHarvester harvester = new MongoEDMHarvester(cli, db, null);
+
+        HarvesterCallback cb = new HarvesterCallback() {
+
+            @Override
+            public void handle(Resource r, Status s)
+            {
+                try { writer.write(r.getModel(), System.out); }
+                catch (IOException e) {}
+            }
+        };
+        try {
+            harvester.harvest("http://data.europeana.eu/item/2063602/SWE_280_001", cb);
+            //harvester.harvest("http://data.europeana.eu/item/2048329/providedCHO_SE_SSA_1491_C_I_1__", cb);
+            //harvester.harvestBySearch("{'about': { $regex: '^/2063602/.*' }}", cb);
         }
         catch (Throwable t) { t.printStackTrace(); }
-        finally { client.close(); cb.finish(); }
+        finally { cli.close(); }
 
         //ModelFactory.createDefaultModel().read("d:/work/data/entities/agents.xml");
     }

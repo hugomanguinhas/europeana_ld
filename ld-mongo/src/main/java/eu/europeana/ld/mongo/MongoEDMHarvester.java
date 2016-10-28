@@ -9,6 +9,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeSet;
 
 import com.google.common.base.Charsets;
 import com.google.common.hash.HashCode;
@@ -18,7 +19,12 @@ import com.google.common.hash.Hashing;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.RDFNode;
+import org.apache.jena.rdf.model.ResIterator;
 import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.rdf.model.Statement;
+import org.apache.jena.rdf.model.StmtIterator;
+import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.SKOS;
 import org.apache.log4j.Logger;
 import org.bson.Document;
@@ -40,6 +46,7 @@ import eu.europeana.ld.edm.ORE;
 import eu.europeana.ld.harvester.HarvesterCallback;
 import eu.europeana.ld.harvester.LDHarvester;
 import eu.europeana.ld.harvester.HarvesterCallback.Status;
+import static eu.europeana.ld.mongo.MongoClassDef.*;
 
 /**
  * @author Hugo Manguinhas <hugo.manguinhas@europeana.eu>
@@ -50,8 +57,7 @@ public class MongoEDMHarvester implements LDHarvester
     private static Logger _log = Logger.getLogger(LDHarvester.class);
     private static Map<Resource,String> _tableMap = new HashMap();
 
-    private static String               CLASS_AGGREGATION
-        = "eu.europeana.corelib.solr.entity.AggregationImpl";
+    private static int DEF_BATCHSIZE = 100;
 
     static {
         _tableMap.put(EDM.Agent               , "Agent");
@@ -178,7 +184,8 @@ public class MongoEDMHarvester implements LDHarvester
 
         Status status = new Status(col.count(), 0);
 
-        MongoCursor<Document> iter = col.find().iterator();
+        MongoCursor<Document> iter = col.find().batchSize(DEF_BATCHSIZE)
+                                        .iterator();
         try {
             while ( iter.hasNext() )
             {
@@ -187,7 +194,7 @@ public class MongoEDMHarvester implements LDHarvester
                 String id = doc.getString("about");
 
                 Resource r = isRecord(doc) ? parseRecord(doc, model)
-                                             : _parser.parse(doc, model);
+                                           : _parser.parse(doc, model);
                 logSuccess(id, status);
 
                 if ( cb != null ) { cb.handle(r, status); }
@@ -217,20 +224,14 @@ public class MongoEDMHarvester implements LDHarvester
             String id = normalizeURI(uri);
             filter.put("about", id);
 
-            MongoCursor<Document> iter   = col.find(filter).iterator();
-            try {
-                while ( iter.hasNext() )
-                {
-                    Document doc = iter.next();
-                    Resource r   = isRecord(doc) ? parseRecord(doc, model)
-                                                 : _parser.parse(doc, model);
-                    logSuccess(id, status);
+            Document doc = col.find(filter).first();
+            if ( doc == null ) { logNotFound(id, status); continue; }
 
-                    if ( cb != null ) { cb.handle(r, status); }
-                }
-                logNotFound(id, status);
-            }
-            finally { iter.close(); }
+            Resource r   = isRecord(doc) ? parseRecord(doc, model)
+                                         : _parser.parse(doc, model);
+            logSuccess(id, status);
+
+            if ( cb != null ) { cb.handle(r, status); }
         }
         return model;
     }
@@ -242,7 +243,8 @@ public class MongoEDMHarvester implements LDHarvester
 
         Status status = new Status(col.count(filter), 0);
 
-        MongoCursor<Document> iter = col.find(filter).iterator();
+        MongoCursor<Document> iter = col.find(filter)
+                                        .batchSize(DEF_BATCHSIZE).iterator();
         try {
             while ( iter.hasNext() )
             {
@@ -275,24 +277,16 @@ public class MongoEDMHarvester implements LDHarvester
         String id     = normalizeURI(uri);
         Status status = new Status(1, 1);
 
-        BasicDBObject         filter = new BasicDBObject("about", id);
-        MongoCursor<Document> iter   = col.find(filter).iterator();
-        try {
-            if ( iter.hasNext() )
-            {
-                Document doc = iter.next();
-                Resource r   = isRecord(doc) ? parseRecord(doc, model)
-                                             : _parser.parse(doc, model);
-                logSuccess(id, status);
+        BasicDBObject filter = new BasicDBObject("about", id);
+        Document      doc    = col.find(filter).first();
+        if ( doc == null ) { logNotFound(id, status); return null; }
 
-                if ( cb != null ) { cb.handle(r, status); }
-                return r;
-            }
-            logNotFound(id, status);
-        }
-        finally { iter.close(); }
+        Resource r   = isRecord(doc) ? parseRecord(doc, model)
+                                     : _parser.parse(doc, model);
+        logSuccess(id, status);
 
-        return null;
+        if ( cb != null ) { cb.handle(r, status); }
+        return r;
     }
 
 
@@ -315,6 +309,8 @@ public class MongoEDMHarvester implements LDHarvester
                                        , "concepts", "places", "agents"
                                        , "timespans");
         for ( Document nested : list ) { parseNestedEntity(nested, model); }
+
+        assureReferentialIntegrity(model);
 
         String id = "http://data.europeana.eu/item" + doc.getString("about");
         return model.getResource(id);
@@ -356,6 +352,33 @@ public class MongoEDMHarvester implements LDHarvester
     private void parseValue(Resource r, Property p, List list)
     {
         for ( Object o : list ) { parseValue(r, p, o); }
+    }
+
+
+    /***************************************************************************
+     * Private Methods - Referential Integrity
+     **************************************************************************/
+
+    public void assureReferentialIntegrity(Model model)
+    {
+        Collection<String> list = new TreeSet();
+        ResIterator iter = model.listResourcesWithProperty(RDF.type);
+        try {
+            while ( iter.hasNext() ) { list.add(iter.next().getURI()); }
+        }
+        finally { iter.close(); }
+
+        for ( Statement stmt :  model.listStatements().toList() )
+        {
+            RDFNode obj = stmt.getObject();
+            if ( !obj.isLiteral()      ) { continue; }
+
+            String value = obj.asLiteral().getString();
+            if ( !list.contains(value) ) { continue; }
+
+            model.add(stmt.getSubject(), stmt.getPredicate(), model.getResource(value));
+            model.remove(stmt);
+        }
     }
 
 
@@ -459,15 +482,7 @@ public class MongoEDMHarvester implements LDHarvester
     private Document fetch(MongoCollection<Document> col, Object id)
     {
         if (col == null) { return null; }
-
-        BasicDBObject         key  = new BasicDBObject("_id", id);
-        MongoCursor<Document> iter = col.find(key).iterator();
-        try {
-            if ( iter.hasNext() ) { return iter.next(); }
-        }
-        finally { iter.close(); }
-
-        return null;
+        return col.find(new BasicDBObject("_id", id)).first();
     }
 
 
