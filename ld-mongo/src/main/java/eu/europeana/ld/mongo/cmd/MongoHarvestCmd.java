@@ -79,6 +79,13 @@ public class MongoHarvestCmd extends ToolkitCmd
     @Override
     protected void process(CommandLine line) throws Throwable
     {
+        checkLogging(line);
+
+        MongoEDMHarvester harv = getHarvester(line, _props);
+        HarvesterCallback cb   = getCallback(line);
+
+        try     { handleCmd(harv, cb, line); }
+        finally { harv.close();              }
     }
 
     protected void checkLogging(CommandLine line)
@@ -87,29 +94,40 @@ public class MongoHarvestCmd extends ToolkitCmd
         Logger.getLogger(LDHarvester.class.getName()).setLevel(Level.OFF);
     }
 
+    protected void startHarvesting(HarvesterCallback cb)
+    {
+    }
+
+    protected void endHarvesting(HarvesterCallback cb)
+    {
+    }
+
     protected void handleCmd(MongoEDMHarvester harvester, HarvesterCallback cb
                            , CommandLine line) throws Throwable
     {
-        _ps.print("| Harvesting... ");
-        if ( line.hasOption("all") ) { harvester.harvestAll(cb); return; }
-
-        if ( line.hasOption("uris") ) {
-            List<String> uris = Arrays.asList(line.getOptionValues("uris"));
-            harvester.harvest(uris, cb);
-            return;
+        startHarvesting(cb);
+        try {
+            if ( line.hasOption("all") ) { harvester.harvestAll(cb); return; }
+    
+            if ( line.hasOption("uris") ) {
+                List<String> uris = Arrays.asList(line.getOptionValues("uris"));
+                harvester.harvest(uris, cb);
+                return;
+            }
+    
+            if ( line.hasOption("file") ) {
+                File         file = new File(line.getOptionValue("file"));
+                List<String> uris = FileUtils.readLines(file);
+                harvester.harvest(uris, cb);
+                return;
+            }
+    
+            if ( line.hasOption("search") ) {
+                harvester.harvestBySearch(line.getOptionValue("search"), cb);
+                return;
+            }
         }
-
-        if ( line.hasOption("file") ) {
-            File         file = new File(line.getOptionValue("file"));
-            List<String> uris = FileUtils.readLines(file);
-            harvester.harvest(uris, cb);
-            return;
-        }
-
-        if ( line.hasOption("search") ) {
-            harvester.harvestBySearch(line.getOptionValue("search"), cb);
-            return;
-        }
+        finally { endHarvesting(cb); }
     }
 
     public static Options addMongoOptions(Options opts, Properties prop)
@@ -152,5 +170,11 @@ public class MongoHarvestCmd extends ToolkitCmd
         MongoClient   c  = getMongoClient(line, prop);
         MongoDatabase db = getMongoDatabase(c, line, prop);
         return new MongoEDMHarvester(c, db, null);
+    }
+
+    protected HarvesterCallback getCallback(CommandLine line)
+    {
+        return null;
+//        return new WriterCallback(writer);
     }
 }

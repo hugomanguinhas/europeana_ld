@@ -71,7 +71,7 @@ public class HarvestData
             }
         };
         try {
-            harvester.harvest("http://data.europeana.eu/item/2063602/SWE_280_001", cb);
+            harvester.harvest("http://data.europeana.eu/item/2048329/providedCHO_SE_SSA_0005E_A_I_a_1_27_", cb);
             //harvester.harvest("http://data.europeana.eu/item/2048329/providedCHO_SE_SSA_1491_C_I_1__", cb);
             //harvester.harvestBySearch("{'about': { $regex: '^/2063602/.*' }}", cb);
         }

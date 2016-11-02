@@ -18,14 +18,18 @@ import org.apache.jena.vocabulary.DCTerms;
 import org.apache.jena.vocabulary.OWL;
 import org.apache.jena.vocabulary.SKOS;
 
+import eu.europeana.ld.edm.CC;
 import eu.europeana.ld.edm.EBUCORE;
 import eu.europeana.ld.edm.EDM;
+import eu.europeana.ld.edm.ODRL;
 import eu.europeana.ld.edm.ORE;
 import eu.europeana.ld.edm.RDAGR2;
 import eu.europeana.ld.edm.SVCS;
 import eu.europeana.ld.edm.WGS84;
 import eu.europeana.ld.mongo.MongoClassDef.PropertyDef;
 import eu.europeana.ld.mongo.MongoEDMParser.ParserContext;
+
+import static eu.europeana.ld.iri.IRISupport.*;
 
 /**
  * @author Hugo Manguinhas <hugo.manguinhas@europeana.eu>
@@ -53,6 +57,8 @@ public class MongoClassDef extends HashMap<String,PropertyDef>
         = "eu.europeana.corelib.solr.entity.TimespanImpl";
     public static String CLASS_CONCEPT
         = "eu.europeana.corelib.solr.entity.ConceptImpl";
+    public static String CLASS_LICENSE
+        = "eu.europeana.corelib.solr.entity.LicenseImpl";
 
     //Abbreviations used for the enrichment database
     public static String CLASS_PLACE_ABBR     = "PlaceImpl";
@@ -81,7 +87,6 @@ public class MongoClassDef extends HashMap<String,PropertyDef>
         def.put("edmUnstored"                    , newLiteral(EDM.unstored));
         def.setPrefixes(EDM.PREFIXES);
         _definitions.put(CLASS_AGGREGATION, def);
-
 
         def = new MongoClassDef(EDM.EuropeanaAggregation);
         def.put("aggregatedCHO"                  , newRef(EDM.aggregatedCHO));
@@ -187,6 +192,8 @@ public class MongoClassDef extends HashMap<String,PropertyDef>
         def.put("svcsHasService"                 , newRef(SVCS.has_service)); //Check?!?
 
         //Technical Metadata Properties
+        def.put("resolution", new IgnoreProp());
+
         def.put("edmCodecName"                   , newLiteral(EDM.codecName));
         def.put("colorPalette"                   , newDT(EDM.componentColor, XSDDatatype.XSDhexBinary));
         def.put("colorSpace"                     , newLiteral(EDM.hasColorSpace));
@@ -202,6 +209,11 @@ public class MongoClassDef extends HashMap<String,PropertyDef>
         def.put("sampleRate"                     , newDT(EBUCORE.sampleRate, XSDDatatype.XSDinteger));
         def.put("sampleSize"                     , newDT(EBUCORE.sampleSize, XSDDatatype.XSDinteger));
         def.put("width"                          , newDT(EBUCORE.width, XSDDatatype.XSDinteger));
+
+        //alias
+        def.put("codec"   , def.get("edmCodecName"));
+        def.put("channels", def.get("audioChannelNumber"));
+        def.put("bitDepth", def.get("sampleSize"));
 
         def.setPrefixes(EDM.PREFIXES);
         _definitions.put(CLASS_WEBRESOURCE, def);
@@ -261,6 +273,7 @@ public class MongoClassDef extends HashMap<String,PropertyDef>
         def.put("note"                           , newLiteral(SKOS.note));
         def.put("begin"                          , newLiteral(EDM.begin));
         def.put("end"                            , newLiteral(EDM.end));
+        def.put("dctermsHasPart"                 , newRef(DCTerms.hasPart));
         def.put("hasPart"                        , newRef(DCTerms.hasPart));
         def.put("isPartOf"                       , newRef(DCTerms.isPartOf));
         def.put("isNextInSequence"               , newRef(EDM.isNextInSequence));
@@ -288,6 +301,12 @@ public class MongoClassDef extends HashMap<String,PropertyDef>
         def.setPrefixes(EDM.PREFIXES);
         _definitions.put(CLASS_CONCEPT_ABBR, def);
         _definitions.put(CLASS_CONCEPT     , def);
+
+        def = new MongoClassDef(CC.License);
+        def.put("odrlInheritFrom"                , newProp(ODRL.inheritFrom));
+        def.put("ccDeprecatedOn"                 , newRef(CC.deprecatedOn));
+        def.setPrefixes(EDM.PREFIXES);
+        _definitions.put(CLASS_LICENSE, def);
     }
 
     public static MongoClassDef getDefinition(String name)
@@ -391,7 +410,7 @@ public class MongoClassDef extends HashMap<String,PropertyDef>
 
         protected void createRef(String str, ParserContext c)
         {
-            if ( !c.isResource(str.trim()) ) { createLiteral(str, c); return; }
+            if ( !isAbsoluteIRI(str.trim()) ) { createLiteral(str, c); return; }
             c.getResource().addProperty(_prop, c.getModel().getResource(str));
         }
 
@@ -406,6 +425,14 @@ public class MongoClassDef extends HashMap<String,PropertyDef>
 
             c.getResource().addProperty(_prop, m.createLiteral(str));
         }
+    }
+
+    static class IgnoreProp extends PropertyDef
+    {
+        public IgnoreProp() { super(null, null); }
+
+        @Override
+        public void newValue(Object o, ParserContext c) {}
     }
 
     static class ReferenceProp extends PropertyDef

@@ -4,22 +4,16 @@
 package eu.europeana.ld.mongo;
 
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
 import java.util.Properties;
 
-import org.apache.jena.datatypes.RDFDatatype;
-import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.vocabulary.RDF;
 import org.apache.log4j.Logger;
 import org.bson.Document;
 
-import eu.europeana.ld.edm.EBUCORE;
 import eu.europeana.ld.harvester.LDHarvester;
-import eu.europeana.ld.iri.IRIChecker;
 import eu.europeana.ld.mongo.MongoClassDef.PropertyDef;
 
 /**
@@ -36,7 +30,6 @@ public class MongoEDMParser
                                                       , "webResources"
                                                       , "fileFormat");
     private static String     DATA_NS = "http://data.europeana.eu";
-    private static IRIChecker CHECKER = new IRIChecker();
 
     protected Properties _props;
 
@@ -195,33 +188,6 @@ public class MongoEDMParser
 
         public void setProperty(PropertyDef p) { _property = p; }
         public void setLang(String lang)       { _lang = lang;  }
-
-
-/*
-        public void newBoolean(Boolean b)
-        {
-            if ( b == null ) { return; }
-
-            Model model = _resource.getModel();
-            _resource.addProperty(_property
-                                , model.createLiteral(b ? "true" : "false"));
-        }
-
-        public void newNumber(Number n)
-        {
-            if ( n == null ) { return; }
-
-            Model model = _resource.getModel();
-            RDFDatatype type = MongoClassDef.getDatatype(_property);
-            Literal     l    = type == null ? model.createLiteral(n.toString())
-                                            : model.createTypedLiteral(n, type);
-            _resource.addProperty(_property, l);
-        }
-*/
-        public boolean isResource(String str)
-        {
-            return CHECKER.validate(str.trim());
-        }
 
         public void newValue(Object o)
         {

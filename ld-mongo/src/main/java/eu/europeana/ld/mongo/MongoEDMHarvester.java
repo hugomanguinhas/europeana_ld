@@ -9,6 +9,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeMap;
 import java.util.TreeSet;
 
 import com.google.common.base.Charsets;
@@ -46,7 +47,10 @@ import eu.europeana.ld.edm.ORE;
 import eu.europeana.ld.harvester.HarvesterCallback;
 import eu.europeana.ld.harvester.LDHarvester;
 import eu.europeana.ld.harvester.HarvesterCallback.Status;
+
+import static org.apache.jena.util.ResourceUtils.*;
 import static eu.europeana.ld.mongo.MongoClassDef.*;
+import static eu.europeana.ld.iri.IRISupport.*;
 
 /**
  * @author Hugo Manguinhas <hugo.manguinhas@europeana.eu>
@@ -66,7 +70,7 @@ public class MongoEDMHarvester implements LDHarvester
         _tableMap.put(SKOS.ConceptScheme      , "ConceptScheme");
         _tableMap.put(EDM.EuropeanaAggregation, "EuropeanaAggregation");
         _tableMap.put(EDM.Event               , "Event");
-        _tableMap.put(CC.License              , "License");
+        //_tableMap.put(CC.License              , "License");
         _tableMap.put(EDM.PhysicalThing       , "PhysicalThing");
         _tableMap.put(EDM.Place               , "Place");
         _tableMap.put(EDM.ProvidedCHO         , "ProvidedCHO");
@@ -307,13 +311,15 @@ public class MongoEDMHarvester implements LDHarvester
         List<Document> list = fetch(doc, "providedCHOs", "proxies"
                                        , "aggregations", "europeanaAggregation"
                                        , "concepts", "places", "agents"
-                                       , "timespans");
+                                       , "timespans", "licenses");
         for ( Document nested : list ) { parseNestedEntity(nested, model); }
 
-        assureReferentialIntegrity(model);
+        String   id = "http://data.europeana.eu/item" + doc.getString("about");
+        Resource r  = model.getResource(id);
 
-        String id = "http://data.europeana.eu/item" + doc.getString("about");
-        return model.getResource(id);
+        assureReferentialIntegrity(r);
+
+        return r;
     }
 
     private void parseCollectionName(Document doc, Model model)
@@ -359,14 +365,33 @@ public class MongoEDMHarvester implements LDHarvester
      * Private Methods - Referential Integrity
      **************************************************************************/
 
-    public void assureReferentialIntegrity(Model model)
+    public void assureReferentialIntegrity(Resource r)
     {
-        Collection<String> list = new TreeSet();
+        String dsIRI = getDatasetID(r.getURI());
+        Model  model = r.getModel();
+
+        Map<String,String> map = new TreeMap();
         ResIterator iter = model.listResourcesWithProperty(RDF.type);
         try {
-            while ( iter.hasNext() ) { list.add(iter.next().getURI()); }
+            while ( iter.hasNext() )
+            {
+                String iri = iter.next().getURI();
+                if ( isAbsoluteIRI(iri) ) { continue; }
+
+                String newIRI = fixRelativeIRI(iri, dsIRI);
+
+                if ( newIRI != iri )
+                {
+                    _log.info("Renaming resource <" + iri
+                            + "> to <" + newIRI + ">");
+                    renameResource(model.getResource(iri), newIRI);
+                }
+                map.put(iri, newIRI);
+            }
         }
         finally { iter.close(); }
+
+        if ( map.isEmpty() ) { return; }
 
         for ( Statement stmt :  model.listStatements().toList() )
         {
@@ -374,11 +399,35 @@ public class MongoEDMHarvester implements LDHarvester
             if ( !obj.isLiteral()      ) { continue; }
 
             String value = obj.asLiteral().getString();
-            if ( !list.contains(value) ) { continue; }
+            String iri   = map.get(value);
+            if ( iri == null ) { continue; }
 
-            model.add(stmt.getSubject(), stmt.getPredicate(), model.getResource(value));
+            model.add(stmt.getSubject(), stmt.getPredicate()
+                    , model.getResource(iri));
             model.remove(stmt);
+            _log.info("Fixed resource reference \"" + value
+                    + "\" to <" + iri + ">");
         }
+    }
+
+    private String getDatasetID(String recordIRI)
+    {
+        int i = recordIRI.lastIndexOf("/");
+        return (i > 0 ? recordIRI.substring(0, i) : recordIRI);
+    }
+
+    private String fixRelativeIRI(String iri, String dsIRI)
+    {
+        if ( iri.startsWith("/")
+          || iri.startsWith("#") ) { return dsIRI + iri; }
+        
+        if ( iri.startsWith("../") 
+          || iri.startsWith("./") ) { return dsIRI + "/" + iri; }
+
+        int i = iri.indexOf("/");
+        if ( i > 0 && iri.lastIndexOf(':', i) < 0) { return dsIRI + "/" + iri; }
+
+        return iri;
     }
 
 
@@ -419,8 +468,8 @@ public class MongoEDMHarvester implements LDHarvester
         Document docTm = fetch(_db.getCollection("WebResourceMetaInfo"), id);
         if ( docTm == null ) { return docWr; }
 
-        Document ret = appendFields(docTm, docWr
-                                  , "imageMetaInfo", "audioMetaInfo");
+        Document ret = appendFields(docTm, docWr, "imageMetaInfo"
+                                  , "audioMetaInfo", "videoMetaInfo");
         if ( !ret.containsKey("fileSize") ) {
             _log.error("Technical metadata empty for record <" + recordId
                      + ">, media resource <" + id + ">");
@@ -433,8 +482,8 @@ public class MongoEDMHarvester implements LDHarvester
     {
         for ( String field : fields )
         {
-            Object obj = src.get("imageMetaInfo");
-            if ( obj == null || !(obj instanceof Map) ) { return trg; }
+            Object obj = src.get(field);
+            if ( obj == null || !(obj instanceof Map) ) { continue; }
     
             trg.putAll((Map)obj);
         }
