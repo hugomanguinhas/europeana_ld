@@ -80,11 +80,11 @@ public class EDM
     public  static Resource[] CLASSES
         = { EDM.ProvidedCHO, ORE.Aggregation, EDM.EuropeanaAggregation
           , ORE.Proxy, EDM.WebResource
-          , EDM.Place, EDM.Agent, EDM.TimeSpan, SKOS.Concept };
+          , EDM.Place, EDM.Agent, EDM.TimeSpan, SKOS.Concept, CC.License };
 
     public static String[] NAMESPACES
         = { RDF.getURI(), RDFS.getURI(), EDM.NS, DC.NS, DCTerms.NS, FOAF.NS
-          , ORE.NS, OWL.NS, RDAGR2.NS, SKOS.getURI() };
+          , ORE.NS, OWL.NS, RDAGR2.NS, SKOS.getURI(), ODRL.NS };
 
     public static Map<String,String> PREFIXES = new HashMap();
 
@@ -105,5 +105,7 @@ public class EDM
         PREFIXES.put("ore"         , ORE.NS);
         PREFIXES.put(EBUCORE.PREFIX, EBUCORE.NS);
         PREFIXES.put("xsd"         , XSD.NS);
+        PREFIXES.put(CC.PREFIX     , CC.NS);
+        PREFIXES.put(ODRL.PREFIX   , ODRL.NS);
     }
 }
