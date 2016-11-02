@@ -21,11 +21,12 @@ import org.apache.commons.csv.CSVRecord;
  * @author Hugo Manguinhas <hugo.manguinhas@europeana.eu>
  * @since 28 Oct 2016
  */
-public class IRIChecker
+public class IRISupport
 {
-    private static Charset            UTF8    = Charset.forName("UTF-8");
-    public  static Pattern            PATTERN
-        = Pattern.compile("^([a-zA-Z][a-zA-Z+-.]*):.*$");
+    private static Charset UTF8  = Charset.forName("UTF-8");
+    private static String  P_STR = "^([a-zA-Z][a-zA-Z+-.]*):.*$";
+
+    public  static Pattern            PATTERN = Pattern.compile(P_STR);
     public  static Collection<String> SCHEMES = loadSchemes();
 
     private static Collection<String> loadSchemes()
@@ -33,7 +34,7 @@ public class IRIChecker
         Collection<String> schemes = new TreeSet<String>();
         try
         {
-            URL url = IRIChecker.class.getResource("iri.schemes.cfg");
+            URL url = IRISupport.class.getResource("iri.schemes.cfg");
             CSVParser parser = CSVParser.parse(url, UTF8, CSVFormat.EXCEL);
             int i = 0;
             for ( CSVRecord record : parser.getRecords() )
@@ -47,9 +48,14 @@ public class IRIChecker
         return schemes;
     }
 
-    public boolean validate(String iri)
+    public static boolean isAbsoluteIRI(String iri)
     {
         Matcher m = PATTERN.matcher(iri);
         return ( m.find() ? SCHEMES.contains(m.group(1)) : false );
+    }
+
+    public static boolean isRelativeIRI(String iri)
+    {
+        return false;
     }
 }
