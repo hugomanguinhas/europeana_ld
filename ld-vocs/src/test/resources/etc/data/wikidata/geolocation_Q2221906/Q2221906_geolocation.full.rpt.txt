@@ -1,0 +1,1701 @@
+
+********************************************************************************
+* RESOURCES                                                                    *
+********************************************************************************
+
+Total n. of resources: 56
+
+
+********************************************************************************
+* PROPERTIES                                                                   *
+********************************************************************************
+* This section lists the properties found for the selected resources.          *
+*                                                                              *
+* Meaning of the columns:                                                      *
+* #1: Number of resources that have at least one instance of this property     *
+* #2: Percentage against the total number of resources                         *
+* #3: The URI of the property                                                  *
+********************************************************************************
+
+Total n. of properties: 74
+
+56 (100%): http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+56 (100%): http://www.w3.org/2000/01/rdf-schema#label
+56 (100%): http://www.wikidata.org/entity/P31c
+56 (100%): http://www.wikidata.org/entity/P31s
+40 (071%): http://www.wikidata.org/entity/P17c
+40 (071%): http://www.wikidata.org/entity/P17s
+38 (068%): http://www.wikidata.org/entity/P131c
+38 (068%): http://www.wikidata.org/entity/P131s
+37 (066%): http://schema.org/description
+34 (061%): http://www.wikidata.org/entity/P625c
+34 (061%): http://www.wikidata.org/entity/P625s
+22 (039%): http://www.w3.org/2004/02/skos/core#altLabel
+17 (030%): http://www.wikidata.org/entity/P646-freebase
+17 (030%): http://www.wikidata.org/entity/P646c
+17 (030%): http://www.wikidata.org/entity/P646s
+13 (023%): http://www.wikidata.org/entity/P1566c
+13 (023%): http://www.wikidata.org/entity/P1566s
+11 (020%): http://www.wikidata.org/entity/P373c
+11 (020%): http://www.wikidata.org/entity/P373s
+ 5 (009%): http://www.wikidata.org/entity/P910c
+ 5 (009%): http://www.wikidata.org/entity/P910s
+ 4 (007%): http://www.wikidata.org/entity/P18c
+ 4 (007%): http://www.wikidata.org/entity/P18s
+ 4 (007%): http://www.wikidata.org/entity/P227-gnd
+ 4 (007%): http://www.wikidata.org/entity/P227c
+ 4 (007%): http://www.wikidata.org/entity/P227s
+ 3 (005%): http://www.wikidata.org/entity/P361c
+ 3 (005%): http://www.wikidata.org/entity/P361s
+ 2 (004%): http://www.wikidata.org/entity/P1134c
+ 2 (004%): http://www.wikidata.org/entity/P1134s
+ 2 (004%): http://www.wikidata.org/entity/P214-viaf
+ 2 (004%): http://www.wikidata.org/entity/P214c
+ 2 (004%): http://www.wikidata.org/entity/P214s
+ 2 (004%): http://www.wikidata.org/entity/P242c
+ 2 (004%): http://www.wikidata.org/entity/P242s
+ 2 (004%): http://www.wikidata.org/entity/P30c
+ 2 (004%): http://www.wikidata.org/entity/P30s
+ 2 (004%): http://www.wikidata.org/entity/P421c
+ 2 (004%): http://www.wikidata.org/entity/P421s
+ 2 (004%): http://www.wikidata.org/entity/P706c
+ 2 (004%): http://www.wikidata.org/entity/P706s
+ 1 (002%): http://www.w3.org/2000/01/rdf-schema#subClassOf
+ 1 (002%): http://www.wikidata.org/entity/P1004-mbplace
+ 1 (002%): http://www.wikidata.org/entity/P1004c
+ 1 (002%): http://www.wikidata.org/entity/P1004s
+ 1 (002%): http://www.wikidata.org/entity/P1249c
+ 1 (002%): http://www.wikidata.org/entity/P1249s
+ 1 (002%): http://www.wikidata.org/entity/P127s
+ 1 (002%): http://www.wikidata.org/entity/P137c
+ 1 (002%): http://www.wikidata.org/entity/P137s
+ 1 (002%): http://www.wikidata.org/entity/P1435s
+ 1 (002%): http://www.wikidata.org/entity/P190c
+ 1 (002%): http://www.wikidata.org/entity/P190s
+ 1 (002%): http://www.wikidata.org/entity/P279c
+ 1 (002%): http://www.wikidata.org/entity/P279s
+ 1 (002%): http://www.wikidata.org/entity/P27c
+ 1 (002%): http://www.wikidata.org/entity/P27s
+ 1 (002%): http://www.wikidata.org/entity/P281c
+ 1 (002%): http://www.wikidata.org/entity/P281s
+ 1 (002%): http://www.wikidata.org/entity/P349-ndl
+ 1 (002%): http://www.wikidata.org/entity/P349c
+ 1 (002%): http://www.wikidata.org/entity/P349s
+ 1 (002%): http://www.wikidata.org/entity/P402c
+ 1 (002%): http://www.wikidata.org/entity/P402s
+ 1 (002%): http://www.wikidata.org/entity/P477c
+ 1 (002%): http://www.wikidata.org/entity/P477s
+ 1 (002%): http://www.wikidata.org/entity/P508c
+ 1 (002%): http://www.wikidata.org/entity/P508s
+ 1 (002%): http://www.wikidata.org/entity/P613c
+ 1 (002%): http://www.wikidata.org/entity/P613s
+ 1 (002%): http://www.wikidata.org/entity/P856c
+ 1 (002%): http://www.wikidata.org/entity/P856s
+ 1 (002%): http://www.wikidata.org/entity/P948c
+ 1 (002%): http://www.wikidata.org/entity/P948s
+
+
+********************************************************************************
+* LANGUAGE DISTRIBUTION                                                        *
+********************************************************************************
+* This section lists the languages found for the selected resources.           *
+*                                                                              *
+* Meaning of the columns:                                                      *
+* #1: Code of the Language (i.e. found on literal ranges)                      *
+* #2: Number of resources that have at least one literal range of this lang    *
+* #3: Percentage against the total number of resources                         *
+********************************************************************************
+
+Total n. of languages: 76
+
+	53 (095%): ? 
+	30 (054%): fr
+	14 (025%): pl
+	 8 (014%): pt
+	 7 (012%): lt
+	 6 (011%): ar
+	 6 (011%): bg
+	 6 (011%): el
+	 6 (011%): et
+	 6 (011%): eu
+	 6 (011%): hi
+	 6 (011%): id
+	 6 (011%): sr
+	 4 (007%): br
+	 4 (007%): en-gb
+	 4 (007%): ga
+	 4 (007%): hr
+	 4 (007%): la
+	 4 (007%): lv
+	 4 (007%): sr-cyrl
+	 4 (007%): tr
+	 4 (007%): ur
+	 4 (007%): war
+	 4 (007%): zh-hk
+	 3 (005%): bs
+	 3 (005%): de-ch
+	 3 (005%): kk
+	 3 (005%): pt-br
+	 3 (005%): th
+	 3 (005%): zh-cn
+	 3 (005%): zh-hans
+	 2 (004%): arc
+	 2 (004%): be-tarask
+	 2 (004%): gu
+	 2 (004%): io
+	 2 (004%): jv
+	 2 (004%): ms
+	 2 (004%): nah
+	 2 (004%): pnb
+	 2 (004%): sco
+	 2 (004%): sq
+	 2 (004%): sw
+	 2 (004%): zh-tw
+	 1 (002%): am
+	 1 (002%): an
+	 1 (002%): bar
+	 1 (002%): en-x-simple
+	 1 (002%): gd
+	 1 (002%): gsw
+	 1 (002%): gv
+	 1 (002%): hak
+	 1 (002%): ie
+	 1 (002%): ki
+	 1 (002%): kk-arab
+	 1 (002%): kk-cn
+	 1 (002%): kk-cyrl
+	 1 (002%): kk-kz
+	 1 (002%): kk-latn
+	 1 (002%): kk-tr
+	 1 (002%): ku
+	 1 (002%): lo
+	 1 (002%): ml
+	 1 (002%): mn
+	 1 (002%): my
+	 1 (002%): nds
+	 1 (002%): ne
+	 1 (002%): pa
+	 1 (002%): pam
+	 1 (002%): qu
+	 1 (002%): sc
+	 1 (002%): so
+	 1 (002%): tg
+	 1 (002%): tk
+	 1 (002%): tt
+	 1 (002%): wa
+	 1 (002%): yi
+
+<http://www.w3.org/2004/02/skos/core#altLabel>:
+	174 (067%): ? 
+	 11 (004%): ar
+	 11 (004%): pt
+	 10 (004%): fr
+	  7 (003%): bg
+	  4 (002%): lt
+	  4 (002%): ml
+	  4 (002%): sr
+	  3 (001%): el
+	  3 (001%): hr
+	  3 (001%): id
+	  3 (001%): lv
+	  2 (001%): be-tarask
+	  2 (001%): nds
+	  2 (001%): pl
+	  2 (001%): tr
+	  2 (001%): ur
+	  1 (000%): am
+	  1 (000%): br
+	  1 (000%): et
+	  1 (000%): gd
+	  1 (000%): hi
+	  1 (000%): my
+	  1 (000%): pt-br
+	  1 (000%): sw
+	  1 (000%): tg
+	  1 (000%): th
+	  1 (000%): zh-hk
+
+<http://schema.org/description>:
+	51 (073%): ? 
+	17 (024%): fr
+	 1 (001%): lv
+	 1 (001%): pt-br
+
+<http://www.w3.org/2000/01/rdf-schema#label>:
+	199 (047%): ? 
+	 28 (007%): fr
+	 14 (003%): pl
+	  8 (002%): pt
+	  7 (002%): lt
+	  6 (001%): ar
+	  6 (001%): bg
+	  6 (001%): el
+	  6 (001%): et
+	  6 (001%): eu
+	  6 (001%): hi
+	  6 (001%): id
+	  6 (001%): sr
+	  4 (001%): br
+	  4 (001%): en-gb
+	  4 (001%): ga
+	  4 (001%): hr
+	  4 (001%): la
+	  4 (001%): lv
+	  4 (001%): sr-cyrl
+	  4 (001%): tr
+	  4 (001%): ur
+	  4 (001%): war
+	  4 (001%): zh-hk
+	  3 (001%): bs
+	  3 (001%): de-ch
+	  3 (001%): kk
+	  3 (001%): pt-br
+	  3 (001%): th
+	  3 (001%): zh-cn
+	  3 (001%): zh-hans
+	  2 (000%): arc
+	  2 (000%): be-tarask
+	  2 (000%): gu
+	  2 (000%): io
+	  2 (000%): jv
+	  2 (000%): ms
+	  2 (000%): nah
+	  2 (000%): pnb
+	  2 (000%): sco
+	  2 (000%): sq
+	  2 (000%): sw
+	  2 (000%): zh-tw
+	  1 (000%): am
+	  1 (000%): an
+	  1 (000%): bar
+	  1 (000%): en-x-simple
+	  1 (000%): gd
+	  1 (000%): gsw
+	  1 (000%): gv
+	  1 (000%): hak
+	  1 (000%): ie
+	  1 (000%): ki
+	  1 (000%): kk-arab
+	  1 (000%): kk-cn
+	  1 (000%): kk-cyrl
+	  1 (000%): kk-kz
+	  1 (000%): kk-latn
+	  1 (000%): kk-tr
+	  1 (000%): ku
+	  1 (000%): lo
+	  1 (000%): ml
+	  1 (000%): mn
+	  1 (000%): my
+	  1 (000%): nds
+	  1 (000%): ne
+	  1 (000%): pa
+	  1 (000%): pam
+	  1 (000%): qu
+	  1 (000%): sc
+	  1 (000%): so
+	  1 (000%): tg
+	  1 (000%): tk
+	  1 (000%): tt
+	  1 (000%): wa
+	  1 (000%): yi
+
+
+********************************************************************************
+* PROPERTY VALUES STATISTICS                                                   *
+********************************************************************************
+* This section lists the values found for a specific property.                 *
+*                                                                              *
+* Meaning of the columns:                                                      *
+* #1: Number of properties with this literal                                   *
+* #2: Percentage against the total number of resources                         *
+* #3: The literal value and language if defined (see @)                        *
+********************************************************************************
+
+<http://www.wikidata.org/entity/P646c>:
+	 1 (002%): /m/022dhl
+	 1 (002%): /m/02p052
+	 1 (002%): /m/02r90tw
+	 1 (002%): /m/02wz52
+	 1 (002%): /m/02xkdj
+	 1 (002%): /m/032n9c
+	 1 (002%): /m/034ryk
+	 1 (002%): /m/03ynmrz
+	 1 (002%): /m/04j9msy
+	 1 (002%): /m/0640y91
+	 1 (002%): /m/06pw6
+	 1 (002%): /m/0bh9mfg
+	 1 (002%): /m/0dcvxm
+	 1 (002%): /m/0ggdlz
+	 1 (002%): /m/0n90l
+	 1 (002%): /m/0nbx_
+	 1 (002%): /m/0p1c1
+
+<http://www.wikidata.org/entity/P373c>:
+	 1 (002%): Bhagalpur
+	 1 (002%): Brentford, London Borough of Hounslow
+	 1 (002%): Calvaries
+	 1 (002%): Daugavpils fortress
+	 1 (002%): Markowa
+	 1 (002%): Megaland
+	 1 (002%): Poplar
+	 1 (002%): Ports and harbours
+	 1 (002%): Siem Reap
+	 1 (002%): Silicon Valley
+	 1 (002%): Swabia
+
+<http://www.wikidata.org/entity/P625c>:
+	 1 (002%): http://www.wikidata.org/entity/VC013f9a989e207c179999d0718702f57d
+	 1 (002%): http://www.wikidata.org/entity/VC086a004b5d0573260f2ebc93b4c74ab0
+	 1 (002%): http://www.wikidata.org/entity/VC114c18594677d5e9a29d010438db0ee5
+	 1 (002%): http://www.wikidata.org/entity/VC16f68782d4bbad192458ca1f029fc863
+	 1 (002%): http://www.wikidata.org/entity/VC1b03094b94538a6542c564345689c104
+	 1 (002%): http://www.wikidata.org/entity/VC1c130fd7bbe691fe030ef4ad4c7c1d4c
+	 1 (002%): http://www.wikidata.org/entity/VC2010b320d21a23b209b7e27f38498456
+	 1 (002%): http://www.wikidata.org/entity/VC2bf2fee6e416bed0a70d34bfc5e87f46
+	 1 (002%): http://www.wikidata.org/entity/VC3cfc04685eb70a61d2ac5f368a008d9c
+	 1 (002%): http://www.wikidata.org/entity/VC497fd407fa2257fdd7d1ec71a49c1394
+	 1 (002%): http://www.wikidata.org/entity/VC4a4282fc8b11ae0d5ba7ad6cb9726db2
+	 1 (002%): http://www.wikidata.org/entity/VC55c31ef2b6c3eb133670f75d445de98d
+	 1 (002%): http://www.wikidata.org/entity/VC5bb9acdc0d02f7354bc08c0167cfe69e
+	 1 (002%): http://www.wikidata.org/entity/VC65211ee0f1fb9357ebfc3ec37b29d3a1
+	 1 (002%): http://www.wikidata.org/entity/VC7265ee2275a1d5bc789f78f0b61dccf8
+	 1 (002%): http://www.wikidata.org/entity/VC8793a3e64f9cd246b127cb665dc76474
+	 1 (002%): http://www.wikidata.org/entity/VC918fad8c7d705e7b7f31504349b788e2
+	 1 (002%): http://www.wikidata.org/entity/VC91bde76c3d892d29dbec3f284d390b9a
+	 1 (002%): http://www.wikidata.org/entity/VCa36055785d7d3761a0b7e8aa378cc519
+	 1 (002%): http://www.wikidata.org/entity/VCa41ddb88151cc989fcd54df7074cc8f3
+	 1 (002%): http://www.wikidata.org/entity/VCa4b3f5de4963814b5e77bed578da6a1f
+	 1 (002%): http://www.wikidata.org/entity/VCa6b1af2988868b322bc8c3aaab29c663
+	 1 (002%): http://www.wikidata.org/entity/VCa85ded7981cbb261223ab3c2bcf486b4
+	 1 (002%): http://www.wikidata.org/entity/VCab0ffbfeefe9665181388e52e30647b6
+	 1 (002%): http://www.wikidata.org/entity/VCb7fb8fd24981f1e5c69751936a9c4f56
+	 1 (002%): http://www.wikidata.org/entity/VCba302f69ff7375c1ce270b9fa2371099
+	 1 (002%): http://www.wikidata.org/entity/VCbead72b5add79810ffcee65fd5de0b9d
+	 1 (002%): http://www.wikidata.org/entity/VCcb01d5096167470fc4250c3b8b9722f9
+	 1 (002%): http://www.wikidata.org/entity/VCd605ad3d47affc40651dce66bb5adbfc
+	 1 (002%): http://www.wikidata.org/entity/VCd7045d8ed54505f5f3d87d6ce5bd6b48
+	 1 (002%): http://www.wikidata.org/entity/VCdb23fe3b2c0715e29cd48fd1316c25a4
+	 1 (002%): http://www.wikidata.org/entity/VCdc1b9fdaa7d385726f886d844ca33acd
+	 1 (002%): http://www.wikidata.org/entity/VCe78991e65ff2276f1fa9f4c14cf87c0c
+	 1 (002%): http://www.wikidata.org/entity/VCed5166a43807e2049cf840815017250a
+
+<http://www.wikidata.org/entity/P279s>:
+	 1 (002%): http://www.wikidata.org/entity/Q44782S0e0fc181-4145-6583-b92a-6cb370880f5c
+	 1 (002%): http://www.wikidata.org/entity/Q44782S28eb7ead-4c2a-f602-fb57-7f27e5e24378
+
+<http://www.wikidata.org/entity/P706c>:
+	 1 (002%): http://www.wikidata.org/entity/Q41
+	 1 (002%): http://www.wikidata.org/entity/Q565751
+
+<http://www.wikidata.org/entity/P477c>:
+	 1 (002%): 13039
+
+<http://www.wikidata.org/entity/P214-viaf>:
+	 1 (002%): http://viaf.org/viaf/236127082
+	 1 (002%): http://viaf.org/viaf/247673436
+
+<http://www.wikidata.org/entity/P190s>:
+	 1 (002%): http://www.wikidata.org/entity/Q11711S9085223C-3622-4388-8B01-343D7F04350C
+
+<http://www.wikidata.org/entity/P646s>:
+	 1 (002%): http://www.wikidata.org/entity/Q1013528S4296843A-2210-4ED8-A35A-9F8BF57DE9F9
+	 1 (002%): http://www.wikidata.org/entity/Q11711S85DD0453-F618-42B0-AC09-C4C0295E50A2
+	 1 (002%): http://www.wikidata.org/entity/Q11812551S7752C4BD-FB44-4E5D-9D8B-580A775ED847
+	 1 (002%): http://www.wikidata.org/entity/Q123360S16FFF845-84D8-40CE-82B6-900EC88DDC79
+	 1 (002%): http://www.wikidata.org/entity/Q130987S80FA760E-7FE3-4556-9B3A-14F0F89640CB
+	 1 (002%): http://www.wikidata.org/entity/Q163820S28962EDC-FF01-4C96-8FBC-77A2A8F2BCA3
+	 1 (002%): http://www.wikidata.org/entity/Q170516S74932F64-40D6-490E-A3A3-374BE351AFAB
+	 1 (002%): http://www.wikidata.org/entity/Q179716SD4E8492C-072F-4CAE-8C93-ACC6997371D6
+	 1 (002%): http://www.wikidata.org/entity/Q2392923S33B2DD5F-C16F-46AD-A18B-5C659ED1712B
+	 1 (002%): http://www.wikidata.org/entity/Q2666994SC23B4649-12D9-4F38-96F9-1A893EE4F19E
+	 1 (002%): http://www.wikidata.org/entity/Q3037075S23D12EB7-C9B2-4C13-ABA2-EA092294CBDC
+	 1 (002%): http://www.wikidata.org/entity/Q375070S1BBA5513-8811-4EC5-BCF9-E64E130944A9
+	 1 (002%): http://www.wikidata.org/entity/Q44782S31D20FC6-F23F-4FB1-B13B-E7ADD6BE7DC9
+	 1 (002%): http://www.wikidata.org/entity/Q760714S6C3AA6FC-A210-40E6-9C96-858FDEC38817
+	 1 (002%): http://www.wikidata.org/entity/Q790241SE30D38EA-F5BD-416B-A45A-D9AD8392E051
+	 1 (002%): http://www.wikidata.org/entity/Q833454S5DF3D592-B1EE-449F-992B-8144C9F3975B
+	 1 (002%): http://www.wikidata.org/entity/Q847778SF20AA2BB-78FD-4E88-BC66-557936693E05
+
+<http://www.wikidata.org/entity/P373s>:
+	 1 (002%): http://www.wikidata.org/entity/Q1013528SFC0FAA6A-F465-4FA2-AD9C-6D65650F93D8
+	 1 (002%): http://www.wikidata.org/entity/Q11711SD6C6A929-6E6D-4054-9DE0-2105CDF08F62
+	 1 (002%): http://www.wikidata.org/entity/Q11812551SDC174101-EC64-4F31-889B-C29915B37DBF
+	 1 (002%): http://www.wikidata.org/entity/Q123360S6F7C732B-08F2-40A2-AD59-FE7A4C3A1AB0
+	 1 (002%): http://www.wikidata.org/entity/Q163820S7B37DEEA-E0A2-4853-B79E-C94D97858103
+	 1 (002%): http://www.wikidata.org/entity/Q170516S320CC643-CCF6-477A-B0D0-7E2424D2C109
+	 1 (002%): http://www.wikidata.org/entity/Q179716SFD15DCFF-BB3A-4878-9269-B45DFC3C761A
+	 1 (002%): http://www.wikidata.org/entity/Q2373842Sfb70bd51-48d7-c9a7-fefd-415e02ac1244
+	 1 (002%): http://www.wikidata.org/entity/Q2666994S47FE0702-4F59-47F1-8320-6038DB89BDE6
+	 1 (002%): http://www.wikidata.org/entity/Q44782S6119BF34-83C8-4EAC-A114-B3011C8A0A59
+	 1 (002%): http://www.wikidata.org/entity/Q760714S006890C9-8C8C-41B4-AAC2-ECDD44BF3ED4
+
+<http://www.wikidata.org/entity/P625s>:
+	 1 (002%): http://www.wikidata.org/entity/Q1013528SE28AE2C8-AC1D-453E-82C3-CC2564963AFB
+	 1 (002%): http://www.wikidata.org/entity/Q10518676S17A73DEA-4FF2-4B1A-8BEC-B858F204749E
+	 1 (002%): http://www.wikidata.org/entity/Q11711SC9237140-B514-4301-ACB0-86E2D65F8055
+	 1 (002%): http://www.wikidata.org/entity/Q123360SF83B2A70-7174-486F-A744-EF5316A7133B
+	 1 (002%): http://www.wikidata.org/entity/Q12394651S2BBA8643-EEAB-48B3-9516-98E4127D697A
+	 1 (002%): http://www.wikidata.org/entity/Q130987S2EC249B1-BD43-4C31-B2F0-A32980BE7F03
+	 1 (002%): http://www.wikidata.org/entity/Q14714582S80EF4255-0AFC-4B46-B935-2A27E18BE37A
+	 1 (002%): http://www.wikidata.org/entity/Q163820SC8B55370-5CBD-4A99-A8FE-9CA2CEAF598F
+	 1 (002%): http://www.wikidata.org/entity/Q170516S1DC43707-491B-4AEA-B905-6516F68EFEF2
+	 1 (002%): http://www.wikidata.org/entity/Q17373119Sd1118106-463b-6846-c959-74cebf58fdb7
+	 1 (002%): http://www.wikidata.org/entity/Q179716S0AE6F20B-7201-42F6-95C1-D5D45D9F819F
+	 1 (002%): http://www.wikidata.org/entity/Q2240166S73363d0d-4a78-825c-9dc0-d3f88b230ada
+	 1 (002%): http://www.wikidata.org/entity/Q2373842S4777E4A6-D1F8-46DB-B37F-50D551CAAD53
+	 1 (002%): http://www.wikidata.org/entity/Q2392923S39B5D9DD-10D6-4E67-AB1F-423017D02840
+	 1 (002%): http://www.wikidata.org/entity/Q255910S9ead8c37-4cde-fd37-c11b-1590dc0b257e
+	 1 (002%): http://www.wikidata.org/entity/Q2666994SA8F937FA-8D44-4332-B189-D2A6381FB3D4
+	 1 (002%): http://www.wikidata.org/entity/Q3349132SE8D45B54-9892-4323-9B20-7D5AC44A7896
+	 1 (002%): http://www.wikidata.org/entity/Q3712528SB86FD369-ED9A-4638-9018-CBB9B352524D
+	 1 (002%): http://www.wikidata.org/entity/Q375070S5881E324-D87F-4445-A05B-367A9D5A084E
+	 1 (002%): http://www.wikidata.org/entity/Q423466SC93C94EF-17B5-4C20-BDB3-75D1C2B799F9
+	 1 (002%): http://www.wikidata.org/entity/Q4386932S45781CC7-3810-4C5F-924C-4E1C8BDBEF83
+	 1 (002%): http://www.wikidata.org/entity/Q4832613S9670c18d-4db7-b965-85d4-33d4222cb5c1
+	 1 (002%): http://www.wikidata.org/entity/Q4931486SC0BC5874-F4FE-48F3-91E5-DDC4C5577BB9
+	 1 (002%): http://www.wikidata.org/entity/Q5505194S8DDB4277-8C70-4621-A088-F0BBA5613293
+	 1 (002%): http://www.wikidata.org/entity/Q5603942S5A51CF57-D398-4361-82C6-1098F3F26F34
+	 1 (002%): http://www.wikidata.org/entity/Q5875801S5D537794-D6AB-4A6A-AFCA-752E04FCC6ED
+	 1 (002%): http://www.wikidata.org/entity/Q7460004Sa660a9e8-49d7-d918-544b-9effa7b44eb5
+	 1 (002%): http://www.wikidata.org/entity/Q7591886S280BBD64-5FC2-4291-826F-BCED7F3BFB63
+	 1 (002%): http://www.wikidata.org/entity/Q760714SC3D83F73-B5DE-45F5-B50A-F5B5B6A60FC9
+	 1 (002%): http://www.wikidata.org/entity/Q7686401S270a91e5-4c6e-4872-e4f8-6141bcc8655e
+	 1 (002%): http://www.wikidata.org/entity/Q7695831S7A87009B-B4C9-4A1D-8C85-E0F0775BE9C6
+	 1 (002%): http://www.wikidata.org/entity/Q790241S6EF2A0D1-45EA-48EC-BC1B-779448E7E622
+	 1 (002%): http://www.wikidata.org/entity/Q833454S5210E725-FC8B-41AF-897B-D50BA1043877
+	 1 (002%): http://www.wikidata.org/entity/Q847778SF8DFDBEB-DD7E-4706-BCEE-63E433C28AAD
+
+<http://www.wikidata.org/entity/P279c>:
+	 1 (002%): http://www.wikidata.org/entity/Q2221906
+	 1 (002%): http://www.wikidata.org/entity/Q376799
+
+<http://www.wikidata.org/entity/P477s>:
+	 1 (002%): http://www.wikidata.org/entity/Q4931486S45607776-4a6f-5277-d9ad-126abafd221c
+
+<http://www.wikidata.org/entity/P508s>:
+	 1 (002%): http://www.wikidata.org/entity/Q44782S268A541F-814B-461E-87D2-20DE427FEDA1
+
+<http://www.w3.org/2000/01/rdf-schema#subClassOf>:
+	 1 (002%): http://www.wikidata.org/entity/Q2221906
+	 1 (002%): http://www.wikidata.org/entity/Q376799
+
+<http://www.wikidata.org/entity/P131c>:
+	 3 (005%): http://www.wikidata.org/entity/Q2325822
+	 2 (004%): http://www.wikidata.org/entity/Q21
+	 1 (002%): http://www.wikidata.org/entity/Q1003997
+	 1 (002%): http://www.wikidata.org/entity/Q104994
+	 1 (002%): http://www.wikidata.org/entity/Q108067
+	 1 (002%): http://www.wikidata.org/entity/Q1112324
+	 1 (002%): http://www.wikidata.org/entity/Q1128384
+	 1 (002%): http://www.wikidata.org/entity/Q1166
+	 1 (002%): http://www.wikidata.org/entity/Q1439
+	 1 (002%): http://www.wikidata.org/entity/Q151048
+	 1 (002%): http://www.wikidata.org/entity/Q1527
+	 1 (002%): http://www.wikidata.org/entity/Q1537
+	 1 (002%): http://www.wikidata.org/entity/Q156366
+	 1 (002%): http://www.wikidata.org/entity/Q16555
+	 1 (002%): http://www.wikidata.org/entity/Q1850485
+	 1 (002%): http://www.wikidata.org/entity/Q1952
+	 1 (002%): http://www.wikidata.org/entity/Q208152
+	 1 (002%): http://www.wikidata.org/entity/Q2256
+	 1 (002%): http://www.wikidata.org/entity/Q232628
+	 1 (002%): http://www.wikidata.org/entity/Q2894317
+	 1 (002%): http://www.wikidata.org/entity/Q3215834
+	 1 (002%): http://www.wikidata.org/entity/Q3572
+	 1 (002%): http://www.wikidata.org/entity/Q3708823
+	 1 (002%): http://www.wikidata.org/entity/Q459732
+	 1 (002%): http://www.wikidata.org/entity/Q491288
+	 1 (002%): http://www.wikidata.org/entity/Q49155
+	 1 (002%): http://www.wikidata.org/entity/Q494912
+	 1 (002%): http://www.wikidata.org/entity/Q499474
+	 1 (002%): http://www.wikidata.org/entity/Q504626
+	 1 (002%): http://www.wikidata.org/entity/Q512048
+	 1 (002%): http://www.wikidata.org/entity/Q614612
+	 1 (002%): http://www.wikidata.org/entity/Q652818
+	 1 (002%): http://www.wikidata.org/entity/Q678870
+	 1 (002%): http://www.wikidata.org/entity/Q7591243
+	 1 (002%): http://www.wikidata.org/entity/Q797
+	 1 (002%): http://www.wikidata.org/entity/Q80021
+	 1 (002%): http://www.wikidata.org/entity/Q9795
+	 1 (002%): http://www.wikidata.org/entity/Q980
+	 1 (002%): http://www.wikidata.org/entity/Q985
+	 1 (002%): http://www.wikidata.org/entity/Q99
+
+<http://www.wikidata.org/entity/P31c>:
+	56 (100%): http://www.wikidata.org/entity/Q2221906
+	 1 (002%): http://www.wikidata.org/entity/Q123705
+	 1 (002%): http://www.wikidata.org/entity/Q160091
+	 1 (002%): http://www.wikidata.org/entity/Q1785071
+	 1 (002%): http://www.wikidata.org/entity/Q515
+	 1 (002%): http://www.wikidata.org/entity/Q74047
+	 1 (002%): http://www.wikidata.org/entity/Q82818
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>:
+	56 (100%): http://www.wikidata.org/entity/Q2221906
+	56 (100%): http://www.wikidata.org/ontology#Item
+	 1 (002%): http://www.w3.org/2002/07/owl#Class
+	 1 (002%): http://www.wikidata.org/entity/Q123705
+	 1 (002%): http://www.wikidata.org/entity/Q160091
+	 1 (002%): http://www.wikidata.org/entity/Q1785071
+	 1 (002%): http://www.wikidata.org/entity/Q515
+	 1 (002%): http://www.wikidata.org/entity/Q74047
+	 1 (002%): http://www.wikidata.org/entity/Q82818
+
+<http://www.wikidata.org/entity/P613c>:
+	 1 (002%): TQ230874
+
+<http://www.wikidata.org/entity/P349s>:
+	 1 (002%): http://www.wikidata.org/entity/Q44782S87354203-2BB0-4527-9ED7-3475BB0394D6
+
+<http://www.wikidata.org/entity/P1566c>:
+	 1 (002%): 1276300
+	 1 (002%): 1790967
+	 1 (002%): 1822214
+	 1 (002%): 2654787
+	 1 (002%): 5266466
+	 1 (002%): 5343422
+	 1 (002%): 5958445
+	 1 (002%): 6618526
+	 1 (002%): 6940309
+	 1 (002%): 765188
+	 1 (002%): 7701354
+	 1 (002%): 770911
+	 1 (002%): 9858369
+
+<http://www.wikidata.org/entity/P214c>:
+	 1 (002%): 236127082
+	 1 (002%): 247673436
+
+<http://www.wikidata.org/entity/P910s>:
+	 1 (002%): http://www.wikidata.org/entity/Q11711S0B6CFC38-F06C-4F10-BBCB-73026709D40E
+	 1 (002%): http://www.wikidata.org/entity/Q11812551SFD736222-66C0-4715-A218-F090D500E29E
+	 1 (002%): http://www.wikidata.org/entity/Q130987S63ECECF2-38C6-4EA7-AA8B-D448F97CE40E
+	 1 (002%): http://www.wikidata.org/entity/Q163820SA92ABC2F-308F-43FC-92A0-601077405C5D
+	 1 (002%): http://www.wikidata.org/entity/Q760714S858AC4FC-DBF6-4663-8318-8177414FDF97
+
+<http://www.wikidata.org/entity/P508c>:
+	 1 (002%): 12568
+
+<http://www.wikidata.org/entity/P137c>:
+	 1 (002%): http://www.wikidata.org/entity/Q1492844
+
+<http://www.wikidata.org/entity/P281c>:
+	 1 (002%): NW11
+	 1 (002%): NW2
+	 1 (002%): NW4
+
+<http://www.wikidata.org/entity/P18c>:
+	 1 (002%): http://commons.wikimedia.org/wiki/File:Megaland.jpg
+	 1 (002%): http://commons.wikimedia.org/wiki/File:Paisajes_001.jpg
+	 1 (002%): http://commons.wikimedia.org/wiki/File:SAN_JOSE_CALIFORNIA_PALM_TREE_2010.jpg
+	 1 (002%): http://commons.wikimedia.org/wiki/File:Siem_reap.jpg
+
+<http://www.wikidata.org/entity/P1004c>:
+	 1 (002%): 7e0f978c-23d7-4ab6-9bee-9b4ac98cf133
+
+<http://www.wikidata.org/entity/P131s>:
+	 1 (002%): http://www.wikidata.org/entity/Q1013528SA029C433-D119-4296-A419-7FB00E3CBDE3
+	 1 (002%): http://www.wikidata.org/entity/Q10518676Sbe574b65-40e9-31a0-c24a-a27bee667f32
+	 1 (002%): http://www.wikidata.org/entity/Q11628951SE0B5A18C-B620-4A27-9085-A65028598DEB
+	 1 (002%): http://www.wikidata.org/entity/Q11711Se9ec0e33-4b5b-257a-d0d3-a8077fc0ae9f
+	 1 (002%): http://www.wikidata.org/entity/Q11812551S575ecfd6-4f0a-5690-e7fa-cbdb7bf2fa0e
+	 1 (002%): http://www.wikidata.org/entity/Q11812551Sef0b14da-4da7-a7a6-fc64-e77d7a9b8e65
+	 1 (002%): http://www.wikidata.org/entity/Q123360S568DCDF7-2E50-4B57-A8CE-C6ECDCDCE3F9
+	 1 (002%): http://www.wikidata.org/entity/Q123360S57FD6A3A-CDDF-4149-86BD-AEB7E5D45E59
+	 1 (002%): http://www.wikidata.org/entity/Q12400416S73d38b4a-4055-dc92-58fe-754ae1b41f78
+	 1 (002%): http://www.wikidata.org/entity/Q14714582S817fc5d0-48c2-4065-aef2-d617d72faef6
+	 1 (002%): http://www.wikidata.org/entity/Q14714582SCFA5703F-824C-43B1-86CD-00222FBB83DD
+	 1 (002%): http://www.wikidata.org/entity/Q163820S15337fda-4b3a-1e45-2ca8-806d3b379f1e
+	 1 (002%): http://www.wikidata.org/entity/Q170516Sa2983d5f-426b-6571-cd56-f8333e84858e
+	 1 (002%): http://www.wikidata.org/entity/Q17251749Sc39a0c49-4f0a-c3d7-ff7e-237e85b6b1e0
+	 1 (002%): http://www.wikidata.org/entity/Q17373119S17f71270-4525-b358-eb69-10abeb2208b6
+	 1 (002%): http://www.wikidata.org/entity/Q179716SF9C48919-755B-444F-A86F-47C11A00D9BE
+	 1 (002%): http://www.wikidata.org/entity/Q18668001S2ef45dcf-499b-d900-4423-8eb1a4db0685
+	 1 (002%): http://www.wikidata.org/entity/Q2240166S39A3A3FF-64DA-4E1B-9201-0F9392BF37CF
+	 1 (002%): http://www.wikidata.org/entity/Q2373842Sa4570353-41ca-acce-faec-af498f68e6be
+	 1 (002%): http://www.wikidata.org/entity/Q2392923S0FFBAE94-104E-464D-AA1B-D2B8DCC9FD94
+	 1 (002%): http://www.wikidata.org/entity/Q2666994S6a18368f-4876-fa2d-4f80-773b817afb63
+	 1 (002%): http://www.wikidata.org/entity/Q3216089Sc7646cce-493a-1a3c-bde7-0cd7b36a64be
+	 1 (002%): http://www.wikidata.org/entity/Q3349132Sf653100e-42d3-6fe7-b650-55def1558a91
+	 1 (002%): http://www.wikidata.org/entity/Q3712528SD2EFA6F3-F455-4F53-84F0-E4DE2D7597B9
+	 1 (002%): http://www.wikidata.org/entity/Q375070Sb39940d6-4d17-4b9b-7fa2-7edbb192ecc8
+	 1 (002%): http://www.wikidata.org/entity/Q423466S82ee66fc-446d-f6a6-9bf3-a396baf12007
+	 1 (002%): http://www.wikidata.org/entity/Q4386932S5F3B753E-DA62-4978-BF95-8075FFB880A8
+	 1 (002%): http://www.wikidata.org/entity/Q4832613S493a1762-482f-0400-4bcc-3a469e799763
+	 1 (002%): http://www.wikidata.org/entity/Q4931486Sc477d82e-4ddd-5fb6-7649-11fedb766448
+	 1 (002%): http://www.wikidata.org/entity/Q5505194S232fdb5a-4219-0b8e-c481-9fab7cb91510
+	 1 (002%): http://www.wikidata.org/entity/Q5603942S784BE12D-4489-4921-A446-0C9CE0DB540E
+	 1 (002%): http://www.wikidata.org/entity/Q5875801Sfb9d5325-4aea-1afb-b687-4f272ba18bd3
+	 1 (002%): http://www.wikidata.org/entity/Q7460004S44F7E2A5-6E95-46DC-A523-BEC93DAC9E67
+	 1 (002%): http://www.wikidata.org/entity/Q7460963S307437d5-4ba8-56be-5dd2-391af31855bc
+	 1 (002%): http://www.wikidata.org/entity/Q7460963Sa7a825b4-4b47-273c-08cd-223ecf7c60dd
+	 1 (002%): http://www.wikidata.org/entity/Q7591886S5151e269-4d13-ec3c-30ec-04aa11597a86
+	 1 (002%): http://www.wikidata.org/entity/Q7591886S8b595abb-4056-ca49-70ee-29c10cc2425a
+	 1 (002%): http://www.wikidata.org/entity/Q760714S900E9C0B-AF57-4BFB-BE94-81049129955D
+	 1 (002%): http://www.wikidata.org/entity/Q7686401SCAA20F2D-09CD-4F75-99D4-E34E7175A394
+	 1 (002%): http://www.wikidata.org/entity/Q7695831SF3842E67-3069-45CE-9082-8FC76091F60C
+	 1 (002%): http://www.wikidata.org/entity/Q790241S4e2a5a84-404a-c4e7-9edf-7e0a965b6678
+	 1 (002%): http://www.wikidata.org/entity/Q8051718Sb4c5838b-407f-a90b-0706-7529422bdcb5
+	 1 (002%): http://www.wikidata.org/entity/Q833454S5b7e98e1-4e21-52a7-1292-b665ce4e406b
+
+<http://www.wikidata.org/entity/P31s>:
+	 1 (002%): http://www.wikidata.org/entity/Q1013528S03122bf1-4b69-079f-a5f6-3fc9b495ceaa
+	 1 (002%): http://www.wikidata.org/entity/Q10313676Sa5b9d1a9-41fc-27f5-c27b-19cda9fc7a7a
+	 1 (002%): http://www.wikidata.org/entity/Q10518676Sdbaf2844-450d-ec51-49f4-e97640309cc5
+	 1 (002%): http://www.wikidata.org/entity/Q10518892Se6948e58-497a-8a12-7919-f7f8debb86fe
+	 1 (002%): http://www.wikidata.org/entity/Q1162816Sa642609c-4dba-4736-1911-a663bae4be79
+	 1 (002%): http://www.wikidata.org/entity/Q11628951S9b40cc17-4220-fc42-6ab2-e78a5570dda4
+	 1 (002%): http://www.wikidata.org/entity/Q11711S69f55715-4d95-49fe-7e05-095d9e100c36
+	 1 (002%): http://www.wikidata.org/entity/Q11711Sf5284898-4a59-879f-919b-ace99533b27b
+	 1 (002%): http://www.wikidata.org/entity/Q11812551S880cf1af-4423-4780-a9f8-42e799eb91b2
+	 1 (002%): http://www.wikidata.org/entity/Q123360Sa08e3b30-4e9f-61f4-0aaf-b09f08391dd8
+	 1 (002%): http://www.wikidata.org/entity/Q12394651S04a70d0d-468f-43ad-a779-62aa8bc26e0d
+	 1 (002%): http://www.wikidata.org/entity/Q12399743S70E58977-411E-42F0-B4AD-7B39EF967F8E
+	 1 (002%): http://www.wikidata.org/entity/Q12400416Sd6db8c29-4dd3-563b-bfaa-bcdeba0dd4c3
+	 1 (002%): http://www.wikidata.org/entity/Q12884582S11c436f7-4598-89fe-d435-418e73f912a0
+	 1 (002%): http://www.wikidata.org/entity/Q130987Sffb7beee-40ac-a212-ce17-3c440a5d89e4
+	 1 (002%): http://www.wikidata.org/entity/Q14714582S22113362-425d-21bf-a43a-36ccae0b3aa3
+	 1 (002%): http://www.wikidata.org/entity/Q15221965S9c08d85d-4ea5-f0e1-b0b1-3e7912e64046
+	 1 (002%): http://www.wikidata.org/entity/Q163820S3e2a4f2b-4fda-8fb2-1729-4d9a23cf1012
+	 1 (002%): http://www.wikidata.org/entity/Q16802034Seff4358c-4bec-b1d8-b212-91a14bca8163
+	 1 (002%): http://www.wikidata.org/entity/Q170516S71d9726e-4fd6-19d3-949c-9a4f8a5eaaa4
+	 1 (002%): http://www.wikidata.org/entity/Q17251749S10203b2f-41a2-8e0e-1527-3020aa7c6ab4
+	 1 (002%): http://www.wikidata.org/entity/Q17373119S6e5c558a-4d2d-04bd-26a9-92ff3b87b4b1
+	 1 (002%): http://www.wikidata.org/entity/Q179716S6f8e72db-4211-8dd6-eedf-109b6cd2e4f9
+	 1 (002%): http://www.wikidata.org/entity/Q18668001S01119764-4af6-5325-2934-9a6a66fbfdd5
+	 1 (002%): http://www.wikidata.org/entity/Q18668144S1de8451d-4371-92fd-7ee7-0071a2e6cdd9
+	 1 (002%): http://www.wikidata.org/entity/Q18668177S3f17c47a-4a87-fb9f-8622-c02be1989795
+	 1 (002%): http://www.wikidata.org/entity/Q2240166S1ca530a8-44b5-1b23-955d-7fbe503095ce
+	 1 (002%): http://www.wikidata.org/entity/Q2373842S6f3bac81-40b2-8e9c-2f42-a76afdd0311a
+	 1 (002%): http://www.wikidata.org/entity/Q2392923S05fd4e3e-42e1-113a-093d-87f23b4ac9b7
+	 1 (002%): http://www.wikidata.org/entity/Q255910S9266995f-45af-0c1c-0ab9-63c2204e0778
+	 1 (002%): http://www.wikidata.org/entity/Q2666994S42E0411D-7362-4915-BA3F-FA18F663530D
+	 1 (002%): http://www.wikidata.org/entity/Q2666994S82c473f2-48e3-5f65-6dd9-f0c148e4d4fb
+	 1 (002%): http://www.wikidata.org/entity/Q3037075S6be6f0f3-4ec6-fba6-9c31-3413f46d9eec
+	 1 (002%): http://www.wikidata.org/entity/Q3216089S2c34488c-45d5-ce39-0ca1-a981046623e9
+	 1 (002%): http://www.wikidata.org/entity/Q3216089Sb730f2b4-4154-0493-86a2-f2a8af313c39
+	 1 (002%): http://www.wikidata.org/entity/Q3349132Sf6c3cb00-424c-b431-7ff8-b949422a8aa3
+	 1 (002%): http://www.wikidata.org/entity/Q3712528S38D28304-34CD-4BF5-9B64-ACB22B7CD0F1
+	 1 (002%): http://www.wikidata.org/entity/Q3712528SAC1580AA-311D-4067-8D03-7BAF455167E9
+	 1 (002%): http://www.wikidata.org/entity/Q375070S7b248197-4640-1339-b10a-12c7e2dbdeb2
+	 1 (002%): http://www.wikidata.org/entity/Q423466S47d2648f-49ee-940c-3d4c-9c97896e2bc7
+	 1 (002%): http://www.wikidata.org/entity/Q4386932S416F9D32-4E4D-4F34-A4D4-9574C2BD10E6
+	 1 (002%): http://www.wikidata.org/entity/Q44782SCD5BB5AB-5F82-4729-9C4E-8228C05B1149
+	 1 (002%): http://www.wikidata.org/entity/Q4832613Sd745c0f9-45e3-1d78-6d03-59782b851cf0
+	 1 (002%): http://www.wikidata.org/entity/Q4931486S1f193413-485c-4d23-ebeb-7a46c468849a
+	 1 (002%): http://www.wikidata.org/entity/Q5505194S735d8c9e-4417-5723-3334-60a096af981c
+	 1 (002%): http://www.wikidata.org/entity/Q5603942S8f79108f-4bd9-6a8e-3b82-c8e8392330ae
+	 1 (002%): http://www.wikidata.org/entity/Q5609426S9b4cfa73-40a5-104f-0a48-67fbb5b7d8ee
+	 1 (002%): http://www.wikidata.org/entity/Q5609426Sba28c17c-47ed-c316-b6a2-05be6a7f4e38
+	 1 (002%): http://www.wikidata.org/entity/Q5666484S10afdcdd-4ff6-7717-c7ec-55a0095eb67e
+	 1 (002%): http://www.wikidata.org/entity/Q5875801Sd0537307-408f-4c21-1467-24b7ccd4cafd
+	 1 (002%): http://www.wikidata.org/entity/Q7178322S61f245af-40b9-4c4c-0009-97af025181fc
+	 1 (002%): http://www.wikidata.org/entity/Q7460004S01C4D43E-02BA-414A-8D5D-8B33296B2533
+	 1 (002%): http://www.wikidata.org/entity/Q7460963Sbbec702b-4b22-3cef-6491-4b81152f4187
+	 1 (002%): http://www.wikidata.org/entity/Q7591886S40c35e3d-4e57-c14f-0313-b15d4aa242f6
+	 1 (002%): http://www.wikidata.org/entity/Q760714S43a73c3e-429e-a2ff-83ad-537e098aea71
+	 1 (002%): http://www.wikidata.org/entity/Q7686401Sbe1ae6e3-48cc-e963-bc05-68263087df5a
+	 1 (002%): http://www.wikidata.org/entity/Q7695831S46783f7d-4cd0-94d6-f83f-b25eecd50170
+	 1 (002%): http://www.wikidata.org/entity/Q790241Sa4d9e60e-4160-22be-21ad-d880cd818be6
+	 1 (002%): http://www.wikidata.org/entity/Q8051718Sb5ac342c-4f90-5144-ead8-e1df642d9d6b
+	 1 (002%): http://www.wikidata.org/entity/Q8051718Se31f815e-4f1d-e019-745c-6b1723cc192f
+	 1 (002%): http://www.wikidata.org/entity/Q833454Sc6443a88-41cd-ab22-4dea-9b61dc7a8b8c
+	 1 (002%): http://www.wikidata.org/entity/Q847778S18fc382a-430d-a0fc-ac3e-7087f1333798
+
+<http://www.wikidata.org/entity/P227-gnd>:
+	 1 (002%): http://d-nb.info/gnd/4107751-9/about/rdf
+	 1 (002%): http://d-nb.info/gnd/4681726-8/about/rdf
+	 1 (002%): http://d-nb.info/gnd/5096774-5/about/rdf
+	 1 (002%): http://d-nb.info/gnd/7633266-4/about/rdf
+
+<http://www.wikidata.org/entity/P613s>:
+	 1 (002%): http://www.wikidata.org/entity/Q833454S430ca36b-4434-28d0-15e0-636a7e0a51ac
+
+<http://www.wikidata.org/entity/P349c>:
+	 1 (002%): 00566851
+
+<http://www.wikidata.org/entity/P706s>:
+	 1 (002%): http://www.wikidata.org/entity/Q12884582S88122A29-2F90-4281-8C97-9D7785945711
+	 1 (002%): http://www.wikidata.org/entity/Q130987S8cf01b17-4a3d-f1de-e018-8fb6cec40342
+
+<http://www.wikidata.org/entity/P1566s>:
+	 1 (002%): http://www.wikidata.org/entity/Q1013528S4774FDFA-A867-4892-BDBA-3DBF03BD2DA8
+	 1 (002%): http://www.wikidata.org/entity/Q11711SDFDC07AB-19E9-47D4-9889-295AFD624338
+	 1 (002%): http://www.wikidata.org/entity/Q14714582S701B4CDA-765F-4BFF-97BE-E44A031ACC16
+	 1 (002%): http://www.wikidata.org/entity/Q163820SF438D8BF-17D1-470A-B11A-3C573CEE65A1
+	 1 (002%): http://www.wikidata.org/entity/Q179716S1B293E71-5F95-4654-83C0-0AF58EFED3DC
+	 1 (002%): http://www.wikidata.org/entity/Q2392923SA089D37A-A348-45E3-96DB-6E0D1C077AF9
+	 1 (002%): http://www.wikidata.org/entity/Q3712528S5D758C4B-795F-41BF-BCBE-BF4FA567C091
+	 1 (002%): http://www.wikidata.org/entity/Q4832613S8172d261-4b9a-8fad-32eb-5c25cf3ef711
+	 1 (002%): http://www.wikidata.org/entity/Q5505194S3BB42E76-8E13-4C54-BD21-09C622DC68F1
+	 1 (002%): http://www.wikidata.org/entity/Q7460004Sd752b49a-488c-df8f-3473-d473ffc39682
+	 1 (002%): http://www.wikidata.org/entity/Q760714S82B1DF2F-1EC0-42E3-A39A-7224FE552EBD
+	 1 (002%): http://www.wikidata.org/entity/Q833454S0B9B7199-7A5D-4A8B-A024-74A35607DA44
+	 1 (002%): http://www.wikidata.org/entity/Q847778S7638ACA7-CBFA-4392-9F15-59C0894B0C01
+
+<http://www.wikidata.org/entity/P214s>:
+	 1 (002%): http://www.wikidata.org/entity/Q11711S515C72E3-2007-47B6-AC05-2D3B03BBF2B9
+	 1 (002%): http://www.wikidata.org/entity/Q163820S610FEEB0-3D63-4FEC-9533-99EC81130ACE
+
+<http://www.w3.org/2000/01/rdf-schema#label>:
+	 1 (002%): 101 Mile
+	 1 (002%): 101 Mile@fr
+	 1 (002%): Acarsaid@gd
+	 1 (002%): Afar Triple Junction
+	 1 (002%): Afarinkolmio risteys
+	 1 (002%): Aktse
+	 1 (002%): Angel Creek
+	 1 (002%): Angel Creek@fr
+	 1 (002%): Avaskär
+	 1 (002%): Avskær
+	 1 (002%): Azimpur, Dhaka
+	 1 (002%): Bagalpur
+	 1 (002%): Bandari asilia@sw
+	 1 (002%): Bender@ku
+	 1 (002%): Bhagalpur
+	 1 (002%): Bhagalpur@fr
+	 1 (002%): Bhagalpur@id
+	 1 (002%): Bhagalpur@ms
+	 1 (002%): Bhagalpur@pam
+	 1 (002%): Bhagalpur@pl
+	 1 (002%): Bhagalpur@pt
+	 1 (002%): Bhagalpur@war
+	 1 (002%): Bhagalpuras@lt
+	 1 (002%): Boat Encampment
+	 1 (002%): Boat Encampment@fr
+	 1 (002%): Brent Cross
+	 1 (002%): Brent Cross@de-ch
+	 1 (002%): Brent Cross@en-gb
+	 1 (002%): Brent Cross@fr
+	 1 (002%): Brent Cross@pl
+	 1 (002%): Brentford
+	 1 (002%): Brentford@fr
+	 1 (002%): Brentford@pl
+	 1 (002%): Bukit Golgota@id
+	 1 (002%): Calafort@ga
+	 1 (002%): Calvaire@ga
+	 1 (002%): Calvario
+	 1 (002%): Calvariu@sc
+	 1 (002%): Calvary
+	 1 (002%): Calvário@pt
+	 1 (002%): Calvário@pt-br
+	 1 (002%): Carlos E. Restrepo
+	 1 (002%): Carlos Y. Restrepo
+	 1 (002%): Daugavpils cietoksnis@lv
+	 1 (002%): Daugavpils fortress
+	 1 (002%): Daugavpilsi kindlus@et
+	 1 (002%): Daugpilio tvirtovė@lt
+	 1 (002%): Daugpiļs styprūtne
+	 1 (002%): Daungan
+	 1 (002%): Dekad@so
+	 1 (002%): Dog Town
+	 1 (002%): Dog Town, California
+	 1 (002%): Dolina Krzemowa@pl
+	 1 (002%): Dorida@br
+	 1 (002%): Dorida@eu
+	 1 (002%): Doride
+	 1 (002%): Doride@fr
+	 1 (002%): Doris
+	 1 (002%): Doris@la
+	 1 (002%): Doryda (Grecja)@pl
+	 1 (002%): Duruongan@war
+	 1 (002%): Dòrida
+	 1 (002%): Dórida
+	 1 (002%): Dórida@pt
+	 1 (002%): Edenville
+	 1 (002%): Faubourg Saint-Germain
+	 1 (002%): Faubourg Saint-Germain@fr
+	 1 (002%): Forteresse de Daugavpils@fr
+	 1 (002%): Frog Lake, Alberta
+	 1 (002%): Frog Lake@fr
+	 1 (002%): Geographical centre of Hungary
+	 1 (002%): Gleann an tSileacain@ga
+	 1 (002%): Golgata
+	 1 (002%): Golgota
+	 1 (002%): Golgota@bs
+	 1 (002%): Golgota@hr
+	 1 (002%): Golgota@jv
+	 1 (002%): Golgota@pl
+	 1 (002%): Golgotha
+	 1 (002%): Golgotha@fr
+	 1 (002%): Golgoto
+	 1 (002%): Gologota
+	 1 (002%): Greenfield
+	 1 (002%): Grinder's Switch
+	 1 (002%): Gämi duralgasy@tk
+	 1 (002%): Gòlgota
+	 1 (002%): Hafen
+	 1 (002%): Hamn
+	 1 (002%): Harbor@en-x-simple
+	 1 (002%): Haven@nds
+	 1 (002%): Haveno
+	 1 (002%): Havn
+	 1 (002%): Haväng
+	 1 (002%): Hebron, Heby kommun
+	 1 (002%): Hebron, Sweden
+	 1 (002%): Hockley, West Midlands
+	 1 (002%): Husów
+	 1 (002%): Husów@fr
+	 1 (002%): Husów@pl
+	 1 (002%): Jonccion tripla d'Afar
+	 1 (002%): Jonction triple de l'Afar@fr
+	 1 (002%): Kalbario@eu
+	 1 (002%): Kalivari@sw
+	 1 (002%): Kalonga@pt
+	 1 (002%): Kalvarijos kalnas@lt
+	 1 (002%): Kalvario@io
+	 1 (002%): Kolgata@et
+	 1 (002%): Kálvária
+	 1 (002%): Lafayette@fr
+	 1 (002%): Libóngo
+	 1 (002%): Liman (dəniz)
+	 1 (002%): Liman@tr
+	 1 (002%): Limani@sq
+	 1 (002%): Luka
+	 1 (002%): Luka@bs
+	 1 (002%): Luka@hr
+	 1 (002%): Magyarország földrajzi középpontja
+	 1 (002%): Markowa
+	 1 (002%): Markowa@fr
+	 1 (002%): Markowa@pl
+	 1 (002%): Megaland
+	 1 (002%): Menez Kalvar@br
+	 1 (002%): Naturleg hamn
+	 1 (002%): Nishi-Mizumoto
+	 1 (002%): Náttúruleg höfn
+	 1 (002%): O Castro, Paradela, Castro Caldelas
+	 1 (002%): Odelltown, Quebec
+	 1 (002%): Odelltown@fr
+	 1 (002%): Osta@lv
+	 1 (002%): Palos Verdes
+	 1 (002%): Palos Verdes@fr
+	 1 (002%): Palos Verdes@pt
+	 1 (002%): Pantalan
+	 1 (002%): Pays d'Yveline
+	 1 (002%): Pays d'Yveline@fr
+	 1 (002%): Peebles
+	 1 (002%): Pelabuhan@id
+	 1 (002%): Pelabuhan@ms
+	 1 (002%): Pethor
+	 1 (002%): Piilaakso
+	 1 (002%): Plabuhan@jv
+	 1 (002%): Poplar
+	 1 (002%): Poplar, London
+	 1 (002%): Poplar, London@en-gb
+	 1 (002%): Poplar@fr
+	 1 (002%): Poplar@ga
+	 1 (002%): Port
+	 1 (002%): Port wodny@pl
+	 1 (002%): Port@tt
+	 1 (002%): Porthladd
+	 1 (002%): Porto
+	 1 (002%): Portu
+	 1 (002%): Portu@eu
+	 1 (002%): Portuo@io
+	 1 (002%): Portus@la
+	 1 (002%): Porzh@br
+	 1 (002%): Pristanišče
+	 1 (002%): Prístav
+	 1 (002%): Purt@gv
+	 1 (002%): Pôrt@wa
+	 1 (002%): Přístav
+	 1 (002%): Qùai
+	 1 (002%): Ravnets, Dobrich Province
+	 1 (002%): Ravneț, Dobrici
+	 1 (002%): Sadam@et
+	 1 (002%): San Pedro, Xunqueira de Espadanedo, Xunqueira de Espadanedo
+	 1 (002%): Satama
+	 1 (002%): Schwaben
+	 1 (002%): Schwaben@nah
+	 1 (002%): Schwaben@sq
+	 1 (002%): Schwobeland@gsw
+	 1 (002%): Schwobm@bar
+	 1 (002%): Sete de Arriba
+	 1 (002%): Sete de Arriba, A Barqueira, Cerdido
+	 1 (002%): Shadyside
+	 1 (002%): Shahbazpur, Moulvibazar
+	 1 (002%): Siem Reap
+	 1 (002%): Siem Reap@de-ch
+	 1 (002%): Siem Reap@en-gb
+	 1 (002%): Siem Reap@eu
+	 1 (002%): Siem Reap@fr
+	 1 (002%): Siem Reap@id
+	 1 (002%): Siem Reap@ie
+	 1 (002%): Siem Reap@pl
+	 1 (002%): Siem Reap@pt
+	 1 (002%): Siem Reap@pt-br
+	 1 (002%): Siem Reap@tr
+	 1 (002%): Siem Reap@war
+	 1 (002%): Siem Riep
+	 1 (002%): Siemreabas@lt
+	 1 (002%): Silicijska dolina@hr
+	 1 (002%): Silicijumska dolina
+	 1 (002%): Silicio slėnis@lt
+	 1 (002%): Silicium Vallis@la
+	 1 (002%): Silicon Valley
+	 1 (002%): Silicon Valley@de-ch
+	 1 (002%): Silicon Valley@en-gb
+	 1 (002%): Silicon Valley@et
+	 1 (002%): Silicon Valley@eu
+	 1 (002%): Silicon Valley@fr
+	 1 (002%): Silicon Valley@id
+	 1 (002%): Silicon Valley@ki
+	 1 (002%): Silicon Valley@sco
+	 1 (002%): Silicon Valley@war
+	 1 (002%): Silikon Vadisi@tr
+	 1 (002%): Silīcija ieleja@lv
+	 1 (002%): Siĕm Réab
+	 1 (002%): Siĕm Réab@et
+	 1 (002%): Si̍t-kuk@hak
+	 1 (002%): Soabia
+	 1 (002%): Souabe@fr
+	 1 (002%): Souli
+	 1 (002%): St. Thomas
+	 1 (002%): Stenbacken
+	 1 (002%): Stepping Stone
+	 1 (002%): Stepping Stone@fr
+	 1 (002%): Suabia
+	 1 (002%): Suabia@eu
+	 1 (002%): Suebia@an
+	 1 (002%): Suebia@la
+	 1 (002%): Surrey@fr
+	 1 (002%): Suàbia
+	 1 (002%): Svabya@tr
+	 1 (002%): Svevia
+	 1 (002%): Svábföld
+	 1 (002%): Sváfaland
+	 1 (002%): Swabia
+	 1 (002%): Swabia@br
+	 1 (002%): Swabia@id
+	 1 (002%): Swǣfe
+	 1 (002%): Szilícium-völgy
+	 1 (002%): Szwabia@pl
+	 1 (002%): Sïlïkon alqabı@kk-latn
+	 1 (002%): Sïlïkon alqabı@kk-tr
+	 1 (002%): Tarnawka (powiat łańcucki)@pl
+	 1 (002%): Tarnawka, Łańcut County
+	 1 (002%): Tarnawka@fr
+	 1 (002%): Telecom Valley
+	 1 (002%): Twierdza Dyneburg@pl
+	 1 (002%): Tzacuapanyan@nah
+	 1 (002%): Uostas@lt
+	 1 (002%): Vale do Silício@pt
+	 1 (002%): Vale do Silício@pt-br
+	 1 (002%): Wamp'urani@qu
+	 1 (002%): Wodno hawyna
+	 1 (002%): Wusong
+	 1 (002%): Wusong@fr
+	 1 (002%): Węzeł potrójny Afar@pl
+	 1 (002%): Xiêm Riệp
+	 1 (002%): Yellow Dog Plains
+	 1 (002%): Zona portuale
+	 1 (002%): calvario
+	 1 (002%): cảng
+	 1 (002%): haven
+	 1 (002%): kikötő
+	 1 (002%): luka
+	 1 (002%): port
+	 1 (002%): port@fr
+	 1 (002%): port@sco
+	 1 (002%): porto@pt
+	 1 (002%): puerto
+	 1 (002%): zone verte
+	 1 (002%): zone verte@fr
+	 1 (002%): Đồi Sọ
+	 1 (002%): Ŝvaboj
+	 1 (002%): Švaabimaa@et
+	 1 (002%): Švabija@bs
+	 1 (002%): Švabija@lt
+	 1 (002%): Švabska
+	 1 (002%): Švapska
+	 1 (002%): Švapska@hr
+	 1 (002%): Švábsko
+	 1 (002%): Švābija@lv
+	 1 (002%): Γολγοθάς@el
+	 1 (002%): Δωρίδα@el
+	 1 (002%): Κοιλάδα του Πυριτίου@el
+	 1 (002%): Σουηβία@el
+	 1 (002%): Σούλι Θεσπρωτίας@el
+	 1 (002%): λιμάνι@el
+	 1 (002%): Афарський трійник
+	 1 (002%): Багалпур@sr
+	 1 (002%): Багалпур@sr-cyrl
+	 1 (002%): Бандар@tg
+	 1 (002%): Брентфорд
+	 1 (002%): Бхагалпур
+	 1 (002%): Бхаґалпур
+	 1 (002%): Галгофа
+	 1 (002%): Голгота
+	 1 (002%): Голгота@bg
+	 1 (002%): Голгота@sr
+	 1 (002%): Голгота@sr-cyrl
+	 1 (002%): Голгофа
+	 1 (002%): Даугавпилсская крепость
+	 1 (002%): Дорида
+	 1 (002%): Дорида@bg
+	 1 (002%): Ивлин
+	 1 (002%): Кемежай@kk
+	 1 (002%): Крамянёвая даліна@be-tarask
+	 1 (002%): Кремнієва долина
+	 1 (002%): Маркова
+	 1 (002%): Палос Вердес
+	 1 (002%): Порт
+	 1 (002%): Пристанище@bg
+	 1 (002%): Равнец (Добрич облысы)@kk
+	 1 (002%): Равнец (Добричская область)
+	 1 (002%): Равнец (Област Добрич)@bg
+	 1 (002%): Равнець (Добрицька область)
+	 1 (002%): Сием Реап@sr
+	 1 (002%): Сиемреап
+	 1 (002%): Сиемреап@mn
+	 1 (002%): Силикон алқабы@kk
+	 1 (002%): Силикон алқабы@kk-cyrl
+	 1 (002%): Силикон алқабы@kk-kz
+	 1 (002%): Силикон хочото
+	 1 (002%): Силиконовая долина
+	 1 (002%): Силициева долина@bg
+	 1 (002%): Силициумска Долина
+	 1 (002%): Силицијумска долина@sr
+	 1 (002%): Силицијумска долина@sr-cyrl
+	 1 (002%): Швабия
+	 1 (002%): Швабия@bg
+	 1 (002%): Швабија@sr
+	 1 (002%): Швабія
+	 1 (002%): Швабія@be-tarask
+	 1 (002%): лука@sr
+	 1 (002%): лука@sr-cyrl
+	 1 (002%): пристаниште
+	 1 (002%): גבעת הגולגולתא
+	 1 (002%): נמל
+	 1 (002%): עמק הסיליקון
+	 1 (002%): פארט@yi
+	 1 (002%): פתור
+	 1 (002%): שוואביה
+	 1 (002%): باگلپور
+	 1 (002%): برنتفورد
+	 1 (002%): بندر
+	 1 (002%): بندرگاہ@ur
+	 1 (002%): بهاجالبور@ar
+	 1 (002%): بھاگلپور@pnb
+	 1 (002%): جلجثة@ar
+	 1 (002%): دره سیلیکون
+	 1 (002%): سىيلىيكون القابى@kk-arab
+	 1 (002%): سىيلىيكون القابى@kk-cn
+	 1 (002%): سيام ريب@ar
+	 1 (002%): سیئم ریئپ@ur
+	 1 (002%): سیئم ریپ@pnb
+	 1 (002%): سیه‌م رئاپ
+	 1 (002%): شوابيا@ar
+	 1 (002%): ميناء@ar
+	 1 (002%): وادي السيليكون@ar
+	 1 (002%): پوپلر، لندن@ur
+	 1 (002%): گلگتا@ur
+	 1 (002%): ܓܓܘܠܬܐ@arc
+	 1 (002%): ܠܡܐܢܐ@arc
+	 1 (002%): तुऱैमुकम्
+	 1 (002%): पॉप्लर@hi
+	 1 (002%): बंदर
+	 1 (002%): बंदरगाह@hi
+	 1 (002%): ब्रेंटफ़र्ड@hi
+	 1 (002%): भगलपुर
+	 1 (002%): भागलपुर@hi
+	 1 (002%): भागलपुर@ne
+	 1 (002%): सिलिकॉन वैली@hi
+	 1 (002%): सीम रीप@hi
+	 1 (002%): আজিমপুর, ঢাকা
+	 1 (002%): বন্দর
+	 1 (002%): ভাগলপুর
+	 1 (002%): সিলিকন ভ্যালি
+	 1 (002%): ਸਿਲੀਕਾਨ ਘਾਟੀ@pa
+	 1 (002%): ભાગલપુર@gu
+	 1 (002%): સિલિકૉન વૅલી@gu
+	 1 (002%): கொல்கொதா
+	 1 (002%): சிலிக்கான் பள்ளத்தாக்கு
+	 1 (002%): சுவாபியா
+	 1 (002%): துறைமுகம்
+	 1 (002%): నౌకాశ్రయం
+	 1 (002%): భాగల్పూర్
+	 1 (002%): ರೇವು
+	 1 (002%): ഗൊൽഗോഥാ@ml
+	 1 (002%): ซิลิคอนแวลลีย์@th
+	 1 (002%): ภคัลปุระ@th
+	 1 (002%): เสียมราฐ@th
+	 1 (002%): ທ່າເຮືອ@lo
+	 1 (002%): ဆီလီကွန်ဗယ်လီ@my
+	 1 (002%): გოლგოთა
+	 1 (002%): სილიკონის ველი
+	 1 (002%): შვაბია
+	 1 (002%): ጎልጎታ@am
+	 1 (002%): ក្រុងសៀមរាប
+	 1 (002%): ゴルゴタの丘
+	 1 (002%): シェムリアップ
+	 1 (002%): シュヴァーベン
+	 1 (002%): シリコンバレー
+	 1 (002%): バーガルプル
+	 1 (002%): ブレントフォード
+	 1 (002%): 各各他
+	 1 (002%): 各各他@zh-cn
+	 1 (002%): 各各他@zh-hans
+	 1 (002%): 各各他@zh-hk
+	 1 (002%): 各各他@zh-tw
+	 1 (002%): 吳淞
+	 1 (002%): 吳淞@zh-hk
+	 1 (002%): 吴淞@zh-hans
+	 1 (002%): 呉淞区
+	 1 (002%): 士瓦本
+	 1 (002%): 暹粒市
+	 1 (002%): 海港
+	 1 (002%): 港口
+	 1 (002%): 港口@zh-cn
+	 1 (002%): 港口@zh-hk
+	 1 (002%): 港湾
+	 1 (002%): 矽谷
+	 1 (002%): 矽谷@zh-hk
+	 1 (002%): 矽谷@zh-tw
+	 1 (002%): 硅谷
+	 1 (002%): 硅谷@zh-cn
+	 1 (002%): 硅谷@zh-hans
+	 1 (002%): 西水元
+	 1 (002%): 賓福特
+	 1 (002%): 골고다
+	 1 (002%): 바갈푸르
+	 1 (002%): 브렌트퍼드
+	 1 (002%): 슈바벤
+	 1 (002%): 시엠레아프
+	 1 (002%): 실리콘밸리
+	 1 (002%): 항구
+
+<http://www.wikidata.org/entity/P910c>:
+	 1 (002%): http://www.wikidata.org/entity/Q8213768
+	 1 (002%): http://www.wikidata.org/entity/Q8298789
+	 1 (002%): http://www.wikidata.org/entity/Q8388594
+	 1 (002%): http://www.wikidata.org/entity/Q8743761
+	 1 (002%): http://www.wikidata.org/entity/Q8745081
+
+<http://www.wikidata.org/entity/P137s>:
+	 1 (002%): http://www.wikidata.org/entity/Q423466S41e95184-4bb7-1fcb-09bd-1553e5dec7c0
+
+<http://www.wikidata.org/entity/P18s>:
+	 1 (002%): http://www.wikidata.org/entity/Q11711SB92CAB50-04D5-4826-A893-EDBCB4C6182A
+	 1 (002%): http://www.wikidata.org/entity/Q163820Sbbd74a79-4f6e-8dba-3830-afdd007f1d41
+	 1 (002%): http://www.wikidata.org/entity/Q2373842Sa4e5ec49-4010-4bc4-f857-e84e21af28e6
+	 1 (002%): http://www.wikidata.org/entity/Q5666484S85b7a1a4-4e06-29fd-5270-5825c0011ff4
+
+<http://www.wikidata.org/entity/P1004s>:
+	 1 (002%): http://www.wikidata.org/entity/Q2373842S8C64CBD6-3348-41B0-8364-C7B1D2D51718
+
+<http://www.wikidata.org/entity/P190c>:
+	 1 (002%): http://www.wikidata.org/entity/Q182872
+
+<http://www.wikidata.org/entity/P349-ndl>:
+	 1 (002%): http://id.ndl.go.jp/auth/entity/00566851
+
+<http://www.wikidata.org/entity/P1435s>:
+	 1 (002%): http://www.wikidata.org/entity/Q4931486Seb980f58-4bfb-60cf-6726-70480e9628b5
+
+<http://www.wikidata.org/entity/P1004-mbplace>:
+	 1 (002%): http://musicbrainz.org/7e0f978c-23d7-4ab6-9bee-9b4ac98cf133/place
+
+<http://www.wikidata.org/entity/P856c>:
+	 1 (002%): http://www.husow.pl/
+
+<http://www.wikidata.org/entity/P27c>:
+	 1 (002%): http://www.wikidata.org/entity/Q668
+
+<http://www.wikidata.org/entity/P1249c>:
+	 1 (002%): 1350+01:00^^http://www.w3.org/2001/XMLSchema#gYear
+
+<http://schema.org/description>:
+	 2 (004%): plaats in Subkarpaten
+	 2 (004%): subregion of the San Francisco Bay Area in the United States
+	 2 (004%): village de Pologne, dans la commune rurale de Markowa@fr
+	 1 (002%): Alaska
+	 1 (002%): Alaska@fr
+	 1 (002%): Former Iron Ore Line station
+	 1 (002%): Forteresse située à Daugavpils, en Lettonie@fr
+	 1 (002%): Halbinsel südwestlich von Los Angeles
+	 1 (002%): Hauptstadt der gleichnamigen kambodschanischen Provinz
+	 1 (002%): La capitale de la province de Siem Reap au Cambodge@fr
+	 1 (002%): Londen
+	 1 (002%): Ort an einer Küste, wo Schiffe anlegen können
+	 1 (002%): Provinshuvudstad i provinsen med samma namn,
+	 1 (002%): Stadt in Bihar, Indien
+	 1 (002%): Stadtteil von London
+	 1 (002%): Tennessee rail switch and former train station, adopted as fictional hometown of Minnie Pearl
+	 1 (002%): Yukon Quest checkpoint
+	 1 (002%): antike Landschaft in Mittelgriechenland
+	 1 (002%): area of north London, in the London Borough of Barnet
+	 1 (002%): area with restricted construction rights in French law
+	 1 (002%): capital of the same named Cambodian province
+	 1 (002%): checkpoint de la Yukon Quest au marqueur 101 de la Steese Highway@fr
+	 1 (002%): città della Cambogia
+	 1 (002%): città fantasma della California
+	 1 (002%): city and a Municipal Corporation in Bihar, India
+	 1 (002%): ciudad de Camboya
+	 1 (002%): colina fora da cidade de Jerusalém onde Jesus foi crucificado@pt-br
+	 1 (002%): community in Fond du Lac County, Wisconsin, United States of America
+	 1 (002%): community in Le Sueur County, Minnesota, United States of America
+	 1 (002%): community in Nova Scotia, Canada
+	 1 (002%): espacio orientado especialmente al flujo de mercancías o personas
+	 1 (002%): fort in Letland
+	 1 (002%): före detta hållplats efter Malmbanan vid Torneträsk strand
+	 1 (002%): ghost town in Mono County, California
+	 1 (002%): historical and geographical region of Greece which is a federation of villages
+	 1 (002%): infrastructure  destinée à accueillir des bateaux et navires@fr
+	 1 (002%): inner-city district in the city of Birmingham, England
+	 1 (002%): landscape in Germany
+	 1 (002%): lieu du Yukon@fr
+	 1 (002%): località nei pressi di Warwick, Orange County, stato di New York, Stati Uniti d'America
+	 1 (002%): localité américaine abandonnée@fr
+	 1 (002%): localité de la communauté de Belfast, sur l'Île-du-Prince-Édouard@fr
+	 1 (002%): localité situé à Lacolle (Québec)@fr
+	 1 (002%): location on a coast or shore containing one or more harbors
+	 1 (002%): místo ukřižování Ježíše Krista
+	 1 (002%): plaats in Norrbottens län
+	 1 (002%): place in A Barqueira, Cerdido, Corunna, Spain
+	 1 (002%): place in Aram Naharaim
+	 1 (002%): place in Yukon
+	 1 (002%): point de transbordement de la traite des fourrures@fr
+	 1 (002%): pueblo fantasma en California
+	 1 (002%): quartier de Londres@fr
+	 1 (002%): quartier de Tunis@fr
+	 1 (002%): quartiere londinese
+	 1 (002%): stad
+	 1 (002%): struttura posta sul litorale marittimo atta a consentire l'approdo a imbarcazioni
+	 1 (002%): subdivision in Houston, Texas, United States of America
+	 1 (002%): terrain dont la constructibilité est limitée en droit français de l'urbanisme@fr
+	 1 (002%): town located in Katsushika-ku, Tokyo
+	 1 (002%): village de Pologne dans la commune rurale homonyme@fr
+	 1 (002%): village grec@fr
+	 1 (002%): vēsturisks reģions Vācijas dienvidrietumos, Reinas un Donavas iztekas daļā@lv
+	 1 (002%): географическое местоположение в Польше, Подкарпатское воеводство, Ланьцутский повят, Маркова
+	 1 (002%): небольшая гористая область в центре средней Греции
+	 1 (002%): מקום מקראי בארם נהריים
+	 1 (002%): ドイツ南西部の地域
+	 1 (002%): 東京都葛飾区の町名
+
+<http://www.wikidata.org/entity/P948s>:
+	 1 (002%): http://www.wikidata.org/entity/Q11711S468D0E54-A7AD-48F9-9230-D576018615F7
+
+<http://www.wikidata.org/entity/P856s>:
+	 1 (002%): http://www.wikidata.org/entity/Q2392923S99421f7d-4ffc-fe9d-eb36-3562742e9653
+
+<http://www.wikidata.org/entity/P127s>:
+	 1 (002%): http://www.wikidata.org/entity/Q423466Sd6ba33aa-4ccd-fe41-3312-d0717370ba45
+
+<http://www.wikidata.org/entity/P281s>:
+	 1 (002%): http://www.wikidata.org/entity/Q833454S153e1aec-4424-71b9-cd85-3a1f90abbc2b
+	 1 (002%): http://www.wikidata.org/entity/Q833454S9e650c46-43cb-d21c-7187-afbcd9e3b502
+	 1 (002%): http://www.wikidata.org/entity/Q833454Sb2472e14-492a-74a1-fc9f-49cb2bd7f8d0
+
+<http://www.wikidata.org/entity/P1249s>:
+	 1 (002%): http://www.wikidata.org/entity/Q790241Sb7d08f5d-4f9f-e9d1-526a-2799cd810438
+
+<http://www.wikidata.org/entity/P646-freebase>:
+	 1 (002%): http://rdf.freebase.com/ns/m.022dhl
+	 1 (002%): http://rdf.freebase.com/ns/m.02p052
+	 1 (002%): http://rdf.freebase.com/ns/m.02r90tw
+	 1 (002%): http://rdf.freebase.com/ns/m.02wz52
+	 1 (002%): http://rdf.freebase.com/ns/m.02xkdj
+	 1 (002%): http://rdf.freebase.com/ns/m.032n9c
+	 1 (002%): http://rdf.freebase.com/ns/m.034ryk
+	 1 (002%): http://rdf.freebase.com/ns/m.03ynmrz
+	 1 (002%): http://rdf.freebase.com/ns/m.04j9msy
+	 1 (002%): http://rdf.freebase.com/ns/m.0640y91
+	 1 (002%): http://rdf.freebase.com/ns/m.06pw6
+	 1 (002%): http://rdf.freebase.com/ns/m.0bh9mfg
+	 1 (002%): http://rdf.freebase.com/ns/m.0dcvxm
+	 1 (002%): http://rdf.freebase.com/ns/m.0ggdlz
+	 1 (002%): http://rdf.freebase.com/ns/m.0n90l
+	 1 (002%): http://rdf.freebase.com/ns/m.0nbx_
+	 1 (002%): http://rdf.freebase.com/ns/m.0p1c1
+
+<http://www.wikidata.org/entity/P27s>:
+	 1 (002%): http://www.wikidata.org/entity/Q760714SF43944C6-8122-4851-841D-B85FEBE1D977
+
+<http://www.wikidata.org/entity/P30c>:
+	 1 (002%): http://www.wikidata.org/entity/Q15
+	 1 (002%): http://www.wikidata.org/entity/Q48
+
+<http://www.wikidata.org/entity/P361c>:
+	 1 (002%): http://www.wikidata.org/entity/Q12950835
+	 1 (002%): http://www.wikidata.org/entity/Q2325822
+	 1 (002%): http://www.wikidata.org/entity/Q3150308
+
+<http://www.w3.org/2004/02/skos/core#altLabel>:
+	 1 (002%): 101 Mile Dog Drop
+	 1 (002%): 101 Mile Dog Drop@fr
+	 1 (002%): Afarin maa
+	 1 (002%): Afarin svänkö
+	 1 (002%): Atracadero
+	 1 (002%): Bagalpuro
+	 1 (002%): Bhagalpur
+	 1 (002%): Bhagalpur@lt
+	 1 (002%): Bhagalpur@sr
+	 1 (002%): Bhāgalpur
+	 1 (002%): Cala@gd
+	 1 (002%): Calvarieberg
+	 1 (002%): Calvarium
+	 1 (002%): Calvarië
+	 1 (002%): Calvary
+	 1 (002%): Calvary@ml
+	 1 (002%): Centre of Hungary
+	 1 (002%): Dankalia
+	 1 (002%): Daongan
+	 1 (002%): Dinaburgas cietoksnis@lv
+	 1 (002%): Dog Town (California)
+	 1 (002%): Dorida
+	 1 (002%): Doride
+	 1 (002%): Doris@bg
+	 1 (002%): Draf- en Renbaan Limburg
+	 1 (002%): Dóride
+	 1 (002%): Dóride@pt
+	 1 (002%): Fasilitas Pelabuhan@id
+	 1 (002%): Golgata
+	 1 (002%): Golgatha
+	 1 (002%): Golgota
+	 1 (002%): Golgota@id
+	 1 (002%): Golgota@lt
+	 1 (002%): Golgotha
+	 1 (002%): Golgotha@sw
+	 1 (002%): Golgotos kalnas@lt
+	 1 (002%): Gordons Golgata
+	 1 (002%): Great Gate to Angkor
+	 1 (002%): Greenfield, Queens County
+	 1 (002%): Grinder's Switch, TN
+	 1 (002%): Grinder's Switch, Tennessee
+	 1 (002%): Grinders station
+	 1 (002%): Gólgota
+	 1 (002%): Gólgota@pt
+	 1 (002%): Gólgota@pt-br
+	 1 (002%): Haben@nds
+	 1 (002%): Hafenanlage
+	 1 (002%): Hamn
+	 1 (002%): Hamnanläggning
+	 1 (002%): Hamnbyggnad
+	 1 (002%): Hamnstad
+	 1 (002%): Hamnverksamhet
+	 1 (002%): Havenurbo
+	 1 (002%): Hoben@nds
+	 1 (002%): Hora Kalvárie
+	 1 (002%): Husow@fr
+	 1 (002%): Infrastructures portuaires@fr
+	 1 (002%): Insjöhamn
+	 1 (002%): Kalbaryo
+	 1 (002%): Kalvaria monto
+	 1 (002%): Kalvarija
+	 1 (002%): Kalvarija@hr
+	 1 (002%): Kalvario
+	 1 (002%): Kalvárie
+	 1 (002%): Kiseldalen
+	 1 (002%): Kontainerhafen
+	 1 (002%): Kremíkové údolie
+	 1 (002%): Krzemowa Dolina@pl
+	 1 (002%): Kísildalur
+	 1 (002%): Křemíkové údolí
+	 1 (002%): Lembah Silikon@id
+	 1 (002%): Liman nedir@tr
+	 1 (002%): Limanlar@tr
+	 1 (002%): Locul Calvarului
+	 1 (002%): Lugar da Caveira@pt
+	 1 (002%): Magyarország középpontja
+	 1 (002%): Mazā osta@lv
+	 1 (002%): Megaland Landgraaf
+	 1 (002%): Mile 101 checkpoint
+	 1 (002%): Mile 101 checkpoint@fr
+	 1 (002%): Mont Calvari
+	 1 (002%): Mont Golgotha@fr
+	 1 (002%): Monte Calvario
+	 1 (002%): Monte Calvário@pt
+	 1 (002%): Monte del Calvario
+	 1 (002%): Monto de Kalvario
+	 1 (002%): Místo lebky
+	 1 (002%): Pantalan
+	 1 (002%): Peebles, Wisconsin
+	 1 (002%): Pier
+	 1 (002%): Piyer
+	 1 (002%): Port
+	 1 (002%): Port libre de glace@fr
+	 1 (002%): Port maritime@fr
+	 1 (002%): Port marítim
+	 1 (002%): Porti
+	 1 (002%): Porti fluviali
+	 1 (002%): Porto fluvial@pt
+	 1 (002%): Porto fluviale
+	 1 (002%): Porto marittimo
+	 1 (002%): Porto marítimo@pt
+	 1 (002%): Portos@pt
+	 1 (002%): Portuaire@fr
+	 1 (002%): Portuari
+	 1 (002%): Portuario
+	 1 (002%): Portuária@pt
+	 1 (002%): Portuário@pt
+	 1 (002%): Porzh-mor@br
+	 1 (002%): Pristanište
+	 1 (002%): Pristanište@hr
+	 1 (002%): Puerto
+	 1 (002%): Puerto fluvial
+	 1 (002%): Puerto maritimo
+	 1 (002%): Puerto marítimo
+	 1 (002%): Puertos
+	 1 (002%): Pundahan
+	 1 (002%): Pundahang pandagat
+	 1 (002%): Puwerto
+	 1 (002%): Pwerto
+	 1 (002%): Pwertong pandagat
+	 1 (002%): Pyer
+	 1 (002%): Räniorg@et
+	 1 (002%): Satamat
+	 1 (002%): Schiffshafen
+	 1 (002%): Schädelstätte
+	 1 (002%): Seaport
+	 1 (002%): Shadyside, Houston
+	 1 (002%): Silcon Valley
+	 1 (002%): Silicia Valo
+	 1 (002%): Silicon Valley
+	 1 (002%): Silicon Valley@ar
+	 1 (002%): Silicon Valley@el
+	 1 (002%): Silicon Valley@pl
+	 1 (002%): Silicon Valley@pt
+	 1 (002%): Silicone Valley
+	 1 (002%): Siliconvalley
+	 1 (002%): Silikona ieleja@lv
+	 1 (002%): Silikonove doline@sr
+	 1 (002%): Silikonska dolina@hr
+	 1 (002%): Silisiumdalen
+	 1 (002%): Sillicon Valley
+	 1 (002%): St. Thomas, Minnesota
+	 1 (002%): Stanford Industrial Park
+	 1 (002%): Sudžangandžas@lt
+	 1 (002%): Tetrapolis
+	 1 (002%): Tetràpolis dòrica
+	 1 (002%): Thung lũng Silicon
+	 1 (002%): Thung lũng Điện tử
+	 1 (002%): Valle del Silicio
+	 1 (002%): Valley of Heart's Delight
+	 1 (002%): Woosung
+	 1 (002%): Zona portuária@pt
+	 1 (002%): Zonage portuaire@fr
+	 1 (002%): Zones portuaires@fr
+	 1 (002%): cảng biển
+	 1 (002%): cảng đường thuỷ
+	 1 (002%): cảng đường thủy
+	 1 (002%): havenautoriteit
+	 1 (002%): hải cảng
+	 1 (002%): thuishaven
+	 1 (002%): werkhaven
+	 1 (002%): Ölhafen
+	 1 (002%): Σίλικον Βάλεϋ@el
+	 1 (002%): λιμένας@el
+	 1 (002%): Афарський потрійний розлом
+	 1 (002%): Бхагалпур
+	 1 (002%): Голгота
+	 1 (002%): Двинская крепость
+	 1 (002%): Динабургская крепость
+	 1 (002%): Дорида (Греция)
+	 1 (002%): Дорида (область)
+	 1 (002%): Дорис@bg
+	 1 (002%): Калварија@sr
+	 1 (002%): Компанії Силіконової долини
+	 1 (002%): Крэмніевая даліна@be-tarask
+	 1 (002%): Морской порт
+	 1 (002%): Морський порт
+	 1 (002%): Порт морський
+	 1 (002%): Порт@tg
+	 1 (002%): Пристанища@bg
+	 1 (002%): Равнец (Добрич)
+	 1 (002%): Равнец (Добричка област)@bg
+	 1 (002%): Силиконова долина@bg
+	 1 (002%): Силиконовата долина@bg
+	 1 (002%): Силиконска Долина@sr
+	 1 (002%): Силициевата долина@bg
+	 1 (002%): Силіконова долина
+	 1 (002%): Сыліконавая даліна@be-tarask
+	 1 (002%): גולגולתא
+	 1 (002%): גולגותא
+	 1 (002%): גולגלתא
+	 1 (002%): גלגתא
+	 1 (002%): נמל ים
+	 1 (002%): נמל ימי
+	 1 (002%): الموانئ@ar
+	 1 (002%): الميناء@ar
+	 1 (002%): بندرگاہوں@ur
+	 1 (002%): بندرگاہیں@ur
+	 1 (002%): جلجثه@ar
+	 1 (002%): جلجلة@ar
+	 1 (002%): دره سیلیکان
+	 1 (002%): دره ی سیلیکون
+	 1 (002%): درهٔ سیلیکان
+	 1 (002%): درهٔ سیلیکون
+	 1 (002%): دره‌ی سیلیکون
+	 1 (002%): سيلكون فالي@ar
+	 1 (002%): سيليكون فالي@ar
+	 1 (002%): سیلیکان ولی
+	 1 (002%): سیلیکن ولی
+	 1 (002%): سیلیکون ولی
+	 1 (002%): موانئ@ar
+	 1 (002%): ميناء بحري@ar
+	 1 (002%): وادي السليكون@ar
+	 1 (002%): وادي السيلكون@ar
+	 1 (002%): یوپلاس
+	 1 (002%): भागलपुर जिला@hi
+	 1 (002%): আজিমপুর
+	 1 (002%): கபாலஸ்தலம்
+	 1 (002%): கல்வாரி
+	 1 (002%): சிலிகான் பள்ளத்தாக்கு
+	 1 (002%): കാൽവരി@ml
+	 1 (002%): കാൽവറി@ml
+	 1 (002%): ഗാഗുൽത്താ@ml
+	 1 (002%): ซิลิคอนวัลเลย์@th
+	 1 (002%): ဆီလီကွန်တောင်ကြား@my
+	 1 (002%): ቀራንዮ@am
+	 1 (002%): ゴルゴタ
+	 1 (002%): ゴルゴダ
+	 1 (002%): ゴルゴダの丘
+	 1 (002%): シュワーベン
+	 1 (002%): シュワーペン
+	 1 (002%): シリコンバーレー
+	 1 (002%): シリコンヴァレー
+	 1 (002%): シリコン・バレー
+	 1 (002%): シリコン・ヴァレー
+	 1 (002%): スウェイビア
+	 1 (002%): スワーブ
+	 1 (002%): ニューリッチ
+	 1 (002%): ハブ港湾
+	 1 (002%): バガルプル
+	 1 (002%): 加尔瓦略山
+	 1 (002%): 加略山
+	 1 (002%): 各各他山
+	 1 (002%): 商港
+	 1 (002%): 海洋施設
+	 1 (002%): 海港@zh-hk
+	 1 (002%): 港
+	 1 (002%): 港灣
+	 1 (002%): 矽谷
+	 1 (002%): 良港
+	 1 (002%): 髑髏地
+	 1 (002%): 갈바리
+	 1 (002%): 갈보리
+	 1 (002%): 골고타
+	 1 (002%): 부동항
+	 1 (002%): 실리콘 밸리
+	 1 (002%): 실리콘 벨리
+	 1 (002%): 칼바리
+
+<http://www.wikidata.org/entity/P242s>:
+	 1 (002%): http://www.wikidata.org/entity/Q11812551S172f5786-4bdf-3639-bb3f-244600155a51
+	 1 (002%): http://www.wikidata.org/entity/Q3037075S286516DC-63B5-44BC-B31C-B2CDECCC75D3
+
+<http://www.wikidata.org/entity/P402c>:
+	 1 (002%): 2397276224
+
+<http://www.wikidata.org/entity/P948c>:
+	 1 (002%): http://commons.wikimedia.org/wiki/File:Angkor_Archaeological_Park_Banner_(Angkor_Wat).jpg
+
+<http://www.wikidata.org/entity/P227s>:
+	 1 (002%): http://www.wikidata.org/entity/Q1013528S43BC33C8-CB04-4077-A0BB-785ACC0CF52A
+	 1 (002%): http://www.wikidata.org/entity/Q11711Sd470b912-4241-1056-3a31-37a46cdc0e9c
+	 1 (002%): http://www.wikidata.org/entity/Q163820SDD5B3FFA-49E2-4E8E-B8EE-E4597DB11A09
+	 1 (002%): http://www.wikidata.org/entity/Q179716SC5EFCDDB-9839-4369-AE82-B4EBB01E927D
+
+<http://www.wikidata.org/entity/P421c>:
+	 1 (002%): http://www.wikidata.org/entity/Q6723
+	 1 (002%): http://www.wikidata.org/entity/Q6940
+
+<http://www.wikidata.org/entity/P1134s>:
+	 1 (002%): http://www.wikidata.org/entity/Q18668144S89630af9-404e-17f8-5303-d2fdc62e417c
+	 1 (002%): http://www.wikidata.org/entity/Q790241Sded3893d-4619-2c48-58b1-a3f98edaca61
+
+<http://www.wikidata.org/entity/P17c>:
+	 9 (016%): http://www.wikidata.org/entity/Q30
+	 5 (009%): http://www.wikidata.org/entity/Q16
+	 4 (007%): http://www.wikidata.org/entity/Q145
+	 4 (007%): http://www.wikidata.org/entity/Q34
+	 3 (005%): http://www.wikidata.org/entity/Q36
+	 2 (004%): http://www.wikidata.org/entity/Q29
+	 2 (004%): http://www.wikidata.org/entity/Q902
+	 1 (002%): http://www.wikidata.org/entity/Q142
+	 1 (002%): http://www.wikidata.org/entity/Q17
+	 1 (002%): http://www.wikidata.org/entity/Q183
+	 1 (002%): http://www.wikidata.org/entity/Q211
+	 1 (002%): http://www.wikidata.org/entity/Q219
+	 1 (002%): http://www.wikidata.org/entity/Q41
+	 1 (002%): http://www.wikidata.org/entity/Q424
+	 1 (002%): http://www.wikidata.org/entity/Q55
+	 1 (002%): http://www.wikidata.org/entity/Q625636
+	 1 (002%): http://www.wikidata.org/entity/Q668
+	 1 (002%): http://www.wikidata.org/entity/Q948
+
+<http://www.wikidata.org/entity/P30s>:
+	 1 (002%): http://www.wikidata.org/entity/Q11711S9c7c6375-4c69-c980-f7a6-ed04f2a97cfd
+	 1 (002%): http://www.wikidata.org/entity/Q3037075Sb5ce7d47-487e-6262-4a60-a99d02eb0937
+
+<http://www.wikidata.org/entity/P361s>:
+	 1 (002%): http://www.wikidata.org/entity/Q12400416S4b619d68-470d-a215-7158-35b25925268c
+	 1 (002%): http://www.wikidata.org/entity/Q3037075Sa250ce6e-4f8c-a3ec-d53e-715ce0e9bc0d
+	 1 (002%): http://www.wikidata.org/entity/Q7686401S55e060c6-413b-47fc-2bb5-125f615dc1eb
+
+<http://www.wikidata.org/entity/P242c>:
+	 1 (002%): http://commons.wikimedia.org/wiki/File:EAfrica.png
+	 1 (002%): http://commons.wikimedia.org/wiki/File:Swabia.png
+
+<http://www.wikidata.org/entity/P402s>:
+	 1 (002%): http://www.wikidata.org/entity/Q2240166S45e4a759-48db-4031-77dc-7bfa37527d69
+
+<http://www.wikidata.org/entity/P421s>:
+	 1 (002%): http://www.wikidata.org/entity/Q11711S8EAF2AA2-ABA0-40E9-AEE7-0264A97DBB39
+	 1 (002%): http://www.wikidata.org/entity/Q12884582S39552E3A-3BDA-48A0-B01C-61C289385AB4
+
+<http://www.wikidata.org/entity/P227c>:
+	 1 (002%): 4107751-9
+	 1 (002%): 4681726-8
+	 1 (002%): 5096774-5
+	 1 (002%): 7633266-4
+
+<http://www.wikidata.org/entity/P1134c>:
+	 1 (002%): http://www.wikidata.org/entity/Q174593
+	 1 (002%): http://www.wikidata.org/entity/Q802526
+
+<http://www.wikidata.org/entity/P17s>:
+	 1 (002%): http://www.wikidata.org/entity/Q1013528S38BAD1BC-D163-45B1-8A15-8E5624F3D38E
+	 1 (002%): http://www.wikidata.org/entity/Q10518676Sd86baa70-4855-eef1-af49-9012d9e147ab
+	 1 (002%): http://www.wikidata.org/entity/Q11628951SFF5F93DD-7FE6-489F-BAB3-09D6D8635F93
+	 1 (002%): http://www.wikidata.org/entity/Q11711S5A4145CA-D360-4443-BE6C-A0ACF118CE7E
+	 1 (002%): http://www.wikidata.org/entity/Q11812551S4BCC7B49-9219-4EB9-85E7-0861FFB3A52C
+	 1 (002%): http://www.wikidata.org/entity/Q123360S66D120AC-CACE-403E-8DB1-EE6A37A10B38
+	 1 (002%): http://www.wikidata.org/entity/Q12394651S5e466a37-4c0f-2695-0b8f-8dd8b6dc7711
+	 1 (002%): http://www.wikidata.org/entity/Q12400416S71D7C8DF-F73C-4458-8CB8-D98331CE6E1F
+	 1 (002%): http://www.wikidata.org/entity/Q12884582S2E95183F-652C-4BA4-A477-B33B261E1FF4
+	 1 (002%): http://www.wikidata.org/entity/Q14714582SF310D650-FC90-42F0-9173-82F3A40EB5E0
+	 1 (002%): http://www.wikidata.org/entity/Q163820Sd3a8ddcc-4e3c-b5e0-e16a-480b580437c3
+	 1 (002%): http://www.wikidata.org/entity/Q17251749S5460117D-AAF2-47F0-903A-6CC0429736E0
+	 1 (002%): http://www.wikidata.org/entity/Q17373119SD5BC4B78-A018-4EFA-BDA5-A35EED93CC38
+	 1 (002%): http://www.wikidata.org/entity/Q179716S2BFDE46A-7530-4C36-BB83-803F5DF812B5
+	 1 (002%): http://www.wikidata.org/entity/Q2240166S85490608-08A6-478D-BB9C-87C9161CD820
+	 1 (002%): http://www.wikidata.org/entity/Q2373842Sbe4d0f97-4a84-e2eb-3204-de64c5f1fb77
+	 1 (002%): http://www.wikidata.org/entity/Q2392923SE8DBD29A-E115-4753-A866-AA980EB575C7
+	 1 (002%): http://www.wikidata.org/entity/Q255910SD0EA52D6-C059-4A8B-A576-AA2F667BE30A
+	 1 (002%): http://www.wikidata.org/entity/Q2666994Sdecef923-4b49-9bce-3df2-b44d945d5476
+	 1 (002%): http://www.wikidata.org/entity/Q3216089S65417ca1-4fc3-597b-4aef-c6825a26e9bf
+	 1 (002%): http://www.wikidata.org/entity/Q3349132S86C1716F-06BB-4C0D-A3D4-24DDAB8B4176
+	 1 (002%): http://www.wikidata.org/entity/Q3712528S85893347-E177-4642-B5CA-B712E5DE7F17
+	 1 (002%): http://www.wikidata.org/entity/Q375070S175E17F7-9D3B-436D-92F1-8E5437E54D32
+	 1 (002%): http://www.wikidata.org/entity/Q423466S1844bd49-4e3e-2b71-b4df-7c9c15869597
+	 1 (002%): http://www.wikidata.org/entity/Q4386932SEE5C1553-E369-406A-9D9A-7F349639CFE8
+	 1 (002%): http://www.wikidata.org/entity/Q4832613Secb16d00-4935-f928-b59d-684ea362965f
+	 1 (002%): http://www.wikidata.org/entity/Q4931486S1BFFEB25-3421-436D-81CC-86B74B82525F
+	 1 (002%): http://www.wikidata.org/entity/Q5505194SA8FC34E7-7CC2-41B9-8F06-8CA89A0A9AF0
+	 1 (002%): http://www.wikidata.org/entity/Q5603942S55FBE5EB-A4E8-45F3-857A-EE14F8B795AA
+	 1 (002%): http://www.wikidata.org/entity/Q5875801S12D20C97-44EA-496A-9B13-CE22DD744899
+	 1 (002%): http://www.wikidata.org/entity/Q7178322S4cb7d5c5-4b80-2ea2-ccb2-fa72bc447798
+	 1 (002%): http://www.wikidata.org/entity/Q7460004SF5C271AE-8245-49AB-89C2-C26F0BD3ED64
+	 1 (002%): http://www.wikidata.org/entity/Q7460963SEE457475-0D27-499E-89A8-CC3B9E9866BF
+	 1 (002%): http://www.wikidata.org/entity/Q7591886S8A5F2592-8A9C-431B-8FFA-A471B45ECAF3
+	 1 (002%): http://www.wikidata.org/entity/Q760714S191E82C1-72F3-4DC0-9F4A-DC0F261E9E0C
+	 1 (002%): http://www.wikidata.org/entity/Q7686401S7C85DFA5-09CD-49E7-B1D4-56367CC21A44
+	 1 (002%): http://www.wikidata.org/entity/Q7695831S5BDCE876-02D0-48F8-A7AF-FDDABBD7CFF0
+	 1 (002%): http://www.wikidata.org/entity/Q790241S47ed5451-49f6-ca10-e93e-5c3cc084e4ef
+	 1 (002%): http://www.wikidata.org/entity/Q8051718S225ff7c0-4f79-c511-7234-516cf6b47621
+	 1 (002%): http://www.wikidata.org/entity/Q833454S4364C550-4548-40FB-B3C5-1A438098843B
+
+

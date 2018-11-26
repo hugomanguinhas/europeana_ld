@@ -1,0 +1,518 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.1="http://www.wikidata.org/ontology#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.3="http://schema.org/"
+    xmlns:j.2="http://www.wikidata.org/entity/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5611009">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Groundling</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5611009S2AD675F3-CC4B-44CA-B1D2-EBFB2005AD4B"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5432122">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Fall guy</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5432122S8330CE02-2D70-4191-892A-FAF322B6B500"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q3704426">
+    <rdfs:label>Desenganador</rdfs:label>
+    <j.0:altLabel>Debunking</j.0:altLabel>
+    <j.0:altLabel>Demistificatore</j.0:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Debunker</rdfs:label>
+    <rdfs:label xml:lang="id">Debunker</rdfs:label>
+    <rdfs:label xml:lang="en">Debunker</rdfs:label>
+    <rdfs:label>디벙커</rdfs:label>
+    <j.0:altLabel>Debunk</j.0:altLabel>
+    <j.0:altLabel>Debunker</j.0:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label>دست‌روکن</rdfs:label>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q3704426S78B79F25-3DEF-4593-9EE2-8BC23A451406"/>
+    <rdfs:label>Demistificator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q2789476">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label>Deviationisme</rdfs:label>
+    <rdfs:label xml:lang="en">Deviationism</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q2789476S3464CBC0-21A3-464B-8638-67943576859F"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q4198163">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:altLabel xml:lang="ru">Иждивенчество</j.0:altLabel>
+    <j.0:altLabel xml:lang="en">dependent</j.0:altLabel>
+    <j.3:description xml:lang="en">person who relies on another as a primary source of income</j.3:description>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">dependant</rdfs:label>
+    <rdfs:label xml:lang="ru">Иждивенец</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q4198163S9D625BF1-7755-4438-BEAE-83B407B99A35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5188012">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:altLabel xml:lang="pl">Crorepati</j.0:altLabel>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Crorepati</rdfs:label>
+    <rdfs:label xml:lang="pl">Krorepati</rdfs:label>
+    <rdfs:label xml:lang="ur">کروڑ پتی</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5188012S62E3B750-6386-4403-BB66-F2487DC4794B"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1338165">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">barker</rdfs:label>
+    <rdfs:label>Rekommandeur</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q1338165S18382883-7B92-45B7-9361-5420288DAB62"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5275973">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Digital Researcher</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5275973S330E66CD-6DAD-430F-8949-6FAAD93670DD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5333558">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Economic vegetarianism</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5333558SFA69AE33-D6DA-49BE-A76F-A1EDBA3C35D9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5196331">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Custodial participant</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5196331SC886BC3C-888C-4005-ADF7-CB292C6B7E87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5188670">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Crossing sweeper</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5188670S24A9A579-F553-4EDA-9684-74825A2189C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q14290559">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label>길잡이</rdfs:label>
+    <rdfs:label>Guide</rdfs:label>
+    <rdfs:label xml:lang="en-ca">Guide</rdfs:label>
+    <rdfs:label xml:lang="en">guide</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q14290559SA0290C0C-8D03-4B6B-8D59-70406ECC2A98"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q18891349">
+    <j.3:description>US-amerikanische Biathletin</j.3:description>
+    <j.2:P21s rdf:resource="http://www.wikidata.org/entity/Q18891349SD35EAD1F-4AD1-4C40-916A-A444A83A00D2"/>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q18891349S84D9A913-B831-4C65-89DC-30271E48D9F8"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q5"/>
+    <j.2:P569c rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-04-29-03:00</j.2:P569c>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q5"/>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q18891349S4978a752-4e73-2058-de3a-7454ea9dc02f"/>
+    <j.2:P27c rdf:resource="http://www.wikidata.org/entity/Q30"/>
+    <rdfs:label>Madeleine Grace Phaneuf</rdfs:label>
+    <j.0:altLabel>Maddie Phaneuf</j.0:altLabel>
+    <j.0:altLabel xml:lang="en">Maddie Phaneuf</j.0:altLabel>
+    <j.0:altLabel xml:lang="pl">Maddie Phaneuf</j.0:altLabel>
+    <rdfs:label xml:lang="pl">Madeleine Grace Phaneuf</rdfs:label>
+    <rdfs:label xml:lang="en">Madeleine Grace Phaneuf</rdfs:label>
+    <j.2:P21c rdf:resource="http://www.wikidata.org/entity/Q6581072"/>
+    <j.0:altLabel>Madeleine Phaneuf</j.0:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.3:description xml:lang="en">american biathlete</j.3:description>
+    <j.2:P569s rdf:resource="http://www.wikidata.org/entity/Q18891349S9e51a4c5-468a-8984-5c4c-55f659a7db42"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P27s rdf:resource="http://www.wikidata.org/entity/Q18891349SF8BD5283-CF41-4A15-A2A3-29C4F9FD895A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5287498">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label>Kiropraktor</rdfs:label>
+    <rdfs:label xml:lang="en">Doctor of Chiropractic</rdfs:label>
+    <rdfs:label>Navyarriqiri</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5287498SECEB169F-C7FA-4C2C-82AC-1354939D3980"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q3566099">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label>어른 학생</rdfs:label>
+    <rdfs:label xml:lang="el">Ώριμοι φοιτητές</rdfs:label>
+    <rdfs:label xml:lang="en">Adult learner</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q3566099S0BF46D58-B0A8-4354-964F-08DED4A18AA3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5647167">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Hand model</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5647167S13BE4863-738A-47A1-B725-D818667C84E1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q4826687">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Automobile repair technician</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q4826687SEC9E4EC5-35E6-47BF-99C7-0BC74F62E50F"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5403492">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="ar">الأخلاقوري</rdfs:label>
+    <rdfs:label xml:lang="en">Ethicurean</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5403492S482FE15E-4162-4AFC-A595-066BD58A0CE0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q18944875">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P21s rdf:resource="http://www.wikidata.org/entity/Q18944875S69eef2bb-43b5-329b-bfba-a14c3b0f5ca5"/>
+    <j.3:description>svensk konstnär</j.3:description>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q18944875S2c3bbd9f-4b4b-d8d9-07e2-1daa54cf3c2f"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P569s rdf:resource="http://www.wikidata.org/entity/Q18944875S6792ff44-4249-8b4c-a449-6a47a45b1224"/>
+    <j.2:P21c rdf:resource="http://www.wikidata.org/entity/Q6581097"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P569c rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1935-03:00</j.2:P569c>
+    <j.2:P570s rdf:resource="http://www.wikidata.org/entity/Q18944875Sd7f69e1d-4e84-5138-2c45-bd6e156789e1"/>
+    <j.2:P106c rdf:resource="http://www.wikidata.org/entity/Q1281618"/>
+    <j.2:P570c rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2013-03:00</j.2:P570c>
+    <j.2:P106s rdf:resource="http://www.wikidata.org/entity/Q18944875S3b18e059-4dcd-ec2f-56f7-b6883228c066"/>
+    <rdfs:label>Bo Holmlund</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q10294228">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Heckler</rdfs:label>
+    <rdfs:label>Heckler</rdfs:label>
+    <rdfs:label xml:lang="sr">hekler</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q10294228SCC4CDB66-E82E-4C68-AE05-70669CF40D34"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5179781">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Cowman</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5179781S9DEDDA9F-C112-47CE-8F81-7B66FB92C5E2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q10512400">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>کارگر خارجی</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Trabajador extranjero</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q10512400S1FD53E14-9103-4697-A140-28ABBD8378C2"/>
+    <rdfs:label xml:lang="ar">عمالة أجنبية</rdfs:label>
+    <rdfs:label>Gästarbete</rdfs:label>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">foreign worker</rdfs:label>
+    <rdfs:label>foreign worker</rdfs:label>
+    <rdfs:label>外籍勞工</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label>Трудова міграція</rdfs:label>
+    <rdfs:label>外国人労働者</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1511216">
+    <rdfs:label xml:lang="id">Abdi dalem</rdfs:label>
+    <rdfs:label>Cortesão</rdfs:label>
+    <j.0:altLabel>娼</j.0:altLabel>
+    <j.0:altLabel>艺妓</j.0:altLabel>
+    <rdfs:label>Höfling</rdfs:label>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q4164871"/>
+    <j.0:altLabel xml:lang="ru">Придворный чин</j.0:altLabel>
+    <j.2:P361s rdf:resource="http://www.wikidata.org/entity/Q1511216Sa8323994-40ce-9fe5-99e0-363a9c1703ff"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q4164871"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.0:altLabel>妓</j.0:altLabel>
+    <j.0:altLabel xml:lang="ru">Двор</j.0:altLabel>
+    <j.2:P646s rdf:resource="http://www.wikidata.org/entity/Q1511216SC6E9C058-B0F3-4458-9738-DEC65C1C37D9"/>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q1511216S71c2834d-43f1-faa6-5019-823bcdcb5254"/>
+    <j.0:altLabel>藝娼</j.0:altLabel>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q1511216Sb8426b2a-474f-9988-1377-2ae0e0d465eb"/>
+    <j.0:altLabel>Hovimestari</j.0:altLabel>
+    <j.0:altLabel xml:lang="ru">Чин</j.0:altLabel>
+    <j.0:altLabel>婊子</j.0:altLabel>
+    <j.3:description>persona que forma parte de una corte real</j.3:description>
+    <rdfs:label xml:lang="ru">Придворные чины</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label xml:lang="en">courtier</rdfs:label>
+    <j.0:altLabel>Придворний чин</j.0:altLabel>
+    <j.2:P910s rdf:resource="http://www.wikidata.org/entity/Q1511216S5e094722-4481-f632-c64e-790113736131"/>
+    <rdfs:label>Hovimies</rdfs:label>
+    <rdfs:label>Hirðmaður</rdfs:label>
+    <rdfs:label xml:lang="zh-hant">娼妓</rdfs:label>
+    <rdfs:label xml:lang="zh-hk">娼妓</rdfs:label>
+    <rdfs:label>娼妓</rdfs:label>
+    <rdfs:label xml:lang="lt">Rūmininkas</rdfs:label>
+    <j.0:altLabel>妓女</j.0:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P18c rdf:resource="http://commons.wikimedia.org/wiki/File:A_gallant_courtier_in_elaborate_costume_walking_the_street_w_Wellcome_V0019521.jpg"/>
+    <j.0:altLabel>Hovinainen</j.0:altLabel>
+    <j.2:P18s rdf:resource="http://www.wikidata.org/entity/Q1511216S9028b2c3-4779-3ac7-17f6-32025e7e3f82"/>
+    <rdfs:label>Придворні чини</rdfs:label>
+    <j.3:description>Person der höfischen Gesellschaft, in einer vormodernen Monarchie</j.3:description>
+    <j.2:P646c>/m/01h3_3</j.2:P646c>
+    <j.2:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.01h3_3"/>
+    <rdfs:label>courtisan</rdfs:label>
+    <rdfs:label>娼婦</rdfs:label>
+    <rdfs:label>妓</rdfs:label>
+    <rdfs:label xml:lang="pl">Dworzanin</rdfs:label>
+    <rdfs:label>cortesano</rdfs:label>
+    <rdfs:label>Dvořan</rdfs:label>
+    <j.2:P361c rdf:resource="http://www.wikidata.org/entity/Q1134237"/>
+    <j.3:description xml:lang="en">person who is often in attendance at the court of a king or other royal personage</j.3:description>
+    <rdfs:label xml:lang="th">ข้าราชสำนัก</rdfs:label>
+    <j.0:altLabel xml:lang="th">Courtier</j.0:altLabel>
+    <j.3:description>personne attachée ou fréquentant la cour d'un souverain</j.3:description>
+    <j.0:altLabel>青楼女子</j.0:altLabel>
+    <j.2:P910c rdf:resource="http://www.wikidata.org/entity/Q7039931"/>
+    <j.0:altLabel>應召女</j.0:altLabel>
+    <j.0:altLabel xml:lang="ru">Придворный</j.0:altLabel>
+    <j.0:altLabel>女娼</j.0:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5446586">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Fictitious defendants</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5446586S2A3D6AF5-D185-4C55-A957-C2CD8EC55F37"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5100722">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Chinese chef</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5100722S0A4ECD30-E71A-4072-8165-120AB10F24F8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5397426">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Escribitionist</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5397426SDBEE9A33-E201-4BAE-B139-57F4B7F6581E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5581761">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Gongoozler</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5581761SD7BA0034-F623-4A3C-B8B5-41541BD14801"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q4863908">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Barrow boy</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q4863908SD53314F9-3BF4-4930-A60C-C191F6ACEE88"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5287232">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.3:description>carrocerias dockmaster</j.3:description>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Dockmaster</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5287232S763682DC-4398-42FD-A504-52558349C8E6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q3247976">
+    <j.0:altLabel xml:lang="lb">Kautioun</j.0:altLabel>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q3247976SE7E25CB8-9F98-4510-AA7F-78569FF3C79C"/>
+    <j.0:altLabel xml:lang="lb">Bierch</j.0:altLabel>
+    <rdfs:label xml:lang="lb">Bierg</rdfs:label>
+    <rdfs:label xml:lang="en">Co-signing</rdfs:label>
+    <rdfs:label xml:lang="pl">Umowa poręczenia</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:altLabel xml:lang="pl">Poręczenie</j.0:altLabel>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.0:altLabel xml:lang="pl">Poręczyciel</j.0:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q4809061">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Assistant pastor</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q4809061S2606E901-C1D3-41EB-B068-9BB90EDD1769"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q969772">
+    <j.2:P279c rdf:resource="http://www.wikidata.org/entity/Q937857"/>
+    <rdfs:label xml:lang="et">Vabaagent</rdfs:label>
+    <rdfs:label xml:lang="en">free agent</rdfs:label>
+    <j.3:description>بازیکن فوتبالی که در زمین می تواند پست‌های متفاوت بگیرد</j.3:description>
+    <rdfs:label xml:lang="id">Agen bebas</rdfs:label>
+    <rdfs:label xml:lang="tr">Serbest oyuncu</rdfs:label>
+    <rdfs:label>Agente libre</rdfs:label>
+    <j.3:description xml:lang="en">player who is eligible to sign with any club or franchise</j.3:description>
+    <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q937857"/>
+    <j.2:P646s rdf:resource="http://www.wikidata.org/entity/Q969772S000F84C0-1864-43FA-9907-F05F12DCBF30"/>
+    <j.2:P646c>/m/01vnjj</j.2:P646c>
+    <rdfs:label>フリーエージェント</rdfs:label>
+    <rdfs:label>بازیکن آزاد</rdfs:label>
+    <rdfs:label>自由球員</rdfs:label>
+    <rdfs:label>Вільний агент</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q969772SD01E6A71-32B0-4B34-BD96-430F0DBEEC2A"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>자유계약선수제도</rdfs:label>
+    <rdfs:label xml:lang="ru">Свободный агент</rdfs:label>
+    <rdfs:label>Agent libre</rdfs:label>
+    <j.2:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.01vnjj"/>
+    <rdfs:label xml:lang="en-x-simple">Free agent</rdfs:label>
+    <rdfs:label xml:lang="pl">Wolny agent</rdfs:label>
+    <rdfs:label>Free agent</rdfs:label>
+    <rdfs:label>Free Agent</rdfs:label>
+    <rdfs:label>Agent lliure</rdfs:label>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="gl">Axente libre</rdfs:label>
+    <rdfs:label>שחקן חופשי</rdfs:label>
+    <rdfs:label>Vapaa pelaaja</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P279s rdf:resource="http://www.wikidata.org/entity/Q969772S75a9a297-49d0-0f3a-06c2-61c19303a464"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q4683969">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Adobe Certified Expert</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q4683969S82361200-ED9B-4625-B0D0-F1B95BA4EDE7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5242772">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Day-tripper</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5242772SE81C6225-1525-46F5-A368-CC3F1726F145"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q4907411">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Bikini barista</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q4907411S6B756AD1-FB3A-4A2A-A377-08C0D35684A9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5501373">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Freight conductor</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5501373S00B9D972-5756-4920-B3F7-18BA9A496E22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5156143">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Compasssmith</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5156143S389E241C-B042-42DB-9D10-DDE125F6AF18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5054349">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Caucus chair</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5054349S376E1E06-DE65-4D00-814D-1F4F965CD641"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q4669974">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Abstractor of title</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q4669974S3225F703-B1F0-46B5-929A-F797FB0E93F2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5157573">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.0:altLabel>טכנאית מחשבים</j.0:altLabel>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Love Comes From Bottom Of Your Heart</rdfs:label>
+    <rdfs:label>טכנאי מחשבים</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5157573SDDE93E04-D544-4BA3-8BB1-B8DE19DCC3D5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5172485">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:altLabel xml:lang="ml">Promoter</j.0:altLabel>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Corporate promoter</rdfs:label>
+    <rdfs:label xml:lang="ml">പ്രമോട്ടർമാർ</rdfs:label>
+    <rdfs:label>발기인</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5172485S95C81FF1-3377-4C02-B560-A611F55929CA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q4795498">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Aromachologist</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q4795498S6F45A519-CA0A-4B8F-8416-B3DDCADE6797"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q6194437">
+    <j.2:P646s rdf:resource="http://www.wikidata.org/entity/Q6194437S2377d666-4889-30f1-1de5-0ee588f5ad1f"/>
+    <j.3:description>یک صفحهٔ ابهام‌زدایی ویکی‌مدیا</j.3:description>
+    <j.3:description>Wikimedia-Begriffsklärungsseite</j.3:description>
+    <j.0:altLabel>Haudegen</j.0:altLabel>
+    <j.3:description>desambiguación de Wikipedia</j.3:description>
+    <rdfs:label xml:lang="en">Swashbuckler</rdfs:label>
+    <rdfs:label>Swashbuckler</rdfs:label>
+    <j.3:description>pagina di disambiguazione di un progetto Wikimedia</j.3:description>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q6194437SAEB18ACD-B8C5-44E8-895D-7032C334BD82"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q4167410"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label>Fier-à-bras</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q6194437S6295E3CF-0001-4BF3-9DF3-7E8A08308697"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q4167410"/>
+    <j.2:P646c>/m/01ts20</j.2:P646c>
+    <j.3:description xml:lang="en">a term that emerged in the 16th century and has been used as a term for pirates and swordsmen ever since</j.3:description>
+    <j.3:description>página de desambiguação de um projeto da Wikimedia</j.3:description>
+    <j.3:description xml:lang="pt-br">página de desambiguação de um projeto da Wikimedia</j.3:description>
+    <j.3:description>page d'homonymie d'un projet Wikimédia</j.3:description>
+    <j.2:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.01ts20"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.3:description>grensida</j.3:description>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q4876062">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Beader</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q4876062S2EC66639-CFC6-4FEC-B26E-EAD6EA98DF13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q17301422">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label>Pau Muntadas i Campeny</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q17301422S78603aef-4cdd-5f96-4f13-4676a07503a8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q6041784">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Instructional design coordinator</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q6041784S3E877406-53A3-413A-816A-718C6B65FA99"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q4676869">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Acting instructor</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q4676869SAC740DB0-CFC0-42DB-B72C-DE8CED5A09A2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5436768">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:P31c rdf:resource="http://www.wikidata.org/entity/Q215627"/>
+    <rdfs:label xml:lang="en">Fashion entrepreneur</rdfs:label>
+    <j.2:P31s rdf:resource="http://www.wikidata.org/entity/Q5436768S657ED541-936B-4FD8-8979-D817756AE6F6"/>
+  </rdf:Description>
+</rdf:RDF>

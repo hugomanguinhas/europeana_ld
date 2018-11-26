@@ -1,0 +1,109 @@
+Description,http://schema.org/description
+Label,http://www.w3.org/2000/01/rdf-schema#label
+Alternative Label,http://www.w3.org/2004/02/skos/core#altLabel
+zemlja,http://www.wikidata.org/entity/P17
+hình ảnh,http://www.wikidata.org/entity/P18
+lugar de nacemento,http://www.wikidata.org/entity/P19
+jinih kalamin,http://www.wikidata.org/entity/P21
+国籍,http://www.wikidata.org/entity/P27
+estas,http://www.wikidata.org/entity/P31
+столиця,http://www.wikidata.org/entity/P36
+ladawan ti eskudo,http://www.wikidata.org/entity/P94
+arbetsfält,http://www.wikidata.org/entity/P101
+직업,http://www.wikidata.org/entity/P106
+מייסד,http://www.wikidata.org/entity/P112
+узловой аэропорт,http://www.wikidata.org/entity/P113
+stadiu di casa,http://www.wikidata.org/entity/P115
+リーグ,http://www.wikidata.org/entity/P118
+flygplan,http://www.wikidata.org/entity/P121
+forma vlády,http://www.wikidata.org/entity/P122
+владельцем является,http://www.wikidata.org/entity/P127
+liegt in der Verwaltungseinheit,http://www.wikidata.org/entity/P131
+gen,http://www.wikidata.org/entity/P136
+ოპერატორი,http://www.wikidata.org/entity/P137
+得名於,http://www.wikidata.org/entity/P138
+vallás,http://www.wikidata.org/entity/P140
+architectural style,http://www.wikidata.org/entity/P149
+logutipu,http://www.wikidata.org/entity/P154
+წინამორბედი,http://www.wikidata.org/entity/P155
+succidutu di,http://www.wikidata.org/entity/P156
+印章圖像,http://www.wikidata.org/entity/P158
+總部位置,http://www.wikidata.org/entity/P159
+атрыманыя ўзнагароды,http://www.wikidata.org/entity/P166
+director/a executivo/a,http://www.wikidata.org/entity/P169
+codici idintificativu ISNI (ISO 27729),http://www.wikidata.org/entity/P213
+identificador FAVI,http://www.wikidata.org/entity/P214
+জিএনডি শনাক্তকারী,http://www.wikidata.org/entity/P227
+код авиакомпании ИАТА,http://www.wikidata.org/entity/P229
+код авиакомпании ИКАО,http://www.wikidata.org/entity/P230
+förband,http://www.wikidata.org/entity/P241
+위치 지도 그림,http://www.wikidata.org/entity/P242
+Mpamantatra LCNAF,http://www.wikidata.org/entity/P244
+מזהה ULAN,http://www.wikidata.org/entity/P245
+labèl discografic,http://www.wikidata.org/entity/P264
+BnF ପରିଚୟ,http://www.wikidata.org/entity/P268
+auturità SUDOC,http://www.wikidata.org/entity/P269
+ist eine Unterklasse von,http://www.wikidata.org/entity/P279
+主教練,http://www.wikidata.org/entity/P286
+شناسه در بانک اینترنتی اطلاعات فیلم‌ها,http://www.wikidata.org/entity/P345
+NDL,http://www.wikidata.org/entity/P349
+Дочірні компанії,http://www.wikidata.org/entity/P355
+дыскаграфія,http://www.wikidata.org/entity/P358
+is a list of,http://www.wikidata.org/entity/P360
+је део,http://www.wikidata.org/entity/P361
+jazyk originálu,http://www.wikidata.org/entity/P364
+catigurìa di Commons,http://www.wikidata.org/entity/P373
+ідэнтыфікатар Mérimée,http://www.wikidata.org/entity/P380
+NLA Authorities,http://www.wikidata.org/entity/P409
+borsa valori,http://www.wikidata.org/entity/P414
+コールサイン,http://www.wikidata.org/entity/P432
+MusicBrainz höfundanúmer,http://www.wikidata.org/entity/P434
+odvětví,http://www.wikidata.org/entity/P452
+소속,http://www.wikidata.org/entity/P463
+ocupante,http://www.wikidata.org/entity/P466
+johtaja,http://www.wikidata.org/entity/P488
+زادگاه فرهنگی,http://www.wikidata.org/entity/P495
+BNCFシソーラス,http://www.wikidata.org/entity/P508
+has part,http://www.wikidata.org/entity/P527
+profilo sociale su,http://www.wikidata.org/entity/P553
+data di nascita,http://www.wikidata.org/entity/P569
+alapítás/keletkezés ideje,http://www.wikidata.org/entity/P571
+hajoamis -tai lakkautuspäivä,http://www.wikidata.org/entity/P576
+تاریخ انتشار,http://www.wikidata.org/entity/P577
+ngày bắt đầu,http://www.wikidata.org/entity/P580
+дата окончания,http://www.wikidata.org/entity/P582
+军事冲突,http://www.wikidata.org/entity/P607
+স্থানাঙ্ক,http://www.wikidata.org/entity/P625
+sport,http://www.wikidata.org/entity/P641
+De Kännong bei Friebähs (Freebase),http://www.wikidata.org/entity/P646
+NRHP referentni broj,http://www.wikidata.org/entity/P649
+NKC識別碼,http://www.wikidata.org/entity/P691
+stiftelsessted,http://www.wikidata.org/entity/P740
+societat pare,http://www.wikidata.org/entity/P749
+col·laborador,http://www.wikidata.org/entity/P767
+母体,http://www.wikidata.org/entity/P807
+अधिकृत संकेतस्थळ,http://www.wikidata.org/entity/P856
+HDS identifikator,http://www.wikidata.org/entity/P902
+SELIBR идентификатор,http://www.wikidata.org/entity/P906
+hovudkategorien til emnet,http://www.wikidata.org/entity/P910
+نمایشگاه ویکی‌انبار,http://www.wikidata.org/entity/P935
+NLI (Israel),http://www.wikidata.org/entity/P949
+BNE идентификатор,http://www.wikidata.org/entity/P950
+شناسه برچسب در موزیک‌برینز,http://www.wikidata.org/entity/P966
+dmoz (Open Directory Project),http://www.wikidata.org/entity/P998
+hoort bij jurisdictie,http://www.wikidata.org/entity/P1001
+còdici idintificativu PTBNP,http://www.wikidata.org/entity/P1005
+Spurweite,http://www.wikidata.org/entity/P1064
+座席数,http://www.wikidata.org/entity/P1083
+палітычная ідэалогія,http://www.wikidata.org/entity/P1142
+英國襲產署編號,http://www.wikidata.org/entity/P1216
+CANTIC-ID,http://www.wikidata.org/entity/P1273
+Gran Enciclopèdia Catalana-indentificatiecode,http://www.wikidata.org/entity/P1296
+učestvovao u,http://www.wikidata.org/entity/P1344
+baštinski status,http://www.wikidata.org/entity/P1435
+Jewish Encyclopedia identificatiecode,http://www.wikidata.org/entity/P1438
+tên chính thức,http://www.wikidata.org/entity/P1448
+forma giuridica,http://www.wikidata.org/entity/P1454
+شناسهٔ جئونیمز,http://www.wikidata.org/entity/P1566
+старонка ўстановы на Вікісховішчы,http://www.wikidata.org/entity/P1612
+DOI Prefix,http://www.wikidata.org/entity/P1662

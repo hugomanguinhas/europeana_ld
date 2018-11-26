@@ -1,0 +1,60 @@
+Description,http://schema.org/description
+Label,http://www.w3.org/2000/01/rdf-schema#label
+Alternative Label,http://www.w3.org/2004/02/skos/core#altLabel
+zemlja,http://www.wikidata.org/entity/P17
+hình ảnh,http://www.wikidata.org/entity/P18
+国籍,http://www.wikidata.org/entity/P27
+estas,http://www.wikidata.org/entity/P31
+comitent,http://www.wikidata.org/entity/P88
+владельцем является,http://www.wikidata.org/entity/P127
+liegt in der Verwaltungseinheit,http://www.wikidata.org/entity/P131
+ఉద్యమం,http://www.wikidata.org/entity/P135
+gen,http://www.wikidata.org/entity/P136
+得名於,http://www.wikidata.org/entity/P138
+засновано према,http://www.wikidata.org/entity/P144
+succidutu di,http://www.wikidata.org/entity/P156
+атрыманыя ўзнагароды,http://www.wikidata.org/entity/P166
+criaturi,http://www.wikidata.org/entity/P170
+시리즈,http://www.wikidata.org/entity/P179
+изображённый объект,http://www.wikidata.org/entity/P180
+корићени материјал,http://www.wikidata.org/entity/P186
+tập hợp,http://www.wikidata.org/entity/P195
+identificador FAVI,http://www.wikidata.org/entity/P214
+numèro d'inventari,http://www.wikidata.org/entity/P217
+জিএনডি শনাক্তকারী,http://www.wikidata.org/entity/P227
+Mpamantatra LCNAF,http://www.wikidata.org/entity/P244
+BnF ପରିଚୟ,http://www.wikidata.org/entity/P268
+auturità SUDOC,http://www.wikidata.org/entity/P269
+místo,http://www.wikidata.org/entity/P276
+Joconde ID,http://www.wikidata.org/entity/P347
+код RKDimages,http://www.wikidata.org/entity/P350
+tựa đề,http://www.wikidata.org/entity/P357
+је део,http://www.wikidata.org/entity/P361
+catigurìa di Commons,http://www.wikidata.org/entity/P373
+UTDATERT: inskripsjon,http://www.wikidata.org/entity/P438
+색,http://www.wikidata.org/entity/P462
+زادگاه فرهنگی,http://www.wikidata.org/entity/P495
+has part,http://www.wikidata.org/entity/P527
+katalógusszám,http://www.wikidata.org/entity/P528
+alapítás/keletkezés ideje,http://www.wikidata.org/entity/P571
+Ausstellungen,http://www.wikidata.org/entity/P608
+স্থানাঙ্ক,http://www.wikidata.org/entity/P625
+De Kännong bei Friebähs (Freebase),http://www.wikidata.org/entity/P646
+identigilo de Europeana,http://www.wikidata.org/entity/P727
+이 항목에 영향을 준 것,http://www.wikidata.org/entity/P737
+ دارای تأثیر بر,http://www.wikidata.org/entity/P738
+ממונה על־ידי,http://www.wikidata.org/entity/P748
+kulcsesemény,http://www.wikidata.org/entity/P793
+अधिकृत संकेतस्थळ,http://www.wikidata.org/entity/P856
+main subject,http://www.wikidata.org/entity/P921
+inspiráló,http://www.wikidata.org/entity/P941
+詳細情報URL,http://www.wikidata.org/entity/P973
+adományozó,http://www.wikidata.org/entity/P1028
+制作地,http://www.wikidata.org/entity/P1071
+handle索引碼,http://www.wikidata.org/entity/P1184
+код Atlas,http://www.wikidata.org/entity/P1212
+координате тачке гледишта,http://www.wikidata.org/entity/P1259
+periodo aplicable,http://www.wikidata.org/entity/P1264
+muoto,http://www.wikidata.org/entity/P1419
+baštinski status,http://www.wikidata.org/entity/P1435
+כותר בשפת המקור,http://www.wikidata.org/entity/P1476

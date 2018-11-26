@@ -1,0 +1,4 @@
+PREFIX : <http://www.wikidata.org/entity/>
+SELECT ?r
+WHERE { ?r a :Q618123 }
+LIMIT 1000

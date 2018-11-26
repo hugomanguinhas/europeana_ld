@@ -1,0 +1,3160 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.wikidata.org/entity/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.2="http://schema.org/"
+    xmlns:j.3="http://www.wikidata.org/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q15733670">
+    <j.2:description>airport from which a flight departs (takes off from)</j.2:description>
+    <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q1248784"/>
+    <j.1:altLabel>originating airport</j.1:altLabel>
+    <rdfs:label>Startflughafen</rdfs:label>
+    <rdfs:label>departure airport</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q15733670Scf5c2b53-447b-24bc-03d6-298aea5a73e1"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P279s rdf:resource="http://www.wikidata.org/entity/Q15733670S1eddf590-4894-c1fc-be4c-2b8a158c5827"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.1:altLabel>flight origin</j.1:altLabel>
+    <j.0:P279c rdf:resource="http://www.wikidata.org/entity/Q1248784"/>
+    <j.1:altLabel>takeoff point</j.1:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q863349">
+    <j.0:P646c>/m/0f5j8</j.0:P646c>
+    <j.1:altLabel>Singulärer Punkt</j.1:altLabel>
+    <j.2:description>wiskunde</j.2:description>
+    <rdfs:label>Singulariteetti</rdfs:label>
+    <j.1:altLabel>Matemaattinen singulariteetti</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:P349s rdf:resource="http://www.wikidata.org/entity/Q863349SD528DD69-5C2A-4B58-8F53-3D7EE5692C16"/>
+    <j.1:altLabel>Особая точка функции</j.1:altLabel>
+    <rdfs:label>特異点</rdfs:label>
+    <rdfs:label>Matematična singularnost</rdfs:label>
+    <j.1:altLabel>Außerwesentliche Singularität</j.1:altLabel>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="tr">Singularity</rdfs:label>
+    <j.1:altLabel>Singulært punkt</j.1:altLabel>
+    <j.0:P361s rdf:resource="http://www.wikidata.org/entity/Q863349Sa646581a-424a-b68b-b442-eec968272caf"/>
+    <rdfs:label xml:lang="pt">Singularidade matemática</rdfs:label>
+    <j.1:altLabel>Теория сингулярностей</j.1:altLabel>
+    <rdfs:label>Neordinaraĵo</rdfs:label>
+    <rdfs:label xml:lang="fr">Singularité</rdfs:label>
+    <rdfs:label xml:lang="zh-hans">奇点</rdfs:label>
+    <rdfs:label>奇点</rdfs:label>
+    <j.1:altLabel>Singularitet</j.1:altLabel>
+    <rdfs:label>Singulær</rdfs:label>
+    <rdfs:label>Singularidad matemática</rdfs:label>
+    <j.1:altLabel>Singulære punkt på ei kurve</j.1:altLabel>
+    <rdfs:label>Singularita</rdfs:label>
+    <rdfs:label>Singulariteit</rdfs:label>
+    <rdfs:label>تکینگی</rdfs:label>
+    <rdfs:label>Singulär punkt</rdfs:label>
+    <rdfs:label xml:lang="eu">Singulartasun</rdfs:label>
+    <rdfs:label>특이점</rdfs:label>
+    <j.1:altLabel>Wesentliche Singularität</j.1:altLabel>
+    <rdfs:label>奇點</rdfs:label>
+    <j.1:altLabel>Väsentlig singularitet</j.1:altLabel>
+    <j.0:P349c>00576320</j.0:P349c>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q863349S3a9b6ca9-4235-c9d4-1e13-eaad415def29"/>
+    <j.0:P349-ndl rdf:resource="http://id.ndl.go.jp/auth/entity/00576320"/>
+    <rdfs:label xml:lang="zh-hk">奇異點</rdfs:label>
+    <rdfs:label xml:lang="zh-tw">奇異點</rdfs:label>
+    <rdfs:label>סינגולריות</rdfs:label>
+    <j.1:altLabel>Математическая сингулярность</j.1:altLabel>
+    <j.1:altLabel>נקודה סינגולרית</j.1:altLabel>
+    <j.1:altLabel>Matematická singularita</j.1:altLabel>
+    <j.0:P361c rdf:resource="http://www.wikidata.org/entity/Q395"/>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.0f5j8"/>
+    <j.1:altLabel xml:lang="fr">Singularite</j.1:altLabel>
+    <rdfs:label>Singularitat matemàtica</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q863349S793CB018-85BB-4689-A681-4C067F166A69"/>
+    <j.1:altLabel>Hebbare Singularität</j.1:altLabel>
+    <j.1:altLabel>Singularidad matematica</j.1:altLabel>
+    <rdfs:label>Isolierte Singularität</rdfs:label>
+    <j.1:altLabel>Особая точка</j.1:altLabel>
+    <rdfs:label>Особлива точка</rdfs:label>
+    <rdfs:label>особенность</rdfs:label>
+    <j.2:description>математическое понятие</j.2:description>
+    <j.1:altLabel xml:lang="fr">Singularité polaire</j.1:altLabel>
+    <rdfs:label>mathematical singularity</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>Singularität</j.1:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1741950">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>Lolita (flicka)</j.1:altLabel>
+    <rdfs:label>Lolita (term)</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1741950S0be74fc3-4b2f-4092-5f9c-47e1200e102a"/>
+    <rdfs:label>Lolita (roman, 1955)</rdfs:label>
+    <rdfs:label>Nubile</rdfs:label>
+    <j.1:altLabel>Nínfula</j.1:altLabel>
+    <j.2:description xml:lang="fr">terme</j.2:description>
+    <rdfs:label xml:lang="pt">Ninfeta</rdfs:label>
+    <rdfs:label>Nubilidad</rdfs:label>
+    <j.1:altLabel>Lolita (termino)</j.1:altLabel>
+    <rdfs:label>Kindfrau</rdfs:label>
+    <rdfs:label>Lolita (término)</rdfs:label>
+    <j.1:altLabel>Nubility</j.1:altLabel>
+    <rdfs:label xml:lang="fr">Lolita</rdfs:label>
+    <rdfs:label>Lolita (termine)</rdfs:label>
+    <j.1:altLabel>Lolita Babydoll</j.1:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q622182">
+    <j.0:P625s rdf:resource="http://www.wikidata.org/entity/Q622182SA91097AD-060D-4274-83E1-956BBD5FE846"/>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q622182Se17d5b23-4e1c-e5dd-a327-9acdb6b72d04"/>
+    <rdfs:label>שוד הבנק המרכזי של ברזיל</rdfs:label>
+    <j.0:P17c rdf:resource="http://www.wikidata.org/entity/Q155"/>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q622182S6716E910-80C0-4728-82ED-AF17DA30F3FE"/>
+    <j.0:P625c rdf:resource="http://www.wikidata.org/entity/VC61d767b9e8b66fcc1638e38b54b4f34d"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P646c>/m/07bhq6</j.0:P646c>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q622182S72690d92-44fd-8738-204c-d093ac5d0f75"/>
+    <rdfs:label>Banco Central burglary at Fortaleza</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q2727213"/>
+    <j.0:P131s rdf:resource="http://www.wikidata.org/entity/Q622182S7e050570-4102-3323-197d-058650ac3c66"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.07bhq6"/>
+    <j.0:P131c rdf:resource="http://www.wikidata.org/entity/Q43463"/>
+    <rdfs:label>Bankraub in Fortaleza</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q2727213"/>
+    <j.1:altLabel xml:lang="pt">Assalto ao banco central de fortaleza</j.1:altLabel>
+    <j.0:P17s rdf:resource="http://www.wikidata.org/entity/Q622182S0496875d-412e-22e6-ec38-25cc1a7cf206"/>
+    <rdfs:label xml:lang="pt">Assalto ao Banco Central do Brasil em Fortaleza</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q643397">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label xml:lang="la">Culmus</rdfs:label>
+    <rdfs:label>culm</rdfs:label>
+    <rdfs:label>Culmo</rdfs:label>
+    <rdfs:label>Steblo</rdfs:label>
+    <j.2:description>stonek trav a obilnin</j.2:description>
+    <rdfs:label>stéblo</rdfs:label>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.0410tx2"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q643397S2363816c-4cb2-667a-75fc-12a658221e3f"/>
+    <rdfs:label xml:lang="pt">Colmo</rdfs:label>
+    <rdfs:label>Colmo</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q643397S262F4222-FBFA-4D91-A99F-7D34827B3A67"/>
+    <j.2:description>botanical term</j.2:description>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="pl">Źdźbło</rdfs:label>
+    <j.2:description>fusto delle graminacee</j.2:description>
+    <rdfs:label>Kulmo</rdfs:label>
+    <rdfs:label>Culem</rdfs:label>
+    <j.0:P646c>/m/0410tx2</j.0:P646c>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1194369">
+    <j.1:altLabel>Første bestigning</j.1:altLabel>
+    <j.1:altLabel>Førstebestigning</j.1:altLabel>
+    <j.2:description>first successful, documented attainment of the top of a mountain, or specific route</j.2:description>
+    <rdfs:label>Førstebestigning</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Unua montogrimpo</rdfs:label>
+    <rdfs:label xml:lang="ur">فرازروی اول</rdfs:label>
+    <rdfs:label>Prima ascensione</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1194369S7458bbbc-466a-cf84-59a4-ad00a5fe877a"/>
+    <rdfs:label xml:lang="el">Πρώτη ανάβαση</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>Førstekliving</j.1:altLabel>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.020_bb"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.0:P361c rdf:resource="http://www.wikidata.org/entity/Q22857"/>
+    <rdfs:label>Primera ascensión</rdfs:label>
+    <rdfs:label xml:lang="pt">Primeira ascensão</rdfs:label>
+    <rdfs:label xml:lang="fr">Première ascension</rdfs:label>
+    <j.1:altLabel>اولین صعود</j.1:altLabel>
+    <rdfs:label xml:lang="af">Eerste bestyging</rdfs:label>
+    <j.0:P646c>/m/020_bb</j.0:P646c>
+    <j.1:altLabel xml:lang="fr">Premiere ascension</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Prvovýstup</rdfs:label>
+    <j.1:altLabel>FA</j.1:altLabel>
+    <rdfs:label>نخستین صعود</rdfs:label>
+    <rdfs:label>first ascent</rdfs:label>
+    <j.1:altLabel xml:lang="fr">Ouverture</j.1:altLabel>
+    <rdfs:label>Primer ascens</rdfs:label>
+    <j.1:altLabel>Unua surgrimpo</j.1:altLabel>
+    <rdfs:label>Erstbesteigung</rdfs:label>
+    <j.0:P361s rdf:resource="http://www.wikidata.org/entity/Q1194369S9c28833a-4fa8-ac9a-6233-8a7375f4840e"/>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q1194369SBF3EAFE4-28FA-4B0B-81C1-4D7F8A6E6CEB"/>
+    <j.1:altLabel>Førstebestigninger</j.1:altLabel>
+    <rdfs:label>Førsteklatring</rdfs:label>
+    <j.1:altLabel>Førstebestiging</j.1:altLabel>
+    <j.1:altLabel>Primera ascension</j.1:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5164391">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>construct</rdfs:label>
+    <j.2:description>term within Dungeons &amp; Dragons game</j.2:description>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q5164391S7a1b6d90-4fb1-4f68-1ff9-00f6cca18c29"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P361c rdf:resource="http://www.wikidata.org/entity/Q1375"/>
+    <j.0:P361s rdf:resource="http://www.wikidata.org/entity/Q5164391S71cd110f-413a-ba73-89c7-640a51731d9b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q14806642">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Rozdiel množín</rdfs:label>
+    <rdfs:label>Rozdíl množin</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q14806642Sb2a3750d-4e6b-ce2f-4fee-4ad9e498f6c8"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q204520">
+    <j.1:altLabel xml:lang="fr">Ecogenèse</j.1:altLabel>
+    <j.1:altLabel>زمین‌سازی</j.1:altLabel>
+    <j.1:altLabel>Pozemšťování</j.1:altLabel>
+    <j.1:altLabel>Планетарная инженерия</j.1:altLabel>
+    <rdfs:label>Maankaltaistaminen</rdfs:label>
+    <j.1:altLabel>Terraformar</j.1:altLabel>
+    <rdfs:label>Terraformálás</rdfs:label>
+    <j.1:altLabel>Терраформування</j.1:altLabel>
+    <j.1:altLabel>Terraformointi</j.1:altLabel>
+    <j.1:altLabel>Terraformación de Marte</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Biosphérisation</j.1:altLabel>
+    <j.1:altLabel>Terrraformació</j.1:altLabel>
+    <j.1:altLabel>Maantaminen</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Terra-formation</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Écogenèse</j.1:altLabel>
+    <j.0:P910c rdf:resource="http://www.wikidata.org/entity/Q13296397"/>
+    <j.1:altLabel>Vererdung</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1321906"/>
+    <rdfs:label>Terraformering</rdfs:label>
+    <rdfs:label xml:lang="pt">Terraformação</rdfs:label>
+    <j.1:altLabel>Planetaire techniek</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Terraformalaşdırılma</rdfs:label>
+    <j.1:altLabel>惑星改造</j.1:altLabel>
+    <j.1:altLabel>Terramuodostus</j.1:altLabel>
+    <j.1:altLabel>Терраформинг</j.1:altLabel>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q204520Se4528410-4639-28d2-0d0e-2d3fef122dff"/>
+    <rdfs:label>Тераформування</rdfs:label>
+    <j.1:altLabel>Terrafòrming</j.1:altLabel>
+    <j.1:altLabel>Terraformung</j.1:altLabel>
+    <j.1:altLabel>زمینی سازی</j.1:altLabel>
+    <j.0:P373c>Terraforming</j.0:P373c>
+    <j.0:P910s rdf:resource="http://www.wikidata.org/entity/Q204520SF991CE5F-0038-4890-9A20-93EDF077FC58"/>
+    <rdfs:label xml:lang="id">Terraform</rdfs:label>
+    <rdfs:label>Terraformación</rdfs:label>
+    <rdfs:label>테라포밍</rdfs:label>
+    <rdfs:label xml:lang="pl">Terraformowanie</rdfs:label>
+    <j.1:altLabel xml:lang="pt">Terraformação de Vênus</j.1:altLabel>
+    <rdfs:label xml:lang="et">Terravormimine</rdfs:label>
+    <rdfs:label>Терраформирование</rdfs:label>
+    <j.1:altLabel>Terraformacion</j.1:altLabel>
+    <rdfs:label>زمینی‌سازی</rdfs:label>
+    <j.1:altLabel>Terraformaaminen</j.1:altLabel>
+    <rdfs:label xml:lang="sr">Тераформирање</rdfs:label>
+    <rdfs:label xml:lang="lt">Teraformavimas</rdfs:label>
+    <rdfs:label>Teroformigo</rdfs:label>
+    <rdfs:label xml:lang="sr-cyrl">Тераформирање</rdfs:label>
+    <rdfs:label>Địa khai hóa</rdfs:label>
+    <rdfs:label>Terraformazione</rdfs:label>
+    <j.1:altLabel>Терраформер</j.1:altLabel>
+    <j.1:altLabel xml:lang="pl">Terraformizacja</j.1:altLabel>
+    <j.1:altLabel>Terformigo</j.1:altLabel>
+    <j.1:altLabel>Terraformacion de Marte</j.1:altLabel>
+    <rdfs:label xml:lang="br">Terrafurmiñ</rdfs:label>
+    <j.0:P18c rdf:resource="http://commons.wikimedia.org/wiki/File:MarsTransitionV.jpg"/>
+    <rdfs:label>Terraformare</rdfs:label>
+    <rdfs:label>Terraformace</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q2719358"/>
+    <j.1:altLabel>Терраформация</j.1:altLabel>
+    <j.1:altLabel>Terraformning</j.1:altLabel>
+    <j.1:altLabel>Teraforming</j.1:altLabel>
+    <j.1:altLabel>زمین‌وارهٔ سازی</j.1:altLabel>
+    <j.1:altLabel xml:lang="pl">Terraforming</j.1:altLabel>
+    <j.1:altLabel>Terraforming</j.1:altLabel>
+    <j.1:altLabel xml:lang="ur">Terraforming</j.1:altLabel>
+    <j.1:altLabel xml:lang="pt">Terraforming</j.1:altLabel>
+    <j.1:altLabel xml:lang="id">Terraforming</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Terraforming</j.1:altLabel>
+    <j.1:altLabel>地球化</j.1:altLabel>
+    <j.1:altLabel>Терраформування планет</j.1:altLabel>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1321906"/>
+    <rdfs:label>Terraformació</rdfs:label>
+    <j.1:altLabel>지구화</j.1:altLabel>
+    <rdfs:label>Terravorming</rdfs:label>
+    <rdfs:label>הארצה</rdfs:label>
+    <rdfs:label xml:lang="tr">Terraforming</rdfs:label>
+    <rdfs:label>Terraforming</rdfs:label>
+    <rdfs:label xml:lang="fr">Terraformation</rdfs:label>
+    <j.1:altLabel>زمین واره سازی</j.1:altLabel>
+    <j.1:altLabel>テラ・フォーミング</j.1:altLabel>
+    <rdfs:label xml:lang="hr">Teraformiranje</rdfs:label>
+    <rdfs:label>Teraformiranje</rdfs:label>
+    <rdfs:label xml:lang="ml">ധരണി രൂപീകരണം</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q204520Sada6bc0c-45cf-9702-bf16-9cae31878ab4"/>
+    <j.1:altLabel>Терраформирование планет</j.1:altLabel>
+    <j.1:altLabel>زمین‌واره سازی</j.1:altLabel>
+    <j.0:P18s rdf:resource="http://www.wikidata.org/entity/Q204520S6f76fe40-4b10-ef3c-3e2e-824c51b18453"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>テラフォーミング</rdfs:label>
+    <rdfs:label xml:lang="ur">تراب سازی</rdfs:label>
+    <j.1:altLabel>Pozemštění</j.1:altLabel>
+    <rdfs:label xml:lang="el">Γαιοπλασία</rdfs:label>
+    <j.1:altLabel>Teraformace</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Écogénèse</j.1:altLabel>
+    <j.1:altLabel>外星环境地球化</j.1:altLabel>
+    <j.2:description>Hypothetical planetary engineering process</j.2:description>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q204520Sc7a8f06a-4671-fd05-a4d0-48c4e264d82f"/>
+    <j.1:altLabel>Địa khai hoá</j.1:altLabel>
+    <j.0:P373s rdf:resource="http://www.wikidata.org/entity/Q204520SE823C1D9-462F-40B5-BB12-9717269D6FE2"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q2719358"/>
+    <rdfs:label xml:lang="zh-cn">地球化</rdfs:label>
+    <rdfs:label xml:lang="zh-tw">地球化</rdfs:label>
+    <rdfs:label xml:lang="zh-hans">地球化</rdfs:label>
+    <j.1:altLabel>Terraformaus</j.1:altLabel>
+    <rdfs:label xml:lang="zh-hk">地球化</rdfs:label>
+    <j.1:altLabel>زمین سازی</j.1:altLabel>
+    <rdfs:label>地球化</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q829183">
+    <j.2:description>idee</j.2:description>
+    <rdfs:label>Vokiteco</rdfs:label>
+    <rdfs:label xml:lang="pl">Powołanie</rdfs:label>
+    <rdfs:label>志業</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>vocación profesional</j.1:altLabel>
+    <j.0:P646c>/m/05bytn</j.0:P646c>
+    <j.2:description>deseo de emprender cierta carrera, profesión o cualquier otra actividad</j.2:description>
+    <j.1:altLabel xml:lang="ia">Vocation general</j.1:altLabel>
+    <rdfs:label>Kallelse</rdfs:label>
+    <rdfs:label>Berufung</rdfs:label>
+    <rdfs:label xml:lang="pt-br">vocação profissional</rdfs:label>
+    <rdfs:label xml:lang="pt">vocação profissional</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label xml:lang="ia">Vocation</rdfs:label>
+    <rdfs:label xml:lang="en-x-simple">Vocation</rdfs:label>
+    <j.1:altLabel xml:lang="ia">Vocation interior</j.1:altLabel>
+    <rdfs:label xml:lang="zh-hans">vocation</rdfs:label>
+    <rdfs:label xml:lang="fr">vocation</rdfs:label>
+    <rdfs:label>vocation</rdfs:label>
+    <rdfs:label>roeping</rdfs:label>
+    <j.1:altLabel>Chiamata (Bibbia)</j.1:altLabel>
+    <rdfs:label>vocazione</rdfs:label>
+    <rdfs:label>召命</rdfs:label>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.05bytn"/>
+    <rdfs:label>vocacion</rdfs:label>
+    <j.1:altLabel xml:lang="ia">Vocation universal</j.1:altLabel>
+    <j.1:altLabel xml:lang="ia">Vocation exterior</j.1:altLabel>
+    <j.2:description>occupation to which a person is specially drawn or for which he or she is suited, trained, or qualified</j.2:description>
+    <j.1:altLabel xml:lang="ia">Vocation effective</j.1:altLabel>
+    <j.1:altLabel xml:lang="ia">Vocation particular</j.1:altLabel>
+    <j.1:altLabel xml:lang="ia">Invitation general</j.1:altLabel>
+    <rdfs:label>vocación</rdfs:label>
+    <j.1:altLabel xml:lang="fr">Vocation religieuse</j.1:altLabel>
+    <rdfs:label>Vokaatio</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q829183S02924043-467b-6e05-72e8-558589d69d2b"/>
+    <j.1:altLabel xml:lang="ia">Vocation special</j.1:altLabel>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>kall</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q829183S0F50B721-F705-4FBA-9DAE-9B0A33677199"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q3195921">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label xml:lang="fr">analepse</rdfs:label>
+    <rdfs:label>Analepse</rdfs:label>
+    <rdfs:label>Аналепсис</rdfs:label>
+    <rdfs:label xml:lang="la">Analepsis</rdfs:label>
+    <j.2:description xml:lang="fr">figure de style</j.2:description>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q3195921Sfaed8ba9-4bf0-4dc6-1855-34011144cc61"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1190472">
+    <rdfs:label>陸戦</rdfs:label>
+    <j.1:altLabel>육지전</j.1:altLabel>
+    <rdfs:label>Kopneno ratovanje</rdfs:label>
+    <j.0:P910c rdf:resource="http://www.wikidata.org/entity/Q6468568"/>
+    <j.1:altLabel>Bodenkrieg</j.1:altLabel>
+    <j.0:P349s rdf:resource="http://www.wikidata.org/entity/Q1190472S63C967D9-E20D-4DE7-BD74-8BAA54F7F444"/>
+    <j.1:altLabel>land warfare</j.1:altLabel>
+    <rdfs:label>kopneno ratovanje</rdfs:label>
+    <j.0:P349c>00569470</j.0:P349c>
+    <j.1:altLabel>地上戦</j.1:altLabel>
+    <rdfs:label>Сухопутна війна</rdfs:label>
+    <j.0:P349-ndl rdf:resource="http://id.ndl.go.jp/auth/entity/00569470"/>
+    <rdfs:label>Сухопутная война</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1190472Se3d608b3-4f0a-4b26-69c0-48fc34b7f9df"/>
+    <rdfs:label xml:lang="ar">حرب برية</rdfs:label>
+    <rdfs:label>Guerra terrestre</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:description>combat operations conducted primarily using ground-based forces and weapons</j.2:description>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P646c>/m/0877k9</j.0:P646c>
+    <rdfs:label>Landkrieg</rdfs:label>
+    <rdfs:label xml:lang="de-ch">Landkrieg</rdfs:label>
+    <rdfs:label>육전</rdfs:label>
+    <rdfs:label xml:lang="tr">Kara savaşı</rdfs:label>
+    <rdfs:label>Ground warfare</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.1:altLabel xml:lang="ar">حرب بريه</j.1:altLabel>
+    <rdfs:label xml:lang="en-gb">ground warfare</rdfs:label>
+    <rdfs:label>ground warfare</rdfs:label>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.0877k9"/>
+    <rdfs:label>Maasodankäynti</rdfs:label>
+    <rdfs:label xml:lang="sr">копнено ратовање</rdfs:label>
+    <rdfs:label xml:lang="sr-cyrl">копнено ратовање</rdfs:label>
+    <j.1:altLabel>육상전</j.1:altLabel>
+    <j.1:altLabel xml:lang="ar">غزو بري</j.1:altLabel>
+    <rdfs:label>جنگ زمینی</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q1190472S2EE2F843-0642-4700-A1DE-991E88C7E84F"/>
+    <j.0:P910s rdf:resource="http://www.wikidata.org/entity/Q1190472S1577E25D-7974-48B4-8C7D-E25E67792031"/>
+    <j.1:altLabel>نبرد زمینی</j.1:altLabel>
+    <j.1:altLabel xml:lang="ar">حرب البرية</j.1:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1141718">
+    <j.1:altLabel>Crowd Surfing</j.1:altLabel>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.021f85"/>
+    <j.1:altLabel>Crowd surfing</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Crowd surfing</j.1:altLabel>
+    <j.1:altLabel>Stage Diving</j.1:altLabel>
+    <j.1:altLabel>Stage diving</j.1:altLabel>
+    <rdfs:label>Popolsurfado</rdfs:label>
+    <rdfs:label>クラウド・サーフィング</rdfs:label>
+    <j.1:altLabel>Крауд-серфинг</j.1:altLabel>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q1141718S9893FEA8-A42A-4860-9FA7-20F0149FC1A9"/>
+    <rdfs:label>Crowdsurfing</rdfs:label>
+    <j.1:altLabel>Stagediving</j.1:altLabel>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>Stagediven</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="fr">Slam (concert)</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.1:altLabel>crowd surfing</j.1:altLabel>
+    <j.0:P373c>Crowd surfing</j.0:P373c>
+    <rdfs:label>crowd surfing</rdfs:label>
+    <j.1:altLabel>body surfing</j.1:altLabel>
+    <rdfs:label xml:lang="pt">Crowd surfing</rdfs:label>
+    <rdfs:label>Crowd surfing</rdfs:label>
+    <j.1:altLabel>Body Surfing</j.1:altLabel>
+    <rdfs:label>surf sulla folla</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1141718S4A1086D9-C3BC-4B1F-92FF-56F81AA1A157"/>
+    <rdfs:label>Крауд-сёрфинг</rdfs:label>
+    <j.0:P646c>/m/021f85</j.0:P646c>
+    <j.1:altLabel>Stagediver</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Slam diving</j.1:altLabel>
+    <j.1:altLabel>Crowdsurfing</j.1:altLabel>
+    <j.1:altLabel>Crowd-Surfing</j.1:altLabel>
+    <j.0:P373s rdf:resource="http://www.wikidata.org/entity/Q1141718S6B238F82-DFCD-444C-8155-40B426DFE37A"/>
+    <rdfs:label>Crowdsurfen</rdfs:label>
+    <j.1:altLabel>Crowd surfer</j.1:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q319714">
+    <j.1:altLabel xml:lang="lt">Fjardas</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Vụng băng</rdfs:label>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.08079d8"/>
+    <j.1:altLabel>fjåard</j.1:altLabel>
+    <rdfs:label xml:lang="lt">Fiardas</rdfs:label>
+    <j.1:altLabel>fiard</j.1:altLabel>
+    <rdfs:label xml:lang="ml">ഫ്യാർഡ്</rdfs:label>
+    <rdfs:label>Fjärd</rdfs:label>
+    <rdfs:label>Förde</rdfs:label>
+    <rdfs:label xml:lang="pl">Fiard</rdfs:label>
+    <rdfs:label>fjard</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q319714SCF3616D9-1B21-4549-BE76-B99C945B5EBA"/>
+    <j.0:P279c rdf:resource="http://www.wikidata.org/entity/Q2421276"/>
+    <j.2:description>glacially formed, broad, shallow inlet</j.2:description>
+    <rdfs:label>fjärd</rdfs:label>
+    <j.2:description>gebirgsferne durch glaziale Erosion entstandene Meeresbucht</j.2:description>
+    <j.0:P646c>/m/08079d8</j.0:P646c>
+    <j.1:altLabel>Fjärdar</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q2421276"/>
+    <j.1:altLabel xml:lang="lt">Fjardai</j.1:altLabel>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q319714Sa36cd09b-47a0-3f6f-cf21-5e1b6fb66b8f"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P279s rdf:resource="http://www.wikidata.org/entity/Q319714Sef48518a-4460-e553-9c62-118e2290d7ed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q2811650">
+    <rdfs:label>signal passed at danger</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>Stop Tonende Sein</j.1:altLabel>
+    <j.2:description>occurs when a train passes a stop signal without authority to do so</j.2:description>
+    <rdfs:label xml:lang="en-gb">Signal passed at danger</rdfs:label>
+    <rdfs:label>Signal passed at danger</rdfs:label>
+    <j.0:P18s rdf:resource="http://www.wikidata.org/entity/Q2811650SB0F6FE3E-ACF8-4A7F-9CB3-917D6441B9C4"/>
+    <j.1:altLabel>SPAD</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q2811650S5e90fadd-4731-18cc-1964-61ce3822ce27"/>
+    <j.1:altLabel>Stop Tonend Sein</j.1:altLabel>
+    <rdfs:label>Stoptonend sein</rdfs:label>
+    <j.0:P18c rdf:resource="http://commons.wikimedia.org/wiki/File:Two-aspect-signal_ES692.jpg"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q7881418">
+    <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q82799"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P279s rdf:resource="http://www.wikidata.org/entity/Q7881418S63af53ef-4325-2181-86eb-5562adc02d8e"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>umbrella title</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>зонтичный термин</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q7881418Sc2490957-4e12-05dd-c283-0a453d612b9e"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.0:P279c rdf:resource="http://www.wikidata.org/entity/Q82799"/>
+    <j.2:description>formal or informal name connecting a number of individual items with a common theme</j.2:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q870803">
+    <j.1:altLabel>Dunk shot</j.1:altLabel>
+    <rdfs:label>Esmaixada</rdfs:label>
+    <rdfs:label>Donkki</rdfs:label>
+    <j.1:altLabel>Слэмданк</j.1:altLabel>
+    <j.1:altLabel>Donkkaus</j.1:altLabel>
+    <rdfs:label xml:lang="pt">Enterrada</rdfs:label>
+    <j.1:altLabel>Данк</j.1:altLabel>
+    <rdfs:label xml:lang="sr">Закуцавање</rdfs:label>
+    <rdfs:label xml:lang="sr-cyrl">Закуцавање</rdfs:label>
+    <j.1:altLabel xml:lang="lv">Slam-dunk</j.1:altLabel>
+    <j.1:altLabel>Between-the-Legs-Slam</j.1:altLabel>
+    <j.1:altLabel>灌籃</j.1:altLabel>
+    <rdfs:label>Սլեմ դանկ</rdfs:label>
+    <j.1:altLabel xml:lang="lv">Danks</j.1:altLabel>
+    <j.0:P646c>/m/012xhn</j.0:P646c>
+    <j.1:altLabel xml:lang="lv">Bumbas trieciens grozā</j.1:altLabel>
+    <rdfs:label>灌籃</rdfs:label>
+    <j.1:altLabel xml:lang="lv">Bumbas trieciens grozā no augšas</j.1:altLabel>
+    <rdfs:label xml:lang="id">Hunjaman</rdfs:label>
+    <j.1:altLabel>Dunkskudd</j.1:altLabel>
+    <rdfs:label xml:lang="zh-hk">入樽</rdfs:label>
+    <rdfs:label>Слэм-данк</rdfs:label>
+    <j.1:altLabel>Mate baloncesto</j.1:altLabel>
+    <j.1:altLabel>اسلم دانک</j.1:altLabel>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.012xhn"/>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q870803S15b5f8bd-48d5-e1c3-0338-4599d69464d6"/>
+    <j.1:altLabel xml:lang="fr">Dunk</j.1:altLabel>
+    <j.1:altLabel xml:lang="pt">Dunk</j.1:altLabel>
+    <j.1:altLabel xml:lang="lv">Dunk</j.1:altLabel>
+    <rdfs:label xml:lang="pl">Wsad</rdfs:label>
+    <rdfs:label>Dunking</rdfs:label>
+    <j.1:altLabel xml:lang="id">Nombok</j.1:altLabel>
+    <rdfs:label>덩크슛</rdfs:label>
+    <rdfs:label>Mate</rdfs:label>
+    <j.0:P373c>Slam dunk</j.0:P373c>
+    <rdfs:label>dunken</rdfs:label>
+    <rdfs:label>Slam dunk</rdfs:label>
+    <rdfs:label xml:lang="lv">Slam dunk</rdfs:label>
+    <rdfs:label xml:lang="fr">Slam dunk</rdfs:label>
+    <j.0:P373s rdf:resource="http://www.wikidata.org/entity/Q870803S32D5B2B2-BF06-4340-A919-FD96B1E6B3F0"/>
+    <j.1:altLabel>slam dunk</j.1:altLabel>
+    <j.1:altLabel>入樽</j.1:altLabel>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Dunk</rdfs:label>
+    <rdfs:label>Scacciata</rdfs:label>
+    <j.1:altLabel>슬램덩크</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>Donkkaaminen</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Zakucavanje</rdfs:label>
+    <rdfs:label xml:lang="hr">Zakucavanje</rdfs:label>
+    <rdfs:label>扣篮</rdfs:label>
+    <rdfs:label xml:lang="zh-hans">扣篮</rdfs:label>
+    <j.1:altLabel xml:lang="id">Slam dunk</j.1:altLabel>
+    <j.1:altLabel>Slam dunk</j.1:altLabel>
+    <j.1:altLabel xml:lang="pl">Slam dunk</j.1:altLabel>
+    <j.1:altLabel xml:lang="sr">Slam dunk</j.1:altLabel>
+    <rdfs:label>اسلمپ دانک</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q870803S3C7AB67F-71F8-444A-94A1-68226CB3BDAA"/>
+    <rdfs:label>Schiacciata</rdfs:label>
+    <j.1:altLabel>꽂아넣기</j.1:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q15074074">
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q4866600"/>
+    <rdfs:label>Major League Baseball All-Star</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q4866600"/>
+    <rdfs:label xml:lang="fr">Joueur-Étoile des Ligues majeures de baseball</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P279s rdf:resource="http://www.wikidata.org/entity/Q15074074Se84fa80a-4d0d-336b-1943-4f4c9268c35e"/>
+    <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q10871364"/>
+    <j.1:altLabel>All-Star</j.1:altLabel>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q15074074S9bbba009-43be-d388-07c0-d5c4e430dda8"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.2:description>player selected to play in the Major League Baseball All-Star Game</j.2:description>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q15074074Sabd9c7d6-4f68-82c2-80e5-6401d67536cf"/>
+    <j.1:altLabel>MLB All-Star</j.1:altLabel>
+    <j.0:P279c rdf:resource="http://www.wikidata.org/entity/Q10871364"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1329067">
+    <rdfs:label>Krakelee</rdfs:label>
+    <j.1:altLabel>Craquelée</j.1:altLabel>
+    <j.0:P373c>Craquelure</j.0:P373c>
+    <rdfs:label>Кракелюр</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1329067S04e1ca99-43cc-4270-c315-960dc6de1595"/>
+    <j.1:altLabel xml:lang="pl">Krakelury</j.1:altLabel>
+    <j.1:altLabel>Krakelüre</j.1:altLabel>
+    <rdfs:label>クラクリュール</rdfs:label>
+    <rdfs:label xml:lang="hr">Krakelire</rdfs:label>
+    <j.1:altLabel>Krackelyr</j.1:altLabel>
+    <j.1:altLabel>Craquelé</j.1:altLabel>
+    <j.1:altLabel>Craquele</j.1:altLabel>
+    <rdfs:label>Krackelering</rdfs:label>
+    <j.0:P373s rdf:resource="http://www.wikidata.org/entity/Q1329067S39504702-99E0-4D4C-8DE2-B82919D55D41"/>
+    <j.1:altLabel>Krakelure</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Krakelering</rdfs:label>
+    <rdfs:label>Craquelure</rdfs:label>
+    <rdfs:label xml:lang="id">Craquelure</rdfs:label>
+    <j.2:description>materiaalkunde</j.2:description>
+    <j.1:altLabel>Craquelee</j.1:altLabel>
+    <j.1:altLabel>Krakeliermedium</j.1:altLabel>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q1329067S2DA08C4E-1F48-4601-8C11-3AE5D007E827"/>
+    <rdfs:label xml:lang="pl">Krakelura</rdfs:label>
+    <j.1:altLabel>Crakle</j.1:altLabel>
+    <rdfs:label>Craquelado</rdfs:label>
+    <rdfs:label>Clivellat</rdfs:label>
+    <j.0:P646c>/m/05djjk</j.0:P646c>
+    <rdfs:label>Krakelür</rdfs:label>
+    <rdfs:label>Craquelé</rdfs:label>
+    <j.1:altLabel>Craquelat</j.1:altLabel>
+    <j.1:altLabel>Crettatura</j.1:altLabel>
+    <j.1:altLabel>Cracklé</j.1:altLabel>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.05djjk"/>
+    <rdfs:label>Krakeláž</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>Craquelure</j.1:altLabel>
+    <j.1:altLabel>Craquelar</j.1:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q15089689">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Major League Baseball initial signing</rdfs:label>
+    <rdfs:label xml:lang="fr">premier contrat dans les ligues majeures de baseball</rdfs:label>
+    <j.1:altLabel>MLB signing</j.1:altLabel>
+    <j.1:altLabel>MLB initial signing</j.1:altLabel>
+    <j.2:description>baseball term for the first contract signed with a Major League Baseball organization</j.2:description>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q15089689S2eb94bbb-43dd-e7a3-de2f-90d9c273cde8"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q7075743">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>occupancy</rdfs:label>
+    <rdfs:label xml:lang="sco">occupancy</rdfs:label>
+    <j.2:description>use of a building</j.2:description>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q7075743S0a4a92fd-4aef-5dec-7e56-ae786b481350"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q2975244">
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q2975244Sa2d90462-4119-8cc0-0e43-c7df7a76028c"/>
+    <j.1:altLabel xml:lang="pl">Jasnowidztwo</j.1:altLabel>
+    <rdfs:label>Klarvideco</rdfs:label>
+    <rdfs:label>透視 (超心理学)</rdfs:label>
+    <rdfs:label xml:lang="fr">Clairvoyance</rdfs:label>
+    <j.1:altLabel>Paragnost</j.1:altLabel>
+    <rdfs:label>Clairvoyance</rdfs:label>
+    <rdfs:label>透視 (超感官知覺)</rdfs:label>
+    <j.1:altLabel xml:lang="fr">Clairvoyance (Pseudo-science)</j.1:altLabel>
+    <rdfs:label>Јасновидост</rdfs:label>
+    <j.1:altLabel>Helderziend</j.1:altLabel>
+    <j.1:altLabel>Clairvoyant</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Clairvoyant</j.1:altLabel>
+    <j.1:altLabel>透視 (超能力)</j.1:altLabel>
+    <rdfs:label>روشن بینی</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q2975244S17575E50-CCC2-4281-8260-4EF8299B133A"/>
+    <rdfs:label xml:lang="tr">Durugörü</rdfs:label>
+    <j.1:altLabel>Selvänäkö</j.1:altLabel>
+    <j.0:P508s rdf:resource="http://www.wikidata.org/entity/Q2975244S93F75ED4-E5A5-4E55-B7C0-69101FE00526"/>
+    <j.1:altLabel>Arte adivinatoria</j.1:altLabel>
+    <j.1:altLabel>クレアボヤンス</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>Vidente</j.1:altLabel>
+    <rdfs:label xml:lang="bg">Ясновидство</rdfs:label>
+    <rdfs:label xml:lang="pt">Clarividência</rdfs:label>
+    <rdfs:label>Helderziendheid</rdfs:label>
+    <j.1:altLabel>Lijst van helderzienden</j.1:altLabel>
+    <rdfs:label xml:lang="nds-nl">Veurlopen</rdfs:label>
+    <rdfs:label>Ясновидение</rdfs:label>
+    <j.1:altLabel xml:lang="et">Selgeltnägija</j.1:altLabel>
+    <j.0:P646c>/m/025gb</j.0:P646c>
+    <j.1:altLabel>Ясновидящая</j.1:altLabel>
+    <j.1:altLabel>Selväaistiminen</j.1:altLabel>
+    <j.1:altLabel>Прозорливість</j.1:altLabel>
+    <j.1:altLabel>Naslov povezave</j.1:altLabel>
+    <j.1:altLabel>Helderziende</j.1:altLabel>
+    <j.1:altLabel>Ясновидящий</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Clairvoyance (pseudo-science)</j.1:altLabel>
+    <rdfs:label>Selvänäköisyys</rdfs:label>
+    <j.2:description>Здібність сприйняття інформації через свинцеві екрани ,на яких завгодно великих відстанях ,від мікроскопічних об_єктів ..</j.2:description>
+    <rdfs:label xml:lang="et">Selgeltnägemine</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>ნათელმხილველობა</j.1:altLabel>
+    <j.1:altLabel>Adivinacion</j.1:altLabel>
+    <j.1:altLabel xml:lang="pt">Vidência</j.1:altLabel>
+    <rdfs:label>Klarsyn</rdfs:label>
+    <rdfs:label xml:lang="hr">Vidovitost</rdfs:label>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.025gb"/>
+    <j.1:altLabel>Clairvoyance</j.1:altLabel>
+    <j.1:altLabel>Adivina</j.1:altLabel>
+    <j.1:altLabel>Selvänäkeminen</j.1:altLabel>
+    <j.1:altLabel xml:lang="pt">Clarividente</j.1:altLabel>
+    <j.1:altLabel>Lijst van bekende helderzienden</j.1:altLabel>
+    <j.1:altLabel>Clarividente</j.1:altLabel>
+    <rdfs:label>Wikipedija:Naslov povezave</rdfs:label>
+    <rdfs:label xml:lang="el">Διόραση</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:P508c>1705</j.0:P508c>
+    <rdfs:label>Klärvoajans</rdfs:label>
+    <rdfs:label>ნათელხილვა</rdfs:label>
+    <rdfs:label>Chiaroveggenza</rdfs:label>
+    <j.1:altLabel>Metagnomia</j.1:altLabel>
+    <j.1:altLabel>Telestesia</j.1:altLabel>
+    <rdfs:label>Clarividencia</rdfs:label>
+    <rdfs:label>Ясновидіння</rdfs:label>
+    <rdfs:label xml:lang="pl">Jasnowidzenie</rdfs:label>
+    <j.1:altLabel>Ясновидство</j.1:altLabel>
+    <j.1:altLabel>Klarsyn</j.1:altLabel>
+    <j.1:altLabel xml:lang="pl">Jasnowidz</j.1:altLabel>
+    <rdfs:label xml:lang="sr">Видовитост</rdfs:label>
+    <rdfs:label>clairvoyance</rdfs:label>
+    <rdfs:label>Skyggnigáfa</rdfs:label>
+    <j.1:altLabel>Videncia</j.1:altLabel>
+    <j.1:altLabel>Selvänäkijä</j.1:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q471191">
+    <rdfs:label>Balkanisierung</rdfs:label>
+    <rdfs:label>Balkanisasyon</rdfs:label>
+    <rdfs:label xml:lang="id">Balkanisasi</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q471191Sb90b5db8-4c42-e414-584c-3471e2342ec4"/>
+    <rdfs:label xml:lang="pa">ਬਾਲਕਨੀਕਰਨ</rdfs:label>
+    <rdfs:label xml:lang="pl">Bałkanizacja</rdfs:label>
+    <rdfs:label xml:lang="sr">Балканизација</rdfs:label>
+    <rdfs:label xml:lang="sr-cyrl">Балканизација</rdfs:label>
+    <rdfs:label>발칸화</rdfs:label>
+    <rdfs:label>Balkanisointi</rdfs:label>
+    <j.1:altLabel>Balkkanisoida</j.1:altLabel>
+    <rdfs:label xml:lang="zh-tw">巴爾幹化</rdfs:label>
+    <rdfs:label xml:lang="zh-hk">巴爾幹化</rdfs:label>
+    <rdfs:label>巴爾幹化</rdfs:label>
+    <rdfs:label xml:lang="eu">Balkanizazio</rdfs:label>
+    <rdfs:label>Balcaneiddio</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:P646c>/m/01929s</j.0:P646c>
+    <j.1:altLabel>バルカン化</j.1:altLabel>
+    <rdfs:label xml:lang="kk-arab">بالكانىيزاتسىييا</rdfs:label>
+    <rdfs:label xml:lang="kk-cn">بالكانىيزاتسىييا</rdfs:label>
+    <rdfs:label xml:lang="ar">بلقنة</rdfs:label>
+    <rdfs:label xml:lang="zh-hans">巴尔干化</rdfs:label>
+    <rdfs:label xml:lang="zh-cn">巴尔干化</rdfs:label>
+    <rdfs:label>巴尔干化</rdfs:label>
+    <rdfs:label>Balcanizare</rdfs:label>
+    <rdfs:label>Balkan</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="kk-latn">Balkanïzacïya</rdfs:label>
+    <rdfs:label xml:lang="kk-tr">Balkanïzacïya</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q471191S51C7EB67-72D4-48F4-836C-15ECAFED5242"/>
+    <rdfs:label>Balcanización</rdfs:label>
+    <j.1:altLabel>Balkanisoituminen</j.1:altLabel>
+    <j.1:altLabel>Balcanizacion</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Balkanization</rdfs:label>
+    <rdfs:label>Balcanizzazione</rdfs:label>
+    <j.1:altLabel>Balkanisoiminen</j.1:altLabel>
+    <rdfs:label xml:lang="kk-cyrl">Балканизация</rdfs:label>
+    <rdfs:label>Балканизация</rdfs:label>
+    <rdfs:label xml:lang="kk">Балканизация</rdfs:label>
+    <rdfs:label xml:lang="bg">Балканизация</rdfs:label>
+    <rdfs:label xml:lang="kk-kz">Балканизация</rdfs:label>
+    <rdfs:label>Балканізація</rdfs:label>
+    <rdfs:label xml:lang="el">Βαλκανοποίηση</rdfs:label>
+    <rdfs:label>балканизација</rdfs:label>
+    <rdfs:label>Balkanizacija</rdfs:label>
+    <rdfs:label xml:lang="hr">Balkanizacija</rdfs:label>
+    <rdfs:label>バルカニゼーション</rdfs:label>
+    <rdfs:label>بالکانیزه کردن</rdfs:label>
+    <rdfs:label>Balcanització</rdfs:label>
+    <j.1:altLabel>Libanonisierung</j.1:altLabel>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.01929s"/>
+    <rdfs:label>Balkanisering</rdfs:label>
+    <rdfs:label xml:lang="fr">Balkanisation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q15733695">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>under investigation</rdfs:label>
+    <j.1:altLabel>unknown</j.1:altLabel>
+    <j.2:description>status of an aviation safety incident in which the cause is still being determined</j.2:description>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q15733695Sbae7bcbe-4834-75e0-9ee8-6e23466228e2"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q3247173">
+    <rdfs:label>標式遺跡</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q23498"/>
+    <j.1:altLabel>type-site</j.1:altLabel>
+    <j.2:description>archaeological site that is the model of a particular archaeological culture</j.2:description>
+    <rdfs:label>Type site</rdfs:label>
+    <j.1:altLabel>typesite</j.1:altLabel>
+    <j.0:P373c>Bronze Age</j.0:P373c>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.1:altLabel>標準遺跡</j.1:altLabel>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q3247173Sb6dc5ce2-4129-f9c4-0474-2198e3d6b773"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P373s rdf:resource="http://www.wikidata.org/entity/Q3247173S917C4DBB-4E1C-41DA-9F9D-35C128181586"/>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q3247173S14ccb0e2-4b96-f5ff-2252-03a94b9ba3c0"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q23498"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q220098">
+    <rdfs:label>军阀</rdfs:label>
+    <rdfs:label xml:lang="fr">seigneur de guerre</rdfs:label>
+    <rdfs:label xml:lang="zh-hans">军阀</rdfs:label>
+    <rdfs:label xml:lang="zh-cn">军阀</rdfs:label>
+    <rdfs:label xml:lang="pt">Chefe militar</rdfs:label>
+    <rdfs:label>군벌</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="en-x-simple">Warlord</rdfs:label>
+    <j.1:altLabel>Полевые командиры</j.1:altLabel>
+    <j.0:P349-ndl rdf:resource="http://id.ndl.go.jp/auth/entity/00562589"/>
+    <rdfs:label>krijgsheer</rdfs:label>
+    <rdfs:label xml:lang="ps">جنګسالار</rdfs:label>
+    <j.2:description>person with power who has both military and civil control</j.2:description>
+    <j.1:altLabel>جنگ‌سالاری</j.1:altLabel>
+    <rdfs:label>Kriegsherr</rdfs:label>
+    <j.1:altLabel>جنگ‌سالاران</j.1:altLabel>
+    <rdfs:label>جنگ‌سالار</rdfs:label>
+    <rdfs:label>Señor de la guerra</rdfs:label>
+    <j.1:altLabel xml:lang="fr">Seigneurs de Guerre</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Seigneur de la guerre</j.1:altLabel>
+    <rdfs:label>militsinjoro</rdfs:label>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.01c6nk"/>
+    <j.1:altLabel>Kriegsfürst</j.1:altLabel>
+    <j.0:P349s rdf:resource="http://www.wikidata.org/entity/Q220098S46DF1AAB-CE09-4A56-9D9E-AC33191EE96B"/>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q220098SB804F12D-22EC-4075-83A1-DDE3EDAA4419"/>
+    <j.1:altLabel xml:lang="id">Raja-raja perang</j.1:altLabel>
+    <rdfs:label>Hadúr</rdfs:label>
+    <j.1:altLabel>جنگسالار</j.1:altLabel>
+    <j.1:altLabel>Tuchün</j.1:altLabel>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="pl">Watażka</rdfs:label>
+    <j.1:altLabel>軍閥</j.1:altLabel>
+    <j.1:altLabel>Señores de la guerra</j.1:altLabel>
+    <j.0:P349c>00562589</j.0:P349c>
+    <rdfs:label xml:lang="sr-cyrl">господар рата</rdfs:label>
+    <rdfs:label xml:lang="sr">господар рата</rdfs:label>
+    <rdfs:label xml:lang="id">panglima perang</rdfs:label>
+    <j.1:altLabel>جنگ سالاری</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Seigneurs de la guerre</j.1:altLabel>
+    <j.0:P910c rdf:resource="http://www.wikidata.org/entity/Q8624977"/>
+    <rdfs:label>gospodar rata</rdfs:label>
+    <j.1:altLabel xml:lang="ml">പടനായക പ്രഭു</j.1:altLabel>
+    <j.1:altLabel xml:lang="id">Raja perang</j.1:altLabel>
+    <j.0:P910s rdf:resource="http://www.wikidata.org/entity/Q220098SDC5228D7-85CD-40A9-A2D7-3B04E15F350D"/>
+    <rdfs:label xml:lang="el">Πολέμαρχος</rdfs:label>
+    <j.1:altLabel>Signori della guerra</j.1:altLabel>
+    <j.1:altLabel xml:lang="ml">Warlord</j.1:altLabel>
+    <j.1:altLabel xml:lang="pt">Warlord</j.1:altLabel>
+    <rdfs:label xml:lang="hr">Gospodari rata</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q220098SF2B86533-2F31-48D6-AE8C-3276D1736FA7"/>
+    <j.1:altLabel>Krigsherrer</j.1:altLabel>
+    <j.1:altLabel xml:lang="pt">Senhor de guerra</j.1:altLabel>
+    <rdfs:label>Signore della guerra</rdfs:label>
+    <rdfs:label xml:lang="br">Tiern a vrezel</rdfs:label>
+    <rdfs:label>מצביא</rdfs:label>
+    <j.1:altLabel>Krijgsheren</j.1:altLabel>
+    <rdfs:label xml:lang="yi">קריגס פירער</rdfs:label>
+    <rdfs:label>Полевой командир</rdfs:label>
+    <rdfs:label>Gospodar rata</rdfs:label>
+    <j.1:altLabel>Senor de la Guerra</j.1:altLabel>
+    <j.1:altLabel xml:lang="pt">Senhor da guerra</j.1:altLabel>
+    <rdfs:label>軍閥</rdfs:label>
+    <rdfs:label xml:lang="zh-hk">軍閥</rdfs:label>
+    <rdfs:label xml:lang="zh-tw">軍閥</rdfs:label>
+    <j.1:altLabel>Senores de la guerra</j.1:altLabel>
+    <j.1:altLabel>جنگ سالاران</j.1:altLabel>
+    <j.1:altLabel>Gospodari rata</j.1:altLabel>
+    <rdfs:label>warlord</rdfs:label>
+    <rdfs:label xml:lang="ml">യുദ്ധപ്രഭു</rdfs:label>
+    <j.1:altLabel>Krigsherren</j.1:altLabel>
+    <j.0:P646c>/m/01c6nk</j.0:P646c>
+    <rdfs:label>Krigsherre</rdfs:label>
+    <rdfs:label xml:lang="th">ขุนศึก</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.1:altLabel>جنگ سالار</j.1:altLabel>
+    <j.1:altLabel>Dujun</j.1:altLabel>
+    <j.1:altLabel>Krigsherrarna</j.1:altLabel>
+    <rdfs:label>Sotaherra</rdfs:label>
+    <j.1:altLabel xml:lang="pt">Warlordismo</j.1:altLabel>
+    <j.1:altLabel>私設軍</j.1:altLabel>
+    <rdfs:label xml:lang="so">Hogaamiye Kooxeed</rdfs:label>
+    <rdfs:label>Польовий командир</rdfs:label>
+    <j.1:altLabel>Krigsherrar</j.1:altLabel>
+    <rdfs:label>Senyor de la guerra</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q13406960">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Determinandum</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q13406960S461b25a0-4b52-e429-050c-7d2a145293f8"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1553237">
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1553237Seb803d83-4d68-6adc-bb14-fb91533e6d28"/>
+    <j.0:P279s rdf:resource="http://www.wikidata.org/entity/Q1553237S58724685-4bf6-a312-cc61-1ebe1705075a"/>
+    <rdfs:label xml:lang="en-gb">Settlement</rdfs:label>
+    <rdfs:label>Settlement</rdfs:label>
+    <rdfs:label>regolamento</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q851587"/>
+    <rdfs:label>交割</rdfs:label>
+    <rdfs:label xml:lang="de-ch">Zahlungsverkehr</rdfs:label>
+    <rdfs:label xml:lang="fr">règlement/livraison</rdfs:label>
+    <rdfs:label>Zahlungsverkehr</rdfs:label>
+    <rdfs:label>Расчеты по сделкам</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="bg">Сетълмент</rdfs:label>
+    <j.2:description>Sammelbegriff für alle Vorgänge, bezüglich der Zahlung von Geld</j.2:description>
+    <j.1:altLabel xml:lang="fr">règlement - livraison</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label xml:lang="lt">Atsiskaitymas</rdfs:label>
+    <rdfs:label>cash settlement</rdfs:label>
+    <j.2:description>processo di attuazione di un contratto stipulato sul mercato</j.2:description>
+    <j.2:description>Collective term for all operations relating to the payment of money</j.2:description>
+    <rdfs:label>settlement</rdfs:label>
+    <j.2:description xml:lang="fr">Terme collectif pour toutes les opérations relatives au paiement de l'argent</j.2:description>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.0:P279c rdf:resource="http://www.wikidata.org/entity/Q851587"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q104851">
+    <rdfs:label xml:lang="zh-tw">韌體</rdfs:label>
+    <rdfs:label>韌體</rdfs:label>
+    <rdfs:label xml:lang="zh-hans">固件</rdfs:label>
+    <j.1:altLabel>Firmwer</j.1:altLabel>
+    <j.1:altLabel>Pirmwer</j.1:altLabel>
+    <rdfs:label xml:lang="bg">Фърмуер</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Вбудована програма</rdfs:label>
+    <j.2:description>別名：固件、韌件</j.2:description>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q104851Sba8f9214-4523-2ce1-7f30-896a9db7be96"/>
+    <j.1:altLabel>Sulautettu ohjelma</j.1:altLabel>
+    <rdfs:label xml:lang="be-tarask">Убудаванае праграмнае забесьпячэньне</rdfs:label>
+    <j.0:P1482c rdf:resource="http://stackoverflow.com/tags/firmware"/>
+    <rdfs:label>펌웨어</rdfs:label>
+    <j.1:altLabel xml:lang="id">Perangkat lunak menetap</j.1:altLabel>
+    <rdfs:label xml:lang="id">Perangkat tegar</rdfs:label>
+    <rdfs:label xml:lang="ms">Perisian tegar</rdfs:label>
+    <rdfs:label xml:lang="lt">Įmontuotoji programinė įranga</rdfs:label>
+    <j.1:altLabel>Firmweyr</j.1:altLabel>
+    <j.1:altLabel>Firmvér</j.1:altLabel>
+    <rdfs:label xml:lang="et">Püsivara</rdfs:label>
+    <j.1:altLabel>Pirmweyr</j.1:altLabel>
+    <rdfs:label xml:lang="tr">Donanım yazılımı</rdfs:label>
+    <rdfs:label xml:lang="si">ස්ථිරාංග</rdfs:label>
+    <rdfs:label>ファームウェア</rdfs:label>
+    <j.1:altLabel>Прошивка</j.1:altLabel>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.0b8t7"/>
+    <j.1:altLabel xml:lang="pl">Oprogramowanie układowe</j.1:altLabel>
+    <rdfs:label xml:lang="ga">Dochtearraí</rdfs:label>
+    <rdfs:label>ফার্মওয়্যার</rdfs:label>
+    <rdfs:label>קושחה</rdfs:label>
+    <j.1:altLabel xml:lang="ar">البرنامج الثابت</j.1:altLabel>
+    <j.1:altLabel>Hardwarenahe Software</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.2:description>madhu</j.2:description>
+    <j.1:altLabel xml:lang="fr">Microprogramme</j.1:altLabel>
+    <j.1:altLabel>固件</j.1:altLabel>
+    <rdfs:label>Встроенное программное обеспечение</rdfs:label>
+    <j.1:altLabel xml:lang="be-tarask">Убудаваная праграма</j.1:altLabel>
+    <rdfs:label xml:lang="sr">Фирмвер</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="sr-cyrl">Фирмвер</rdfs:label>
+    <rdfs:label>firmware</rdfs:label>
+    <rdfs:label>سفت‌افزار</rdfs:label>
+    <j.1:altLabel xml:lang="id">Firmware</j.1:altLabel>
+    <j.1:altLabel>Firmware</j.1:altLabel>
+    <j.1:altLabel xml:lang="sr">Firmware</j.1:altLabel>
+    <j.1:altLabel xml:lang="tr">Firmware</j.1:altLabel>
+    <j.1:altLabel xml:lang="ml">Firmware</j.1:altLabel>
+    <j.1:altLabel xml:lang="lt">Firmware</j.1:altLabel>
+    <j.1:altLabel xml:lang="si">Firmware</j.1:altLabel>
+    <rdfs:label xml:lang="hr">Firmware</rdfs:label>
+    <rdfs:label xml:lang="pl">Firmware</rdfs:label>
+    <rdfs:label xml:lang="nds">Firmware</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.1:altLabel>Firmware level</j.1:altLabel>
+    <rdfs:label xml:lang="th">เฟิร์มแวร์</rdfs:label>
+    <j.0:P1482s rdf:resource="http://www.wikidata.org/entity/Q104851SA5B567A3-B379-46B8-AEFC-18C4E98A1365"/>
+    <rdfs:label xml:lang="fr">Firmware</rdfs:label>
+    <rdfs:label xml:lang="bs">Firmware</rdfs:label>
+    <rdfs:label>Firmware</rdfs:label>
+    <rdfs:label xml:lang="eu">Firmware</rdfs:label>
+    <j.1:altLabel xml:lang="tr">Bellenim</j.1:altLabel>
+    <j.0:P910c rdf:resource="http://www.wikidata.org/entity/Q7214525"/>
+    <rdfs:label xml:lang="pt">Firmware</rdfs:label>
+    <rdfs:label xml:lang="el">Firmware</rdfs:label>
+    <rdfs:label xml:lang="en-x-simple">Firmware</rdfs:label>
+    <rdfs:label xml:lang="ar">برنامج ثابت</rdfs:label>
+    <rdfs:label>Fastbúnaður</rdfs:label>
+    <j.1:altLabel>Phần sụn</j.1:altLabel>
+    <rdfs:label>Microprogramari</rdfs:label>
+    <rdfs:label xml:lang="ml">ഫേംവെയർ</rdfs:label>
+    <j.0:P910s rdf:resource="http://www.wikidata.org/entity/Q104851SB077D4A4-EB14-4EFF-82D6-6538C311F667"/>
+    <rdfs:label>Firmver</rdfs:label>
+    <j.1:altLabel>Firmwareupdate</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Micrologiciel</j.1:altLabel>
+    <j.1:altLabel xml:lang="lt">Micrologiciel</j.1:altLabel>
+    <j.1:altLabel>軔體</j.1:altLabel>
+    <j.0:P646c>/m/0b8t7</j.0:P646c>
+    <j.1:altLabel>سفت افزار</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Logiciel embarqué</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Microgiciel</j.1:altLabel>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q104851SD198C017-2FD9-4176-B8AF-7AD81E36F870"/>
+    <j.1:altLabel xml:lang="fr">Micro programme</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Micro-programme</j.1:altLabel>
+    <rdfs:label xml:lang="zh-cn">固件</rdfs:label>
+    <j.1:altLabel xml:lang="el">Υλικολογισμικό</j.1:altLabel>
+    <rdfs:label xml:lang="zh-hk">韌體</rdfs:label>
+    <rdfs:label>固件</rdfs:label>
+    <j.1:altLabel>FIRMWARE</j.1:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q706407">
+    <j.0:P17c rdf:resource="http://www.wikidata.org/entity/Q884"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P17s rdf:resource="http://www.wikidata.org/entity/Q706407S0b36da62-47dd-eda4-25ed-38608a0a6df9"/>
+    <rdfs:label xml:lang="id">Minjuhwa</rdfs:label>
+    <rdfs:label xml:lang="en-gb">Minjuhwa</rdfs:label>
+    <rdfs:label>Minjuhwa</rdfs:label>
+    <rdfs:label xml:lang="fr">Minjuhwa</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q706407Secd867dd-4d1a-eee0-d5f6-9f752eeceafa"/>
+    <j.0:P646c>/m/0j_793q</j.0:P646c>
+    <rdfs:label xml:lang="zh-hk">民主化</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>민주화</rdfs:label>
+    <rdfs:label xml:lang="zh-hans">民主化</rdfs:label>
+    <rdfs:label>民主化</rdfs:label>
+    <j.2:description>1991년에 소수 의견을 조롱하는 뜻으로 부정적 의미로 사용되는 풍자</j.2:description>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.0j_793q"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q706407S68A8A965-A760-4EBC-8AED-6C16729C805D"/>
+    <j.1:altLabel>民主和</j.1:altLabel>
+    <j.2:description>Korean satirical term</j.2:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q4546292">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>101</rdfs:label>
+    <j.2:description>English term for introductory education</j.2:description>
+    <j.2:description>term</j.2:description>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q4546292S78badb0a-4335-97f1-ebf5-5f732780f714"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q212452">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label xml:lang="sq">Papist</rdfs:label>
+    <rdfs:label>Papist</rdfs:label>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.01tw79"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q545779"/>
+    <rdfs:label>papist</rdfs:label>
+    <j.2:description>historical and derogatory name for Roman Catholics or Catholicism</j.2:description>
+    <j.1:altLabel>popish</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="pt">Papismo</rdfs:label>
+    <rdfs:label>Papismo</rdfs:label>
+    <j.1:altLabel>papalism</j.1:altLabel>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q212452Scd3d2820-4773-decd-9615-5193af90d6c7"/>
+    <rdfs:label>Papism</rdfs:label>
+    <rdfs:label>Papista</rdfs:label>
+    <rdfs:label xml:lang="ia">Papista</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>papism</j.1:altLabel>
+    <j.1:altLabel>popery</j.1:altLabel>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q212452S6C0B8F69-8027-4C99-BFD1-61CD9CEC6E26"/>
+    <rdfs:label xml:lang="pl">Papizm</rdfs:label>
+    <j.1:altLabel>papalist</j.1:altLabel>
+    <j.0:P646c>/m/01tw79</j.0:P646c>
+    <rdfs:label>Papisme</rdfs:label>
+    <rdfs:label xml:lang="fr">Papisme</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q545779"/>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q212452S27210bb1-424e-337c-3dd3-23fe02cc4246"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q2581738">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Falskt medvetande</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Falsa conciencia</rdfs:label>
+    <rdfs:label xml:lang="tr">Yanlış bilinç</rdfs:label>
+    <rdfs:label>False consciousness</rdfs:label>
+    <rdfs:label xml:lang="hi">भ्रान्त चेतना</rdfs:label>
+    <rdfs:label>תודעה כוזבת</rdfs:label>
+    <rdfs:label>Ложное сознание</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Väärä tietoisuus</rdfs:label>
+    <rdfs:label>Falsa consciència</rdfs:label>
+    <j.1:altLabel>Conciencia falsa</j.1:altLabel>
+    <rdfs:label>Falsches Bewusstsein</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q2581738S6cd21b73-4738-2759-b07c-ecd3e62f5bfd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1000492">
+    <rdfs:label>Äventyr</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1000492S8a02d4a3-42a1-a0c1-e56d-33d607ad5917"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label xml:lang="fr">Scénario de jeu de rôle</rdfs:label>
+    <rdfs:label>Rollenspielabenteuer</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P646c>/m/03j_7c</j.0:P646c>
+    <j.2:description>either a collection of material for or a story in a role-playing game</j.2:description>
+    <rdfs:label>Adventure</rdfs:label>
+    <rdfs:label xml:lang="bg">Приключение</rdfs:label>
+    <rdfs:label>avontuur</rdfs:label>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.03j_7c"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>シナリオ</rdfs:label>
+    <j.2:description>rollenspel</j.2:description>
+    <rdfs:label xml:lang="pl">Przygoda</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q1000492S7B5572D6-3A68-4BE2-AF22-FED91D08DBC4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1058314">
+    <rdfs:label xml:lang="pt">difeomorfismo</rdfs:label>
+    <rdfs:label xml:lang="pt-br">difeomorfismo</rdfs:label>
+    <rdfs:label>미분동형사상</rdfs:label>
+    <j.0:P279c rdf:resource="http://www.wikidata.org/entity/Q202906"/>
+    <j.0:P646c>/m/02cxg</j.0:P646c>
+    <rdfs:label xml:lang="pl">Dyfeomorfizm</rdfs:label>
+    <rdfs:label>Диффеоморфизм</rdfs:label>
+    <j.0:P279s rdf:resource="http://www.wikidata.org/entity/Q1058314S115363b8-4d8a-27b6-697c-59075277133a"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Diffeomorfisme</rdfs:label>
+    <rdfs:label>Difeomorfismus</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>微分同胚</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label xml:lang="zh-hans">微分同胚</rdfs:label>
+    <rdfs:label xml:lang="zh-hk">微分同胚</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q1058314SEF8A4527-42A2-49C0-B018-1FBACED11337"/>
+    <rdfs:label xml:lang="fr">Difféomorphisme</rdfs:label>
+    <j.1:altLabel>미분동형</j.1:altLabel>
+    <rdfs:label>Diffeomorfismo</rdfs:label>
+    <rdfs:label>Difeomorfism</rdfs:label>
+    <rdfs:label>diffeomorphism</rdfs:label>
+    <j.1:altLabel>Diffeomorphie</j.1:altLabel>
+    <j.2:description xml:lang="pl">Różniczkowalny homeomorfizm</j.2:description>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.02cxg"/>
+    <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q202906"/>
+    <rdfs:label>Дифеоморфізм</rdfs:label>
+    <j.1:altLabel>Diffeomorfism</j.1:altLabel>
+    <j.1:altLabel>Diffeomorph</j.1:altLabel>
+    <rdfs:label>Difeomorfismo</rdfs:label>
+    <j.2:description>isomorphism of smooth manifolds</j.2:description>
+    <rdfs:label>דיפאומורפיזם</rdfs:label>
+    <rdfs:label>Diffeomorfi</rdfs:label>
+    <rdfs:label>Difeomorfisme</rdfs:label>
+    <j.1:altLabel>Diffeomorf</j.1:altLabel>
+    <j.1:altLabel>Difeomorfizmus</j.1:altLabel>
+    <rdfs:label>Diffeomorphismus</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1058314Scc1108d3-4d07-a6cc-2f3c-fcf52e33d8b5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q868069">
+    <j.0:P646c>/m/01s5p3</j.0:P646c>
+    <rdfs:label>Häusler</rdfs:label>
+    <rdfs:label xml:lang="si">අඳ ගොවියා</rdfs:label>
+    <j.1:altLabel>Skattetorp</j.1:altLabel>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q868069SF98C4995-75A4-4BBC-959B-BA33A584ECAC"/>
+    <rdfs:label>Husmann</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>Brinksitzer</j.1:altLabel>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Chalupník</rdfs:label>
+    <j.1:altLabel>Torpparikysymys</j.1:altLabel>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q868069Sbd57492f-4f1e-0111-d99d-37c600bcdfac"/>
+    <j.1:altLabel>Bödner</j.1:altLabel>
+    <j.1:altLabel>Torpparit</j.1:altLabel>
+    <rdfs:label>Torppari</rdfs:label>
+    <rdfs:label>Torpare</rdfs:label>
+    <j.1:altLabel>Husmenn</j.1:altLabel>
+    <j.1:altLabel>Pointler</j.1:altLabel>
+    <rdfs:label>tenant farmer</rdfs:label>
+    <j.1:altLabel>Torppa</j.1:altLabel>
+    <j.1:altLabel>Husmandsbrug</j.1:altLabel>
+    <j.1:altLabel>Kruununtorppari</j.1:altLabel>
+    <j.2:description>person residing on and farming land owned by a landlord</j.2:description>
+    <rdfs:label>אריסות</rdfs:label>
+    <j.1:altLabel>Husmandssted</j.1:altLabel>
+    <j.1:altLabel>אריס</j.1:altLabel>
+    <rdfs:label>tenant farmers</rdfs:label>
+    <j.1:altLabel>Eigenkätner</j.1:altLabel>
+    <rdfs:label xml:lang="en-x-simple">Tenant farming</rdfs:label>
+    <rdfs:label>Husmand</rdfs:label>
+    <j.1:altLabel>Torpparilaitos</j.1:altLabel>
+    <j.1:altLabel>Husmannsplass</j.1:altLabel>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.01s5p3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q6666274">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>lodestar method</rdfs:label>
+    <j.2:description>method of computing attorney fees</j.2:description>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q6666274Sdcbd627b-4c7b-ce2a-01a1-853a8c7527bb"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1327399">
+    <j.1:altLabel>Aktuaalinen</j.1:altLabel>
+    <rdfs:label xml:lang="fr">Distinction entre acte et puissance</rdfs:label>
+    <j.1:altLabel>Potentiaalinen</j.1:altLabel>
+    <rdfs:label>Entelechie</rdfs:label>
+    <j.1:altLabel xml:lang="fr">Dunamis</j.1:altLabel>
+    <j.1:altLabel>Enteléchia</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Entéléchie</j.1:altLabel>
+    <rdfs:label xml:lang="pt">Entelequia</rdfs:label>
+    <rdfs:label>Entelequia</rdfs:label>
+    <j.1:altLabel xml:lang="pt">Entelecheia</j.1:altLabel>
+    <j.1:altLabel xml:lang="lt">Potencija</j.1:altLabel>
+    <j.1:altLabel>Entelécheia</j.1:altLabel>
+    <rdfs:label xml:lang="pl">entelechia</rdfs:label>
+    <rdfs:label xml:lang="eu">Potentzia eta egintza</rdfs:label>
+    <rdfs:label>Enteleki</rdfs:label>
+    <j.1:altLabel xml:lang="fr">Acte/Puissance</j.1:altLabel>
+    <rdfs:label>Можливість і дійсність</rdfs:label>
+    <rdfs:label>Aktuaalisuus ja potentiaalisuus</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>Potentiaalisuus ja aktuaalisuus</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Entelechia</rdfs:label>
+    <rdfs:label>Entelehie</rdfs:label>
+    <j.1:altLabel xml:lang="pl">entelecheia</j.1:altLabel>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1327399Sc662634a-4e02-748f-f64a-8b43aff52d55"/>
+    <j.1:altLabel>Potentiaalisuus</j.1:altLabel>
+    <rdfs:label xml:lang="lt">Akto-potencijos perskyra</rdfs:label>
+    <rdfs:label>potentiality and actuality</rdfs:label>
+    <rdfs:label>エネルゲイア</rdfs:label>
+    <j.1:altLabel>Aktuaalisuus</j.1:altLabel>
+    <rdfs:label>Энтелехия</rdfs:label>
+    <rdfs:label>Entelexiya</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label xml:lang="el">potentiality</rdfs:label>
+    <j.0:P1343s rdf:resource="http://www.wikidata.org/entity/Q1327399SD4BEA28A-DA3C-4FA5-96C9-E4A0CEC8FD1F"/>
+    <rdfs:label>Entelekio</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q468777">
+    <j.1:altLabel xml:lang="pt">Existências</j.1:altLabel>
+    <rdfs:label>Tilvist</rdfs:label>
+    <j.1:altLabel>Mamalagi</j.1:altLabel>
+    <rdfs:label>Existencia (vlastnosť bytia)</rdfs:label>
+    <j.1:altLabel xml:lang="ar">الوجود</j.1:altLabel>
+    <j.1:altLabel>Existent</j.1:altLabel>
+    <j.1:altLabel>Olemassa olo</j.1:altLabel>
+    <j.1:altLabel>Subsistointi</j.1:altLabel>
+    <j.1:altLabel>존재성</j.1:altLabel>
+    <j.1:altLabel xml:lang="sr">Битисање</j.1:altLabel>
+    <j.1:altLabel>Manatili</j.1:altLabel>
+    <j.1:altLabel>Екзистенція</j.1:altLabel>
+    <rdfs:label>A létező</rdfs:label>
+    <rdfs:label xml:lang="be-tarask">Экзыстэнцыя</rdfs:label>
+    <rdfs:label xml:lang="sr">постојање</rdfs:label>
+    <j.1:altLabel>Esistere</j.1:altLabel>
+    <rdfs:label xml:lang="pl">Istnienie</rdfs:label>
+    <rdfs:label xml:lang="id">Ekstensi</rdfs:label>
+    <rdfs:label>Existència</rdfs:label>
+    <j.1:altLabel>Pamalagiin</j.1:altLabel>
+    <j.1:altLabel>Eksistere</j.1:altLabel>
+    <j.1:altLabel>Existente</j.1:altLabel>
+    <j.1:altLabel>Pagiral</j.1:altLabel>
+    <j.1:altLabel>Existerar</j.1:altLabel>
+    <rdfs:label>Olemassaolo</rdfs:label>
+    <rdfs:label xml:lang="ar">وجود</rdfs:label>
+    <j.1:altLabel>Eksistoida</j.1:altLabel>
+    <j.1:altLabel>Vorhandensein</j.1:altLabel>
+    <rdfs:label>存在</rdfs:label>
+    <rdfs:label xml:lang="gan">存在</rdfs:label>
+    <j.1:altLabel>Existera</j.1:altLabel>
+    <j.1:altLabel>Existenziell</j.1:altLabel>
+    <j.1:altLabel xml:lang="tt">Вөҗүд</j.1:altLabel>
+    <j.0:P646c>/m/02jsr</j.0:P646c>
+    <rdfs:label>هستی</rdfs:label>
+    <j.1:altLabel>Lumagi</j.1:altLabel>
+    <rdfs:label>bestaan</rdfs:label>
+    <rdfs:label xml:lang="pt">Existência</rdfs:label>
+    <j.1:altLabel>Palagi</j.1:altLabel>
+    <j.1:altLabel>Tilvera</j.1:altLabel>
+    <rdfs:label>Существование</rdfs:label>
+    <rdfs:label>existence</rdfs:label>
+    <j.1:altLabel>Pamamarati</j.1:altLabel>
+    <j.1:altLabel>Existenzbeweis</j.1:altLabel>
+    <rdfs:label>Existencia</rdfs:label>
+    <j.1:altLabel>Existierend</j.1:altLabel>
+    <rdfs:label>Pag-iral</rdfs:label>
+    <j.1:altLabel xml:lang="tt">Барлык</j.1:altLabel>
+    <j.1:altLabel>存在意義</j.1:altLabel>
+    <j.1:altLabel>Vara (filosofi)</j.1:altLabel>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q468777Sb9e64acd-4a65-6925-c6b1-d9ee16e40593"/>
+    <j.1:altLabel xml:lang="fr">Acte existentiel</j.1:altLabel>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="tt">Яшәү</rdfs:label>
+    <rdfs:label xml:lang="el">Είναι</rdfs:label>
+    <rdfs:label>Ekzisto</rdfs:label>
+    <j.0:P508c>17817</j.0:P508c>
+    <j.1:altLabel>本体 (哲学)</j.1:altLabel>
+    <j.1:altLabel>Eksistenssi</j.1:altLabel>
+    <j.1:altLabel xml:lang="tt">Хәят</j.1:altLabel>
+    <rdfs:label xml:lang="th">การดำรงอยู่</rdfs:label>
+    <rdfs:label>Existence</rdfs:label>
+    <rdfs:label xml:lang="fr">Existence</rdfs:label>
+    <j.1:altLabel>Subsistoida</j.1:altLabel>
+    <rdfs:label xml:lang="en-x-simple">Existence</rdfs:label>
+    <j.1:altLabel>Nichtvorhandensein</j.1:altLabel>
+    <j.1:altLabel>Pamamalagi</j.1:altLabel>
+    <j.1:altLabel xml:lang="sr">Егзистенција</j.1:altLabel>
+    <rdfs:label>Existență</rdfs:label>
+    <j.1:altLabel xml:lang="fr">Droit d'exister</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.1:altLabel>Existence</j.1:altLabel>
+    <j.1:altLabel xml:lang="gan">Existence</j.1:altLabel>
+    <rdfs:label>esistenza</rdfs:label>
+    <rdfs:label xml:lang="tr">Varoluş</rdfs:label>
+    <j.0:P508s rdf:resource="http://www.wikidata.org/entity/Q468777S3EE71E33-E4C1-4AF3-939F-5EB60BB3DC34"/>
+    <j.1:altLabel>Mamarati</j.1:altLabel>
+    <j.1:altLabel>Eksistensiya</j.1:altLabel>
+    <rdfs:label xml:lang="ia">Existentia</rdfs:label>
+    <j.1:altLabel>وجود</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Non-existence</j.1:altLabel>
+    <rdfs:label xml:lang="ky">Экзистенция</rdfs:label>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.02jsr"/>
+    <rdfs:label>ეგზისტენცია</rdfs:label>
+    <rdfs:label>Існування</rdfs:label>
+    <rdfs:label xml:lang="kk">Тіршілік</rdfs:label>
+    <rdfs:label>Existens</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q468777S14743854-1925-4417-9765-1F400E6E91EB"/>
+    <j.1:altLabel xml:lang="fr">Existant</j.1:altLabel>
+    <rdfs:label>Existenz</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>Экзистенция</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Interrogation existentielle</j.1:altLabel>
+    <rdfs:label>Egzistencija</rdfs:label>
+    <rdfs:label xml:lang="hr">Egzistencija</rdfs:label>
+    <j.1:altLabel>Nichtexistenz</j.1:altLabel>
+    <j.1:altLabel>Existir</j.1:altLabel>
+    <j.1:altLabel xml:lang="tt">Экзистенция</j.1:altLabel>
+    <rdfs:label>Eksistens</rdfs:label>
+    <rdfs:label>Экзістэнцыя</rdfs:label>
+    <rdfs:label>존재</rdfs:label>
+    <j.1:altLabel xml:lang="sr">Бивање</j.1:altLabel>
+    <j.1:altLabel>Eksistensielle spørsmål</j.1:altLabel>
+    <j.1:altLabel>Eksistensya</j.1:altLabel>
+    <rdfs:label>קיום</rdfs:label>
+    <j.1:altLabel>Være</j.1:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1009424">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>бунга-бунга</rdfs:label>
+    <j.0:P646c>/m/0g9xd2v</j.0:P646c>
+    <j.1:altLabel>Бунга-бунга</j.1:altLabel>
+    <rdfs:label>Бунґа-бунґа</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1009424S70cc59c6-40d7-c2e1-4202-c7182a7f8aa2"/>
+    <rdfs:label>붕가붕가</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q1009424SB8FE3507-1CAA-4441-8B26-64A9D6D8111F"/>
+    <j.2:description>locuzione tipica delle popolazioni indonesiane</j.2:description>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Bunga Bunga</rdfs:label>
+    <j.1:altLabel>Bunga Bunga</j.1:altLabel>
+    <rdfs:label>Bunga bunga</rdfs:label>
+    <rdfs:label xml:lang="fr">Bunga bunga</rdfs:label>
+    <j.1:altLabel>Bunga bunga</j.1:altLabel>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.0g9xd2v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q191796">
+    <j.1:altLabel xml:lang="fr">Caméos</j.1:altLabel>
+    <j.1:altLabel>Näyttäytymisosa</j.1:altLabel>
+    <j.1:altLabel>תפקיד קמאו</j.1:altLabel>
+    <rdfs:label>Կամեո</rdfs:label>
+    <j.2:description>gastoptreden</j.2:description>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Kameo uloga</rdfs:label>
+    <j.1:altLabel>הופעת קמאו</j.1:altLabel>
+    <j.1:altLabel>Cameoframträdande</j.1:altLabel>
+    <j.1:altLabel>Cameo-rolle</j.1:altLabel>
+    <rdfs:label>Cameo-Auftritt</rdfs:label>
+    <rdfs:label>cameo appearance</rdfs:label>
+    <rdfs:label>Gæsteoptræden</rdfs:label>
+    <rdfs:label xml:lang="fr">Caméo</rdfs:label>
+    <rdfs:label xml:lang="lt">Kamėja</rdfs:label>
+    <rdfs:label>Cameo</rdfs:label>
+    <rdfs:label xml:lang="hr">Cameo</rdfs:label>
+    <rdfs:label xml:lang="sq">Cameo</rdfs:label>
+    <rdfs:label>Cameo rola</rdfs:label>
+    <rdfs:label xml:lang="pl">Cameo</rdfs:label>
+    <rdfs:label xml:lang="lb">Cameo</rdfs:label>
+    <rdfs:label xml:lang="eu">Cameo</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q191796S7D45691F-E0CD-4235-A2A9-0502A52EDDC9"/>
+    <j.0:P646c>/m/01pb34</j.0:P646c>
+    <j.1:altLabel>スペシャルゲスト</j.1:altLabel>
+    <rdfs:label>カメオ出演</rdfs:label>
+    <j.1:altLabel xml:lang="sr">Камео наступ</j.1:altLabel>
+    <rdfs:label>کمیو</rdfs:label>
+    <rdfs:label>Cameo-hlutverk</rdfs:label>
+    <j.1:altLabel xml:lang="lt">Cameo</j.1:altLabel>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q191796S07e683a1-4b16-5032-0a5a-c77f1687280c"/>
+    <j.1:altLabel>Cameo</j.1:altLabel>
+    <j.1:altLabel xml:lang="tr">Cameo</j.1:altLabel>
+    <j.1:altLabel xml:lang="bs">Cameo</j.1:altLabel>
+    <j.1:altLabel>Minirolle</j.1:altLabel>
+    <j.1:altLabel>Camei</j.1:altLabel>
+    <rdfs:label xml:lang="en-x-simple">Cameo appearance</rdfs:label>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.01pb34"/>
+    <j.1:altLabel>Štěk</j.1:altLabel>
+    <j.1:altLabel>Cameo hlutverk</j.1:altLabel>
+    <rdfs:label xml:lang="bs">Kameo</rdfs:label>
+    <rdfs:label>Kameo</rdfs:label>
+    <j.1:altLabel>Cameos</j.1:altLabel>
+    <j.1:altLabel>Cameorooli</j.1:altLabel>
+    <j.1:altLabel>cameo role</j.1:altLabel>
+    <j.1:altLabel>Cammeo</j.1:altLabel>
+    <rdfs:label xml:lang="zh-cn">友情客串</rdfs:label>
+    <rdfs:label>友情客串</rdfs:label>
+    <rdfs:label xml:lang="zh-tw">友情客串</rdfs:label>
+    <j.1:altLabel>까메오 출연</j.1:altLabel>
+    <rdfs:label xml:lang="zh-hk">友情客串</rdfs:label>
+    <rdfs:label xml:lang="zh-hans">友情客串</rdfs:label>
+    <rdfs:label>Cameoszerep</rdfs:label>
+    <j.1:altLabel>Cameorolle</j.1:altLabel>
+    <rdfs:label>Cameo-rooli</rdfs:label>
+    <j.1:altLabel>Cameoroll</j.1:altLabel>
+    <j.1:altLabel>Cameo-opptreden</j.1:altLabel>
+    <rdfs:label>הופעת קמע</rdfs:label>
+    <rdfs:label>Камео</rdfs:label>
+    <rdfs:label xml:lang="bg">Камео</rdfs:label>
+    <j.1:altLabel>תפקיד קמע</j.1:altLabel>
+    <rdfs:label xml:lang="sr-cyrl">Камео улога</rdfs:label>
+    <rdfs:label xml:lang="sr">Камео улога</rdfs:label>
+    <j.2:description>überraschendes Auftreten einer bekannten Person in einem Film</j.2:description>
+    <rdfs:label>카메오 출연</rdfs:label>
+    <j.1:altLabel>Cameo appearance</j.1:altLabel>
+    <j.1:altLabel xml:lang="tr">Cameo appearance</j.1:altLabel>
+    <j.1:altLabel>友情出演</j.1:altLabel>
+    <rdfs:label xml:lang="tr">Cameo görüntü</rdfs:label>
+    <j.1:altLabel>特別出演</j.1:altLabel>
+    <j.1:altLabel xml:lang="sq">Kameo</j.1:altLabel>
+    <j.2:description>term used in performing arts</j.2:description>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>Kamé-roll</j.1:altLabel>
+    <j.1:altLabel>Gastauftritt</j.1:altLabel>
+    <j.1:altLabel>Glimprol</j.1:altLabel>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q2682207">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Bekende Vlaming</rdfs:label>
+    <rdfs:label xml:lang="fr">Bekende Vlaming</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q2682207S50449986-5D86-4CE0-875E-0B3367194B01"/>
+    <j.0:P27c rdf:resource="http://www.wikidata.org/entity/Q31"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P27s rdf:resource="http://www.wikidata.org/entity/Q2682207S927DB22F-1EFD-47EC-B64E-0B00604602DC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1063239">
+    <rdfs:label xml:lang="sco">polity</rdfs:label>
+    <rdfs:label>polity</rdfs:label>
+    <rdfs:label xml:lang="fr">administration politique</rdfs:label>
+    <rdfs:label xml:lang="zh-hans">政治体</rdfs:label>
+    <rdfs:label>Oblik vladavine</rdfs:label>
+    <rdfs:label>Politisk system</rdfs:label>
+    <rdfs:label>政体</rdfs:label>
+    <rdfs:label xml:lang="th">การปกครองโดยชนชั้นกลาง</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1063239Se99779ed-42da-f6b6-a28a-e3c40dace8a5"/>
+    <j.0:P349-ndl rdf:resource="http://id.ndl.go.jp/auth/entity/00570448"/>
+    <j.0:P646c>/m/03yy3j</j.0:P646c>
+    <j.0:P349s rdf:resource="http://www.wikidata.org/entity/Q1063239SF98C7BD5-2CDD-462E-A88F-61C93B8C1F18"/>
+    <j.1:altLabel>estructura política</j.1:altLabel>
+    <j.0:P349c>00570448</j.0:P349c>
+    <j.2:description>strukturelle, formelle und institutionelle Dimension von Politik</j.2:description>
+    <rdfs:label xml:lang="ar">كيان سياسي</rdfs:label>
+    <rdfs:label>정체</rdfs:label>
+    <j.2:description>zeměpisná oblast, řízená svým vedením</j.2:description>
+    <j.2:description>term with various meanings related to a state, a populace, or a government</j.2:description>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q1063239S90F5F4ED-9668-47FC-B08D-E18A20935BDD"/>
+    <j.1:altLabel>정치적 주체</j.1:altLabel>
+    <rdfs:label xml:lang="hr">Politička struktura</rdfs:label>
+    <rdfs:label>Polity</rdfs:label>
+    <rdfs:label>politická administrativa</rdfs:label>
+    <rdfs:label>политеја</rdfs:label>
+    <rdfs:label>chính thể</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>administración política</rdfs:label>
+    <j.2:description>Geografiskt område med självstyre, på stats- eller lägre nivå</j.2:description>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.03yy3j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q4843764">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Slalom</rdfs:label>
+    <rdfs:label xml:lang="sr-cyrl">Слалом</rdfs:label>
+    <rdfs:label xml:lang="sr">Слалом</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q4843764S4a694166-4068-0661-cd7f-5728edea1d95"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P373c>Slalom</j.0:P373c>
+    <j.0:P373s rdf:resource="http://www.wikidata.org/entity/Q4843764S93e48eea-4a17-905e-d31b-e74ba496c6a0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q15621933">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>gasna termoelektrana</rdfs:label>
+    <j.2:description>type of power station which uses as primary source of fuel combustible gases</j.2:description>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Gaskraftwerk</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q15621933S1a589db0-4571-e039-0e52-2a299a341252"/>
+    <j.0:P279c rdf:resource="http://www.wikidata.org/entity/Q1434958"/>
+    <rdfs:label>газовая электростанция</rdfs:label>
+    <rdfs:label>Central eléctrica de gas</rdfs:label>
+    <rdfs:label>gas-fired power plant</rdfs:label>
+    <j.0:P279s rdf:resource="http://www.wikidata.org/entity/Q15621933S31ccab91-44f1-0bc1-5c01-b2109d81931d"/>
+    <rdfs:label>centrale elettrica a gas</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q1434958"/>
+    <rdfs:label xml:lang="sr">гасна термоелектрана</rdfs:label>
+    <j.2:description>Kraftwerk, dessen Hauptenergiequelle ein verbrennbares Gas ist</j.2:description>
+    <rdfs:label xml:lang="sr-cyrl">гасна термоелектрана</rdfs:label>
+    <j.2:description>central eléctrica usando gas combustible per fuente de energía</j.2:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q15089703">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Major League Baseball final game</rdfs:label>
+    <j.1:altLabel>MLB final game</j.1:altLabel>
+    <j.2:description>last game played in the Major Leagues</j.2:description>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q15089703S58cc4703-4890-db26-6291-4811a9967071"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q4460020">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Neotolteca</rdfs:label>
+    <rdfs:label>Толтеки (Кастанеда)</rdfs:label>
+    <rdfs:label>Toltec</rdfs:label>
+    <j.1:altLabel>Neotoltecas</j.1:altLabel>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q4460020Sa450d7c8-4bb2-2713-bad1-18abf7bb7ab4"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q15733672">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q1248784"/>
+    <j.1:altLabel>arriving airport</j.1:altLabel>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>landing point</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Zielflughafen</rdfs:label>
+    <j.0:P279c rdf:resource="http://www.wikidata.org/entity/Q1248784"/>
+    <j.0:P279s rdf:resource="http://www.wikidata.org/entity/Q15733672S262b89bf-44f3-ba2c-b673-a59c3079bda9"/>
+    <j.1:altLabel>terminus airport</j.1:altLabel>
+    <rdfs:label>destination airport</rdfs:label>
+    <j.2:description>airport a flight is intended to land at</j.2:description>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q15733672S1cb4450f-42b0-a7fa-eeea-febee3ec6447"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1034411">
+    <rdfs:label>Ефективність</rdfs:label>
+    <rdfs:label xml:lang="fr">Efficience</rdfs:label>
+    <j.2:description>效率</j.2:description>
+    <rdfs:label xml:lang="th">ประสิทธิภาพ</rdfs:label>
+    <rdfs:label>Efikasnost</rdfs:label>
+    <rdfs:label xml:lang="sr">ефикасност</rdfs:label>
+    <j.2:description xml:lang="fr">page d'homonymie de Wikipédia</j.2:description>
+    <rdfs:label>Hatékonyság</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.2:description>efficiency</j.2:description>
+    <rdfs:label>Efficiency</rdfs:label>
+    <rdfs:label xml:lang="pt">Eficiência</rdfs:label>
+    <rdfs:label xml:lang="el">Αποδοτικότητα</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="en-gb">Efficiency</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>effektivitet</rdfs:label>
+    <rdfs:label xml:lang="hi">दक्षता</rdfs:label>
+    <rdfs:label>Effektivitet</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1034411S11250345-4555-277a-0e90-d6cd4af33c4e"/>
+    <rdfs:label xml:lang="eu">Efizientzia</rdfs:label>
+    <rdfs:label xml:lang="bg">Ефикасност</rdfs:label>
+    <rdfs:label>Eficiencia</rdfs:label>
+    <rdfs:label xml:lang="ar">كفائة</rdfs:label>
+    <j.1:altLabel>Doelmatigheid</j.1:altLabel>
+    <rdfs:label>efficiency</rdfs:label>
+    <j.2:description xml:lang="gu">efficency</j.2:description>
+    <rdfs:label>Učinkovitost</rdfs:label>
+    <rdfs:label>Efficiëntie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q2144405">
+    <rdfs:label xml:lang="fr">Hacking</rdfs:label>
+    <rdfs:label>Hacking</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P646c>/m/011z1t</j.0:P646c>
+    <j.1:altLabel>Хакерские ценности</j.1:altLabel>
+    <j.1:altLabel>הקינג</j.1:altLabel>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q2144405S63ded984-4f90-b799-d3d4-fb8d571eb0c2"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Hackear</rdfs:label>
+    <rdfs:label>Hack value</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Hacken</rdfs:label>
+    <rdfs:label>האקינג</rdfs:label>
+    <j.1:altLabel xml:lang="fr">Piratage informatique</j.1:altLabel>
+    <rdfs:label>Хакерская ценность</rdfs:label>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.011z1t"/>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q2144405S20DC5B3B-7879-46B4-9E3C-840B387BB062"/>
+    <j.1:altLabel xml:lang="fr">Tipiakage</j.1:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q707401">
+    <rdfs:label>Verkshæð</rdfs:label>
+    <rdfs:label>threshold of originality</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.07bfxk"/>
+    <j.0:P646c>/m/07bfxk</j.0:P646c>
+    <j.1:altLabel>Nivel minimo de originalidad</j.1:altLabel>
+    <rdfs:label>Llindar d'originalitat</rdfs:label>
+    <rdfs:label>Порог оригинальности</rdfs:label>
+    <j.2:description>level of authorship required to claim copyright of a work</j.2:description>
+    <j.1:altLabel>Gestaltungshöhe</j.1:altLabel>
+    <rdfs:label xml:lang="fr">Seuil d'originalité</rdfs:label>
+    <j.1:altLabel>Schöpfungstiefe</j.1:altLabel>
+    <rdfs:label>Verkshøyde</rdfs:label>
+    <rdfs:label>Schöpfungshöhe</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q707401S43509323-4d28-4077-92a7-d3a55d6a13bc"/>
+    <rdfs:label>Verkshöjd</rdfs:label>
+    <rdfs:label>原创性门槛</rdfs:label>
+    <rdfs:label>Teoskynnys</rdfs:label>
+    <j.1:altLabel xml:lang="fr">Seuil d’originalité</j.1:altLabel>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>Uppfinningshöjd</j.1:altLabel>
+    <rdfs:label xml:lang="pt">Limiar de originalidade</rdfs:label>
+    <rdfs:label xml:lang="pl">Wymóg oryginalności</rdfs:label>
+    <j.1:altLabel>Nivel mínimo de originalidad</j.1:altLabel>
+    <j.1:altLabel>Werkhöhe</j.1:altLabel>
+    <j.1:altLabel>Schaffenshöhe</j.1:altLabel>
+    <rdfs:label>Umbral de originalidad</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q707401S85CD03F3-B800-4FA3-8E04-19426C920BE1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q4752973">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Ancient planter</rdfs:label>
+    <j.2:description>Colonist/Virginia</j.2:description>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q4752973SBF647667-3F21-40F8-97F3-AA2B26A5EFA9"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q603773">
+    <rdfs:label xml:lang="id">Kuliah</rdfs:label>
+    <rdfs:label>Leksiya</rdfs:label>
+    <rdfs:label>강의</rdfs:label>
+    <rdfs:label xml:lang="pa">ਲੈਕਚਰ</rdfs:label>
+    <rdfs:label xml:lang="la">Lectio</rdfs:label>
+    <j.0:P646c>/m/031hrg</j.0:P646c>
+    <j.0:P373c>Lectures</j.0:P373c>
+    <rdfs:label xml:lang="fr">Enseignement magistral</rdfs:label>
+    <rdfs:label>Դասախոսություն</rdfs:label>
+    <rdfs:label>Clase magistral</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.031hrg"/>
+    <rdfs:label>講述教學法</rdfs:label>
+    <rdfs:label>Лекция</rdfs:label>
+    <rdfs:label xml:lang="bg">Лекция</rdfs:label>
+    <rdfs:label>Vorlesung</rdfs:label>
+    <rdfs:label>Lekcio</rdfs:label>
+    <j.2:description xml:lang="fr">Méthode pédagogique</j.2:description>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Prednáška</rdfs:label>
+    <rdfs:label xml:lang="ar">محاضرة</rdfs:label>
+    <j.0:P373s rdf:resource="http://www.wikidata.org/entity/Q603773SB41DFD60-A391-4957-B3DA-E7C31BDE43D3"/>
+    <j.2:description>Lehrveranstaltungsform an Hochschulen</j.2:description>
+    <rdfs:label>ఉపన్యాసం</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="eu">Lezio magistral</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q603773S3402AD37-5694-4EE1-8709-581F0D1EA7DD"/>
+    <rdfs:label>Bài giảng</rdfs:label>
+    <rdfs:label xml:lang="pl">Wykład</rdfs:label>
+    <j.2:description>oral presentation intended to present information</j.2:description>
+    <rdfs:label>Hoorcollege</rdfs:label>
+    <rdfs:label>Forelesning</rdfs:label>
+    <rdfs:label xml:lang="lt">Paskaita</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q603773Sc71f6396-48a0-d0c6-a9f3-61c7feaca5a8"/>
+    <rdfs:label>講義</rdfs:label>
+    <rdfs:label>Foredrag</rdfs:label>
+    <rdfs:label>lezione</rdfs:label>
+    <rdfs:label xml:lang="pt">Palestra</rdfs:label>
+    <rdfs:label xml:lang="en-x-simple">Lecture</rdfs:label>
+    <rdfs:label>lecture</rdfs:label>
+    <rdfs:label xml:lang="et">Loeng</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>הרצאה</rdfs:label>
+    <rdfs:label>Darlith</rdfs:label>
+    <rdfs:label>Лекція</rdfs:label>
+    <rdfs:label>Föreläsning</rdfs:label>
+    <rdfs:label>Luento</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q2758123">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Spagaatfinish</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q2758123S4edec92b-4a29-068b-eefe-2c5b79ec8b32"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q15056768">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label xml:lang="fr">débuts dans les ligues majeures de baseball</rdfs:label>
+    <rdfs:label>Major League Baseball debut</rdfs:label>
+    <j.1:altLabel>MLB debut</j.1:altLabel>
+    <j.2:description>first official game appearance with a Major League Baseball team</j.2:description>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q15056768S1e809951-40b5-9d35-2cda-a4b461182831"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q2070796">
+    <rdfs:label>انقلاب اطلاعات</rdfs:label>
+    <j.1:altLabel>第四次工業革命</j.1:altLabel>
+    <rdfs:label xml:lang="kk">Ғылыми-техникалық прогресс</rdfs:label>
+    <rdfs:label xml:lang="kk-cyrl">Ғылыми-техникалық прогресс</rdfs:label>
+    <rdfs:label>資訊革命</rdfs:label>
+    <rdfs:label xml:lang="zh-hk">資訊革命</rdfs:label>
+    <rdfs:label xml:lang="hi">सूचना क्रांति</rdfs:label>
+    <j.1:altLabel>電腦革命</j.1:altLabel>
+    <j.1:altLabel>Rivoluzione dell'informazione</j.1:altLabel>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>情報革命</rdfs:label>
+    <rdfs:label>Information revolution</rdfs:label>
+    <j.1:altLabel>情報技術革命</j.1:altLabel>
+    <rdfs:label>Научно-техническая революция</rdfs:label>
+    <j.1:altLabel>НТП</j.1:altLabel>
+    <rdfs:label>Informatierevolutie</rdfs:label>
+    <j.1:altLabel>信息产业革命</j.1:altLabel>
+    <rdfs:label>Rivuluzzioni nfurmàtica</rdfs:label>
+    <j.1:altLabel>Інформаційні революції</j.1:altLabel>
+    <j.1:altLabel>ICT革命</j.1:altLabel>
+    <rdfs:label xml:lang="bg">Информационна революция</rdfs:label>
+    <j.0:P646c>/m/06m3n8</j.0:P646c>
+    <j.1:altLabel>信息革命</j.1:altLabel>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.06m3n8"/>
+    <j.0:P910s rdf:resource="http://www.wikidata.org/entity/Q2070796S9E3DAE65-DB1B-4626-B795-E4084CAB0104"/>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q2070796SE4A7D7D2-B9FB-45E0-AE76-5CB9C2428692"/>
+    <j.1:altLabel>НТР</j.1:altLabel>
+    <j.1:altLabel>Технический прогресс</j.1:altLabel>
+    <j.1:altLabel>IT革命</j.1:altLabel>
+    <rdfs:label>Rivoluzione informatica</rdfs:label>
+    <j.1:altLabel>Rivuluzzioni Infurmatica</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Elmi-texniki inqilab</rdfs:label>
+    <rdfs:label xml:lang="zh-hans">资讯革命</rdfs:label>
+    <j.1:altLabel>Società dell'Informazione</j.1:altLabel>
+    <rdfs:label>Інформаційна революція</rdfs:label>
+    <j.1:altLabel>Научно-технический прогресс</j.1:altLabel>
+    <j.1:altLabel>情報通信革命</j.1:altLabel>
+    <rdfs:label xml:lang="kk-latn">Ğılımï-texnïkalıq progress</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q2070796Sd9c44974-4184-1471-d683-dec2688a569d"/>
+    <rdfs:label>Revoluție informatică</rdfs:label>
+    <j.1:altLabel>Информационная революция</j.1:altLabel>
+    <rdfs:label xml:lang="mo">Revoluție informatică</rdfs:label>
+    <j.1:altLabel>IT革命とその周辺</j.1:altLabel>
+    <rdfs:label xml:lang="id">Daftar bertopik manajemen teknologi informasi</rdfs:label>
+    <j.1:altLabel>انقلاب اطلاعاتی</j.1:altLabel>
+    <rdfs:label xml:lang="kk-arab">عىلىمىي-تەحنىيكالىق پروگرەسس</rdfs:label>
+    <j.1:altLabel>انقلاب اطّلاعات</j.1:altLabel>
+    <j.0:P910c rdf:resource="http://www.wikidata.org/entity/Q8548756"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q6967817">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Nat</rdfs:label>
+    <j.2:description>slang term from the Wild Cards novels</j.2:description>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q6967817Sdfa37457-4b5f-7900-35da-0c45c68b1131"/>
+    <j.0:P1080c rdf:resource="http://www.wikidata.org/entity/Q2570312"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P1080s rdf:resource="http://www.wikidata.org/entity/Q6967817Sccf69e1a-4a94-e2c0-175e-a052d9bc759c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1318370">
+    <rdfs:label xml:lang="ar">term</rdfs:label>
+    <rdfs:label>term</rdfs:label>
+    <j.1:altLabel>term in universal algebra</j.1:altLabel>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Ledd i matematikk</rdfs:label>
+    <rdfs:label>Termo</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1318370S92FA76F3-B556-4EB4-883B-0059BA01B66B"/>
+    <j.1:altLabel>Libera termo</j.1:altLabel>
+    <j.1:altLabel>term in logic</j.1:altLabel>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q246672"/>
+    <rdfs:label xml:lang="pt">termo</rdfs:label>
+    <rdfs:label xml:lang="pt-br">termo</rdfs:label>
+    <rdfs:label>termo</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1318370SD381F106-3709-4F91-9C5E-3221B5A41BDF"/>
+    <j.1:altLabel xml:lang="ml">Term</j.1:altLabel>
+    <rdfs:label>član</rdfs:label>
+    <rdfs:label>Ledd</rdfs:label>
+    <rdfs:label>Член</rdfs:label>
+    <j.1:altLabel>Zahlterm</j.1:altLabel>
+    <j.2:description xml:lang="ar">ما هو term</j.2:description>
+    <rdfs:label xml:lang="sr">члан</rdfs:label>
+    <rdfs:label xml:lang="sr-cyrl">члан</rdfs:label>
+    <j.2:description xml:lang="sr-cyrl">математички израз који може образовати одвојени део једначине</j.2:description>
+    <j.2:description xml:lang="sr">математички израз који може образовати одвојени део једначине</j.2:description>
+    <j.1:altLabel>Ĉeftermo</j.1:altLabel>
+    <j.2:description>logica</j.2:description>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q6498784"/>
+    <j.1:altLabel>Zahlenterm</j.1:altLabel>
+    <j.2:description>mathematical expression that may form a separable part of an equation, a series, or another expression; used in in mathematical logic, universal algebra, and rewriting systems</j.2:description>
+    <rdfs:label>Терм (логика)</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q246672"/>
+    <rdfs:label>Termi</rdfs:label>
+    <rdfs:label xml:lang="eu">Gai</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q1318370S5220B5FD-A50F-47EA-8921-0EF54E49E4D1"/>
+    <j.1:altLabel>term in math</j.1:altLabel>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.0ds6b6c"/>
+    <rdfs:label xml:lang="ml">പദം</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label xml:lang="bs">Član</rdfs:label>
+    <j.0:P646c>/m/0ds6b6c</j.0:P646c>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>항 (논리)</rdfs:label>
+    <j.2:description>matematički izraz koji može obrazovati odvojeni deo jednačine</j.2:description>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1318370S8091BBDA-64A0-46E3-8E26-4B95CE8AA5E8"/>
+    <j.1:altLabel>term in rewriting systems</j.1:altLabel>
+    <rdfs:label>Term</rdfs:label>
+    <rdfs:label xml:lang="pl">Term</rdfs:label>
+    <rdfs:label xml:lang="en-x-simple">Term</rdfs:label>
+    <j.2:description>mathematischer Ausdruck</j.2:description>
+    <j.1:altLabel>Termumformung</j.1:altLabel>
+    <rdfs:label>جمله</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q6498784"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1000031">
+    <rdfs:label>Ентропія змішування</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q1000031S20BE3E59-01E1-4108-A8D6-C3A6BCBE4E2D"/>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1000031S6C546C93-3184-4055-AA08-753CF09457F4"/>
+    <rdfs:label>Entropie durch Mischung</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.2:description>die Entropiezunahme eines gemischten Systems nach dem Mischen</j.2:description>
+    <j.1:altLabel>Entropia miešania</j.1:altLabel>
+    <rdfs:label xml:lang="fr">Théorème de Gibbs</rdfs:label>
+    <rdfs:label>entropy of mixing</rdfs:label>
+    <j.0:P646c>/m/08l32c</j.0:P646c>
+    <j.2:description>the increase in the total entropy of a compound system after mixing</j.2:description>
+    <rdfs:label>Zmiešavacia entropia</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.08l32c"/>
+    <rdfs:label>混合熵</rdfs:label>
+    <rdfs:label xml:lang="zh-hk">混合熵</rdfs:label>
+    <rdfs:label xml:lang="zh-hans">混合熵</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q948604">
+    <rdfs:label>Iden des März</rdfs:label>
+    <rdfs:label>Мартовски Иди</rdfs:label>
+    <rdfs:label>نیمه ماه مارس</rdfs:label>
+    <rdfs:label>Idi di marzo</rdfs:label>
+    <j.1:altLabel>אידיו של מרס</j.1:altLabel>
+    <j.1:altLabel>אידי מארס</j.1:altLabel>
+    <rdfs:label>Március idusa</rdfs:label>
+    <rdfs:label xml:lang="fr">Ides de Mars</rdfs:label>
+    <j.1:altLabel>אידי מרס</j.1:altLabel>
+    <rdfs:label xml:lang="pl">Idy marcowe</rdfs:label>
+    <rdfs:label>אידו של מארס</rdfs:label>
+    <rdfs:label>Idus martius</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.1:altLabel>אידיו של מארס</j.1:altLabel>
+    <rdfs:label xml:lang="hr">Martovske ide</rdfs:label>
+    <j.1:altLabel>نیمهٔ ماهٔ مارس</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>நட்ட நடு மார்ச்சு</rdfs:label>
+    <rdfs:label>Idus de març</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q948604Scfd6330c-40e4-2238-2efa-20886e305641"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="bg">Мартенски иди</rdfs:label>
+    <j.2:description>day on the Roman calendar that corresponds to 15 March</j.2:description>
+    <rdfs:label>Idus de marzo</rdfs:label>
+    <rdfs:label xml:lang="id">Ides of March</rdfs:label>
+    <rdfs:label>Ides of March</rdfs:label>
+    <rdfs:label>Мартовские иды (день)</rdfs:label>
+    <rdfs:label>Idus martiae</rdfs:label>
+    <j.1:altLabel>אידו של מרץ</j.1:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q178715">
+    <rdfs:label>Рима</rdfs:label>
+    <rdfs:label xml:lang="bg">Рима</rdfs:label>
+    <rdfs:label xml:lang="en-x-simple">Rhyme</rdfs:label>
+    <j.0:P646c>/m/06jqj</j.0:P646c>
+    <j.1:altLabel>Rijmen</j.1:altLabel>
+    <j.0:P508s rdf:resource="http://www.wikidata.org/entity/Q178715S442BA800-8E59-4AFA-9D68-53023E88262D"/>
+    <rdfs:label>韻文</rdfs:label>
+    <j.1:altLabel xml:lang="tr">Uyak Çeşitleri</j.1:altLabel>
+    <j.1:altLabel xml:lang="th">สัมผัสใน</j.1:altLabel>
+    <j.1:altLabel>חרז</j.1:altLabel>
+    <rdfs:label>قافیه</rdfs:label>
+    <j.1:altLabel xml:lang="th">สัมผัสนอก</j.1:altLabel>
+    <j.1:altLabel xml:lang="ar">القافية</j.1:altLabel>
+    <j.1:altLabel>Einrím</j.1:altLabel>
+    <rdfs:label>rhyme</rdfs:label>
+    <rdfs:label>Reim</rdfs:label>
+    <j.1:altLabel>Veggjað rím</j.1:altLabel>
+    <j.2:description>stijlfiguur</j.2:description>
+    <rdfs:label xml:lang="gan-hans">韵</rdfs:label>
+    <j.1:altLabel>각운</j.1:altLabel>
+    <j.0:P508c>29612</j.0:P508c>
+    <j.1:altLabel>Lámaný rým</j.1:altLabel>
+    <j.1:altLabel>Enderim</j.1:altLabel>
+    <j.0:P910s rdf:resource="http://www.wikidata.org/entity/Q178715SF5DAC883-BB80-40FB-88CD-69494DB43815"/>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.06jqj"/>
+    <rdfs:label>Հանգ</rdfs:label>
+    <j.1:altLabel>Střídavý rým</j.1:altLabel>
+    <j.1:altLabel xml:lang="ar">القواف</j.1:altLabel>
+    <j.1:altLabel xml:lang="th">เสียงสัมผัส</j.1:altLabel>
+    <rdfs:label xml:lang="ckb">سەروا</rdfs:label>
+    <rdfs:label>Rimă</rdfs:label>
+    <j.1:altLabel>Rimas</j.1:altLabel>
+    <j.1:altLabel>Optický rým</j.1:altLabel>
+    <j.1:altLabel xml:lang="el">Ρίμα</j.1:altLabel>
+    <j.1:altLabel xml:lang="ar">قافي</j.1:altLabel>
+    <rdfs:label xml:lang="kk-latn">Rïfma</rdfs:label>
+    <rdfs:label xml:lang="kk-tr">Rïfma</rdfs:label>
+    <j.1:altLabel xml:lang="th">คำคล้อง</j.1:altLabel>
+    <j.1:altLabel>Víxlrím</j.1:altLabel>
+    <j.1:altLabel>Obkročný rým</j.1:altLabel>
+    <j.1:altLabel>Innenreim</j.1:altLabel>
+    <j.1:altLabel xml:lang="ar">القوافي</j.1:altLabel>
+    <j.1:altLabel xml:lang="pt">Esquema rimático</j.1:altLabel>
+    <j.1:altLabel>Rima alternata</j.1:altLabel>
+    <rdfs:label>압운</rdfs:label>
+    <rdfs:label xml:lang="os">Рифмæ</rdfs:label>
+    <rdfs:label xml:lang="pl">Rym</rdfs:label>
+    <j.1:altLabel xml:lang="th">คำสัมผัส</j.1:altLabel>
+    <rdfs:label xml:lang="lt">Rimas</rdfs:label>
+    <rdfs:label xml:lang="io">Rimo</rdfs:label>
+    <rdfs:label>Rimo</rdfs:label>
+    <rdfs:label>Qofiya</rdfs:label>
+    <j.1:altLabel xml:lang="tr">Uyak</j.1:altLabel>
+    <j.1:altLabel>Vizuální rým</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Rým</rdfs:label>
+    <j.1:altLabel>Reimschema</j.1:altLabel>
+    <j.1:altLabel>Reimart</j.1:altLabel>
+    <j.1:altLabel>Rimord</j.1:altLabel>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q178715SA7649E94-5B8E-4906-8FBD-8F57E81C9FB8"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>rijm</rdfs:label>
+    <rdfs:label xml:lang="war">Angay</rdfs:label>
+    <rdfs:label>Odl</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.1:altLabel>Endreim</j.1:altLabel>
+    <j.1:altLabel xml:lang="yi">גראם</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Rimes</j.1:altLabel>
+    <j.1:altLabel>Identický rým</j.1:altLabel>
+    <rdfs:label xml:lang="el">Ομοιοκαταληξία</rdfs:label>
+    <rdfs:label>rima</rdfs:label>
+    <rdfs:label>Qafiyə</rdfs:label>
+    <j.1:altLabel>Riimi</j.1:altLabel>
+    <rdfs:label xml:lang="yi">גראמען</rdfs:label>
+    <j.1:altLabel>Эхо-рифма</j.1:altLabel>
+    <rdfs:label>חריזה</rdfs:label>
+    <rdfs:label xml:lang="br">Klotenn</rdfs:label>
+    <j.1:altLabel>Рифмы</j.1:altLabel>
+    <j.1:altLabel>Karlrím</j.1:altLabel>
+    <j.0:P910c rdf:resource="http://www.wikidata.org/entity/Q7503218"/>
+    <rdfs:label>Rima</rdfs:label>
+    <rdfs:label xml:lang="pt">Rima</rdfs:label>
+    <rdfs:label xml:lang="hr">Rima</rdfs:label>
+    <j.1:altLabel>Epiforický rým</j.1:altLabel>
+    <j.1:altLabel>Rima</j.1:altLabel>
+    <j.1:altLabel xml:lang="gan">Rhyme</j.1:altLabel>
+    <rdfs:label xml:lang="th">คำคล้องจอง</rdfs:label>
+    <j.1:altLabel>Hálfrím</j.1:altLabel>
+    <rdfs:label xml:lang="ar">قافية</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q178715Sf45ada95-4418-116b-4cf3-ad13d1dc35cf"/>
+    <rdfs:label xml:lang="tr">Kafiye</rdfs:label>
+    <j.1:altLabel>Doppelreim</j.1:altLabel>
+    <j.1:altLabel xml:lang="lt">Rimavimas</j.1:altLabel>
+    <j.1:altLabel xml:lang="pl">Rym dokładny</j.1:altLabel>
+    <j.1:altLabel>Grafický rým</j.1:altLabel>
+    <rdfs:label>Rim</rdfs:label>
+    <rdfs:label xml:lang="gan-hant">韻</rdfs:label>
+    <rdfs:label>韻</rdfs:label>
+    <rdfs:label xml:lang="gan">韻</rdfs:label>
+    <rdfs:label>რითმა</rdfs:label>
+    <j.1:altLabel>شعر نو</j.1:altLabel>
+    <j.1:altLabel>Bohatý rým</j.1:altLabel>
+    <j.1:altLabel>Сквозная рифма</j.1:altLabel>
+    <rdfs:label xml:lang="gsw">Riim</rdfs:label>
+    <j.2:description>Verbindung von Wörtern mit ähnlichem Klang</j.2:description>
+    <j.1:altLabel>Рифмовка</j.1:altLabel>
+    <rdfs:label xml:lang="kk-kz">Рифма</rdfs:label>
+    <rdfs:label xml:lang="kk-cyrl">Рифма</rdfs:label>
+    <rdfs:label>Рифма</rdfs:label>
+    <rdfs:label xml:lang="kk">Рифма</rdfs:label>
+    <j.1:altLabel>Sdružený rým</j.1:altLabel>
+    <j.1:altLabel>Sniðrím</j.1:altLabel>
+    <rdfs:label xml:lang="fr">Rime</rdfs:label>
+    <rdfs:label>Rím</rdfs:label>
+    <j.2:description>uguaglianza di due o più parole dall'accento tonico in poi</j.2:description>
+    <rdfs:label xml:lang="be-tarask">Рыфма</rdfs:label>
+    <j.1:altLabel>Эхо рифма</j.1:altLabel>
+    <j.1:altLabel>Skothent rím</j.1:altLabel>
+    <j.1:altLabel>Þrírím</j.1:altLabel>
+    <rdfs:label>Рыфма</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.1:altLabel xml:lang="pt">Rima emparelhadas</j.1:altLabel>
+    <j.1:altLabel>Kvenrím</j.1:altLabel>
+    <rdfs:label xml:lang="kk-arab">رىيفما</rdfs:label>
+    <rdfs:label xml:lang="kk-cn">رىيفما</rdfs:label>
+    <rdfs:label>Riimit</rdfs:label>
+    <j.1:altLabel>Riimiparit</j.1:altLabel>
+    <j.1:altLabel>Tvírím</j.1:altLabel>
+    <j.1:altLabel xml:lang="pl">Rymy</j.1:altLabel>
+    <j.1:altLabel>Rijmwoord</j.1:altLabel>
+    <rdfs:label xml:lang="sr">Рима</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q2193308">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>liquidatiewaarde</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q2193308Sd0b4f492-4a3a-37d4-dbfa-75c07707fabd"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1445182">
+    <rdfs:label>Triple-doble</rdfs:label>
+    <j.1:altLabel xml:lang="th">ทริปเปิล ดับเบิล</j.1:altLabel>
+    <rdfs:label xml:lang="et">Kolmikduubel</rdfs:label>
+    <rdfs:label>Tripla-tupla</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>Trojni dvojček</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>三双</rdfs:label>
+    <rdfs:label xml:lang="zh-hans">三双</rdfs:label>
+    <j.0:P361c rdf:resource="http://www.wikidata.org/entity/Q5372"/>
+    <rdfs:label>הישגים מיוחדים בכדורסל</rdfs:label>
+    <j.1:altLabel xml:lang="pl">Double-triple-double</j.1:altLabel>
+    <j.1:altLabel>Tripla-doppia</j.1:altLabel>
+    <rdfs:label>Þreföld tvenna</rdfs:label>
+    <rdfs:label>Tripla doppia</rdfs:label>
+    <rdfs:label>Trippel-dobbel</rdfs:label>
+    <rdfs:label xml:lang="zh-hk">大三元</rdfs:label>
+    <rdfs:label xml:lang="zh-tw">大三元</rdfs:label>
+    <rdfs:label xml:lang="th">ทริปเปิล-ดับเบิล</rdfs:label>
+    <j.1:altLabel xml:lang="et">Triple-Double</j.1:altLabel>
+    <rdfs:label xml:lang="tr">Triple-double</rdfs:label>
+    <rdfs:label xml:lang="pl">Triple-double</rdfs:label>
+    <rdfs:label>Triple-double</rdfs:label>
+    <rdfs:label xml:lang="fr">Triple-double</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1445182Sf283c59a-48c6-bb75-a99f-08f6f1afa366"/>
+    <j.1:altLabel>三雙</j.1:altLabel>
+    <j.0:P361s rdf:resource="http://www.wikidata.org/entity/Q1445182Sc2b9b9c3-48e2-9915-044a-742479654423"/>
+    <j.1:altLabel>トリプルダブル</j.1:altLabel>
+    <j.1:altLabel>הישגים סטטיסטיים אישיים ב - NBA</j.1:altLabel>
+    <j.1:altLabel>קוואדרופל דאבל</j.1:altLabel>
+    <rdfs:label>Triple double</rdfs:label>
+    <j.1:altLabel xml:lang="pl">Triple double</j.1:altLabel>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel xml:lang="fr">Triple double</j.1:altLabel>
+    <j.1:altLabel xml:lang="tr">Triple double</j.1:altLabel>
+    <j.1:altLabel xml:lang="et">Triple double</j.1:altLabel>
+    <rdfs:label xml:lang="bs">Tripl dabl</rdfs:label>
+    <rdfs:label>三雙</rdfs:label>
+    <j.1:altLabel>Triple doble</j.1:altLabel>
+    <rdfs:label xml:lang="be-tarask">Трыпл-дабл</rdfs:label>
+    <j.1:altLabel>Triplatupla</j.1:altLabel>
+    <j.1:altLabel>Triple-double</j.1:altLabel>
+    <rdfs:label>Трипл-дабл</rdfs:label>
+    <rdfs:label>トリプル・ダブル</rdfs:label>
+    <j.1:altLabel xml:lang="et">Tripledouble</j.1:altLabel>
+    <rdfs:label>Triple doble</rdfs:label>
+    <j.1:altLabel>דאבל טריפל דאבל</j.1:altLabel>
+    <j.1:altLabel>"triple-double"</j.1:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q14360136">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Wikipedia:Walled garden</rdfs:label>
+    <rdfs:label>Википедия:Изолированные кластеры</rdfs:label>
+    <rdfs:label xml:lang="id">Wikipedia:Saling-silang</rdfs:label>
+    <rdfs:label>Вікіпедія:Ізольовані кластери</rdfs:label>
+    <j.2:description>set of pages that link to each other, but do not have any links to or from pages outside the group</j.2:description>
+    <rdfs:label>Wikipedia:ウォールド・ガーデン</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q14360136S6d0d0465-4cba-28c6-95d0-7f2e1c33f7c9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q4978814">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Brummie</rdfs:label>
+    <rdfs:label xml:lang="fr">Brummie</rdfs:label>
+    <rdfs:label>Брумми</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q4978814S687e8195-4589-3529-7fa0-647adc842e5d"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q314144">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Endsieg</rdfs:label>
+    <rdfs:label xml:lang="pl">Endsieg</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q314144Sc8c874d1-46e7-b2a9-5e74-f9bed4bc5b78"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.03k6wb"/>
+    <j.0:P646c>/m/03k6wb</j.0:P646c>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q314144S583ED793-1F42-471B-BAE7-565EC10A6338"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q219557">
+    <rdfs:label xml:lang="tr">Kült film</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q11424"/>
+    <j.1:altLabel>Cinema de culte</j.1:altLabel>
+    <j.1:altLabel>Cine de culto</j.1:altLabel>
+    <j.1:altLabel>Կուլտ-կինո</j.1:altLabel>
+    <j.1:altLabel>Պաշտամունքային կինոնկար</j.1:altLabel>
+    <j.1:altLabel>邪典电视剧</j.1:altLabel>
+    <j.1:altLabel>Կուլտ ֆիլմ</j.1:altLabel>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.01q03"/>
+    <rdfs:label xml:lang="pl">Film kultowy</rdfs:label>
+    <j.0:P910s rdf:resource="http://www.wikidata.org/entity/Q219557S4AE1BD86-F65B-49CF-8E03-31D78DBD0694"/>
+    <rdfs:label xml:lang="th">หนังคัลท์</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.1:altLabel>Պաշտամունքային ֆիլմ</j.1:altLabel>
+    <rdfs:label>Kultovní film</rdfs:label>
+    <rdfs:label xml:lang="zh-hk">邪典電影</rdfs:label>
+    <rdfs:label xml:lang="bg">Култов филм</rdfs:label>
+    <rdfs:label>邪典電影</rdfs:label>
+    <rdfs:label xml:lang="zh-tw">邪典電影</rdfs:label>
+    <j.1:altLabel>קאלט</j.1:altLabel>
+    <j.1:altLabel xml:lang="lv">Kulta filmas</j.1:altLabel>
+    <j.1:altLabel>film culto</j.1:altLabel>
+    <rdfs:label xml:lang="lt">Kultinis filmas</rdfs:label>
+    <rdfs:label>Культавы фільм</rdfs:label>
+    <j.1:altLabel>邪典影剧</j.1:altLabel>
+    <j.1:altLabel>Pelicula de culto</j.1:altLabel>
+    <rdfs:label>Kulttielokuva</rdfs:label>
+    <j.1:altLabel>cult movie</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Films cultes</j.1:altLabel>
+    <rdfs:label>Película de cultu</rdfs:label>
+    <j.1:altLabel xml:lang="tr">Cult film</j.1:altLabel>
+    <rdfs:label>Կուլտային կինո</rdfs:label>
+    <j.1:altLabel xml:lang="tr">Kült filmler</j.1:altLabel>
+    <j.0:P279c rdf:resource="http://www.wikidata.org/entity/Q11424"/>
+    <j.1:altLabel>cult-movie</j.1:altLabel>
+    <j.1:altLabel>Kult-film</j.1:altLabel>
+    <j.1:altLabel>Filme de culto</j.1:altLabel>
+    <rdfs:label xml:lang="eu">Kultuzko filmak</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q219557S1080B647-E115-4B90-B533-CE6EBA6E1D36"/>
+    <j.1:altLabel>カルトムービー</j.1:altLabel>
+    <j.1:altLabel xml:lang="pt">Filme de culto</j.1:altLabel>
+    <j.0:P646c>/m/01q03</j.0:P646c>
+    <j.1:altLabel>Cult film</j.1:altLabel>
+    <j.1:altLabel xml:lang="th">Cult film</j.1:altLabel>
+    <j.1:altLabel>cult</j.1:altLabel>
+    <rdfs:label>Pel·lícula de culte</rdfs:label>
+    <rdfs:label>film di culto</rdfs:label>
+    <j.1:altLabel xml:lang="th">หนังคัลต์</j.1:altLabel>
+    <rdfs:label>סרט פולחן</rdfs:label>
+    <rdfs:label>カルト映画</rdfs:label>
+    <j.1:altLabel>Obra de culto</j.1:altLabel>
+    <j.1:altLabel>Películas de culto</j.1:altLabel>
+    <j.1:altLabel>Film cult</j.1:altLabel>
+    <rdfs:label>Película de culto</rdfs:label>
+    <rdfs:label>Kulta filmo</rdfs:label>
+    <rdfs:label xml:lang="lv">Kulta filma</rdfs:label>
+    <j.1:altLabel xml:lang="pt">Cult movie</j.1:altLabel>
+    <j.1:altLabel>Cult movie</j.1:altLabel>
+    <j.1:altLabel>film cult</j.1:altLabel>
+    <j.1:altLabel>cult classic</j.1:altLabel>
+    <rdfs:label>Культовий фільм</rdfs:label>
+    <j.1:altLabel>Peliculas de culto</j.1:altLabel>
+    <rdfs:label xml:lang="zh-cn">邪典电影</rdfs:label>
+    <rdfs:label>邪典电影</rdfs:label>
+    <rdfs:label xml:lang="zh-hans">邪典电影</rdfs:label>
+    <rdfs:label xml:lang="fr">Film culte</rdfs:label>
+    <j.0:P279s rdf:resource="http://www.wikidata.org/entity/Q219557S19d38d8c-47d3-1556-1282-1735833ef2f6"/>
+    <j.1:altLabel>Культовое кино</j.1:altLabel>
+    <j.1:altLabel>Կուլտային ֆիլմ</j.1:altLabel>
+    <j.1:altLabel>Kultsendung</j.1:altLabel>
+    <j.1:altLabel>컬트영화</j.1:altLabel>
+    <j.2:description>film that has acquired a cult following</j.2:description>
+    <j.1:altLabel>Պաշտամունքային կինոֆիլմ</j.1:altLabel>
+    <rdfs:label xml:lang="pt">Filme cult</rdfs:label>
+    <j.1:altLabel>Film de culto</j.1:altLabel>
+    <j.1:altLabel>סרט קאלט</j.1:altLabel>
+    <rdfs:label>컬트 영화</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q219557S0B469220-59AF-444E-8013-49BED4A6D790"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>カルトフィルム</j.1:altLabel>
+    <rdfs:label>Kultni film</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Культовый фильм</rdfs:label>
+    <rdfs:label>Kultový film</rdfs:label>
+    <j.1:altLabel>Kult Film</j.1:altLabel>
+    <j.0:P910c rdf:resource="http://www.wikidata.org/entity/Q8000001"/>
+    <rdfs:label>cult film</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Kultfilm</rdfs:label>
+    <j.1:altLabel>Cult</j.1:altLabel>
+    <j.1:altLabel>Պաշտամունքային կինո</j.1:altLabel>
+    <rdfs:label>Film venerà</rdfs:label>
+    <rdfs:label>Cultfilm</rdfs:label>
+    <j.1:altLabel>Kultové filmy</j.1:altLabel>
+    <j.1:altLabel>Կուլտ կինո</j.1:altLabel>
+    <rdfs:label>Film idol</rdfs:label>
+    <j.1:altLabel>Cult-film</j.1:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q362059">
+    <rdfs:label>Jiffy</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>Yiffy</j.1:altLabel>
+    <j.2:description>tijd</j.2:description>
+    <j.1:altLabel>Jiffie</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:P646c>/m/08rzl1</j.0:P646c>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q362059SD0EF6222-AF14-46A7-B3B2-6E463F44EB99"/>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q362059S8c6561ad-424b-60ae-ee29-b77d73c46c6d"/>
+    <rdfs:label>jiffy</rdfs:label>
+    <j.1:altLabel>Jiffies</j.1:altLabel>
+    <rdfs:label>瞬間</rdfs:label>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.08rzl1"/>
+    <j.1:altLabel>Clock tick</j.1:altLabel>
+    <j.2:description>informal term</j.2:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q205653">
+    <j.2:description xml:lang="en-gb">term for the Eastern world</j.2:description>
+    <j.2:description>term for the Eastern world</j.2:description>
+    <j.1:altLabel>Orientaler</j.1:altLabel>
+    <j.0:P349s rdf:resource="http://www.wikidata.org/entity/Q205653SC5EF1467-2E54-41C0-A9C2-71F389E4A49A"/>
+    <j.1:altLabel>Orientalisch</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="an">Orient</rdfs:label>
+    <rdfs:label xml:lang="en-gb">Orient</rdfs:label>
+    <rdfs:label>Orient</rdfs:label>
+    <rdfs:label xml:lang="pl">Orient</rdfs:label>
+    <rdfs:label xml:lang="fr">Orient</rdfs:label>
+    <rdfs:label xml:lang="sco">Orient</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.1:altLabel>De österländska folken</j.1:altLabel>
+    <j.0:P349c>00573449</j.0:P349c>
+    <rdfs:label>Восток</rdfs:label>
+    <rdfs:label xml:lang="bg">Ориент</rdfs:label>
+    <j.1:altLabel>Østen</j.1:altLabel>
+    <j.1:altLabel>Orientálny</j.1:altLabel>
+    <rdfs:label>Oriental</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q205653S13180eac-4487-b536-b7ac-7eb292a84cfb"/>
+    <j.1:altLabel>東洋</j.1:altLabel>
+    <j.0:P214-viaf rdf:resource="http://viaf.org/viaf/254773835"/>
+    <rdfs:label xml:lang="eu">Ekialdea</rdfs:label>
+    <rdfs:label>Orienten</rdfs:label>
+    <j.1:altLabel>Österländsk</j.1:altLabel>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="sr">Оријент</rdfs:label>
+    <j.1:altLabel xml:lang="an">Orién</j.1:altLabel>
+    <j.1:altLabel>Oosters</j.1:altLabel>
+    <j.0:P214c>254773835</j.0:P214c>
+    <j.0:P646c>/m/01k017</j.0:P646c>
+    <j.1:altLabel>Ориент</j.1:altLabel>
+    <rdfs:label xml:lang="bs">Orijent</rdfs:label>
+    <rdfs:label>Orijent</rdfs:label>
+    <rdfs:label xml:lang="hr">Orijent</rdfs:label>
+    <j.1:altLabel>Østerlandene</j.1:altLabel>
+    <j.1:altLabel>Orientalist</j.1:altLabel>
+    <j.1:altLabel>Orientalske</j.1:altLabel>
+    <j.1:altLabel>Orienten</j.1:altLabel>
+    <j.1:altLabel>Het Oosten</j.1:altLabel>
+    <j.1:altLabel>Bina'adaałtsózí diné'i</j.1:altLabel>
+    <rdfs:label xml:lang="io">Oriento</rdfs:label>
+    <rdfs:label>오리엔트</rdfs:label>
+    <j.1:altLabel>東瀛</j.1:altLabel>
+    <j.0:P214s rdf:resource="http://www.wikidata.org/entity/Q205653S7405CBD5-24E3-4BCF-A4E2-2E53C6C26CC5"/>
+    <j.1:altLabel>Món oriental</j.1:altLabel>
+    <rdfs:label>Austen</rdfs:label>
+    <rdfs:label xml:lang="ne">पूर्वीय सभ्यता</rdfs:label>
+    <j.1:altLabel>Orientales</j.1:altLabel>
+    <j.2:description>макрорегион, включающий Азию и Северную Африку</j.2:description>
+    <j.1:altLabel>Orientalisk</j.1:altLabel>
+    <j.1:altLabel xml:lang="eu">Sortaldea</j.1:altLabel>
+    <j.1:altLabel>Orient</j.1:altLabel>
+    <j.1:altLabel>Österlandet</j.1:altLabel>
+    <j.1:altLabel xml:lang="eu">Ekialde</j.1:altLabel>
+    <j.1:altLabel xml:lang="bg">Ориента</j.1:altLabel>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.01k017"/>
+    <j.1:altLabel>Den østlige verden</j.1:altLabel>
+    <rdfs:label xml:lang="pt">Oriente</rdfs:label>
+    <rdfs:label>Oriente</rdfs:label>
+    <rdfs:label xml:lang="zh-hk">東洋</rdfs:label>
+    <rdfs:label xml:lang="zh-tw">東洋</rdfs:label>
+    <rdfs:label>東洋</rdfs:label>
+    <j.0:P349-ndl rdf:resource="http://id.ndl.go.jp/auth/entity/00573449"/>
+    <rdfs:label>Схід</rdfs:label>
+    <rdfs:label>Oosten</rdfs:label>
+    <rdfs:label xml:lang="zh-cn">东洋</rdfs:label>
+    <rdfs:label xml:lang="zh-hans">东洋</rdfs:label>
+    <rdfs:label>东洋</rdfs:label>
+    <j.1:altLabel>オリエント</j.1:altLabel>
+    <j.1:altLabel>Oosterse wereld</j.1:altLabel>
+    <j.1:altLabel>Orientalsk</j.1:altLabel>
+    <rdfs:label>Արևելք</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q205653SB3B035B8-BE3E-41A7-9AC7-23BBA98C45D9"/>
+    <j.1:altLabel xml:lang="pt">Mundo Oriental</j.1:altLabel>
+    <rdfs:label>Binaʼadaałtsózí dinéʼi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q6144292">
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q6144292Sc1b0484c-4aec-2ad5-7e72-932398848f0a"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Xbox 360 プラチナコレクション</rdfs:label>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.09jb4y"/>
+    <j.0:P646c>/m/09jb4y</j.0:P646c>
+    <rdfs:label>Platinum Hits</rdfs:label>
+    <rdfs:label xml:lang="pt">Platinum Hits</rdfs:label>
+    <rdfs:label xml:lang="en-gb">Platinum Hits</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Platinum Hits</rdfs:label>
+    <j.2:description>term used to refer to a line of select Xbox games</j.2:description>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>プラチナコレクション</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q6144292SBD7B2F9E-79AD-49D9-99EA-5BBA77845863"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q130989">
+    <j.0:P279s rdf:resource="http://www.wikidata.org/entity/Q130989Sd33dfbbe-44fe-8034-15fa-cd796ff9b5a3"/>
+    <j.1:altLabel>Неологізми</j.1:altLabel>
+    <rdfs:label>Ñe'ẽpyahu</rdfs:label>
+    <rdfs:label>新語</rdfs:label>
+    <rdfs:label xml:lang="ga">Nuafhriotal</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q130989S477DBBB5-74C8-4FA6-A0FF-266D40F5FD8C"/>
+    <rdfs:label>Neologizm</rdfs:label>
+    <rdfs:label xml:lang="pl">Neologizm</rdfs:label>
+    <rdfs:label xml:lang="ba">Яңы һүҙҙәр</rdfs:label>
+    <j.1:altLabel xml:lang="fr">Neologisme</j.1:altLabel>
+    <j.1:altLabel>Neologisme</j.1:altLabel>
+    <rdfs:label xml:lang="io">Neologismo</rdfs:label>
+    <rdfs:label xml:lang="ia">Neologismo</rdfs:label>
+    <rdfs:label xml:lang="eu">Neologismo</rdfs:label>
+    <rdfs:label>неологизам</rdfs:label>
+    <rdfs:label xml:lang="pt">Neologismo</rdfs:label>
+    <rdfs:label>Neologismo</rdfs:label>
+    <rdfs:label xml:lang="pap">Neologismo</rdfs:label>
+    <j.2:description>nově vytvořené slovo</j.2:description>
+    <j.1:altLabel>Niologgismu</j.1:altLabel>
+    <rdfs:label>新詞</rdfs:label>
+    <rdfs:label xml:lang="zh-tw">新詞</rdfs:label>
+    <rdfs:label xml:lang="zh-hk">新詞</rdfs:label>
+    <rdfs:label xml:lang="ur">وضعی لفظ</rdfs:label>
+    <rdfs:label>Uudissana</rdfs:label>
+    <j.1:altLabel xml:lang="et">Uudiskeelend</j.1:altLabel>
+    <j.1:altLabel>Worterfindungen</j.1:altLabel>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q130989S49BB9A1E-037D-47EC-9633-BAA90A72D2D3"/>
+    <j.1:altLabel xml:lang="ar">لفظ محدث</j.1:altLabel>
+    <j.1:altLabel>Nioluggismu</j.1:altLabel>
+    <j.1:altLabel>Niuluggismu</j.1:altLabel>
+    <j.1:altLabel>Nybildade ord</j.1:altLabel>
+    <j.1:altLabel xml:lang="lt">Neologizmas</j.1:altLabel>
+    <rdfs:label>نوواژه</rdfs:label>
+    <j.1:altLabel xml:lang="wa">Noûmots</j.1:altLabel>
+    <j.1:altLabel>Neología</j.1:altLabel>
+    <rdfs:label>Неологизм</rdfs:label>
+    <j.1:altLabel>Novvorto</j.1:altLabel>
+    <j.1:altLabel>Nýmerking</j.1:altLabel>
+    <j.1:altLabel>Neologiya</j.1:altLabel>
+    <j.1:altLabel>Els manlleus</j.1:altLabel>
+    <j.1:altLabel xml:lang="th">บัญญัติศัพท์</j.1:altLabel>
+    <rdfs:label xml:lang="fr">Néologisme</rdfs:label>
+    <rdfs:label>תחדיש</rdfs:label>
+    <rdfs:label>Nydannelse</rdfs:label>
+    <j.1:altLabel xml:lang="lv">Neoloģisms</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Néologismes</j.1:altLabel>
+    <j.0:P1296c>0126013</j.0:P1296c>
+    <j.1:altLabel>новотворен збор</j.1:altLabel>
+    <rdfs:label>Neoluggismu</rdfs:label>
+    <j.1:altLabel xml:lang="hr">Neologizmi</j.1:altLabel>
+    <rdfs:label xml:lang="ar">مستحدث</rdfs:label>
+    <j.0:P279c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>Neologismos</j.1:altLabel>
+    <rdfs:label>neologismus</rdfs:label>
+    <j.0:P349s rdf:resource="http://www.wikidata.org/entity/Q130989SED935B53-442D-4139-A8B2-45B1C2400FEC"/>
+    <j.1:altLabel>ניאולוגיזם</j.1:altLabel>
+    <j.1:altLabel xml:lang="la">Verbum novatum</j.1:altLabel>
+    <j.1:altLabel>neologizmus</j.1:altLabel>
+    <j.1:altLabel>新語</j.1:altLabel>
+    <j.1:altLabel>новотворба</j.1:altLabel>
+    <j.0:P508c>17679</j.0:P508c>
+    <rdfs:label>Neologisme</rdfs:label>
+    <rdfs:label>Neologizmlar</rdfs:label>
+    <rdfs:label xml:lang="id">Neologisme</rdfs:label>
+    <rdfs:label xml:lang="af">Neologisme</rdfs:label>
+    <j.1:altLabel>novotvar</j.1:altLabel>
+    <rdfs:label xml:lang="ms">Neologisme</rdfs:label>
+    <j.1:altLabel>Неологизмы</j.1:altLabel>
+    <j.1:altLabel>新造字</j.1:altLabel>
+    <j.1:altLabel>واژه اختراعی</j.1:altLabel>
+    <rdfs:label xml:lang="sr-cyrl">Неологизам</rdfs:label>
+    <j.0:P1296s rdf:resource="http://www.wikidata.org/entity/Q130989SD3872461-A9F8-4918-B086-1FBF3A662795"/>
+    <rdfs:label>Նորաբանություն</rdfs:label>
+    <j.1:altLabel>Neuluggismu</j.1:altLabel>
+    <j.1:altLabel>新语</j.1:altLabel>
+    <j.1:altLabel xml:lang="pl">Neologizm artystyczny</j.1:altLabel>
+    <j.1:altLabel xml:lang="sr">Νεολογισμός</j.1:altLabel>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>Reraguapy</j.1:altLabel>
+    <rdfs:label xml:lang="tr">İhtira</rdfs:label>
+    <j.0:P349c>00571027</j.0:P349c>
+    <rdfs:label xml:lang="sr">Неологизам</rdfs:label>
+    <j.1:altLabel>Neologismes</j.1:altLabel>
+    <rdfs:label>neologisme</rdfs:label>
+    <j.1:altLabel>Manlleus</j.1:altLabel>
+    <j.1:altLabel xml:lang="ar">نيولوجيا</j.1:altLabel>
+    <rdfs:label xml:lang="hr">Novotvorenice</rdfs:label>
+    <j.0:P373c>Neologisms</j.0:P373c>
+    <j.1:altLabel>Xenisme</j.1:altLabel>
+    <rdfs:label xml:lang="lt">Naujadaras</rdfs:label>
+    <j.1:altLabel xml:lang="pl">Neologizmy</j.1:altLabel>
+    <j.1:altLabel>新造詞</j.1:altLabel>
+    <rdfs:label xml:lang="br">Nevezc'her</rdfs:label>
+    <j.1:altLabel>Neologista</j.1:altLabel>
+    <j.2:description>newly coined term not yet accepted into mainstream language</j.2:description>
+    <rdfs:label xml:lang="la">Neologismus</rdfs:label>
+    <rdfs:label xml:lang="hi">नवनिर्मित प्रयोग</rdfs:label>
+    <j.1:altLabel>واژه ابداعی</j.1:altLabel>
+    <rdfs:label xml:lang="wa">Noûmot</rdfs:label>
+    <j.0:P373s rdf:resource="http://www.wikidata.org/entity/Q130989S74e04480-44e0-b645-dad8-f0f914dc811a"/>
+    <rdfs:label>Neologismus</rdfs:label>
+    <j.1:altLabel xml:lang="th">การบัญญัติศัพท์</j.1:altLabel>
+    <rdfs:label>Неологізм</rdfs:label>
+    <rdfs:label>Nýyrði</rdfs:label>
+    <j.1:altLabel>Neuwort</j.1:altLabel>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.01431j"/>
+    <j.1:altLabel xml:lang="hr">Neologizam</j.1:altLabel>
+    <j.1:altLabel>חידושי מילים</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.1:altLabel>نوواژه‌ها</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>신조어</rdfs:label>
+    <j.1:altLabel>Neologia</j.1:altLabel>
+    <j.1:altLabel>נאולוגיזם</j.1:altLabel>
+    <j.1:altLabel>חידושי לשון</j.1:altLabel>
+    <j.1:altLabel xml:lang="ba">Неологизм</j.1:altLabel>
+    <j.1:altLabel xml:lang="lv">Jaunvārdi</j.1:altLabel>
+    <rdfs:label>Neolohismo</rdfs:label>
+    <j.1:altLabel xml:lang="sr">Νεολογισμός;</j.1:altLabel>
+    <j.1:altLabel>Novismo</j.1:altLabel>
+    <j.1:altLabel>Neologismi</j.1:altLabel>
+    <j.0:P646c>/m/01431j</j.0:P646c>
+    <j.1:altLabel>Novradiko</j.1:altLabel>
+    <rdfs:label xml:lang="zh-cn">新词</rdfs:label>
+    <rdfs:label xml:lang="zh-hans">新词</rdfs:label>
+    <rdfs:label>新词</rdfs:label>
+    <j.1:altLabel xml:lang="th">ศัพท์บัญญัติ</j.1:altLabel>
+    <j.1:altLabel xml:lang="hr">Novotvorenica</j.1:altLabel>
+    <j.1:altLabel xml:lang="lv">Neoloģismi</j.1:altLabel>
+    <j.1:altLabel>生造字</j.1:altLabel>
+    <rdfs:label xml:lang="th">คำสร้างใหม่</rdfs:label>
+    <rdfs:label xml:lang="lv">Jaunvārds</rdfs:label>
+    <rdfs:label xml:lang="el">Νεολογισμός</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Neologism</rdfs:label>
+    <rdfs:label xml:lang="et">Neologism</rdfs:label>
+    <rdfs:label xml:lang="sco">Neologism</rdfs:label>
+    <j.1:altLabel xml:lang="th">คำใหม่</j.1:altLabel>
+    <j.1:altLabel>Neologismen</j.1:altLabel>
+    <rdfs:label>Neologizmus</rdfs:label>
+    <rdfs:label>neologism</rdfs:label>
+    <rdfs:label xml:lang="bg">Неологизъм</rdfs:label>
+    <rdfs:label>Neologizam</rdfs:label>
+    <rdfs:label xml:lang="bs">Neologizam</rdfs:label>
+    <j.0:P508s rdf:resource="http://www.wikidata.org/entity/Q130989S23801B1B-2464-42D2-A8C7-D79D689B5A4B"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P349-ndl rdf:resource="http://id.ndl.go.jp/auth/entity/00571027"/>
+    <j.1:altLabel xml:lang="sr">Протологизам</j.1:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q2695337">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Index</rdfs:label>
+    <j.2:description>motortaal</j.2:description>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q2695337S0abb179c-413c-6c39-5105-ef6905f013b1"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q7482779">
+    <rdfs:label>Velká vlastenecká válka</rdfs:label>
+    <rdfs:label>大祖国戦争</rdfs:label>
+    <rdfs:label xml:lang="id">башkортса</rdfs:label>
+    <rdfs:label xml:lang="fr">Grande guerre patriotique</rdfs:label>
+    <rdfs:label>Stora fosterländska kriget</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="ky">Улуу Ата-Мекендик согуш</rdfs:label>
+    <rdfs:label>Вялікая Айчынная вайна 1941-1945</rdfs:label>
+    <j.0:P710c rdf:resource="http://www.wikidata.org/entity/Q15180"/>
+    <j.0:P373s rdf:resource="http://www.wikidata.org/entity/Q7482779S3F9ABE11-DB31-4777-95FB-EB72F4C35492"/>
+    <j.2:description xml:lang="ba">башkортса</j.2:description>
+    <rdfs:label>Велика Вітчизняна війна</rdfs:label>
+    <rdfs:label xml:lang="lt">Didysis Tėvynės karas</rdfs:label>
+    <j.2:description>article about term and its controversy</j.2:description>
+    <rdfs:label>Den store fedrelandskrigen</rdfs:label>
+    <rdfs:label xml:lang="bg">Германо-съветска война</rdfs:label>
+    <rdfs:label>Veľká vlastenecká vojna</rdfs:label>
+    <rdfs:label>Großer Vaterländischer Krieg</rdfs:label>
+    <rdfs:label xml:lang="os">Фыдыбæстæйы Стыр хæст</rdfs:label>
+    <rdfs:label xml:lang="pt">Grande Guerra Patriótica</rdfs:label>
+    <j.0:P710s rdf:resource="http://www.wikidata.org/entity/Q7482779S53dc4461-4e38-b4df-6095-8e9a07aaf2b1"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P582c rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1945-05-09+01:00</j.0:P582c>
+    <j.2:description>термин</j.2:description>
+    <rdfs:label>Suuri isänmaallinen sota</rdfs:label>
+    <rdfs:label>Аҕа дойду Улуу сэриитэ</rdfs:label>
+    <rdfs:label xml:lang="be-tarask">Вялікая Айчынная вайна</rdfs:label>
+    <j.2:description xml:lang="kk">1941-1945 жылдары КСРО мен Германия арасында болған әскери іс-әрекеттер</j.2:description>
+    <j.0:P582s rdf:resource="http://www.wikidata.org/entity/Q7482779Sb1160398-40ea-119d-3d1e-107f4e7d889d"/>
+    <rdfs:label>Böyük Vətən müharibəsi</rdfs:label>
+    <rdfs:label>Grote Vaderlandse Oorlog</rdfs:label>
+    <rdfs:label>Великая Отечественная война</rdfs:label>
+    <rdfs:label xml:lang="la">Bellum Magnum Patrium</rdfs:label>
+    <rdfs:label xml:lang="ar">الحرب الوطنية العظمى</rdfs:label>
+    <rdfs:label>Кугу Ачамланде сар</rdfs:label>
+    <rdfs:label>جنگ کبیر میهنی</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:P227-gnd rdf:resource="http://d-nb.info/gnd/4076906-9/about/rdf"/>
+    <rdfs:label xml:lang="tr">Büyük Vatanseverlik Savaşı</rdfs:label>
+    <rdfs:label xml:lang="ce">Сийлахь-Боккха Даймехкан тӀом</rdfs:label>
+    <rdfs:label>Gran Guerra Patria</rdfs:label>
+    <rdfs:label>Тăван Çĕршывăн Аслă вăрçи</rdfs:label>
+    <j.1:altLabel xml:lang="kk">ҰОС</j.1:altLabel>
+    <j.1:altLabel xml:lang="kk-cyrl">ҰОС</j.1:altLabel>
+    <rdfs:label>Granda patriota milito</rdfs:label>
+    <j.0:P710s rdf:resource="http://www.wikidata.org/entity/Q7482779Sa3e0d197-4d3b-77fc-306a-e2465ecea56b"/>
+    <j.1:altLabel>ВОВ</j.1:altLabel>
+    <rdfs:label xml:lang="ba">башкортса</rdfs:label>
+    <rdfs:label xml:lang="et">Suur Isamaasõda</rdfs:label>
+    <rdfs:label xml:lang="hr">Veliki domovinski rat</rdfs:label>
+    <j.0:P373c>Great Patriotic War</j.0:P373c>
+    <rdfs:label xml:lang="lv">Lielais Tēvijas karš</rdfs:label>
+    <j.2:description xml:lang="tt">английский язык</j.2:description>
+    <j.0:P361s rdf:resource="http://www.wikidata.org/entity/Q7482779S2105b5a7-4a2d-ddee-e5fb-7ab34ccf53cc"/>
+    <rdfs:label>Grutte Heitelânske Kriich</rdfs:label>
+    <rdfs:label xml:lang="tt">Бөек Ватан сугышы</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q7482779S2285c8bc-41ac-a25e-522a-98fc3fbfcc45"/>
+    <j.0:P710c rdf:resource="http://www.wikidata.org/entity/Q7318"/>
+    <j.0:P580s rdf:resource="http://www.wikidata.org/entity/Q7482779S4e49feb3-4d9c-d496-c4f0-43b52c787c71"/>
+    <rdfs:label>დიდი სამამულო ომი</rdfs:label>
+    <rdfs:label xml:lang="pl">Wielka Wojna Ojczyźniana</rdfs:label>
+    <rdfs:label>Chiến tranh Vệ quốc Vĩ đại</rdfs:label>
+    <rdfs:label xml:lang="kk">Ұлы Отан соғысы</rdfs:label>
+    <rdfs:label>Հայրենական Մեծ պատերազմ</rdfs:label>
+    <j.0:P227s rdf:resource="http://www.wikidata.org/entity/Q7482779SB363291F-1BD4-49E4-B0FB-9530C1651072"/>
+    <rdfs:label>Store Fædrelandskrig</rdfs:label>
+    <j.0:P227c>4076906-9</j.0:P227c>
+    <j.0:P361c rdf:resource="http://www.wikidata.org/entity/Q2628560"/>
+    <rdfs:label>Great Patriotic War (term)</rdfs:label>
+    <rdfs:label xml:lang="en-gb">Great Patriotic War (term)</rdfs:label>
+    <j.0:P580c rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-06-22+01:00</j.0:P580c>
+    <j.2:description>термін радянської пропаганди</j.2:description>
+    <rdfs:label xml:lang="tg">Ҷанги Бузурги Ватанӣ</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q16748888">
+    <rdfs:label xml:lang="fr">émotion complexe</rdfs:label>
+    <j.2:description>Begriff der Emotionstheorie</j.2:description>
+    <rdfs:label>erweiterte Emotion</rdfs:label>
+    <rdfs:label xml:lang="sr-cyrl">напредно осећање</rdfs:label>
+    <rdfs:label xml:lang="sr">напредно осећање</rdfs:label>
+    <j.2:description>according to the theory of emotion</j.2:description>
+    <rdfs:label>napredno osećanje</rdfs:label>
+    <j.0:P361s rdf:resource="http://www.wikidata.org/entity/Q16748888Sefb22242-4ed8-1c63-4596-ef0f01bd6451"/>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q16748888S1f80775c-4e77-3793-f4f2-7a26268026ab"/>
+    <rdfs:label>advanced emotion</rdfs:label>
+    <j.2:description xml:lang="fr">selon la théorie des émotions</j.2:description>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.0:P361c rdf:resource="http://www.wikidata.org/entity/Q9357054"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q16915726">
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P279c rdf:resource="http://www.wikidata.org/entity/Q1071"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q16915726S457cf145-4a18-1249-59b2-5f8bd9ad9030"/>
+    <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q1071"/>
+    <j.0:P279s rdf:resource="http://www.wikidata.org/entity/Q16915726S066b4877-477e-e775-47c1-f7aa116b8b99"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Mesoregion</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.2:description>Begriff in der Geographie</j.2:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q387009">
+    <rdfs:label xml:lang="fr">pono</rdfs:label>
+    <j.0:P434-mbartist rdf:resource="http://musicbrainz.org/2a3dc092-c397-490b-8278-7b771dba3f1a/artist"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:P434c>2a3dc092-c397-490b-8278-7b771dba3f1a</j.0:P434c>
+    <j.0:P966c>2a3dc092-c397-490b-8278-7b771dba3f1a</j.0:P966c>
+    <j.0:P966-mblabel rdf:resource="http://musicbrainz.org/2a3dc092-c397-490b-8278-7b771dba3f1a/label"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="pl">Pono</rdfs:label>
+    <rdfs:label>Pono</rdfs:label>
+    <j.0:P966s rdf:resource="http://www.wikidata.org/entity/Q387009S951406a1-42b8-9848-f69c-2812857dccbe"/>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q387009S8a1b31b7-40e7-509e-ec8a-8511cacdd51c"/>
+    <j.0:P434s rdf:resource="http://www.wikidata.org/entity/Q387009S970228BD-B277-417D-B23A-066835448E98"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1332873">
+    <rdfs:label>Репликация</rdfs:label>
+    <rdfs:label>리플리케이션</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q1332873S28900D71-0B4B-46B8-A1DC-0C165D8C11F5"/>
+    <rdfs:label>Replikation</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label>replication</rdfs:label>
+    <rdfs:label>Replicatie</rdfs:label>
+    <j.1:altLabel>Replication</j.1:altLabel>
+    <j.0:P1482c rdf:resource="http://stackoverflow.com/tags/replication"/>
+    <j.2:description>Es el proceso de copiar y mantener actualizados los datos en varios nodos de bases de datos ya sean estos persistentes o no.</j.2:description>
+    <j.0:P227c>4742677-9</j.0:P227c>
+    <rdfs:label>レプリケーション</rdfs:label>
+    <j.1:altLabel>Replikator</j.1:altLabel>
+    <j.0:P1482s rdf:resource="http://www.wikidata.org/entity/Q1332873SF9242FF6-F8F4-4309-AFF8-0C5D58A5CD6B"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="pl">Replikacja danych</rdfs:label>
+    <j.0:P646c>/m/07_0m0</j.0:P646c>
+    <j.1:altLabel>Replizierung</j.1:altLabel>
+    <rdfs:label xml:lang="pt">Replicação de dados</rdfs:label>
+    <rdfs:label>Replicación</rdfs:label>
+    <rdfs:label xml:lang="fr">Réplication</rdfs:label>
+    <j.1:altLabel>Репликация баз данных</j.1:altLabel>
+    <j.2:description>sharing information to ensure consistency in computing</j.2:description>
+    <rdfs:label>שכפול נתונים</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1332873SB2BC519F-4753-4C23-A175-96FD97D0429F"/>
+    <j.2:description>informatica</j.2:description>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P227s rdf:resource="http://www.wikidata.org/entity/Q1332873S81CF6A9E-FD9B-4B99-83C6-DFAE5760E49A"/>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.07_0m0"/>
+    <j.1:altLabel>רפליקציה</j.1:altLabel>
+    <j.0:P227-gnd rdf:resource="http://d-nb.info/gnd/4742677-9/about/rdf"/>
+    <rdfs:label>Replikace databází</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q219625">
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q219625SE6EE0C85-71E7-4C00-984D-F970C35C237F"/>
+    <j.1:altLabel>Arts pures</j.1:altLabel>
+    <rdfs:label>هنرهای زیبا</rdfs:label>
+    <rdfs:label xml:lang="tr">Güzel sanatlar</rdfs:label>
+    <rdfs:label xml:lang="mn">Яруу урлаг</rdfs:label>
+    <rdfs:label>Skønne kunster</rdfs:label>
+    <rdfs:label>De sköna konsterna</rdfs:label>
+    <j.1:altLabel>Belarto</j.1:altLabel>
+    <rdfs:label xml:lang="ar">فنون جميلة</rdfs:label>
+    <j.1:altLabel xml:lang="tr">Güzel sanat</j.1:altLabel>
+    <rdfs:label>Mỹ thuật</rdfs:label>
+    <rdfs:label>Bellas Artes</rdfs:label>
+    <rdfs:label>Belles arts</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q219625Sdba51b49-4d2e-0222-77b0-2a481ea7fa11"/>
+    <j.0:P373s rdf:resource="http://www.wikidata.org/entity/Q219625S7832E126-57BB-4AAA-B000-8BA565850A8D"/>
+    <j.1:altLabel xml:lang="bg">Изящни изкуства</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel xml:lang="tr">Güzel sanatlar nelerdir</j.1:altLabel>
+    <j.1:altLabel>ハイアート</j.1:altLabel>
+    <j.2:description>art developed primarily for aesthetics</j.2:description>
+    <j.1:altLabel>Fine Arts</j.1:altLabel>
+    <rdfs:label xml:lang="pt">Belas artes</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.1:altLabel xml:lang="ar">الفنون الجميلة</j.1:altLabel>
+    <j.1:altLabel>미술가</j.1:altLabel>
+    <j.1:altLabel xml:lang="la">Artes bellae</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.1:altLabel>هنرهای هفتگانه</j.1:altLabel>
+    <rdfs:label xml:lang="pnb">سوہنے کم</rdfs:label>
+    <j.1:altLabel>Belaj artoj</j.1:altLabel>
+    <j.1:altLabel>ファイン・アート</j.1:altLabel>
+    <j.1:altLabel>Sköna konsterna</j.1:altLabel>
+    <j.1:altLabel>純粋美術</j.1:altLabel>
+    <j.1:altLabel xml:lang="ar">فنون جميله</j.1:altLabel>
+    <j.1:altLabel>هنرهاي زيبا</j.1:altLabel>
+    <rdfs:label>Fine art</rdfs:label>
+    <rdfs:label>Belartoj</rdfs:label>
+    <rdfs:label>Изящные искусства</rdfs:label>
+    <rdfs:label xml:lang="bg">Изящно изкуство</rdfs:label>
+    <rdfs:label xml:lang="la">Bellae artes</rdfs:label>
+    <rdfs:label>미술</rdfs:label>
+    <rdfs:label>schone kunsten</rdfs:label>
+    <rdfs:label xml:lang="zh-cn">美术</rdfs:label>
+    <rdfs:label>美术</rdfs:label>
+    <rdfs:label xml:lang="zh-hans">美术</rdfs:label>
+    <j.1:altLabel>Mĩ thuật</j.1:altLabel>
+    <rdfs:label xml:lang="gv">Ny h-ellynyn ooasle</rdfs:label>
+    <rdfs:label xml:lang="ga">Míndána</rdfs:label>
+    <rdfs:label>אמנות יפה</rdfs:label>
+    <rdfs:label>ファインアート</rdfs:label>
+    <rdfs:label xml:lang="ps">ښکلي هنرونه</rdfs:label>
+    <j.2:description>kunst voornamelijk bedoeld voor visuele beschouwing of plezier</j.2:description>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.0mg1w"/>
+    <j.1:altLabel xml:lang="pt">Belas-artes</j.1:altLabel>
+    <rdfs:label xml:lang="ms">fine art</rdfs:label>
+    <j.1:altLabel>Fijnkunst</j.1:altLabel>
+    <rdfs:label xml:lang="nan">Bí-su̍t</rdfs:label>
+    <rdfs:label xml:lang="pa">ਲਲਿਤ ਕਲਾ</rdfs:label>
+    <rdfs:label xml:lang="fr">beaux-arts</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="ckb">ھونەرە جوانەکان</rdfs:label>
+    <rdfs:label>Belle arti</rdfs:label>
+    <rdfs:label xml:lang="id">Seni murni</rdfs:label>
+    <j.1:altLabel xml:lang="bg">Изящното изкуство</j.1:altLabel>
+    <j.1:altLabel xml:lang="la">Bella ars</j.1:altLabel>
+    <rdfs:label xml:lang="ur">فنون لطیفہ</rdfs:label>
+    <rdfs:label xml:lang="ml">സുന്ദരകലകൾ</rdfs:label>
+    <j.1:altLabel>Arts majors</j.1:altLabel>
+    <j.0:P373c>Art</j.0:P373c>
+    <j.1:altLabel>Fine Art</j.1:altLabel>
+    <j.0:P646c>/m/0mg1w</j.0:P646c>
+    <j.1:altLabel>هفت هنر</j.1:altLabel>
+    <rdfs:label>Belas Artes</rdfs:label>
+    <j.1:altLabel>純粋芸術</j.1:altLabel>
+    <rdfs:label xml:lang="zh-hk">美術</rdfs:label>
+    <rdfs:label>美術</rdfs:label>
+    <rdfs:label xml:lang="si">ලලිත කලා</rdfs:label>
+    <rdfs:label xml:lang="zh-tw">美術</rdfs:label>
+    <rdfs:label xml:lang="hi">ललित कला</rdfs:label>
+    <rdfs:label xml:lang="ne">ललित कला</rdfs:label>
+    <rdfs:label>krásná umění</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5727902">
+    <j.1:altLabel>in etwa</j.1:altLabel>
+    <j.1:altLabel>c.</j.1:altLabel>
+    <j.2:description>al voltant de</j.2:description>
+    <rdfs:label>circa</rdfs:label>
+    <rdfs:label xml:lang="fr">circa</rdfs:label>
+    <j.2:description>la fuente especificó un valor y explícitamente indicó que éste era aproximado, pero no se indicó la precisión. Por ejemplo, "nacido cerca de 1709" o "muerto cerca de Berlín"</j.2:description>
+    <j.2:description>ungefähr -- sollte mit Qualifikator P1480 "Qualifikator für Behauptung" verwendet werde, um auszudrücken, dass die Quelle eine Angabe als ungefähr bezeichnet. Zum Beispiel "geboren um 1709"</j.2:description>
+    <j.1:altLabel>approximately</j.1:altLabel>
+    <j.2:description xml:lang="pl">wyrażenie używane do określenia czegoś przybliżonego. na przykład "urodzony około 1908 roku"</j.2:description>
+    <rdfs:label xml:lang="af">Circa</rdfs:label>
+    <rdfs:label xml:lang="tr">Circa</rdfs:label>
+    <j.1:altLabel>サーカ</j.1:altLabel>
+    <rdfs:label>Circa</rdfs:label>
+    <rdfs:label xml:lang="en-x-simple">Circa</rdfs:label>
+    <j.1:altLabel>cca.</j.1:altLabel>
+    <rdfs:label xml:lang="eu">Circa</rdfs:label>
+    <rdfs:label xml:lang="zh-hans">Circa</rdfs:label>
+    <j.1:altLabel>etwa</j.1:altLabel>
+    <rdfs:label xml:lang="pt">Circa</rdfs:label>
+    <rdfs:label xml:lang="br">Circa</rdfs:label>
+    <rdfs:label xml:lang="zh-hk">Circa</rdfs:label>
+    <rdfs:label xml:lang="la">Circa</rdfs:label>
+    <j.1:altLabel>Cca</j.1:altLabel>
+    <j.2:description>この出典では、この情報がおよその精度であることが述べられている。例: 「1709年頃誕生」「ベルリン付近で没」</j.2:description>
+    <j.1:altLabel xml:lang="pl">przybliżona wartość</j.1:altLabel>
+    <j.1:altLabel>näherungsweise</j.1:altLabel>
+    <j.0:P646c>/m/02nt8b</j.0:P646c>
+    <j.2:description>qualificaturi chi' riggistra u fattu chi' a fonti di n'affirmazzioni spicifica un valuri approssimatu</j.2:description>
+    <rdfs:label xml:lang="el">Περίπου</rdfs:label>
+    <j.2:description>te gebruiken als onderdeel van specificatie bron</j.2:description>
+    <rdfs:label>каля</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>ок.</j.1:altLabel>
+    <rdfs:label xml:lang="ur">تقریباً</rdfs:label>
+    <j.1:altLabel>valor aproximado</j.1:altLabel>
+    <j.1:altLabel>C.</j.1:altLabel>
+    <j.2:description>approximately -- should be used with qualifier P1480 to indicate the source specified a value and explicitly stated that value is approximate, but specify no precision information. For example, "born around 1709"</j.2:description>
+    <j.1:altLabel xml:lang="br">C.</j.1:altLabel>
+    <j.1:altLabel xml:lang="pt">C.</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">C.</j.1:altLabel>
+    <j.1:altLabel xml:lang="eu">C.</j.1:altLabel>
+    <j.1:altLabel>approximate value</j.1:altLabel>
+    <j.2:description>npr. "rojen približno leta 1709" ali " umrl blizu Berlina"</j.2:description>
+    <j.2:description>флаг, указывающий что источник указал на приблизительность значения, но не указал точные возможные границы значения</j.2:description>
+    <j.1:altLabel>Circa</j.1:altLabel>
+    <j.1:altLabel xml:lang="ur">Circa</j.1:altLabel>
+    <rdfs:label xml:lang="pa">ਅੰਦਾਜ਼ਨ</rdfs:label>
+    <j.1:altLabel>ungefähr</j.1:altLabel>
+    <rdfs:label xml:lang="pl">około</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q5727902S765445BA-93CD-456A-B97A-A41F4FE5ED15"/>
+    <j.1:altLabel>incirca</j.1:altLabel>
+    <j.1:altLabel>intornu a'</j.1:altLabel>
+    <j.1:altLabel xml:lang="eu">Ca.</j.1:altLabel>
+    <j.1:altLabel xml:lang="la">Ca.</j.1:altLabel>
+    <j.1:altLabel xml:lang="pt">Ca.</j.1:altLabel>
+    <j.1:altLabel>Ca.</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Ca.</j.1:altLabel>
+    <j.2:description>approssimatamente -- da utilizzare con il qualificatore P1480 per indicare che il valore è stata indicato dalla fonte esplicitamente con valore approssimato (esempio "nato attorno al 1709")</j.2:description>
+    <rdfs:label>около</rdfs:label>
+    <j.1:altLabel>around</j.1:altLabel>
+    <rdfs:label>Цирка</rdfs:label>
+    <j.1:altLabel>ca</j.1:altLabel>
+    <j.1:altLabel>c:a</j.1:altLabel>
+    <j.1:altLabel>cerca de</j.1:altLabel>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.02nt8b"/>
+    <j.1:altLabel>キルカ</j.1:altLabel>
+    <j.1:altLabel>circ.</j.1:altLabel>
+    <rdfs:label>Alantou</rdfs:label>
+    <j.1:altLabel>in tornu a'</j.1:altLabel>
+    <j.1:altLabel>ca.</j.1:altLabel>
+    <rdfs:label>cirka</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q5727902SBD24AF51-0493-45E6-9E8A-855735DD529A"/>
+    <j.1:altLabel xml:lang="br">Wd</j.1:altLabel>
+    <j.1:altLabel>in circa</j.1:altLabel>
+    <rdfs:label xml:lang="ar">سرك</rdfs:label>
+    <j.1:altLabel>zirka</j.1:altLabel>
+    <j.1:altLabel>Cirka</j.1:altLabel>
+    <rdfs:label xml:lang="id">Ca.</rdfs:label>
+    <j.1:altLabel xml:lang="ar">سرك(Circa)</j.1:altLabel>
+    <rdfs:label>Cirka</rdfs:label>
+    <j.1:altLabel xml:lang="eu">Cca.</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Cca.</j.1:altLabel>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>približno</rdfs:label>
+    <j.1:altLabel xml:lang="pl">w pobliżu</j.1:altLabel>
+    <j.1:altLabel>Ca</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q871529">
+    <rdfs:label xml:lang="fr">switch hitter</rdfs:label>
+    <rdfs:label xml:lang="pl">Switch hitter</rdfs:label>
+    <rdfs:label>Switch hitter</rdfs:label>
+    <rdfs:label>스위치 히터</rdfs:label>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.026r94"/>
+    <j.1:altLabel>スウィッチヒッター</j.1:altLabel>
+    <rdfs:label xml:lang="en-gb">Switch hitter</rdfs:label>
+    <j.1:altLabel>両打</j.1:altLabel>
+    <j.2:description>baseball player who can hit both left- and right-handed</j.2:description>
+    <j.1:altLabel>両打ち</j.1:altLabel>
+    <rdfs:label>switch-hitter</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:P646c>/m/026r94</j.0:P646c>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q871529Sd253cfd7-49c1-dd2e-bbf4-211f5a270303"/>
+    <j.2:description xml:lang="en-x-simple">baseball player who hits left- and right-handed</j.2:description>
+    <j.1:altLabel>switch hitter</j.1:altLabel>
+    <rdfs:label>スイッチヒッター</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q871529S1D297A68-0FC5-4B38-BC96-800BAE93BA08"/>
+    <rdfs:label xml:lang="en-x-simple">switch hitter</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q931510">
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q931510S47836B81-051B-47FB-8F4E-69078D6DB59C"/>
+    <rdfs:label>Islamization</rdfs:label>
+    <j.1:altLabel xml:lang="bg">Ислямизация</j.1:altLabel>
+    <j.0:P646c>/m/071jd_</j.0:P646c>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="sr-cyrl">Исламизација</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel xml:lang="bg">Дебългаризиране на българите мюсюлмани</j.1:altLabel>
+    <rdfs:label xml:lang="bg">Ислямизация</rdfs:label>
+    <j.1:altLabel>Islamisatie</j.1:altLabel>
+    <j.1:altLabel xml:lang="ar">داعية إسلامي</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Islamisé</j.1:altLabel>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.071jd_"/>
+    <rdfs:label>אסלאמיזציה</rdfs:label>
+    <rdfs:label>伊斯兰化</rdfs:label>
+    <rdfs:label xml:lang="zh-hans">伊斯兰化</rdfs:label>
+    <j.1:altLabel xml:lang="fr">Islamisation de la France</j.1:altLabel>
+    <rdfs:label>Islamisierung</rdfs:label>
+    <rdfs:label xml:lang="gsw">Islamisierung</rdfs:label>
+    <j.1:altLabel xml:lang="bg">Потурчване на българите</j.1:altLabel>
+    <j.1:altLabel xml:lang="ar">دعوة إسلامية</j.1:altLabel>
+    <rdfs:label xml:lang="ar">أسلمة</rdfs:label>
+    <j.1:altLabel xml:lang="ar">الأسلمة</j.1:altLabel>
+    <j.1:altLabel xml:lang="bg">Ислямизация в България през османското владичество</j.1:altLabel>
+    <j.1:altLabel xml:lang="bg">Ислямизиране</j.1:altLabel>
+    <rdfs:label>伊斯蘭化</rdfs:label>
+    <rdfs:label xml:lang="zh-hk">伊斯蘭化</rdfs:label>
+    <j.1:altLabel xml:lang="fr">Islamisation de l'Europe</j.1:altLabel>
+    <j.1:altLabel>Islamifikace</j.1:altLabel>
+    <j.1:altLabel>Islamiseren</j.1:altLabel>
+    <rdfs:label xml:lang="sr">исламизација</rdfs:label>
+    <rdfs:label>Islamizzazione</rdfs:label>
+    <j.1:altLabel>Moslimisering</j.1:altLabel>
+    <j.0:P910c rdf:resource="http://www.wikidata.org/entity/Q8555709"/>
+    <j.1:altLabel xml:lang="sr">Islamizacija</j.1:altLabel>
+    <j.1:altLabel>回教化</j.1:altLabel>
+    <rdfs:label>Islamizace</rdfs:label>
+    <rdfs:label xml:lang="fr">Islamisation</rdfs:label>
+    <rdfs:label xml:lang="el">Εξισλαμισμός</rdfs:label>
+    <rdfs:label>Ісламізація</rdfs:label>
+    <j.1:altLabel>Islamizacion</j.1:altLabel>
+    <j.1:altLabel xml:lang="bg">Ислямизация в България</j.1:altLabel>
+    <rdfs:label>Islamización</rdfs:label>
+    <rdfs:label xml:lang="hr">Islamizacija</rdfs:label>
+    <rdfs:label xml:lang="bs">Islamizacija</rdfs:label>
+    <rdfs:label>Islamizacija</rdfs:label>
+    <j.0:P910s rdf:resource="http://www.wikidata.org/entity/Q931510S85FF7234-87F9-4599-9CFC-8DCBED386F4B"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.1:altLabel xml:lang="bg">Помохамеданчване</j.1:altLabel>
+    <j.1:altLabel xml:lang="ar">اسلمة</j.1:altLabel>
+    <j.1:altLabel xml:lang="ar">الدعوة</j.1:altLabel>
+    <j.1:altLabel xml:lang="ar">الدعاة المسلمون</j.1:altLabel>
+    <j.1:altLabel>Mohammedanisering</j.1:altLabel>
+    <rdfs:label xml:lang="sw">Kusilimu</rdfs:label>
+    <rdfs:label>Islamisering</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q931510SD79D5CE3-F986-4BAB-AE0A-5AB82ABF010B"/>
+    <rdfs:label xml:lang="id">Islamisasi</rdfs:label>
+    <rdfs:label xml:lang="pl">Islamizacja</rdfs:label>
+    <rdfs:label xml:lang="ms">Islamisasi</rdfs:label>
+    <rdfs:label>Исламизация</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1350376">
+    <rdfs:label xml:lang="fr">Résultat au cricket</rdfs:label>
+    <rdfs:label>Ergebnis (Cricket)</rdfs:label>
+    <j.2:description>cricket term</j.2:description>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>比赛结果 (板球)</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1350376S652622ab-4abf-ee49-b89d-c0ed0846c251"/>
+    <rdfs:label xml:lang="pl">Możliwe wyniki w krykiecie</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Result</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5193258">
+    <j.0:P910s rdf:resource="http://www.wikidata.org/entity/Q5193258SBFF7F597-9397-4045-905D-27ABBBDD40F6"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:P910c rdf:resource="http://www.wikidata.org/entity/Q6565374"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label xml:lang="pt">Apropriação cultural</rdfs:label>
+    <rdfs:label>Kulturelle Aneignung</rdfs:label>
+    <rdfs:label xml:lang="ar">استيلاء ثقافي</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q5193258S618923cd-486d-fd7a-06d4-a90152485467"/>
+    <rdfs:label>Cultural appropriation</rdfs:label>
+    <rdfs:label xml:lang="ga">Leithghabháil chultúrtha</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q10862760">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Цьоголітки</rdfs:label>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q10862760S56834b04-44eb-342c-33ee-7797369127e8"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1347009">
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Epignose</rdfs:label>
+    <j.2:description>Vorhersage vergangener, aber noch nicht aufgefundener Tatsachen</j.2:description>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1347009S11f03a63-4f3e-bf4e-bcee-14243dc9dac9"/>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q48175">
+    <rdfs:label>聖地</rdfs:label>
+    <j.0:P948s rdf:resource="http://www.wikidata.org/entity/Q48175SC9D6B14F-C531-4349-AF3F-EF1022984C00"/>
+    <rdfs:label>Sankta Lando</rdfs:label>
+    <rdfs:label>Sveta Zemlja</rdfs:label>
+    <rdfs:label xml:lang="hr">Sveta Zemlja</rdfs:label>
+    <j.1:altLabel xml:lang="th">Holy Land</j.1:altLabel>
+    <j.1:altLabel xml:lang="pt">Terra-Santa</j.1:altLabel>
+    <j.0:P18s rdf:resource="http://www.wikidata.org/entity/Q48175SEC74E914-BA02-4257-AB34-AEDBC958C406"/>
+    <j.0:P373c>Holy Land</j.0:P373c>
+    <j.0:P18c rdf:resource="http://commons.wikimedia.org/wiki/File:Holy_sepulchre_mass.jpg"/>
+    <j.1:altLabel xml:lang="ar">الأراضي المقدسة</j.1:altLabel>
+    <j.1:altLabel>Hellige land</j.1:altLabel>
+    <j.1:altLabel>விவிலியத் திருநாடு</j.1:altLabel>
+    <j.0:P349c>01167510</j.0:P349c>
+    <j.1:altLabel xml:lang="eu">Lur Santuak</j.1:altLabel>
+    <rdfs:label>Holy Land</rdfs:label>
+    <rdfs:label>Heilige Land</rdfs:label>
+    <rdfs:label>Սուրբ Երկիր</rdfs:label>
+    <j.0:P18s rdf:resource="http://www.wikidata.org/entity/Q48175S498B9101-CA27-48F6-A74D-FD0BC70262AC"/>
+    <j.1:altLabel xml:lang="fr">Terre-Sainte</j.1:altLabel>
+    <rdfs:label>Svatá země</rdfs:label>
+    <rdfs:label xml:lang="th">แผ่นดินศักดิ์สิทธิ์</rdfs:label>
+    <rdfs:label xml:lang="pt">Terra Santa</rdfs:label>
+    <j.0:P18c rdf:resource="http://commons.wikimedia.org/wiki/File:Dioecesis_Orientis_400_AD.png"/>
+    <rdfs:label>Terra Santa</rdfs:label>
+    <j.1:altLabel>Země zaslíbená</j.1:altLabel>
+    <rdfs:label xml:lang="sr">Света земља</rdfs:label>
+    <rdfs:label>Pyhä Maa</rdfs:label>
+    <rdfs:label xml:lang="et">Püha maa</rdfs:label>
+    <j.1:altLabel>Halige Land</j.1:altLabel>
+    <j.1:altLabel>Zasľúbená zem</j.1:altLabel>
+    <j.1:altLabel>புண்ணிய பூமி</j.1:altLabel>
+    <j.1:altLabel xml:lang="th">ดินแดนศักดิ์สิทธิ์</j.1:altLabel>
+    <j.1:altLabel>Sankta Tero</j.1:altLabel>
+    <j.1:altLabel>Hellige Landet</j.1:altLabel>
+    <rdfs:label>Đất Thánh</rdfs:label>
+    <j.1:altLabel>Luoghi Santi</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel xml:lang="ar">الأرض المقدسة</j.1:altLabel>
+    <rdfs:label xml:lang="ms">Tanah Suci</rdfs:label>
+    <rdfs:label>Svätá zem</rdfs:label>
+    <rdfs:label xml:lang="id">Tanah Suci</rdfs:label>
+    <j.0:P948c rdf:resource="http://commons.wikimedia.org/wiki/File:Jerusalem_banner_Western_wall.jpg"/>
+    <j.0:P349-ndl rdf:resource="http://id.ndl.go.jp/auth/entity/01167510"/>
+    <rdfs:label xml:lang="el">Άγιοι Τόποι</rdfs:label>
+    <rdfs:label xml:lang="br">Douar Santel</rdfs:label>
+    <j.0:P18c rdf:resource="http://commons.wikimedia.org/wiki/File:Middle_East_Levant.jpg"/>
+    <rdfs:label xml:lang="tr">Kutsal Topraklar</rdfs:label>
+    <rdfs:label>Terra santa</rdfs:label>
+    <j.1:altLabel xml:lang="ar">الأراضي المقدسه</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label xml:lang="eu">Lur Santua</rdfs:label>
+    <j.1:altLabel>Det förlovade landet</j.1:altLabel>
+    <rdfs:label xml:lang="fr">Terre Sainte</rdfs:label>
+    <rdfs:label>திருநாடு</rdfs:label>
+    <rdfs:label>Țara Sfântă</rdfs:label>
+    <j.1:altLabel xml:lang="bg">Светите земи</j.1:altLabel>
+    <rdfs:label xml:lang="sw">Nchi takatifu</rdfs:label>
+    <j.0:P349s rdf:resource="http://www.wikidata.org/entity/Q48175S1A434409-CE40-4895-BB70-9B31F499F858"/>
+    <j.1:altLabel>Terrasanta</j.1:altLabel>
+    <j.1:altLabel>ارض اقدس</j.1:altLabel>
+    <j.0:P373s rdf:resource="http://www.wikidata.org/entity/Q48175S864ECE2F-D589-442E-B57E-E727F684DA5D"/>
+    <rdfs:label>Святая земля</rdfs:label>
+    <rdfs:label>Tierra Santa</rdfs:label>
+    <j.1:altLabel>Ţara Sfântă</j.1:altLabel>
+    <rdfs:label>Света земја</rdfs:label>
+    <rdfs:label xml:lang="bg">Свети земи</rdfs:label>
+    <rdfs:label>Свята земля</rdfs:label>
+    <rdfs:label xml:lang="ar">أراضي مقدسة</rdfs:label>
+    <j.1:altLabel>聖都</j.1:altLabel>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q48175S65963384-2A5C-4F8C-90BB-E6BCA14E1131"/>
+    <j.1:altLabel xml:lang="ar">أرض مقدسة</j.1:altLabel>
+    <j.1:altLabel>Palestine</j.1:altLabel>
+    <j.0:P18s rdf:resource="http://www.wikidata.org/entity/Q48175SE0EB0EC7-C382-4D5C-B6A3-1B56A3EC1C5D"/>
+    <j.1:altLabel>Verheißenes Land</j.1:altLabel>
+    <j.1:altLabel xml:lang="ar">الاراضي المقدسة</j.1:altLabel>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q48175S83F51201-E71C-44B8-80FC-AE1DCF54A1A0"/>
+    <j.1:altLabel>Heilig Land</j.1:altLabel>
+    <rdfs:label>성지</rdfs:label>
+    <j.1:altLabel xml:lang="th">ดินแดนอันศักดิ์สิทธิ์</j.1:altLabel>
+    <j.1:altLabel>Heliga landet</j.1:altLabel>
+    <j.1:altLabel>Det Hellige Landet</j.1:altLabel>
+    <j.1:altLabel>Святые места</j.1:altLabel>
+    <rdfs:label>Hālige Land</rdfs:label>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.0130zd"/>
+    <rdfs:label>Tèrra Santa</rdfs:label>
+    <rdfs:label>Det heliga landet</rdfs:label>
+    <j.1:altLabel>Santos lugares</j.1:altLabel>
+    <rdfs:label>Szentföld</rdfs:label>
+    <rdfs:label>Святая зямля</rdfs:label>
+    <j.1:altLabel>Outremer</j.1:altLabel>
+    <rdfs:label>سرزمین مقدس</rdfs:label>
+    <rdfs:label xml:lang="gsw">S Häilige Land</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel xml:lang="eu">Lurralde Santua</j.1:altLabel>
+    <rdfs:label>Landið helga</rdfs:label>
+    <rdfs:label xml:lang="pl">Ziemia Święta</rdfs:label>
+    <rdfs:label>Det hellige land</rdfs:label>
+    <j.1:altLabel xml:lang="bg">Светите места</j.1:altLabel>
+    <rdfs:label>Таса çĕр</rdfs:label>
+    <j.1:altLabel xml:lang="eu">Lurralde Santuak</j.1:altLabel>
+    <rdfs:label>Sveta dežela</rdfs:label>
+    <j.2:description>term used by Jews, Christians, and Muslims to describe the Land of Israel and Palestine</j.2:description>
+    <j.1:altLabel>Het Heilige Land</j.1:altLabel>
+    <j.0:P646c>/m/0130zd</j.0:P646c>
+    <rdfs:label>Heiliges Land</rdfs:label>
+    <rdfs:label>Det heilage landet</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1851928">
+    <j.1:altLabel>ヘルス・プロモーション</j.1:altLabel>
+    <j.0:P910s rdf:resource="http://www.wikidata.org/entity/Q1851928S963F2EF3-BF8D-4A5A-8E48-CD61D6488DF0"/>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q1851928S22C3CBA3-9069-4760-9789-E6BAC973B78C"/>
+    <rdfs:label xml:lang="zh-hans">健康促进</rdfs:label>
+    <rdfs:label>健康促进</rdfs:label>
+    <rdfs:label>Здоровий спосіб життя</rdfs:label>
+    <rdfs:label>Promoció de la salut</rdfs:label>
+    <rdfs:label>Promoción de la salud</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>健康つくり</j.1:altLabel>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q1851928SEF9887BA-19BC-4545-ADD6-477FD52FC99B"/>
+    <j.1:altLabel>Health promotion</j.1:altLabel>
+    <rdfs:label xml:lang="pt">Promoção da saúde</rdfs:label>
+    <rdfs:label xml:lang="fr">Promotion de la santé</rdfs:label>
+    <rdfs:label>Здоровый образ жизни</rdfs:label>
+    <rdfs:label>Gezondheidspromotie</rdfs:label>
+    <j.1:altLabel>ЗОЖ</j.1:altLabel>
+    <j.0:P646c>/m/08w4br</j.0:P646c>
+    <rdfs:label xml:lang="en-gb">Health advocacy</rdfs:label>
+    <rdfs:label>Health advocacy</rdfs:label>
+    <rdfs:label>Gesundheitsförderung</rdfs:label>
+    <j.0:P373c>Healthy lifestyle</j.0:P373c>
+    <j.1:altLabel>ヘルスプロモーション</j.1:altLabel>
+    <rdfs:label>Promozione della salute</rdfs:label>
+    <rdfs:label xml:lang="kk-cyrl">здоровый образ жизни</rdfs:label>
+    <rdfs:label xml:lang="id">Promosi kesehatan</rdfs:label>
+    <rdfs:label xml:lang="ar">تعزيز الصحة</rdfs:label>
+    <rdfs:label xml:lang="sr">промоција здравља</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>健康増進</j.1:altLabel>
+    <j.0:P910c rdf:resource="http://www.wikidata.org/entity/Q8507386"/>
+    <rdfs:label>건강증진</rdfs:label>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.08w4br"/>
+    <j.0:P373s rdf:resource="http://www.wikidata.org/entity/Q1851928S6EF4D2D9-55EA-42AF-B571-7BC899210518"/>
+    <rdfs:label xml:lang="zh-hk">健康促進</rdfs:label>
+    <rdfs:label>健康促進</rdfs:label>
+    <rdfs:label>健康づくり</rdfs:label>
+    <rdfs:label>Healthy lifestyle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q223693">
+    <rdfs:label>Eclesioloxía</rdfs:label>
+    <rdfs:label>Еклезіологія</rdfs:label>
+    <rdfs:label>Eklezioscienco</rdfs:label>
+    <j.1:altLabel xml:lang="fr">Ecclésiologue</j.1:altLabel>
+    <rdfs:label xml:lang="et">Eklesioloogia</rdfs:label>
+    <j.0:P910c rdf:resource="http://www.wikidata.org/entity/Q7007360"/>
+    <j.1:altLabel xml:lang="fr">Ecclésiale</j.1:altLabel>
+    <rdfs:label>教會學</rdfs:label>
+    <rdfs:label xml:lang="zh-tw">教會學</rdfs:label>
+    <rdfs:label xml:lang="zh-hk">教會學</rdfs:label>
+    <j.1:altLabel xml:lang="fr">Ecclésiologie sacramentelle</j.1:altLabel>
+    <j.1:altLabel>Ekklesia</j.1:altLabel>
+    <j.0:P31s rdf:resource="http://www.wikidata.org/entity/Q223693S113f2c4d-428f-77d6-cd83-550cc6d99eef"/>
+    <j.0:P373s rdf:resource="http://www.wikidata.org/entity/Q223693SE5C4A2CF-F275-45FB-880D-3651D978E69B"/>
+    <rdfs:label>Эклезіялогія</rdfs:label>
+    <j.1:altLabel xml:lang="fr">Gouvernement pastoral</j.1:altLabel>
+    <rdfs:label>Ecclesiology</rdfs:label>
+    <j.1:altLabel>Eclesiologia</j.1:altLabel>
+    <rdfs:label xml:lang="war">Ecclesiolohiya</rdfs:label>
+    <j.0:P646s rdf:resource="http://www.wikidata.org/entity/Q223693SB20FBFA5-A4D6-4615-A6BD-2B7D28C97FF2"/>
+    <rdfs:label>Egyháztan</rdfs:label>
+    <j.1:altLabel xml:lang="fr">Ecclésialité</j.1:altLabel>
+    <rdfs:label xml:lang="lv">Eklezioloģija</rdfs:label>
+    <j.1:altLabel>Ekklesiologia</j.1:altLabel>
+    <j.0:P373c>Ecclesiology</j.0:P373c>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <j.1:altLabel>Kyrkosyn</j.1:altLabel>
+    <j.1:altLabel xml:lang="sr">Έκκλησιολογία</j.1:altLabel>
+    <j.1:altLabel>Eklesiologie</j.1:altLabel>
+    <rdfs:label>Eclesiologia</rdfs:label>
+    <rdfs:label xml:lang="pt">Eclesiologia</rdfs:label>
+    <rdfs:label xml:lang="pl">Eklezjologia</rdfs:label>
+    <rdfs:label xml:lang="sr">Еклисиологија</rdfs:label>
+    <rdfs:label xml:lang="sr-cyrl">Еклисиологија</rdfs:label>
+    <rdfs:label>Ecclesiologie</rdfs:label>
+    <j.0:P910s rdf:resource="http://www.wikidata.org/entity/Q223693SC6F988C7-031D-46F0-8C75-71CA7534BDD5"/>
+    <j.1:altLabel xml:lang="fr">Écclésialité</j.1:altLabel>
+    <rdfs:label xml:lang="el">Εκκλησιολογία</rdfs:label>
+    <j.0:P31c rdf:resource="http://www.wikidata.org/entity/Q1969448"/>
+    <rdfs:label>Ekklesiologi</rdfs:label>
+    <rdfs:label>Eklesiologija</rdfs:label>
+    <rdfs:label xml:lang="ar">دراسات كنسية</rdfs:label>
+    <j.1:altLabel>Kirche</j.1:altLabel>
+    <rdfs:label>Ekleziologie</rdfs:label>
+    <j.0:P508s rdf:resource="http://www.wikidata.org/entity/Q223693S9142D067-ECF3-4605-B6AA-3FFDD50BAC48"/>
+    <j.0:P646c>/m/02_qp3</j.0:P646c>
+    <rdfs:label xml:lang="tr">Kilise bilimi</rdfs:label>
+    <j.1:altLabel xml:lang="fr">Ecclesiologie</j.1:altLabel>
+    <rdfs:label>Eclesiología cristiana</rdfs:label>
+    <j.1:altLabel>Eclesiología</j.1:altLabel>
+    <j.1:altLabel>Экклизиология</j.1:altLabel>
+    <rdfs:label xml:lang="af">Ekklesiologie</rdfs:label>
+    <rdfs:label>Ekklesiologie</rdfs:label>
+    <j.1:altLabel>Ekleziologija</j.1:altLabel>
+    <rdfs:label>Eklisiologija</rdfs:label>
+    <rdfs:label>Экклезиология</rdfs:label>
+    <j.1:altLabel>Kirche Jesu Christi</j.1:altLabel>
+    <rdfs:label>Ecklesiologi</rdfs:label>
+    <rdf:type rdf:resource="http://www.wikidata.org/ontology#Item"/>
+    <rdfs:label xml:lang="zh-cn">教会学</rdfs:label>
+    <rdfs:label xml:lang="zh-hans">教会学</rdfs:label>
+    <rdfs:label>教会学</rdfs:label>
+    <j.1:altLabel xml:lang="pt">Eclesiológico</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Ecclésiologie orthodoxe</j.1:altLabel>
+    <j.1:altLabel>Eklisiologija</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Sciences ecclésiastiques</j.1:altLabel>
+    <rdfs:label>Ecclesiologia</rdfs:label>
+    <rdfs:label xml:lang="id">Eklesiologi</rdfs:label>
+    <j.2:description>theological study of the Christian Church</j.2:description>
+    <j.1:altLabel>Kerkleer</j.1:altLabel>
+    <rdfs:label>Ekklesiologiya</rdfs:label>
+    <j.1:altLabel>Eclesiologia cristiana</j.1:altLabel>
+    <rdfs:label>教会論</rdfs:label>
+    <j.0:P508c>20023</j.0:P508c>
+    <j.1:altLabel xml:lang="fr">Ecclésiologique</j.1:altLabel>
+    <j.1:altLabel xml:lang="lv">Eklesioloģija</j.1:altLabel>
+    <j.0:P646-freebase rdf:resource="http://rdf.freebase.com/ns/m.02_qp3"/>
+    <j.1:altLabel>Экклесиология</j.1:altLabel>
+    <j.1:altLabel xml:lang="fr">Théologie de l'Église</j.1:altLabel>
+    <rdfs:label>Kirkko-oppi</rdfs:label>
+    <rdfs:label xml:lang="fr">Ecclésiologie</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

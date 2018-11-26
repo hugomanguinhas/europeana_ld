@@ -1,0 +1,35 @@
+
+    SELECT ?obj ?isni WHERE {
+        ?obj wdt:P213 ?isni ;
+             wdt:P31 ?parent . FILTER (?parent = wd:Q22806 || ?parent = wd:Q7075
+                                    || ?parent = wd:Q33506 || )
+      }    
+    
+    SELECT ?obj ?isni WHERE {
+        ?obj wdt:P213 ?isni ;
+             wdt:P31 wd:Q1030034
+      }
+
+
+    SELECT ?obj ?isni WHERE {
+        ?obj wdt:P213 ?isni ;
+             wdt:P31 ?parent .
+        ?parent wdt:P279+ wd:Q1030034
+      }
+
+SELECT ?obj ?isni
+WHERE {
+    ?obj <http://www.wikidata.org/prop/direct/P31> ?parent .
+    OPTIONAL { ?obj <http://www.wikidata.org/prop/direct/P213> ?isni } .
+    ?parent <http://www.wikidata.org/prop/direct/P279>+ <http://www.wikidata.org/entity/Q1030034>
+}
+ORDER BY DESC(?isni) ?obj
+
+//ISO CODES
+SELECT ?obj ?iso2 WHERE { ?obj wdt:P297 ?iso2 }
+
+//Country Names
+SELECT ?obj ?label WHERE {
+  ?obj wdt:P297 ?iso2 ;
+       rdfs:label ?label FILTER (lang(?label) = 'en')
+}

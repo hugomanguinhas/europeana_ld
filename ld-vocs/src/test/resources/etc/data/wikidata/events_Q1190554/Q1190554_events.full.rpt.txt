@@ -1,0 +1,3507 @@
+
+********************************************************************************
+* RESOURCES                                                                    *
+********************************************************************************
+
+Total n. of resources: 123
+
+
+********************************************************************************
+* PROPERTIES                                                                   *
+********************************************************************************
+* This section lists the properties found for the selected resources.          *
+*                                                                              *
+* Meaning of the columns:                                                      *
+* #1: Number of resources that have at least one instance of this property     *
+* #2: Percentage against the total number of resources                         *
+* #3: The URI of the property                                                  *
+********************************************************************************
+
+Total n. of properties: 67
+
+123 (100%): http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+123 (100%): http://www.w3.org/2000/01/rdf-schema#label
+123 (100%): http://www.wikidata.org/entity/P31c
+123 (100%): http://www.wikidata.org/entity/P31s
+ 96 (078%): http://schema.org/description
+ 48 (039%): http://www.wikidata.org/entity/P910c
+ 48 (039%): http://www.wikidata.org/entity/P910s
+ 46 (037%): http://www.wikidata.org/entity/P361c
+ 46 (037%): http://www.wikidata.org/entity/P361s
+ 45 (037%): http://www.w3.org/2004/02/skos/core#altLabel
+ 33 (027%): http://www.wikidata.org/entity/P18c
+ 33 (027%): http://www.wikidata.org/entity/P18s
+ 23 (019%): http://www.wikidata.org/entity/P276c
+ 23 (019%): http://www.wikidata.org/entity/P276s
+ 22 (018%): http://www.wikidata.org/entity/P646-freebase
+ 22 (018%): http://www.wikidata.org/entity/P646c
+ 22 (018%): http://www.wikidata.org/entity/P646s
+ 21 (017%): http://www.wikidata.org/entity/P585s
+ 20 (016%): http://www.wikidata.org/entity/P585c
+ 16 (013%): http://www.wikidata.org/entity/P373c
+ 16 (013%): http://www.wikidata.org/entity/P373s
+ 14 (011%): http://www.wikidata.org/entity/P710s
+ 11 (009%): http://www.wikidata.org/entity/P625c
+ 11 (009%): http://www.wikidata.org/entity/P625s
+ 10 (008%): http://www.wikidata.org/entity/P17c
+ 10 (008%): http://www.wikidata.org/entity/P17s
+ 10 (008%): http://www.wikidata.org/entity/P279s
+ 10 (008%): http://www.wikidata.org/entity/P580c
+ 10 (008%): http://www.wikidata.org/entity/P580s
+  9 (007%): http://www.w3.org/2000/01/rdf-schema#subClassOf
+  9 (007%): http://www.wikidata.org/entity/P279c
+  8 (007%): http://www.wikidata.org/entity/P710c
+  6 (005%): http://www.wikidata.org/entity/P508c
+  6 (005%): http://www.wikidata.org/entity/P508s
+  6 (005%): http://www.wikidata.org/entity/P582c
+  6 (005%): http://www.wikidata.org/entity/P582s
+  5 (004%): http://www.wikidata.org/entity/P349-ndl
+  5 (004%): http://www.wikidata.org/entity/P349c
+  5 (004%): http://www.wikidata.org/entity/P349s
+  3 (002%): http://www.wikidata.org/entity/P227-gnd
+  3 (002%): http://www.wikidata.org/entity/P227c
+  3 (002%): http://www.wikidata.org/entity/P227s
+  3 (002%): http://www.wikidata.org/entity/P461c
+  3 (002%): http://www.wikidata.org/entity/P461s
+  3 (002%): http://www.wikidata.org/entity/P805c
+  3 (002%): http://www.wikidata.org/entity/P805s
+  2 (002%): http://www.wikidata.org/entity/P61s
+  2 (002%): http://www.wikidata.org/entity/P921c
+  2 (002%): http://www.wikidata.org/entity/P921s
+  1 (001%): http://www.wikidata.org/entity/P1036c
+  1 (001%): http://www.wikidata.org/entity/P1036s
+  1 (001%): http://www.wikidata.org/entity/P1120c
+  1 (001%): http://www.wikidata.org/entity/P1120s
+  1 (001%): http://www.wikidata.org/entity/P1269c
+  1 (001%): http://www.wikidata.org/entity/P1269s
+  1 (001%): http://www.wikidata.org/entity/P131c
+  1 (001%): http://www.wikidata.org/entity/P131s
+  1 (001%): http://www.wikidata.org/entity/P1339c
+  1 (001%): http://www.wikidata.org/entity/P1339s
+  1 (001%): http://www.wikidata.org/entity/P138c
+  1 (001%): http://www.wikidata.org/entity/P138s
+  1 (001%): http://www.wikidata.org/entity/P691c
+  1 (001%): http://www.wikidata.org/entity/P691s
+  1 (001%): http://www.wikidata.org/entity/P828c
+  1 (001%): http://www.wikidata.org/entity/P828s
+  1 (001%): http://www.wikidata.org/entity/P935c
+  1 (001%): http://www.wikidata.org/entity/P935s
+
+
+********************************************************************************
+* LANGUAGE DISTRIBUTION                                                        *
+********************************************************************************
+* This section lists the languages found for the selected resources.           *
+*                                                                              *
+* Meaning of the columns:                                                      *
+* #1: Code of the Language (i.e. found on literal ranges)                      *
+* #2: Number of resources that have at least one literal range of this lang    *
+* #3: Percentage against the total number of resources                         *
+********************************************************************************
+
+Total n. of languages: 104
+
+	120 (098%): ? 
+	 87 (071%): fr
+	 60 (049%): pt
+	 55 (045%): pl
+	 42 (034%): th
+	 23 (019%): sr
+	 16 (013%): ar
+	 13 (011%): lt
+	 13 (011%): tr
+	 12 (010%): id
+	 11 (009%): bg
+	 11 (009%): hi
+	 10 (008%): et
+	 10 (008%): hr
+	 10 (008%): zh-hans
+	  9 (007%): el
+	  9 (007%): en-x-simple
+	  9 (007%): ms
+	  9 (007%): sr-cyrl
+	  9 (007%): zh-hk
+	  8 (007%): eu
+	  8 (007%): kk
+	  7 (006%): bs
+	  7 (006%): en-gb
+	  7 (006%): lv
+	  7 (006%): pt-br
+	  6 (005%): af
+	  5 (004%): be-tarask
+	  5 (004%): la
+	  5 (004%): ur
+	  5 (004%): zh-cn
+	  5 (004%): zh-tw
+	  4 (003%): an
+	  4 (003%): br
+	  4 (003%): ckb
+	  4 (003%): de-ch
+	  4 (003%): ga
+	  4 (003%): mn
+	  4 (003%): nan
+	  4 (003%): sgs
+	  4 (003%): sq
+	  4 (003%): sw
+	  4 (003%): tt
+	  3 (002%): arz
+	  3 (002%): gsw
+	  3 (002%): ia
+	  3 (002%): jv
+	  3 (002%): kk-arab
+	  3 (002%): kk-cyrl
+	  3 (002%): kk-latn
+	  3 (002%): ku
+	  3 (002%): nds
+	  3 (002%): pa
+	  3 (002%): rue
+	  3 (002%): sco
+	  3 (002%): si
+	  3 (002%): tk
+	  3 (002%): vro
+	  3 (002%): war
+	  3 (002%): yi
+	  2 (002%): ce
+	  2 (002%): gan
+	  2 (002%): gv
+	  2 (002%): hif
+	  2 (002%): io
+	  2 (002%): ky
+	  2 (002%): lb
+	  2 (002%): ml
+	  2 (002%): mwl
+	  2 (002%): ne
+	  2 (002%): pnb
+	  2 (002%): qu
+	  1 (001%): bar
+	  1 (001%): bxr
+	  1 (001%): cdo
+	  1 (001%): dsb
+	  1 (001%): ext
+	  1 (001%): frr
+	  1 (001%): gan-hans
+	  1 (001%): gan-hant
+	  1 (001%): hsb
+	  1 (001%): ig
+	  1 (001%): kaa
+	  1 (001%): kab
+	  1 (001%): kbd
+	  1 (001%): kk-cn
+	  1 (001%): kk-kz
+	  1 (001%): kk-tr
+	  1 (001%): kw
+	  1 (001%): lad
+	  1 (001%): lo
+	  1 (001%): my
+	  1 (001%): myv
+	  1 (001%): nah
+	  1 (001%): pap
+	  1 (001%): ps
+	  1 (001%): se
+	  1 (001%): su
+	  1 (001%): ug
+	  1 (001%): vls
+	  1 (001%): wa
+	  1 (001%): wo
+	  1 (001%): zea
+	  1 (001%): zh-mo
+
+<http://www.w3.org/2004/02/skos/core#altLabel>:
+	340 (073%): ? 
+	 28 (006%): fr
+	 22 (005%): pt
+	 18 (004%): ar
+	  8 (002%): lt
+	  7 (001%): pl
+	  7 (001%): th
+	  5 (001%): et
+	  4 (001%): sr
+	  3 (001%): bg
+	  3 (001%): nan
+	  3 (001%): tr
+	  2 (000%): id
+	  2 (000%): sq
+	  1 (000%): an
+	  1 (000%): bs
+	  1 (000%): dsb
+	  1 (000%): el
+	  1 (000%): gan
+	  1 (000%): hi
+	  1 (000%): hr
+	  1 (000%): ia
+	  1 (000%): kk
+	  1 (000%): la
+	  1 (000%): lv
+	  1 (000%): ms
+	  1 (000%): pap
+	  1 (000%): sgs
+	  1 (000%): ur
+
+<http://schema.org/description>:
+	214 (082%): ? 
+	 35 (013%): fr
+	  2 (001%): hi
+	  2 (001%): pt
+	  2 (001%): pt-br
+	  1 (000%): lv
+	  1 (000%): pa
+	  1 (000%): pl
+	  1 (000%): sr
+	  1 (000%): sr-cyrl
+	  1 (000%): zh-hans
+	  1 (000%): zh-tw
+
+<http://www.w3.org/2000/01/rdf-schema#label>:
+	 920 (059%): ? 
+	  87 (006%): fr
+	  60 (004%): pt
+	  55 (004%): pl
+	  42 (003%): th
+	  23 (001%): sr
+	  16 (001%): ar
+	  13 (001%): lt
+	  13 (001%): tr
+	  12 (001%): id
+	  11 (001%): bg
+	  11 (001%): hi
+	  10 (001%): et
+	  10 (001%): hr
+	  10 (001%): zh-hans
+	   9 (001%): el
+	   9 (001%): en-x-simple
+	   9 (001%): ms
+	   9 (001%): sr-cyrl
+	   9 (001%): zh-hk
+	   8 (001%): eu
+	   8 (001%): kk
+	   7 (000%): bs
+	   7 (000%): en-gb
+	   7 (000%): lv
+	   6 (000%): af
+	   6 (000%): pt-br
+	   5 (000%): be-tarask
+	   5 (000%): la
+	   5 (000%): ur
+	   5 (000%): zh-cn
+	   5 (000%): zh-tw
+	   4 (000%): an
+	   4 (000%): br
+	   4 (000%): ckb
+	   4 (000%): de-ch
+	   4 (000%): ga
+	   4 (000%): mn
+	   4 (000%): nan
+	   4 (000%): sgs
+	   4 (000%): sq
+	   4 (000%): sw
+	   4 (000%): tt
+	   3 (000%): arz
+	   3 (000%): gsw
+	   3 (000%): ia
+	   3 (000%): jv
+	   3 (000%): kk-arab
+	   3 (000%): kk-cyrl
+	   3 (000%): kk-latn
+	   3 (000%): ku
+	   3 (000%): nds
+	   3 (000%): pa
+	   3 (000%): rue
+	   3 (000%): sco
+	   3 (000%): si
+	   3 (000%): tk
+	   3 (000%): vro
+	   3 (000%): war
+	   3 (000%): yi
+	   2 (000%): ce
+	   2 (000%): gan
+	   2 (000%): gv
+	   2 (000%): hif
+	   2 (000%): io
+	   2 (000%): ky
+	   2 (000%): lb
+	   2 (000%): ml
+	   2 (000%): mwl
+	   2 (000%): ne
+	   2 (000%): pnb
+	   2 (000%): qu
+	   1 (000%): bar
+	   1 (000%): bxr
+	   1 (000%): cdo
+	   1 (000%): dsb
+	   1 (000%): ext
+	   1 (000%): frr
+	   1 (000%): gan-hans
+	   1 (000%): gan-hant
+	   1 (000%): hsb
+	   1 (000%): ig
+	   1 (000%): kaa
+	   1 (000%): kab
+	   1 (000%): kbd
+	   1 (000%): kk-cn
+	   1 (000%): kk-kz
+	   1 (000%): kk-tr
+	   1 (000%): kw
+	   1 (000%): lad
+	   1 (000%): lo
+	   1 (000%): my
+	   1 (000%): myv
+	   1 (000%): nah
+	   1 (000%): pap
+	   1 (000%): ps
+	   1 (000%): se
+	   1 (000%): su
+	   1 (000%): ug
+	   1 (000%): vls
+	   1 (000%): wa
+	   1 (000%): wo
+	   1 (000%): zea
+	   1 (000%): zh-mo
+
+
+********************************************************************************
+* PROPERTY VALUES STATISTICS                                                   *
+********************************************************************************
+* This section lists the values found for a specific property.                 *
+*                                                                              *
+* Meaning of the columns:                                                      *
+* #1: Number of properties with this literal                                   *
+* #2: Percentage against the total number of resources                         *
+* #3: The literal value and language if defined (see @)                        *
+********************************************************************************
+
+<http://www.wikidata.org/entity/P646c>:
+	  1 (001%): /m/0195wm
+	  1 (001%): /m/01bfy
+	  1 (001%): /m/01m_w
+	  1 (001%): /m/02718kr
+	  1 (001%): /m/02jq7v
+	  1 (001%): /m/02nbxd
+	  1 (001%): /m/02x5zmq
+	  1 (001%): /m/02y3rj
+	  1 (001%): /m/04fgxn
+	  1 (001%): /m/04lcnst
+	  1 (001%): /m/05zzq8c
+	  1 (001%): /m/06d5f
+	  1 (001%): /m/06sshb
+	  1 (001%): /m/08xnhk
+	  1 (001%): /m/0b8gc
+	  1 (001%): /m/0c0113k
+	  1 (001%): /m/0c0wvx
+	  1 (001%): /m/0c1ck
+	  1 (001%): /m/0fzbwb
+	  1 (001%): /m/0gjyk
+	  1 (001%): /m/0kmbjky
+	  1 (001%): /m/0z71l
+
+<http://www.wikidata.org/entity/P373c>:
+	  1 (001%): Big bang
+	  1 (001%): Book burning in Nazi Germany
+	  1 (001%): Christian (storm)
+	  1 (001%): Crusades
+	  1 (001%): Fire
+	  1 (001%): Halifax Explosion
+	  1 (001%): Inauguration of King Willem Alexander of the Netherlands
+	  1 (001%): Olympijský park Soči - Letná 2014
+	  1 (001%): Phenomena
+	  1 (001%): Precipitation
+	  1 (001%): Presentations
+	  1 (001%): Risk
+	  1 (001%): Storms
+	  1 (001%): Terror act in ASOA
+	  1 (001%): Tuerie de Courcelles
+	  1 (001%): Udienza generale
+
+<http://www.wikidata.org/entity/P625c>:
+	  1 (001%): http://www.wikidata.org/entity/VC08d2ef3d89a79a0749ff0e8b0ce1531b
+	  1 (001%): http://www.wikidata.org/entity/VC21a570172f43c135848891a8dbc2e9be
+	  1 (001%): http://www.wikidata.org/entity/VC3d3ea5a65e8676c2fa0abd013896df01
+	  1 (001%): http://www.wikidata.org/entity/VC483d69a109d560b1dea23046888196d2
+	  1 (001%): http://www.wikidata.org/entity/VC6e0d2d26fed118881716c06430bf20ee
+	  1 (001%): http://www.wikidata.org/entity/VC73f2ba061127c674c18078c47a31580c
+	  1 (001%): http://www.wikidata.org/entity/VC831428c640fba866dd63c4bc07519855
+	  1 (001%): http://www.wikidata.org/entity/VC88d5931adaca99967c44cba1e832396a
+	  1 (001%): http://www.wikidata.org/entity/VC91ff1d23a42e14c33325a3dee874db1e
+	  1 (001%): http://www.wikidata.org/entity/VC944163c191d97437e919abec7934c8c0
+	  1 (001%): http://www.wikidata.org/entity/VCc472f9b33947008e8ab2b7027c2396b2
+
+<http://www.wikidata.org/entity/P279s>:
+	  1 (001%): http://www.wikidata.org/entity/Q125375S4f83d1c6-4598-d444-a123-a2e37737fb2a
+	  1 (001%): http://www.wikidata.org/entity/Q1366722S22e815f5-452a-9304-3fdc-a2971efcc92b
+	  1 (001%): http://www.wikidata.org/entity/Q1514415S2F8BFAF9-B643-4B0C-9B1D-DA974A396384
+	  1 (001%): http://www.wikidata.org/entity/Q168983S2df551c5-43e8-535e-9edb-b472f7363ac8
+	  1 (001%): http://www.wikidata.org/entity/Q168983S7d611317-4263-fea0-84e2-1a4b9da284e7
+	  1 (001%): http://www.wikidata.org/entity/Q18343076S2dde3ffa-40cb-51e5-088a-f321645b99e2
+	  1 (001%): http://www.wikidata.org/entity/Q25257Sb6b4127e-473b-c85b-795a-9622414f06e9
+	  1 (001%): http://www.wikidata.org/entity/Q25257Se2b924fb-4ece-258f-e40c-c44adc2e1a68
+	  1 (001%): http://www.wikidata.org/entity/Q3927614Sb50fe6c2-445b-3b6e-d884-7c8a9c7dec48
+	  1 (001%): http://www.wikidata.org/entity/Q483247S55f1e73a-4d63-d12c-641a-9b2d6ede6bbd
+	  1 (001%): http://www.wikidata.org/entity/Q604733S3ee026b8-4c54-880b-d02a-abd83ee2b18c
+	  1 (001%): http://www.wikidata.org/entity/Q81054Se5a25530-451c-5a61-222e-10d0ae2dba4c
+
+<http://www.wikidata.org/entity/P1269c>:
+	  1 (001%): http://www.wikidata.org/entity/Q5679
+
+<http://www.wikidata.org/entity/P580s>:
+	  1 (001%): http://www.wikidata.org/entity/Q1265155S14187e7d-45ac-2637-ce23-647511796dfc
+	  1 (001%): http://www.wikidata.org/entity/Q17062699S5d19d6e6-40e2-3db3-7e1e-de50b22395dd
+	  1 (001%): http://www.wikidata.org/entity/Q17985830S17e1e821-4bdb-da44-f75c-c6a4b5000042
+	  1 (001%): http://www.wikidata.org/entity/Q18144309Sb32f0158-408a-2a80-d007-2efea6cfbb38
+	  1 (001%): http://www.wikidata.org/entity/Q2267264Sec9ab3a4-42f7-f35f-eff3-1e6e586e9723
+	  1 (001%): http://www.wikidata.org/entity/Q300742S8692ec6e-4b15-cbbc-3235-5187285278a4
+	  1 (001%): http://www.wikidata.org/entity/Q3927614Sf8bbbfc3-4067-fb01-5801-bc6531b8e273
+	  1 (001%): http://www.wikidata.org/entity/Q409027S19051072-4321-61a2-128f-5dbbfd0f1d15
+	  1 (001%): http://www.wikidata.org/entity/Q591571S3472d70a-45e3-6e72-c634-79f9df451646
+	  1 (001%): http://www.wikidata.org/entity/Q952618S7cf7f664-43ab-628e-ca2e-78e860474d9d
+
+<http://www.wikidata.org/entity/P582s>:
+	  1 (001%): http://www.wikidata.org/entity/Q1265155S4b44d91d-46b4-3881-5abc-b094ad8c35f1
+	  1 (001%): http://www.wikidata.org/entity/Q18144309S4a58b309-4c40-980d-6f15-3018e631bf56
+	  1 (001%): http://www.wikidata.org/entity/Q2267264Se74da547-4a06-98d8-1cb6-489e743b22a4
+	  1 (001%): http://www.wikidata.org/entity/Q300742Sc0e37c89-4eee-d396-962b-16b00bf53df1
+	  1 (001%): http://www.wikidata.org/entity/Q3927614S825f40f3-4af7-7c31-7aa7-ed928662f632
+	  1 (001%): http://www.wikidata.org/entity/Q591571S8bd42925-4bd0-1c1f-8737-9e14f298d15d
+
+<http://www.wikidata.org/entity/P646s>:
+	  1 (001%): http://www.wikidata.org/entity/Q104493S0A74319C-DE66-4DC6-A94C-616A8E6899A5
+	  1 (001%): http://www.wikidata.org/entity/Q125375S5988D2AC-E4CB-4EE6-A782-DF81DE5081B9
+	  1 (001%): http://www.wikidata.org/entity/Q12546S72092B15-AB10-4B1F-87E2-DFF304BF35B8
+	  1 (001%): http://www.wikidata.org/entity/Q1260137S0D95F1DA-1849-4F3F-97DF-5FF481F89C20
+	  1 (001%): http://www.wikidata.org/entity/Q1366722SD7EC0F4D-C980-4927-90A3-2837E321F36C
+	  1 (001%): http://www.wikidata.org/entity/Q1567285SBB80D7F9-F6D0-4821-B44B-DD265AE22FC5
+	  1 (001%): http://www.wikidata.org/entity/Q168983S94D85AD3-62FE-4991-9258-E92091772F15
+	  1 (001%): http://www.wikidata.org/entity/Q2121187S1B43A67A-385E-4081-AC3A-3C65CDA2603E
+	  1 (001%): http://www.wikidata.org/entity/Q273508SC153BC63-46DC-4FD3-A57C-B1B8E349661B
+	  1 (001%): http://www.wikidata.org/entity/Q29485S15A158D1-F0A5-4DDF-A193-1F1F0CC1767F
+	  1 (001%): http://www.wikidata.org/entity/Q323SBA8FF6A6-01EC-4441-B444-7E98AFB45C84
+	  1 (001%): http://www.wikidata.org/entity/Q32919S2CD9BDD2-7CEA-40D9-BE4E-D04C4A5B421C
+	  1 (001%): http://www.wikidata.org/entity/Q35546SC1E71851-EF09-4442-BD94-E3A1C9ABFCFC
+	  1 (001%): http://www.wikidata.org/entity/Q3927614SE501D22A-49F9-4615-89CC-FFABD545EB3B
+	  1 (001%): http://www.wikidata.org/entity/Q483247S92ABA93D-C149-44F4-8CFF-A75F91CB201A
+	  1 (001%): http://www.wikidata.org/entity/Q502073S11A5A56B-846C-4260-959F-6F011B902C81
+	  1 (001%): http://www.wikidata.org/entity/Q591571SC173CF77-73A1-47BF-9263-56223DC59372
+	  1 (001%): http://www.wikidata.org/entity/Q604733S28E7BF4B-133D-4621-A6D4-39E02C737520
+	  1 (001%): http://www.wikidata.org/entity/Q634913S38D5DBD0-F290-4692-96C5-66963FA903F3
+	  1 (001%): http://www.wikidata.org/entity/Q782151SE3EDC90E-8C97-41C3-8F8A-A8CD19F5824C
+	  1 (001%): http://www.wikidata.org/entity/Q81054SF78482A2-BCC5-4424-AD3D-282A00D5716F
+	  1 (001%): http://www.wikidata.org/entity/Q952618SAAC28989-F46B-4673-9A93-17E937C0D112
+
+<http://www.wikidata.org/entity/P373s>:
+	  1 (001%): http://www.wikidata.org/entity/Q104493S6699793c-4b05-13c4-0a6f-c2923a3a5c3a
+	  1 (001%): http://www.wikidata.org/entity/Q12546SD8221F7D-789A-4B1D-A871-FD7C76654328
+	  1 (001%): http://www.wikidata.org/entity/Q15107436S4af71ddc-4026-edea-319d-54ff8c485ff9
+	  1 (001%): http://www.wikidata.org/entity/Q15730938Sf0c3ecfb-4e02-b970-33c1-ba5f01928e3e
+	  1 (001%): http://www.wikidata.org/entity/Q168983S087B2523-D539-4ABF-BB95-56AF69153928
+	  1 (001%): http://www.wikidata.org/entity/Q25257SFC708E24-40B5-43B8-BA73-F5698C4427BA
+	  1 (001%): http://www.wikidata.org/entity/Q2756844S24f514be-4a79-449e-a3a9-35868d43ddd6
+	  1 (001%): http://www.wikidata.org/entity/Q323S906B6600-B8DA-4ED5-BC59-ACDB71A8EF4A
+	  1 (001%): http://www.wikidata.org/entity/Q3494805S8438a2bf-428b-b633-739f-c44c451888a2
+	  1 (001%): http://www.wikidata.org/entity/Q3927614SA4E2911F-997F-45B3-9221-D7260D298B54
+	  1 (001%): http://www.wikidata.org/entity/Q4761326SBA524EAD-7079-4873-8755-5794D9CEC8A3
+	  1 (001%): http://www.wikidata.org/entity/Q483247SFC67FE54-8F4D-4B98-AD03-EB9F3BE94B77
+	  1 (001%): http://www.wikidata.org/entity/Q502073S4EF357DB-6EF3-4960-B037-46392D05BC5F
+	  1 (001%): http://www.wikidata.org/entity/Q604733Sa2dc8827-462b-7334-3bcc-7472b7bcd3f3
+	  1 (001%): http://www.wikidata.org/entity/Q634913S1A3F91F8-065A-4953-90E1-8E5513466E64
+	  1 (001%): http://www.wikidata.org/entity/Q81054S17A94D62-8C26-450A-968D-38144536779F
+
+<http://www.wikidata.org/entity/P625s>:
+	  1 (001%): http://www.wikidata.org/entity/Q1260137S5F8FB498-251C-4096-BD54-8DCF42FAEFAC
+	  1 (001%): http://www.wikidata.org/entity/Q128735S57A95DEA-1267-4CDC-94BE-637B9EB54726
+	  1 (001%): http://www.wikidata.org/entity/Q16626750S2599D8EC-A751-4BA3-93F1-8FCE5D273752
+	  1 (001%): http://www.wikidata.org/entity/Q17062699S29D7F2B5-6B13-4DAF-ABCF-853513D78898
+	  1 (001%): http://www.wikidata.org/entity/Q1755612SF3535506-0F1E-4A8A-9A05-AFEF91F706FC
+	  1 (001%): http://www.wikidata.org/entity/Q18338238SCB77F8BD-07A5-49D4-8A34-365FCF794D5D
+	  1 (001%): http://www.wikidata.org/entity/Q2121187SCC9BC384-3107-4F24-A120-15AB687D970D
+	  1 (001%): http://www.wikidata.org/entity/Q28547SA17C7889-DF4C-43BA-844B-F5A5967284EB
+	  1 (001%): http://www.wikidata.org/entity/Q4761326S470DA790-BE74-41E5-8E8D-F7F5E53107A4
+	  1 (001%): http://www.wikidata.org/entity/Q502073S5BC08D8D-C2F9-4A06-B204-D36CC766ECD7
+	  1 (001%): http://www.wikidata.org/entity/Q5115471S78DED894-F797-4BB8-A7DC-912C80A7E105
+
+<http://www.wikidata.org/entity/P279c>:
+	  3 (002%): http://www.wikidata.org/entity/Q1190554
+	  1 (001%): http://www.wikidata.org/entity/Q16510064
+	  1 (001%): http://www.wikidata.org/entity/Q17584038
+	  1 (001%): http://www.wikidata.org/entity/Q192909
+	  1 (001%): http://www.wikidata.org/entity/Q22702
+	  1 (001%): http://www.wikidata.org/entity/Q283
+	  1 (001%): http://www.wikidata.org/entity/Q3196
+	  1 (001%): http://www.wikidata.org/entity/Q451967
+
+<http://www.wikidata.org/entity/P1269s>:
+	  1 (001%): http://www.wikidata.org/entity/Q5326851S4d988efd-403f-3ae5-f7fb-f94995a7ee91
+
+<http://www.wikidata.org/entity/P508s>:
+	  1 (001%): http://www.wikidata.org/entity/Q125375S2BFD0574-831B-44CD-A3E3-47E2B58F63D8
+	  1 (001%): http://www.wikidata.org/entity/Q12546SE23386A2-916D-4E4E-BBAB-DA2BF18E9311
+	  1 (001%): http://www.wikidata.org/entity/Q168983S77FB8944-163F-4ECE-A722-A68B54FD6F11
+	  1 (001%): http://www.wikidata.org/entity/Q25257SDA43F146-5625-4377-9CC4-53DDF01FF4F1
+	  1 (001%): http://www.wikidata.org/entity/Q483247S91C1F036-6774-4D85-95F3-12BEA42AD84C
+	  1 (001%): http://www.wikidata.org/entity/Q81054S7479F8F4-EEC0-4759-A0F8-BE156535ED5E
+
+<http://www.w3.org/2000/01/rdf-schema#subClassOf>:
+	  3 (002%): http://www.wikidata.org/entity/Q1190554
+	  1 (001%): http://www.wikidata.org/entity/Q16510064
+	  1 (001%): http://www.wikidata.org/entity/Q17584038
+	  1 (001%): http://www.wikidata.org/entity/Q192909
+	  1 (001%): http://www.wikidata.org/entity/Q22702
+	  1 (001%): http://www.wikidata.org/entity/Q283
+	  1 (001%): http://www.wikidata.org/entity/Q3196
+	  1 (001%): http://www.wikidata.org/entity/Q451967
+
+<http://www.wikidata.org/entity/P580c>:
+	  1 (001%): -4100000000^^http://www.w3.org/2001/XMLSchema#gYear
+	  1 (001%): 1718+01:00^^http://www.w3.org/2001/XMLSchema#gYear
+	  1 (001%): 1786+01:00^^http://www.w3.org/2001/XMLSchema#gYear
+	  1 (001%): 1840-04-01+01:00^^http://www.w3.org/2001/XMLSchema#date
+	  1 (001%): 1854-09-27+01:00^^http://www.w3.org/2001/XMLSchema#date
+	  1 (001%): 1933-05+01:00^^http://www.w3.org/2001/XMLSchema#gYearMonth
+	  1 (001%): 1984+01:00^^http://www.w3.org/2001/XMLSchema#gYear
+	  1 (001%): 1993+01:00^^http://www.w3.org/2001/XMLSchema#gYear
+	  1 (001%): 1993-09+01:00^^http://www.w3.org/2001/XMLSchema#gYearMonth
+	  1 (001%): 1997-08+01:00^^http://www.w3.org/2001/XMLSchema#gYearMonth
+
+<http://www.wikidata.org/entity/P582c>:
+	  1 (001%): -3800000000^^http://www.w3.org/2001/XMLSchema#gYear
+	  1 (001%): 1772+01:00^^http://www.w3.org/2001/XMLSchema#gYear
+	  1 (001%): 1792+01:00^^http://www.w3.org/2001/XMLSchema#gYear
+	  1 (001%): 1933-06+01:00^^http://www.w3.org/2001/XMLSchema#gYearMonth
+	  1 (001%): 1995+01:00^^http://www.w3.org/2001/XMLSchema#gYear
+	  1 (001%): 2000-06+01:00^^http://www.w3.org/2001/XMLSchema#gYearMonth
+
+<http://www.wikidata.org/entity/P131c>:
+	  1 (001%): http://www.wikidata.org/entity/Q1930
+
+<http://www.wikidata.org/entity/P31c>:
+	123 (100%): http://www.wikidata.org/entity/Q1190554
+	  1 (001%): http://www.wikidata.org/entity/Q10916902
+	  1 (001%): http://www.wikidata.org/entity/Q124757
+	  1 (001%): http://www.wikidata.org/entity/Q17737
+	  1 (001%): http://www.wikidata.org/entity/Q179057
+	  1 (001%): http://www.wikidata.org/entity/Q1914636
+	  1 (001%): http://www.wikidata.org/entity/Q2920982
+	  1 (001%): http://www.wikidata.org/entity/Q41719
+	  1 (001%): http://www.wikidata.org/entity/Q6671777
+	  1 (001%): http://www.wikidata.org/entity/Q81054
+	  1 (001%): http://www.wikidata.org/entity/Q81672
+	  1 (001%): http://www.wikidata.org/entity/Q830414
+	  1 (001%): http://www.wikidata.org/entity/Q937228
+	  1 (001%): http://www.wikidata.org/entity/Q9415
+	  1 (001%): http://www.wikidata.org/entity/Q953491
+	  1 (001%): http://www.wikidata.org/entity/Q992060
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>:
+	123 (100%): http://www.wikidata.org/entity/Q1190554
+	123 (100%): http://www.wikidata.org/ontology#Item
+	 15 (012%): http://www.w3.org/2002/07/owl#Class
+	  1 (001%): http://www.wikidata.org/entity/Q10916902
+	  1 (001%): http://www.wikidata.org/entity/Q124757
+	  1 (001%): http://www.wikidata.org/entity/Q17737
+	  1 (001%): http://www.wikidata.org/entity/Q179057
+	  1 (001%): http://www.wikidata.org/entity/Q1914636
+	  1 (001%): http://www.wikidata.org/entity/Q2920982
+	  1 (001%): http://www.wikidata.org/entity/Q41719
+	  1 (001%): http://www.wikidata.org/entity/Q6671777
+	  1 (001%): http://www.wikidata.org/entity/Q81054
+	  1 (001%): http://www.wikidata.org/entity/Q81672
+	  1 (001%): http://www.wikidata.org/entity/Q830414
+	  1 (001%): http://www.wikidata.org/entity/Q937228
+	  1 (001%): http://www.wikidata.org/entity/Q9415
+	  1 (001%): http://www.wikidata.org/entity/Q953491
+	  1 (001%): http://www.wikidata.org/entity/Q992060
+
+<http://www.wikidata.org/entity/P349s>:
+	  1 (001%): http://www.wikidata.org/entity/Q104493SCEDC4A0F-B0FD-46BE-8CDD-C9B717A0AD43
+	  1 (001%): http://www.wikidata.org/entity/Q12546S9457957C-9B44-4D73-AD4C-FC328BCA6B97
+	  1 (001%): http://www.wikidata.org/entity/Q168983SBFFDDC62-C355-489A-8CC2-BEE3A9228C1B
+	  1 (001%): http://www.wikidata.org/entity/Q323SEF9A0375-4E21-415E-BB50-06AE9D768B4D
+	  1 (001%): http://www.wikidata.org/entity/Q604733S9AC545F3-9F21-4C2D-924F-99B1B770F59F
+
+<http://www.wikidata.org/entity/P910s>:
+	  1 (001%): http://www.wikidata.org/entity/Q1001539S04a29ab5-44fe-d968-4669-f0f9554c49f7
+	  1 (001%): http://www.wikidata.org/entity/Q1031729S4fb38d99-44b3-c457-f613-74964cb1c1a9
+	  1 (001%): http://www.wikidata.org/entity/Q1037707Sf25e8942-4e45-8c5e-ff8d-e65579f3a5fe
+	  1 (001%): http://www.wikidata.org/entity/Q1040901S14911d43-43ca-f348-f989-2092bfec981c
+	  1 (001%): http://www.wikidata.org/entity/Q1041217S0b388947-415e-cf30-1652-b2d878fa5209
+	  1 (001%): http://www.wikidata.org/entity/Q104493SA5E3224A-BD9D-4CCB-9EEE-05B752EE2FE3
+	  1 (001%): http://www.wikidata.org/entity/Q1067779S1b3d00b7-4635-6060-6f79-3950b6210e49
+	  1 (001%): http://www.wikidata.org/entity/Q1076836S6e406703-4b14-7e0a-21a4-84c456d63c02
+	  1 (001%): http://www.wikidata.org/entity/Q1092262S0ed598b1-4019-dd46-8ef4-36c123c8c3d7
+	  1 (001%): http://www.wikidata.org/entity/Q1101833Sd9f01450-4d1c-2f83-77d6-5b599c72d456
+	  1 (001%): http://www.wikidata.org/entity/Q1129828S574d3a05-4c5e-55bf-df2f-9e86a5ae012b
+	  1 (001%): http://www.wikidata.org/entity/Q1178901S175157a9-4d7a-6cfd-7152-39974398d59f
+	  1 (001%): http://www.wikidata.org/entity/Q1190469Sb141c7c1-4734-e1ff-ca5c-06518943e17b
+	  1 (001%): http://www.wikidata.org/entity/Q12546S63A19594-A026-4AAC-8E01-09DA49FDAB68
+	  1 (001%): http://www.wikidata.org/entity/Q1265155Sf3ced002-49f8-2d07-f242-2d4d8f4987e7
+	  1 (001%): http://www.wikidata.org/entity/Q1366722Sbf1d12f9-439e-c98c-b6ec-e9b07558fb97
+	  1 (001%): http://www.wikidata.org/entity/Q141922S3c8aa74a-43f3-caad-125d-62d403959dc4
+	  1 (001%): http://www.wikidata.org/entity/Q147297S165b6333-4ced-89e4-abdd-68ab6258c1b7
+	  1 (001%): http://www.wikidata.org/entity/Q168983S72597852-05CE-452A-AA21-E00C43204122
+	  1 (001%): http://www.wikidata.org/entity/Q240517S2ad0365d-40f0-0c54-5ef4-7f3095e17af6
+	  1 (001%): http://www.wikidata.org/entity/Q244924S4fd98780-4251-423f-dc74-a0f200b3b017
+	  1 (001%): http://www.wikidata.org/entity/Q25257Sf74d8541-485a-54da-0c9d-d82a0a979ce8
+	  1 (001%): http://www.wikidata.org/entity/Q255814S786b3d7c-469f-199a-709f-c9f207990d20
+	  1 (001%): http://www.wikidata.org/entity/Q2581969S4ec94e5a-44ae-5b28-d63e-eaedd0501416
+	  1 (001%): http://www.wikidata.org/entity/Q263156S9328fcd3-41c2-1530-ea83-cdf244e8ca82
+	  1 (001%): http://www.wikidata.org/entity/Q2664822Sc46dcdf9-4947-bc79-6475-2f4b7ce159c4
+	  1 (001%): http://www.wikidata.org/entity/Q2666070Sd57d11ff-4f57-02a9-5789-c2d890333fac
+	  1 (001%): http://www.wikidata.org/entity/Q2666228S3b96ae9c-4fed-3ccc-d5ee-73a1f2c49623
+	  1 (001%): http://www.wikidata.org/entity/Q29485S59BD0A94-2C23-4A38-A5C5-42B930000E61
+	  1 (001%): http://www.wikidata.org/entity/Q300742Sfd8a1cab-4e26-6e82-85a2-285768f4b2f5
+	  1 (001%): http://www.wikidata.org/entity/Q323S6253E535-8F87-4A72-8600-9D6513336664
+	  1 (001%): http://www.wikidata.org/entity/Q437067S988221b9-44c0-7c62-4965-f1f3fa9ecc8f
+	  1 (001%): http://www.wikidata.org/entity/Q485657S3c23703f-4892-e81d-eb61-161878c3cd88
+	  1 (001%): http://www.wikidata.org/entity/Q5850085Sc2aaa7fb-4cd6-70d9-52fb-a4d8fc92652d
+	  1 (001%): http://www.wikidata.org/entity/Q590770Sf08fe133-4528-3683-b6b9-f927454932e5
+	  1 (001%): http://www.wikidata.org/entity/Q604733S73C202D8-D9E1-4489-9017-701BEFDB7533
+	  1 (001%): http://www.wikidata.org/entity/Q630339S236373e2-4968-51d0-a17f-e6e997a4caaa
+	  1 (001%): http://www.wikidata.org/entity/Q653684S852ddf03-4402-3e04-e9ec-3cf353f66ad1
+	  1 (001%): http://www.wikidata.org/entity/Q669999Sb8199f1b-4305-0da6-4be8-c6d844e422c3
+	  1 (001%): http://www.wikidata.org/entity/Q737997Secd6bbec-45eb-ef20-f430-54a45afafdbb
+	  1 (001%): http://www.wikidata.org/entity/Q779606Sbfc7dfa9-4db6-0abc-94fc-5806834ff23d
+	  1 (001%): http://www.wikidata.org/entity/Q781796S5deb19c6-4ea0-50c2-89b3-2c2cf0005a09
+	  1 (001%): http://www.wikidata.org/entity/Q782151Saef95ed6-4270-a360-6cfb-f3f72c5fa64c
+	  1 (001%): http://www.wikidata.org/entity/Q783700S80aeb1ea-44e8-a6d4-224d-9cadd89bc894
+	  1 (001%): http://www.wikidata.org/entity/Q81054SD333B68D-1CB2-4EFA-8CEC-4CFE7D8653D3
+	  1 (001%): http://www.wikidata.org/entity/Q923498Sa99a9517-4428-4dd0-cb7d-d308ffd1d7d2
+	  1 (001%): http://www.wikidata.org/entity/Q947520Sfd3a1911-44df-398d-030c-a1f411cfaedc
+	  1 (001%): http://www.wikidata.org/entity/Q963876S0301de7d-4511-beb0-c0f0-3d445a9bbb3e
+
+<http://www.wikidata.org/entity/P508c>:
+	  1 (001%): 12826
+	  1 (001%): 16144
+	  1 (001%): 19881
+	  1 (001%): 20241
+	  1 (001%): 21076
+	  1 (001%): 30928
+
+<http://www.wikidata.org/entity/P691c>:
+	  1 (001%): ph122162
+
+<http://www.wikidata.org/entity/P935s>:
+	  1 (001%): http://www.wikidata.org/entity/Q168983SDE2F1884-2B9E-460D-A571-25FED38CD4E9
+
+<http://www.wikidata.org/entity/P18c>:
+	  2 (002%): http://commons.wikimedia.org/wiki/File:Flag_of_Austria.svg
+	  2 (002%): http://commons.wikimedia.org/wiki/File:Flag_of_Cyprus.svg
+	  2 (002%): http://commons.wikimedia.org/wiki/File:Flag_of_Germany.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_Australia.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_Bulgaria_(1971-1990).svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_Canada.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_Finland.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_France.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_Haiti.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_Iceland.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_Israel.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_Italy.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_Japan.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_Lebanon.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_Macedonia.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_Norway.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_Poland.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_Romania_(1965-1989).svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_SFR_Yugoslavia.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_South_Africa.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_Venezuela_(1954-2006).svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_the_Netherlands.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_the_People's_Republic_of_China.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_the_People's_Republic_of_Mongolia_(1940-1992).svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Halifax_Explosion_blast_cloud_restored.jpg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:RFA_Bedenham.jpg
+	  1 (001%): http://commons.wikimedia.org/wiki/File:Storm_polygoon.ogv
+
+<http://www.wikidata.org/entity/P131s>:
+	  1 (001%): http://www.wikidata.org/entity/Q18338238S1a9f7ce9-4266-5a26-f601-496e88b334e9
+
+<http://www.wikidata.org/entity/P31s>:
+	  1 (001%): http://www.wikidata.org/entity/Q1001539S6594645f-4417-796b-b88e-ba4a91d90a2b
+	  1 (001%): http://www.wikidata.org/entity/Q1031729S43984564-48b5-e37c-a8c2-dc1069555e6b
+	  1 (001%): http://www.wikidata.org/entity/Q1037707Sa232abe7-4bf4-4408-39f2-5559dcc86976
+	  1 (001%): http://www.wikidata.org/entity/Q1040901Sb4bec3cf-42d3-0beb-0e9a-c8f2696b8ffe
+	  1 (001%): http://www.wikidata.org/entity/Q1041217Se959de2b-4a33-0a3b-5303-24849fc54886
+	  1 (001%): http://www.wikidata.org/entity/Q104493S3a84f71d-44fc-a1d0-8d89-2b5fb978bad6
+	  1 (001%): http://www.wikidata.org/entity/Q1067779S181c9a62-4148-89cc-bb0c-d92efd92bc04
+	  1 (001%): http://www.wikidata.org/entity/Q1076836S389ca43f-419f-79e5-dfc9-63efd67f971f
+	  1 (001%): http://www.wikidata.org/entity/Q1092262S4eaa8452-4cc6-859d-8079-8fd9d279b2d4
+	  1 (001%): http://www.wikidata.org/entity/Q1101833S5dac9393-43ab-2a4f-e80c-59366fdcb53c
+	  1 (001%): http://www.wikidata.org/entity/Q1129828S73be2554-4624-e238-cc13-2166e9085ef4
+	  1 (001%): http://www.wikidata.org/entity/Q11404082SFB62DAD0-7978-4583-9B95-8FBDA7A78339
+	  1 (001%): http://www.wikidata.org/entity/Q1150070S54e5196e-4040-6d5c-8064-7945be62707d
+	  1 (001%): http://www.wikidata.org/entity/Q1150070Sd771d89e-4169-edd5-c118-9de9e1c13431
+	  1 (001%): http://www.wikidata.org/entity/Q1178901Sc074d8d8-4f83-0436-0f74-3128c332432b
+	  1 (001%): http://www.wikidata.org/entity/Q1190469S09ec3685-4ce0-85d1-1764-da069d283ae1
+	  1 (001%): http://www.wikidata.org/entity/Q125375S1893438E-AD0E-4B88-B71B-A5D6E08FC88A
+	  1 (001%): http://www.wikidata.org/entity/Q12546Seaedf47f-40ff-4798-f076-bfa6adf9df9c
+	  1 (001%): http://www.wikidata.org/entity/Q1260137S8D82B979-9127-4C74-899C-FB052A9C9DAB
+	  1 (001%): http://www.wikidata.org/entity/Q1265155Sa2bfe597-4226-77eb-fd6d-fa1fa5c59e46
+	  1 (001%): http://www.wikidata.org/entity/Q128735SAD508E02-4B37-417E-B1AF-978969938462
+	  1 (001%): http://www.wikidata.org/entity/Q13220300S91fb60e3-4e84-ed07-062a-4ee22f755a49
+	  1 (001%): http://www.wikidata.org/entity/Q1366722S284260eb-4141-27db-20aa-313008ab55ab
+	  1 (001%): http://www.wikidata.org/entity/Q1366722S658a8d46-45a3-225e-10fc-6180cde56a84
+	  1 (001%): http://www.wikidata.org/entity/Q14157028S5130AEA3-DB3C-4AFF-88B6-55837AC5C71E
+	  1 (001%): http://www.wikidata.org/entity/Q141922S764d9e40-4f35-a4d5-2280-b9fadc5bf63a
+	  1 (001%): http://www.wikidata.org/entity/Q147297S218f5d64-48e1-3497-a67d-88a58cab9c1e
+	  1 (001%): http://www.wikidata.org/entity/Q15107436S03375b26-4693-aab4-de53-234bb7f84284
+	  1 (001%): http://www.wikidata.org/entity/Q15107436S2f30f9c4-4140-7e4c-3b64-f557edf3fd3a
+	  1 (001%): http://www.wikidata.org/entity/Q1514415S00B0657C-FB56-45D3-BE19-2C887B2CE372
+	  1 (001%): http://www.wikidata.org/entity/Q1514415S4A5F37BD-52A1-43F0-915E-080329A8400D
+	  1 (001%): http://www.wikidata.org/entity/Q1514415SCD553C6E-7D98-42F0-9A4F-71C4B4F5781E
+	  1 (001%): http://www.wikidata.org/entity/Q1567285S0EEB47CA-BB65-4930-B65B-46000BA16849
+	  1 (001%): http://www.wikidata.org/entity/Q15689096Sf1996136-490a-da08-a2a5-8bd3ba059d4b
+	  1 (001%): http://www.wikidata.org/entity/Q15708364S724ae3c7-4e57-6d19-21c2-81676ffea1a2
+	  1 (001%): http://www.wikidata.org/entity/Q15708364Sd7590287-484a-f6ca-9450-aa35da6fd8d4
+	  1 (001%): http://www.wikidata.org/entity/Q15730938S0528df1d-4511-aa56-035f-117fc7344ab8
+	  1 (001%): http://www.wikidata.org/entity/Q16066981S5eee0e0b-479a-4fad-4d77-714ea627e55e
+	  1 (001%): http://www.wikidata.org/entity/Q16066981S96851d27-406b-8f80-e161-74c391baee08
+	  1 (001%): http://www.wikidata.org/entity/Q16294794Sa952a7ab-4d88-db63-7950-0b2ad979c76c
+	  1 (001%): http://www.wikidata.org/entity/Q16626750S4d6679c1-4ae9-48f3-a54b-be98997647c5
+	  1 (001%): http://www.wikidata.org/entity/Q168983SA3C29FE4-4D34-4AB0-8255-D66E0653A27B
+	  1 (001%): http://www.wikidata.org/entity/Q16941252S8E7C599D-1E8E-4503-ABAD-46FBDC51BB56
+	  1 (001%): http://www.wikidata.org/entity/Q17062699S9424e348-4823-5757-9819-d1a33f6f3867
+	  1 (001%): http://www.wikidata.org/entity/Q17195514S45b7e2d8-4b5b-4392-8aee-9ce0fa6050ff
+	  1 (001%): http://www.wikidata.org/entity/Q17364202SA0A4DB6F-C31B-4590-AD35-BE06D7D750AA
+	  1 (001%): http://www.wikidata.org/entity/Q1755612SB9693867-A379-4F67-9E05-1DD258F08BE0
+	  1 (001%): http://www.wikidata.org/entity/Q17778886S6641c386-428d-4776-6225-6309844dc8e7
+	  1 (001%): http://www.wikidata.org/entity/Q17778886Sbf081de5-440e-9f07-cee9-899719622f9c
+	  1 (001%): http://www.wikidata.org/entity/Q17887372S245b9fd8-48de-4861-3a6a-3289419169de
+	  1 (001%): http://www.wikidata.org/entity/Q17985830Sf08d6480-4000-d690-4d17-b504dcdb4000
+	  1 (001%): http://www.wikidata.org/entity/Q18144309Sf85d9871-4dee-f101-4f4b-409d86ac83e8
+	  1 (001%): http://www.wikidata.org/entity/Q18180884S53d85ca4-45c3-1319-b2b3-cfe3363523da
+	  1 (001%): http://www.wikidata.org/entity/Q18338238S6480b298-4ea3-df56-c347-d6592672a40e
+	  1 (001%): http://www.wikidata.org/entity/Q18343076S49436da4-4eff-4b91-026b-a88d8a5bbc34
+	  1 (001%): http://www.wikidata.org/entity/Q18461624Sb8982b4c-4434-febf-58b0-51763b44f08c
+	  1 (001%): http://www.wikidata.org/entity/Q2121187S496E91E8-D3C3-43D5-859F-174533379761
+	  1 (001%): http://www.wikidata.org/entity/Q2267264S35fbdf33-40c4-99f6-f940-c6d7dcd84bf5
+	  1 (001%): http://www.wikidata.org/entity/Q231663S1b034813-44fc-def5-eac4-3c1dfe3903e2
+	  1 (001%): http://www.wikidata.org/entity/Q231663Sdafbe0df-48bf-d32c-c032-ec1775866a8f
+	  1 (001%): http://www.wikidata.org/entity/Q240517S86e430e3-4106-f0a4-6df6-89ce6bf3b936
+	  1 (001%): http://www.wikidata.org/entity/Q244924S3be273f9-40ad-f170-10d5-83e07b889ff7
+	  1 (001%): http://www.wikidata.org/entity/Q25257SABB817BA-AAB6-4BA4-8F17-182C7D8DF313
+	  1 (001%): http://www.wikidata.org/entity/Q255814S06601bec-4c06-1ef0-f3a5-9ced965237c6
+	  1 (001%): http://www.wikidata.org/entity/Q255814Sd477e2dc-4f49-0929-386c-8c11d8a78d40
+	  1 (001%): http://www.wikidata.org/entity/Q2581969S6cd11938-467a-4b97-24be-ca434a5dd9a7
+	  1 (001%): http://www.wikidata.org/entity/Q263156S716ff9a9-4380-8c05-6fb5-68d4f7b8beaf
+	  1 (001%): http://www.wikidata.org/entity/Q2664822S3b7093f5-44ae-a783-0fd0-92e2e96cc619
+	  1 (001%): http://www.wikidata.org/entity/Q2666070Scaef6042-430d-f73d-63e2-0a4a79b4f25d
+	  1 (001%): http://www.wikidata.org/entity/Q2666228Sa067eda7-4080-375f-ec84-b7f7230d5520
+	  1 (001%): http://www.wikidata.org/entity/Q273508S5ebf5cf8-4dce-5790-00fd-3220f01a85d0
+	  1 (001%): http://www.wikidata.org/entity/Q273508Sd691fb56-4d79-0c94-eaab-b0d5e3c919d3
+	  1 (001%): http://www.wikidata.org/entity/Q2756844S07a20249-4746-b235-257e-1304d5ec54bb
+	  1 (001%): http://www.wikidata.org/entity/Q28547S0f14ad78-4425-959e-42d4-38301ad60797
+	  1 (001%): http://www.wikidata.org/entity/Q2866969S13378801-45ef-dab3-8399-41a7749c5fd5
+	  1 (001%): http://www.wikidata.org/entity/Q2948570Se747fbe7-4053-28bc-0ace-5d06f2b20b04
+	  1 (001%): http://www.wikidata.org/entity/Q29485S885491ae-4d3a-2e17-a195-76098a2a19ed
+	  1 (001%): http://www.wikidata.org/entity/Q29485Sce00bdbd-4dd2-d184-8c69-e4ba46244ca8
+	  1 (001%): http://www.wikidata.org/entity/Q297376Sb80d439b-4a0d-666b-a72d-5914c19e8690
+	  1 (001%): http://www.wikidata.org/entity/Q297376Scbb35297-4f31-455b-e1ac-2ceb44ab04ac
+	  1 (001%): http://www.wikidata.org/entity/Q300742S31e01aa4-4fb8-6b85-f38b-a6ce59727338
+	  1 (001%): http://www.wikidata.org/entity/Q300742S98efbdb8-4fd6-b35d-511b-916cdf80b2b4
+	  1 (001%): http://www.wikidata.org/entity/Q3062303Se4f3ab10-4297-a695-94d7-00c45e076944
+	  1 (001%): http://www.wikidata.org/entity/Q323S3f17d199-4914-d3df-af3c-25941c9fd553
+	  1 (001%): http://www.wikidata.org/entity/Q32919Sbbf654d7-4747-5577-811e-8a5fa06c968f
+	  1 (001%): http://www.wikidata.org/entity/Q331801S6cd949e5-47c9-502b-5784-4b44166a0145
+	  1 (001%): http://www.wikidata.org/entity/Q331801Sa874762e-4552-8232-8a1c-d059e5388856
+	  1 (001%): http://www.wikidata.org/entity/Q331801Sb16474ff-447c-a9d9-de1d-f7480a34f636
+	  1 (001%): http://www.wikidata.org/entity/Q331809S21aea270-4139-a016-224a-2415fcece2f3
+	  1 (001%): http://www.wikidata.org/entity/Q333996S4a77b7be-43f7-a11e-b90e-9291a7630419
+	  1 (001%): http://www.wikidata.org/entity/Q333996S7bc9b2ff-4d3d-c1d4-659a-3275ccd3d9b4
+	  1 (001%): http://www.wikidata.org/entity/Q334431S548093d7-4d9e-bbdb-8d6c-4f1538a769dc
+	  1 (001%): http://www.wikidata.org/entity/Q3402245S8b3a904f-4966-2779-0878-47bd8e8b3d8a
+	  1 (001%): http://www.wikidata.org/entity/Q3494805S724376d5-4ed3-c456-1b12-0de293b6b0d5
+	  1 (001%): http://www.wikidata.org/entity/Q3536511S97a5a880-4e05-8ffb-c689-58328319d764
+	  1 (001%): http://www.wikidata.org/entity/Q35546Sada002fc-4b33-c5e1-7cd4-9ce58da8fdac
+	  1 (001%): http://www.wikidata.org/entity/Q3927614S5f001113-40f4-9e30-dfab-268e001d11c4
+	  1 (001%): http://www.wikidata.org/entity/Q409027Sdb7e504f-46dc-fc94-37b8-5f4d184a4949
+	  1 (001%): http://www.wikidata.org/entity/Q409027Sf465612e-4765-c5ba-bece-68becd4f2fbe
+	  1 (001%): http://www.wikidata.org/entity/Q424095S91f7c343-46fb-50e9-6ddf-593ec3524bfb
+	  1 (001%): http://www.wikidata.org/entity/Q424095S94807550-4873-05ed-bb8c-ad10cb565784
+	  1 (001%): http://www.wikidata.org/entity/Q424095Sabaee1e8-45b6-915a-a0a5-71f074cd7a4a
+	  1 (001%): http://www.wikidata.org/entity/Q437067S9665bd5c-4cd9-3b70-ec2f-532f683577d7
+	  1 (001%): http://www.wikidata.org/entity/Q4373035Se14dc343-41b7-4430-2ec0-ea9dbb3a73be
+	  1 (001%): http://www.wikidata.org/entity/Q4618214SEFC67989-5A06-4B19-B115-C4C0C4528A28
+	  1 (001%): http://www.wikidata.org/entity/Q4684105S668638e4-4fdf-c9e0-507a-566a3d810455
+	  1 (001%): http://www.wikidata.org/entity/Q4761326S38b61ad8-423a-2224-f595-69f97ad2e51e
+	  1 (001%): http://www.wikidata.org/entity/Q4827614S8b83021b-4992-23c2-225c-e10a36382da5
+	  1 (001%): http://www.wikidata.org/entity/Q483247SF2A5B80C-3948-4108-BEA2-48AC8F5116E9
+	  1 (001%): http://www.wikidata.org/entity/Q485657S9ab67df4-418e-7fe2-f072-2cf779b70996
+	  1 (001%): http://www.wikidata.org/entity/Q4920800S51521c86-447b-6345-2842-0cf891a9c347
+	  1 (001%): http://www.wikidata.org/entity/Q4920801S03086fce-44ae-713f-3a0c-e6e774acacd7
+	  1 (001%): http://www.wikidata.org/entity/Q4920802S35cd3318-4cce-de89-78ec-c04060313f97
+	  1 (001%): http://www.wikidata.org/entity/Q502073Sf35427e9-48e5-613d-7d56-dccfc71fec9c
+	  1 (001%): http://www.wikidata.org/entity/Q502073Sf7efb041-424e-69c6-cfd7-687f83d19fde
+	  1 (001%): http://www.wikidata.org/entity/Q5115471S4021f58e-4771-f0b3-78e5-ca3517b428e3
+	  1 (001%): http://www.wikidata.org/entity/Q5281278S9953A1BE-CE43-4546-A070-D692847F2BD4
+	  1 (001%): http://www.wikidata.org/entity/Q5326851S8ae5f275-4fe5-0942-03fb-7d89e6849513
+	  1 (001%): http://www.wikidata.org/entity/Q5540112S5999186d-45e8-cb6b-559f-aba9cbc2825e
+	  1 (001%): http://www.wikidata.org/entity/Q5850085S4d7c4d7e-40f2-aac5-31c0-60d5f4ef4406
+	  1 (001%): http://www.wikidata.org/entity/Q590770S220ab279-47e7-a85f-f5e4-98bc3544668d
+	  1 (001%): http://www.wikidata.org/entity/Q591571S02578e34-4ce4-0642-f8ba-7d97f2cfd919
+	  1 (001%): http://www.wikidata.org/entity/Q604733Se1d6099b-4dfb-6a80-18df-633133801f28
+	  1 (001%): http://www.wikidata.org/entity/Q6123903SC782BA27-FBDE-4C86-948E-B3C622C33292
+	  1 (001%): http://www.wikidata.org/entity/Q6134832Se86d93c6-4f66-756c-1d66-2353166e6aef
+	  1 (001%): http://www.wikidata.org/entity/Q630339S1758443a-419b-a352-5107-41cc6f2702ff
+	  1 (001%): http://www.wikidata.org/entity/Q634913S8A59EC15-12EA-4197-B55E-08701F266A95
+	  1 (001%): http://www.wikidata.org/entity/Q653684S548348d3-4346-2407-2c63-2a86fb62d43b
+	  1 (001%): http://www.wikidata.org/entity/Q669999Se17b9a84-4cf6-c76b-c469-7561d83eb219
+	  1 (001%): http://www.wikidata.org/entity/Q7102486S6c66db32-4348-00ab-f92e-c01612e98c34
+	  1 (001%): http://www.wikidata.org/entity/Q7102486Sc62e7933-43b0-d1ae-c283-b0623766e41b
+	  1 (001%): http://www.wikidata.org/entity/Q737997S84a8e1d9-43c4-395f-0f28-fb4e97015e61
+	  1 (001%): http://www.wikidata.org/entity/Q7644641S2b1e81f2-4c96-91df-8fac-248637d68ae2
+	  1 (001%): http://www.wikidata.org/entity/Q779606Sdd33e4cf-4acf-91ed-1d56-fab5c21e073b
+	  1 (001%): http://www.wikidata.org/entity/Q781796S459f6146-46a8-d3f3-5d95-a142d83021ba
+	  1 (001%): http://www.wikidata.org/entity/Q782151S4592779e-486d-1d41-c11f-016c345ad5e1
+	  1 (001%): http://www.wikidata.org/entity/Q783700Sda05977a-48f7-41aa-ae7f-58a3071162c2
+	  1 (001%): http://www.wikidata.org/entity/Q797443Sbacee392-4252-cab9-ed77-90e5c35dcd0a
+	  1 (001%): http://www.wikidata.org/entity/Q81054SD58D14B9-61FA-4524-A06A-65E681F47453
+	  1 (001%): http://www.wikidata.org/entity/Q923498S4fefd835-4f84-505c-e0ee-fba1c68e19eb
+	  1 (001%): http://www.wikidata.org/entity/Q947520S58c0ef30-4776-991e-d19d-7f0354c53b91
+	  1 (001%): http://www.wikidata.org/entity/Q9520442S91fdadbb-4d98-489f-d9e8-fd27f9888b1d
+	  1 (001%): http://www.wikidata.org/entity/Q952618S339fd26f-4937-fe3f-f7fb-d9fe5062dfea
+	  1 (001%): http://www.wikidata.org/entity/Q963876Sbfe1f7ce-46ca-d67e-f2f4-32fda41fa153
+	  1 (001%): http://www.wikidata.org/entity/Q9697543See101c22-469d-d0b3-e899-380dad9472ed
+
+<http://www.wikidata.org/entity/P227-gnd>:
+	  1 (001%): http://d-nb.info/gnd/4073802-4/about/rdf
+	  1 (001%): http://d-nb.info/gnd/4187224-1/about/rdf
+	  1 (001%): http://d-nb.info/gnd/4254910-3/about/rdf
+
+<http://www.wikidata.org/entity/P349c>:
+	  1 (001%): 00565085
+	  1 (001%): 00569559
+	  1 (001%): 00575168
+	  1 (001%): 00916091
+	  1 (001%): 01055844
+
+<http://www.w3.org/2000/01/rdf-schema#label>:
+	 22 (018%): Olympische Winterspiele 1980/Teilnehmer
+	  7 (006%): Olympische Winterspiele 1998/Teilnehmer
+	  6 (005%): Olympische Sommerspiele 1992/Teilnehmer
+	  5 (004%): Jeux Olympiques d'été de 1992 / participants@fr
+	  3 (002%): Black Friday
+	  1 (001%): 1980年冬季奧林匹克運動會南斯拉夫代表團
+	  1 (001%): 1980년 동계 올림픽 그리스 선수단
+	  1 (001%): 1980년 동계 올림픽 네덜란드 선수단
+	  1 (001%): 1980년 동계 올림픽 대한민국 선수단
+	  1 (001%): 1980년 동계 올림픽 레바논 선수단
+	  1 (001%): 1980년 동계 올림픽 루마니아 선수단
+	  1 (001%): 1980년 동계 올림픽 몽골 선수단
+	  1 (001%): 1980년 동계 올림픽 미국 선수단
+	  1 (001%): 1980년 동계 올림픽 불가리아 선수단
+	  1 (001%): 1980년 동계 올림픽 아이슬란드 선수단
+	  1 (001%): 1980년 동계 올림픽 오스트레일리아 선수단
+	  1 (001%): 1980년 동계 올림픽 오스트리아 선수단
+	  1 (001%): 1980년 동계 올림픽 유고슬라비아 선수단
+	  1 (001%): 1980년 동계 올림픽 이탈리아 선수단
+	  1 (001%): 1980년 동계 올림픽 일본 선수단
+	  1 (001%): 1980년 동계 올림픽 중화인민공화국 선수단
+	  1 (001%): 1980년 동계 올림픽 캐나다 선수단
+	  1 (001%): 1980년 동계 올림픽 키프로스 선수단
+	  1 (001%): 1980년 동계 올림픽 폴란드 선수단
+	  1 (001%): 1998년 동계 올림픽 오스트리아 선수단
+	  1 (001%): 1998년 동계 올림픽 키프로스 선수단
+	  1 (001%): 2006-07-10: Mundial 2006: Zinedine Zidane nagrodzony Złotą Piłką@pl
+	  1 (001%): 2010 Portland car bomb plot
+	  1 (001%): 2013. aasta oktoobritorm@et
+	  1 (001%): 2014 shootings at Parliament Hill, Ottawa
+	  1 (001%): 2014 shootings at Parliament Hill, Ottawa@en-gb
+	  1 (001%): 2014 ඔටාවා පාර්ලිමේන්තු වෙඩි තැබීම@si
+	  1 (001%): 2014年カナダ議会銃乱射事件
+	  1 (001%): 2014年加拿大国会山庄恐怖袭击
+	  1 (001%): 2014년 오타와 총격 사건
+	  1 (001%): A Dominikai Köztársaság az 1992. évi nyári olimpiai játékokon
+	  1 (001%): A Dél-afrikai Köztársaság az 1998. évi téli olimpiai játékokon
+	  1 (001%): Aachener Mäkelei
+	  1 (001%): Aachener Mäkelei@fr
+	  1 (001%): Absatzkrise
+	  1 (001%): Acoustic Cloud
+	  1 (001%): Acoustique Cloud@fr
+	  1 (001%): Adolf Hitler's rise to power
+	  1 (001%): Afera Mayerling
+	  1 (001%): Afera Mayerling@hr
+	  1 (001%): Affäre Mayerling
+	  1 (001%): Afrique du Sud aux Jeux olympiques d'hiver de 1998@fr
+	  1 (001%): Age of Liberty
+	  1 (001%): Airport Race
+	  1 (001%): Airport Race@fr
+	  1 (001%): Akustische Wolke
+	  1 (001%): Alankomaat talviolympialaisissa 1980
+	  1 (001%): Alemanha Ocidental nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Alemanha nos Jogos Olímpicos de Inverno de 1998@pt
+	  1 (001%): Alemania Occidental en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Alemania en los Juegos Olímpicos de Nagano 1998
+	  1 (001%): Allemagne aux Jeux olympiques d'hiver de 1998@fr
+	  1 (001%): Allemagne de l'Ouest aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Amityville affair
+	  1 (001%): Arderea cărților în Germania
+	  1 (001%): Arrisku@eu
+	  1 (001%): Asal mula Bulan@id
+	  1 (001%): Ascensão de Hitler ao poder@pt
+	  1 (001%): Asesinato de Jean Jaurès
+	  1 (001%): Asesinatos de los buques España 3 y Sil
+	  1 (001%): Assassinat de Cléarque d'Héraclée@fr
+	  1 (001%): Assassinat de Jean Jaurès@fr
+	  1 (001%): Assassination of Clearchus of Heraclea
+	  1 (001%): Atentado de Begoña
+	  1 (001%): Atmosfer yağıntıları
+	  1 (001%): Audra@lt
+	  1 (001%): Australia ai XIII Giochi olimpici invernali
+	  1 (001%): Australia at the 1980 Winter Olympics
+	  1 (001%): Australia en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Australia na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Australia under Vinter-OL 1980
+	  1 (001%): Australie aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Australië op de Olympische Winterspelen 1980
+	  1 (001%): Austria ai XIII Giochi olimpici invernali
+	  1 (001%): Austria ai XVIII Giochi olimpici invernali
+	  1 (001%): Austria at the 1980 Winter Olympics
+	  1 (001%): Austria at the 1998 Winter Olympics
+	  1 (001%): Austria en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Austria en los Juegos Olímpicos de Nagano 1998
+	  1 (001%): Austria na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Austria na Zimowych Igrzyskach Olimpijskich 1998@pl
+	  1 (001%): Austrália nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Ausztria az 1980. évi téli olimpiai játékokon
+	  1 (001%): Ausztria az 1998. évi téli olimpiai játékokon
+	  1 (001%): Ausztrália az 1980. évi téli olimpiai játékokon
+	  1 (001%): Autodafés de 1933 en Allemagne@fr
+	  1 (001%): Autriche aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Autriche aux Jeux olympiques d'hiver de 1998@fr
+	  1 (001%): Avalon explosion
+	  1 (001%): Az Amerikai Egyesült Államok az 1980. évi téli olimpiai játékokon
+	  1 (001%): Az NSZK az 1980. évi téli olimpiai játékokon
+	  1 (001%): Azeqziq@kab
+	  1 (001%): Azerbaijan State Oil Academy shooting
+	  1 (001%): Azərbaycan Dövlət Neft Akademiyasında terror hadisəsi
+	  1 (001%): Aŭstrio en la Vintra Olimpiko 1998
+	  1 (001%): Baader-Befreiung
+	  1 (001%): Bakun koulusurmat
+	  1 (001%): Barbados ai Giochi della XXV Olimpiade
+	  1 (001%): Barbados at the 1992 Summer Olympics
+	  1 (001%): Barbados az 1992. évi nyári olimpiai játékokon
+	  1 (001%): Barbados i olympiska sommarspelen 1992
+	  1 (001%): Barbados na Letnich Igrzyskach Olimpijskich 1992@pl
+	  1 (001%): Barbados nos Jogos Olímpicos de Verão de 1992@pt
+	  1 (001%): Barbados under Sommer-OL 1992
+	  1 (001%): Batalla de la Bahía de Santoña
+	  1 (001%): Belize ai Giochi della XXV Olimpiade
+	  1 (001%): Belize at the 1992 Summer Olympics
+	  1 (001%): Belize az 1992. évi nyári olimpiai játékokon
+	  1 (001%): Belize i olympiska sommarspelen 1992
+	  1 (001%): Belize na Letnich Igrzyskach Olimpijskich 1992@pl
+	  1 (001%): Belize nos Jogos Olímpicos de Verão de 1992@pt
+	  1 (001%): Belize under Sommer-OL 1992
+	  1 (001%): Bellevue War
+	  1 (001%): Big Bang
+	  1 (001%): Big Bang@an
+	  1 (001%): Big Bang@br
+	  1 (001%): Big Bang@en-gb
+	  1 (001%): Big Bang@eu
+	  1 (001%): Big Bang@fr
+	  1 (001%): Big Bang@ia
+	  1 (001%): Big Bang@jv
+	  1 (001%): Big Bang@mwl
+	  1 (001%): Big Bang@pt
+	  1 (001%): Big Bang@pt-br
+	  1 (001%): Big Bang@sco
+	  1 (001%): Big Bang@sq
+	  1 (001%): Big Bang@su
+	  1 (001%): Boekverbranding in Nazi-Duitsland@af
+	  1 (001%): Bokbål i Nazityskland
+	  1 (001%): Bom Bras@kw
+	  1 (001%): Bombardeo intenso tardío
+	  1 (001%): Bondsrepubliek Duitsland op de Olympische Winterspelen 1980
+	  1 (001%): Bouře
+	  1 (001%): Brand
+	  1 (001%): Brand@de-ch
+	  1 (001%): Bulgaria ai XIII Giochi olimpici invernali
+	  1 (001%): Bulgaria at the 1980 Winter Olympics
+	  1 (001%): Bulgaria en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Bulgaria under Vinter-OL 1980
+	  1 (001%): Bulgarie aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Bulgarien i olympiska vinterspelen 1980
+	  1 (001%): Bulgarije op de Olympische Winterspelen 1980
+	  1 (001%): Bulgária az 1980. évi téli olimpiai játékokon
+	  1 (001%): Bulgária nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Bulharsko na Zimních olympijských hrách 1980
+	  1 (001%): Bundy standoff
+	  1 (001%): Bunús na Gealaí@ga
+	  1 (001%): Bułgaria na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Bão
+	  1 (001%): Bão Thánh Jude
+	  1 (001%): Böyük partlayış
+	  1 (001%): Bùng nổ kỷ Cambri
+	  1 (001%): Búrka
+	  1 (001%): Bücherverbrennung 1933 in Deutschland
+	  1 (001%): Bücherverbrennung 1933 in Deutschland@de-ch
+	  1 (001%): Bücherverbrennungen
+	  1 (001%): Büyük Patlama@tr
+	  1 (001%): Błąd@pl
+	  1 (001%): Cambrian explosion
+	  1 (001%): Cambrian explosion@war
+	  1 (001%): Cambrische explosie
+	  1 (001%): Canada ai XIII Giochi olimpici invernali
+	  1 (001%): Canada at the 1980 Winter Olympics
+	  1 (001%): Canada aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Canada op de Olympische Winterspelen 1980
+	  1 (001%): Canada under Vinter-OL 1980
+	  1 (001%): Canadá en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Canadá nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Canciu
+	  1 (001%): Candela@pap
+	  1 (001%): Carnaval de Guaratinguetá@pt
+	  1 (001%): Caso Eliza Samudio
+	  1 (001%): Caso Eliza Samudio@pt
+	  1 (001%): China at the 1980 Winter Olympics
+	  1 (001%): China en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): China nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): China op de Olympische Winterspelen 1980
+	  1 (001%): Chine aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Chipre en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Chipre en los Juegos Olímpicos de Nagano 1998
+	  1 (001%): Chipre nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Chipre nos Jogos Olímpicos de Inverno de 1998@pt
+	  1 (001%): Chińska Republika Ludowa na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Chrüzzug@gsw
+	  1 (001%): Chyba
+	  1 (001%): Chypre aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Chypre aux Jeux olympiques d'hiver de 1998@fr
+	  1 (001%): Cibcihginh doengcwngh
+	  1 (001%): Cina ai XIII Giochi olimpici invernali
+	  1 (001%): Cipro ai XIII Giochi olimpici invernali
+	  1 (001%): Cipro ai XVIII Giochi olimpici invernali
+	  1 (001%): Ciprus az 1980. évi téli olimpiai játékokon
+	  1 (001%): Ciprus az 1998. évi téli olimpiai játékokon
+	  1 (001%): Conflagration
+	  1 (001%): Conflagration@en-gb
+	  1 (001%): Conférence politique@fr
+	  1 (001%): Consacrazione
+	  1 (001%): Consagració
+	  1 (001%): Consagración
+	  1 (001%): Consagração@pt
+	  1 (001%): Consecration@en-x-simple
+	  1 (001%): Corea del Sud ai XIII Giochi olimpici invernali
+	  1 (001%): Corea del Sur en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Coreia do Sul nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Corruption scandal
+	  1 (001%): Corée du Sud aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Courcelles Massacre
+	  1 (001%): Croades
+	  1 (001%): Crociade
+	  1 (001%): Crociata
+	  1 (001%): Croejhåde@wa
+	  1 (001%): Crosada
+	  1 (001%): Crosadis
+	  1 (001%): Crosià
+	  1 (001%): Crosáidí@ga
+	  1 (001%): Crouésade
+	  1 (001%): Cruciadas@ia
+	  1 (001%): Cruciadă
+	  1 (001%): Cruciati
+	  1 (001%): Crusade@hif
+	  1 (001%): Crusades
+	  1 (001%): Crusades@en-gb
+	  1 (001%): Crusades@en-x-simple
+	  1 (001%): Cruzada@mwl
+	  1 (001%): Cruzada@pt
+	  1 (001%): Cruzada@pt-br
+	  1 (001%): Cruzadas
+	  1 (001%): Cruzaes
+	  1 (001%): Cruzatas@an
+	  1 (001%): Csapadék
+	  1 (001%): Cypr na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Cypr na Zimowych Igrzyskach Olimpijskich 1998@pl
+	  1 (001%): Cyprus at the 1980 Winter Olympics
+	  1 (001%): Cyprus at the 1998 Winter Olympics
+	  1 (001%): Cyprus op de Olympische Winterspelen 1980
+	  1 (001%): Cyprus op de Olympische Winterspelen 1998
+	  1 (001%): Cálculo de risco@pt
+	  1 (001%): Dagiti Krusada
+	  1 (001%): Dako nga Pagbuto@war
+	  1 (001%): Damcaniaeth y Glec Fawr
+	  1 (001%): Death of Deriek Wayne Crouse
+	  1 (001%): Delslach
+	  1 (001%): Den dominikanske republikk under Sommer-OL 1992
+	  1 (001%): Den kambriske eksplosjon
+	  1 (001%): Den kambriske eksplosjonen
+	  1 (001%): Det Store Bombardement
+	  1 (001%): Det sene tunge bombardementet
+	  1 (001%): Development of Deus Ex
+	  1 (001%): Development of Mother 3
+	  1 (001%): Didysis sprogimas@lt
+	  1 (001%): Difektoj
+	  1 (001%): Disappearance of Susan Powell
+	  1 (001%): Dominican Republic at the 1992 Summer Olympics
+	  1 (001%): Dominikana na Letnich Igrzyskach Olimpijskich 1992@pl
+	  1 (001%): Dominikanska republiken i olympiska sommarspelen 1992
+	  1 (001%): Drame de Mayerling@fr
+	  1 (001%): Duitsland op de Olympische Winterspelen 1998
+	  1 (001%): Dukuria@sq
+	  1 (001%): Dél-Korea az 1980. évi téli olimpiai játékokon
+	  1 (001%): Dėdlīsės spruogėms@sgs
+	  1 (001%): Early life of George Gordon Byron
+	  1 (001%): Eeuwigdurende september
+	  1 (001%): Ekaitz@eu
+	  1 (001%): Eksplosjonen i Halifax
+	  1 (001%): Eksplozja Avalon@pl
+	  1 (001%): Eksplozja kambryjska@pl
+	  1 (001%): Eldsvoði
+	  1 (001%): Enflasyon@tr
+	  1 (001%): Epoca della libertà svedese
+	  1 (001%): Era wolności@pl
+	  1 (001%): Erro@pt
+	  1 (001%): Error
+	  1 (001%): Error@en-x-simple
+	  1 (001%): Erruri
+	  1 (001%): Esplosione di Halifax
+	  1 (001%): Estados Unidos en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Estados Unidos nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Eterna septembro
+	  1 (001%): Eternal September
+	  1 (001%): Ethiopia at the 1992 Summer Olympics
+	  1 (001%): Etiopia ai Giochi della XXV Olimpiade
+	  1 (001%): Etiopia na Letnich Igrzyskach Olimpijskich 1992@pl
+	  1 (001%): Etiopia under Sommer-OL 1992
+	  1 (001%): Etiopie na Letních olympijských hrách 1992
+	  1 (001%): Etiopien i olympiska sommarspelen 1992
+	  1 (001%): Etiopía en los Juegos Olímpicos de Barcelona 1992
+	  1 (001%): Etiópia az 1992. évi nyári olimpiai játékokon
+	  1 (001%): Etiópia nos Jogos Olímpicos de Verão de 1992@pt
+	  1 (001%): Evige september
+	  1 (001%): Expeditio sacra@la
+	  1 (001%): Explosie van Halifax
+	  1 (001%): Explosion cambrienne@fr
+	  1 (001%): Explosion de Halifax@fr
+	  1 (001%): Explosió cambriana
+	  1 (001%): Explosión cámbrica
+	  1 (001%): Explosión de Avalon
+	  1 (001%): Explosión de Halifax
+	  1 (001%): Explosão Cambriana@pt
+	  1 (001%): Explosão de Halifax@pt
+	  1 (001%): Explozia cambriană
+	  1 (001%): Explozia de la Halifax
+	  1 (001%): Fatti di Mayerling
+	  1 (001%): Fazi@br
+	  1 (001%): Fehler
+	  1 (001%): Feil i matematikk
+	  1 (001%): Fel
+	  1 (001%): Fenomen
+	  1 (001%): Fenomen@et
+	  1 (001%): Fenomen@kaa
+	  1 (001%): Fenomen@tr
+	  1 (001%): Fenomena@id
+	  1 (001%): Fenomena@ms
+	  1 (001%): Fenomenas@lt
+	  1 (001%): Fenomeno
+	  1 (001%): Fenomeno@eu
+	  1 (001%): Fenomeno@io
+	  1 (001%): Fenomèn
+	  1 (001%): Fenomén
+	  1 (001%): Fenòmenu
+	  1 (001%): Fenómeno
+	  1 (001%): Fenómeno@pt
+	  1 (001%): Final
+	  1 (001%): Final@de-ch
+	  1 (001%): Final@gsw
+	  1 (001%): Final@tk
+	  1 (001%): Finale
+	  1 (001%): Finalo
+	  1 (001%): Finland at the 1980 Winter Olympics
+	  1 (001%): Finland i olympiska vinterspelen 1980
+	  1 (001%): Finland op de Olympische Winterspelen 1980
+	  1 (001%): Finland under Vinter-OL 1980
+	  1 (001%): Finlande aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Finlandia ai XIII Giochi olimpici invernali
+	  1 (001%): Finlandia en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Finlandia na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Finlândia nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Finnország az 1980. évi téli olimpiai játékokon
+	  1 (001%): Finsko na Zimních olympijských hrách 1980
+	  1 (001%): Finále
+	  1 (001%): Fragor Maximus@la
+	  1 (001%): France at the 1980 Winter Olympics
+	  1 (001%): France aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Francia ai XIII Giochi olimpici invernali
+	  1 (001%): Francia en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Franciaország az 1980. évi téli olimpiai játékokon
+	  1 (001%): Francie na Zimních olympijských hrách 1980
+	  1 (001%): Francja na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Frankrijk op de Olympische Winterspelen 1980
+	  1 (001%): Frankrike under Vinter-OL 1980
+	  1 (001%): França nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Frassaghey@gv
+	  1 (001%): Fridomstida
+	  1 (001%): Frihedstiden
+	  1 (001%): Frihetstiden
+	  1 (001%): Fænomen
+	  1 (001%): Fïnal@kk-latn
+	  1 (001%): Gabimi@sq
+	  1 (001%): Gaisras@lt
+	  1 (001%): Generální audience
+	  1 (001%): George H. W. Bush vomiting incident
+	  1 (001%): Germania Ovest ai XIII Giochi olimpici invernali
+	  1 (001%): Germania ai XVIII Giochi olimpici invernali
+	  1 (001%): Germanio en la Vintra Olimpiko 1998
+	  1 (001%): Germany at the 1998 Winter Olympics
+	  1 (001%): Geç Dönem Ağır Bombardıman@tr
+	  1 (001%): Giappone ai XIII Giochi olimpici invernali
+	  1 (001%): Giáng thủy
+	  1 (001%): Gran bombardeig tardà
+	  1 (001%): Grand Pataflias
+	  1 (001%): Grand bombardement tardif@fr
+	  1 (001%): Grand ës-ciòp
+	  1 (001%): Grecia ai XIII Giochi olimpici invernali
+	  1 (001%): Grecia en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Grecja na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Greece at the 1980 Winter Olympics
+	  1 (001%): Grekland i olympiska vinterspelen 1980
+	  1 (001%): Griekenland op de Olympische Winterspelen 1980
+	  1 (001%): Grousst Bombardement@lb
+	  1 (001%): Großes Bombardement
+	  1 (001%): Grèce aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Grécia nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Gurutzadak@eu
+	  1 (001%): Görögország az 1980. évi téli olimpiai játékokon
+	  1 (001%): Haiti ai Giochi della XXV Olimpiade
+	  1 (001%): Haiti at the 1992 Summer Olympics
+	  1 (001%): Haiti az 1992. évi nyári olimpiai játékokon
+	  1 (001%): Haiti i olympiska sommarspelen 1992
+	  1 (001%): Haiti na Letnich Igrzyskach Olimpijskich 1992@pl
+	  1 (001%): Haiti nos Jogos Olímpicos de Verão de 1992@pt
+	  1 (001%): Haiti under Sommer-OL 1992
+	  1 (001%): Halifax Explosion@en-x-simple
+	  1 (001%): Halifax explosion
+	  1 (001%): Halifax-Explosion
+	  1 (001%): Halifaxexplosionen
+	  1 (001%): Halifaxin räjähdysonnettomuus
+	  1 (001%): Halifaxský výbuch
+	  1 (001%): Hata@tr
+	  1 (001%): Hatun t'uqyay@qu
+	  1 (001%): Haçly ýörişler@tk
+	  1 (001%): Haçlı Seferleri@tr
+	  1 (001%): Haïti op de Olympische Zomerspelen 1992
+	  1 (001%): Hellas under Vinter-OL 1980
+	  1 (001%): Hiện tượng
+	  1 (001%): Holandia na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Hollandia az 1980. évi téli olimpiai játékokon
+	  1 (001%): Honduras ai Giochi della XXV Olimpiade
+	  1 (001%): Honduras at the 1992 Summer Olympics
+	  1 (001%): Honduras az 1992. évi nyári olimpiai játékokon
+	  1 (001%): Honduras i olympiska sommarspelen 1992
+	  1 (001%): Honduras na Letnich Igrzyskach Olimpijskich 1992@pl
+	  1 (001%): Honduras nos Jogos Olímpicos de Verão de 1992@pt
+	  1 (001%): Honduras under Sommer-OL 1992
+	  1 (001%): Horror en Amityville
+	  1 (001%): Hoé-sio@nan
+	  1 (001%): Huōi-căi@cdo
+	  1 (001%): Hân-bú-kì po̍k-hoat@nan
+	  1 (001%): IJsland op de Olympische Winterspelen 1980
+	  1 (001%): Iceland at the 1980 Winter Olympics
+	  1 (001%): Ildebrann
+	  1 (001%): Ilmiö
+	  1 (001%): Implasyon
+	  1 (001%): Incendi
+	  1 (001%): Incendio
+	  1 (001%): Incendiu
+	  1 (001%): Incidente de Mayerling@pt
+	  1 (001%): Incidente del vómito de George W. Bush
+	  1 (001%): Incêndio@pt
+	  1 (001%): Incêndio@pt-br
+	  1 (001%): Inflacijski svemir@hr
+	  1 (001%): Inflació còsmica
+	  1 (001%): Inflación Cosmica@an
+	  1 (001%): Inflacja kosmologiczna@pl
+	  1 (001%): Inflasi kosmik@jv
+	  1 (001%): Inflasi@id
+	  1 (001%): Inflatie
+	  1 (001%): Inflation
+	  1 (001%): Inflation cosmic@ia
+	  1 (001%): Inflation@en-x-simple
+	  1 (001%): Inflazione
+	  1 (001%): Inflação cósmica@pt
+	  1 (001%): Inflačný vesmír
+	  1 (001%): Inflație cosmică
+	  1 (001%): Infliacija@lt
+	  1 (001%): Intenso bombardamento tardivo
+	  1 (001%): Intenso bombardeio tardio@pt
+	  1 (001%): Intronisation de Willem-Alexander des Pays-Bas@fr
+	  1 (001%): Investiture of Willem-Alexander
+	  1 (001%): Island under Vinter-OL 1980
+	  1 (001%): Islanda ai XIII Giochi olimpici invernali
+	  1 (001%): Islande aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Islandia en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Islandia na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Islândia nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Israel at the 1998 Winter Olympics
+	  1 (001%): Israel en los Juegos Olímpicos de Nagano 1998
+	  1 (001%): Israel nos Jogos Olímpicos de Inverno de 1998@pt
+	  1 (001%): Israel under Vinter-OL 1998
+	  1 (001%): Israele ai XVIII Giochi olimpici invernali
+	  1 (001%): Israël aux Jeux olympiques d'hiver de 1998@fr
+	  1 (001%): Israël op de Olympische Winterspelen 1998
+	  1 (001%): Isus u domu Marte i Marije
+	  1 (001%): Italia ai XIII Giochi olimpici invernali
+	  1 (001%): Italia en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Italia under Vinter-OL 1980
+	  1 (001%): Italie aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Italien i olympiska vinterspelen 1980
+	  1 (001%): Italië op de Olympische Winterspelen 1980
+	  1 (001%): Italy at the 1980 Winter Olympics
+	  1 (001%): Itália nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Itálie na Zimních olympijských hrách 1980
+	  1 (001%): Iugoslávia nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Izland az 1980. évi téli olimpiai játékokon
+	  1 (001%): Izrael az 1998. évi téli olimpiai játékokon
+	  1 (001%): Izrael na Zimowych Igrzyskach Olimpijskich 1998@pl
+	  1 (001%): Japan at the 1980 Winter Olympics
+	  1 (001%): Japan op de Olympische Winterspelen 1980
+	  1 (001%): Japan under Vinter-OL 1980
+	  1 (001%): Japon aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Japonia na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Japonsko na Zimních olympijských hrách 1980
+	  1 (001%): Japán az 1980. évi téli olimpiai játékokon
+	  1 (001%): Japão nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Japón en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Jesus at the home of Martha and Mary
+	  1 (001%): Jesus na casa de Marta e Maria@pt
+	  1 (001%): Jeux olympiques d'été de 1992 / participants@fr
+	  1 (001%): Joegoslavië op de Olympische Winterspelen 1980
+	  1 (001%): Jugoslavia ai XIII Giochi olimpici invernali
+	  1 (001%): Jugoslavia under Vinter-OL 1980
+	  1 (001%): Jugoslavien i olympiska vinterspelen 1980
+	  1 (001%): Jugoslavija na Zimskih olimpijskih igrah 1980
+	  1 (001%): Jugoszlávia az 1980. évi téli olimpiai játékokon
+	  1 (001%): Kambrická exploze
+	  1 (001%): Kambrická explózia
+	  1 (001%): Kambrijska eksplozija
+	  1 (001%): Kambrikauden lajiräjähdys
+	  1 (001%): Kambriska explosionen
+	  1 (001%): Kambriske Eksplosion
+	  1 (001%): Kambriumi robbanás
+	  1 (001%): Kambriyen patlaması@tr
+	  1 (001%): Kambro sprogimas@lt
+	  1 (001%): Kanada az 1980. évi téli olimpiai játékokon
+	  1 (001%): Kanada na Zimních olympijských hrách 1980
+	  1 (001%): Kanada na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Katta portlash
+	  1 (001%): Kebakaran@ms
+	  1 (001%): Kembri partlayışı
+	  1 (001%): Keresztes háborúk
+	  1 (001%): Kerpasan@ms
+	  1 (001%): Kina i olympiska vinterspelen 1980
+	  1 (001%): Kina under Vinter-OL 1980
+	  1 (001%): Klaida@lt
+	  1 (001%): Kneppelfreed
+	  1 (001%): Kneppelfreed@fr
+	  1 (001%): Kneppelfreed@frr
+	  1 (001%): Kockázat
+	  1 (001%): Konsekracija
+	  1 (001%): Konsekracja@pl
+	  1 (001%): Konsekrado
+	  1 (001%): Konsekration
+	  1 (001%): Korea Południowa na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Korruptionsskandal
+	  1 (001%): Korstog
+	  1 (001%): Korståg
+	  1 (001%): Korventenn@br
+	  1 (001%): Kosminen inflaatio
+	  1 (001%): Kosmička inflacija@bs
+	  1 (001%): Kreuzzug
+	  1 (001%): Kristus i Martas och Marias hus
+	  1 (001%): Krituliai@lt
+	  1 (001%): Križarske vojne
+	  1 (001%): Križarski ratovi
+	  1 (001%): Križarski ratovi@hr
+	  1 (001%): Križiacka výprava
+	  1 (001%): Kroaziadegoù@br
+	  1 (001%): Krossferðir
+	  1 (001%): Krosstog
+	  1 (001%): Krstaški ratovi@bs
+	  1 (001%): Krucjata@pl
+	  1 (001%): Krucmilitoj
+	  1 (001%): Kruco-milito@io
+	  1 (001%): Kruistog@af
+	  1 (001%): Krusada
+	  1 (001%): Krusada@war
+	  1 (001%): Krusatas@lad
+	  1 (001%): Krusta kari@lv
+	  1 (001%): Kruustochtn@vls
+	  1 (001%): Kruċjata
+	  1 (001%): Kryqëzatat@sq
+	  1 (001%): Krytuli
+	  1 (001%): Kryžiaus žygiai@lt
+	  1 (001%): Krústocht
+	  1 (001%): Krüüztog@nds
+	  1 (001%): Krėtolē@sgs
+	  1 (001%): Krīžiaus žīgē@sgs
+	  1 (001%): Kuil Sikh di Wisconsin diserang 2012@ms
+	  1 (001%): Kypros under Vinter-OL 1980
+	  1 (001%): Kypros under Vinter-OL 1998
+	  1 (001%): Késői nagy bombázás
+	  1 (001%): Kína az 1980. évi téli olimpiai játékokon
+	  1 (001%): Křížové výpravy
+	  1 (001%): La séparation forcée@fr
+	  1 (001%): Late Heavy Bombardment
+	  1 (001%): Lebanon at the 1980 Winter Olympics
+	  1 (001%): Ledakan Dahsyat@id
+	  1 (001%): Ledakan RFA Bedenham@id
+	  1 (001%): Lengyelország az 1980. évi téli olimpiai játékokon
+	  1 (001%): Letupan Besar@ms
+	  1 (001%): Letupan Halifax@ms
+	  1 (001%): Letusan Kambrium@id
+	  1 (001%): Liban aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Liban na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Libano ai XIII Giochi olimpici invernali
+	  1 (001%): Libanon az 1980. évi téli olimpiai játékokon
+	  1 (001%): Libanon i olympiska vinterspelen 1980
+	  1 (001%): Libanon op de Olympische Winterspelen 1980
+	  1 (001%): Libanon under Vinter-OL 1980
+	  1 (001%): Liberation of Andreas Baader
+	  1 (001%): Lielais sprādziens@lv
+	  1 (001%): Loppukilpailu
+	  1 (001%): Líbano en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Líbano nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): MacAlpin's treason
+	  1 (001%): MacAlpins forræderi
+	  1 (001%): Macedonia ai XVIII Giochi olimpici invernali
+	  1 (001%): Macedonia at the 1998 Winter Olympics
+	  1 (001%): Macedonia at the 1998 Winter Olympics@en-gb
+	  1 (001%): Macedonia na Zimowych Igrzyskach Olimpijskich 1998@pl
+	  1 (001%): Macedonië op de Olympische Winterspelen 1998
+	  1 (001%): Macedónia az 1998. évi téli olimpiai játékokon
+	  1 (001%): Macédoine aux Jeux olympiques d'hiver de 1998@fr
+	  1 (001%): Mahaa dhamaka@hif
+	  1 (001%): Makedonia under Vinter-OL 1998
+	  1 (001%): Malaking Pagsabog
+	  1 (001%): Marcowe pole@pl
+	  1 (001%): Marele bombardament târziu
+	  1 (001%): Maru Mats@vro
+	  1 (001%): Maru@vro
+	  1 (001%): Mayerling Incident
+	  1 (001%): Mayerlingdramaet
+	  1 (001%): Mayerlingdramat
+	  1 (001%): Mayerlingin tapaus
+	  1 (001%): Mga Krusada
+	  1 (001%): Miklihvellur
+	  1 (001%): Mlipuko mkuu@sw
+	  1 (001%): Modificación
+	  1 (001%): Mongolia ai XIII Giochi olimpici invernali
+	  1 (001%): Mongolia at the 1980 Winter Olympics
+	  1 (001%): Mongolia en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Mongolia na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Mongolia under Vinter-OL 1980
+	  1 (001%): Mongolie aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Mongoliet i olympiska vinterspelen 1980
+	  1 (001%): Mongolië op de Olympische Winterspelen 1980
+	  1 (001%): Mongólia az 1980. évi téli olimpiai játékokon
+	  1 (001%): Mongólia nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Montreal Kazığı@tr
+	  1 (001%): Montreal Screwjob
+	  1 (001%): Montreal Screwjob@fr
+	  1 (001%): Montreal Screwjob@pt
+	  1 (001%): Montreal screwjob
+	  1 (001%): Mudança@pt
+	  1 (001%): Muutumine@et
+	  1 (001%): Män jäne qubılıs@kk-latn
+	  1 (001%): Napaka
+	  1 (001%): Nasjonalsosialistenes bokbrenning
+	  1 (001%): Natsi Almaniädä kitaplarnı yandıru@tt
+	  1 (001%): Naufrage de l'Arctic@fr
+	  1 (001%): Nazi book burnings
+	  1 (001%): Nazi book burnings@en-gb
+	  1 (001%): Nazisternes bogbrænding
+	  1 (001%): Nedbør
+	  1 (001%): Nederbörd
+	  1 (001%): Nederland op de Olympische Winterspelen 1980
+	  1 (001%): Nederland under Vinter-OL 1980
+	  1 (001%): Neerslag@af
+	  1 (001%): Netherlands at the 1980 Winter Olympics
+	  1 (001%): Niederschlag
+	  1 (001%): Niemcy na Zimowych Igrzyskach Olimpijskich 1998@pl
+	  1 (001%): Nixte@ku
+	  1 (001%): Nizozemsko na Zimních olympijských hrách 1980
+	  1 (001%): Njè Ághá Jésu@ig
+	  1 (001%): Nokrišņi@lv
+	  1 (001%): Noorwegen op de Olympische Winterspelen 1980
+	  1 (001%): Norge i olympiska vinterspelen 1980
+	  1 (001%): Norge under Vinter-OL 1980
+	  1 (001%): Norsko na Zimních olympijských hrách 1980
+	  1 (001%): Noruega en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Noruega nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Norvegia ai XIII Giochi olimpici invernali
+	  1 (001%): Norvège aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Norvégia az 1980. évi téli olimpiai játékokon
+	  1 (001%): Norway at the 1980 Winter Olympics
+	  1 (001%): Norwegia na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Németország az 1998. évi téli olimpiai játékokon
+	  1 (001%): Německo na Zimních olympijských hrách 1998
+	  1 (001%): Nổ súng tại tòa nhà Quốc hội Canada 2014
+	  1 (001%): OV line
+	  1 (001%): OV-Reihe
+	  1 (001%): Oak Creekin ammuskelu
+	  1 (001%): Oborina@hr
+	  1 (001%): Oerknal
+	  1 (001%): Oerknal@af
+	  1 (001%): Oktoberstormen 2013
+	  1 (001%): Olaszország az 1980. évi téli olimpiai játékokon
+	  1 (001%): Ollphléasc@ga
+	  1 (001%): Oluja
+	  1 (001%): Oluja@bs
+	  1 (001%): Oluja@hr
+	  1 (001%): Olympijský park na Letné
+	  1 (001%): Olympische Winterspiele 1998/Teilnehmer@de-ch
+	  1 (001%): Onsdagsaudiens
+	  1 (001%): Oorknall@nds
+	  1 (001%): Oostenrijk op de Olympische Winterspelen 1980
+	  1 (001%): Oostenrijk op de Olympische Winterspelen 1998
+	  1 (001%): Opad atmosferyczny@pl
+	  1 (001%): Opasnost@bs
+	  1 (001%): Origem da Lua@pt
+	  1 (001%): Origin of the Moon
+	  1 (001%): Orkan Christian
+	  1 (001%): Orkán Christian
+	  1 (001%): Ottawako tiroketa@eu
+	  1 (001%): Oudra@sgs
+	  1 (001%): Padavina@bs
+	  1 (001%): Padavine
+	  1 (001%): Paesi Bassi ai XIII Giochi olimpici invernali
+	  1 (001%): Payback
+	  1 (001%): Payback (2014)@tr
+	  1 (001%): Payback 2014
+	  1 (001%): Payback@fr
+	  1 (001%): Payback@pt
+	  1 (001%): Pays-Bas aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Países Baixos nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Países Bajos en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Pengeboman Berat Akhir@id
+	  1 (001%): Perang Salib@id
+	  1 (001%): Perang Salib@jv
+	  1 (001%): Perang Salib@ms
+	  1 (001%): Phaenomenon@la
+	  1 (001%): Phenomenon@en-x-simple
+	  1 (001%): Phenomenon@gv
+	  1 (001%): Phänomen
+	  1 (001%): Phénomène@fr
+	  1 (001%): Pirmoji Marinidų dinastijos krizė@lt
+	  1 (001%): Pojav
+	  1 (001%): Pojava
+	  1 (001%): Pojava@hr
+	  1 (001%): Poland at the 1980 Winter Olympics
+	  1 (001%): Polen i olympiska vinterspelen 1980
+	  1 (001%): Polen op de Olympische Winterspelen 1980
+	  1 (001%): Polen under Vinter-OL 1980
+	  1 (001%): Politische Konferenz
+	  1 (001%): Pologne aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Polonia ai XIII Giochi olimpici invernali
+	  1 (001%): Polonia en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Polska na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Polônia nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Pozdní velké bombardování
+	  1 (001%): Požar
+	  1 (001%): Požar@bs
+	  1 (001%): Požar@hr
+	  1 (001%): Požiar
+	  1 (001%): Požár
+	  1 (001%): Praecipitatio@la
+	  1 (001%): Prapok
+	  1 (001%): Precipitació atmosfèrica
+	  1 (001%): Precipitación
+	  1 (001%): Precipitation@en-x-simple
+	  1 (001%): Precipitação@pt
+	  1 (001%): Precipitaĵo
+	  1 (001%): Precipitație
+	  1 (001%): Première éclipse mérinide@fr
+	  1 (001%): Presentación
+	  1 (001%): Presentasi@id
+	  1 (001%): Presentazione
+	  1 (001%): Presipitasi@id
+	  1 (001%): Prezentace
+	  1 (001%): Prezentacija
+	  1 (001%): Prezentacija@lt
+	  1 (001%): Prezentacja@pl
+	  1 (001%): Prezipitazio@eu
+	  1 (001%): Procella@la
+	  1 (001%): Précipitation@fr
+	  1 (001%): Pucnjava na Parliament Hillu
+	  1 (001%): Queima de livros@pt
+	  1 (001%): Queima de livros@pt-br
+	  1 (001%): Quema de libros por los nazis
+	  1 (001%): Quiyahuātl@nah
+	  1 (001%): Rakousko na Zimních olympijských hrách 1980
+	  1 (001%): Rakousko na Zimních olympijských hrách 1998
+	  1 (001%): Referat
+	  1 (001%): Repubblica Dominicana ai Giochi della XXV Olimpiade
+	  1 (001%): Republika Federalna Niemiec na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Republika Makedonija na Zimskim olimpijskim igrama 1998.
+	  1 (001%): Republika Południowej Afryki na Zimowych Igrzyskach Olimpijskich 1998@pl
+	  1 (001%): República Dominicana en los Juegos Olímpicos de Verano de 1992
+	  1 (001%): República Dominicana nos Jogos Olímpicos de Verão de 1992@pt
+	  1 (001%): República da Macedônia nos Jogos Olímpicos de Inverno de 1998@pt
+	  1 (001%): República da Macedônia nos Jogos Olímpicos de Inverno de 1998@pt-br
+	  1 (001%): Revolta de Loja
+	  1 (001%): Ribut@ms
+	  1 (001%): Riesgo
+	  1 (001%): Risc
+	  1 (001%): Risgo@an
+	  1 (001%): Risico
+	  1 (001%): Risiko
+	  1 (001%): Risiko@af
+	  1 (001%): Risiko@id
+	  1 (001%): Risiko@ms
+	  1 (001%): Risiko@nds
+	  1 (001%): Risk
+	  1 (001%): Risk@en-x-simple
+	  1 (001%): Risk@et
+	  1 (001%): Risk@tr
+	  1 (001%): Riski
+	  1 (001%): Risko
+	  1 (001%): Risks@lv
+	  1 (001%): Risque@fr
+	  1 (001%): Ristiretket
+	  1 (001%): Ristisõda@vro
+	  1 (001%): Ristisõjad@et
+	  1 (001%): Rizik
+	  1 (001%): Rizik@hr
+	  1 (001%): Rizika@lt
+	  1 (001%): Riziko
+	  1 (001%): Roemenië op de Olympische Winterspelen 1980
+	  1 (001%): Romania ai XIII Giochi olimpici invernali
+	  1 (001%): Romania at the 1980 Winter Olympics
+	  1 (001%): Romania under Vinter-OL 1980
+	  1 (001%): Románia az 1980. évi téli olimpiai játékokon
+	  1 (001%): România la Jocurile Olimpice de iarnă din 1980
+	  1 (001%): Romênia nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Roumanie aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Rumania en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Rumunia na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Ryzyko@pl
+	  1 (001%): Rìsicu
+	  1 (001%): Rủi ro
+	  1 (001%): SFR Jugosławii na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): SS Arctic disaster
+	  1 (001%): Sadanta
+	  1 (001%): Sademed@et
+	  1 (001%): Salib yurishi
+	  1 (001%): Scandale de corruption@fr
+	  1 (001%): Schießerei am Parliament Hill in Ottawa
+	  1 (001%): Screwjob di Montréal
+	  1 (001%): Seferên Xaçperestan@ku
+	  1 (001%): Segundo viaje de Colón
+	  1 (001%): Sena tunga bombardemanget
+	  1 (001%): September som aldrig tog slut
+	  1 (001%): Septiembre Eterno
+	  1 (001%): Settembre Eterno
+	  1 (001%): Sewate
+	  1 (001%): Si̍p-jī-kun@nan
+	  1 (001%): Skolmassakern i Baku 2009
+	  1 (001%): South Africa at the 1998 Winter Olympics
+	  1 (001%): South Korea at the 1980 Winter Olympics
+	  1 (001%): Spojené státy americké na Zimních olympijských hrách 1980
+	  1 (001%): Sprengingin mikla í Halifax
+	  1 (001%): Srážky
+	  1 (001%): St Jude storm
+	  1 (001%): Stagnation
+	  1 (001%): Stany Zjednoczone na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Stati Uniti d'America ai XIII Giochi olimpici invernali
+	  1 (001%): Stoirm@ga
+	  1 (001%): Storm
+	  1 (001%): Storm@af
+	  1 (001%): Storm@en-x-simple
+	  1 (001%): Stormen Simone
+	  1 (001%): Sturm
+	  1 (001%): Sturm van 28 oktober 2013@zea
+	  1 (001%): Sublevación de Loja
+	  1 (001%): Sudafrica ai XVIII Giochi olimpici invernali
+	  1 (001%): Sudáfrica en los Juegos Olímpicos de Nagano 1998
+	  1 (001%): Suomi talviolympialaisissa 1980
+	  1 (001%): Suppression
+	  1 (001%): Sute@eu
+	  1 (001%): Suur Pauk@et
+	  1 (001%): Suécia após a Grande Guerra do Norte@pt
+	  1 (001%): Sydafrika i olympiska vinterspelen 1998
+	  1 (001%): Sydkorea i olympiska vinterspelen 1980
+	  1 (001%): Sztorm@pl
+	  1 (001%): Sør-Afrika under Vinter-OL 1998
+	  1 (001%): Sør-Korea under Vinter-OL 1980
+	  1 (001%): Səlib yürüşləri
+	  1 (001%): Tempesta
+	  1 (001%): Tempèsta
+	  1 (001%): Tendance (sociologie)@fr
+	  1 (001%): Tendencia (moda)
+	  1 (001%): Teoría del Big Bang
+	  1 (001%): Teoría del Big Bang@ext
+	  1 (001%): Tergaty wětš@dsb
+	  1 (001%): Teyori big-bang
+	  1 (001%): Thảm sát Học viện Dầu mỏ Azerbaijan
+	  1 (001%): Thập tự chinh
+	  1 (001%): Timpesta
+	  1 (001%): Tiroteios em 2014 na Parliament Hill, Ottawa@pt
+	  1 (001%): Tiroteios em 2014 na Parliament Hill, Ottawa@pt-br
+	  1 (001%): Tiroteo de Virginia Tech
+	  1 (001%): Tiroteo en Academia estatal de petróleo de Azerbaiyán
+	  1 (001%): Tiroteo en templo sij de Wisconsin en 2012
+	  1 (001%): Torm@et
+	  1 (001%): Tormenta
+	  1 (001%): Toā-phek-le̍k@nan
+	  1 (001%): Traición de Montreal
+	  1 (001%): Trend
+	  1 (001%): Tuerie de Courcelles@fr
+	  1 (001%): Tufan
+	  1 (001%): Tulekahju@et
+	  1 (001%): Tyskland under Vinter-OL 1998
+	  1 (001%): Täre yawları@tt
+	  1 (001%): Täwekel@kk-latn
+	  1 (001%): Täwekel@kk-tr
+	  1 (001%): USA under Vinter-OL 1980
+	  1 (001%): Udienza generale
+	  1 (001%): Ugunsgrēks@lv
+	  1 (001%): Uly partlama@tk
+	  1 (001%): United States at the 1980 Winter Olympics
+	  1 (001%): Urknall
+	  1 (001%): Urknall@gsw
+	  1 (001%): Urknall@lb
+	  1 (001%): Urknoi@bar
+	  1 (001%): Urmamuq yakukuna@qu
+	  1 (001%): Usimbishaji@sw
+	  1 (001%): Uurknal
+	  1 (001%): Vapauden aika
+	  1 (001%): Veliki prasak
+	  1 (001%): Veliki prasak@bs
+	  1 (001%): Veliki prasak@hr
+	  1 (001%): Velký třesk
+	  1 (001%): Venezuela ai XVIII Giochi olimpici invernali
+	  1 (001%): Venezuela at the 1998 Winter Olympics
+	  1 (001%): Venezuela aux Jeux olympiques d'hiver de 1998@fr
+	  1 (001%): Venezuela az 1998. évi téli olimpiai játékokon
+	  1 (001%): Venezuela en los Juegos Olímpicos de Nagano 1998
+	  1 (001%): Venezuela i olympiska vinterspelen 1998
+	  1 (001%): Venezuela nos Jogos Olímpicos de Inverno de 1998@pt
+	  1 (001%): Venezuela op de Olympische Winterspelen 1998
+	  1 (001%): Venezuela under Vinter-OL 1998
+	  1 (001%): Verenigde Staten op de Olympische Winterspelen 1980
+	  1 (001%): Veränderung
+	  1 (001%): Vest-Tyskland under Vinter-OL 1980
+	  1 (001%): Veľký tresk
+	  1 (001%): Viga@et
+	  1 (001%): Vigsel
+	  1 (001%): Vita za Misalaba@sw
+	  1 (001%): Vētra@lv
+	  1 (001%): Vėlyvasis kosminis bombardavimas@lt
+	  1 (001%): Vụ Nổ Lớn
+	  1 (001%): Vụ nổ Halifax
+	  1 (001%): WWE Payback 2014
+	  1 (001%): Wakfu@sw
+	  1 (001%): Wenezuela na Zimowych Igrzyskach Olimpijskich 1998@pl
+	  1 (001%): West Germany at the 1980 Winter Olympics
+	  1 (001%): Wichor@hsb
+	  1 (001%): Wieczny wrzesień@pl
+	  1 (001%): Wielki Wybuch@pl
+	  1 (001%): Wielkie Bombardowanie@pl
+	  1 (001%): Wisconsin Sikh temple shooting
+	  1 (001%): Wisconsin Sikh temple shooting@en-gb
+	  1 (001%): World Cup 2006: Zinedine Zidane won the Golden Ball award
+	  1 (001%): Włochy na Zimowych Igrzyskach Olimpijskich 1980@pl
+	  1 (001%): Xarey jóoñe@wo
+	  1 (001%): Y Croesgadau
+	  1 (001%): Yangın@tr
+	  1 (001%): Yağış@tr
+	  1 (001%): Yhdysvallat talviolympialaisissa 1980
+	  1 (001%): Yougoslavie aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Yugoslavia at the 1980 Winter Olympics
+	  1 (001%): Yugoslavia en los Juegos Olímpicos de Lake Placid 1980
+	  1 (001%): Zabluda@hr
+	  1 (001%): Zamach na Jeana Jaurèsa@pl
+	  1 (001%): Zrážky
+	  1 (001%): Zuid-Afrika op de Olympische Winterspelen 1998
+	  1 (001%): Zuid-Korea op de Olympische Winterspelen 1980
+	  1 (001%): Zwangstrennung
+	  1 (001%): Zwischenfall N317
+	  1 (001%): Zwischenfall N317@fr
+	  1 (001%): Západní Německo na Zimních olympijských hrách 1980
+	  1 (001%): affaire d'Amityville@fr
+	  1 (001%): alkuräjähdys
+	  1 (001%): ascenso al poder de Adolf Hitler
+	  1 (001%): audiencja generalna@pl
+	  1 (001%): badai@id
+	  1 (001%): bagio
+	  1 (001%): brand
+	  1 (001%): champ de mars@fr
+	  1 (001%): change
+	  1 (001%): changement@fr
+	  1 (001%): conflagration
+	  1 (001%): consecrate
+	  1 (001%): consecratie
+	  1 (001%): consecration
+	  1 (001%): consécration@fr
+	  1 (001%): crise des ventes@fr
+	  1 (001%): croisades@fr
+	  1 (001%): crusades
+	  1 (001%): dilution de l'huile@fr
+	  1 (001%): erreur@fr
+	  1 (001%): error
+	  1 (001%): errore
+	  1 (001%): esplosione cambriana
+	  1 (001%): explosion of the RFA Bedenham
+	  1 (001%): expulsion des Jésuites@fr
+	  1 (001%): fenomeen
+	  1 (001%): fenomeno
+	  1 (001%): fenomén
+	  1 (001%): final
+	  1 (001%): finale
+	  1 (001%): finale@fr
+	  1 (001%): finòminu
+	  1 (001%): forced separation
+	  1 (001%): fout
+	  1 (001%): fusillade au parlement d'Ottawa de 2014@fr
+	  1 (001%): fusillade d'Oak Creek@fr
+	  1 (001%): fırtına@tr
+	  1 (001%): greška
+	  1 (001%): incendie@fr
+	  1 (001%): inflace
+	  1 (001%): inflacija
+	  1 (001%): inflación cósmica
+	  1 (001%): inflation
+	  1 (001%): inflation cosmique@fr
+	  1 (001%): kambrische Explosion
+	  1 (001%): kosmisk inflasjon
+	  1 (001%): kruistocht
+	  1 (001%): myrsky
+	  1 (001%): neerslag
+	  1 (001%): oerknal
+	  1 (001%): oil dilution
+	  1 (001%): overstrain
+	  1 (001%): papal general audience
+	  1 (001%): parādība@lv
+	  1 (001%): passation de pouvoir entre Albert II et Philippe de Belgique@fr
+	  1 (001%): payback 2014
+	  1 (001%): phenomenon
+	  1 (001%): phenomenon@sco
+	  1 (001%): phình to vũ trụ
+	  1 (001%): political conference
+	  1 (001%): politička konferencija
+	  1 (001%): pożar@pl
+	  1 (001%): praeksplodo
+	  1 (001%): precipitation
+	  1 (001%): precipitazione
+	  1 (001%): presentatie
+	  1 (001%): presentation
+	  1 (001%): pricipitazzioni atmusfèrica
+	  1 (001%): rischio
+	  1 (001%): rise of hilter@hi
+	  1 (001%): risk
+	  1 (001%): rébellion Bundy@fr
+	  1 (001%): sales crisis
+	  1 (001%): septembre éternel@fr
+	  1 (001%): stagnation
+	  1 (001%): stagnation@fr
+	  1 (001%): storm
+	  1 (001%): storm van 28 oktober 2013
+	  1 (001%): storm@sco
+	  1 (001%): tempesta
+	  1 (001%): tempestade@pt
+	  1 (001%): tempête Christian@fr
+	  1 (001%): tempête@fr
+	  1 (001%): tormenta
+	  1 (001%): trahison de MacAlpin@fr
+	  1 (001%): trend
+	  1 (001%): troonswisseling in België
+	  1 (001%): troonswisseling in Nederland 2013
+	  1 (001%): trop grande sollicitation@fr
+	  1 (001%): tulipalo
+	  1 (001%): vadal
+	  1 (001%): zjawisko@pl
+	  1 (001%): África do Sul nos Jogos Olímpicos de Inverno de 1998@pt
+	  1 (001%): Álgobávkkeheapmi@se
+	  1 (001%): Áustria nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Áustria nos Jogos Olímpicos de Inverno de 1998@pt
+	  1 (001%): Äquatorialplatte
+	  1 (001%): Ère de la Liberté@fr
+	  1 (001%): États-Unis aux Jeux olympiques d'hiver de 1980@fr
+	  1 (001%): Évasion d'Andreas Baader@fr
+	  1 (001%): Ìjì
+	  1 (001%): Óveður
+	  1 (001%): Ölverdünnung
+	  1 (001%): Österrike i olympiska vinterspelen 1980
+	  1 (001%): Österrike i olympiska vinterspelen 1998
+	  1 (001%): Østerrike under Vinter-OL 1980
+	  1 (001%): Østerrike under Vinter-OL 1998
+	  1 (001%): Úrkoma
+	  1 (001%): Überforderung
+	  1 (001%): Überstrahlung
+	  1 (001%): Überstrahlung@fr
+	  1 (001%): Überwallung
+	  1 (001%): Überwallung@fr
+	  1 (001%): Đại hội Đức Mẹ La Vang
+	  1 (001%): ősrobbanás
+	  1 (001%): Ŝanĝo
+	  1 (001%): Ŝtormo
+	  1 (001%): Şablon:Error@ku
+	  1 (001%): Έκρηξη στο Χάλιφαξ@el
+	  1 (001%): Θύελλα@el
+	  1 (001%): Λάθος@el
+	  1 (001%): Μεγάλη έκρηξη@el
+	  1 (001%): Σταυροφορίες@el
+	  1 (001%): Υετός@el
+	  1 (001%): καύση βιβλίων από τους Ναζί@el
+	  1 (001%): κοσμική διαστολή@el
+	  1 (001%): φαινόμενο@el
+	  1 (001%): Інфляцыйная мадэль Сусвету
+	  1 (001%): Інфляція
+	  1 (001%): Југославија на Зимским олимпијским играма 1980.@sr
+	  1 (001%): Австралия на зимних Олимпийских играх 1980
+	  1 (001%): Австрия на зимних Олимпийских играх 1980
+	  1 (001%): Австрия на зимних Олимпийских играх 1998
+	  1 (001%): Австрія на зимових Олімпійських іграх 1980
+	  1 (001%): Австрія на зимових Олімпійських іграх 1998
+	  1 (001%): Атмасферныя ападкі
+	  1 (001%): Атмосфералық жауын-шашын@kk
+	  1 (001%): Атмосферные осадки
+	  1 (001%): Атмосферні опади
+	  1 (001%): Барбадос на летних Олимпийских играх 1992
+	  1 (001%): Белиз на летних Олимпийских играх 1992
+	  1 (001%): Болгария на зимних Олимпийских играх 1980
+	  1 (001%): Болгарія на зимових Олімпійських іграх 1980
+	  1 (001%): Большой взрыв
+	  1 (001%): Бура
+	  1 (001%): Бура@be-tarask
+	  1 (001%): Буря
+	  1 (001%): Буря@bg
+	  1 (001%): Бінґ Бенґ@rue
+	  1 (001%): Валеж@bg
+	  1 (001%): Велики прасак@sr
+	  1 (001%): Велики прасак@sr-cyrl
+	  1 (001%): Великий вибух
+	  1 (001%): Венесуэла на зимних Олимпийских играх 1998
+	  1 (001%): Венецуела на Зимским олимпијским играма 1998.@sr
+	  1 (001%): Вердень прыть@myv
+	  1 (001%): Вечният септември@bg
+	  1 (001%): Вечный сентябрь
+	  1 (001%): Взривът в Халифакс@bg
+	  1 (001%): Взрыв в Галифаксе
+	  1 (001%): Воздушны опады@rue
+	  1 (001%): Вялікі выбух
+	  1 (001%): Вялікі выбух@be-tarask
+	  1 (001%): Вічний вересень
+	  1 (001%): Гаити на летних Олимпийских играх 1992
+	  1 (001%): Германия на зимних Олимпийских играх 1998
+	  1 (001%): Големата експлозија
+	  1 (001%): Гондурас на летних Олимпийских играх 1992
+	  1 (001%): Греция на зимних Олимпийских играх 1980
+	  1 (001%): Греція на зимових Олімпійських іграх 1980
+	  1 (001%): Грчка на Зимским олимпијским играма 1980.@sr
+	  1 (001%): Давыл@tt
+	  1 (001%): Дауыл@kk
+	  1 (001%): Доминиканская Республика на летних Олимпийских играх 1992
+	  1 (001%): Епоха Свободи
+	  1 (001%): Загалмайтанай аян дайн@bxr
+	  1 (001%): Загалмайтны аян дайн@mn
+	  1 (001%): Зур Шартлау@tt
+	  1 (001%): Израиль на зимних Олимпийских играх 1998
+	  1 (001%): Исландия на зимних Олимпийских играх 1980
+	  1 (001%): Италия на зимних Олимпийских играх 1980
+	  1 (001%): Их Тэсрэлт@mn
+	  1 (001%): Йоккха эккхар@ce
+	  1 (001%): Камбријумска експлозија@sr
+	  1 (001%): Канада на Зимским олимпијским играма 1980.@sr
+	  1 (001%): Канада на зимних Олимпийских играх 1980
+	  1 (001%): Кембрийский взрыв
+	  1 (001%): Кембрійський вибух
+	  1 (001%): Кипар на Зимским олимпијским играма 1980.@sr
+	  1 (001%): Кипар на Зимским олимпијским играма 1998.@sr
+	  1 (001%): Кипр на зимних Олимпийских играх 1980
+	  1 (001%): Кипр на зимних Олимпийских играх 1998
+	  1 (001%): Китай на зимних Олимпийских играх 1980
+	  1 (001%): Космос инфляцийĕ
+	  1 (001%): Крест жорықтары@kk
+	  1 (001%): Крестовые походы
+	  1 (001%): Крсташки ратови@sr
+	  1 (001%): Крстоносни војни
+	  1 (001%): Кръстоносен поход@bg
+	  1 (001%): Крыжовыя паходы
+	  1 (001%): Крыжовыя паходы@be-tarask
+	  1 (001%): Къуаншэ@kbd
+	  1 (001%): Либан на Зимским олимпијским играма 1980.@sr
+	  1 (001%): Ливан на зимних Олимпийских играх 1980
+	  1 (001%): Ліван на зимових Олімпійських іграх 1980
+	  1 (001%): Македония на зимних Олимпийских играх 1998
+	  1 (001%): Македонија на Зимските олимписки игри 1998
+	  1 (001%): Мартовские поля
+	  1 (001%): Массовое убийство в Азербайджанской государственной нефтяной академии
+	  1 (001%): Машиналық қате@kk
+	  1 (001%): Монгол улс 1980 оны Лэйк-Плэсидийн олимпод@mn
+	  1 (001%): Монголия на зимних Олимпийских играх 1980
+	  1 (001%): Мән және құбылыс@kk
+	  1 (001%): Мән және құбылыс@kk-cyrl
+	  1 (001%): Нацистичко спаљивање књига@sr
+	  1 (001%): Невреме
+	  1 (001%): Нидерланды на зимних Олимпийских играх 1980
+	  1 (001%): Норвегия на зимних Олимпийских играх 1980
+	  1 (001%): Нідерланди на зимових Олімпійських іграх 1980
+	  1 (001%): Ошибка
+	  1 (001%): ПАР на зимових Олімпійських іграх 1998
+	  1 (001%): Пажар
+	  1 (001%): Пажар@be-tarask
+	  1 (001%): Памылка
+	  1 (001%): Памылка@be-tarask
+	  1 (001%): Паходжанне Месяца
+	  1 (001%): Пожар
+	  1 (001%): Пожар@bg
+	  1 (001%): Пожар@ce
+	  1 (001%): Пожар@sr-cyrl
+	  1 (001%): Пожежа
+	  1 (001%): Поздняя тяжёлая бомбардировка
+	  1 (001%): Польша на зимних Олимпийских играх 1980
+	  1 (001%): Порно на Садовом кольце Москвы (2010)
+	  1 (001%): Похибка
+	  1 (001%): Презентаций
+	  1 (001%): Презентация
+	  1 (001%): Презентација@sr
+	  1 (001%): Презентација@sr-cyrl
+	  1 (001%): Происхождение Луны
+	  1 (001%): Промена
+	  1 (001%): Пысăк сирпĕнӳ
+	  1 (001%): Пізнє важке бомбардування
+	  1 (001%): Разплата@bg
+	  1 (001%): Република Македонија на Зимским олимпијским играма 1998.@sr
+	  1 (001%): Република Македонија на Зимским олимпијским играма 1998.@sr-cyrl
+	  1 (001%): Республіка Македонія на зимових Олімпійських іграх 1998
+	  1 (001%): Ризик
+	  1 (001%): Ризик@sr-cyrl
+	  1 (001%): Риск
+	  1 (001%): Риск@bg
+	  1 (001%): Румыния на зимних Олимпийских играх 1980
+	  1 (001%): Рызыка
+	  1 (001%): США на зимних Олимпийских играх 1980
+	  1 (001%): Святой Иуда
+	  1 (001%): Силлиэ
+	  1 (001%): Сожжение книг в нацистской Германии
+	  1 (001%): Стральба на Парламенцкім узгорку Атавы
+	  1 (001%): Стрелба по Парламент Хил 2014@bg
+	  1 (001%): Стрельба на Парламентском холме Оттавы
+	  1 (001%): Стрілянина у Бакинській академії
+	  1 (001%): Теория на Големия взрив@bg
+	  1 (001%): Трагедия в Майерлинге
+	  1 (001%): Тәуекел@kk
+	  1 (001%): Тәуекел@kk-cyrl
+	  1 (001%): Тәуекел@kk-kz
+	  1 (001%): Уллу атылыу
+	  1 (001%): ФРГ на зимних Олимпийских играх 1980
+	  1 (001%): Феномен
+	  1 (001%): Феномен@ky
+	  1 (001%): Финал
+	  1 (001%): Финал@kk
+	  1 (001%): Финал@kk-cyrl
+	  1 (001%): Финал@ky
+	  1 (001%): Финляндия на зимних Олимпийских играх 1980
+	  1 (001%): Финска на Зимским олимпијским играма 1980.@sr
+	  1 (001%): Франция на зимних Олимпийских играх 1980
+	  1 (001%): Хашпересрин финар
+	  1 (001%): Хрестовы походы@rue
+	  1 (001%): Хрестові походи
+	  1 (001%): Хур тунадас@mn
+	  1 (001%): ЧӀехи хъиткьинун
+	  1 (001%): Эра свабоды
+	  1 (001%): Эра свободы
+	  1 (001%): Эфиопия на летних Олимпийских играх 1992
+	  1 (001%): ЮАР на зимних Олимпийских играх 1998
+	  1 (001%): Югославия на зимних Олимпийских играх 1980
+	  1 (001%): Южвӱд
+	  1 (001%): Южная Корея на зимних Олимпийских играх 1980
+	  1 (001%): Явление@bg
+	  1 (001%): Япония на зимних Олимпийских играх 1980
+	  1 (001%): врнеж
+	  1 (001%): грешка@sr
+	  1 (001%): грешка@sr-cyrl
+	  1 (001%): изменение
+	  1 (001%): инфлација@sr
+	  1 (001%): инфлација@sr-cyrl
+	  1 (001%): инфляция Вселенной
+	  1 (001%): олуја@sr
+	  1 (001%): осветување
+	  1 (001%): падавина@sr
+	  1 (001%): пожар
+	  1 (001%): пожар@sr
+	  1 (001%): политичка конференција@sr
+	  1 (001%): политичка конференција@sr-cyrl
+	  1 (001%): посвећење@sr
+	  1 (001%): појава
+	  1 (001%): појава@sr
+	  1 (001%): појава@sr-cyrl
+	  1 (001%): презентација
+	  1 (001%): престрелки на Парламентскиот Рид во Отава (2014)
+	  1 (001%): прэзентацыя
+	  1 (001%): ризик@sr
+	  1 (001%): феномен
+	  1 (001%): ширење на вселената
+	  1 (001%): Өрт@kk
+	  1 (001%): Խաչակրաց արշավանքներ
+	  1 (001%): Մեծ Պայթյուն
+	  1 (001%): Մթնոլորտային տեղումներ
+	  1 (001%): Փոթորիկ
+	  1 (001%): Ֆենոմեն
+	  1 (001%): אינפלציה קוסמית
+	  1 (001%): ביג בענג@yi
+	  1 (001%): המפץ הגדול
+	  1 (001%): טויש@yi
+	  1 (001%): מסעי הצלב
+	  1 (001%): מצגת
+	  1 (001%): משקעים
+	  1 (001%): סופה
+	  1 (001%): סיכון
+	  1 (001%): ספטמבר שלא נגמר
+	  1 (001%): פיצוץ הליפקס
+	  1 (001%): פיצוץ קמבריוני
+	  1 (001%): קרייצצוג@yi
+	  1 (001%): שגיאה
+	  1 (001%): שינוי
+	  1 (001%): שריפה
+	  1 (001%): שריפת הספרים בגרמניה הנאצית
+	  1 (001%): תופעה
+	  1 (001%): آتش زدگی@ur
+	  1 (001%): آتش‌سوزی
+	  1 (001%): آخرین بمباران سنگین
+	  1 (001%): آندھی@ur
+	  1 (001%): إطلاق نار في معبد للسيخ في ويسكنسن 2012@ar
+	  1 (001%): الانفجار العظيم@ar
+	  1 (001%): انفجار عظیم@ur
+	  1 (001%): انفجار كامبري@ar
+	  1 (001%): بارندگی
+	  1 (001%): بارندگی@ur
+	  1 (001%): بايباك 2014@ar
+	  1 (001%): بيج بانج@arz
+	  1 (001%): بگ بینگ@pnb
+	  1 (001%): تاۋەكەل@kk-arab
+	  1 (001%): تاۋەكەل@kk-cn
+	  1 (001%): تضخم كوني@ar
+	  1 (001%): تغییر
+	  1 (001%): تورم کیهانی
+	  1 (001%): تەقینەوە گەورەکە@ckb
+	  1 (001%): جنگ‌های صلیبی
+	  1 (001%): حريق@ar
+	  1 (001%): حريقه@arz
+	  1 (001%): حملات صليبية@ar
+	  1 (001%): حملات صليبيه@arz
+	  1 (001%): خطأ@ar
+	  1 (001%): خطا
+	  1 (001%): دیاردە@ckb
+	  1 (001%): ریسک
+	  1 (001%): سەلىپنىڭ شەرققە يۈرۈش قىلىشى@ug
+	  1 (001%): شەڕەکانی خاچپەرستی@ckb
+	  1 (001%): صليبي جګړې@ps
+	  1 (001%): صلیبی جنگاں@pnb
+	  1 (001%): صلیبی جنگیں@ur
+	  1 (001%): طوفان
+	  1 (001%): ظاهرة@ar
+	  1 (001%): عاصفة@ar
+	  1 (001%): عاصفة@ckb
+	  1 (001%): عرض تقديمي@ar
+	  1 (001%): عصر الحرية@ar
+	  1 (001%): فىينال@kk-arab
+	  1 (001%): قصف شديد متأخر@ar
+	  1 (001%): مخاطرة@ar
+	  1 (001%): مه‌بانگ
+	  1 (001%): هطول@ar
+	  1 (001%): وصول هتلر للسلطة@ar
+	  1 (001%): ٴمان جانە قۇبىلىس@kk-arab
+	  1 (001%): پدیده
+	  1 (001%): پی‌بک
+	  1 (001%): کتاب‌سوزان نازی‌ها
+	  1 (001%): आँधी@ne
+	  1 (001%): आदि भीषण बमबारी@hi
+	  1 (001%): कैम्ब्रियाई विस्तार@hi
+	  1 (001%): क्रुसेड
+	  1 (001%): क्रुसेड्स्
+	  1 (001%): चांजे
+	  1 (001%): चांजे@ne
+	  1 (001%): तूफ़ान@hi
+	  1 (001%): त्रुटि@hi
+	  1 (001%): परिघटना@hi
+	  1 (001%): बिग बैंग सिद्धांत@hi
+	  1 (001%): बिग ब्याङ्ग
+	  1 (001%): बिग्-ब्याङ्ग्
+	  1 (001%): महास्फोट
+	  1 (001%): मुद्रास्फीति@hi
+	  1 (001%): वर्षण@hi
+	  1 (001%): वर्षाव
+	  1 (001%): संसद भवन, ओटावा में गोलीबारी २०१४@hi
+	  1 (001%): सलीबी युद्ध@hi
+	  1 (001%): ক্রুসেড
+	  1 (001%): বিগ ব্যাং
+	  1 (001%): মহা বিস্ফোরণ তত্ত্ব
+	  1 (001%): মহাজাগতিক স্ফীতিশীলতা
+	  1 (001%): ਮਹਾਂ ਧਮਾਕਾ@pa
+	  1 (001%): ਵਰਤਾਰਾ@pa
+	  1 (001%): ਸਲੀਬੀ ਜੰਗਾਂ@pa
+	  1 (001%): ଝଡ଼
+	  1 (001%): ବିଗ ବ୍ୟାଙ୍ଗ
+	  1 (001%): இடர்
+	  1 (001%): சிலுவைப் போர்கள்
+	  1 (001%): தோற்றப்பாடு
+	  1 (001%): பெரு வெடிப்புக் கோட்பாடு
+	  1 (001%): பொழிவு
+	  1 (001%): క్రూసేడులు
+	  1 (001%): మహా విస్ఫోటం
+	  1 (001%): ಮಹಾ ಸ್ಪೋಟ
+	  1 (001%): കുരിശുയുദ്ധങ്ങൾ@ml
+	  1 (001%): മഹാവിസ്ഫോടനം@ml
+	  1 (001%): කුරුස යුද්ධ@si
+	  1 (001%): මහා පිපිරුම@si
+	  1 (001%): การพองตัวของจักรวาล@th
+	  1 (001%): ความเสี่ยง@th
+	  1 (001%): บิกแบง@th
+	  1 (001%): ประเทศกรีซในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): ประเทศญี่ปุ่นในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): ประเทศนอร์เวย์ในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): ประเทศบัลแกเรียในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): ประเทศบาร์เบโดสในโอลิมปิกฤดูร้อน 1992@th
+	  1 (001%): ประเทศฝรั่งเศสในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): ประเทศฟินแลนด์ในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): ประเทศออสเตรียในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): ประเทศออสเตรียในโอลิมปิกฤดูหนาว 1998@th
+	  1 (001%): ประเทศออสเตรเลียในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): ประเทศอิตาลีในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): ประเทศเกาหลีใต้ในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): ประเทศเนเธอร์แลนด์ในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): ประเทศเบลีซในโอลิมปิกฤดูร้อน 1992@th
+	  1 (001%): ประเทศเลบานอนในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): ประเทศเวเนซุเอลาในโอลิมปิกฤดูหนาว 1998@th
+	  1 (001%): ประเทศเอธิโอเปียในโอลิมปิกฤดูร้อน 1992@th
+	  1 (001%): ประเทศแคนาดาในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): ประเทศโปแลนด์ในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): ประเทศโรมาเนียในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): พายุ@th
+	  1 (001%): มอนทรีออลสครูว์จ็อบ@th
+	  1 (001%): ยูโกสลาเวียในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): รัฐอิสราเอลในโอลิมปิกฤดูหนาว 1998@th
+	  1 (001%): สงครามครูเสด@th
+	  1 (001%): สหพันธ์สาธารณรัฐเยอรมนีในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): สหพันธ์สาธารณรัฐเยอรมนีในโอลิมปิกฤดูหนาว 1998@th
+	  1 (001%): สหรัฐอเมริกาในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): สาธารณรัฐประชาชนจีนในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): สาธารณรัฐมองโกเลียในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): สาธารณรัฐมาซิโดเนียในโอลิมปิกฤดูหนาว 1998@th
+	  1 (001%): สาธารณรัฐฮอนดูรัสในโอลิมปิกฤดูร้อน 1992@th
+	  1 (001%): สาธารณรัฐเฮติในโอลิมปิกฤดูร้อน 1992@th
+	  1 (001%): สาธารณรัฐแอฟริกาใต้ในโอลิมปิกฤดูหนาว 1998@th
+	  1 (001%): สาธารณรัฐโดมินิกันในโอลิมปิกฤดูร้อน 1992@th
+	  1 (001%): สาธารณรัฐไซปรัสในโอลิมปิกฤดูหนาว 1980@th
+	  1 (001%): สาธารณรัฐไซปรัสในโอลิมปิกฤดูหนาว 1998@th
+	  1 (001%): หยาดน้ำฟ้า@th
+	  1 (001%): เพย์แบ็ค@th
+	  1 (001%): ບິກແບງ@lo
+	  1 (001%): ခရူးဆိတ် စစ်ပွဲများ@my
+	  1 (001%): ატმოსფერული ნალექები
+	  1 (001%): ბარბადოსი 1992 წლის ზაფხულის ოლიმპიურ თამაშებზე
+	  1 (001%): ბელიზი 1992 წლის ზაფხულის ოლიმპიურ თამაშებზე
+	  1 (001%): დიდი აფეთქების თეორია
+	  1 (001%): დომინიკელთა რესპუბლიკა 1992 წლის ზაფხულის ოლიმპიურ თამაშებზე
+	  1 (001%): ეთიოპია 1992 წლის ზაფხულის ოლიმპიურ თამაშებზე
+	  1 (001%): ფენომენი
+	  1 (001%): ქარიშხალი
+	  1 (001%): ხანძარი
+	  1 (001%): ჯვაროსნული ლაშქრობები
+	  1 (001%): ჰაიტი 1992 წლის ზაფხულის ოლიმპიურ თამაშებზე
+	  1 (001%): ჰონდურასი 1992 წლის ზაფხულის ოლიმპიურ თამაშებზე
+	  1 (001%): ᎦᏃᎸᏍᎩ ᎠᎦᏍᎩ
+	  1 (001%): エラー
+	  1 (001%): カンブリア爆発
+	  1 (001%): ナチス・ドイツの焚書
+	  1 (001%): ハリファックス大爆発
+	  1 (001%): ビッグバン
+	  1 (001%): プレゼンテーション
+	  1 (001%): モントリオール事件
+	  1 (001%): リスク
+	  1 (001%): レークプラシッドオリンピック (1980年) 中国選手団
+	  1 (001%): レークプラシッドオリンピック 日本選手団
+	  1 (001%): 决赛@zh-cn
+	  1 (001%): 决赛@zh-hans
+	  1 (001%): 北谷恵祖事件
+	  1 (001%): 北谷惠祖事件
+	  1 (001%): 十字軍
+	  1 (001%): 十字軍東征
+	  1 (001%): 南宋真假帝姬案
+	  1 (001%): 变化
+	  1 (001%): 变化@zh-hans
+	  1 (001%): 哈利法克斯爆炸
+	  1 (001%): 大爆炸
+	  1 (001%): 大爆炸@zh-cn
+	  1 (001%): 大爆炸@zh-hans
+	  1 (001%): 大爆炸@zh-hk
+	  1 (001%): 大爆炸@zh-mo
+	  1 (001%): 大爆炸@zh-tw
+	  1 (001%): 大霹靂
+	  1 (001%): 宇宙のインフレーション
+	  1 (001%): 宇宙大爆炸
+	  1 (001%): 宇宙暴胀
+	  1 (001%): 宇宙暴胀@zh-cn
+	  1 (001%): 宇宙暴胀@zh-hans
+	  1 (001%): 宇宙暴脹
+	  1 (001%): 宇宙暴脹@zh-hk
+	  1 (001%): 宇宙暴脹@zh-tw
+	  1 (001%): 寒武纪大爆发
+	  1 (001%): 嵐
+	  1 (001%): 後期重爆撃期
+	  1 (001%): 後期重轟炸期
+	  1 (001%): 德里克·韋恩·克勞斯之死
+	  1 (001%): 德里克·韋恩·克勞斯之死@zh-hk
+	  1 (001%): 德里克·韦恩·克劳斯之死
+	  1 (001%): 德里克·韦恩·克劳斯之死@zh-hans
+	  1 (001%): 永恒九月
+	  1 (001%): 決勝戦
+	  1 (001%): 決賽
+	  1 (001%): 決賽@zh-hk
+	  1 (001%): 決賽@zh-tw
+	  1 (001%): 火災
+	  1 (001%): 火災@zh-hk
+	  1 (001%): 火災@zh-tw
+	  1 (001%): 火灾
+	  1 (001%): 火灾@zh-cn
+	  1 (001%): 火灾@zh-hans
+	  1 (001%): 火燭
+	  1 (001%): 现象@zh-hans
+	  1 (001%): 現象
+	  1 (001%): 現象@zh-hk
+	  1 (001%): 着火@gan-hans
+	  1 (001%): 简报@zh-hans
+	  1 (001%): 簡報
+	  1 (001%): 簡報@zh-hk
+	  1 (001%): 聖別
+	  1 (001%): 著火@gan
+	  1 (001%): 著火@gan-hant
+	  1 (001%): 變化
+	  1 (001%): 變化@zh-hk
+	  1 (001%): 錯誤
+	  1 (001%): 降水
+	  1 (001%): 降水@gan
+	  1 (001%): 韓寒被質疑造假事件
+	  1 (001%): 韩寒被质疑造假事件
+	  1 (001%): 韩寒被质疑造假事件@zh-hans
+	  1 (001%): 風險
+	  1 (001%): 風險@zh-hk
+	  1 (001%): 風險@zh-tw
+	  1 (001%): 风暴
+	  1 (001%): 风险
+	  1 (001%): 风险@zh-cn
+	  1 (001%): 风险@zh-hans
+	  1 (001%): 강수
+	  1 (001%): 결승전
+	  1 (001%): 급팽창 이론
+	  1 (001%): 몬트리올 스크루잡
+	  1 (001%): 변화
+	  1 (001%): 빅뱅
+	  1 (001%): 스웨덴의 자유 시대
+	  1 (001%): 십자군
+	  1 (001%): 오류
+	  1 (001%): 위험
+	  1 (001%): 캄브리아기의 대폭발
+	  1 (001%): 폭풍
+	  1 (001%): 프레젠테이션
+	  1 (001%): 핼리팩스 대폭발
+	  1 (001%): 현상
+	  1 (001%): 화재
+
+<http://www.wikidata.org/entity/P910c>:
+	 22 (018%): http://www.wikidata.org/entity/Q6540700
+	  7 (006%): http://www.wikidata.org/entity/Q6381001
+	  6 (005%): http://www.wikidata.org/entity/Q6422035
+	  1 (001%): http://www.wikidata.org/entity/Q4925926
+	  1 (001%): http://www.wikidata.org/entity/Q4992738
+	  1 (001%): http://www.wikidata.org/entity/Q5326194
+	  1 (001%): http://www.wikidata.org/entity/Q6158814
+	  1 (001%): http://www.wikidata.org/entity/Q6398965
+	  1 (001%): http://www.wikidata.org/entity/Q7023213
+	  1 (001%): http://www.wikidata.org/entity/Q7139097
+	  1 (001%): http://www.wikidata.org/entity/Q7216276
+	  1 (001%): http://www.wikidata.org/entity/Q8790614
+	  1 (001%): http://www.wikidata.org/entity/Q8796634
+	  1 (001%): http://www.wikidata.org/entity/Q8874546
+	  1 (001%): http://www.wikidata.org/entity/Q8967345
+	  1 (001%): http://www.wikidata.org/entity/Q9041898
+
+<http://www.wikidata.org/entity/P691s>:
+	  1 (001%): http://www.wikidata.org/entity/Q12546SC02A6D22-EF1C-46EA-8462-4F45BFBCE7BF
+
+<http://www.wikidata.org/entity/P935c>:
+	  1 (001%): Wildfire
+
+<http://www.wikidata.org/entity/P18s>:
+	  1 (001%): http://www.wikidata.org/entity/Q1001539SF190B696-E9E5-4257-8E27-91F70C9C0BF5
+	  1 (001%): http://www.wikidata.org/entity/Q1031729S5169DBBE-FEE5-49EE-9CA0-DED335C2E76F
+	  1 (001%): http://www.wikidata.org/entity/Q1037707S5DF4AFE1-B0D4-4FA4-B703-105D400142CA
+	  1 (001%): http://www.wikidata.org/entity/Q1040901S6B103C4E-DE6B-4D43-B2B0-CCB29EA4DDD0
+	  1 (001%): http://www.wikidata.org/entity/Q1041217S6C306490-668B-4AF2-AC41-20DB3BF02F23
+	  1 (001%): http://www.wikidata.org/entity/Q1067779S89FF3E27-0060-4D2E-A57E-0C28F0C5F3BE
+	  1 (001%): http://www.wikidata.org/entity/Q1076836SA7FAEBA0-C867-4D1F-99E9-149AA5237B23
+	  1 (001%): http://www.wikidata.org/entity/Q1092262S4E841C69-796D-4467-988B-BBBA9E5D2450
+	  1 (001%): http://www.wikidata.org/entity/Q1101833SDB4A78FE-448B-4673-871F-E432BC3D78EC
+	  1 (001%): http://www.wikidata.org/entity/Q1129828S8D0E1282-98BD-403D-BBBE-0F028F932A7E
+	  1 (001%): http://www.wikidata.org/entity/Q1178901S62827052-D699-4330-A7E3-A4DF9DE6C076
+	  1 (001%): http://www.wikidata.org/entity/Q1190469SB6F570FA-D7DC-40CD-AA2F-FF419FCE57BA
+	  1 (001%): http://www.wikidata.org/entity/Q128735S629BF741-DEF0-49BE-A2E8-E316419F517D
+	  1 (001%): http://www.wikidata.org/entity/Q141922S1BD57392-E40B-4289-BE5A-5FC65160D38D
+	  1 (001%): http://www.wikidata.org/entity/Q147297S9112A94E-27A8-4971-AAF2-475ABEB2288F
+	  1 (001%): http://www.wikidata.org/entity/Q240517S50DCF85B-5406-401D-86EE-AB05730680FE
+	  1 (001%): http://www.wikidata.org/entity/Q263156SCF789475-DAF9-4A56-B77F-950D01AE3BDF
+	  1 (001%): http://www.wikidata.org/entity/Q2666070S2C05B8E9-AFFD-4E32-AEF4-E5C3F4859882
+	  1 (001%): http://www.wikidata.org/entity/Q437067S3E57F84C-9362-41B2-A1E1-C9A043AB8BE3
+	  1 (001%): http://www.wikidata.org/entity/Q485657S1A058810-EE44-4D53-8EAF-FE6966A77AF1
+	  1 (001%): http://www.wikidata.org/entity/Q502073SD215205B-790A-43C4-BC8A-F0FAC43D5C54
+	  1 (001%): http://www.wikidata.org/entity/Q590770SFF5106F8-5E2C-404E-A0EA-A3EAA142B414
+	  1 (001%): http://www.wikidata.org/entity/Q653684S381A0933-B90A-4E72-84EE-B8CD56000AE6
+	  1 (001%): http://www.wikidata.org/entity/Q669999S4F188ACC-EF66-4F24-96C7-8AD7C850FFE0
+	  1 (001%): http://www.wikidata.org/entity/Q737997SCAA714CB-36F5-44CE-B17A-C65ACCDDF065
+	  1 (001%): http://www.wikidata.org/entity/Q779606S87016872-7C67-4631-A8D1-72156CD278C3
+	  1 (001%): http://www.wikidata.org/entity/Q781796S87A58B09-134A-41F2-8041-3116A21475F2
+	  1 (001%): http://www.wikidata.org/entity/Q782151S5FFA2955-541B-433F-B9B6-D6F3676DC61E
+	  1 (001%): http://www.wikidata.org/entity/Q783700SA6FEE1E2-48C7-4437-BB69-525825FC4F37
+	  1 (001%): http://www.wikidata.org/entity/Q81054S3323785A-E4FC-4454-9273-D99D86B2004A
+	  1 (001%): http://www.wikidata.org/entity/Q923498S8013319B-2F50-411B-8C7D-55845F40ADE1
+	  1 (001%): http://www.wikidata.org/entity/Q947520SD0658722-504B-429A-96C9-430BB29A0A10
+	  1 (001%): http://www.wikidata.org/entity/Q963876S262CE586-DE50-4857-86D9-AB16D5F551E2
+
+<http://www.wikidata.org/entity/P349-ndl>:
+	  1 (001%): http://id.ndl.go.jp/auth/entity/00565085
+	  1 (001%): http://id.ndl.go.jp/auth/entity/00569559
+	  1 (001%): http://id.ndl.go.jp/auth/entity/00575168
+	  1 (001%): http://id.ndl.go.jp/auth/entity/00916091
+	  1 (001%): http://id.ndl.go.jp/auth/entity/01055844
+
+<http://www.wikidata.org/entity/P276s>:
+	  1 (001%): http://www.wikidata.org/entity/Q16066981S53507A77-1339-47DF-B94E-76A5541D5D0A
+	  1 (001%): http://www.wikidata.org/entity/Q16066981S99BCB349-DEC5-406B-9E18-7A82D9F7AE3A
+	  1 (001%): http://www.wikidata.org/entity/Q17985830SF24C14B7-665D-4360-9B9D-DC52F3EA6A8B
+	  1 (001%): http://www.wikidata.org/entity/Q18338238S147E0C0D-6FB2-4B20-8D57-941392B29B33
+	  1 (001%): http://www.wikidata.org/entity/Q18338238S283CF324-57F2-4F74-B6E1-54409C3880E5
+	  1 (001%): http://www.wikidata.org/entity/Q2267264SE2481E9C-9A77-4B28-866B-9098C9E4849C
+	  1 (001%): http://www.wikidata.org/entity/Q231663S49896BC3-AF47-4C63-BFA4-11F803066BF5
+	  1 (001%): http://www.wikidata.org/entity/Q244924SE629822E-7CA1-4A44-855C-A0B7BE30016D
+	  1 (001%): http://www.wikidata.org/entity/Q255814SE233614E-F927-4FB9-8F32-096517D7F496
+	  1 (001%): http://www.wikidata.org/entity/Q2581969S2BF2B8DE-2678-4238-8E03-1BEDA7B9D976
+	  1 (001%): http://www.wikidata.org/entity/Q2664822S82CD6158-75A1-4510-81C8-7005C4AF7D96
+	  1 (001%): http://www.wikidata.org/entity/Q2666070S1018ED6B-4F91-48E9-AE62-25F5F1446248
+	  1 (001%): http://www.wikidata.org/entity/Q2666228S9E9E3FA5-3C13-4E02-BB51-1BC1B8BFA700
+	  1 (001%): http://www.wikidata.org/entity/Q28547S9C2046E9-0585-430F-8A1E-A415E7D74BC7
+	  1 (001%): http://www.wikidata.org/entity/Q2866969S023AB320-1EC9-4DAB-8167-F84CD1A77A51
+	  1 (001%): http://www.wikidata.org/entity/Q2866969SB23690A2-F572-471E-9AEB-14AFBE31E70B
+	  1 (001%): http://www.wikidata.org/entity/Q2866969SD4E85961-45A2-41EB-B27E-6C440AF20EED
+	  1 (001%): http://www.wikidata.org/entity/Q297376SFEE56689-E260-415F-9A24-538D4A6050C7
+	  1 (001%): http://www.wikidata.org/entity/Q300742S1E9A09F8-0928-4464-A370-63B7198B4903
+	  1 (001%): http://www.wikidata.org/entity/Q334431S9D5B8240-9AAF-4470-9B15-B76D17184118
+	  1 (001%): http://www.wikidata.org/entity/Q3927614SF6B3156C-7170-4D64-A20A-436ED9715CB2
+	  1 (001%): http://www.wikidata.org/entity/Q409027SF15BDF02-FCCA-4988-BBAE-360C8EB99185
+	  1 (001%): http://www.wikidata.org/entity/Q4373035SCA809A48-B929-4544-9F53-2976301669D6
+	  1 (001%): http://www.wikidata.org/entity/Q502073S2f579bfd-4f4f-7dcf-0fc5-77bfa9049b14
+	  1 (001%): http://www.wikidata.org/entity/Q5850085S18D6534D-00A1-4735-A831-2DF3066F233B
+	  1 (001%): http://www.wikidata.org/entity/Q630339S4D230471-C180-4CC6-83DA-B926B49ACF70
+	  1 (001%): http://www.wikidata.org/entity/Q797443S1A21DE04-186B-4BB5-BA15-A24966BA1A6F
+
+<http://www.wikidata.org/entity/P1120s>:
+	  1 (001%): http://www.wikidata.org/entity/Q502073S5dbaf651-41f2-76bc-ee86-0dd99d86e63d
+
+<http://www.wikidata.org/entity/P585s>:
+	  1 (001%): http://www.wikidata.org/entity/Q15730938Sd0710850-4679-b0c5-2279-a602fb7c53cc
+	  1 (001%): http://www.wikidata.org/entity/Q16066981S39c31fcf-4868-4928-f5ab-9730ddafb276
+	  1 (001%): http://www.wikidata.org/entity/Q17887372S3fb56347-4f2b-ddae-15a0-e08514f79ae4
+	  1 (001%): http://www.wikidata.org/entity/Q18338238S65a30aa7-4b8f-1f75-940c-982d26403482
+	  1 (001%): http://www.wikidata.org/entity/Q244924S4a993795-4f61-7c8b-e933-c8ac92dc703e
+	  1 (001%): http://www.wikidata.org/entity/Q2581969Se755a1ce-425c-94c0-a6e7-6c9dcebcb467
+	  1 (001%): http://www.wikidata.org/entity/Q2664822Sfdc0d2b8-4880-6b40-ec77-88c20b34ed3b
+	  1 (001%): http://www.wikidata.org/entity/Q2666070S03319a02-4613-d233-1902-379d5992933c
+	  1 (001%): http://www.wikidata.org/entity/Q2666228S45a675cc-4cf4-be2d-8bcf-cab1970cae97
+	  1 (001%): http://www.wikidata.org/entity/Q273508Se433e277-445e-f16e-af8b-26e44489a8b1
+	  1 (001%): http://www.wikidata.org/entity/Q28547S3ca8324c-4041-c8d6-a124-95d3aea9a6fc
+	  1 (001%): http://www.wikidata.org/entity/Q2866969S391517df-43df-a4cb-6d80-24aefba3829e
+	  1 (001%): http://www.wikidata.org/entity/Q323Sc2c9dc5b-461d-7812-e1fd-b3001b46c975
+	  1 (001%): http://www.wikidata.org/entity/Q32919Sfe7b072d-4715-6f88-cf25-58a3c6a76003
+	  1 (001%): http://www.wikidata.org/entity/Q4373035S60a59c8c-4e99-f40e-8393-52fff3909cfc
+	  1 (001%): http://www.wikidata.org/entity/Q502073S776b0512-48bd-e6ea-6559-cdfcc5f0ca00
+	  1 (001%): http://www.wikidata.org/entity/Q5540112Sbbc796fb-4341-8f1b-9f3b-050eb4ad5bdd
+	  1 (001%): http://www.wikidata.org/entity/Q5850085Scb5337f4-4644-95b7-7abe-c2e6261b9335
+	  1 (001%): http://www.wikidata.org/entity/Q630339Sd5417e98-4e26-147f-959d-a5978eae01f5
+	  1 (001%): http://www.wikidata.org/entity/Q634913Sedc2af37-40f6-9d4c-62cf-28d73a0be65f
+	  1 (001%): http://www.wikidata.org/entity/Q797443Sc1713b25-4d57-42f0-9597-d74f8b02d602
+
+<http://www.wikidata.org/entity/P921s>:
+	  1 (001%): http://www.wikidata.org/entity/Q17778886Sec99e1b3-4d3c-f054-0709-0270c6424591
+	  1 (001%): http://www.wikidata.org/entity/Q7102486S8693c0c7-4c26-6f0c-af66-a4884fe01c1d
+
+<http://www.wikidata.org/entity/P1036c>:
+	  1 (001%): 523.18
+
+<http://www.wikidata.org/entity/P1339s>:
+	  1 (001%): http://www.wikidata.org/entity/Q502073S43ff3449-47ba-5486-ba9e-29ea4a628b15
+
+<http://www.wikidata.org/entity/P710s>:
+	  1 (001%): http://www.wikidata.org/entity/Q1265155S00b8241e-4977-6112-e2eb-68bee2c40b32
+	  1 (001%): http://www.wikidata.org/entity/Q1265155S21dc9e3c-4093-0d77-9d24-dada2806c3df
+	  1 (001%): http://www.wikidata.org/entity/Q1265155Sc5ceacf1-4dc8-5b8d-1814-cd14ea2c31c1
+	  1 (001%): http://www.wikidata.org/entity/Q17195514Sf61aafb2-45d8-78bc-bfb7-2f1db23ae393
+	  1 (001%): http://www.wikidata.org/entity/Q17195514Sf6aab542-4dab-7fa6-f684-b07d04bd9932
+	  1 (001%): http://www.wikidata.org/entity/Q17778886S51e9c160-43b3-41e8-dcc0-3c27a8f0f960
+	  1 (001%): http://www.wikidata.org/entity/Q17778886S985fb0ca-4040-c3ec-0858-09ba1b7739b0
+	  1 (001%): http://www.wikidata.org/entity/Q17778886Sa2aa116b-45ec-4db0-058a-4864d305b4ce
+	  1 (001%): http://www.wikidata.org/entity/Q18338238Sb8826256-460b-03ac-c690-8ce8f9cb3f89
+	  1 (001%): http://www.wikidata.org/entity/Q18338238Sda6a06ea-4543-5d96-9cad-799396239c46
+	  1 (001%): http://www.wikidata.org/entity/Q244924S72be8aa7-4dc1-5beb-cf39-acd88a8068f1
+	  1 (001%): http://www.wikidata.org/entity/Q2581969S868bedd8-4575-3117-4408-24884bc9c2c6
+	  1 (001%): http://www.wikidata.org/entity/Q2664822S6df06f7b-4971-55e9-fbaa-53a0c0ae0a8a
+	  1 (001%): http://www.wikidata.org/entity/Q2666070Sb38c5df0-4570-f993-d58d-916a66356fd1
+	  1 (001%): http://www.wikidata.org/entity/Q2666228Sa933f67b-4f50-83e5-2860-cecf1df12a8d
+	  1 (001%): http://www.wikidata.org/entity/Q502073S1f814599-4278-f8fc-0196-11de784fa171
+	  1 (001%): http://www.wikidata.org/entity/Q502073S2a13c012-4696-52e5-b936-d95ffd7b4a49
+	  1 (001%): http://www.wikidata.org/entity/Q5540112S78ea55d5-4395-227f-f3f9-102967f87066
+	  1 (001%): http://www.wikidata.org/entity/Q5540112S7a6ed0ef-442f-81d1-b3f4-b38971dd965b
+	  1 (001%): http://www.wikidata.org/entity/Q5850085Sb2a0397e-488e-f5aa-ae0a-a7b3f039c852
+	  1 (001%): http://www.wikidata.org/entity/Q630339Sf2c56970-4686-d987-7dc6-f768a78b4495
+	  1 (001%): http://www.wikidata.org/entity/Q797443S24460c6d-4f17-15a5-8f76-926745d96c96
+	  1 (001%): http://www.wikidata.org/entity/Q797443S4c26eece-400b-8b53-c12d-468f19b84005
+	  1 (001%): http://www.wikidata.org/entity/Q797443S5e2c82a2-4329-de3f-aedd-2b89b658667c
+	  1 (001%): http://www.wikidata.org/entity/Q797443S753e9ffd-4f76-349c-998e-6787654f513d
+	  1 (001%): http://www.wikidata.org/entity/Q797443Sbfa84839-4dec-5ff0-0b77-fa4b23c840ec
+	  1 (001%): http://www.wikidata.org/entity/Q797443Sc41d15f5-4580-da07-d23e-1f22423ae418
+
+<http://schema.org/description>:
+	 22 (018%): partecipazione alle Olimpiadi invernali del 1980
+	  7 (006%): partecipazione alle Olimpiadi invernali del 1998
+	  6 (005%): partecipazione alle Olimpiadi del 1992
+	  2 (002%): Teilnehmerstaat: Zypern
+	  2 (002%): Teilnehmerstaat: Österreich
+	  2 (002%): participación de este país en unos juegos olímpicos
+	  1 (001%): "Aktion wider den undeutschen Geist" durch die Nationalsozialisten
+	  1 (001%): 13 October 1944, military event
+	  1 (001%): 2013 European storm
+	  1 (001%): 2014
+	  1 (001%): Amercian shootout
+	  1 (001%): An infamous professional wrestling event
+	  1 (001%): Beginn des Universums
+	  1 (001%): Ereignis mit der Möglichkeit negativer Auswirkungen
+	  1 (001%): German term: a photographic effect
+	  1 (001%): German term: the automatic closure of the wounds of a tree
+	  1 (001%): Gesamtheit von Anforderungen, zu deren erfolgreichen Bewältigung man nicht in der Lage ist
+	  1 (001%): Geschehnisse rund um den Main Event der Survivor Series 1997
+	  1 (001%): Instrument zur Beschreibung von Veränderungen und Strömungen in allen Bereichen der Gesellschaft
+	  1 (001%): L'événement avec la possibilité d'effets négatifs@fr
+	  1 (001%): Le non-respect d'une exigence@fr
+	  1 (001%): L’explosion cambrienne (il y a entre 542 et 530 Ma) grande diversification des espèces animales, végétales et bactériennes@fr
+	  1 (001%): Nichterfüllung einer Anforderung
+	  1 (001%): Phase extrem rascher Expansion des Universums
+	  1 (001%): Portion of the Cambrian Period during which life vastly diversified
+	  1 (001%): Réunion des titulaires de charges politiques, qui parle de certains sujets@fr
+	  1 (001%): Schadfeuer
+	  1 (001%): Starkwindereignis
+	  1 (001%): Teilnehmerstaat Jugoslawien
+	  1 (001%): Teilnehmerstaat Libanon
+	  1 (001%): Teilnehmerstaat Mongolei
+	  1 (001%): Teilnehmerstaat: Australien
+	  1 (001%): Teilnehmerstaat: BRD
+	  1 (001%): Teilnehmerstaat: Bulgarien
+	  1 (001%): Teilnehmerstaat: Chinesische Volksrepublik
+	  1 (001%): Teilnehmerstaat: Deutschland
+	  1 (001%): Teilnehmerstaat: Finnland
+	  1 (001%): Teilnehmerstaat: Frankreich
+	  1 (001%): Teilnehmerstaat: Griechenland
+	  1 (001%): Teilnehmerstaat: Island
+	  1 (001%): Teilnehmerstaat: Israel
+	  1 (001%): Teilnehmerstaat: Italien
+	  1 (001%): Teilnehmerstaat: Japan
+	  1 (001%): Teilnehmerstaat: Kanada
+	  1 (001%): Teilnehmerstaat: Mazedonien
+	  1 (001%): Teilnehmerstaat: Niederlande
+	  1 (001%): Teilnehmerstaat: Norwegen
+	  1 (001%): Teilnehmerstaat: Polen
+	  1 (001%): Teilnehmerstaat: Rumänien
+	  1 (001%): Teilnehmerstaat: Südafrika
+	  1 (001%): Teilnehmerstaat: Südkorea
+	  1 (001%): Teilnehmerstaat: Venezuela
+	  1 (001%): Teilnehmerstaat: Vereinigte Staaten von Amerika
+	  1 (001%): There is {{PLURAL:1|a constraint|constraints}} violation for {{PLURAL:1|description|descriptions}} "Payback 2014 - ეს არ..." for {{PLURAL:1|language code|language codes}} "ka".
+	  1 (001%): Ti teoria a ti law-ang idi ket napudot, napusek ken nangrugrugi a dimakkel
+	  1 (001%): Vorfall in den Niederlanden im November 1951
+	  1 (001%): Wasser, das in flüssiger oder fester Form auf die Erde fällt
+	  1 (001%): Wikimedia-Begriffsklärungsseite
+	  1 (001%): Wikinews article
+	  1 (001%): Zusammentreffen von politischen Amtsträgern, wo über bestimmte Themen dabattiert wird
+	  1 (001%): a change in density of the air, which generates a reflection or deflection of the sound
+	  1 (001%): a public run in Hamburg
+	  1 (001%): a scandal, which is about corruption
+	  1 (001%): a term of vehicle technology
+	  1 (001%): action consistant à rendre sacré@fr
+	  1 (001%): alkuräjähdysteorian mukainen maailmankaikkeuden syntytapahtuma, jossa se alkoi laajentua äärettömän kuumasta ja tiheästä pisteestä
+	  1 (001%): an economic crisis, where the sale of goods is suddenly less
+	  1 (001%): an event (general audience) which took place in Vatican City every Wednesday
+	  1 (001%): an event of the Bundeswehr in Afghanistan
+	  1 (001%): any disturbed state of an astronomical body's atmosphere
+	  1 (001%): aparición repentina de organismos macroscópicos multicelulares complejos en los inicios del periodo Cámbrico
+	  1 (001%): assassinat politique en -353@fr
+	  1 (001%): assemblée franque se tenant en mars puis en mai@fr
+	  1 (001%): atmosfeer
+	  1 (001%): beschreibt Prozesse, Ereignisse oder Handlungen, welche vom Status Quo abweichen
+	  1 (001%): beschreibt den Erhalt des Status Quo und ein nicht vorhandenes Wachstum
+	  1 (001%): beschreibt die Partizipation Barbados an den Sommerspielen 1992
+	  1 (001%): beschreibt die Partizipation Honduras an den Sommerspielen 1992
+	  1 (001%): beschreibt die Partizipation von Belize an den Sommerspielen 1992
+	  1 (001%): beschreibt die Partizipation von Haiti an den Sommerspielen 1992
+	  1 (001%): beschreibt die Partizipation von Äthiopien an den Sommerspielen 1992
+	  1 (001%): beschreibt die Teilname Dominikanischen Republik an den Sommerspielen 1992
+	  1 (001%): bezeichnet eine erfolgreiche Eishockey-Sturmreihe der San Jose Sharks
+	  1 (001%): conflit juridique@fr
+	  1 (001%): das selbsttätige Verschließen der Wunden eines Baumes
+	  1 (001%): decision to not to call for strike on 15 April 1921
+	  1 (001%): denotes a successful hockey forward line of the San Jose Sharks
+	  1 (001%): desambiguación de Wikipedia
+	  1 (001%): describes processes, events or actions that deviate from the status quo
+	  1 (001%): describes the maintaining of the status quo and a non-existent growth
+	  1 (001%): describes the participation of Barbados to the Summer Games in 1992
+	  1 (001%): describes the participation of Honduras at the 1992 Summer Olympics
+	  1 (001%): describes the participation of of Belize at the Summer Games in 1992
+	  1 (001%): describes the participation of of Ethiopia at the Summer Games in 1992
+	  1 (001%): describes the participation of of Haiti in the Summer Games in 1992
+	  1 (001%): describes the partizipation of the Dominican Republic at the Summer Games in 1992
+	  1 (001%): development of a video game
+	  1 (001%): deviation from what is correct
+	  1 (001%): die Trennung eines Internetzugangs vonseiten des Internetdienstanbieters (Providers)
+	  1 (001%): décisions prises par les gouvernements de différents pays au XVIIIe siècle pour interdire la Compagnie de Jésus@fr
+	  1 (001%): décrit la participation d'Haïti aux Jeux d'été en 1992@fr
+	  1 (001%): décrit la participation de l'Ethiopie aux Jeux d'été en 1992@fr
+	  1 (001%): décrit la participation de la Barbade pour les Jeux d'été en 1992@fr
+	  1 (001%): décrit la participation de la République dominicaine aux Jeux d'été en 1992@fr
+	  1 (001%): décrit la participation du Belize aux Jeux d'été en 1992@fr
+	  1 (001%): décrit la participation du Honduras aux Jeux d'été en 1992@fr
+	  1 (001%): décrit le maintien du statu quo et une croissance inexistante@fr
+	  1 (001%): décrit les processus, les événements ou actions qui s'écartent du statu quo@fr
+	  1 (001%): ein Begriff der Fahrzeugtechnik
+	  1 (001%): ein Ereignis der Bundeswehr in Afganistan
+	  1 (001%): ein Skandal, wo es um Korruption geht
+	  1 (001%): ein Volkslauf in Hamburg
+	  1 (001%): ein fotografischer Effekt
+	  1 (001%): eine Dichteänderung der Luft, welche eine  Reflexion oder Ablenkung des Schalls erzeugt
+	  1 (001%): eine spezielle Anordnung der Chromosomen während der Zellteilung
+	  1 (001%): eine ökonomische Krise, wo der Absatz einbricht
+	  1 (001%): en nordeuropæisk storm den 27.-28. oktober 2013
+	  1 (001%): event
+	  1 (001%): evento che si tiene ogni mercoledì in Città del Vaticano
+	  1 (001%): evento osservabile
+	  1 (001%): evento paleontologico
+	  1 (001%): events that were the basis of a book
+	  1 (001%): expansión rápida del universo
+	  1 (001%): explosion that occurred in Halifax in 1917
+	  1 (001%): explosion à Halifax en 1917@fr
+	  1 (001%): fatto controverso nella storia del wrestling professionistico moderno
+	  1 (001%): feeling that one can not successfully accomplish a set of requirements
+	  1 (001%): fenómeno meteorológico caracterizado por la coexistencia próxima de dos o más masas de aire de diferentes temperaturas
+	  1 (001%): fenômeno atmosférico marcado por ventos fortes, trovoadas, relâmpagos, raios e chuva@pt
+	  1 (001%): finomenu dî cosi chi' calunu nterra di l'atmusfera, comu nivi, acqua e' rannuli
+	  1 (001%): forma de hidrometeoro que cae de la atmósfera y llega a la superficie terrestre
+	  1 (001%): formal disbanding of a parish
+	  1 (001%): fuoco distruttivo
+	  1 (001%): great and destructive fire
+	  1 (001%): grensida
+	  1 (001%): incident  on 16 November 1951
+	  1 (001%): incidente ocurrido durante una lucha entre Bret Hart y Shawn Michaels por el Campeonato de la World Wrestling Federation
+	  1 (001%): instrument for the description of changes and trends in all sectors of society
+	  1 (001%): invasión naval francesa en el transcurso de la Guerra franco-española (1635-1659)
+	  1 (001%): kosmologie
+	  1 (001%): kosmologisk modell
+	  1 (001%): la séparation de l'accès à Internet de la part du fournisseur de services Internet (ISP)@fr
+	  1 (001%): last game of a competition to decide the winner
+	  1 (001%): les troubles politiques massive dans la ville libre impériale de Aachen en 1786@fr
+	  1 (001%): letzter Bestandteil eines Wettbewerbes
+	  1 (001%): massive political turmoil in the free imperial city of Aachen from 1786 onwards
+	  1 (001%): massiver politischer Aufruhrs in der Freien Reichsstadt Aachen ab 1786
+	  1 (001%): meetings of political office holders to debate certain topics
+	  1 (001%): mehrere Kriege zwischen 1095/99 und dem 13. Jahrhundert
+	  1 (001%): mit den Sinnen wahrnehmbare, abgrenzbare Einheit des Erlebens (Ereignis, empirischer Gegenstand, Naturerscheinung)
+	  1 (001%): modèle cosmologique à l'origine de l'Univers@fr
+	  1 (001%): multiple shooting incident
+	  1 (001%): na cosa chi' succedi e' veni pigghiata a' cunsiddirazzioni
+	  1 (001%): naglo širenje Univerzuma
+	  1 (001%): non giusto o corretto
+	  1 (001%): novērojams notikums@lv
+	  1 (001%): observable occurrence
+	  1 (001%): pagina di disambiguazione di un progetto Wikimedia
+	  1 (001%): participación de dicho país en unos juegos olímpicos
+	  1 (001%): período passado teórico, quando o universo era muito mais quente, denso e estava em rápida expansão@pt-br
+	  1 (001%): phénomène météorologique violent à large échelle@fr
+	  1 (001%): political assassination in -353
+	  1 (001%): potential that a chosen action or activity (including the choice of inaction) will lead to a loss
+	  1 (001%): process of presenting a topic to an audience
+	  1 (001%): product of the condensation of atmospheric water vapour that falls under gravity
+	  1 (001%): proposed evolutionary event in the history of metazoa
+	  1 (001%): prudké rozpínání vesmíru
+	  1 (001%): página de desambiguação de um projeto da Wikimedia@pt
+	  1 (001%): página de desambiguação de um projeto da Wikimedia@pt-br
+	  1 (001%): pèlerinages armés@fr
+	  1 (001%): rapid expansion of the universe
+	  1 (001%): relihioso nga ekspedisionario a gubat a binendisionan babaen ti Papa ken ti Katoliko a Simbaan
+	  1 (001%): rencontre sportive qui décide du vainqueur d'un tournoi@fr
+	  1 (001%): rise of hilter@hi
+	  1 (001%): serie de guerras religiosas
+	  1 (001%): serie di guerre
+	  1 (001%): series of religious expeditionary wars
+	  1 (001%): ship sinking
+	  1 (001%): solemn dedication to a special purpose or service
+	  1 (001%): stato disturbato dell'atmosfera di un corpo celeste
+	  1 (001%): sublevación campesina en Loja, España, el 28 de junio de 1861
+	  1 (001%): suceso de la Guerra Civil Española
+	  1 (001%): svært hurtig utvidelse av universet
+	  1 (001%): teoria che descrive la nascita dell'Universo
+	  1 (001%): teoría científica que explica el origen del universo
+	  1 (001%): terme allemand: la fermeture automatique des blessures d'un arbre@fr
+	  1 (001%): terme allemand: un effet photographique@fr
+	  1 (001%): the separation of Internet access on the part of the Internet service provider (ISP)
+	  1 (001%): theoretical past period when the Universe was much hotter, denser and rapidly expanding
+	  1 (001%): ti aniaman a pannakariro ti kasasaad ti astronomiko nga atmospera ti bagi
+	  1 (001%): trasferimento di acqua dall'atmosfera al suolo
+	  1 (001%): tudományos elmélet, amely szerint a világegyetem egy rendkívül sűrű, forró állapotból fejlődött ki
+	  1 (001%): ultima partita di un torneo sportivo
+	  1 (001%): un changement dans la densité de l'air, ce qui génère une déviation ou la réflexion du son@fr
+	  1 (001%): un ensemble d'exigences qui ne peuvent pas créer avec succès@fr
+	  1 (001%): un scandale, de la corruption@fr
+	  1 (001%): un terme de la technologie des véhicules@fr
+	  1 (001%): un événement de la Bundeswehr en Afghanistan@fr
+	  1 (001%): une course à Hambourg@fr
+	  1 (001%): une crise économique, où la vente de biens est soudain moins@fr
+	  1 (001%): voordracht
+	  1 (001%): vuur
+	  1 (001%): wedstrijd
+	  1 (001%): wind
+	  1 (001%): women's suffrage event on 18 November 1910
+	  1 (001%): événement de l'histoire de l'Écosse@fr
+	  1 (001%): événement historique@fr
+	  1 (001%): środowa audiencja papieska@pl
+	  1 (001%): Финальная игра соревнований.
+	  1 (001%): гипотезы о происхождении естественного спутника Земли
+	  1 (001%): инцидент в Москве
+	  1 (001%): космологическая модель, описывающая раннее развитие Вселенной
+	  1 (001%): наблюдаемое происшествие
+	  1 (001%): нагло ширење Универзума@sr
+	  1 (001%): нагло ширење Универзума@sr-cyrl
+	  1 (001%): процесс (а также события или действия, приводящие к) отклонения от статуса-кво
+	  1 (001%): свечено посветување на нешто за посебна намена или служба
+	  1 (001%): фізико-космологічна теорія, згідно з якою Всесвіт виник із надзвичайно щільного та гарячого стану
+	  1 (001%): תאוריה פיזיקלית
+	  1 (001%): ब्रह्मांड का तेजी से विस्तार@hi
+	  1 (001%): ਅਜੋਕਾ ਪ੍ਰਚੱਲਤ ਬ੍ਰਹਿਮੰਡ-ਵਿਗਿਆਨਕ ਮਾਡਲ ਹੈ ਜੋ ਬ੍ਰਹਿਮੰਡ ਦੇ ਅਗੇਤਰੇ ਵਿਕਾਸ ਉੱਤੇ ਚਾਨਣਾ ਪਾਉਂਦਾ ਹੈ@pa
+	  1 (001%): 宇宙創造時にあったといわれる大爆発
+	  1 (001%): 宇宙誕生初始的現象@zh-tw
+	  1 (001%): 描述宇宙诞生初始条件及其后续演化的宇宙学模型
+	  1 (001%): 描述宇宙诞生初始条件及其后续演化的宇宙学模型@zh-hans
+	  1 (001%): 火による災害
+	  1 (001%): 우주의 처음을 설명하는 우주론 모형으로, 매우 높은 에너지를 가진 작은 물질과 공간이 약 150억 년 전의 거대한 폭발을 통해 우주가 되었다고 보는 이론이다.
+
+<http://www.wikidata.org/entity/P805c>:
+	  1 (001%): http://www.wikidata.org/entity/Q185529
+	  1 (001%): http://www.wikidata.org/entity/Q189447
+	  1 (001%): http://www.wikidata.org/entity/Q244954
+
+<http://www.wikidata.org/entity/P828c>:
+	  1 (001%): http://www.wikidata.org/entity/Q1053432
+
+<http://www.wikidata.org/entity/P276c>:
+	  6 (005%): http://www.wikidata.org/entity/Q1492
+	  1 (001%): http://www.wikidata.org/entity/Q1017
+	  1 (001%): http://www.wikidata.org/entity/Q1055
+	  1 (001%): http://www.wikidata.org/entity/Q10884
+	  1 (001%): http://www.wikidata.org/entity/Q13225804
+	  1 (001%): http://www.wikidata.org/entity/Q1472399
+	  1 (001%): http://www.wikidata.org/entity/Q2091081
+	  1 (001%): http://www.wikidata.org/entity/Q209549
+	  1 (001%): http://www.wikidata.org/entity/Q2363605
+	  1 (001%): http://www.wikidata.org/entity/Q25390
+	  1 (001%): http://www.wikidata.org/entity/Q2932997
+	  1 (001%): http://www.wikidata.org/entity/Q3246744
+	  1 (001%): http://www.wikidata.org/entity/Q34
+	  1 (001%): http://www.wikidata.org/entity/Q40260
+	  1 (001%): http://www.wikidata.org/entity/Q477238
+	  1 (001%): http://www.wikidata.org/entity/Q5062237
+	  1 (001%): http://www.wikidata.org/entity/Q6092240
+	  1 (001%): http://www.wikidata.org/entity/Q64
+	  1 (001%): http://www.wikidata.org/entity/Q7318
+	  1 (001%): http://www.wikidata.org/entity/Q815958
+	  1 (001%): http://www.wikidata.org/entity/Q961888
+	  1 (001%): http://www.wikidata.org/entity/Q986177
+
+<http://www.wikidata.org/entity/P1120c>:
+	  1 (001%): 2000^^http://www.w3.org/2001/XMLSchema#decimal
+
+<http://www.wikidata.org/entity/P61s>:
+	  1 (001%): http://www.wikidata.org/entity/Q273508S8c9e787f-49c7-a284-82bf-035f7a5687f3
+	  1 (001%): http://www.wikidata.org/entity/Q323Sbc04c2e0-4bb0-9ce7-ac5e-51f12046bb07
+
+<http://www.wikidata.org/entity/P585c>:
+	  6 (005%): 1992+01:00^^http://www.w3.org/2001/XMLSchema#gYear
+	  1 (001%): -13798000000^^http://www.w3.org/2001/XMLSchema#gYear
+	  1 (001%): -543000000^^http://www.w3.org/2001/XMLSchema#gYear
+	  1 (001%): 1914-07-31+01:00^^http://www.w3.org/2001/XMLSchema#date
+	  1 (001%): 1917-12-06+01:00^^http://www.w3.org/2001/XMLSchema#date
+	  1 (001%): 1936-08+01:00^^http://www.w3.org/2001/XMLSchema#gYearMonth
+	  1 (001%): 1951-11-16+01:00^^http://www.w3.org/2001/XMLSchema#date
+	  1 (001%): 1970-05-14+01:00^^http://www.w3.org/2001/XMLSchema#date
+	  1 (001%): 1992-01-08+01:00^^http://www.w3.org/2001/XMLSchema#date
+	  1 (001%): 2006-07-10+01:00^^http://www.w3.org/2001/XMLSchema#date
+	  1 (001%): 2009-04-30+01:00^^http://www.w3.org/2001/XMLSchema#date
+	  1 (001%): 2010-01-14+01:00^^http://www.w3.org/2001/XMLSchema#date
+	  1 (001%): 2011-05-18+01:00^^http://www.w3.org/2001/XMLSchema#date
+	  1 (001%): 2014-02+01:00^^http://www.w3.org/2001/XMLSchema#gYearMonth
+	  1 (001%): 2014-10-22+01:00^^http://www.w3.org/2001/XMLSchema#date
+
+<http://www.wikidata.org/entity/P921c>:
+	  1 (001%): http://www.wikidata.org/entity/Q405
+	  1 (001%): http://www.wikidata.org/entity/Q984187
+
+<http://www.wikidata.org/entity/P1036s>:
+	  1 (001%): http://www.wikidata.org/entity/Q323S6d5cb4bd-4f43-9862-32ae-85f72d14978c
+
+<http://www.wikidata.org/entity/P1339c>:
+	  1 (001%): 9000^^http://www.w3.org/2001/XMLSchema#decimal
+
+<http://www.wikidata.org/entity/P710c>:
+	  1 (001%): http://www.wikidata.org/entity/Q105966
+	  1 (001%): http://www.wikidata.org/entity/Q1254602
+	  1 (001%): http://www.wikidata.org/entity/Q1486516
+	  1 (001%): http://www.wikidata.org/entity/Q17780691
+	  1 (001%): http://www.wikidata.org/entity/Q18339800
+	  1 (001%): http://www.wikidata.org/entity/Q18339964
+	  1 (001%): http://www.wikidata.org/entity/Q23505
+	  1 (001%): http://www.wikidata.org/entity/Q315565
+	  1 (001%): http://www.wikidata.org/entity/Q3270658
+	  1 (001%): http://www.wikidata.org/entity/Q456771
+	  1 (001%): http://www.wikidata.org/entity/Q505412
+	  1 (001%): http://www.wikidata.org/entity/Q56010
+	  1 (001%): http://www.wikidata.org/entity/Q69442
+	  1 (001%): http://www.wikidata.org/entity/Q7393843
+	  1 (001%): http://www.wikidata.org/entity/Q7394076
+	  1 (001%): http://www.wikidata.org/entity/Q76543
+	  1 (001%): http://www.wikidata.org/entity/Q76870
+	  1 (001%): http://www.wikidata.org/entity/Q77935
+	  1 (001%): http://www.wikidata.org/entity/Q78200
+	  1 (001%): http://www.wikidata.org/entity/Q82955
+	  1 (001%): http://www.wikidata.org/entity/Q83307
+
+<http://www.wikidata.org/entity/P646-freebase>:
+	  1 (001%): http://rdf.freebase.com/ns/m.0195wm
+	  1 (001%): http://rdf.freebase.com/ns/m.01bfy
+	  1 (001%): http://rdf.freebase.com/ns/m.01m_w
+	  1 (001%): http://rdf.freebase.com/ns/m.02718kr
+	  1 (001%): http://rdf.freebase.com/ns/m.02jq7v
+	  1 (001%): http://rdf.freebase.com/ns/m.02nbxd
+	  1 (001%): http://rdf.freebase.com/ns/m.02x5zmq
+	  1 (001%): http://rdf.freebase.com/ns/m.02y3rj
+	  1 (001%): http://rdf.freebase.com/ns/m.04fgxn
+	  1 (001%): http://rdf.freebase.com/ns/m.04lcnst
+	  1 (001%): http://rdf.freebase.com/ns/m.05zzq8c
+	  1 (001%): http://rdf.freebase.com/ns/m.06d5f
+	  1 (001%): http://rdf.freebase.com/ns/m.06sshb
+	  1 (001%): http://rdf.freebase.com/ns/m.08xnhk
+	  1 (001%): http://rdf.freebase.com/ns/m.0b8gc
+	  1 (001%): http://rdf.freebase.com/ns/m.0c0113k
+	  1 (001%): http://rdf.freebase.com/ns/m.0c0wvx
+	  1 (001%): http://rdf.freebase.com/ns/m.0c1ck
+	  1 (001%): http://rdf.freebase.com/ns/m.0fzbwb
+	  1 (001%): http://rdf.freebase.com/ns/m.0gjyk
+	  1 (001%): http://rdf.freebase.com/ns/m.0kmbjky
+	  1 (001%): http://rdf.freebase.com/ns/m.0z71l
+
+<http://www.wikidata.org/entity/P361c>:
+	 22 (018%): http://www.wikidata.org/entity/Q9652
+	  7 (006%): http://www.wikidata.org/entity/Q9664
+	  5 (004%): http://www.wikidata.org/entity/Q8488
+	  2 (002%): http://www.wikidata.org/entity/Q11663
+	  1 (001%): http://www.wikidata.org/entity/Q1129469
+	  1 (001%): http://www.wikidata.org/entity/Q11452
+	  1 (001%): http://www.wikidata.org/entity/Q1215892
+	  1 (001%): http://www.wikidata.org/entity/Q122131
+	  1 (001%): http://www.wikidata.org/entity/Q159810
+	  1 (001%): http://www.wikidata.org/entity/Q166542
+	  1 (001%): http://www.wikidata.org/entity/Q188909
+	  1 (001%): http://www.wikidata.org/entity/Q206381
+	  1 (001%): http://www.wikidata.org/entity/Q290178
+	  1 (001%): http://www.wikidata.org/entity/Q296162
+	  1 (001%): http://www.wikidata.org/entity/Q319676
+	  1 (001%): http://www.wikidata.org/entity/Q500834
+	  1 (001%): http://www.wikidata.org/entity/Q610018
+	  1 (001%): http://www.wikidata.org/entity/Q617333
+
+<http://www.w3.org/2004/02/skos/core#altLabel>:
+	  1 (001%): 1700-talets sverige
+	  1 (001%): 1980년 동계 올림픽 중국 선수단
+	  1 (001%): 30 aprel 2009-cu il qətliamı
+	  1 (001%): A Era da inflação@pt
+	  1 (001%): Abu Salim Ibrahim@fr
+	  1 (001%): Abu Salim Muhammad@fr
+	  1 (001%): Alemania en los Juegos Olimpicos de Invierno 1998
+	  1 (001%): Alemania en los Juegos Olimpicos de Nagano 1998
+	  1 (001%): Alemania en los Juegos Olímpicos de Invierno 1998
+	  1 (001%): Amityville@fr
+	  1 (001%): Apariencia
+	  1 (001%): Arriesgado
+	  1 (001%): Arruri
+	  1 (001%): Asesinato de Jean Jaures
+	  1 (001%): Assassinat de Jaurès@fr
+	  1 (001%): Atmosférická bouře
+	  1 (001%): Audra@sgs
+	  1 (001%): Audros@lt
+	  1 (001%): Ausnahmeerscheinung
+	  1 (001%): Australie op de Olympische Winterspelen 1980
+	  1 (001%): Austria en los Juegos Olimpicos de Invierno 1998
+	  1 (001%): Austria en los Juegos Olimpicos de Nagano 1998
+	  1 (001%): Austria en los Juegos Olímpicos de Invierno 1998
+	  1 (001%): A급화재
+	  1 (001%): BB
+	  1 (001%): Badai@ms
+	  1 (001%): Bagio
+	  1 (001%): Beira-Rio da Nova Guará@pt
+	  1 (001%): Big Bang
+	  1 (001%): Big Bang theory
+	  1 (001%): Biota Cambriana@pt
+	  1 (001%): Brandbedingungen
+	  1 (001%): Brandfall
+	  1 (001%): Brandkatastrophe
+	  1 (001%): Brann
+	  1 (001%): Brände
+	  1 (001%): Bränder
+	  1 (001%): Bücherverbrennung@pt
+	  1 (001%): B급 화재
+	  1 (001%): Cambiu
+	  1 (001%): Cambrian radiation
+	  1 (001%): Cammiu
+	  1 (001%): Carmen
+	  1 (001%): Change
+	  1 (001%): Christian
+	  1 (001%): Cosmic inflation
+	  1 (001%): Cosmological inflation
+	  1 (001%): Cosmology/Inflation
+	  1 (001%): Cyclone Carmen
+	  1 (001%): Cyclone Christian
+	  1 (001%): Cyclone Simone
+	  1 (001%): Den Kambriske Eksplosion
+	  1 (001%): Den kambriske eksplosjonen
+	  1 (001%): Eksimus@et
+	  1 (001%): Eldsvåda
+	  1 (001%): Ere de la Liberte@fr
+	  1 (001%): Error
+	  1 (001%): Esplosione del Cambriano
+	  1 (001%): Expansiunea universului
+	  1 (001%): Explosion cambrica
+	  1 (001%): Explosion cámbrica
+	  1 (001%): Explosion del Cambrico
+	  1 (001%): Explosion del Cámbrico
+	  1 (001%): Explosion du Cambrien@fr
+	  1 (001%): Explosió càmbrica
+	  1 (001%): Explosió del Cambrià
+	  1 (001%): Explosió del Càmbric
+	  1 (001%): Explosión cambriana
+	  1 (001%): Explosión cambrica
+	  1 (001%): Explosión del Cambrico
+	  1 (001%): Explosión del Cámbrico
+	  1 (001%): Explosão câmbrica@pt
+	  1 (001%): Explosão do Cambriano@pt
+	  1 (001%): Expulsion des jésuites@fr
+	  1 (001%): Extinção de incêndios@pt
+	  1 (001%): Fase inflacionária@pt
+	  1 (001%): Fehlerfall
+	  1 (001%): Fehlerquelle
+	  1 (001%): Fehlfunktion
+	  1 (001%): Feilgrense
+	  1 (001%): Fenomen
+	  1 (001%): Fenomen natural
+	  1 (001%): Fenomen@hr
+	  1 (001%): Fenomen@pl
+	  1 (001%): Fenomena
+	  1 (001%): Fenomeni
+	  1 (001%): Fenomeni fisici
+	  1 (001%): Fenomeni@sq
+	  1 (001%): Fenomenismo
+	  1 (001%): Fenomeno
+	  1 (001%): Fenomenon
+	  1 (001%): Fenòmen
+	  1 (001%): Fenômeno@pt
+	  1 (001%): Fenômenos@pt
+	  1 (001%): Feuergefahr
+	  1 (001%): Feuersbrunst
+	  1 (001%): Final
+	  1 (001%): Finalist
+	  1 (001%): Flathetsproblemet
+	  1 (001%): Frihetstiden
+	  1 (001%): Frihetstiden@pl
+	  1 (001%): Fáze požáru
+	  1 (001%): GRCES Unidos do Parque (Guaratinguetá)@pt
+	  1 (001%): Gabim@sq
+	  1 (001%): Glødebrann
+	  1 (001%): Gran explosión
+	  1 (001%): Grossbrand
+	  1 (001%): Großfeuer
+	  1 (001%): Grundfenomen
+	  1 (001%): Görüngü@tr
+	  1 (001%): Haiti op de Olympische Zomerspelen 1992
+	  1 (001%): Halifax-explosionen
+	  1 (001%): Halifaxská exploze
+	  1 (001%): Hiba
+	  1 (001%): Histoire de la Suède : l'ère de liberté@fr
+	  1 (001%): Histoire de la Suède: L'ère de liberté@fr
+	  1 (001%): Horisontproblemet
+	  1 (001%): Hoé-chai@nan
+	  1 (001%): Husråd ved stormvejr
+	  1 (001%): Hóe-chai@nan
+	  1 (001%): Hóe-sio@nan
+	  1 (001%): Ildebrand
+	  1 (001%): Incendi
+	  1 (001%): Incendios
+	  1 (001%): Incendis
+	  1 (001%): Incidente del vomito
+	  1 (001%): Incidente del vómito
+	  1 (001%): Incêndios@pt
+	  1 (001%): Inflaatio
+	  1 (001%): Inflaatioteoria
+	  1 (001%): Inflacion cosmica
+	  1 (001%): Inflacion cósmica
+	  1 (001%): Inflación cosmológica
+	  1 (001%): Inflacja kosmiczna@pl
+	  1 (001%): Inflasjon
+	  1 (001%): Inflatie-theorie
+	  1 (001%): Inflatietheorie
+	  1 (001%): Inflation
+	  1 (001%): Inflation model
+	  1 (001%): Inflation theory
+	  1 (001%): Inflationary Theory
+	  1 (001%): Inflationary cosmology
+	  1 (001%): Inflationary expansion
+	  1 (001%): Inflationary model
+	  1 (001%): Inflationary models
+	  1 (001%): Inflationary phase
+	  1 (001%): Inflationary universe
+	  1 (001%): Inflationary universe cosmology
+	  1 (001%): Inflationary universe theory
+	  1 (001%): Inflationstheorie
+	  1 (001%): Inflationäres Universum
+	  1 (001%): Inflazione cosmica
+	  1 (001%): Inflaţie cosmică
+	  1 (001%): Inplasyon
+	  1 (001%): Israel op de Olympische Winterspelen 1998
+	  1 (001%): Isus u domu Marije i Marte
+	  1 (001%): Išorinė rizika@lt
+	  1 (001%): Joegoslavie op de Olympische Winterspelen 1980
+	  1 (001%): Jäännösriski
+	  1 (001%): Kambrická explózia života
+	  1 (001%): Kambrien patlaması@tr
+	  1 (001%): Kambrijská exploze
+	  1 (001%): Kambrikauden räjähdys
+	  1 (001%): Kambrin räjähdys
+	  1 (001%): Kambrisk eksplosjon
+	  1 (001%): Kambriska evolutionen
+	  1 (001%): Kambriske eksplosjon
+	  1 (001%): Kambriyum patlaması@tr
+	  1 (001%): Kandela@pap
+	  1 (001%): Kleines Finale
+	  1 (001%): Knuppelvrijdag
+	  1 (001%): Knüppelfreitag
+	  1 (001%): Kosmická inflace
+	  1 (001%): Kosmikong inplasyon
+	  1 (001%): Kosmische Inflation
+	  1 (001%): Kosmische inflatie
+	  1 (001%): Kosmisk inflation
+	  1 (001%): Kosmologická inflace
+	  1 (001%): L'affaire d'Amityville@fr
+	  1 (001%): L'assassinat de Jaurès@fr
+	  1 (001%): LESAG@pt
+	  1 (001%): LHB
+	  1 (001%): Late Heavy Bombardment
+	  1 (001%): Macedonie op de Olympische Winterspelen 1998
+	  1 (001%): Majowe pole@pl
+	  1 (001%): Marija i Marta
+	  1 (001%): Mayerlingdramat 1889
+	  1 (001%): Metaphasenplatte
+	  1 (001%): Mittelbrand
+	  1 (001%): Mongolie op de Olympische Winterspelen 1980
+	  1 (001%): Muutus@et
+	  1 (001%): Nagy Bumm
+	  1 (001%): Nebezpečí
+	  1 (001%): OESG@pt
+	  1 (001%): Ofviðri
+	  1 (001%): Oluje@bs
+	  1 (001%): Onbrandbaar
+	  1 (001%): Phaenomenon
+	  1 (001%): Phenomene@fr
+	  1 (001%): Phänomenon
+	  1 (001%): Phénomène social@fr
+	  1 (001%): Phénoménale@fr
+	  1 (001%): Platthetsproblemet
+	  1 (001%): Polónia nos Jogos Olímpicos de Inverno de 1980@pt
+	  1 (001%): Premiere eclipse Merinide@fr
+	  1 (001%): Première éclipse Mérinide@fr
+	  1 (001%): Presentacion
+	  1 (001%): Presentaciones
+	  1 (001%): Prezentacijos@lt
+	  1 (001%): Princesa do Vale@pt
+	  1 (001%): Procellam@la
+	  1 (001%): Productrisico
+	  1 (001%): Põleng@et
+	  1 (001%): Radiasi Kambrium@id
+	  1 (001%): Raju@et
+	  1 (001%): Referent
+	  1 (001%): Resiko@id
+	  1 (001%): Revolución del pan y el queso
+	  1 (001%): Riesgo@an
+	  1 (001%): Riesgos
+	  1 (001%): Rischio operativo
+	  1 (001%): Risiken
+	  1 (001%): Risk
+	  1 (001%): Risk@th
+	  1 (001%): Risques@fr
+	  1 (001%): Roemenie op de Olympische Winterspelen 1980
+	  1 (001%): Rzecz dla nas@pl
+	  1 (001%): Salt evolutiu
+	  1 (001%): Schadensfeuer
+	  1 (001%): Schadfeuer
+	  1 (001%): Schießerei im Parlamentsgebäude Kanadas
+	  1 (001%): Schlacht am Zaailand
+	  1 (001%): Semifinal
+	  1 (001%): Sgarru
+	  1 (001%): Simone
+	  1 (001%): Skolskjutningen i Baku
+	  1 (001%): Slideshow
+	  1 (001%): St. Jude storm
+	  1 (001%): Stipra vētra@lv
+	  1 (001%): Storbrand
+	  1 (001%): Storm
+	  1 (001%): Stormen
+	  1 (001%): Stormen Allan
+	  1 (001%): Stormvejr
+	  1 (001%): Storsegls kuling
+	  1 (001%): Sturmstärke
+	  1 (001%): Surrusca
+	  1 (001%): Sveriges historia: Frihetstiden
+	  1 (001%): Syntax error
+	  1 (001%): Tempestades@pt
+	  1 (001%): Tempestat
+	  1 (001%): Tempeste
+	  1 (001%): Tempestes
+	  1 (001%): Tempete@fr
+	  1 (001%): Tempète@fr
+	  1 (001%): Tempête de pluie@fr
+	  1 (001%): Teoria del universo inflacionario
+	  1 (001%): Teoria dell'inflazione
+	  1 (001%): Teoria inflacionaria
+	  1 (001%): Teoría del universo inflacionario
+	  1 (001%): Teoría inflacionaria
+	  1 (001%): The Crusades
+	  1 (001%): Theoria del inflation@ia
+	  1 (001%): Tiroteo en Academia estatal de petroleo de Azerbaiyan
+	  1 (001%): Tiroteo en Academia estatal de petroleo de Azerbaiyán
+	  1 (001%): Tiroteo en Academia estatal de petróleo de Azerbaiyan
+	  1 (001%): Tormid@et
+	  1 (001%): Trendy@fr
+	  1 (001%): Tuerie du Rognac@fr
+	  1 (001%): Třída požáru
+	  1 (001%): Třídy požárů
+	  1 (001%): Ugnies audra@lt
+	  1 (001%): Ulmebrann
+	  1 (001%): Unidos da Climério Galvão@pt
+	  1 (001%): Unidos da Pires Barbosa@pt
+	  1 (001%): Unidos da Verde e Rosa@pt
+	  1 (001%): Unidos do São Dimas@pt
+	  1 (001%): Univers inflacionari
+	  1 (001%): Univers inflaționist
+	  1 (001%): Universo inflacionario
+	  1 (001%): Vad är en storm
+	  1 (001%): Vapaudenaika
+	  1 (001%): Vendaval@pt
+	  1 (001%): Verkeerd
+	  1 (001%): Verschijnsel
+	  1 (001%): Vidinė rizika@lt
+	  1 (001%): Vintra Olimpiko 1998/Nacia teamo de Germanio
+	  1 (001%): Vėtra@lt
+	  1 (001%): Wintersturm
+	  1 (001%): Wohnhausbrand
+	  1 (001%): Wszechświat inflacyjny@pl
+	  1 (001%): Wybuch kambryjski@pl
+	  1 (001%): big bang
+	  1 (001%): champ de mai@fr
+	  1 (001%): det store smellet
+	  1 (001%): jev
+	  1 (001%): kambrische Artenexplosion
+	  1 (001%): kambrische Radiation
+	  1 (001%): lạm phát vũ trụ
+	  1 (001%): mutation@fr
+	  1 (001%): métamorphose@fr
+	  1 (001%): onthulling
+	  1 (001%): presenteren
+	  1 (001%): pèlerinages@fr
+	  1 (001%): rajuilma
+	  1 (001%): sublevación campesina de Loja
+	  1 (001%): tempestad
+	  1 (001%): teoría de la gran explosión
+	  1 (001%): teoría del Big Bang
+	  1 (001%): tormenta electrica
+	  1 (001%): tormentas
+	  1 (001%): transformation@fr
+	  1 (001%): traîtrise de Scone@fr
+	  1 (001%): Änderung
+	  1 (001%): Època de la inflació
+	  1 (001%): İzah olunmayan fenomen
+	  1 (001%): Ŝtormego
+	  1 (001%): Štorm@dsb
+	  1 (001%): Štormai@lt
+	  1 (001%): Štormas@lt
+	  1 (001%): σφάλμα@el
+	  1 (001%): Большой Взрыв
+	  1 (001%): Галифаксская катастрофа
+	  1 (001%): Горячая вселенная
+	  1 (001%): Гураґан
+	  1 (001%): Инфляционная теория
+	  1 (001%): Инфляционная теория Вселенной
+	  1 (001%): Инфляция Вселенной
+	  1 (001%): Камбријска експлозија@sr
+	  1 (001%): Кембрийская радиация
+	  1 (001%): Космическая инфляция
+	  1 (001%): Космічна інфляція
+	  1 (001%): Майские поля
+	  1 (001%): Македонија на Зимским олимпијским играма 1998.@sr
+	  1 (001%): Мультимедийная презентация
+	  1 (001%): Пожары
+	  1 (001%): Пожежі
+	  1 (001%): Стрельба в бакинском вузе
+	  1 (001%): ТБВ
+	  1 (001%): Теория Большого взрыва
+	  1 (001%): Теория большого взрыва
+	  1 (001%): Теория надувания
+	  1 (001%): Теория раздувающейся Вселенной
+	  1 (001%): Фарда Гадиров
+	  1 (001%): Феномен
+	  1 (001%): Феномен@bg
+	  1 (001%): Феномен@sr
+	  1 (001%): Физичка појава@sr
+	  1 (001%): Физично явление@bg
+	  1 (001%): Шторм
+	  1 (001%): Эра свобод
+	  1 (001%): Явления@bg
+	  1 (001%): феномен
+	  1 (001%): Құбылыстар@kk
+	  1 (001%): אינפלציה קוסמולוגית
+	  1 (001%): אש משתוללת
+	  1 (001%): דליקה
+	  1 (001%): היקום האינפלציוני
+	  1 (001%): היקום התופח
+	  1 (001%): המפץ הקמבריוני
+	  1 (001%): טעות
+	  1 (001%): מפץ קמבריוני
+	  1 (001%): סערה
+	  1 (001%): פרזנטציה
+	  1 (001%): שריפות
+	  1 (001%): תבערה
+	  1 (001%): آتش سوزی
+	  1 (001%): آتشزدگی@ur
+	  1 (001%): أخطاء@ar
+	  1 (001%): اتش سوزی
+	  1 (001%): اتش‌سوزی
+	  1 (001%): اخطا@ar
+	  1 (001%): اخطاء@ar
+	  1 (001%): الاخطاء@ar
+	  1 (001%): التضخم الكوني@ar
+	  1 (001%): الحريق@ar
+	  1 (001%): الخطا@ar
+	  1 (001%): العاصفة@ar
+	  1 (001%): العروض التقديمية@ar
+	  1 (001%): العواصف@ar
+	  1 (001%): المخاطرة@ar
+	  1 (001%): انفجار كمبري@ar
+	  1 (001%): تند باد
+	  1 (001%): تندباد
+	  1 (001%): توفان
+	  1 (001%): حادثه آتش سوزی
+	  1 (001%): حادثه آتش‌سوزی
+	  1 (001%): حادثه اتش‌سوزی
+	  1 (001%): حادثهٔ آتش‌سوزی
+	  1 (001%): حرائق@ar
+	  1 (001%): حریق
+	  1 (001%): خطا@ar
+	  1 (001%): عاصفه@ar
+	  1 (001%): عروض تقديمية@ar
+	  1 (001%): مخطي@ar
+	  1 (001%): يخطي@ar
+	  1 (001%): پدیده ها
+	  1 (001%): कैंब्रियन विस्फोट@hi
+	  1 (001%): தோற்றப்பாடியல்
+	  1 (001%): மெய்ப்பாடு
+	  1 (001%): การพองตัวของเอกภพ@th
+	  1 (001%): ทฤษฎีการพองตัว@th
+	  1 (001%): ทฤษฎีการพองตัวของจักรวาล@th
+	  1 (001%): ทฤษฎีการพองตัวของเอกภพ@th
+	  1 (001%): วาตภัย@th
+	  1 (001%): สลาตัน@th
+	  1 (001%): インフレーション宇宙
+	  1 (001%): インフレーション宇宙論
+	  1 (001%): インフレーション理論
+	  1 (001%): カンブリア大爆発
+	  1 (001%): カンブリア紀の爆発
+	  1 (001%): カンブリア紀大爆発
+	  1 (001%): カンブリア紀爆発
+	  1 (001%): ダウンサイドリスク
+	  1 (001%): ハリファクス大爆発
+	  1 (001%): フェノメノン
+	  1 (001%): プレゼン
+	  1 (001%): リスキー
+	  1 (001%): 危険性
+	  1 (001%): 大火
+	  1 (001%): 大爆炸理论
+	  1 (001%): 大霹雳
+	  1 (001%): 宇宙大爆炸
+	  1 (001%): 宇宙暴漲
+	  1 (001%): 寒武紀大爆發
+	  1 (001%): 寒武紀生物大爆炸
+	  1 (001%): 寒武纪物种大爆发
+	  1 (001%): 寒武纪生命大爆发
+	  1 (001%): 寒武纪生命大爆炸
+	  1 (001%): 暴漲理論
+	  1 (001%): 暴胀模型
+	  1 (001%): 暴胀理论
+	  1 (001%): 暴風雨
+	  1 (001%): 決勝
+	  1 (001%): 滅火
+	  1 (001%): 火事
+	  1 (001%): 火災
+	  1 (001%): 火災@gan
+	  1 (001%): 火災事故
+	  1 (001%): 火警
+	  1 (001%): 现象
+	  1 (001%): 生命の大爆発
+	  1 (001%): 生命大爆发
+	  1 (001%): 生命大爆炸
+	  1 (001%): 简报
+	  1 (001%): 误
+	  1 (001%): 错
+	  1 (001%): 風險
+	  1 (001%): 가스 화재
+	  1 (001%): 가스화재
+	  1 (001%): 급팽창이론
+	  1 (001%): 대폭발 이론
+	  1 (001%): 대화재
+	  1 (001%): 시청각설명회
+	  1 (001%): 우주 인플레이션
+	  1 (001%): 유류 화재
+	  1 (001%): 유류화재
+	  1 (001%): 인플레이션
+	  1 (001%): 인플레이션 이론
+	  1 (001%): 일반 화재
+	  1 (001%): 일반화재
+	  1 (001%): 캄브리아기 대폭발
+	  1 (001%): 폭풍우
+	  1 (001%): 프리젠테이션
+	  1 (001%): 현상 세계
+	  1 (001%): 현상계
+	  1 (001%): 현상세계
+
+<http://www.wikidata.org/entity/P805s>:
+	  1 (001%): http://www.wikidata.org/entity/Q104493Sf10008db-4c58-8bdc-7880-ec88eade9780
+	  1 (001%): http://www.wikidata.org/entity/Q244924S6dc2440d-452d-9d33-a8d0-44fee3d2ff87
+	  1 (001%): http://www.wikidata.org/entity/Q4373035S6c72ae5c-4c85-920c-2df9-d15c5c4e6514
+
+<http://www.wikidata.org/entity/P828s>:
+	  1 (001%): http://www.wikidata.org/entity/Q7102486S2cb5f491-424a-ba28-755c-d33d158b7200
+
+<http://www.wikidata.org/entity/P227s>:
+	  1 (001%): http://www.wikidata.org/entity/Q12546S27087790-D586-4BD6-AEA7-9C55C9C7F069
+	  1 (001%): http://www.wikidata.org/entity/Q323S1A03DB5B-867C-4324-9F5A-7538EC5770D7
+	  1 (001%): http://www.wikidata.org/entity/Q483247S6DD3D225-B0A4-4956-914E-10A418976DBB
+
+<http://www.wikidata.org/entity/P138c>:
+	  1 (001%): http://www.wikidata.org/entity/Q153463
+	  1 (001%): http://www.wikidata.org/entity/Q2464332
+
+<http://www.wikidata.org/entity/P461c>:
+	  1 (001%): http://www.wikidata.org/entity/Q1150070
+	  1 (001%): http://www.wikidata.org/entity/Q1342838
+	  1 (001%): http://www.wikidata.org/entity/Q16294794
+	  1 (001%): http://www.wikidata.org/entity/Q272612
+
+<http://www.wikidata.org/entity/P17c>:
+	  3 (002%): http://www.wikidata.org/entity/Q30
+	  2 (002%): http://www.wikidata.org/entity/Q16
+	  1 (001%): http://www.wikidata.org/entity/Q159
+	  1 (001%): http://www.wikidata.org/entity/Q17
+	  1 (001%): http://www.wikidata.org/entity/Q213
+	  1 (001%): http://www.wikidata.org/entity/Q40
+	  1 (001%): http://www.wikidata.org/entity/Q55
+	  1 (001%): http://www.wikidata.org/entity/Q889
+
+<http://www.wikidata.org/entity/P361s>:
+	  1 (001%): http://www.wikidata.org/entity/Q1001539Sbf94f70a-4772-b406-16b2-5f94841f496a
+	  1 (001%): http://www.wikidata.org/entity/Q1031729S41f7a699-450b-7e83-7ed0-1f0de29cf4de
+	  1 (001%): http://www.wikidata.org/entity/Q1037707S64519fcf-4854-65bf-e09b-66cc0592d661
+	  1 (001%): http://www.wikidata.org/entity/Q1040901Sb3b5e824-4720-c55f-db53-9ecfc5a73df8
+	  1 (001%): http://www.wikidata.org/entity/Q1041217S0786dec9-4fa7-1ebe-9514-37be7181aec9
+	  1 (001%): http://www.wikidata.org/entity/Q1067779Sd4119d6e-4b30-b83d-6cf0-a779e58da1e1
+	  1 (001%): http://www.wikidata.org/entity/Q1076836S57897d3f-40f5-f3aa-4b85-ed87e7e5eeb8
+	  1 (001%): http://www.wikidata.org/entity/Q1092262S41f8ad48-469f-781c-1200-74d8be73d84e
+	  1 (001%): http://www.wikidata.org/entity/Q1101833S1ef0bc97-4749-3c0a-9eda-064563716a2e
+	  1 (001%): http://www.wikidata.org/entity/Q1129828S8b883e43-4791-2ee7-7fa5-ab40e0091cc2
+	  1 (001%): http://www.wikidata.org/entity/Q1178901S06ae98a3-4b2f-9b53-78cb-1f57ca7f13f3
+	  1 (001%): http://www.wikidata.org/entity/Q1190469Se8e543b7-495c-035a-501f-a31c813b7a24
+	  1 (001%): http://www.wikidata.org/entity/Q1265155S040cef56-433d-1609-b3be-b8b983155cf1
+	  1 (001%): http://www.wikidata.org/entity/Q1265155Sd29380b1-41c5-eaca-16cc-7e5e3da39720
+	  1 (001%): http://www.wikidata.org/entity/Q1366722S0911830c-4376-ae3f-c0c2-5b912550fd7d
+	  1 (001%): http://www.wikidata.org/entity/Q1366722S63d0f33f-42ad-a52b-5f29-ad82298a46bd
+	  1 (001%): http://www.wikidata.org/entity/Q141922S969a4c96-4672-7b4d-3005-aba174ec1b9e
+	  1 (001%): http://www.wikidata.org/entity/Q147297S9d980595-4afd-8883-4b5a-4d972bbc994f
+	  1 (001%): http://www.wikidata.org/entity/Q15708364S29dc7c38-4f9d-2586-bf72-d658f10b07cc
+	  1 (001%): http://www.wikidata.org/entity/Q17195514S0c20c05d-4753-65c3-81ec-5c487f21150f
+	  1 (001%): http://www.wikidata.org/entity/Q17195514Sd053b127-435f-e9a0-ac6d-8857bbc0f717
+	  1 (001%): http://www.wikidata.org/entity/Q240517S3707a3c0-46d2-0d01-1277-d260b0482685
+	  1 (001%): http://www.wikidata.org/entity/Q25257SD5BFBED7-49D9-48BC-8AB2-78F169AFDFCF
+	  1 (001%): http://www.wikidata.org/entity/Q255814S429804b9-4835-0d75-eae9-8e1d077c851b
+	  1 (001%): http://www.wikidata.org/entity/Q2581969S6c9e0fbf-4d76-ed63-9ac7-9b00df15c545
+	  1 (001%): http://www.wikidata.org/entity/Q263156S83718922-499f-79fc-7512-d86fdfe2e9dd
+	  1 (001%): http://www.wikidata.org/entity/Q2664822S826890eb-4532-2d84-796b-687e99da4010
+	  1 (001%): http://www.wikidata.org/entity/Q2666070S4dd7fbc7-427a-b022-9c67-eb5f922bbe76
+	  1 (001%): http://www.wikidata.org/entity/Q2666228S30a2c2e7-4f32-fb0b-052f-9b438dcc4c32
+	  1 (001%): http://www.wikidata.org/entity/Q273508S9c1b5455-4310-01c9-ff0a-d1e1b524957c
+	  1 (001%): http://www.wikidata.org/entity/Q323S22e1699d-423b-aed7-8e1c-9ae9f8eaef6c
+	  1 (001%): http://www.wikidata.org/entity/Q331809S6f243df5-4e16-d07d-90e8-4d46c2d2d225
+	  1 (001%): http://www.wikidata.org/entity/Q331809Sf6762b0b-4e75-0163-eff0-17ff74b7ac63
+	  1 (001%): http://www.wikidata.org/entity/Q3927614S6f1c768c-4502-eae2-db2a-50e8e34f3ffa
+	  1 (001%): http://www.wikidata.org/entity/Q437067Sd8eef6c9-44f9-2c96-df13-36552b0b904c
+	  1 (001%): http://www.wikidata.org/entity/Q485657Se2bab7d2-4cc8-9645-1eb6-e74d51fe2863
+	  1 (001%): http://www.wikidata.org/entity/Q5850085Sd6f62bd3-4979-dd71-d2f4-65c14ba8d7a9
+	  1 (001%): http://www.wikidata.org/entity/Q590770S9e3b3934-4615-cf64-f755-53a20d202e22
+	  1 (001%): http://www.wikidata.org/entity/Q630339S9d773ee7-499f-4464-7e44-97a6b3f2a754
+	  1 (001%): http://www.wikidata.org/entity/Q653684Sd2e7e0f1-4c13-c213-a588-73955d033fd8
+	  1 (001%): http://www.wikidata.org/entity/Q669999Sf5dd5a76-4c8c-f9b2-d24e-912b70aa6222
+	  1 (001%): http://www.wikidata.org/entity/Q737997Se0669825-4353-bab5-7cf9-90053702111b
+	  1 (001%): http://www.wikidata.org/entity/Q779606Sec2a3d56-4586-6af9-7819-a3cf291a031f
+	  1 (001%): http://www.wikidata.org/entity/Q781796S5e0922cb-48ba-61be-5714-1b2349b49ad8
+	  1 (001%): http://www.wikidata.org/entity/Q782151Sf49a8a87-4d85-f045-2ee5-f1721cd41c75
+	  1 (001%): http://www.wikidata.org/entity/Q783700S05ade3fa-4442-4162-d011-a7f7548160eb
+	  1 (001%): http://www.wikidata.org/entity/Q81054S07665ca3-4795-da73-3720-691e87915114
+	  1 (001%): http://www.wikidata.org/entity/Q923498Seaebc5e7-43b5-fb77-98ab-01deee2f79ee
+	  1 (001%): http://www.wikidata.org/entity/Q947520S7ca0ae64-4f73-2ecc-8006-936a604b5c74
+	  1 (001%): http://www.wikidata.org/entity/Q963876S9d2c4ef6-425d-c6fa-d2e6-ed2770d661e7
+
+<http://www.wikidata.org/entity/P227c>:
+	  1 (001%): 4073802-4
+	  1 (001%): 4187224-1
+	  1 (001%): 4254910-3
+
+<http://www.wikidata.org/entity/P138s>:
+	  1 (001%): http://www.wikidata.org/entity/Q15107436S2a02851e-411e-a511-c98d-5fbc9d4686c3
+	  1 (001%): http://www.wikidata.org/entity/Q15107436Sc347d634-4e87-14e7-f5f9-e795af12d32f
+
+<http://www.wikidata.org/entity/P461s>:
+	  1 (001%): http://www.wikidata.org/entity/Q1150070Sf9d1b4c7-4c51-abc3-d9b9-4753787acadb
+	  1 (001%): http://www.wikidata.org/entity/Q16294794S6ba27c36-4d5c-a27f-1fe8-6ecc669360b6
+	  1 (001%): http://www.wikidata.org/entity/Q16294794S729bfb29-425b-1398-5eef-a00ec4e33329
+	  1 (001%): http://www.wikidata.org/entity/Q323S4f67540f-4562-8063-41f7-33155295dcfa
+
+<http://www.wikidata.org/entity/P17s>:
+	  1 (001%): http://www.wikidata.org/entity/Q1260137S2B765D10-7C16-48FB-8907-B992E04F1CF2
+	  1 (001%): http://www.wikidata.org/entity/Q1265155Se63b3364-465c-c9ef-b5c5-e39dee51ffe9
+	  1 (001%): http://www.wikidata.org/entity/Q15730938SB7CC03AB-43D0-49BA-AF16-BEFA2CF30F62
+	  1 (001%): http://www.wikidata.org/entity/Q18338238S5267ADBA-7289-4B4E-917B-D3F689DD4E3F
+	  1 (001%): http://www.wikidata.org/entity/Q244924Se5fe477b-4edf-dcf2-1d3a-bd0681c71485
+	  1 (001%): http://www.wikidata.org/entity/Q4373035Sdb198a54-4f59-85ae-4395-0461b6829370
+	  1 (001%): http://www.wikidata.org/entity/Q4761326S30399756-2EA4-4D77-A703-38FD45004071
+	  1 (001%): http://www.wikidata.org/entity/Q502073S3CE66363-33B4-4050-9489-B8E32E278077
+	  1 (001%): http://www.wikidata.org/entity/Q5115471S31EE65AC-2FBE-4F3B-932F-C0E9C696714E
+	  1 (001%): http://www.wikidata.org/entity/Q5540112Sa4800e9e-4cef-a5c7-48cf-f890ecd1c947
+	  1 (001%): http://www.wikidata.org/entity/Q5540112Se1303f10-41eb-6ca8-5195-3bbb4591d06e
+
+

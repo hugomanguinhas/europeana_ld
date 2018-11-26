@@ -1,0 +1,1144 @@
+
+********************************************************************************
+* RESOURCES                                                                    *
+********************************************************************************
+
+Total n. of resources: 1000
+
+
+********************************************************************************
+* PROPERTIES                                                                   *
+********************************************************************************
+* This section lists the properties found for the selected resources.          *
+*                                                                              *
+* Meaning of the columns:                                                      *
+* #1: Number of resources that have at least one instance of this property     *
+* #2: Percentage against the total number of resources                         *
+* #3: The URI of the property                                                  *
+********************************************************************************
+
+Total n. of properties: 151
+
+1000 (100%): http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+1000 (100%): http://www.w3.org/2000/01/rdf-schema#label
+1000 (100%): http://www.wikidata.org/entity/P31c
+1000 (100%): http://www.wikidata.org/entity/P31s
+ 764 (076%): http://schema.org/description
+ 756 (076%): http://www.wikidata.org/entity/P50s
+ 752 (075%): http://www.wikidata.org/entity/P50c
+ 578 (058%): http://www.wikidata.org/entity/P364c
+ 578 (058%): http://www.wikidata.org/entity/P364s
+ 556 (056%): http://www.wikidata.org/entity/P136c
+ 556 (056%): http://www.wikidata.org/entity/P136s
+ 445 (044%): http://www.wikidata.org/entity/P123c
+ 445 (044%): http://www.wikidata.org/entity/P123s
+ 444 (044%): http://www.wikidata.org/entity/P646-freebase
+ 444 (044%): http://www.wikidata.org/entity/P646c
+ 444 (044%): http://www.wikidata.org/entity/P646s
+ 422 (042%): http://www.wikidata.org/entity/P243-oclc
+ 422 (042%): http://www.wikidata.org/entity/P243c
+ 422 (042%): http://www.wikidata.org/entity/P243s
+ 381 (038%): http://www.w3.org/2004/02/skos/core#altLabel
+ 218 (022%): http://www.wikidata.org/entity/P957c
+ 218 (022%): http://www.wikidata.org/entity/P957s
+ 194 (019%): http://www.wikidata.org/entity/P156c
+ 194 (019%): http://www.wikidata.org/entity/P156s
+ 185 (018%): http://www.wikidata.org/entity/P357c
+ 185 (018%): http://www.wikidata.org/entity/P357s
+ 173 (017%): http://www.wikidata.org/entity/P155c
+ 173 (017%): http://www.wikidata.org/entity/P155s
+ 169 (017%): http://www.wikidata.org/entity/P212c
+ 169 (017%): http://www.wikidata.org/entity/P212s
+ 126 (013%): http://www.wikidata.org/entity/P179s
+ 110 (011%): http://www.wikidata.org/entity/P179c
+  81 (008%): http://www.wikidata.org/entity/P495c
+  81 (008%): http://www.wikidata.org/entity/P495s
+  66 (007%): http://www.wikidata.org/entity/P268c
+  66 (007%): http://www.wikidata.org/entity/P268s
+  66 (007%): http://www.wikidata.org/entity/P840c
+  66 (007%): http://www.wikidata.org/entity/P840s
+  57 (006%): http://www.wikidata.org/entity/P577s
+  56 (006%): http://www.wikidata.org/entity/P577c
+  48 (005%): http://www.wikidata.org/entity/P227-gnd
+  48 (005%): http://www.wikidata.org/entity/P227c
+  48 (005%): http://www.wikidata.org/entity/P227s
+  44 (004%): http://www.wikidata.org/entity/P373c
+  44 (004%): http://www.wikidata.org/entity/P373s
+  44 (004%): http://www.wikidata.org/entity/P674c
+  44 (004%): http://www.wikidata.org/entity/P674s
+  37 (004%): http://www.wikidata.org/entity/P110c
+  37 (004%): http://www.wikidata.org/entity/P110s
+  35 (004%): http://www.wikidata.org/entity/P214-viaf
+  35 (004%): http://www.wikidata.org/entity/P214c
+  35 (004%): http://www.wikidata.org/entity/P214s
+  32 (003%): http://www.wikidata.org/entity/P921c
+  32 (003%): http://www.wikidata.org/entity/P921s
+  24 (002%): http://www.wikidata.org/entity/P18c
+  24 (002%): http://www.wikidata.org/entity/P18s
+  13 (001%): http://www.wikidata.org/entity/P435-mbwork
+  13 (001%): http://www.wikidata.org/entity/P435c
+  13 (001%): http://www.wikidata.org/entity/P435s
+  11 (001%): http://www.wikidata.org/entity/P244-lcnaf
+  11 (001%): http://www.wikidata.org/entity/P244c
+  11 (001%): http://www.wikidata.org/entity/P244s
+  10 (001%): http://www.wikidata.org/entity/P166s
+  10 (001%): http://www.wikidata.org/entity/P736c
+  10 (001%): http://www.wikidata.org/entity/P736s
+  10 (001%): http://www.wikidata.org/entity/P910c
+  10 (001%): http://www.wikidata.org/entity/P910s
+   9 (001%): http://www.wikidata.org/entity/P655c
+   9 (001%): http://www.wikidata.org/entity/P655s
+   8 (001%): http://www.wikidata.org/entity/P170c
+   8 (001%): http://www.wikidata.org/entity/P170s
+   7 (001%): http://www.wikidata.org/entity/P856c
+   7 (001%): http://www.wikidata.org/entity/P856s
+   6 (001%): http://www.wikidata.org/entity/P407c
+   6 (001%): http://www.wikidata.org/entity/P407s
+   6 (001%): http://www.wikidata.org/entity/P436-mbrelgroup
+   6 (001%): http://www.wikidata.org/entity/P436c
+   6 (001%): http://www.wikidata.org/entity/P436s
+   5 (000%): http://www.wikidata.org/entity/P291c
+   5 (000%): http://www.wikidata.org/entity/P291s
+   5 (000%): http://www.wikidata.org/entity/P345c
+   5 (000%): http://www.wikidata.org/entity/P345s
+   5 (000%): http://www.wikidata.org/entity/P361s
+   5 (000%): http://www.wikidata.org/entity/P392c
+   5 (000%): http://www.wikidata.org/entity/P392s
+   4 (000%): http://www.wikidata.org/entity/P1085c
+   4 (000%): http://www.wikidata.org/entity/P1085s
+   4 (000%): http://www.wikidata.org/entity/P269-sudoc
+   4 (000%): http://www.wikidata.org/entity/P269c
+   4 (000%): http://www.wikidata.org/entity/P269s
+   4 (000%): http://www.wikidata.org/entity/P527c
+   4 (000%): http://www.wikidata.org/entity/P527s
+   4 (000%): http://www.wikidata.org/entity/P571c
+   4 (000%): http://www.wikidata.org/entity/P571s
+   3 (000%): http://www.wikidata.org/entity/P166c
+   3 (000%): http://www.wikidata.org/entity/P361c
+   3 (000%): http://www.wikidata.org/entity/P747c
+   3 (000%): http://www.wikidata.org/entity/P747s
+   2 (000%): http://www.wikidata.org/entity/P135c
+   2 (000%): http://www.wikidata.org/entity/P135s
+   2 (000%): http://www.wikidata.org/entity/P138c
+   2 (000%): http://www.wikidata.org/entity/P138s
+   2 (000%): http://www.wikidata.org/entity/P1434c
+   2 (000%): http://www.wikidata.org/entity/P1434s
+   2 (000%): http://www.wikidata.org/entity/P161c
+   2 (000%): http://www.wikidata.org/entity/P161s
+   2 (000%): http://www.wikidata.org/entity/P449c
+   2 (000%): http://www.wikidata.org/entity/P449s
+   2 (000%): http://www.wikidata.org/entity/P625c
+   2 (000%): http://www.wikidata.org/entity/P625s
+   2 (000%): http://www.wikidata.org/entity/P648c
+   2 (000%): http://www.wikidata.org/entity/P648s
+   2 (000%): http://www.wikidata.org/entity/P989s
+   1 (000%): http://www.wikidata.org/entity/P1104c
+   1 (000%): http://www.wikidata.org/entity/P1104s
+   1 (000%): http://www.wikidata.org/entity/P1433c
+   1 (000%): http://www.wikidata.org/entity/P1433s
+   1 (000%): http://www.wikidata.org/entity/P1474c
+   1 (000%): http://www.wikidata.org/entity/P1474s
+   1 (000%): http://www.wikidata.org/entity/P1476c
+   1 (000%): http://www.wikidata.org/entity/P1476s
+   1 (000%): http://www.wikidata.org/entity/P17c
+   1 (000%): http://www.wikidata.org/entity/P17s
+   1 (000%): http://www.wikidata.org/entity/P180c
+   1 (000%): http://www.wikidata.org/entity/P180s
+   1 (000%): http://www.wikidata.org/entity/P349-ndl
+   1 (000%): http://www.wikidata.org/entity/P349c
+   1 (000%): http://www.wikidata.org/entity/P349s
+   1 (000%): http://www.wikidata.org/entity/P356c
+   1 (000%): http://www.wikidata.org/entity/P356s
+   1 (000%): http://www.wikidata.org/entity/P57c
+   1 (000%): http://www.wikidata.org/entity/P57s
+   1 (000%): http://www.wikidata.org/entity/P58c
+   1 (000%): http://www.wikidata.org/entity/P58s
+   1 (000%): http://www.wikidata.org/entity/P641c
+   1 (000%): http://www.wikidata.org/entity/P641s
+   1 (000%): http://www.wikidata.org/entity/P725c
+   1 (000%): http://www.wikidata.org/entity/P725s
+   1 (000%): http://www.wikidata.org/entity/P88c
+   1 (000%): http://www.wikidata.org/entity/P88s
+   1 (000%): http://www.wikidata.org/entity/P906c
+   1 (000%): http://www.wikidata.org/entity/P906s
+   1 (000%): http://www.wikidata.org/entity/P935c
+   1 (000%): http://www.wikidata.org/entity/P935s
+   1 (000%): http://www.wikidata.org/entity/P948c
+   1 (000%): http://www.wikidata.org/entity/P948s
+   1 (000%): http://www.wikidata.org/entity/P950c
+   1 (000%): http://www.wikidata.org/entity/P950s
+   1 (000%): http://www.wikidata.org/entity/P989c
+   1 (000%): http://www.wikidata.org/entity/P98c
+   1 (000%): http://www.wikidata.org/entity/P98s
+
+
+********************************************************************************
+* LANGUAGE DISTRIBUTION                                                        *
+********************************************************************************
+* This section lists the languages found for the selected resources.           *
+*                                                                              *
+* Meaning of the columns:                                                      *
+* #1: Code of the Language (i.e. found on literal ranges)                      *
+* #2: Number of resources that have at least one literal range of this lang    *
+* #3: Percentage against the total number of resources                         *
+********************************************************************************
+
+Total n. of languages: 75
+
+	 999 (100%): ? 
+	 448 (045%): fr
+	 210 (021%): pl
+	 204 (020%): pt
+	  78 (008%): tr
+	  70 (007%): ar
+	  62 (006%): zh-hans
+	  60 (006%): zh-hk
+	  58 (006%): bg
+	  40 (004%): sr
+	  36 (004%): la
+	  35 (004%): id
+	  28 (003%): bs
+	  28 (003%): th
+	  27 (003%): en-gb
+	  26 (003%): el
+	  25 (002%): hr
+	  24 (002%): et
+	  17 (002%): sr-cyrl
+	  15 (002%): eu
+	  15 (002%): pa
+	  13 (001%): de-ch
+	  13 (001%): lt
+	  11 (001%): hi
+	  11 (001%): ml
+	  10 (001%): be-tarask
+	  10 (001%): pt-br
+	  10 (001%): zh-cn
+	   8 (001%): zh-tw
+	   6 (001%): ia
+	   6 (001%): lv
+	   6 (001%): sq
+	   5 (000%): io
+	   5 (000%): ne
+	   5 (000%): ur
+	   4 (000%): mn
+	   4 (000%): ms
+	   4 (000%): my
+	   4 (000%): si
+	   3 (000%): af
+	   3 (000%): an
+	   3 (000%): br
+	   3 (000%): gd
+	   3 (000%): kk
+	   3 (000%): lb
+	   3 (000%): mo
+	   2 (000%): ga
+	   2 (000%): gu
+	   2 (000%): nds
+	   2 (000%): nds-nl
+	   2 (000%): tg
+	   2 (000%): ug
+	   1 (000%): as
+	   1 (000%): ba
+	   1 (000%): ckb
+	   1 (000%): en-x-simple
+	   1 (000%): ext
+	   1 (000%): gsw
+	   1 (000%): gv
+	   1 (000%): ie
+	   1 (000%): kk-arab
+	   1 (000%): kk-cyrl
+	   1 (000%): kk-latn
+	   1 (000%): ku
+	   1 (000%): ku-arab
+	   1 (000%): ku-latn
+	   1 (000%): mzn
+	   1 (000%): nah
+	   1 (000%): nan
+	   1 (000%): sc
+	   1 (000%): sco
+	   1 (000%): sgs
+	   1 (000%): sw
+	   1 (000%): wa
+	   1 (000%): wuu
+
+<http://www.wikidata.org/entity/P1476c>:
+	1 (100%): fr
+
+<http://schema.org/description>:
+	2003 (096%): ? 
+	  61 (003%): fr
+	   7 (000%): pl
+	   2 (000%): ar
+	   2 (000%): el
+	   2 (000%): id
+	   2 (000%): pt
+	   2 (000%): pt-br
+	   1 (000%): br
+	   1 (000%): en-gb
+	   1 (000%): hi
+	   1 (000%): la
+	   1 (000%): sco
+	   1 (000%): sq
+	   1 (000%): ur
+	   1 (000%): zh-hans
+
+<http://www.w3.org/2004/02/skos/core#altLabel>:
+	1362 (066%): ? 
+	 305 (015%): fr
+	 146 (007%): pt
+	  48 (002%): tr
+	  45 (002%): pl
+	  28 (001%): th
+	  19 (001%): ar
+	  15 (001%): sr
+	  12 (001%): et
+	  12 (001%): ml
+	  11 (001%): bg
+	   8 (000%): id
+	   6 (000%): la
+	   3 (000%): el
+	   3 (000%): eu
+	   3 (000%): sw
+	   2 (000%): an
+	   2 (000%): hi
+	   2 (000%): lt
+	   2 (000%): nds-nl
+	   2 (000%): sgs
+	   2 (000%): si
+	   1 (000%): be-tarask
+	   1 (000%): br
+	   1 (000%): bs
+	   1 (000%): gd
+	   1 (000%): hr
+	   1 (000%): kk
+	   1 (000%): lv
+	   1 (000%): my
+	   1 (000%): nan
+	   1 (000%): nds
+	   1 (000%): ne
+
+<http://www.w3.org/2000/01/rdf-schema#label>:
+	3696 (069%): ? 
+	 445 (008%): fr
+	 210 (004%): pl
+	 204 (004%): pt
+	  78 (001%): tr
+	  69 (001%): ar
+	  62 (001%): zh-hans
+	  60 (001%): zh-hk
+	  58 (001%): bg
+	  40 (001%): sr
+	  36 (001%): la
+	  35 (001%): id
+	  28 (001%): bs
+	  28 (001%): th
+	  27 (001%): en-gb
+	  26 (000%): el
+	  25 (000%): hr
+	  24 (000%): et
+	  17 (000%): sr-cyrl
+	  15 (000%): eu
+	  15 (000%): pa
+	  13 (000%): de-ch
+	  13 (000%): lt
+	  11 (000%): hi
+	  11 (000%): ml
+	  10 (000%): be-tarask
+	  10 (000%): pt-br
+	  10 (000%): zh-cn
+	   8 (000%): zh-tw
+	   6 (000%): ia
+	   6 (000%): lv
+	   6 (000%): sq
+	   5 (000%): io
+	   5 (000%): ne
+	   4 (000%): mn
+	   4 (000%): ms
+	   4 (000%): my
+	   4 (000%): si
+	   4 (000%): ur
+	   3 (000%): af
+	   3 (000%): an
+	   3 (000%): br
+	   3 (000%): gd
+	   3 (000%): kk
+	   3 (000%): lb
+	   3 (000%): mo
+	   2 (000%): ga
+	   2 (000%): gu
+	   2 (000%): nds
+	   2 (000%): nds-nl
+	   2 (000%): tg
+	   2 (000%): ug
+	   1 (000%): as
+	   1 (000%): ba
+	   1 (000%): ckb
+	   1 (000%): en-x-simple
+	   1 (000%): ext
+	   1 (000%): gsw
+	   1 (000%): gv
+	   1 (000%): ie
+	   1 (000%): kk-arab
+	   1 (000%): kk-cyrl
+	   1 (000%): kk-latn
+	   1 (000%): ku
+	   1 (000%): ku-arab
+	   1 (000%): ku-latn
+	   1 (000%): mzn
+	   1 (000%): nah
+	   1 (000%): nan
+	   1 (000%): sc
+	   1 (000%): sco
+	   1 (000%): sgs
+	   1 (000%): sw
+	   1 (000%): wa
+	   1 (000%): wuu
+
+
+********************************************************************************
+* PROPERTY VALUES STATISTICS                                                   *
+********************************************************************************
+* This section lists the values found for a specific property.                 *
+*                                                                              *
+* Meaning of the columns:                                                      *
+* #1: Number of properties with this literal                                   *
+* #2: Percentage against the total number of resources                         *
+* #3: The literal value and language if defined (see @)                        *
+********************************************************************************
+
+<http://www.wikidata.org/entity/P31c>:
+	1000 (100%): http://www.wikidata.org/entity/Q571
+	   8 (001%): http://www.wikidata.org/entity/Q7725634
+	   5 (000%): http://www.wikidata.org/entity/Q8261
+	   4 (000%): http://www.wikidata.org/entity/Q5292
+	   3 (000%): http://www.wikidata.org/entity/Q482
+	   3 (000%): http://www.wikidata.org/entity/Q87167
+	   2 (000%): http://www.wikidata.org/entity/Q2883183
+	   1 (000%): http://www.wikidata.org/entity/Q105420
+	   1 (000%): http://www.wikidata.org/entity/Q1107
+	   1 (000%): http://www.wikidata.org/entity/Q11086742
+	   1 (000%): http://www.wikidata.org/entity/Q11424
+	   1 (000%): http://www.wikidata.org/entity/Q11820947
+	   1 (000%): http://www.wikidata.org/entity/Q13406463
+	   1 (000%): http://www.wikidata.org/entity/Q149537
+	   1 (000%): http://www.wikidata.org/entity/Q2352616
+
+<http://www.wikidata.org/entity/P373c>:
+	   1 (000%): 100 Famous Japanese Mountains
+	   1 (000%): A Drama in Livonia
+	   1 (000%): Bruges-la-Morte
+	   1 (000%): Codex Flight of the birds
+	   1 (000%): Codex Windsor
+	   1 (000%): Daddy-Long-Legs (novel)
+	   1 (000%): De Architectura
+	   1 (000%): De humani corporis fabrica
+	   1 (000%): Dead Souls
+	   1 (000%): Description de l'Egypte
+	   1 (000%): Five Weeks in a Balloon
+	   1 (000%): Freund Allers
+	   1 (000%): Frritt-Flacc
+	   1 (000%): Gulistan of Sa'di
+	   1 (000%): Guzmán de Alfarache
+	   1 (000%): Il milione
+	   1 (000%): Illustrationes Florae Novae Hollandiae
+	   1 (000%): Illustrations from The Lottery Ticket by George Roux
+	   1 (000%): Illustrations from The Secret of William Storitz by George Roux
+	   1 (000%): L'Éducation sentimentale
+	   1 (000%): Mansfield Park (novel)
+	   1 (000%): Michael Strogoff
+	   1 (000%): Nansō Satomi Hakkenden
+	   1 (000%): Peter Schlemihls wundersame Geschichte
+	   1 (000%): Physiologus manuscripts
+	   1 (000%): Purgatorio
+	   1 (000%): Ratirahasya
+	   1 (000%): Rip Van Winkle
+	   1 (000%): Robinson Crusoe
+	   1 (000%): Stultitiae laus
+	   1 (000%): The Bronze Horseman (poem)
+	   1 (000%): The Cactaceae
+	   1 (000%): The Ghost-Seer
+	   1 (000%): The Lighthouse at the End of the World
+	   1 (000%): The Pearl of Great Price
+	   1 (000%): The Pencil of Nature
+	   1 (000%): The Prairie
+	   1 (000%): The Thompson Travel Agency
+	   1 (000%): The Will of an Eccentric
+	   1 (000%): Trattato della Pittura
+	   1 (000%): Tribulations of a Chinaman in China
+	   1 (000%): Vanity Fair (novel)
+	   1 (000%): Višegrad
+	   1 (000%): À la recherche du temps perdu
+
+<http://www.wikidata.org/entity/P840c>:
+	  15 (002%): http://www.wikidata.org/entity/Q60
+	  13 (001%): http://www.wikidata.org/entity/Q84
+	   5 (000%): http://www.wikidata.org/entity/Q1747689
+	   5 (000%): http://www.wikidata.org/entity/Q668
+	   5 (000%): http://www.wikidata.org/entity/Q90
+	   3 (000%): http://www.wikidata.org/entity/Q62
+	   2 (000%): http://www.wikidata.org/entity/Q100
+	   2 (000%): http://www.wikidata.org/entity/Q1408
+	   2 (000%): http://www.wikidata.org/entity/Q148
+	   2 (000%): http://www.wikidata.org/entity/Q2807
+	   2 (000%): http://www.wikidata.org/entity/Q55
+	   2 (000%): http://www.wikidata.org/entity/Q65
+	   1 (000%): http://www.wikidata.org/entity/Q1297
+	   1 (000%): http://www.wikidata.org/entity/Q1364346
+	   1 (000%): http://www.wikidata.org/entity/Q1368571
+	   1 (000%): http://www.wikidata.org/entity/Q163
+	   1 (000%): http://www.wikidata.org/entity/Q16557
+	   1 (000%): http://www.wikidata.org/entity/Q17612403
+	   1 (000%): http://www.wikidata.org/entity/Q223942
+	   1 (000%): http://www.wikidata.org/entity/Q23143
+	   1 (000%): http://www.wikidata.org/entity/Q23148
+	   1 (000%): http://www.wikidata.org/entity/Q23346
+	   1 (000%): http://www.wikidata.org/entity/Q3813738
+	   1 (000%): http://www.wikidata.org/entity/Q5083
+	   1 (000%): http://www.wikidata.org/entity/Q641
+	   1 (000%): http://www.wikidata.org/entity/Q889
+
+<http://www.wikidata.org/entity/P50c>:
+	  10 (001%): http://www.wikidata.org/entity/Q33977
+	   9 (001%): http://www.wikidata.org/entity/Q128790
+	   9 (001%): http://www.wikidata.org/entity/Q35064
+	   9 (001%): http://www.wikidata.org/entity/Q39829
+	   6 (001%): http://www.wikidata.org/entity/Q171091
+	   5 (000%): http://www.wikidata.org/entity/Q210669
+	   5 (000%): http://www.wikidata.org/entity/Q892
+	   4 (000%): http://www.wikidata.org/entity/Q106465
+	   4 (000%): http://www.wikidata.org/entity/Q153796
+	   4 (000%): http://www.wikidata.org/entity/Q272076
+	   4 (000%): http://www.wikidata.org/entity/Q3335
+	   4 (000%): http://www.wikidata.org/entity/Q34981
+	   4 (000%): http://www.wikidata.org/entity/Q446605
+	   3 (000%): http://www.wikidata.org/entity/Q105167
+	   3 (000%): http://www.wikidata.org/entity/Q123078
+	   3 (000%): http://www.wikidata.org/entity/Q154756
+	   3 (000%): http://www.wikidata.org/entity/Q166351
+	   3 (000%): http://www.wikidata.org/entity/Q16867
+	   3 (000%): http://www.wikidata.org/entity/Q180626
+	   3 (000%): http://www.wikidata.org/entity/Q187019
+	   3 (000%): http://www.wikidata.org/entity/Q189869
+	   3 (000%): http://www.wikidata.org/entity/Q249197
+	   3 (000%): http://www.wikidata.org/entity/Q25161
+	   3 (000%): http://www.wikidata.org/entity/Q366266
+	   3 (000%): http://www.wikidata.org/entity/Q42
+	   3 (000%): http://www.wikidata.org/entity/Q465179
+	   3 (000%): http://www.wikidata.org/entity/Q578031
+	   3 (000%): http://www.wikidata.org/entity/Q6530
+	   3 (000%): http://www.wikidata.org/entity/Q861482
+	   3 (000%): http://www.wikidata.org/entity/Q9358
+	   2 (000%): http://www.wikidata.org/entity/Q106740
+	   2 (000%): http://www.wikidata.org/entity/Q1236243
+	   2 (000%): http://www.wikidata.org/entity/Q128560
+	   2 (000%): http://www.wikidata.org/entity/Q131333
+	   2 (000%): http://www.wikidata.org/entity/Q131549
+	   2 (000%): http://www.wikidata.org/entity/Q134798
+	   2 (000%): http://www.wikidata.org/entity/Q1515266
+	   2 (000%): http://www.wikidata.org/entity/Q169566
+	   2 (000%): http://www.wikidata.org/entity/Q170509
+	   2 (000%): http://www.wikidata.org/entity/Q172140
+	   2 (000%): http://www.wikidata.org/entity/Q177411
+	   2 (000%): http://www.wikidata.org/entity/Q179109
+	   2 (000%): http://www.wikidata.org/entity/Q186317
+	   2 (000%): http://www.wikidata.org/entity/Q188987
+	   2 (000%): http://www.wikidata.org/entity/Q2064855
+	   2 (000%): http://www.wikidata.org/entity/Q207544
+	   2 (000%): http://www.wikidata.org/entity/Q209641
+	   2 (000%): http://www.wikidata.org/entity/Q214660
+	   2 (000%): http://www.wikidata.org/entity/Q217495
+	   2 (000%): http://www.wikidata.org/entity/Q231841
+	   2 (000%): http://www.wikidata.org/entity/Q23434
+	   2 (000%): http://www.wikidata.org/entity/Q295406
+	   2 (000%): http://www.wikidata.org/entity/Q298221
+	   2 (000%): http://www.wikidata.org/entity/Q298229
+	   2 (000%): http://www.wikidata.org/entity/Q310048
+	   2 (000%): http://www.wikidata.org/entity/Q316802
+	   2 (000%): http://www.wikidata.org/entity/Q318462
+	   2 (000%): http://www.wikidata.org/entity/Q333719
+	   2 (000%): http://www.wikidata.org/entity/Q339577
+	   2 (000%): http://www.wikidata.org/entity/Q34474
+	   2 (000%): http://www.wikidata.org/entity/Q34670
+	   2 (000%): http://www.wikidata.org/entity/Q34743
+	   2 (000%): http://www.wikidata.org/entity/Q35155
+	   2 (000%): http://www.wikidata.org/entity/Q356428
+	   2 (000%): http://www.wikidata.org/entity/Q36322
+	   2 (000%): http://www.wikidata.org/entity/Q364189
+	   2 (000%): http://www.wikidata.org/entity/Q40640
+	   2 (000%): http://www.wikidata.org/entity/Q40874
+	   2 (000%): http://www.wikidata.org/entity/Q428755
+	   2 (000%): http://www.wikidata.org/entity/Q44272
+	   2 (000%): http://www.wikidata.org/entity/Q44336
+	   2 (000%): http://www.wikidata.org/entity/Q458658
+	   2 (000%): http://www.wikidata.org/entity/Q49074
+	   2 (000%): http://www.wikidata.org/entity/Q504923
+	   2 (000%): http://www.wikidata.org/entity/Q5213306
+	   2 (000%): http://www.wikidata.org/entity/Q5239733
+	   2 (000%): http://www.wikidata.org/entity/Q55767
+	   2 (000%): http://www.wikidata.org/entity/Q5878
+	   2 (000%): http://www.wikidata.org/entity/Q711137
+	   2 (000%): http://www.wikidata.org/entity/Q7199
+	   2 (000%): http://www.wikidata.org/entity/Q742632
+	   2 (000%): http://www.wikidata.org/entity/Q762
+	   2 (000%): http://www.wikidata.org/entity/Q786526
+	   2 (000%): http://www.wikidata.org/entity/Q79822
+	   2 (000%): http://www.wikidata.org/entity/Q80900
+	   2 (000%): http://www.wikidata.org/entity/Q82032
+	   2 (000%): http://www.wikidata.org/entity/Q82104
+	   2 (000%): http://www.wikidata.org/entity/Q82925
+	   2 (000%): http://www.wikidata.org/entity/Q83566
+	   2 (000%): http://www.wikidata.org/entity/Q856014
+	   2 (000%): http://www.wikidata.org/entity/Q905
+	   2 (000%): http://www.wikidata.org/entity/Q912791
+	   2 (000%): http://www.wikidata.org/entity/Q9191
+	   2 (000%): http://www.wikidata.org/entity/Q9215
+	   2 (000%): http://www.wikidata.org/entity/Q955307
+	   2 (000%): http://www.wikidata.org/entity/Q9711
+	   2 (000%): http://www.wikidata.org/entity/Q991
+	   1 (000%): http://www.wikidata.org/entity/Q100948
+	   1 (000%): http://www.wikidata.org/entity/Q1027360
+	   1 (000%): http://www.wikidata.org/entity/Q103114
+	   1 (000%): http://www.wikidata.org/entity/Q1048
+	   1 (000%): http://www.wikidata.org/entity/Q105118
+	   1 (000%): http://www.wikidata.org/entity/Q105756
+	   1 (000%): http://www.wikidata.org/entity/Q105994
+	   1 (000%): http://www.wikidata.org/entity/Q1065817
+	   1 (000%): http://www.wikidata.org/entity/Q1066587
+	   1 (000%): http://www.wikidata.org/entity/Q1067
+	   1 (000%): http://www.wikidata.org/entity/Q112929
+	   1 (000%): http://www.wikidata.org/entity/Q113233
+	   1 (000%): http://www.wikidata.org/entity/Q11339514
+	   1 (000%): http://www.wikidata.org/entity/Q114509
+	   1 (000%): http://www.wikidata.org/entity/Q1158494
+	   1 (000%): http://www.wikidata.org/entity/Q115909
+	   1 (000%): http://www.wikidata.org/entity/Q115987
+	   1 (000%): http://www.wikidata.org/entity/Q1174627
+	   1 (000%): http://www.wikidata.org/entity/Q1175669
+	   1 (000%): http://www.wikidata.org/entity/Q1191315
+	   1 (000%): http://www.wikidata.org/entity/Q11998
+	   1 (000%): http://www.wikidata.org/entity/Q12020889
+	   1 (000%): http://www.wikidata.org/entity/Q121899
+	   1 (000%): http://www.wikidata.org/entity/Q122370
+	   1 (000%): http://www.wikidata.org/entity/Q122644
+	   1 (000%): http://www.wikidata.org/entity/Q122965
+	   1 (000%): http://www.wikidata.org/entity/Q124527
+	   1 (000%): http://www.wikidata.org/entity/Q1248054
+	   1 (000%): http://www.wikidata.org/entity/Q125970
+	   1 (000%): http://www.wikidata.org/entity/Q1273517
+	   1 (000%): http://www.wikidata.org/entity/Q1275379
+	   1 (000%): http://www.wikidata.org/entity/Q12807
+	   1 (000%): http://www.wikidata.org/entity/Q12881
+	   1 (000%): http://www.wikidata.org/entity/Q1306701
+	   1 (000%): http://www.wikidata.org/entity/Q1314332
+	   1 (000%): http://www.wikidata.org/entity/Q132524
+	   1 (000%): http://www.wikidata.org/entity/Q133054
+	   1 (000%): http://www.wikidata.org/entity/Q1336049
+	   1 (000%): http://www.wikidata.org/entity/Q133855
+	   1 (000%): http://www.wikidata.org/entity/Q13450365
+	   1 (000%): http://www.wikidata.org/entity/Q1356259
+	   1 (000%): http://www.wikidata.org/entity/Q13562973
+	   1 (000%): http://www.wikidata.org/entity/Q1359140
+	   1 (000%): http://www.wikidata.org/entity/Q1371735
+	   1 (000%): http://www.wikidata.org/entity/Q1386992
+	   1 (000%): http://www.wikidata.org/entity/Q1403
+	   1 (000%): http://www.wikidata.org/entity/Q1411963
+	   1 (000%): http://www.wikidata.org/entity/Q1444495
+	   1 (000%): http://www.wikidata.org/entity/Q148234
+	   1 (000%): http://www.wikidata.org/entity/Q14949526
+	   1 (000%): http://www.wikidata.org/entity/Q151403
+	   1 (000%): http://www.wikidata.org/entity/Q153248
+	   1 (000%): http://www.wikidata.org/entity/Q153700
+	   1 (000%): http://www.wikidata.org/entity/Q1541917
+	   1 (000%): http://www.wikidata.org/entity/Q154782
+	   1 (000%): http://www.wikidata.org/entity/Q155106
+	   1 (000%): http://www.wikidata.org/entity/Q155855
+	   1 (000%): http://www.wikidata.org/entity/Q15948
+	   1 (000%): http://www.wikidata.org/entity/Q15976343
+	   1 (000%): http://www.wikidata.org/entity/Q160219
+	   1 (000%): http://www.wikidata.org/entity/Q162688
+	   1 (000%): http://www.wikidata.org/entity/Q16345
+	   1 (000%): http://www.wikidata.org/entity/Q165467
+	   1 (000%): http://www.wikidata.org/entity/Q166922
+	   1 (000%): http://www.wikidata.org/entity/Q167768
+	   1 (000%): http://www.wikidata.org/entity/Q167821
+	   1 (000%): http://www.wikidata.org/entity/Q167856
+	   1 (000%): http://www.wikidata.org/entity/Q168040
+	   1 (000%): http://www.wikidata.org/entity/Q1691822
+	   1 (000%): http://www.wikidata.org/entity/Q170267
+	   1 (000%): http://www.wikidata.org/entity/Q170302
+	   1 (000%): http://www.wikidata.org/entity/Q17277707
+	   1 (000%): http://www.wikidata.org/entity/Q1732467
+	   1 (000%): http://www.wikidata.org/entity/Q174152
+	   1 (000%): http://www.wikidata.org/entity/Q1777630
+	   1 (000%): http://www.wikidata.org/entity/Q179266
+	   1 (000%): http://www.wikidata.org/entity/Q180223
+	   1 (000%): http://www.wikidata.org/entity/Q180373
+	   1 (000%): http://www.wikidata.org/entity/Q181659
+	   1 (000%): http://www.wikidata.org/entity/Q181667
+	   1 (000%): http://www.wikidata.org/entity/Q181716
+	   1 (000%): http://www.wikidata.org/entity/Q183492
+	   1 (000%): http://www.wikidata.org/entity/Q184226
+	   1 (000%): http://www.wikidata.org/entity/Q184440
+	   1 (000%): http://www.wikidata.org/entity/Q184785
+	   1 (000%): http://www.wikidata.org/entity/Q185548
+	   1 (000%): http://www.wikidata.org/entity/Q185696
+	   1 (000%): http://www.wikidata.org/entity/Q186335
+	   1 (000%): http://www.wikidata.org/entity/Q18806
+	   1 (000%): http://www.wikidata.org/entity/Q188225
+	   1 (000%): http://www.wikidata.org/entity/Q1886587
+	   1 (000%): http://www.wikidata.org/entity/Q19015
+	   1 (000%): http://www.wikidata.org/entity/Q190220
+	   1 (000%): http://www.wikidata.org/entity/Q192417
+	   1 (000%): http://www.wikidata.org/entity/Q193116
+	   1 (000%): http://www.wikidata.org/entity/Q193346
+	   1 (000%): http://www.wikidata.org/entity/Q19526
+	   1 (000%): http://www.wikidata.org/entity/Q1970656
+	   1 (000%): http://www.wikidata.org/entity/Q1971168
+	   1 (000%): http://www.wikidata.org/entity/Q1985398
+	   1 (000%): http://www.wikidata.org/entity/Q200661
+	   1 (000%): http://www.wikidata.org/entity/Q201732
+	   1 (000%): http://www.wikidata.org/entity/Q202122
+	   1 (000%): http://www.wikidata.org/entity/Q202693
+	   1 (000%): http://www.wikidata.org/entity/Q2030286
+	   1 (000%): http://www.wikidata.org/entity/Q205772
+	   1 (000%): http://www.wikidata.org/entity/Q205927
+	   1 (000%): http://www.wikidata.org/entity/Q2063290
+	   1 (000%): http://www.wikidata.org/entity/Q207515
+	   1 (000%): http://www.wikidata.org/entity/Q207640
+	   1 (000%): http://www.wikidata.org/entity/Q209077
+	   1 (000%): http://www.wikidata.org/entity/Q210059
+	   1 (000%): http://www.wikidata.org/entity/Q211539
+	   1 (000%): http://www.wikidata.org/entity/Q212727
+	   1 (000%): http://www.wikidata.org/entity/Q213195
+	   1 (000%): http://www.wikidata.org/entity/Q213482
+	   1 (000%): http://www.wikidata.org/entity/Q214565
+	   1 (000%): http://www.wikidata.org/entity/Q216160
+	   1 (000%): http://www.wikidata.org/entity/Q216811
+	   1 (000%): http://www.wikidata.org/entity/Q217110
+	   1 (000%): http://www.wikidata.org/entity/Q218690
+	   1 (000%): http://www.wikidata.org/entity/Q219368
+	   1 (000%): http://www.wikidata.org/entity/Q219780
+	   1 (000%): http://www.wikidata.org/entity/Q220883
+	   1 (000%): http://www.wikidata.org/entity/Q221951
+	   1 (000%): http://www.wikidata.org/entity/Q221957
+	   1 (000%): http://www.wikidata.org/entity/Q224113
+	   1 (000%): http://www.wikidata.org/entity/Q22670
+	   1 (000%): http://www.wikidata.org/entity/Q229480
+	   1 (000%): http://www.wikidata.org/entity/Q229996
+	   1 (000%): http://www.wikidata.org/entity/Q230068
+	   1 (000%): http://www.wikidata.org/entity/Q230591
+	   1 (000%): http://www.wikidata.org/entity/Q231320
+	   1 (000%): http://www.wikidata.org/entity/Q231356
+	   1 (000%): http://www.wikidata.org/entity/Q232212
+	   1 (000%): http://www.wikidata.org/entity/Q232417
+	   1 (000%): http://www.wikidata.org/entity/Q2331155
+	   1 (000%): http://www.wikidata.org/entity/Q2342834
+	   1 (000%): http://www.wikidata.org/entity/Q234443
+	   1 (000%): http://www.wikidata.org/entity/Q234530
+	   1 (000%): http://www.wikidata.org/entity/Q23481
+	   1 (000%): http://www.wikidata.org/entity/Q235731
+	   1 (000%): http://www.wikidata.org/entity/Q23685
+	   1 (000%): http://www.wikidata.org/entity/Q237087
+	   1 (000%): http://www.wikidata.org/entity/Q237420
+	   1 (000%): http://www.wikidata.org/entity/Q238140
+	   1 (000%): http://www.wikidata.org/entity/Q238941
+	   1 (000%): http://www.wikidata.org/entity/Q239911
+	   1 (000%): http://www.wikidata.org/entity/Q239923
+	   1 (000%): http://www.wikidata.org/entity/Q240212
+	   1 (000%): http://www.wikidata.org/entity/Q2402392
+	   1 (000%): http://www.wikidata.org/entity/Q240515
+	   1 (000%): http://www.wikidata.org/entity/Q240786
+	   1 (000%): http://www.wikidata.org/entity/Q241199
+	   1 (000%): http://www.wikidata.org/entity/Q241583
+	   1 (000%): http://www.wikidata.org/entity/Q242095
+	   1 (000%): http://www.wikidata.org/entity/Q2494
+	   1 (000%): http://www.wikidata.org/entity/Q2499460
+	   1 (000%): http://www.wikidata.org/entity/Q2524905
+	   1 (000%): http://www.wikidata.org/entity/Q2558680
+	   1 (000%): http://www.wikidata.org/entity/Q256657
+	   1 (000%): http://www.wikidata.org/entity/Q256821
+	   1 (000%): http://www.wikidata.org/entity/Q2570788
+	   1 (000%): http://www.wikidata.org/entity/Q259132
+	   1 (000%): http://www.wikidata.org/entity/Q25973
+	   1 (000%): http://www.wikidata.org/entity/Q2606624
+	   1 (000%): http://www.wikidata.org/entity/Q2627047
+	   1 (000%): http://www.wikidata.org/entity/Q2638517
+	   1 (000%): http://www.wikidata.org/entity/Q264855
+	   1 (000%): http://www.wikidata.org/entity/Q268495
+	   1 (000%): http://www.wikidata.org/entity/Q268510
+	   1 (000%): http://www.wikidata.org/entity/Q272088
+	   1 (000%): http://www.wikidata.org/entity/Q2723764
+	   1 (000%): http://www.wikidata.org/entity/Q2725646
+	   1 (000%): http://www.wikidata.org/entity/Q272610
+	   1 (000%): http://www.wikidata.org/entity/Q272706
+	   1 (000%): http://www.wikidata.org/entity/Q273210
+	   1 (000%): http://www.wikidata.org/entity/Q2737220
+	   1 (000%): http://www.wikidata.org/entity/Q275175
+	   1 (000%): http://www.wikidata.org/entity/Q275955
+	   1 (000%): http://www.wikidata.org/entity/Q276028
+	   1 (000%): http://www.wikidata.org/entity/Q278510
+	   1 (000%): http://www.wikidata.org/entity/Q278953
+	   1 (000%): http://www.wikidata.org/entity/Q283408
+	   1 (000%): http://www.wikidata.org/entity/Q2865929
+	   1 (000%): http://www.wikidata.org/entity/Q287828
+	   1 (000%): http://www.wikidata.org/entity/Q2886798
+	   1 (000%): http://www.wikidata.org/entity/Q2908
+	   1 (000%): http://www.wikidata.org/entity/Q293528
+	   1 (000%): http://www.wikidata.org/entity/Q295431
+	   1 (000%): http://www.wikidata.org/entity/Q296256
+	   1 (000%): http://www.wikidata.org/entity/Q2963436
+	   1 (000%): http://www.wikidata.org/entity/Q296809
+	   1 (000%): http://www.wikidata.org/entity/Q297425
+	   1 (000%): http://www.wikidata.org/entity/Q297532
+	   1 (000%): http://www.wikidata.org/entity/Q297538
+	   1 (000%): http://www.wikidata.org/entity/Q298685
+	   1 (000%): http://www.wikidata.org/entity/Q298761
+	   1 (000%): http://www.wikidata.org/entity/Q2991162
+	   1 (000%): http://www.wikidata.org/entity/Q301372
+	   1 (000%): http://www.wikidata.org/entity/Q3015199
+	   1 (000%): http://www.wikidata.org/entity/Q307
+	   1 (000%): http://www.wikidata.org/entity/Q309716
+	   1 (000%): http://www.wikidata.org/entity/Q3101308
+	   1 (000%): http://www.wikidata.org/entity/Q310155
+	   1 (000%): http://www.wikidata.org/entity/Q310379
+	   1 (000%): http://www.wikidata.org/entity/Q3109112
+	   1 (000%): http://www.wikidata.org/entity/Q310950
+	   1 (000%): http://www.wikidata.org/entity/Q311001
+	   1 (000%): http://www.wikidata.org/entity/Q311145
+	   1 (000%): http://www.wikidata.org/entity/Q311654
+	   1 (000%): http://www.wikidata.org/entity/Q311671
+	   1 (000%): http://www.wikidata.org/entity/Q311744
+	   1 (000%): http://www.wikidata.org/entity/Q312579
+	   1 (000%): http://www.wikidata.org/entity/Q312995
+	   1 (000%): http://www.wikidata.org/entity/Q313193
+	   1 (000%): http://www.wikidata.org/entity/Q313254
+	   1 (000%): http://www.wikidata.org/entity/Q313289
+	   1 (000%): http://www.wikidata.org/entity/Q313673
+	   1 (000%): http://www.wikidata.org/entity/Q313981
+	   1 (000%): http://www.wikidata.org/entity/Q314553
+	   1 (000%): http://www.wikidata.org/entity/Q314969
+	   1 (000%): http://www.wikidata.org/entity/Q315069
+	   1 (000%): http://www.wikidata.org/entity/Q315380
+	   1 (000%): http://www.wikidata.org/entity/Q315744
+	   1 (000%): http://www.wikidata.org/entity/Q315949
+	   1 (000%): http://www.wikidata.org/entity/Q316048
+	   1 (000%): http://www.wikidata.org/entity/Q316610
+	   1 (000%): http://www.wikidata.org/entity/Q316616
+	   1 (000%): http://www.wikidata.org/entity/Q316785
+	   1 (000%): http://www.wikidata.org/entity/Q317142
+	   1 (000%): http://www.wikidata.org/entity/Q317631
+	   1 (000%): http://www.wikidata.org/entity/Q317730
+	   1 (000%): http://www.wikidata.org/entity/Q318029
+	   1 (000%): http://www.wikidata.org/entity/Q3183180
+	   1 (000%): http://www.wikidata.org/entity/Q319423
+	   1 (000%): http://www.wikidata.org/entity/Q3201034
+	   1 (000%): http://www.wikidata.org/entity/Q320984
+	   1 (000%): http://www.wikidata.org/entity/Q321466
+	   1 (000%): http://www.wikidata.org/entity/Q322060
+	   1 (000%): http://www.wikidata.org/entity/Q324856
+	   1 (000%): http://www.wikidata.org/entity/Q325936
+	   1 (000%): http://www.wikidata.org/entity/Q327287
+	   1 (000%): http://www.wikidata.org/entity/Q333251
+	   1 (000%): http://www.wikidata.org/entity/Q333615
+	   1 (000%): http://www.wikidata.org/entity/Q334958
+	   1 (000%): http://www.wikidata.org/entity/Q335331
+	   1 (000%): http://www.wikidata.org/entity/Q335544
+	   1 (000%): http://www.wikidata.org/entity/Q336881
+	   1 (000%): http://www.wikidata.org/entity/Q337082
+	   1 (000%): http://www.wikidata.org/entity/Q3386800
+	   1 (000%): http://www.wikidata.org/entity/Q340016
+	   1 (000%): http://www.wikidata.org/entity/Q343983
+	   1 (000%): http://www.wikidata.org/entity/Q344320
+	   1 (000%): http://www.wikidata.org/entity/Q3476305
+	   1 (000%): http://www.wikidata.org/entity/Q348244
+	   1 (000%): http://www.wikidata.org/entity/Q348890
+	   1 (000%): http://www.wikidata.org/entity/Q3521662
+	   1 (000%): http://www.wikidata.org/entity/Q352465
+	   1 (000%): http://www.wikidata.org/entity/Q3525332
+	   1 (000%): http://www.wikidata.org/entity/Q355879
+	   1 (000%): http://www.wikidata.org/entity/Q358188
+	   1 (000%): http://www.wikidata.org/entity/Q362721
+	   1 (000%): http://www.wikidata.org/entity/Q362742
+	   1 (000%): http://www.wikidata.org/entity/Q365664
+	   1 (000%): http://www.wikidata.org/entity/Q36591
+	   1 (000%): http://www.wikidata.org/entity/Q366521
+	   1 (000%): http://www.wikidata.org/entity/Q366741
+	   1 (000%): http://www.wikidata.org/entity/Q367102
+	   1 (000%): http://www.wikidata.org/entity/Q368519
+	   1 (000%): http://www.wikidata.org/entity/Q369398
+	   1 (000%): http://www.wikidata.org/entity/Q36951
+	   1 (000%): http://www.wikidata.org/entity/Q37060
+	   1 (000%): http://www.wikidata.org/entity/Q37160
+	   1 (000%): http://www.wikidata.org/entity/Q372182
+	   1 (000%): http://www.wikidata.org/entity/Q3723492
+	   1 (000%): http://www.wikidata.org/entity/Q373007
+	   1 (000%): http://www.wikidata.org/entity/Q37621
+	   1 (000%): http://www.wikidata.org/entity/Q3775204
+	   1 (000%): http://www.wikidata.org/entity/Q378240
+	   1 (000%): http://www.wikidata.org/entity/Q380202
+	   1 (000%): http://www.wikidata.org/entity/Q381920
+	   1 (000%): http://www.wikidata.org/entity/Q38193
+	   1 (000%): http://www.wikidata.org/entity/Q38337
+	   1 (000%): http://www.wikidata.org/entity/Q384863
+	   1 (000%): http://www.wikidata.org/entity/Q39212
+	   1 (000%): http://www.wikidata.org/entity/Q3924913
+	   1 (000%): http://www.wikidata.org/entity/Q394628
+	   1 (000%): http://www.wikidata.org/entity/Q39803
+	   1 (000%): http://www.wikidata.org/entity/Q40479
+	   1 (000%): http://www.wikidata.org/entity/Q40946
+	   1 (000%): http://www.wikidata.org/entity/Q4111021
+	   1 (000%): http://www.wikidata.org/entity/Q4120436
+	   1 (000%): http://www.wikidata.org/entity/Q4128
+	   1 (000%): http://www.wikidata.org/entity/Q42037
+	   1 (000%): http://www.wikidata.org/entity/Q42156
+	   1 (000%): http://www.wikidata.org/entity/Q4233718
+	   1 (000%): http://www.wikidata.org/entity/Q42511
+	   1 (000%): http://www.wikidata.org/entity/Q427503
+	   1 (000%): http://www.wikidata.org/entity/Q42831
+	   1 (000%): http://www.wikidata.org/entity/Q430182
+	   1 (000%): http://www.wikidata.org/entity/Q434029
+	   1 (000%): http://www.wikidata.org/entity/Q43444
+	   1 (000%): http://www.wikidata.org/entity/Q434735
+	   1 (000%): http://www.wikidata.org/entity/Q434926
+	   1 (000%): http://www.wikidata.org/entity/Q43499
+	   1 (000%): http://www.wikidata.org/entity/Q4354658
+	   1 (000%): http://www.wikidata.org/entity/Q4356114
+	   1 (000%): http://www.wikidata.org/entity/Q436664
+	   1 (000%): http://www.wikidata.org/entity/Q43718
+	   1 (000%): http://www.wikidata.org/entity/Q43736
+	   1 (000%): http://www.wikidata.org/entity/Q437516
+	   1 (000%): http://www.wikidata.org/entity/Q44107
+	   1 (000%): http://www.wikidata.org/entity/Q442474
+	   1 (000%): http://www.wikidata.org/entity/Q442679
+	   1 (000%): http://www.wikidata.org/entity/Q44306
+	   1 (000%): http://www.wikidata.org/entity/Q444002
+	   1 (000%): http://www.wikidata.org/entity/Q44519
+	   1 (000%): http://www.wikidata.org/entity/Q446597
+	   1 (000%): http://www.wikidata.org/entity/Q446943
+	   1 (000%): http://www.wikidata.org/entity/Q448776
+	   1 (000%): http://www.wikidata.org/entity/Q449234
+	   1 (000%): http://www.wikidata.org/entity/Q449797
+	   1 (000%): http://www.wikidata.org/entity/Q4516103
+	   1 (000%): http://www.wikidata.org/entity/Q452206
+	   1 (000%): http://www.wikidata.org/entity/Q452404
+	   1 (000%): http://www.wikidata.org/entity/Q452963
+	   1 (000%): http://www.wikidata.org/entity/Q453329
+	   1 (000%): http://www.wikidata.org/entity/Q454515
+	   1 (000%): http://www.wikidata.org/entity/Q455951
+	   1 (000%): http://www.wikidata.org/entity/Q45765
+	   1 (000%): http://www.wikidata.org/entity/Q457714
+	   1 (000%): http://www.wikidata.org/entity/Q458618
+	   1 (000%): http://www.wikidata.org/entity/Q46248
+	   1 (000%): http://www.wikidata.org/entity/Q463142
+	   1 (000%): http://www.wikidata.org/entity/Q465208
+	   1 (000%): http://www.wikidata.org/entity/Q466963
+	   1 (000%): http://www.wikidata.org/entity/Q467058
+	   1 (000%): http://www.wikidata.org/entity/Q467404
+	   1 (000%): http://www.wikidata.org/entity/Q469656
+	   1 (000%): http://www.wikidata.org/entity/Q470302
+	   1 (000%): http://www.wikidata.org/entity/Q471443
+	   1 (000%): http://www.wikidata.org/entity/Q4718489
+	   1 (000%): http://www.wikidata.org/entity/Q472568
+	   1 (000%): http://www.wikidata.org/entity/Q47293
+	   1 (000%): http://www.wikidata.org/entity/Q47478
+	   1 (000%): http://www.wikidata.org/entity/Q47561
+	   1 (000%): http://www.wikidata.org/entity/Q4802495
+	   1 (000%): http://www.wikidata.org/entity/Q4823306
+	   1 (000%): http://www.wikidata.org/entity/Q483097
+	   1 (000%): http://www.wikidata.org/entity/Q486096
+	   1 (000%): http://www.wikidata.org/entity/Q4877197
+	   1 (000%): http://www.wikidata.org/entity/Q487950
+	   1 (000%): http://www.wikidata.org/entity/Q49080
+	   1 (000%): http://www.wikidata.org/entity/Q49081
+	   1 (000%): http://www.wikidata.org/entity/Q49478
+	   1 (000%): http://www.wikidata.org/entity/Q4949556
+	   1 (000%): http://www.wikidata.org/entity/Q495420
+	   1 (000%): http://www.wikidata.org/entity/Q4961944
+	   1 (000%): http://www.wikidata.org/entity/Q4963375
+	   1 (000%): http://www.wikidata.org/entity/Q4985
+	   1 (000%): http://www.wikidata.org/entity/Q498976
+	   1 (000%): http://www.wikidata.org/entity/Q502
+	   1 (000%): http://www.wikidata.org/entity/Q504
+	   1 (000%): http://www.wikidata.org/entity/Q504303
+	   1 (000%): http://www.wikidata.org/entity/Q504805
+	   1 (000%): http://www.wikidata.org/entity/Q505466
+	   1 (000%): http://www.wikidata.org/entity/Q509002
+	   1 (000%): http://www.wikidata.org/entity/Q5108570
+	   1 (000%): http://www.wikidata.org/entity/Q514305
+	   1 (000%): http://www.wikidata.org/entity/Q5214533
+	   1 (000%): http://www.wikidata.org/entity/Q523964
+	   1 (000%): http://www.wikidata.org/entity/Q5296838
+	   1 (000%): http://www.wikidata.org/entity/Q5316820
+	   1 (000%): http://www.wikidata.org/entity/Q5322090
+	   1 (000%): http://www.wikidata.org/entity/Q5332730
+	   1 (000%): http://www.wikidata.org/entity/Q5342858
+	   1 (000%): http://www.wikidata.org/entity/Q5343954
+	   1 (000%): http://www.wikidata.org/entity/Q534599
+	   1 (000%): http://www.wikidata.org/entity/Q535
+	   1 (000%): http://www.wikidata.org/entity/Q5354240
+	   1 (000%): http://www.wikidata.org/entity/Q536161
+	   1 (000%): http://www.wikidata.org/entity/Q539221
+	   1 (000%): http://www.wikidata.org/entity/Q540412
+	   1 (000%): http://www.wikidata.org/entity/Q541088
+	   1 (000%): http://www.wikidata.org/entity/Q542634
+	   1 (000%): http://www.wikidata.org/entity/Q543243
+	   1 (000%): http://www.wikidata.org/entity/Q544611
+	   1 (000%): http://www.wikidata.org/entity/Q547794
+	   1 (000%): http://www.wikidata.org/entity/Q54828
+	   1 (000%): http://www.wikidata.org/entity/Q5489059
+	   1 (000%): http://www.wikidata.org/entity/Q551487
+	   1 (000%): http://www.wikidata.org/entity/Q552025
+	   1 (000%): http://www.wikidata.org/entity/Q553714
+	   1 (000%): http://www.wikidata.org/entity/Q553730
+	   1 (000%): http://www.wikidata.org/entity/Q5568966
+	   1 (000%): http://www.wikidata.org/entity/Q557081
+	   1 (000%): http://www.wikidata.org/entity/Q5592967
+	   1 (000%): http://www.wikidata.org/entity/Q559297
+	   1 (000%): http://www.wikidata.org/entity/Q559409
+	   1 (000%): http://www.wikidata.org/entity/Q562163
+	   1 (000%): http://www.wikidata.org/entity/Q562556
+	   1 (000%): http://www.wikidata.org/entity/Q5673
+	   1 (000%): http://www.wikidata.org/entity/Q5701845
+	   1 (000%): http://www.wikidata.org/entity/Q5702305
+	   1 (000%): http://www.wikidata.org/entity/Q57085
+	   1 (000%): http://www.wikidata.org/entity/Q57307
+	   1 (000%): http://www.wikidata.org/entity/Q57442
+	   1 (000%): http://www.wikidata.org/entity/Q580137
+	   1 (000%): http://www.wikidata.org/entity/Q586362
+	   1 (000%): http://www.wikidata.org/entity/Q5873542
+	   1 (000%): http://www.wikidata.org/entity/Q5879
+	   1 (000%): http://www.wikidata.org/entity/Q588653
+	   1 (000%): http://www.wikidata.org/entity/Q60030
+	   1 (000%): http://www.wikidata.org/entity/Q6101
+	   1 (000%): http://www.wikidata.org/entity/Q6112002
+	   1 (000%): http://www.wikidata.org/entity/Q61198
+	   1 (000%): http://www.wikidata.org/entity/Q6128693
+	   1 (000%): http://www.wikidata.org/entity/Q613846
+	   1 (000%): http://www.wikidata.org/entity/Q6152677
+	   1 (000%): http://www.wikidata.org/entity/Q6192569
+	   1 (000%): http://www.wikidata.org/entity/Q6262180
+	   1 (000%): http://www.wikidata.org/entity/Q6277123
+	   1 (000%): http://www.wikidata.org/entity/Q62829
+	   1 (000%): http://www.wikidata.org/entity/Q6368376
+	   1 (000%): http://www.wikidata.org/entity/Q638179
+	   1 (000%): http://www.wikidata.org/entity/Q63875
+	   1 (000%): http://www.wikidata.org/entity/Q64043
+	   1 (000%): http://www.wikidata.org/entity/Q641740
+	   1 (000%): http://www.wikidata.org/entity/Q645074
+	   1 (000%): http://www.wikidata.org/entity/Q6456226
+	   1 (000%): http://www.wikidata.org/entity/Q6490224
+	   1 (000%): http://www.wikidata.org/entity/Q6512
+	   1 (000%): http://www.wikidata.org/entity/Q6530627
+	   1 (000%): http://www.wikidata.org/entity/Q66276
+	   1 (000%): http://www.wikidata.org/entity/Q66732
+	   1 (000%): http://www.wikidata.org/entity/Q6700986
+	   1 (000%): http://www.wikidata.org/entity/Q6701
+	   1 (000%): http://www.wikidata.org/entity/Q67011
+	   1 (000%): http://www.wikidata.org/entity/Q6712734
+	   1 (000%): http://www.wikidata.org/entity/Q6763624
+	   1 (000%): http://www.wikidata.org/entity/Q6767194
+	   1 (000%): http://www.wikidata.org/entity/Q6767434
+	   1 (000%): http://www.wikidata.org/entity/Q6780183
+	   1 (000%): http://www.wikidata.org/entity/Q6791931
+	   1 (000%): http://www.wikidata.org/entity/Q6962691
+	   1 (000%): http://www.wikidata.org/entity/Q69679
+	   1 (000%): http://www.wikidata.org/entity/Q70155
+	   1 (000%): http://www.wikidata.org/entity/Q7039832
+	   1 (000%): http://www.wikidata.org/entity/Q704553
+	   1 (000%): http://www.wikidata.org/entity/Q705830
+	   1 (000%): http://www.wikidata.org/entity/Q706222
+	   1 (000%): http://www.wikidata.org/entity/Q706272
+	   1 (000%): http://www.wikidata.org/entity/Q708157
+	   1 (000%): http://www.wikidata.org/entity/Q711830
+	   1 (000%): http://www.wikidata.org/entity/Q714739
+	   1 (000%): http://www.wikidata.org/entity/Q7152156
+	   1 (000%): http://www.wikidata.org/entity/Q716359
+	   1 (000%): http://www.wikidata.org/entity/Q717520
+	   1 (000%): http://www.wikidata.org/entity/Q718665
+	   1 (000%): http://www.wikidata.org/entity/Q719860
+	   1 (000%): http://www.wikidata.org/entity/Q7200
+	   1 (000%): http://www.wikidata.org/entity/Q720562
+	   1 (000%): http://www.wikidata.org/entity/Q721578
+	   1 (000%): http://www.wikidata.org/entity/Q721999
+	   1 (000%): http://www.wikidata.org/entity/Q72334
+	   1 (000%): http://www.wikidata.org/entity/Q726177
+	   1 (000%): http://www.wikidata.org/entity/Q7267278
+	   1 (000%): http://www.wikidata.org/entity/Q7270705
+	   1 (000%): http://www.wikidata.org/entity/Q729301
+	   1 (000%): http://www.wikidata.org/entity/Q730116
+	   1 (000%): http://www.wikidata.org/entity/Q730969
+	   1 (000%): http://www.wikidata.org/entity/Q7339899
+	   1 (000%): http://www.wikidata.org/entity/Q737664
+	   1 (000%): http://www.wikidata.org/entity/Q739540
+	   1 (000%): http://www.wikidata.org/entity/Q740374
+	   1 (000%): http://www.wikidata.org/entity/Q741456
+	   1 (000%): http://www.wikidata.org/entity/Q743079
+	   1 (000%): http://www.wikidata.org/entity/Q749714
+	   1 (000%): http://www.wikidata.org/entity/Q7599813
+	   1 (000%): http://www.wikidata.org/entity/Q76134
+	   1 (000%): http://www.wikidata.org/entity/Q7615312
+	   1 (000%): http://www.wikidata.org/entity/Q76350
+	   1 (000%): http://www.wikidata.org/entity/Q76422
+	   1 (000%): http://www.wikidata.org/entity/Q76480
+	   1 (000%): http://www.wikidata.org/entity/Q764800
+	   1 (000%): http://www.wikidata.org/entity/Q766768
+	   1 (000%): http://www.wikidata.org/entity/Q76725
+	   1 (000%): http://www.wikidata.org/entity/Q76742
+	   1 (000%): http://www.wikidata.org/entity/Q77706
+	   1 (000%): http://www.wikidata.org/entity/Q781634
+	   1 (000%): http://www.wikidata.org/entity/Q78487
+	   1 (000%): http://www.wikidata.org/entity/Q78494
+	   1 (000%): http://www.wikidata.org/entity/Q79025
+	   1 (000%): http://www.wikidata.org/entity/Q7908711
+	   1 (000%): http://www.wikidata.org/entity/Q793895
+	   1 (000%): http://www.wikidata.org/entity/Q7976669
+	   1 (000%): http://www.wikidata.org/entity/Q79904
+	   1 (000%): http://www.wikidata.org/entity/Q8004970
+	   1 (000%): http://www.wikidata.org/entity/Q8008898
+	   1 (000%): http://www.wikidata.org/entity/Q82349
+	   1 (000%): http://www.wikidata.org/entity/Q840900
+	   1 (000%): http://www.wikidata.org/entity/Q86457
+	   1 (000%): http://www.wikidata.org/entity/Q890980
+	   1 (000%): http://www.wikidata.org/entity/Q9049
+	   1 (000%): http://www.wikidata.org/entity/Q908571
+	   1 (000%): http://www.wikidata.org/entity/Q908648
+	   1 (000%): http://www.wikidata.org/entity/Q9095
+	   1 (000%): http://www.wikidata.org/entity/Q9204
+	   1 (000%): http://www.wikidata.org/entity/Q923530
+	   1 (000%): http://www.wikidata.org/entity/Q92609
+	   1 (000%): http://www.wikidata.org/entity/Q927
+	   1 (000%): http://www.wikidata.org/entity/Q9353
+	   1 (000%): http://www.wikidata.org/entity/Q9381
+	   1 (000%): http://www.wikidata.org/entity/Q94186
+	   1 (000%): http://www.wikidata.org/entity/Q954370
+	   1 (000%): http://www.wikidata.org/entity/Q959097
+	   1 (000%): http://www.wikidata.org/entity/Q961645
+	   1 (000%): http://www.wikidata.org/entity/Q963727
+	   1 (000%): http://www.wikidata.org/entity/Q964037
+	   1 (000%): http://www.wikidata.org/entity/Q977682
+	   1 (000%): http://www.wikidata.org/entity/Q980551
+	   1 (000%): http://www.wikidata.org/entity/Q981045
+	   1 (000%): http://www.wikidata.org/entity/Q98240
+	   1 (000%): http://www.wikidata.org/entity/Q982714
+	   1 (000%): http://www.wikidata.org/entity/Q984415
+	   1 (000%): http://www.wikidata.org/entity/Q985782
+
+<http://www.wikidata.org/entity/P577>:
+
+<http://www.wikidata.org/entity/P910>:
+
+<http://www.wikidata.org/entity/P136>:
+
+<http://www.wikidata.org/entity/P18>:
+
+<http://www.wikidata.org/entity/P268>:
+
+<http://www.wikidata.org/entity/P1476>:
+
+<http://www.wikidata.org/entity/P646>:
+
+<http://www.wikidata.org/entity/P364>:
+
+<http://www.wikidata.org/entity/P495>:
+
+

@@ -1,0 +1,3127 @@
+
+********************************************************************************
+* RESOURCES                                                                    *
+********************************************************************************
+
+Total n. of resources: 88
+
+
+********************************************************************************
+* PROPERTIES                                                                   *
+********************************************************************************
+* This section lists the properties found for the selected resources.          *
+*                                                                              *
+* Meaning of the columns:                                                      *
+* #1: Number of resources that have at least one instance of this property     *
+* #2: Percentage against the total number of resources                         *
+* #3: The URI of the property                                                  *
+********************************************************************************
+
+Total n. of properties: 60
+
+88 (100%): http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+88 (100%): http://www.w3.org/2000/01/rdf-schema#label
+88 (100%): http://www.wikidata.org/entity/P31c
+88 (100%): http://www.wikidata.org/entity/P31s
+64 (073%): http://schema.org/description
+59 (067%): http://www.w3.org/2004/02/skos/core#altLabel
+44 (050%): http://www.wikidata.org/entity/P646-freebase
+44 (050%): http://www.wikidata.org/entity/P646c
+44 (050%): http://www.wikidata.org/entity/P646s
+13 (015%): http://www.wikidata.org/entity/P373c
+13 (015%): http://www.wikidata.org/entity/P373s
+11 (012%): http://www.w3.org/2000/01/rdf-schema#subClassOf
+11 (012%): http://www.wikidata.org/entity/P279c
+11 (012%): http://www.wikidata.org/entity/P279s
+11 (012%): http://www.wikidata.org/entity/P910c
+11 (012%): http://www.wikidata.org/entity/P910s
+ 7 (008%): http://www.wikidata.org/entity/P349-ndl
+ 7 (008%): http://www.wikidata.org/entity/P349c
+ 7 (008%): http://www.wikidata.org/entity/P349s
+ 6 (007%): http://www.wikidata.org/entity/P361c
+ 6 (007%): http://www.wikidata.org/entity/P361s
+ 5 (006%): http://www.wikidata.org/entity/P508c
+ 5 (006%): http://www.wikidata.org/entity/P508s
+ 3 (003%): http://www.wikidata.org/entity/P18c
+ 3 (003%): http://www.wikidata.org/entity/P18s
+ 2 (002%): http://www.wikidata.org/entity/P1482c
+ 2 (002%): http://www.wikidata.org/entity/P1482s
+ 2 (002%): http://www.wikidata.org/entity/P17c
+ 2 (002%): http://www.wikidata.org/entity/P17s
+ 2 (002%): http://www.wikidata.org/entity/P227-gnd
+ 2 (002%): http://www.wikidata.org/entity/P227c
+ 2 (002%): http://www.wikidata.org/entity/P227s
+ 1 (001%): http://www.wikidata.org/entity/P1080c
+ 1 (001%): http://www.wikidata.org/entity/P1080s
+ 1 (001%): http://www.wikidata.org/entity/P1296c
+ 1 (001%): http://www.wikidata.org/entity/P1296s
+ 1 (001%): http://www.wikidata.org/entity/P131c
+ 1 (001%): http://www.wikidata.org/entity/P131s
+ 1 (001%): http://www.wikidata.org/entity/P1343s
+ 1 (001%): http://www.wikidata.org/entity/P214-viaf
+ 1 (001%): http://www.wikidata.org/entity/P214c
+ 1 (001%): http://www.wikidata.org/entity/P214s
+ 1 (001%): http://www.wikidata.org/entity/P27c
+ 1 (001%): http://www.wikidata.org/entity/P27s
+ 1 (001%): http://www.wikidata.org/entity/P434-mbartist
+ 1 (001%): http://www.wikidata.org/entity/P434c
+ 1 (001%): http://www.wikidata.org/entity/P434s
+ 1 (001%): http://www.wikidata.org/entity/P580c
+ 1 (001%): http://www.wikidata.org/entity/P580s
+ 1 (001%): http://www.wikidata.org/entity/P582c
+ 1 (001%): http://www.wikidata.org/entity/P582s
+ 1 (001%): http://www.wikidata.org/entity/P625c
+ 1 (001%): http://www.wikidata.org/entity/P625s
+ 1 (001%): http://www.wikidata.org/entity/P710c
+ 1 (001%): http://www.wikidata.org/entity/P710s
+ 1 (001%): http://www.wikidata.org/entity/P948c
+ 1 (001%): http://www.wikidata.org/entity/P948s
+ 1 (001%): http://www.wikidata.org/entity/P966-mblabel
+ 1 (001%): http://www.wikidata.org/entity/P966c
+ 1 (001%): http://www.wikidata.org/entity/P966s
+
+
+********************************************************************************
+* LANGUAGE DISTRIBUTION                                                        *
+********************************************************************************
+* This section lists the languages found for the selected resources.           *
+*                                                                              *
+* Meaning of the columns:                                                      *
+* #1: Code of the Language (i.e. found on literal ranges)                      *
+* #2: Number of resources that have at least one literal range of this lang    *
+* #3: Percentage against the total number of resources                         *
+********************************************************************************
+
+Total n. of languages: 77
+
+	88 (100%): ? 
+	50 (057%): fr
+	35 (040%): pl
+	33 (038%): pt
+	22 (025%): zh-hans
+	21 (024%): sr
+	20 (023%): id
+	20 (023%): zh-hk
+	18 (020%): ar
+	18 (020%): bg
+	17 (019%): hr
+	17 (019%): tr
+	15 (017%): el
+	14 (016%): sr-cyrl
+	13 (015%): eu
+	12 (014%): zh-tw
+	11 (012%): en-x-simple
+	11 (012%): lt
+	10 (011%): en-gb
+	10 (011%): th
+	10 (011%): zh-cn
+	 9 (010%): et
+	 7 (008%): bs
+	 7 (008%): la
+	 6 (007%): br
+	 6 (007%): ml
+	 5 (006%): be-tarask
+	 5 (006%): hi
+	 5 (006%): kk
+	 5 (006%): kk-cyrl
+	 5 (006%): lv
+	 5 (006%): ms
+	 5 (006%): ur
+	 4 (005%): af
+	 4 (005%): ga
+	 4 (005%): ia
+	 4 (005%): pa
+	 4 (005%): pt-br
+	 4 (005%): sco
+	 3 (003%): gsw
+	 3 (003%): io
+	 3 (003%): kk-arab
+	 3 (003%): kk-latn
+	 3 (003%): si
+	 2 (002%): ba
+	 2 (002%): ckb
+	 2 (002%): de-ch
+	 2 (002%): gan
+	 2 (002%): kk-cn
+	 2 (002%): kk-kz
+	 2 (002%): kk-tr
+	 2 (002%): ky
+	 2 (002%): ne
+	 2 (002%): os
+	 2 (002%): ps
+	 2 (002%): sq
+	 2 (002%): sw
+	 2 (002%): tt
+	 2 (002%): war
+	 2 (002%): yi
+	 1 (001%): an
+	 1 (001%): ce
+	 1 (001%): gan-hans
+	 1 (001%): gan-hant
+	 1 (001%): gu
+	 1 (001%): gv
+	 1 (001%): lb
+	 1 (001%): mn
+	 1 (001%): mo
+	 1 (001%): nan
+	 1 (001%): nds
+	 1 (001%): nds-nl
+	 1 (001%): pap
+	 1 (001%): pnb
+	 1 (001%): so
+	 1 (001%): tg
+	 1 (001%): wa
+
+<http://www.w3.org/2004/02/skos/core#altLabel>:
+	638 (072%): ? 
+	 62 (007%): fr
+	 25 (003%): ar
+	 22 (002%): pt
+	 16 (002%): pl
+	 15 (002%): th
+	 12 (001%): bg
+	 11 (001%): sr
+	 11 (001%): tr
+	 10 (001%): lv
+	  8 (001%): eu
+	  8 (001%): ia
+	  8 (001%): lt
+	  7 (001%): id
+	  5 (001%): et
+	  4 (000%): la
+	  4 (000%): ml
+	  4 (000%): tt
+	  3 (000%): hr
+	  2 (000%): br
+	  2 (000%): el
+	  2 (000%): gan
+	  2 (000%): ur
+	  1 (000%): an
+	  1 (000%): ba
+	  1 (000%): be-tarask
+	  1 (000%): bs
+	  1 (000%): kk
+	  1 (000%): kk-cyrl
+	  1 (000%): si
+	  1 (000%): sq
+	  1 (000%): wa
+	  1 (000%): yi
+
+<http://schema.org/description>:
+	107 (086%): ? 
+	  6 (005%): fr
+	  2 (002%): pl
+	  1 (001%): ar
+	  1 (001%): ba
+	  1 (001%): en-gb
+	  1 (001%): en-x-simple
+	  1 (001%): gu
+	  1 (001%): kk
+	  1 (001%): sr
+	  1 (001%): sr-cyrl
+	  1 (001%): tt
+
+<http://www.w3.org/2000/01/rdf-schema#label>:
+	 721 (057%): ? 
+	  50 (004%): fr
+	  35 (003%): pl
+	  33 (003%): pt
+	  22 (002%): zh-hans
+	  21 (002%): sr
+	  20 (002%): id
+	  20 (002%): zh-hk
+	  18 (001%): ar
+	  18 (001%): bg
+	  17 (001%): hr
+	  17 (001%): tr
+	  15 (001%): el
+	  14 (001%): sr-cyrl
+	  13 (001%): eu
+	  12 (001%): zh-tw
+	  11 (001%): en-x-simple
+	  11 (001%): lt
+	  10 (001%): en-gb
+	  10 (001%): th
+	  10 (001%): zh-cn
+	   9 (001%): et
+	   7 (001%): bs
+	   7 (001%): la
+	   6 (000%): br
+	   6 (000%): ml
+	   5 (000%): be-tarask
+	   5 (000%): hi
+	   5 (000%): kk
+	   5 (000%): lv
+	   5 (000%): ms
+	   5 (000%): ur
+	   4 (000%): af
+	   4 (000%): ga
+	   4 (000%): ia
+	   4 (000%): kk-cyrl
+	   4 (000%): pa
+	   4 (000%): pt-br
+	   4 (000%): sco
+	   3 (000%): gsw
+	   3 (000%): io
+	   3 (000%): kk-arab
+	   3 (000%): kk-latn
+	   3 (000%): si
+	   2 (000%): ba
+	   2 (000%): ckb
+	   2 (000%): de-ch
+	   2 (000%): gan
+	   2 (000%): kk-cn
+	   2 (000%): kk-kz
+	   2 (000%): kk-tr
+	   2 (000%): ky
+	   2 (000%): ne
+	   2 (000%): os
+	   2 (000%): ps
+	   2 (000%): sq
+	   2 (000%): sw
+	   2 (000%): tt
+	   2 (000%): war
+	   2 (000%): yi
+	   1 (000%): an
+	   1 (000%): ce
+	   1 (000%): gan-hans
+	   1 (000%): gan-hant
+	   1 (000%): gv
+	   1 (000%): lb
+	   1 (000%): mn
+	   1 (000%): mo
+	   1 (000%): nan
+	   1 (000%): nds
+	   1 (000%): nds-nl
+	   1 (000%): pap
+	   1 (000%): pnb
+	   1 (000%): so
+	   1 (000%): tg
+	   1 (000%): wa
+
+
+********************************************************************************
+* PROPERTY VALUES STATISTICS                                                   *
+********************************************************************************
+* This section lists the values found for a specific property.                 *
+*                                                                              *
+* Meaning of the columns:                                                      *
+* #1: Number of properties with this literal                                   *
+* #2: Percentage against the total number of resources                         *
+* #3: The literal value and language if defined (see @)                        *
+********************************************************************************
+
+<http://www.wikidata.org/entity/P646c>:
+	 1 (001%): /m/011z1t
+	 1 (001%): /m/012xhn
+	 1 (001%): /m/0130zd
+	 1 (001%): /m/01431j
+	 1 (001%): /m/01929s
+	 1 (001%): /m/01c6nk
+	 1 (001%): /m/01k017
+	 1 (001%): /m/01pb34
+	 1 (001%): /m/01q03
+	 1 (001%): /m/01s5p3
+	 1 (001%): /m/01tw79
+	 1 (001%): /m/020_bb
+	 1 (001%): /m/021f85
+	 1 (001%): /m/025gb
+	 1 (001%): /m/026r94
+	 1 (001%): /m/02_qp3
+	 1 (001%): /m/02cxg
+	 1 (001%): /m/02jsr
+	 1 (001%): /m/02nt8b
+	 1 (001%): /m/031hrg
+	 1 (001%): /m/03j_7c
+	 1 (001%): /m/03k6wb
+	 1 (001%): /m/03yy3j
+	 1 (001%): /m/0410tx2
+	 1 (001%): /m/05bytn
+	 1 (001%): /m/05djjk
+	 1 (001%): /m/06jqj
+	 1 (001%): /m/06m3n8
+	 1 (001%): /m/071jd_
+	 1 (001%): /m/07_0m0
+	 1 (001%): /m/07bfxk
+	 1 (001%): /m/07bhq6
+	 1 (001%): /m/08079d8
+	 1 (001%): /m/0877k9
+	 1 (001%): /m/08l32c
+	 1 (001%): /m/08rzl1
+	 1 (001%): /m/08w4br
+	 1 (001%): /m/09jb4y
+	 1 (001%): /m/0b8t7
+	 1 (001%): /m/0ds6b6c
+	 1 (001%): /m/0f5j8
+	 1 (001%): /m/0g9xd2v
+	 1 (001%): /m/0j_793q
+	 1 (001%): /m/0mg1w
+
+<http://www.wikidata.org/entity/P373c>:
+	 1 (001%): Art
+	 1 (001%): Bronze Age
+	 1 (001%): Craquelure
+	 1 (001%): Crowd surfing
+	 1 (001%): Ecclesiology
+	 1 (001%): Great Patriotic War
+	 1 (001%): Healthy lifestyle
+	 1 (001%): Holy Land
+	 1 (001%): Lectures
+	 1 (001%): Neologisms
+	 1 (001%): Slalom
+	 1 (001%): Slam dunk
+	 1 (001%): Terraforming
+
+<http://www.wikidata.org/entity/P625c>:
+	 1 (001%): http://www.wikidata.org/entity/VC61d767b9e8b66fcc1638e38b54b4f34d
+
+<http://www.wikidata.org/entity/P279s>:
+	 1 (001%): http://www.wikidata.org/entity/Q1058314S115363b8-4d8a-27b6-697c-59075277133a
+	 1 (001%): http://www.wikidata.org/entity/Q130989Sd33dfbbe-44fe-8034-15fa-cd796ff9b5a3
+	 1 (001%): http://www.wikidata.org/entity/Q15074074Se84fa80a-4d0d-336b-1943-4f4c9268c35e
+	 1 (001%): http://www.wikidata.org/entity/Q1553237S58724685-4bf6-a312-cc61-1ebe1705075a
+	 1 (001%): http://www.wikidata.org/entity/Q15621933S31ccab91-44f1-0bc1-5c01-b2109d81931d
+	 1 (001%): http://www.wikidata.org/entity/Q15733670S1eddf590-4894-c1fc-be4c-2b8a158c5827
+	 1 (001%): http://www.wikidata.org/entity/Q15733672S262b89bf-44f3-ba2c-b673-a59c3079bda9
+	 1 (001%): http://www.wikidata.org/entity/Q16915726S066b4877-477e-e775-47c1-f7aa116b8b99
+	 1 (001%): http://www.wikidata.org/entity/Q219557S19d38d8c-47d3-1556-1282-1735833ef2f6
+	 1 (001%): http://www.wikidata.org/entity/Q319714Sef48518a-4460-e553-9c62-118e2290d7ed
+	 1 (001%): http://www.wikidata.org/entity/Q7881418S63af53ef-4325-2181-86eb-5562adc02d8e
+
+<http://www.wikidata.org/entity/P1080s>:
+	 1 (001%): http://www.wikidata.org/entity/Q6967817Sccf69e1a-4a94-e2c0-175e-a052d9bc759c
+
+<http://www.wikidata.org/entity/P966s>:
+	 1 (001%): http://www.wikidata.org/entity/Q387009S951406a1-42b8-9848-f69c-2812857dccbe
+
+<http://www.wikidata.org/entity/P214-viaf>:
+	 1 (001%): http://viaf.org/viaf/254773835
+
+<http://www.wikidata.org/entity/P580s>:
+	 1 (001%): http://www.wikidata.org/entity/Q7482779S4e49feb3-4d9c-d496-c4f0-43b52c787c71
+
+<http://www.wikidata.org/entity/P582s>:
+	 1 (001%): http://www.wikidata.org/entity/Q7482779Sb1160398-40ea-119d-3d1e-107f4e7d889d
+
+<http://www.wikidata.org/entity/P646s>:
+	 1 (001%): http://www.wikidata.org/entity/Q1000031S20BE3E59-01E1-4108-A8D6-C3A6BCBE4E2D
+	 1 (001%): http://www.wikidata.org/entity/Q1000492S7B5572D6-3A68-4BE2-AF22-FED91D08DBC4
+	 1 (001%): http://www.wikidata.org/entity/Q1009424SB8FE3507-1CAA-4441-8B26-64A9D6D8111F
+	 1 (001%): http://www.wikidata.org/entity/Q104851SD198C017-2FD9-4176-B8AF-7AD81E36F870
+	 1 (001%): http://www.wikidata.org/entity/Q1058314SEF8A4527-42A2-49C0-B018-1FBACED11337
+	 1 (001%): http://www.wikidata.org/entity/Q1063239S90F5F4ED-9668-47FC-B08D-E18A20935BDD
+	 1 (001%): http://www.wikidata.org/entity/Q1141718S9893FEA8-A42A-4860-9FA7-20F0149FC1A9
+	 1 (001%): http://www.wikidata.org/entity/Q1190472S2EE2F843-0642-4700-A1DE-991E88C7E84F
+	 1 (001%): http://www.wikidata.org/entity/Q1194369SBF3EAFE4-28FA-4B0B-81C1-4D7F8A6E6CEB
+	 1 (001%): http://www.wikidata.org/entity/Q130989S477DBBB5-74C8-4FA6-A0FF-266D40F5FD8C
+	 1 (001%): http://www.wikidata.org/entity/Q1318370S5220B5FD-A50F-47EA-8921-0EF54E49E4D1
+	 1 (001%): http://www.wikidata.org/entity/Q1329067S2DA08C4E-1F48-4601-8C11-3AE5D007E827
+	 1 (001%): http://www.wikidata.org/entity/Q1332873S28900D71-0B4B-46B8-A1DC-0C165D8C11F5
+	 1 (001%): http://www.wikidata.org/entity/Q178715SA7649E94-5B8E-4906-8FBD-8F57E81C9FB8
+	 1 (001%): http://www.wikidata.org/entity/Q1851928SEF9887BA-19BC-4545-ADD6-477FD52FC99B
+	 1 (001%): http://www.wikidata.org/entity/Q191796S7D45691F-E0CD-4235-A2A9-0502A52EDDC9
+	 1 (001%): http://www.wikidata.org/entity/Q205653SB3B035B8-BE3E-41A7-9AC7-23BBA98C45D9
+	 1 (001%): http://www.wikidata.org/entity/Q2070796SE4A7D7D2-B9FB-45E0-AE76-5CB9C2428692
+	 1 (001%): http://www.wikidata.org/entity/Q212452S6C0B8F69-8027-4C99-BFD1-61CD9CEC6E26
+	 1 (001%): http://www.wikidata.org/entity/Q2144405S20DC5B3B-7879-46B4-9E3C-840B387BB062
+	 1 (001%): http://www.wikidata.org/entity/Q219557S0B469220-59AF-444E-8013-49BED4A6D790
+	 1 (001%): http://www.wikidata.org/entity/Q219625SE6EE0C85-71E7-4C00-984D-F970C35C237F
+	 1 (001%): http://www.wikidata.org/entity/Q220098SB804F12D-22EC-4075-83A1-DDE3EDAA4419
+	 1 (001%): http://www.wikidata.org/entity/Q223693SB20FBFA5-A4D6-4615-A6BD-2B7D28C97FF2
+	 1 (001%): http://www.wikidata.org/entity/Q2975244S17575E50-CCC2-4281-8260-4EF8299B133A
+	 1 (001%): http://www.wikidata.org/entity/Q314144S583ED793-1F42-471B-BAE7-565EC10A6338
+	 1 (001%): http://www.wikidata.org/entity/Q319714SCF3616D9-1B21-4549-BE76-B99C945B5EBA
+	 1 (001%): http://www.wikidata.org/entity/Q362059SD0EF6222-AF14-46A7-B3B2-6E463F44EB99
+	 1 (001%): http://www.wikidata.org/entity/Q468777S14743854-1925-4417-9765-1F400E6E91EB
+	 1 (001%): http://www.wikidata.org/entity/Q471191S51C7EB67-72D4-48F4-836C-15ECAFED5242
+	 1 (001%): http://www.wikidata.org/entity/Q48175S83F51201-E71C-44B8-80FC-AE1DCF54A1A0
+	 1 (001%): http://www.wikidata.org/entity/Q5727902S765445BA-93CD-456A-B97A-A41F4FE5ED15
+	 1 (001%): http://www.wikidata.org/entity/Q603773S3402AD37-5694-4EE1-8709-581F0D1EA7DD
+	 1 (001%): http://www.wikidata.org/entity/Q6144292SBD7B2F9E-79AD-49D9-99EA-5BBA77845863
+	 1 (001%): http://www.wikidata.org/entity/Q622182S6716E910-80C0-4728-82ED-AF17DA30F3FE
+	 1 (001%): http://www.wikidata.org/entity/Q643397S262F4222-FBFA-4D91-A99F-7D34827B3A67
+	 1 (001%): http://www.wikidata.org/entity/Q706407S68A8A965-A760-4EBC-8AED-6C16729C805D
+	 1 (001%): http://www.wikidata.org/entity/Q707401S85CD03F3-B800-4FA3-8E04-19426C920BE1
+	 1 (001%): http://www.wikidata.org/entity/Q829183S0F50B721-F705-4FBA-9DAE-9B0A33677199
+	 1 (001%): http://www.wikidata.org/entity/Q863349S793CB018-85BB-4689-A681-4C067F166A69
+	 1 (001%): http://www.wikidata.org/entity/Q868069SF98C4995-75A4-4BBC-959B-BA33A584ECAC
+	 1 (001%): http://www.wikidata.org/entity/Q870803S3C7AB67F-71F8-444A-94A1-68226CB3BDAA
+	 1 (001%): http://www.wikidata.org/entity/Q871529S1D297A68-0FC5-4B38-BC96-800BAE93BA08
+	 1 (001%): http://www.wikidata.org/entity/Q931510SD79D5CE3-F986-4BAB-AE0A-5AB82ABF010B
+
+<http://www.wikidata.org/entity/P373s>:
+	 1 (001%): http://www.wikidata.org/entity/Q1141718S6B238F82-DFCD-444C-8155-40B426DFE37A
+	 1 (001%): http://www.wikidata.org/entity/Q130989S74e04480-44e0-b645-dad8-f0f914dc811a
+	 1 (001%): http://www.wikidata.org/entity/Q1329067S39504702-99E0-4D4C-8DE2-B82919D55D41
+	 1 (001%): http://www.wikidata.org/entity/Q1851928S6EF4D2D9-55EA-42AF-B571-7BC899210518
+	 1 (001%): http://www.wikidata.org/entity/Q204520SE823C1D9-462F-40B5-BB12-9717269D6FE2
+	 1 (001%): http://www.wikidata.org/entity/Q219625S7832E126-57BB-4AAA-B000-8BA565850A8D
+	 1 (001%): http://www.wikidata.org/entity/Q223693SE5C4A2CF-F275-45FB-880D-3651D978E69B
+	 1 (001%): http://www.wikidata.org/entity/Q3247173S917C4DBB-4E1C-41DA-9F9D-35C128181586
+	 1 (001%): http://www.wikidata.org/entity/Q48175S864ECE2F-D589-442E-B57E-E727F684DA5D
+	 1 (001%): http://www.wikidata.org/entity/Q4843764S93e48eea-4a17-905e-d31b-e74ba496c6a0
+	 1 (001%): http://www.wikidata.org/entity/Q603773SB41DFD60-A391-4957-B3DA-E7C31BDE43D3
+	 1 (001%): http://www.wikidata.org/entity/Q7482779S3F9ABE11-DB31-4777-95FB-EB72F4C35492
+	 1 (001%): http://www.wikidata.org/entity/Q870803S32D5B2B2-BF06-4340-A919-FD96B1E6B3F0
+
+<http://www.wikidata.org/entity/P625s>:
+	 1 (001%): http://www.wikidata.org/entity/Q622182SA91097AD-060D-4274-83E1-956BBD5FE846
+
+<http://www.wikidata.org/entity/P279c>:
+	 2 (002%): http://www.wikidata.org/entity/Q1248784
+	 1 (001%): http://www.wikidata.org/entity/Q1071
+	 1 (001%): http://www.wikidata.org/entity/Q10871364
+	 1 (001%): http://www.wikidata.org/entity/Q11424
+	 1 (001%): http://www.wikidata.org/entity/Q1434958
+	 1 (001%): http://www.wikidata.org/entity/Q1969448
+	 1 (001%): http://www.wikidata.org/entity/Q202906
+	 1 (001%): http://www.wikidata.org/entity/Q2421276
+	 1 (001%): http://www.wikidata.org/entity/Q82799
+	 1 (001%): http://www.wikidata.org/entity/Q851587
+
+<http://www.wikidata.org/entity/P966c>:
+	 1 (001%): 2a3dc092-c397-490b-8278-7b771dba3f1a
+
+<http://www.wikidata.org/entity/P508s>:
+	 1 (001%): http://www.wikidata.org/entity/Q130989S23801B1B-2464-42D2-A8C7-D79D689B5A4B
+	 1 (001%): http://www.wikidata.org/entity/Q178715S442BA800-8E59-4AFA-9D68-53023E88262D
+	 1 (001%): http://www.wikidata.org/entity/Q223693S9142D067-ECF3-4605-B6AA-3FFDD50BAC48
+	 1 (001%): http://www.wikidata.org/entity/Q2975244S93F75ED4-E5A5-4E55-B7C0-69101FE00526
+	 1 (001%): http://www.wikidata.org/entity/Q468777S3EE71E33-E4C1-4AF3-939F-5EB60BB3DC34
+
+<http://www.w3.org/2000/01/rdf-schema#subClassOf>:
+	 2 (002%): http://www.wikidata.org/entity/Q1248784
+	 1 (001%): http://www.wikidata.org/entity/Q1071
+	 1 (001%): http://www.wikidata.org/entity/Q10871364
+	 1 (001%): http://www.wikidata.org/entity/Q11424
+	 1 (001%): http://www.wikidata.org/entity/Q1434958
+	 1 (001%): http://www.wikidata.org/entity/Q1969448
+	 1 (001%): http://www.wikidata.org/entity/Q202906
+	 1 (001%): http://www.wikidata.org/entity/Q2421276
+	 1 (001%): http://www.wikidata.org/entity/Q82799
+	 1 (001%): http://www.wikidata.org/entity/Q851587
+
+<http://www.wikidata.org/entity/P580c>:
+	 1 (001%): 1941-06-22+01:00^^http://www.w3.org/2001/XMLSchema#date
+
+<http://www.wikidata.org/entity/P966-mblabel>:
+	 1 (001%): http://musicbrainz.org/2a3dc092-c397-490b-8278-7b771dba3f1a/label
+
+<http://www.wikidata.org/entity/P582c>:
+	 1 (001%): 1945-05-09+01:00^^http://www.w3.org/2001/XMLSchema#date
+
+<http://www.wikidata.org/entity/P434-mbartist>:
+	 1 (001%): http://musicbrainz.org/2a3dc092-c397-490b-8278-7b771dba3f1a/artist
+
+<http://www.wikidata.org/entity/P131c>:
+	 1 (001%): http://www.wikidata.org/entity/Q43463
+
+<http://www.wikidata.org/entity/P1296c>:
+	 1 (001%): 0126013
+
+<http://www.wikidata.org/entity/P31c>:
+	88 (100%): http://www.wikidata.org/entity/Q1969448
+	 1 (001%): http://www.wikidata.org/entity/Q1321906
+	 1 (001%): http://www.wikidata.org/entity/Q23498
+	 1 (001%): http://www.wikidata.org/entity/Q246672
+	 1 (001%): http://www.wikidata.org/entity/Q2719358
+	 1 (001%): http://www.wikidata.org/entity/Q2727213
+	 1 (001%): http://www.wikidata.org/entity/Q4866600
+	 1 (001%): http://www.wikidata.org/entity/Q545779
+	 1 (001%): http://www.wikidata.org/entity/Q6498784
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>:
+	88 (100%): http://www.wikidata.org/entity/Q1969448
+	88 (100%): http://www.wikidata.org/ontology#Item
+	20 (023%): http://www.w3.org/2002/07/owl#Class
+	 1 (001%): http://www.wikidata.org/entity/Q1321906
+	 1 (001%): http://www.wikidata.org/entity/Q23498
+	 1 (001%): http://www.wikidata.org/entity/Q246672
+	 1 (001%): http://www.wikidata.org/entity/Q2719358
+	 1 (001%): http://www.wikidata.org/entity/Q2727213
+	 1 (001%): http://www.wikidata.org/entity/Q4866600
+	 1 (001%): http://www.wikidata.org/entity/Q545779
+	 1 (001%): http://www.wikidata.org/entity/Q6498784
+
+<http://www.wikidata.org/entity/P349s>:
+	 1 (001%): http://www.wikidata.org/entity/Q1063239SF98C7BD5-2CDD-462E-A88F-61C93B8C1F18
+	 1 (001%): http://www.wikidata.org/entity/Q1190472S63C967D9-E20D-4DE7-BD74-8BAA54F7F444
+	 1 (001%): http://www.wikidata.org/entity/Q130989SED935B53-442D-4139-A8B2-45B1C2400FEC
+	 1 (001%): http://www.wikidata.org/entity/Q205653SC5EF1467-2E54-41C0-A9C2-71F389E4A49A
+	 1 (001%): http://www.wikidata.org/entity/Q220098S46DF1AAB-CE09-4A56-9D9E-AC33191EE96B
+	 1 (001%): http://www.wikidata.org/entity/Q48175S1A434409-CE40-4895-BB70-9B31F499F858
+	 1 (001%): http://www.wikidata.org/entity/Q863349SD528DD69-5C2A-4B58-8F53-3D7EE5692C16
+
+<http://www.wikidata.org/entity/P214c>:
+	 1 (001%): 254773835
+
+<http://www.wikidata.org/entity/P1343s>:
+	 1 (001%): http://www.wikidata.org/entity/Q1327399SD4BEA28A-DA3C-4FA5-96C9-E4A0CEC8FD1F
+
+<http://www.wikidata.org/entity/P910s>:
+	 1 (001%): http://www.wikidata.org/entity/Q104851SB077D4A4-EB14-4EFF-82D6-6538C311F667
+	 1 (001%): http://www.wikidata.org/entity/Q1190472S1577E25D-7974-48B4-8C7D-E25E67792031
+	 1 (001%): http://www.wikidata.org/entity/Q178715SF5DAC883-BB80-40FB-88CD-69494DB43815
+	 1 (001%): http://www.wikidata.org/entity/Q1851928S963F2EF3-BF8D-4A5A-8E48-CD61D6488DF0
+	 1 (001%): http://www.wikidata.org/entity/Q204520SF991CE5F-0038-4890-9A20-93EDF077FC58
+	 1 (001%): http://www.wikidata.org/entity/Q2070796S9E3DAE65-DB1B-4626-B795-E4084CAB0104
+	 1 (001%): http://www.wikidata.org/entity/Q219557S4AE1BD86-F65B-49CF-8E03-31D78DBD0694
+	 1 (001%): http://www.wikidata.org/entity/Q220098SDC5228D7-85CD-40A9-A2D7-3B04E15F350D
+	 1 (001%): http://www.wikidata.org/entity/Q223693SC6F988C7-031D-46F0-8C75-71CA7534BDD5
+	 1 (001%): http://www.wikidata.org/entity/Q5193258SBFF7F597-9397-4045-905D-27ABBBDD40F6
+	 1 (001%): http://www.wikidata.org/entity/Q931510S85FF7234-87F9-4599-9CFC-8DCBED386F4B
+
+<http://www.wikidata.org/entity/P508c>:
+	 1 (001%): 1705
+	 1 (001%): 17679
+	 1 (001%): 17817
+	 1 (001%): 20023
+	 1 (001%): 29612
+
+<http://www.wikidata.org/entity/P18c>:
+	 1 (001%): http://commons.wikimedia.org/wiki/File:Dioecesis_Orientis_400_AD.png
+	 1 (001%): http://commons.wikimedia.org/wiki/File:Holy_sepulchre_mass.jpg
+	 1 (001%): http://commons.wikimedia.org/wiki/File:MarsTransitionV.jpg
+	 1 (001%): http://commons.wikimedia.org/wiki/File:Middle_East_Levant.jpg
+	 1 (001%): http://commons.wikimedia.org/wiki/File:Two-aspect-signal_ES692.jpg
+
+<http://www.wikidata.org/entity/P131s>:
+	 1 (001%): http://www.wikidata.org/entity/Q622182S7e050570-4102-3323-197d-058650ac3c66
+
+<http://www.wikidata.org/entity/P1296s>:
+	 1 (001%): http://www.wikidata.org/entity/Q130989SD3872461-A9F8-4918-B086-1FBF3A662795
+
+<http://www.wikidata.org/entity/P31s>:
+	 1 (001%): http://www.wikidata.org/entity/Q1000031S6C546C93-3184-4055-AA08-753CF09457F4
+	 1 (001%): http://www.wikidata.org/entity/Q1000492S8a02d4a3-42a1-a0c1-e56d-33d607ad5917
+	 1 (001%): http://www.wikidata.org/entity/Q1009424S70cc59c6-40d7-c2e1-4202-c7182a7f8aa2
+	 1 (001%): http://www.wikidata.org/entity/Q1034411S11250345-4555-277a-0e90-d6cd4af33c4e
+	 1 (001%): http://www.wikidata.org/entity/Q104851Sba8f9214-4523-2ce1-7f30-896a9db7be96
+	 1 (001%): http://www.wikidata.org/entity/Q1058314Scc1108d3-4d07-a6cc-2f3c-fcf52e33d8b5
+	 1 (001%): http://www.wikidata.org/entity/Q1063239Se99779ed-42da-f6b6-a28a-e3c40dace8a5
+	 1 (001%): http://www.wikidata.org/entity/Q10862760S56834b04-44eb-342c-33ee-7797369127e8
+	 1 (001%): http://www.wikidata.org/entity/Q1141718S4A1086D9-C3BC-4B1F-92FF-56F81AA1A157
+	 1 (001%): http://www.wikidata.org/entity/Q1190472Se3d608b3-4f0a-4b26-69c0-48fc34b7f9df
+	 1 (001%): http://www.wikidata.org/entity/Q1194369S7458bbbc-466a-cf84-59a4-ad00a5fe877a
+	 1 (001%): http://www.wikidata.org/entity/Q130989S49BB9A1E-037D-47EC-9633-BAA90A72D2D3
+	 1 (001%): http://www.wikidata.org/entity/Q1318370S8091BBDA-64A0-46E3-8E26-4B95CE8AA5E8
+	 1 (001%): http://www.wikidata.org/entity/Q1318370S92FA76F3-B556-4EB4-883B-0059BA01B66B
+	 1 (001%): http://www.wikidata.org/entity/Q1318370SD381F106-3709-4F91-9C5E-3221B5A41BDF
+	 1 (001%): http://www.wikidata.org/entity/Q1327399Sc662634a-4e02-748f-f64a-8b43aff52d55
+	 1 (001%): http://www.wikidata.org/entity/Q1329067S04e1ca99-43cc-4270-c315-960dc6de1595
+	 1 (001%): http://www.wikidata.org/entity/Q1332873SB2BC519F-4753-4C23-A175-96FD97D0429F
+	 1 (001%): http://www.wikidata.org/entity/Q13406960S461b25a0-4b52-e429-050c-7d2a145293f8
+	 1 (001%): http://www.wikidata.org/entity/Q1347009S11f03a63-4f3e-bf4e-bcee-14243dc9dac9
+	 1 (001%): http://www.wikidata.org/entity/Q1350376S652622ab-4abf-ee49-b89d-c0ed0846c251
+	 1 (001%): http://www.wikidata.org/entity/Q14360136S6d0d0465-4cba-28c6-95d0-7f2e1c33f7c9
+	 1 (001%): http://www.wikidata.org/entity/Q1445182Sf283c59a-48c6-bb75-a99f-08f6f1afa366
+	 1 (001%): http://www.wikidata.org/entity/Q14806642Sb2a3750d-4e6b-ce2f-4fee-4ad9e498f6c8
+	 1 (001%): http://www.wikidata.org/entity/Q15056768S1e809951-40b5-9d35-2cda-a4b461182831
+	 1 (001%): http://www.wikidata.org/entity/Q15074074S9bbba009-43be-d388-07c0-d5c4e430dda8
+	 1 (001%): http://www.wikidata.org/entity/Q15074074Sabd9c7d6-4f68-82c2-80e5-6401d67536cf
+	 1 (001%): http://www.wikidata.org/entity/Q15089689S2eb94bbb-43dd-e7a3-de2f-90d9c273cde8
+	 1 (001%): http://www.wikidata.org/entity/Q15089703S58cc4703-4890-db26-6291-4811a9967071
+	 1 (001%): http://www.wikidata.org/entity/Q1553237Seb803d83-4d68-6adc-bb14-fb91533e6d28
+	 1 (001%): http://www.wikidata.org/entity/Q15621933S1a589db0-4571-e039-0e52-2a299a341252
+	 1 (001%): http://www.wikidata.org/entity/Q15733670Scf5c2b53-447b-24bc-03d6-298aea5a73e1
+	 1 (001%): http://www.wikidata.org/entity/Q15733672S1cb4450f-42b0-a7fa-eeea-febee3ec6447
+	 1 (001%): http://www.wikidata.org/entity/Q15733695Sbae7bcbe-4834-75e0-9ee8-6e23466228e2
+	 1 (001%): http://www.wikidata.org/entity/Q16748888S1f80775c-4e77-3793-f4f2-7a26268026ab
+	 1 (001%): http://www.wikidata.org/entity/Q16915726S457cf145-4a18-1249-59b2-5f8bd9ad9030
+	 1 (001%): http://www.wikidata.org/entity/Q1741950S0be74fc3-4b2f-4092-5f9c-47e1200e102a
+	 1 (001%): http://www.wikidata.org/entity/Q178715Sf45ada95-4418-116b-4cf3-ad13d1dc35cf
+	 1 (001%): http://www.wikidata.org/entity/Q1851928S22C3CBA3-9069-4760-9789-E6BAC973B78C
+	 1 (001%): http://www.wikidata.org/entity/Q191796S07e683a1-4b16-5032-0a5a-c77f1687280c
+	 1 (001%): http://www.wikidata.org/entity/Q204520Sada6bc0c-45cf-9702-bf16-9cae31878ab4
+	 1 (001%): http://www.wikidata.org/entity/Q204520Sc7a8f06a-4671-fd05-a4d0-48c4e264d82f
+	 1 (001%): http://www.wikidata.org/entity/Q204520Se4528410-4639-28d2-0d0e-2d3fef122dff
+	 1 (001%): http://www.wikidata.org/entity/Q205653S13180eac-4487-b536-b7ac-7eb292a84cfb
+	 1 (001%): http://www.wikidata.org/entity/Q2070796Sd9c44974-4184-1471-d683-dec2688a569d
+	 1 (001%): http://www.wikidata.org/entity/Q212452S27210bb1-424e-337c-3dd3-23fe02cc4246
+	 1 (001%): http://www.wikidata.org/entity/Q212452Scd3d2820-4773-decd-9615-5193af90d6c7
+	 1 (001%): http://www.wikidata.org/entity/Q2144405S63ded984-4f90-b799-d3d4-fb8d571eb0c2
+	 1 (001%): http://www.wikidata.org/entity/Q2193308Sd0b4f492-4a3a-37d4-dbfa-75c07707fabd
+	 1 (001%): http://www.wikidata.org/entity/Q219557S1080B647-E115-4B90-B533-CE6EBA6E1D36
+	 1 (001%): http://www.wikidata.org/entity/Q219625Sdba51b49-4d2e-0222-77b0-2a481ea7fa11
+	 1 (001%): http://www.wikidata.org/entity/Q220098SF2B86533-2F31-48D6-AE8C-3276D1736FA7
+	 1 (001%): http://www.wikidata.org/entity/Q223693S113f2c4d-428f-77d6-cd83-550cc6d99eef
+	 1 (001%): http://www.wikidata.org/entity/Q2581738S6cd21b73-4738-2759-b07c-ecd3e62f5bfd
+	 1 (001%): http://www.wikidata.org/entity/Q2682207S50449986-5D86-4CE0-875E-0B3367194B01
+	 1 (001%): http://www.wikidata.org/entity/Q2695337S0abb179c-413c-6c39-5105-ef6905f013b1
+	 1 (001%): http://www.wikidata.org/entity/Q2758123S4edec92b-4a29-068b-eefe-2c5b79ec8b32
+	 1 (001%): http://www.wikidata.org/entity/Q2811650S5e90fadd-4731-18cc-1964-61ce3822ce27
+	 1 (001%): http://www.wikidata.org/entity/Q2975244Sa2d90462-4119-8cc0-0e43-c7df7a76028c
+	 1 (001%): http://www.wikidata.org/entity/Q314144Sc8c874d1-46e7-b2a9-5e74-f9bed4bc5b78
+	 1 (001%): http://www.wikidata.org/entity/Q3195921Sfaed8ba9-4bf0-4dc6-1855-34011144cc61
+	 1 (001%): http://www.wikidata.org/entity/Q319714Sa36cd09b-47a0-3f6f-cf21-5e1b6fb66b8f
+	 1 (001%): http://www.wikidata.org/entity/Q3247173S14ccb0e2-4b96-f5ff-2252-03a94b9ba3c0
+	 1 (001%): http://www.wikidata.org/entity/Q3247173Sb6dc5ce2-4129-f9c4-0474-2198e3d6b773
+	 1 (001%): http://www.wikidata.org/entity/Q362059S8c6561ad-424b-60ae-ee29-b77d73c46c6d
+	 1 (001%): http://www.wikidata.org/entity/Q387009S8a1b31b7-40e7-509e-ec8a-8511cacdd51c
+	 1 (001%): http://www.wikidata.org/entity/Q4460020Sa450d7c8-4bb2-2713-bad1-18abf7bb7ab4
+	 1 (001%): http://www.wikidata.org/entity/Q4546292S78badb0a-4335-97f1-ebf5-5f732780f714
+	 1 (001%): http://www.wikidata.org/entity/Q468777Sb9e64acd-4a65-6925-c6b1-d9ee16e40593
+	 1 (001%): http://www.wikidata.org/entity/Q471191Sb90b5db8-4c42-e414-584c-3471e2342ec4
+	 1 (001%): http://www.wikidata.org/entity/Q4752973SBF647667-3F21-40F8-97F3-AA2B26A5EFA9
+	 1 (001%): http://www.wikidata.org/entity/Q48175S65963384-2A5C-4F8C-90BB-E6BCA14E1131
+	 1 (001%): http://www.wikidata.org/entity/Q4843764S4a694166-4068-0661-cd7f-5728edea1d95
+	 1 (001%): http://www.wikidata.org/entity/Q4978814S687e8195-4589-3529-7fa0-647adc842e5d
+	 1 (001%): http://www.wikidata.org/entity/Q5164391S7a1b6d90-4fb1-4f68-1ff9-00f6cca18c29
+	 1 (001%): http://www.wikidata.org/entity/Q5193258S618923cd-486d-fd7a-06d4-a90152485467
+	 1 (001%): http://www.wikidata.org/entity/Q5727902SBD24AF51-0493-45E6-9E8A-855735DD529A
+	 1 (001%): http://www.wikidata.org/entity/Q603773Sc71f6396-48a0-d0c6-a9f3-61c7feaca5a8
+	 1 (001%): http://www.wikidata.org/entity/Q6144292Sc1b0484c-4aec-2ad5-7e72-932398848f0a
+	 1 (001%): http://www.wikidata.org/entity/Q622182S72690d92-44fd-8738-204c-d093ac5d0f75
+	 1 (001%): http://www.wikidata.org/entity/Q622182Se17d5b23-4e1c-e5dd-a327-9acdb6b72d04
+	 1 (001%): http://www.wikidata.org/entity/Q643397S2363816c-4cb2-667a-75fc-12a658221e3f
+	 1 (001%): http://www.wikidata.org/entity/Q6666274Sdcbd627b-4c7b-ce2a-01a1-853a8c7527bb
+	 1 (001%): http://www.wikidata.org/entity/Q6967817Sdfa37457-4b5f-7900-35da-0c45c68b1131
+	 1 (001%): http://www.wikidata.org/entity/Q706407Secd867dd-4d1a-eee0-d5f6-9f752eeceafa
+	 1 (001%): http://www.wikidata.org/entity/Q707401S43509323-4d28-4077-92a7-d3a55d6a13bc
+	 1 (001%): http://www.wikidata.org/entity/Q7075743S0a4a92fd-4aef-5dec-7e56-ae786b481350
+	 1 (001%): http://www.wikidata.org/entity/Q7482779S2285c8bc-41ac-a25e-522a-98fc3fbfcc45
+	 1 (001%): http://www.wikidata.org/entity/Q7881418Sc2490957-4e12-05dd-c283-0a453d612b9e
+	 1 (001%): http://www.wikidata.org/entity/Q829183S02924043-467b-6e05-72e8-558589d69d2b
+	 1 (001%): http://www.wikidata.org/entity/Q863349S3a9b6ca9-4235-c9d4-1e13-eaad415def29
+	 1 (001%): http://www.wikidata.org/entity/Q868069Sbd57492f-4f1e-0111-d99d-37c600bcdfac
+	 1 (001%): http://www.wikidata.org/entity/Q870803S15b5f8bd-48d5-e1c3-0338-4599d69464d6
+	 1 (001%): http://www.wikidata.org/entity/Q871529Sd253cfd7-49c1-dd2e-bbf4-211f5a270303
+	 1 (001%): http://www.wikidata.org/entity/Q931510S47836B81-051B-47FB-8F4E-69078D6DB59C
+	 1 (001%): http://www.wikidata.org/entity/Q948604Scfd6330c-40e4-2238-2efa-20886e305641
+
+<http://www.wikidata.org/entity/P227-gnd>:
+	 1 (001%): http://d-nb.info/gnd/4076906-9/about/rdf
+	 1 (001%): http://d-nb.info/gnd/4742677-9/about/rdf
+
+<http://www.wikidata.org/entity/P349c>:
+	 1 (001%): 00562589
+	 1 (001%): 00569470
+	 1 (001%): 00570448
+	 1 (001%): 00571027
+	 1 (001%): 00573449
+	 1 (001%): 00576320
+	 1 (001%): 01167510
+
+<http://www.wikidata.org/entity/P1080c>:
+	 1 (001%): http://www.wikidata.org/entity/Q2570312
+
+<http://www.wikidata.org/entity/P214s>:
+	 1 (001%): http://www.wikidata.org/entity/Q205653S7405CBD5-24E3-4BCF-A4E2-2E53C6C26CC5
+
+<http://www.w3.org/2000/01/rdf-schema#label>:
+	 1 (001%): 101
+	 1 (001%): A létező
+	 1 (001%): Adventure
+	 1 (001%): Akto-potencijos perskyra@lt
+	 1 (001%): Aktuaalisuus ja potentiaalisuus
+	 1 (001%): Alantou
+	 1 (001%): Analepse
+	 1 (001%): Analepsis@la
+	 1 (001%): Ancient planter
+	 1 (001%): Angay@war
+	 1 (001%): Apropriação cultural@pt
+	 1 (001%): Assalto ao Banco Central do Brasil em Fortaleza@pt
+	 1 (001%): Atsiskaitymas@lt
+	 1 (001%): Austen
+	 1 (001%): Balcaneiddio
+	 1 (001%): Balcanització
+	 1 (001%): Balcanización
+	 1 (001%): Balcanizare
+	 1 (001%): Balcanizzazione
+	 1 (001%): Balkan
+	 1 (001%): Balkanisasi@id
+	 1 (001%): Balkanisasyon
+	 1 (001%): Balkanisation@fr
+	 1 (001%): Balkanisering
+	 1 (001%): Balkanisierung
+	 1 (001%): Balkanisointi
+	 1 (001%): Balkanizacija
+	 1 (001%): Balkanizacija@hr
+	 1 (001%): Balkanization
+	 1 (001%): Balkanizazio@eu
+	 1 (001%): Balkanïzacïya@kk-latn
+	 1 (001%): Balkanïzacïya@kk-tr
+	 1 (001%): Banco Central burglary at Fortaleza
+	 1 (001%): Bankraub in Fortaleza
+	 1 (001%): Bałkanizacja@pl
+	 1 (001%): Bekende Vlaming
+	 1 (001%): Bekende Vlaming@fr
+	 1 (001%): Belartoj
+	 1 (001%): Belas Artes
+	 1 (001%): Belas artes@pt
+	 1 (001%): Bellae artes@la
+	 1 (001%): Bellas Artes
+	 1 (001%): Belle arti
+	 1 (001%): Belles arts
+	 1 (001%): Bellum Magnum Patrium@la
+	 1 (001%): Berufung
+	 1 (001%): Binaʼadaałtsózí dinéʼi
+	 1 (001%): Brummie
+	 1 (001%): Brummie@fr
+	 1 (001%): Bunga Bunga
+	 1 (001%): Bunga bunga
+	 1 (001%): Bunga bunga@fr
+	 1 (001%): Bài giảng
+	 1 (001%): Bí-su̍t@nan
+	 1 (001%): Böyük Vətən müharibəsi
+	 1 (001%): Büyük Vatanseverlik Savaşı@tr
+	 1 (001%): Ca.@id
+	 1 (001%): Cameo
+	 1 (001%): Cameo appearance@en-x-simple
+	 1 (001%): Cameo görüntü@tr
+	 1 (001%): Cameo rola
+	 1 (001%): Cameo-Auftritt
+	 1 (001%): Cameo-hlutverk
+	 1 (001%): Cameo-rooli
+	 1 (001%): Cameo@eu
+	 1 (001%): Cameo@hr
+	 1 (001%): Cameo@lb
+	 1 (001%): Cameo@pl
+	 1 (001%): Cameo@sq
+	 1 (001%): Cameoszerep
+	 1 (001%): Caméo@fr
+	 1 (001%): Central eléctrica de gas
+	 1 (001%): Chalupník
+	 1 (001%): Chefe militar@pt
+	 1 (001%): Chiaroveggenza
+	 1 (001%): Chiến tranh Vệ quốc Vĩ đại
+	 1 (001%): Circa
+	 1 (001%): Circa@af
+	 1 (001%): Circa@br
+	 1 (001%): Circa@en-x-simple
+	 1 (001%): Circa@eu
+	 1 (001%): Circa@la
+	 1 (001%): Circa@pt
+	 1 (001%): Circa@tr
+	 1 (001%): Circa@zh-hans
+	 1 (001%): Circa@zh-hk
+	 1 (001%): Cirka
+	 1 (001%): Clairvoyance
+	 1 (001%): Clairvoyance@fr
+	 1 (001%): Clarividencia
+	 1 (001%): Clarividência@pt
+	 1 (001%): Clase magistral
+	 1 (001%): Clivellat
+	 1 (001%): Colmo
+	 1 (001%): Colmo@pt
+	 1 (001%): Craquelado
+	 1 (001%): Craquelure
+	 1 (001%): Craquelure@id
+	 1 (001%): Craquelé
+	 1 (001%): Crowd surfing
+	 1 (001%): Crowd surfing@pt
+	 1 (001%): Crowdsurfen
+	 1 (001%): Crowdsurfing
+	 1 (001%): Culem
+	 1 (001%): Culmo
+	 1 (001%): Culmus@la
+	 1 (001%): Cultfilm
+	 1 (001%): Cultural appropriation
+	 1 (001%): Daftar bertopik manajemen teknologi informasi@id
+	 1 (001%): Darlith
+	 1 (001%): De sköna konsterna
+	 1 (001%): Den store fedrelandskrigen
+	 1 (001%): Det heilage landet
+	 1 (001%): Det heliga landet
+	 1 (001%): Det hellige land
+	 1 (001%): Determinandum
+	 1 (001%): Didysis Tėvynės karas@lt
+	 1 (001%): Difeomorfism
+	 1 (001%): Difeomorfisme
+	 1 (001%): Difeomorfismo
+	 1 (001%): Difeomorfismus
+	 1 (001%): Diffeomorfi
+	 1 (001%): Diffeomorfisme
+	 1 (001%): Diffeomorfismo
+	 1 (001%): Diffeomorphismus
+	 1 (001%): Difféomorphisme@fr
+	 1 (001%): Distinction entre acte et puissance@fr
+	 1 (001%): Dochtearraí@ga
+	 1 (001%): Donanım yazılımı@tr
+	 1 (001%): Donkki
+	 1 (001%): Douar Santel@br
+	 1 (001%): Dunk
+	 1 (001%): Dunking
+	 1 (001%): Durugörü@tr
+	 1 (001%): Dyfeomorfizm@pl
+	 1 (001%): Ecclesiologia
+	 1 (001%): Ecclesiologie
+	 1 (001%): Ecclesiology
+	 1 (001%): Ecclesiolohiya@war
+	 1 (001%): Ecclésiologie@fr
+	 1 (001%): Ecklesiologi
+	 1 (001%): Eclesiologia
+	 1 (001%): Eclesiologia@pt
+	 1 (001%): Eclesiología cristiana
+	 1 (001%): Eclesioloxía
+	 1 (001%): Eerste bestyging@af
+	 1 (001%): Effektivitet
+	 1 (001%): Efficience@fr
+	 1 (001%): Efficiency
+	 1 (001%): Efficiency@en-gb
+	 1 (001%): Efficiëntie
+	 1 (001%): Eficiencia
+	 1 (001%): Eficiência@pt
+	 1 (001%): Efikasnost
+	 1 (001%): Efizientzia@eu
+	 1 (001%): Egyháztan
+	 1 (001%): Egzistencija
+	 1 (001%): Egzistencija@hr
+	 1 (001%): Ekialdea@eu
+	 1 (001%): Ekklesiologi
+	 1 (001%): Ekklesiologie
+	 1 (001%): Ekklesiologie@af
+	 1 (001%): Ekklesiologiya
+	 1 (001%): Eklesiologi@id
+	 1 (001%): Eklesiologija
+	 1 (001%): Eklesioloogia@et
+	 1 (001%): Ekleziologie
+	 1 (001%): Eklezioloģija@lv
+	 1 (001%): Eklezioscienco
+	 1 (001%): Eklezjologia@pl
+	 1 (001%): Eklisiologija
+	 1 (001%): Eksistens
+	 1 (001%): Ekstensi@id
+	 1 (001%): Ekzisto
+	 1 (001%): Elmi-texniki inqilab
+	 1 (001%): Endsieg
+	 1 (001%): Endsieg@pl
+	 1 (001%): Enseignement magistral@fr
+	 1 (001%): Entelechia
+	 1 (001%): Entelechie
+	 1 (001%): Entelehie
+	 1 (001%): Enteleki
+	 1 (001%): Entelekio
+	 1 (001%): Entelequia
+	 1 (001%): Entelequia@pt
+	 1 (001%): Entelexiya
+	 1 (001%): Enterrada@pt
+	 1 (001%): Entropie durch Mischung
+	 1 (001%): Epignose
+	 1 (001%): Ergebnis (Cricket)
+	 1 (001%): Erstbesteigung
+	 1 (001%): Esmaixada
+	 1 (001%): Existence
+	 1 (001%): Existence@en-x-simple
+	 1 (001%): Existence@fr
+	 1 (001%): Existencia
+	 1 (001%): Existencia (vlastnosť bytia)
+	 1 (001%): Existens
+	 1 (001%): Existentia@ia
+	 1 (001%): Existenz
+	 1 (001%): Existență
+	 1 (001%): Existència
+	 1 (001%): Existência@pt
+	 1 (001%): Falsa conciencia
+	 1 (001%): Falsa consciència
+	 1 (001%): Falsches Bewusstsein
+	 1 (001%): False consciousness
+	 1 (001%): Falskt medvetande
+	 1 (001%): Fastbúnaður
+	 1 (001%): Fiard@pl
+	 1 (001%): Fiardas@lt
+	 1 (001%): Film culte@fr
+	 1 (001%): Film idol
+	 1 (001%): Film kultowy@pl
+	 1 (001%): Film venerà
+	 1 (001%): Filme cult@pt
+	 1 (001%): Fine art
+	 1 (001%): Firmver
+	 1 (001%): Firmware
+	 1 (001%): Firmware@bs
+	 1 (001%): Firmware@el
+	 1 (001%): Firmware@en-x-simple
+	 1 (001%): Firmware@eu
+	 1 (001%): Firmware@fr
+	 1 (001%): Firmware@hr
+	 1 (001%): Firmware@nds
+	 1 (001%): Firmware@pl
+	 1 (001%): Firmware@pt
+	 1 (001%): Fjärd
+	 1 (001%): Foredrag
+	 1 (001%): Forelesning
+	 1 (001%): Förde
+	 1 (001%): Föreläsning
+	 1 (001%): Førstebestigning
+	 1 (001%): Førsteklatring
+	 1 (001%): Gai@eu
+	 1 (001%): Gaskraftwerk
+	 1 (001%): Gesundheitsförderung
+	 1 (001%): Gezondheidspromotie
+	 1 (001%): Gospodar rata
+	 1 (001%): Gospodari rata@hr
+	 1 (001%): Gran Guerra Patria
+	 1 (001%): Granda patriota milito
+	 1 (001%): Grande Guerra Patriótica@pt
+	 1 (001%): Grande guerre patriotique@fr
+	 1 (001%): Great Patriotic War (term)
+	 1 (001%): Great Patriotic War (term)@en-gb
+	 1 (001%): Grote Vaderlandse Oorlog
+	 1 (001%): Ground warfare
+	 1 (001%): Großer Vaterländischer Krieg
+	 1 (001%): Grutte Heitelânske Kriich
+	 1 (001%): Guerra terrestre
+	 1 (001%): Gæsteoptræden
+	 1 (001%): Güzel sanatlar@tr
+	 1 (001%): Hack value
+	 1 (001%): Hackear
+	 1 (001%): Hacken
+	 1 (001%): Hacking
+	 1 (001%): Hacking@fr
+	 1 (001%): Hadúr
+	 1 (001%): Hatékonyság
+	 1 (001%): Health advocacy
+	 1 (001%): Health advocacy@en-gb
+	 1 (001%): Healthy lifestyle
+	 1 (001%): Heilige Land
+	 1 (001%): Heiliges Land
+	 1 (001%): Helderziendheid
+	 1 (001%): Hogaamiye Kooxeed@so
+	 1 (001%): Holy Land
+	 1 (001%): Hoorcollege
+	 1 (001%): Hunjaman@id
+	 1 (001%): Husmand
+	 1 (001%): Husmann
+	 1 (001%): Häusler
+	 1 (001%): Hālige Land
+	 1 (001%): Iden des März
+	 1 (001%): Ides de Mars@fr
+	 1 (001%): Ides of March
+	 1 (001%): Ides of March@id
+	 1 (001%): Idi di marzo
+	 1 (001%): Idus de marzo
+	 1 (001%): Idus de març
+	 1 (001%): Idus martiae
+	 1 (001%): Idus martius
+	 1 (001%): Idy marcowe@pl
+	 1 (001%): Index
+	 1 (001%): Informatierevolutie
+	 1 (001%): Information revolution
+	 1 (001%): Islamisasi@id
+	 1 (001%): Islamisasi@ms
+	 1 (001%): Islamisation@fr
+	 1 (001%): Islamisering
+	 1 (001%): Islamisierung
+	 1 (001%): Islamisierung@gsw
+	 1 (001%): Islamizace
+	 1 (001%): Islamizacija
+	 1 (001%): Islamizacija@bs
+	 1 (001%): Islamizacija@hr
+	 1 (001%): Islamización
+	 1 (001%): Islamizacja@pl
+	 1 (001%): Islamization
+	 1 (001%): Islamizzazione
+	 1 (001%): Isolierte Singularität
+	 1 (001%): Istnienie@pl
+	 1 (001%): Jasnowidzenie@pl
+	 1 (001%): Jaunvārds@lv
+	 1 (001%): Jiffy
+	 1 (001%): Joueur-Étoile des Ligues majeures de baseball@fr
+	 1 (001%): Kafiye@tr
+	 1 (001%): Kallelse
+	 1 (001%): Kameo
+	 1 (001%): Kameo uloga
+	 1 (001%): Kameo@bs
+	 1 (001%): Kamėja@lt
+	 1 (001%): Kara savaşı@tr
+	 1 (001%): Kilise bilimi@tr
+	 1 (001%): Kindfrau
+	 1 (001%): Kirkko-oppi
+	 1 (001%): Klarsyn
+	 1 (001%): Klarvideco
+	 1 (001%): Klotenn@br
+	 1 (001%): Klärvoajans
+	 1 (001%): Kolmikduubel@et
+	 1 (001%): Kopneno ratovanje
+	 1 (001%): Krackelering
+	 1 (001%): Krakelee
+	 1 (001%): Krakelering
+	 1 (001%): Krakelire@hr
+	 1 (001%): Krakelura@pl
+	 1 (001%): Krakeláž
+	 1 (001%): Krakelür
+	 1 (001%): Kriegsherr
+	 1 (001%): Krigsherre
+	 1 (001%): Kuliah@id
+	 1 (001%): Kulmo
+	 1 (001%): Kulta filma@lv
+	 1 (001%): Kulta filmo
+	 1 (001%): Kultfilm
+	 1 (001%): Kultinis filmas@lt
+	 1 (001%): Kultni film
+	 1 (001%): Kultovní film
+	 1 (001%): Kultový film
+	 1 (001%): Kulttielokuva
+	 1 (001%): Kulturelle Aneignung
+	 1 (001%): Kultuzko filmak@eu
+	 1 (001%): Kusilimu@sw
+	 1 (001%): Kutsal Topraklar@tr
+	 1 (001%): Kült film@tr
+	 1 (001%): Landið helga
+	 1 (001%): Landkrieg
+	 1 (001%): Landkrieg@de-ch
+	 1 (001%): Lectio@la
+	 1 (001%): Lecture@en-x-simple
+	 1 (001%): Ledd
+	 1 (001%): Ledd i matematikk
+	 1 (001%): Leithghabháil chultúrtha@ga
+	 1 (001%): Lekcio
+	 1 (001%): Leksiya
+	 1 (001%): Lezio magistral@eu
+	 1 (001%): Lielais Tēvijas karš@lv
+	 1 (001%): Limiar de originalidade@pt
+	 1 (001%): Llindar d'originalitat
+	 1 (001%): Loeng@et
+	 1 (001%): Lolita (roman, 1955)
+	 1 (001%): Lolita (term)
+	 1 (001%): Lolita (termine)
+	 1 (001%): Lolita (término)
+	 1 (001%): Lolita@fr
+	 1 (001%): Luento
+	 1 (001%): Lur Santua@eu
+	 1 (001%): Maankaltaistaminen
+	 1 (001%): Maasodankäynti
+	 1 (001%): Major League Baseball All-Star
+	 1 (001%): Major League Baseball debut
+	 1 (001%): Major League Baseball final game
+	 1 (001%): Major League Baseball initial signing
+	 1 (001%): Martovske ide@hr
+	 1 (001%): Mate
+	 1 (001%): Matematična singularnost
+	 1 (001%): Mesoregion
+	 1 (001%): Microprogramari
+	 1 (001%): Minjuhwa
+	 1 (001%): Minjuhwa@en-gb
+	 1 (001%): Minjuhwa@fr
+	 1 (001%): Minjuhwa@id
+	 1 (001%): Możliwe wyniki w krykiecie@pl
+	 1 (001%): Március idusa
+	 1 (001%): Míndána@ga
+	 1 (001%): Mỹ thuật
+	 1 (001%): Nat
+	 1 (001%): Naujadaras@lt
+	 1 (001%): Nchi takatifu@sw
+	 1 (001%): Neologism
+	 1 (001%): Neologism@et
+	 1 (001%): Neologism@sco
+	 1 (001%): Neologisme
+	 1 (001%): Neologisme@af
+	 1 (001%): Neologisme@id
+	 1 (001%): Neologisme@ms
+	 1 (001%): Neologismo
+	 1 (001%): Neologismo@eu
+	 1 (001%): Neologismo@ia
+	 1 (001%): Neologismo@io
+	 1 (001%): Neologismo@pap
+	 1 (001%): Neologismo@pt
+	 1 (001%): Neologismus
+	 1 (001%): Neologismus@la
+	 1 (001%): Neologizam
+	 1 (001%): Neologizam@bs
+	 1 (001%): Neologizm
+	 1 (001%): Neologizm@pl
+	 1 (001%): Neologizmlar
+	 1 (001%): Neologizmus
+	 1 (001%): Neolohismo
+	 1 (001%): Neoluggismu
+	 1 (001%): Neordinaraĵo
+	 1 (001%): Neotolteca
+	 1 (001%): Nevezc'her@br
+	 1 (001%): Ninfeta@pt
+	 1 (001%): Novotvorenice@hr
+	 1 (001%): Noûmot@wa
+	 1 (001%): Nuafhriotal@ga
+	 1 (001%): Nubile
+	 1 (001%): Nubilidad
+	 1 (001%): Ny h-ellynyn ooasle@gv
+	 1 (001%): Nydannelse
+	 1 (001%): Néologisme@fr
+	 1 (001%): Nýyrði
+	 1 (001%): Oblik vladavine
+	 1 (001%): Odl
+	 1 (001%): Olemassaolo
+	 1 (001%): Oosten
+	 1 (001%): Orient
+	 1 (001%): Orient@an
+	 1 (001%): Orient@en-gb
+	 1 (001%): Orient@fr
+	 1 (001%): Orient@pl
+	 1 (001%): Orient@sco
+	 1 (001%): Oriental
+	 1 (001%): Oriente
+	 1 (001%): Oriente@pt
+	 1 (001%): Orienten
+	 1 (001%): Oriento@io
+	 1 (001%): Orijent
+	 1 (001%): Orijent@bs
+	 1 (001%): Orijent@hr
+	 1 (001%): Pag-iral
+	 1 (001%): Palestra@pt
+	 1 (001%): Papism
+	 1 (001%): Papisme
+	 1 (001%): Papisme@fr
+	 1 (001%): Papismo
+	 1 (001%): Papismo@pt
+	 1 (001%): Papist
+	 1 (001%): Papist@sq
+	 1 (001%): Papista
+	 1 (001%): Papista@ia
+	 1 (001%): Papizm@pl
+	 1 (001%): Paskaita@lt
+	 1 (001%): Pel·lícula de culte
+	 1 (001%): Película de culto
+	 1 (001%): Película de cultu
+	 1 (001%): Perangkat tegar@id
+	 1 (001%): Perisian tegar@ms
+	 1 (001%): Platinum Hits
+	 1 (001%): Platinum Hits@en-gb
+	 1 (001%): Platinum Hits@pt
+	 1 (001%): Platinum Hits@pt-br
+	 1 (001%): Politisk system
+	 1 (001%): Politička struktura@hr
+	 1 (001%): Polity
+	 1 (001%): Pono
+	 1 (001%): Pono@pl
+	 1 (001%): Popolsurfado
+	 1 (001%): Potentzia eta egintza@eu
+	 1 (001%): Powołanie@pl
+	 1 (001%): Prednáška
+	 1 (001%): Première ascension@fr
+	 1 (001%): Prima ascensione
+	 1 (001%): Primeira ascensão@pt
+	 1 (001%): Primer ascens
+	 1 (001%): Primera ascensión
+	 1 (001%): Promoció de la salut
+	 1 (001%): Promoción de la salud
+	 1 (001%): Promosi kesehatan@id
+	 1 (001%): Promotion de la santé@fr
+	 1 (001%): Promozione della salute
+	 1 (001%): Promoção da saúde@pt
+	 1 (001%): Prvovýstup
+	 1 (001%): Przygoda@pl
+	 1 (001%): Pyhä Maa
+	 1 (001%): Püha maa@et
+	 1 (001%): Püsivara@et
+	 1 (001%): Qafiyə
+	 1 (001%): Qofiya
+	 1 (001%): Reim
+	 1 (001%): Replicación
+	 1 (001%): Replicatie
+	 1 (001%): Replicação de dados@pt
+	 1 (001%): Replikace databází
+	 1 (001%): Replikacja danych@pl
+	 1 (001%): Replikation
+	 1 (001%): Result
+	 1 (001%): Revoluție informatică
+	 1 (001%): Revoluție informatică@mo
+	 1 (001%): Rhyme@en-x-simple
+	 1 (001%): Riim@gsw
+	 1 (001%): Riimit
+	 1 (001%): Rim
+	 1 (001%): Rima
+	 1 (001%): Rima@hr
+	 1 (001%): Rima@pt
+	 1 (001%): Rimas@lt
+	 1 (001%): Rime@fr
+	 1 (001%): Rimo
+	 1 (001%): Rimo@io
+	 1 (001%): Rimă
+	 1 (001%): Rivoluzione informatica
+	 1 (001%): Rivuluzzioni nfurmàtica
+	 1 (001%): Rollenspielabenteuer
+	 1 (001%): Rozdiel množín
+	 1 (001%): Rozdíl množin
+	 1 (001%): Rym@pl
+	 1 (001%): Réplication@fr
+	 1 (001%): Résultat au cricket@fr
+	 1 (001%): Rím
+	 1 (001%): Rïfma@kk-latn
+	 1 (001%): Rïfma@kk-tr
+	 1 (001%): Rým
+	 1 (001%): S Häilige Land@gsw
+	 1 (001%): Sankta Lando
+	 1 (001%): Scacciata
+	 1 (001%): Schiacciata
+	 1 (001%): Schöpfungshöhe
+	 1 (001%): Scénario de jeu de rôle@fr
+	 1 (001%): Selgeltnägemine@et
+	 1 (001%): Selvänäköisyys
+	 1 (001%): Seni murni@id
+	 1 (001%): Senyor de la guerra
+	 1 (001%): Settlement
+	 1 (001%): Settlement@en-gb
+	 1 (001%): Seuil d'originalité@fr
+	 1 (001%): Señor de la guerra
+	 1 (001%): Signal passed at danger
+	 1 (001%): Signal passed at danger@en-gb
+	 1 (001%): Signore della guerra
+	 1 (001%): Singularidad matemática
+	 1 (001%): Singularidade matemática@pt
+	 1 (001%): Singularita
+	 1 (001%): Singularitat matemàtica
+	 1 (001%): Singulariteetti
+	 1 (001%): Singulariteit
+	 1 (001%): Singularity@tr
+	 1 (001%): Singularité@fr
+	 1 (001%): Singulartasun@eu
+	 1 (001%): Singulär punkt
+	 1 (001%): Singulær
+	 1 (001%): Skyggnigáfa
+	 1 (001%): Skønne kunster
+	 1 (001%): Slalom
+	 1 (001%): Slam (concert)@fr
+	 1 (001%): Slam dunk
+	 1 (001%): Slam dunk@fr
+	 1 (001%): Slam dunk@lv
+	 1 (001%): Sotaherra
+	 1 (001%): Spagaatfinish
+	 1 (001%): Startflughafen
+	 1 (001%): Steblo
+	 1 (001%): Stoptonend sein
+	 1 (001%): Stora fosterländska kriget
+	 1 (001%): Store Fædrelandskrig
+	 1 (001%): Suur Isamaasõda@et
+	 1 (001%): Suuri isänmaallinen sota
+	 1 (001%): Svatá země
+	 1 (001%): Sveta Zemlja
+	 1 (001%): Sveta Zemlja@hr
+	 1 (001%): Sveta dežela
+	 1 (001%): Svätá zem
+	 1 (001%): Switch hitter
+	 1 (001%): Switch hitter@en-gb
+	 1 (001%): Switch hitter@pl
+	 1 (001%): Szentföld
+	 1 (001%): Tanah Suci@id
+	 1 (001%): Tanah Suci@ms
+	 1 (001%): Tenant farming@en-x-simple
+	 1 (001%): Teoskynnys
+	 1 (001%): Teraformavimas@lt
+	 1 (001%): Teraformiranje
+	 1 (001%): Teraformiranje@hr
+	 1 (001%): Term
+	 1 (001%): Term@en-x-simple
+	 1 (001%): Term@pl
+	 1 (001%): Termi
+	 1 (001%): Termo
+	 1 (001%): Teroformigo
+	 1 (001%): Terra Santa
+	 1 (001%): Terra Santa@pt
+	 1 (001%): Terra santa
+	 1 (001%): Terraform@id
+	 1 (001%): Terraformace
+	 1 (001%): Terraformació
+	 1 (001%): Terraformación
+	 1 (001%): Terraformalaşdırılma
+	 1 (001%): Terraformare
+	 1 (001%): Terraformation@fr
+	 1 (001%): Terraformazione
+	 1 (001%): Terraformação@pt
+	 1 (001%): Terraformering
+	 1 (001%): Terraforming
+	 1 (001%): Terraforming@tr
+	 1 (001%): Terraformowanie@pl
+	 1 (001%): Terraformálás
+	 1 (001%): Terrafurmiñ@br
+	 1 (001%): Terravormimine@et
+	 1 (001%): Terravorming
+	 1 (001%): Terre Sainte@fr
+	 1 (001%): Théorème de Gibbs@fr
+	 1 (001%): Tiern a vrezel@br
+	 1 (001%): Tierra Santa
+	 1 (001%): Tilvist
+	 1 (001%): Toltec
+	 1 (001%): Torpare
+	 1 (001%): Torppari
+	 1 (001%): Tripl dabl@bs
+	 1 (001%): Tripla doppia
+	 1 (001%): Tripla-tupla
+	 1 (001%): Triple doble
+	 1 (001%): Triple double
+	 1 (001%): Triple-doble
+	 1 (001%): Triple-double
+	 1 (001%): Triple-double@fr
+	 1 (001%): Triple-double@pl
+	 1 (001%): Triple-double@tr
+	 1 (001%): Trippel-dobbel
+	 1 (001%): Trojni dvojček
+	 1 (001%): Type site
+	 1 (001%): Tèrra Santa
+	 1 (001%): Umbral de originalidad
+	 1 (001%): Unua montogrimpo
+	 1 (001%): Uudissana
+	 1 (001%): Učinkovitost
+	 1 (001%): Varoluş@tr
+	 1 (001%): Veliki domovinski rat@hr
+	 1 (001%): Velká vlastenecká válka
+	 1 (001%): Verkshæð
+	 1 (001%): Verkshöjd
+	 1 (001%): Verkshøyde
+	 1 (001%): Veurlopen@nds-nl
+	 1 (001%): Veľká vlastenecká vojna
+	 1 (001%): Vidovitost@hr
+	 1 (001%): Vocation@en-x-simple
+	 1 (001%): Vocation@ia
+	 1 (001%): Vokaatio
+	 1 (001%): Vokiteco
+	 1 (001%): Vorlesung
+	 1 (001%): Väärä tietoisuus
+	 1 (001%): Vụng băng
+	 1 (001%): Warlord@en-x-simple
+	 1 (001%): Watażka@pl
+	 1 (001%): Wielka Wojna Ojczyźniana@pl
+	 1 (001%): Wikipedia:Saling-silang@id
+	 1 (001%): Wikipedia:Walled garden
+	 1 (001%): Wikipedia:ウォールド・ガーデン
+	 1 (001%): Wikipedija:Naslov povezave
+	 1 (001%): Wsad@pl
+	 1 (001%): Wykład@pl
+	 1 (001%): Wymóg oryginalności@pl
+	 1 (001%): Xbox 360 プラチナコレクション
+	 1 (001%): Yanlış bilinç@tr
+	 1 (001%): Zahlungsverkehr
+	 1 (001%): Zahlungsverkehr@de-ch
+	 1 (001%): Zakucavanje
+	 1 (001%): Zakucavanje@hr
+	 1 (001%): Zielflughafen
+	 1 (001%): Ziemia Święta@pl
+	 1 (001%): Zmiešavacia entropia
+	 1 (001%): administración política
+	 1 (001%): administration politique@fr
+	 1 (001%): advanced emotion
+	 1 (001%): analepse@fr
+	 1 (001%): avontuur
+	 1 (001%): beaux-arts@fr
+	 1 (001%): bestaan
+	 1 (001%): cameo appearance
+	 1 (001%): cash settlement
+	 1 (001%): centrale elettrica a gas
+	 1 (001%): chính thể
+	 1 (001%): circa
+	 1 (001%): circa@fr
+	 1 (001%): cirka
+	 1 (001%): clairvoyance
+	 1 (001%): construct
+	 1 (001%): crowd surfing
+	 1 (001%): culm
+	 1 (001%): cult film
+	 1 (001%): departure airport
+	 1 (001%): destination airport
+	 1 (001%): difeomorfismo@pt
+	 1 (001%): difeomorfismo@pt-br
+	 1 (001%): diffeomorphism
+	 1 (001%): dunken
+	 1 (001%): débuts dans les ligues majeures de baseball@fr
+	 1 (001%): effektivitet
+	 1 (001%): efficiency
+	 1 (001%): entelechia@pl
+	 1 (001%): entropy of mixing
+	 1 (001%): erweiterte Emotion
+	 1 (001%): esistenza
+	 1 (001%): existence
+	 1 (001%): film di culto
+	 1 (001%): fine art@ms
+	 1 (001%): firmware
+	 1 (001%): first ascent
+	 1 (001%): fjard
+	 1 (001%): fjärd
+	 1 (001%): gas-fired power plant
+	 1 (001%): gasna termoelektrana
+	 1 (001%): gospodar rata
+	 1 (001%): ground warfare
+	 1 (001%): ground warfare@en-gb
+	 1 (001%): jiffy
+	 1 (001%): kall
+	 1 (001%): kopneno ratovanje
+	 1 (001%): krijgsheer
+	 1 (001%): krásná umění
+	 1 (001%): lecture
+	 1 (001%): lezione
+	 1 (001%): liquidatiewaarde
+	 1 (001%): lodestar method
+	 1 (001%): mathematical singularity
+	 1 (001%): militsinjoro
+	 1 (001%): napredno osećanje
+	 1 (001%): neologism
+	 1 (001%): neologisme
+	 1 (001%): neologismus
+	 1 (001%): occupancy
+	 1 (001%): occupancy@sco
+	 1 (001%): około@pl
+	 1 (001%): panglima perang@id
+	 1 (001%): papist
+	 1 (001%): politická administrativa
+	 1 (001%): polity
+	 1 (001%): polity@sco
+	 1 (001%): pono@fr
+	 1 (001%): potentiality and actuality
+	 1 (001%): potentiality@el
+	 1 (001%): premier contrat dans les ligues majeures de baseball@fr
+	 1 (001%): približno
+	 1 (001%): regolamento
+	 1 (001%): replication
+	 1 (001%): rhyme
+	 1 (001%): rijm
+	 1 (001%): rima
+	 1 (001%): roeping
+	 1 (001%): règlement/livraison@fr
+	 1 (001%): schone kunsten
+	 1 (001%): seigneur de guerre@fr
+	 1 (001%): settlement
+	 1 (001%): signal passed at danger
+	 1 (001%): stéblo
+	 1 (001%): surf sulla folla
+	 1 (001%): switch hitter@en-x-simple
+	 1 (001%): switch hitter@fr
+	 1 (001%): switch-hitter
+	 1 (001%): tenant farmer
+	 1 (001%): tenant farmers
+	 1 (001%): term
+	 1 (001%): term@ar
+	 1 (001%): termo
+	 1 (001%): termo@pt
+	 1 (001%): termo@pt-br
+	 1 (001%): threshold of originality
+	 1 (001%): umbrella title
+	 1 (001%): under investigation
+	 1 (001%): vocacion
+	 1 (001%): vocación
+	 1 (001%): vocation
+	 1 (001%): vocation@fr
+	 1 (001%): vocation@zh-hans
+	 1 (001%): vocazione
+	 1 (001%): vocação profissional@pt
+	 1 (001%): vocação profissional@pt-br
+	 1 (001%): warlord
+	 1 (001%): Äventyr
+	 1 (001%): Ñe'ẽpyahu
+	 1 (001%): Þreföld tvenna
+	 1 (001%): émotion complexe@fr
+	 1 (001%): Član@bs
+	 1 (001%): član
+	 1 (001%): Đất Thánh
+	 1 (001%): Địa khai hóa
+	 1 (001%): Ğılımï-texnïkalıq progress@kk-latn
+	 1 (001%): Įmontuotoji programinė įranga@lt
+	 1 (001%): İhtira@tr
+	 1 (001%): Źdźbło@pl
+	 1 (001%): Țara Sfântă
+	 1 (001%): Άγιοι Τόποι@el
+	 1 (001%): Αποδοτικότητα@el
+	 1 (001%): Βαλκανοποίηση@el
+	 1 (001%): Γαιοπλασία@el
+	 1 (001%): Διόραση@el
+	 1 (001%): Είναι@el
+	 1 (001%): Εκκλησιολογία@el
+	 1 (001%): Εξισλαμισμός@el
+	 1 (001%): Νεολογισμός@el
+	 1 (001%): Ομοιοκαταληξία@el
+	 1 (001%): Περίπου@el
+	 1 (001%): Πολέμαρχος@el
+	 1 (001%): Πρώτη ανάβαση@el
+	 1 (001%): Інформаційна революція
+	 1 (001%): Ісламізація
+	 1 (001%): Існування
+	 1 (001%): Јасновидост
+	 1 (001%): Аналепсис
+	 1 (001%): Аҕа дойду Улуу сэриитэ
+	 1 (001%): Балканизация
+	 1 (001%): Балканизация@bg
+	 1 (001%): Балканизация@kk
+	 1 (001%): Балканизация@kk-cyrl
+	 1 (001%): Балканизация@kk-kz
+	 1 (001%): Балканизација@sr
+	 1 (001%): Балканизација@sr-cyrl
+	 1 (001%): Балканізація
+	 1 (001%): Брумми
+	 1 (001%): Бунґа-бунґа
+	 1 (001%): Бөек Ватан сугышы@tt
+	 1 (001%): Вбудована програма
+	 1 (001%): Велика Вітчизняна війна
+	 1 (001%): Великая Отечественная война
+	 1 (001%): Видовитост@sr
+	 1 (001%): Википедия:Изолированные кластеры
+	 1 (001%): Восток
+	 1 (001%): Встроенное программное обеспечение
+	 1 (001%): Вялікая Айчынная вайна 1941-1945
+	 1 (001%): Вялікая Айчынная вайна@be-tarask
+	 1 (001%): Вікіпедія:Ізольовані кластери
+	 1 (001%): Германо-съветска война@bg
+	 1 (001%): Дифеоморфізм
+	 1 (001%): Диффеоморфизм
+	 1 (001%): Еклезіологія
+	 1 (001%): Еклисиологија@sr
+	 1 (001%): Еклисиологија@sr-cyrl
+	 1 (001%): Ентропія змішування
+	 1 (001%): Ефективність
+	 1 (001%): Ефикасност@bg
+	 1 (001%): Закуцавање@sr
+	 1 (001%): Закуцавање@sr-cyrl
+	 1 (001%): Здоровий спосіб життя
+	 1 (001%): Здоровый образ жизни
+	 1 (001%): Изящно изкуство@bg
+	 1 (001%): Изящные искусства
+	 1 (001%): Информационна революция@bg
+	 1 (001%): Исламизация
+	 1 (001%): Исламизација@sr-cyrl
+	 1 (001%): Ислямизация@bg
+	 1 (001%): Камео
+	 1 (001%): Камео улога@sr
+	 1 (001%): Камео улога@sr-cyrl
+	 1 (001%): Камео@bg
+	 1 (001%): Кракелюр
+	 1 (001%): Крауд-сёрфинг
+	 1 (001%): Кугу Ачамланде сар
+	 1 (001%): Култов филм@bg
+	 1 (001%): Культавы фільм
+	 1 (001%): Культовий фільм
+	 1 (001%): Культовый фильм
+	 1 (001%): Лекция
+	 1 (001%): Лекция@bg
+	 1 (001%): Лекція
+	 1 (001%): Ложное сознание
+	 1 (001%): Мартенски иди@bg
+	 1 (001%): Мартовски Иди
+	 1 (001%): Мартовские иды (день)
+	 1 (001%): Можливість і дійсність
+	 1 (001%): Научно-техническая революция
+	 1 (001%): Неологизам@sr
+	 1 (001%): Неологизам@sr-cyrl
+	 1 (001%): Неологизм
+	 1 (001%): Неологизъм@bg
+	 1 (001%): Неологізм
+	 1 (001%): Ориент@bg
+	 1 (001%): Оријент@sr
+	 1 (001%): Особлива точка
+	 1 (001%): Полевой командир
+	 1 (001%): Польовий командир
+	 1 (001%): Порог оригинальности
+	 1 (001%): Приключение@bg
+	 1 (001%): Расчеты по сделкам
+	 1 (001%): Репликация
+	 1 (001%): Рима
+	 1 (001%): Рима@bg
+	 1 (001%): Рима@sr
+	 1 (001%): Рифмæ@os
+	 1 (001%): Рифма
+	 1 (001%): Рифма@kk
+	 1 (001%): Рифма@kk-cyrl
+	 1 (001%): Рифма@kk-kz
+	 1 (001%): Рыфма
+	 1 (001%): Рыфма@be-tarask
+	 1 (001%): Света земја
+	 1 (001%): Света земља@sr
+	 1 (001%): Свети земи@bg
+	 1 (001%): Свята земля
+	 1 (001%): Святая земля
+	 1 (001%): Святая зямля
+	 1 (001%): Сетълмент@bg
+	 1 (001%): Сийлахь-Боккха Даймехкан тӀом@ce
+	 1 (001%): Слалом@sr
+	 1 (001%): Слалом@sr-cyrl
+	 1 (001%): Слэм-данк
+	 1 (001%): Сухопутна війна
+	 1 (001%): Сухопутная война
+	 1 (001%): Существование
+	 1 (001%): Схід
+	 1 (001%): Тăван Çĕршывăн Аслă вăрçи
+	 1 (001%): Таса çĕр
+	 1 (001%): Тераформирање@sr
+	 1 (001%): Тераформирање@sr-cyrl
+	 1 (001%): Тераформування
+	 1 (001%): Терм (логика)
+	 1 (001%): Терраформирование
+	 1 (001%): Толтеки (Кастанеда)
+	 1 (001%): Трипл-дабл
+	 1 (001%): Трыпл-дабл@be-tarask
+	 1 (001%): Тіршілік@kk
+	 1 (001%): Убудаванае праграмнае забесьпячэньне@be-tarask
+	 1 (001%): Улуу Ата-Мекендик согуш@ky
+	 1 (001%): Фирмвер@sr
+	 1 (001%): Фирмвер@sr-cyrl
+	 1 (001%): Фърмуер@bg
+	 1 (001%): Фыдыбæстæйы Стыр хæст@os
+	 1 (001%): Хакерская ценность
+	 1 (001%): Цирка
+	 1 (001%): Цьоголітки
+	 1 (001%): Член
+	 1 (001%): Экзистенция@ky
+	 1 (001%): Экзыстэнцыя@be-tarask
+	 1 (001%): Экзістэнцыя
+	 1 (001%): Экклезиология
+	 1 (001%): Эклезіялогія
+	 1 (001%): Энтелехия
+	 1 (001%): Яруу урлаг@mn
+	 1 (001%): Ясновидение
+	 1 (001%): Ясновидство@bg
+	 1 (001%): Ясновидіння
+	 1 (001%): Яшәү@tt
+	 1 (001%): Яңы һүҙҙәр@ba
+	 1 (001%): балканизација
+	 1 (001%): башkортса@id
+	 1 (001%): башкортса@ba
+	 1 (001%): бунга-бунга
+	 1 (001%): газовая электростанция
+	 1 (001%): гасна термоелектрана@sr
+	 1 (001%): гасна термоелектрана@sr-cyrl
+	 1 (001%): господар рата@sr
+	 1 (001%): господар рата@sr-cyrl
+	 1 (001%): ефикасност@sr
+	 1 (001%): здоровый образ жизни@kk-cyrl
+	 1 (001%): зонтичный термин
+	 1 (001%): исламизација@sr
+	 1 (001%): каля
+	 1 (001%): копнено ратовање@sr
+	 1 (001%): копнено ратовање@sr-cyrl
+	 1 (001%): напредно осећање@sr
+	 1 (001%): напредно осећање@sr-cyrl
+	 1 (001%): неологизам
+	 1 (001%): около
+	 1 (001%): особенность
+	 1 (001%): политеја
+	 1 (001%): постојање@sr
+	 1 (001%): промоција здравља@sr
+	 1 (001%): члан@sr
+	 1 (001%): члан@sr-cyrl
+	 1 (001%): Ғылыми-техникалық прогресс@kk
+	 1 (001%): Ғылыми-техникалық прогресс@kk-cyrl
+	 1 (001%): Ұлы Отан соғысы@kk
+	 1 (001%): Ҷанги Бузурги Ватанӣ@tg
+	 1 (001%): Արևելք
+	 1 (001%): Դասախոսություն
+	 1 (001%): Կամեո
+	 1 (001%): Կուլտային կինո
+	 1 (001%): Հայրենական Մեծ պատերազմ
+	 1 (001%): Հանգ
+	 1 (001%): Նորաբանություն
+	 1 (001%): Սլեմ դանկ
+	 1 (001%): Սուրբ Երկիր
+	 1 (001%): אידו של מארס
+	 1 (001%): אמנות יפה
+	 1 (001%): אסלאמיזציה
+	 1 (001%): אריסות
+	 1 (001%): גראמען@yi
+	 1 (001%): דיפאומורפיזם
+	 1 (001%): האקינג
+	 1 (001%): הארצה
+	 1 (001%): הופעת קמע
+	 1 (001%): הישגים מיוחדים בכדורסל
+	 1 (001%): הרצאה
+	 1 (001%): חריזה
+	 1 (001%): מצביא
+	 1 (001%): סינגולריות
+	 1 (001%): סרט פולחן
+	 1 (001%): קושחה
+	 1 (001%): קיום
+	 1 (001%): קריגס פירער@yi
+	 1 (001%): שוד הבנק המרכזי של ברזיל
+	 1 (001%): שכפול נתונים
+	 1 (001%): תודעה כוזבת
+	 1 (001%): תחדיש
+	 1 (001%): أراضي مقدسة@ar
+	 1 (001%): أسلمة@ar
+	 1 (001%): استيلاء ثقافي@ar
+	 1 (001%): اسلمپ دانک
+	 1 (001%): الحرب الوطنية العظمى@ar
+	 1 (001%): انقلاب اطلاعات
+	 1 (001%): بالكانىيزاتسىييا@kk-arab
+	 1 (001%): بالكانىيزاتسىييا@kk-cn
+	 1 (001%): بالکانیزه کردن
+	 1 (001%): برنامج ثابت@ar
+	 1 (001%): بلقنة@ar
+	 1 (001%): تراب سازی@ur
+	 1 (001%): تعزيز الصحة@ar
+	 1 (001%): تقریباً@ur
+	 1 (001%): تکینگی
+	 1 (001%): جمله
+	 1 (001%): جنګسالار@ps
+	 1 (001%): جنگ زمینی
+	 1 (001%): جنگ کبیر میهنی
+	 1 (001%): جنگ‌سالار
+	 1 (001%): حرب برية@ar
+	 1 (001%): دراسات كنسية@ar
+	 1 (001%): روشن بینی
+	 1 (001%): رىيفما@kk-arab
+	 1 (001%): رىيفما@kk-cn
+	 1 (001%): زمینی‌سازی
+	 1 (001%): سرزمین مقدس
+	 1 (001%): سرك@ar
+	 1 (001%): سفت‌افزار
+	 1 (001%): سوہنے کم@pnb
+	 1 (001%): سەروا@ckb
+	 1 (001%): عىلىمىي-تەحنىيكالىق پروگرەسس@kk-arab
+	 1 (001%): فرازروی اول@ur
+	 1 (001%): فنون جميلة@ar
+	 1 (001%): فنون لطیفہ@ur
+	 1 (001%): قافية@ar
+	 1 (001%): قافیه
+	 1 (001%): كفائة@ar
+	 1 (001%): كيان سياسي@ar
+	 1 (001%): محاضرة@ar
+	 1 (001%): مستحدث@ar
+	 1 (001%): نخستین صعود
+	 1 (001%): نوواژه
+	 1 (001%): نیمه ماه مارس
+	 1 (001%): هستی
+	 1 (001%): هنرهای زیبا
+	 1 (001%): وجود@ar
+	 1 (001%): وضعی لفظ@ur
+	 1 (001%): ښکلي هنرونه@ps
+	 1 (001%): کمیو
+	 1 (001%): ھونەرە جوانەکان@ckb
+	 1 (001%): दक्षता@hi
+	 1 (001%): नवनिर्मित प्रयोग@hi
+	 1 (001%): पूर्वीय सभ्यता@ne
+	 1 (001%): भ्रान्त चेतना@hi
+	 1 (001%): ललित कला@hi
+	 1 (001%): ललित कला@ne
+	 1 (001%): सूचना क्रांति@hi
+	 1 (001%): ফার্মওয়্যার
+	 1 (001%): ਅੰਦਾਜ਼ਨ@pa
+	 1 (001%): ਬਾਲਕਨੀਕਰਨ@pa
+	 1 (001%): ਲਲਿਤ ਕਲਾ@pa
+	 1 (001%): ਲੈਕਚਰ@pa
+	 1 (001%): திருநாடு
+	 1 (001%): நட்ட நடு மார்ச்சு
+	 1 (001%): ఉపన్యాసం
+	 1 (001%): ധരണി രൂപീകരണം@ml
+	 1 (001%): പദം@ml
+	 1 (001%): ഫേംവെയർ@ml
+	 1 (001%): ഫ്യാർഡ്@ml
+	 1 (001%): യുദ്ധപ്രഭു@ml
+	 1 (001%): സുന്ദരകലകൾ@ml
+	 1 (001%): අඳ ගොවියා@si
+	 1 (001%): ලලිත කලා@si
+	 1 (001%): ස්ථිරාංග@si
+	 1 (001%): การดำรงอยู่@th
+	 1 (001%): การปกครองโดยชนชั้นกลาง@th
+	 1 (001%): ขุนศึก@th
+	 1 (001%): คำคล้องจอง@th
+	 1 (001%): คำสร้างใหม่@th
+	 1 (001%): ทริปเปิล-ดับเบิล@th
+	 1 (001%): ประสิทธิภาพ@th
+	 1 (001%): หนังคัลท์@th
+	 1 (001%): เฟิร์มแวร์@th
+	 1 (001%): แผ่นดินศักดิ์สิทธิ์@th
+	 1 (001%): დიდი სამამულო ომი
+	 1 (001%): ეგზისტენცია
+	 1 (001%): ნათელხილვა
+	 1 (001%): რითმა
+	 1 (001%): エネルゲイア
+	 1 (001%): カメオ出演
+	 1 (001%): カルト映画
+	 1 (001%): クラウド・サーフィング
+	 1 (001%): クラクリュール
+	 1 (001%): シナリオ
+	 1 (001%): スイッチヒッター
+	 1 (001%): テラフォーミング
+	 1 (001%): トリプル・ダブル
+	 1 (001%): バルカニゼーション
+	 1 (001%): ファインアート
+	 1 (001%): ファームウェア
+	 1 (001%): レプリケーション
+	 1 (001%): 三双
+	 1 (001%): 三双@zh-hans
+	 1 (001%): 三雙
+	 1 (001%): 东洋
+	 1 (001%): 东洋@zh-cn
+	 1 (001%): 东洋@zh-hans
+	 1 (001%): 交割
+	 1 (001%): 伊斯兰化
+	 1 (001%): 伊斯兰化@zh-hans
+	 1 (001%): 伊斯蘭化
+	 1 (001%): 伊斯蘭化@zh-hk
+	 1 (001%): 健康づくり
+	 1 (001%): 健康促进
+	 1 (001%): 健康促进@zh-hans
+	 1 (001%): 健康促進
+	 1 (001%): 健康促進@zh-hk
+	 1 (001%): 入樽@zh-hk
+	 1 (001%): 军阀
+	 1 (001%): 军阀@zh-cn
+	 1 (001%): 军阀@zh-hans
+	 1 (001%): 原创性门槛
+	 1 (001%): 友情客串
+	 1 (001%): 友情客串@zh-cn
+	 1 (001%): 友情客串@zh-hans
+	 1 (001%): 友情客串@zh-hk
+	 1 (001%): 友情客串@zh-tw
+	 1 (001%): 召命
+	 1 (001%): 固件
+	 1 (001%): 固件@zh-cn
+	 1 (001%): 固件@zh-hans
+	 1 (001%): 地球化
+	 1 (001%): 地球化@zh-cn
+	 1 (001%): 地球化@zh-hans
+	 1 (001%): 地球化@zh-hk
+	 1 (001%): 地球化@zh-tw
+	 1 (001%): 大三元@zh-hk
+	 1 (001%): 大三元@zh-tw
+	 1 (001%): 大祖国戦争
+	 1 (001%): 奇点
+	 1 (001%): 奇点@zh-hans
+	 1 (001%): 奇異點@zh-hk
+	 1 (001%): 奇異點@zh-tw
+	 1 (001%): 奇點
+	 1 (001%): 存在
+	 1 (001%): 存在@gan
+	 1 (001%): 巴尔干化
+	 1 (001%): 巴尔干化@zh-cn
+	 1 (001%): 巴尔干化@zh-hans
+	 1 (001%): 巴爾幹化
+	 1 (001%): 巴爾幹化@zh-hk
+	 1 (001%): 巴爾幹化@zh-tw
+	 1 (001%): 微分同胚
+	 1 (001%): 微分同胚@zh-hans
+	 1 (001%): 微分同胚@zh-hk
+	 1 (001%): 志業
+	 1 (001%): 情報革命
+	 1 (001%): 扣篮
+	 1 (001%): 扣篮@zh-hans
+	 1 (001%): 政体
+	 1 (001%): 政治体@zh-hans
+	 1 (001%): 教会学
+	 1 (001%): 教会学@zh-cn
+	 1 (001%): 教会学@zh-hans
+	 1 (001%): 教会論
+	 1 (001%): 教會學
+	 1 (001%): 教會學@zh-hk
+	 1 (001%): 教會學@zh-tw
+	 1 (001%): 新詞
+	 1 (001%): 新詞@zh-hk
+	 1 (001%): 新詞@zh-tw
+	 1 (001%): 新語
+	 1 (001%): 新词
+	 1 (001%): 新词@zh-cn
+	 1 (001%): 新词@zh-hans
+	 1 (001%): 東洋
+	 1 (001%): 東洋@zh-hk
+	 1 (001%): 東洋@zh-tw
+	 1 (001%): 標式遺跡
+	 1 (001%): 比赛结果 (板球)
+	 1 (001%): 民主化
+	 1 (001%): 民主化@zh-hans
+	 1 (001%): 民主化@zh-hk
+	 1 (001%): 混合熵
+	 1 (001%): 混合熵@zh-hans
+	 1 (001%): 混合熵@zh-hk
+	 1 (001%): 灌籃
+	 1 (001%): 特異点
+	 1 (001%): 瞬間
+	 1 (001%): 美术
+	 1 (001%): 美术@zh-cn
+	 1 (001%): 美术@zh-hans
+	 1 (001%): 美術
+	 1 (001%): 美術@zh-hk
+	 1 (001%): 美術@zh-tw
+	 1 (001%): 聖地
+	 1 (001%): 講義
+	 1 (001%): 講述教學法
+	 1 (001%): 資訊革命
+	 1 (001%): 資訊革命@zh-hk
+	 1 (001%): 资讯革命@zh-hans
+	 1 (001%): 軍閥
+	 1 (001%): 軍閥@zh-hk
+	 1 (001%): 軍閥@zh-tw
+	 1 (001%): 透視 (超心理学)
+	 1 (001%): 透視 (超感官知覺)
+	 1 (001%): 邪典电影
+	 1 (001%): 邪典电影@zh-cn
+	 1 (001%): 邪典电影@zh-hans
+	 1 (001%): 邪典電影
+	 1 (001%): 邪典電影@zh-hk
+	 1 (001%): 邪典電影@zh-tw
+	 1 (001%): 陸戦
+	 1 (001%): 韌體
+	 1 (001%): 韌體@zh-hk
+	 1 (001%): 韌體@zh-tw
+	 1 (001%): 韵@gan-hans
+	 1 (001%): 韻
+	 1 (001%): 韻@gan
+	 1 (001%): 韻@gan-hant
+	 1 (001%): 韻文
+	 1 (001%): 강의
+	 1 (001%): 건강증진
+	 1 (001%): 군벌
+	 1 (001%): 덩크슛
+	 1 (001%): 리플리케이션
+	 1 (001%): 미분동형사상
+	 1 (001%): 미술
+	 1 (001%): 민주화
+	 1 (001%): 발칸화
+	 1 (001%): 붕가붕가
+	 1 (001%): 성지
+	 1 (001%): 스위치 히터
+	 1 (001%): 신조어
+	 1 (001%): 압운
+	 1 (001%): 오리엔트
+	 1 (001%): 육전
+	 1 (001%): 정체
+	 1 (001%): 존재
+	 1 (001%): 카메오 출연
+	 1 (001%): 컬트 영화
+	 1 (001%): 테라포밍
+	 1 (001%): 특이점
+	 1 (001%): 펌웨어
+	 1 (001%): 항 (논리)
+
+<http://www.wikidata.org/entity/P910c>:
+	 1 (001%): http://www.wikidata.org/entity/Q13296397
+	 1 (001%): http://www.wikidata.org/entity/Q6468568
+	 1 (001%): http://www.wikidata.org/entity/Q6565374
+	 1 (001%): http://www.wikidata.org/entity/Q7007360
+	 1 (001%): http://www.wikidata.org/entity/Q7214525
+	 1 (001%): http://www.wikidata.org/entity/Q7503218
+	 1 (001%): http://www.wikidata.org/entity/Q8000001
+	 1 (001%): http://www.wikidata.org/entity/Q8507386
+	 1 (001%): http://www.wikidata.org/entity/Q8548756
+	 1 (001%): http://www.wikidata.org/entity/Q8555709
+	 1 (001%): http://www.wikidata.org/entity/Q8624977
+
+<http://www.wikidata.org/entity/P18s>:
+	 1 (001%): http://www.wikidata.org/entity/Q204520S6f76fe40-4b10-ef3c-3e2e-824c51b18453
+	 1 (001%): http://www.wikidata.org/entity/Q2811650SB0F6FE3E-ACF8-4A7F-9CB3-917D6441B9C4
+	 1 (001%): http://www.wikidata.org/entity/Q48175S498B9101-CA27-48F6-A74D-FD0BC70262AC
+	 1 (001%): http://www.wikidata.org/entity/Q48175SE0EB0EC7-C382-4D5C-B6A3-1B56A3EC1C5D
+	 1 (001%): http://www.wikidata.org/entity/Q48175SEC74E914-BA02-4257-AB34-AEDBC958C406
+
+<http://www.wikidata.org/entity/P349-ndl>:
+	 1 (001%): http://id.ndl.go.jp/auth/entity/00562589
+	 1 (001%): http://id.ndl.go.jp/auth/entity/00569470
+	 1 (001%): http://id.ndl.go.jp/auth/entity/00570448
+	 1 (001%): http://id.ndl.go.jp/auth/entity/00571027
+	 1 (001%): http://id.ndl.go.jp/auth/entity/00573449
+	 1 (001%): http://id.ndl.go.jp/auth/entity/00576320
+	 1 (001%): http://id.ndl.go.jp/auth/entity/01167510
+
+<http://www.wikidata.org/entity/P434c>:
+	 1 (001%): 2a3dc092-c397-490b-8278-7b771dba3f1a
+
+<http://www.wikidata.org/entity/P710s>:
+	 1 (001%): http://www.wikidata.org/entity/Q7482779S53dc4461-4e38-b4df-6095-8e9a07aaf2b1
+	 1 (001%): http://www.wikidata.org/entity/Q7482779Sa3e0d197-4d3b-77fc-306a-e2465ecea56b
+
+<http://www.wikidata.org/entity/P27c>:
+	 1 (001%): http://www.wikidata.org/entity/Q31
+
+<http://schema.org/description>:
+	 1 (001%): 1941-1945 жылдары КСРО мен Германия арасында болған әскери іс-әрекеттер@kk
+	 1 (001%): 1991년에 소수 의견을 조롱하는 뜻으로 부정적 의미로 사용되는 풍자
+	 1 (001%): Begriff der Emotionstheorie
+	 1 (001%): Begriff in der Geographie
+	 1 (001%): Collective term for all operations relating to the payment of money
+	 1 (001%): Colonist/Virginia
+	 1 (001%): English term for introductory education
+	 1 (001%): Es el proceso de copiar y mantener actualizados los datos en varios nodos de bases de datos ya sean estos persistentes o no.
+	 1 (001%): Geografiskt område med självstyre, på stats- eller lägre nivå
+	 1 (001%): Hypothetical planetary engineering process
+	 1 (001%): Korean satirical term
+	 1 (001%): Kraftwerk, dessen Hauptenergiequelle ein verbrennbares Gas ist
+	 1 (001%): Lehrveranstaltungsform an Hochschulen
+	 1 (001%): Méthode pédagogique@fr
+	 1 (001%): Różniczkowalny homeomorfizm@pl
+	 1 (001%): Sammelbegriff für alle Vorgänge, bezüglich der Zahlung von Geld
+	 1 (001%): Terme collectif pour toutes les opérations relatives au paiement de l'argent@fr
+	 1 (001%): Verbindung von Wörtern mit ähnlichem Klang
+	 1 (001%): Vorhersage vergangener, aber noch nicht aufgefundener Tatsachen
+	 1 (001%): according to the theory of emotion
+	 1 (001%): airport a flight is intended to land at
+	 1 (001%): airport from which a flight departs (takes off from)
+	 1 (001%): al voltant de
+	 1 (001%): approssimatamente -- da utilizzare con il qualificatore P1480 per indicare che il valore è stata indicato dalla fonte esplicitamente con valore approssimato (esempio "nato attorno al 1709")
+	 1 (001%): approximately -- should be used with qualifier P1480 to indicate the source specified a value and explicitly stated that value is approximate, but specify no precision information. For example, "born around 1709"
+	 1 (001%): archaeological site that is the model of a particular archaeological culture
+	 1 (001%): art developed primarily for aesthetics
+	 1 (001%): article about term and its controversy
+	 1 (001%): baseball player who can hit both left- and right-handed
+	 1 (001%): baseball player who hits left- and right-handed@en-x-simple
+	 1 (001%): baseball term for the first contract signed with a Major League Baseball organization
+	 1 (001%): botanical term
+	 1 (001%): central eléctrica usando gas combustible per fuente de energía
+	 1 (001%): combat operations conducted primarily using ground-based forces and weapons
+	 1 (001%): cricket term
+	 1 (001%): day on the Roman calendar that corresponds to 15 March
+	 1 (001%): deseo de emprender cierta carrera, profesión o cualquier otra actividad
+	 1 (001%): die Entropiezunahme eines gemischten Systems nach dem Mischen
+	 1 (001%): efficency@gu
+	 1 (001%): efficiency
+	 1 (001%): either a collection of material for or a story in a role-playing game
+	 1 (001%): figure de style@fr
+	 1 (001%): film that has acquired a cult following
+	 1 (001%): first official game appearance with a Major League Baseball team
+	 1 (001%): first successful, documented attainment of the top of a mountain, or specific route
+	 1 (001%): formal or informal name connecting a number of individual items with a common theme
+	 1 (001%): fusto delle graminacee
+	 1 (001%): gastoptreden
+	 1 (001%): gebirgsferne durch glaziale Erosion entstandene Meeresbucht
+	 1 (001%): glacially formed, broad, shallow inlet
+	 1 (001%): historical and derogatory name for Roman Catholics or Catholicism
+	 1 (001%): idee
+	 1 (001%): informal term
+	 1 (001%): informatica
+	 1 (001%): isomorphism of smooth manifolds
+	 1 (001%): kunst voornamelijk bedoeld voor visuele beschouwing of plezier
+	 1 (001%): la fuente especificó un valor y explícitamente indicó que éste era aproximado, pero no se indicó la precisión. Por ejemplo, "nacido cerca de 1709" o "muerto cerca de Berlín"
+	 1 (001%): last game played in the Major Leagues
+	 1 (001%): level of authorship required to claim copyright of a work
+	 1 (001%): locuzione tipica delle popolazioni indonesiane
+	 1 (001%): logica
+	 1 (001%): madhu
+	 1 (001%): matematički izraz koji može obrazovati odvojeni deo jednačine
+	 1 (001%): materiaalkunde
+	 1 (001%): mathematical expression that may form a separable part of an equation, a series, or another expression; used in in mathematical logic, universal algebra, and rewriting systems
+	 1 (001%): mathematischer Ausdruck
+	 1 (001%): method of computing attorney fees
+	 1 (001%): motortaal
+	 1 (001%): newly coined term not yet accepted into mainstream language
+	 1 (001%): nově vytvořené slovo
+	 1 (001%): npr. "rojen približno leta 1709" ali " umrl blizu Berlina"
+	 1 (001%): occupation to which a person is specially drawn or for which he or she is suited, trained, or qualified
+	 1 (001%): occurs when a train passes a stop signal without authority to do so
+	 1 (001%): oral presentation intended to present information
+	 1 (001%): page d'homonymie de Wikipédia@fr
+	 1 (001%): person residing on and farming land owned by a landlord
+	 1 (001%): person with power who has both military and civil control
+	 1 (001%): player selected to play in the Major League Baseball All-Star Game
+	 1 (001%): processo di attuazione di un contratto stipulato sul mercato
+	 1 (001%): qualificaturi chi' riggistra u fattu chi' a fonti di n'affirmazzioni spicifica un valuri approssimatu
+	 1 (001%): rollenspel
+	 1 (001%): selon la théorie des émotions@fr
+	 1 (001%): set of pages that link to each other, but do not have any links to or from pages outside the group
+	 1 (001%): sharing information to ensure consistency in computing
+	 1 (001%): slang term from the Wild Cards novels
+	 1 (001%): status of an aviation safety incident in which the cause is still being determined
+	 1 (001%): stijlfiguur
+	 1 (001%): stonek trav a obilnin
+	 1 (001%): strukturelle, formelle und institutionelle Dimension von Politik
+	 1 (001%): te gebruiken als onderdeel van specificatie bron
+	 1 (001%): term
+	 1 (001%): term for the Eastern world
+	 1 (001%): term for the Eastern world@en-gb
+	 1 (001%): term used by Jews, Christians, and Muslims to describe the Land of Israel and Palestine
+	 1 (001%): term used in performing arts
+	 1 (001%): term used to refer to a line of select Xbox games
+	 1 (001%): term with various meanings related to a state, a populace, or a government
+	 1 (001%): term within Dungeons & Dragons game
+	 1 (001%): terme@fr
+	 1 (001%): the increase in the total entropy of a compound system after mixing
+	 1 (001%): theological study of the Christian Church
+	 1 (001%): tijd
+	 1 (001%): type of power station which uses as primary source of fuel combustible gases
+	 1 (001%): uguaglianza di due o più parole dall'accento tonico in poi
+	 1 (001%): ungefähr -- sollte mit Qualifikator P1480 "Qualifikator für Behauptung" verwendet werde, um auszudrücken, dass die Quelle eine Angabe als ungefähr bezeichnet. Zum Beispiel "geboren um 1709"
+	 1 (001%): use of a building
+	 1 (001%): wiskunde
+	 1 (001%): wyrażenie używane do określenia czegoś przybliżonego. na przykład "urodzony około 1908 roku"@pl
+	 1 (001%): zeměpisná oblast, řízená svým vedením
+	 1 (001%): überraschendes Auftreten einer bekannten Person in einem Film
+	 1 (001%): Здібність сприйняття інформації через свинцеві екрани ,на яких завгодно великих відстанях ,від мікроскопічних об_єктів ..
+	 1 (001%): английский язык@tt
+	 1 (001%): башkортса@ba
+	 1 (001%): макрорегион, включающий Азию и Северную Африку
+	 1 (001%): математическое понятие
+	 1 (001%): математички израз који може образовати одвојени део једначине@sr
+	 1 (001%): математички израз који може образовати одвојени део једначине@sr-cyrl
+	 1 (001%): термин
+	 1 (001%): термін радянської пропаганди
+	 1 (001%): флаг, указывающий что источник указал на приблизительность значения, но не указал точные возможные границы значения
+	 1 (001%): ما هو term@ar
+	 1 (001%): この出典では、この情報がおよその精度であることが述べられている。例: 「1709年頃誕生」「ベルリン付近で没」
+	 1 (001%): 別名：固件、韌件
+	 1 (001%): 效率
+
+<http://www.wikidata.org/entity/P948s>:
+	 1 (001%): http://www.wikidata.org/entity/Q48175SC9D6B14F-C531-4349-AF3F-EF1022984C00
+
+<http://www.wikidata.org/entity/P434s>:
+	 1 (001%): http://www.wikidata.org/entity/Q387009S970228BD-B277-417D-B23A-066835448E98
+
+<http://www.wikidata.org/entity/P710c>:
+	 1 (001%): http://www.wikidata.org/entity/Q15180
+	 1 (001%): http://www.wikidata.org/entity/Q7318
+
+<http://www.wikidata.org/entity/P646-freebase>:
+	 1 (001%): http://rdf.freebase.com/ns/m.011z1t
+	 1 (001%): http://rdf.freebase.com/ns/m.012xhn
+	 1 (001%): http://rdf.freebase.com/ns/m.0130zd
+	 1 (001%): http://rdf.freebase.com/ns/m.01431j
+	 1 (001%): http://rdf.freebase.com/ns/m.01929s
+	 1 (001%): http://rdf.freebase.com/ns/m.01c6nk
+	 1 (001%): http://rdf.freebase.com/ns/m.01k017
+	 1 (001%): http://rdf.freebase.com/ns/m.01pb34
+	 1 (001%): http://rdf.freebase.com/ns/m.01q03
+	 1 (001%): http://rdf.freebase.com/ns/m.01s5p3
+	 1 (001%): http://rdf.freebase.com/ns/m.01tw79
+	 1 (001%): http://rdf.freebase.com/ns/m.020_bb
+	 1 (001%): http://rdf.freebase.com/ns/m.021f85
+	 1 (001%): http://rdf.freebase.com/ns/m.025gb
+	 1 (001%): http://rdf.freebase.com/ns/m.026r94
+	 1 (001%): http://rdf.freebase.com/ns/m.02_qp3
+	 1 (001%): http://rdf.freebase.com/ns/m.02cxg
+	 1 (001%): http://rdf.freebase.com/ns/m.02jsr
+	 1 (001%): http://rdf.freebase.com/ns/m.02nt8b
+	 1 (001%): http://rdf.freebase.com/ns/m.031hrg
+	 1 (001%): http://rdf.freebase.com/ns/m.03j_7c
+	 1 (001%): http://rdf.freebase.com/ns/m.03k6wb
+	 1 (001%): http://rdf.freebase.com/ns/m.03yy3j
+	 1 (001%): http://rdf.freebase.com/ns/m.0410tx2
+	 1 (001%): http://rdf.freebase.com/ns/m.05bytn
+	 1 (001%): http://rdf.freebase.com/ns/m.05djjk
+	 1 (001%): http://rdf.freebase.com/ns/m.06jqj
+	 1 (001%): http://rdf.freebase.com/ns/m.06m3n8
+	 1 (001%): http://rdf.freebase.com/ns/m.071jd_
+	 1 (001%): http://rdf.freebase.com/ns/m.07_0m0
+	 1 (001%): http://rdf.freebase.com/ns/m.07bfxk
+	 1 (001%): http://rdf.freebase.com/ns/m.07bhq6
+	 1 (001%): http://rdf.freebase.com/ns/m.08079d8
+	 1 (001%): http://rdf.freebase.com/ns/m.0877k9
+	 1 (001%): http://rdf.freebase.com/ns/m.08l32c
+	 1 (001%): http://rdf.freebase.com/ns/m.08rzl1
+	 1 (001%): http://rdf.freebase.com/ns/m.08w4br
+	 1 (001%): http://rdf.freebase.com/ns/m.09jb4y
+	 1 (001%): http://rdf.freebase.com/ns/m.0b8t7
+	 1 (001%): http://rdf.freebase.com/ns/m.0ds6b6c
+	 1 (001%): http://rdf.freebase.com/ns/m.0f5j8
+	 1 (001%): http://rdf.freebase.com/ns/m.0g9xd2v
+	 1 (001%): http://rdf.freebase.com/ns/m.0j_793q
+	 1 (001%): http://rdf.freebase.com/ns/m.0mg1w
+
+<http://www.wikidata.org/entity/P27s>:
+	 1 (001%): http://www.wikidata.org/entity/Q2682207S927DB22F-1EFD-47EC-B64E-0B00604602DC
+
+<http://www.wikidata.org/entity/P361c>:
+	 1 (001%): http://www.wikidata.org/entity/Q1375
+	 1 (001%): http://www.wikidata.org/entity/Q22857
+	 1 (001%): http://www.wikidata.org/entity/Q2628560
+	 1 (001%): http://www.wikidata.org/entity/Q395
+	 1 (001%): http://www.wikidata.org/entity/Q5372
+	 1 (001%): http://www.wikidata.org/entity/Q9357054
+
+<http://www.w3.org/2004/02/skos/core#altLabel>:
+	 1 (001%): "triple-double"
+	 1 (001%): Acte existentiel@fr
+	 1 (001%): Acte/Puissance@fr
+	 1 (001%): Adivina
+	 1 (001%): Adivinacion
+	 1 (001%): Aktuaalinen
+	 1 (001%): Aktuaalisuus
+	 1 (001%): All-Star
+	 1 (001%): Arte adivinatoria
+	 1 (001%): Artes bellae@la
+	 1 (001%): Arts majors
+	 1 (001%): Arts pures
+	 1 (001%): Assalto ao banco central de fortaleza@pt
+	 1 (001%): Außerwesentliche Singularität
+	 1 (001%): Balcanizacion
+	 1 (001%): Balkanisoiminen
+	 1 (001%): Balkanisoituminen
+	 1 (001%): Balkkanisoida
+	 1 (001%): Belaj artoj
+	 1 (001%): Belarto
+	 1 (001%): Belas-artes@pt
+	 1 (001%): Bella ars@la
+	 1 (001%): Bellenim@tr
+	 1 (001%): Between-the-Legs-Slam
+	 1 (001%): Bina'adaałtsózí diné'i
+	 1 (001%): Biosphérisation@fr
+	 1 (001%): Bodenkrieg
+	 1 (001%): Body Surfing
+	 1 (001%): Bohatý rým
+	 1 (001%): Brinksitzer
+	 1 (001%): Bumbas trieciens grozā no augšas@lv
+	 1 (001%): Bumbas trieciens grozā@lv
+	 1 (001%): Bunga Bunga
+	 1 (001%): Bunga bunga
+	 1 (001%): Bödner
+	 1 (001%): C.
+	 1 (001%): C.@br
+	 1 (001%): C.@eu
+	 1 (001%): C.@fr
+	 1 (001%): C.@pt
+	 1 (001%): Ca
+	 1 (001%): Ca.
+	 1 (001%): Ca.@eu
+	 1 (001%): Ca.@fr
+	 1 (001%): Ca.@la
+	 1 (001%): Ca.@pt
+	 1 (001%): Camei
+	 1 (001%): Cameo
+	 1 (001%): Cameo appearance
+	 1 (001%): Cameo appearance@tr
+	 1 (001%): Cameo hlutverk
+	 1 (001%): Cameo-opptreden
+	 1 (001%): Cameo-rolle
+	 1 (001%): Cameo@bs
+	 1 (001%): Cameo@lt
+	 1 (001%): Cameo@tr
+	 1 (001%): Cameoframträdande
+	 1 (001%): Cameoroll
+	 1 (001%): Cameorolle
+	 1 (001%): Cameorooli
+	 1 (001%): Cameos
+	 1 (001%): Cammeo
+	 1 (001%): Caméos@fr
+	 1 (001%): Cca
+	 1 (001%): Cca.@eu
+	 1 (001%): Cca.@fr
+	 1 (001%): Chiamata (Bibbia)
+	 1 (001%): Cine de culto
+	 1 (001%): Cinema de culte
+	 1 (001%): Circa
+	 1 (001%): Circa@ur
+	 1 (001%): Cirka
+	 1 (001%): Clairvoyance
+	 1 (001%): Clairvoyance (Pseudo-science)@fr
+	 1 (001%): Clairvoyance (pseudo-science)@fr
+	 1 (001%): Clairvoyant
+	 1 (001%): Clairvoyant@fr
+	 1 (001%): Clarividente
+	 1 (001%): Clarividente@pt
+	 1 (001%): Clock tick
+	 1 (001%): Conciencia falsa
+	 1 (001%): Cracklé
+	 1 (001%): Crakle
+	 1 (001%): Craquelar
+	 1 (001%): Craquelat
+	 1 (001%): Craquele
+	 1 (001%): Craquelee
+	 1 (001%): Craquelure
+	 1 (001%): Craquelé
+	 1 (001%): Craquelée
+	 1 (001%): Crettatura
+	 1 (001%): Crowd Surfing
+	 1 (001%): Crowd surfer
+	 1 (001%): Crowd surfing
+	 1 (001%): Crowd surfing@fr
+	 1 (001%): Crowd-Surfing
+	 1 (001%): Crowdsurfing
+	 1 (001%): Cult
+	 1 (001%): Cult film
+	 1 (001%): Cult film@th
+	 1 (001%): Cult film@tr
+	 1 (001%): Cult movie
+	 1 (001%): Cult movie@pt
+	 1 (001%): Cult-film
+	 1 (001%): Danks@lv
+	 1 (001%): De österländska folken
+	 1 (001%): Den østlige verden
+	 1 (001%): Det Hellige Landet
+	 1 (001%): Det förlovade landet
+	 1 (001%): Difeomorfizmus
+	 1 (001%): Diffeomorf
+	 1 (001%): Diffeomorfism
+	 1 (001%): Diffeomorph
+	 1 (001%): Diffeomorphie
+	 1 (001%): Doelmatigheid
+	 1 (001%): Donkkaaminen
+	 1 (001%): Donkkaus
+	 1 (001%): Doppelreim
+	 1 (001%): Double-triple-double@pl
+	 1 (001%): Droit d'exister@fr
+	 1 (001%): Dujun
+	 1 (001%): Dunamis@fr
+	 1 (001%): Dunk shot
+	 1 (001%): Dunk@fr
+	 1 (001%): Dunk@lv
+	 1 (001%): Dunk@pt
+	 1 (001%): Dunkskudd
+	 1 (001%): Ecclesiologie@fr
+	 1 (001%): Ecclésiale@fr
+	 1 (001%): Ecclésialité@fr
+	 1 (001%): Ecclésiologie orthodoxe@fr
+	 1 (001%): Ecclésiologie sacramentelle@fr
+	 1 (001%): Ecclésiologique@fr
+	 1 (001%): Ecclésiologue@fr
+	 1 (001%): Eclesiologia
+	 1 (001%): Eclesiologia cristiana
+	 1 (001%): Eclesiología
+	 1 (001%): Eclesiológico@pt
+	 1 (001%): Ecogenèse@fr
+	 1 (001%): Eigenkätner
+	 1 (001%): Einrím
+	 1 (001%): Ekialde@eu
+	 1 (001%): Ekklesia
+	 1 (001%): Ekklesiologia
+	 1 (001%): Eklesiologie
+	 1 (001%): Eklesioloģija@lv
+	 1 (001%): Ekleziologija
+	 1 (001%): Eklisiologija
+	 1 (001%): Eksistensielle spørsmål
+	 1 (001%): Eksistensiya
+	 1 (001%): Eksistenssi
+	 1 (001%): Eksistensya
+	 1 (001%): Eksistere
+	 1 (001%): Eksistoida
+	 1 (001%): Els manlleus
+	 1 (001%): Enderim
+	 1 (001%): Endreim
+	 1 (001%): Entelecheia@pt
+	 1 (001%): Entelécheia
+	 1 (001%): Enteléchia
+	 1 (001%): Entropia miešania
+	 1 (001%): Entéléchie@fr
+	 1 (001%): Epiforický rým
+	 1 (001%): Esistere
+	 1 (001%): Esquema rimático@pt
+	 1 (001%): Existant@fr
+	 1 (001%): Existence
+	 1 (001%): Existence@gan
+	 1 (001%): Existent
+	 1 (001%): Existente
+	 1 (001%): Existenzbeweis
+	 1 (001%): Existenziell
+	 1 (001%): Existera
+	 1 (001%): Existerar
+	 1 (001%): Existierend
+	 1 (001%): Existir
+	 1 (001%): Existências@pt
+	 1 (001%): FA
+	 1 (001%): FIRMWARE
+	 1 (001%): Fijnkunst
+	 1 (001%): Film cult
+	 1 (001%): Film de culto
+	 1 (001%): Filme de culto
+	 1 (001%): Filme de culto@pt
+	 1 (001%): Films cultes@fr
+	 1 (001%): Fine Art
+	 1 (001%): Fine Arts
+	 1 (001%): Firmvér
+	 1 (001%): Firmware
+	 1 (001%): Firmware level
+	 1 (001%): Firmware@id
+	 1 (001%): Firmware@lt
+	 1 (001%): Firmware@ml
+	 1 (001%): Firmware@si
+	 1 (001%): Firmware@sr
+	 1 (001%): Firmware@tr
+	 1 (001%): Firmwareupdate
+	 1 (001%): Firmwer
+	 1 (001%): Firmweyr
+	 1 (001%): Fjardai@lt
+	 1 (001%): Fjardas@lt
+	 1 (001%): Fjärdar
+	 1 (001%): Første bestigning
+	 1 (001%): Førstebestiging
+	 1 (001%): Førstebestigning
+	 1 (001%): Førstebestigninger
+	 1 (001%): Førstekliving
+	 1 (001%): Gastauftritt
+	 1 (001%): Gestaltungshöhe
+	 1 (001%): Glimprol
+	 1 (001%): Gospodari rata
+	 1 (001%): Gouvernement pastoral@fr
+	 1 (001%): Grafický rým
+	 1 (001%): Güzel sanat@tr
+	 1 (001%): Güzel sanatlar nelerdir@tr
+	 1 (001%): Halige Land
+	 1 (001%): Hardwarenahe Software
+	 1 (001%): Health promotion
+	 1 (001%): Hebbare Singularität
+	 1 (001%): Heilig Land
+	 1 (001%): Helderziend
+	 1 (001%): Helderziende
+	 1 (001%): Heliga landet
+	 1 (001%): Hellige Landet
+	 1 (001%): Hellige land
+	 1 (001%): Het Heilige Land
+	 1 (001%): Het Oosten
+	 1 (001%): Holy Land@th
+	 1 (001%): Husmandsbrug
+	 1 (001%): Husmandssted
+	 1 (001%): Husmannsplass
+	 1 (001%): Husmenn
+	 1 (001%): Hálfrím
+	 1 (001%): ICT革命
+	 1 (001%): IT革命
+	 1 (001%): IT革命とその周辺
+	 1 (001%): Identický rým
+	 1 (001%): Innenreim
+	 1 (001%): Interrogation existentielle@fr
+	 1 (001%): Invitation general@ia
+	 1 (001%): Islamifikace
+	 1 (001%): Islamisatie
+	 1 (001%): Islamisation de l'Europe@fr
+	 1 (001%): Islamisation de la France@fr
+	 1 (001%): Islamiseren
+	 1 (001%): Islamisé@fr
+	 1 (001%): Islamizacija@sr
+	 1 (001%): Islamizacion
+	 1 (001%): Jasnowidz@pl
+	 1 (001%): Jasnowidztwo@pl
+	 1 (001%): Jaunvārdi@lv
+	 1 (001%): Jiffie
+	 1 (001%): Jiffies
+	 1 (001%): Kameo@sq
+	 1 (001%): Kamé-roll
+	 1 (001%): Karlrím
+	 1 (001%): Kerkleer
+	 1 (001%): Kirche
+	 1 (001%): Kirche Jesu Christi
+	 1 (001%): Klarsyn
+	 1 (001%): Krackelyr
+	 1 (001%): Krakeliermedium
+	 1 (001%): Krakelure
+	 1 (001%): Krakelury@pl
+	 1 (001%): Krakelüre
+	 1 (001%): Kriegsfürst
+	 1 (001%): Krigsherrar
+	 1 (001%): Krigsherrarna
+	 1 (001%): Krigsherren
+	 1 (001%): Krigsherrer
+	 1 (001%): Krijgsheren
+	 1 (001%): Kruununtorppari
+	 1 (001%): Kult Film
+	 1 (001%): Kult-film
+	 1 (001%): Kulta filmas@lv
+	 1 (001%): Kultové filmy
+	 1 (001%): Kultsendung
+	 1 (001%): Kvenrím
+	 1 (001%): Kyrkosyn
+	 1 (001%): Kült filmler@tr
+	 1 (001%): Libanonisierung
+	 1 (001%): Libera termo
+	 1 (001%): Lijst van bekende helderzienden
+	 1 (001%): Lijst van helderzienden
+	 1 (001%): Logiciel embarqué@fr
+	 1 (001%): Lolita (flicka)
+	 1 (001%): Lolita (termino)
+	 1 (001%): Lolita Babydoll
+	 1 (001%): Lumagi
+	 1 (001%): Luoghi Santi
+	 1 (001%): Lur Santuak@eu
+	 1 (001%): Lurralde Santua@eu
+	 1 (001%): Lurralde Santuak@eu
+	 1 (001%): Lámaný rým
+	 1 (001%): MLB All-Star
+	 1 (001%): MLB debut
+	 1 (001%): MLB final game
+	 1 (001%): MLB initial signing
+	 1 (001%): MLB signing
+	 1 (001%): Maantaminen
+	 1 (001%): Mamalagi
+	 1 (001%): Mamarati
+	 1 (001%): Manatili
+	 1 (001%): Manlleus
+	 1 (001%): Mate baloncesto
+	 1 (001%): Matemaattinen singulariteetti
+	 1 (001%): Matematická singularita
+	 1 (001%): Metagnomia
+	 1 (001%): Micro programme@fr
+	 1 (001%): Micro-programme@fr
+	 1 (001%): Microgiciel@fr
+	 1 (001%): Micrologiciel@fr
+	 1 (001%): Micrologiciel@lt
+	 1 (001%): Microprogramme@fr
+	 1 (001%): Minirolle
+	 1 (001%): Mohammedanisering
+	 1 (001%): Moslimisering
+	 1 (001%): Mundo Oriental@pt
+	 1 (001%): Món oriental
+	 1 (001%): Mĩ thuật
+	 1 (001%): Naslov povezave
+	 1 (001%): Neologia
+	 1 (001%): Neologisme
+	 1 (001%): Neologisme@fr
+	 1 (001%): Neologismen
+	 1 (001%): Neologismes
+	 1 (001%): Neologismi
+	 1 (001%): Neologismos
+	 1 (001%): Neologista
+	 1 (001%): Neologiya
+	 1 (001%): Neologizam@hr
+	 1 (001%): Neologizm artystyczny@pl
+	 1 (001%): Neologizmas@lt
+	 1 (001%): Neologizmi@hr
+	 1 (001%): Neologizmy@pl
+	 1 (001%): Neología
+	 1 (001%): Neoloģismi@lv
+	 1 (001%): Neoloģisms@lv
+	 1 (001%): Neotoltecas
+	 1 (001%): Neuluggismu
+	 1 (001%): Neuwort
+	 1 (001%): Nichtexistenz
+	 1 (001%): Nichtvorhandensein
+	 1 (001%): Niologgismu
+	 1 (001%): Nioluggismu
+	 1 (001%): Niuluggismu
+	 1 (001%): Nivel minimo de originalidad
+	 1 (001%): Nivel mínimo de originalidad
+	 1 (001%): Nombok@id
+	 1 (001%): Non-existence@fr
+	 1 (001%): Novismo
+	 1 (001%): Novotvorenica@hr
+	 1 (001%): Novradiko
+	 1 (001%): Novvorto
+	 1 (001%): Noûmots@wa
+	 1 (001%): Nubility
+	 1 (001%): Nybildade ord
+	 1 (001%): Näyttäytymisosa
+	 1 (001%): Néologismes@fr
+	 1 (001%): Nínfula
+	 1 (001%): Nýmerking
+	 1 (001%): Obkročný rým
+	 1 (001%): Obra de culto
+	 1 (001%): Olemassa olo
+	 1 (001%): Oosters
+	 1 (001%): Oosterse wereld
+	 1 (001%): Oprogramowanie układowe@pl
+	 1 (001%): Optický rým
+	 1 (001%): Orient
+	 1 (001%): Orientaler
+	 1 (001%): Orientales
+	 1 (001%): Orientalisch
+	 1 (001%): Orientalisk
+	 1 (001%): Orientalist
+	 1 (001%): Orientalsk
+	 1 (001%): Orientalske
+	 1 (001%): Orienten
+	 1 (001%): Orientálny
+	 1 (001%): Orién@an
+	 1 (001%): Outremer
+	 1 (001%): Ouverture@fr
+	 1 (001%): Pagiral
+	 1 (001%): Palagi
+	 1 (001%): Palestine
+	 1 (001%): Pamalagiin
+	 1 (001%): Pamamalagi
+	 1 (001%): Pamamarati
+	 1 (001%): Paragnost
+	 1 (001%): Pelicula de culto
+	 1 (001%): Peliculas de culto
+	 1 (001%): Películas de culto
+	 1 (001%): Perangkat lunak menetap@id
+	 1 (001%): Phần sụn
+	 1 (001%): Piratage informatique@fr
+	 1 (001%): Pirmwer
+	 1 (001%): Pirmweyr
+	 1 (001%): Planetaire techniek
+	 1 (001%): Pointler
+	 1 (001%): Potencija@lt
+	 1 (001%): Potentiaalinen
+	 1 (001%): Potentiaalisuus
+	 1 (001%): Potentiaalisuus ja aktuaalisuus
+	 1 (001%): Pozemštění
+	 1 (001%): Pozemšťování
+	 1 (001%): Premiere ascension@fr
+	 1 (001%): Primera ascension
+	 1 (001%): Raja perang@id
+	 1 (001%): Raja-raja perang@id
+	 1 (001%): Reimart
+	 1 (001%): Reimschema
+	 1 (001%): Replication
+	 1 (001%): Replikator
+	 1 (001%): Replizierung
+	 1 (001%): Reraguapy
+	 1 (001%): Rhyme@gan
+	 1 (001%): Riimi
+	 1 (001%): Riimiparit
+	 1 (001%): Rijmen
+	 1 (001%): Rijmwoord
+	 1 (001%): Rima
+	 1 (001%): Rima alternata
+	 1 (001%): Rima emparelhadas@pt
+	 1 (001%): Rimas
+	 1 (001%): Rimavimas@lt
+	 1 (001%): Rimes@fr
+	 1 (001%): Rimord
+	 1 (001%): Rivoluzione dell'informazione
+	 1 (001%): Rivuluzzioni Infurmatica
+	 1 (001%): Rym dokładny@pl
+	 1 (001%): Rymy@pl
+	 1 (001%): SPAD
+	 1 (001%): Sankta Tero
+	 1 (001%): Santos lugares
+	 1 (001%): Schaffenshöhe
+	 1 (001%): Schöpfungstiefe
+	 1 (001%): Sciences ecclésiastiques@fr
+	 1 (001%): Sdružený rým
+	 1 (001%): Seigneur de la guerre@fr
+	 1 (001%): Seigneurs de Guerre@fr
+	 1 (001%): Seigneurs de la guerre@fr
+	 1 (001%): Selgeltnägija@et
+	 1 (001%): Selväaistiminen
+	 1 (001%): Selvänäkeminen
+	 1 (001%): Selvänäkijä
+	 1 (001%): Selvänäkö
+	 1 (001%): Senhor da guerra@pt
+	 1 (001%): Senhor de guerra@pt
+	 1 (001%): Senor de la Guerra
+	 1 (001%): Senores de la guerra
+	 1 (001%): Seuil d’originalité@fr
+	 1 (001%): Señores de la guerra
+	 1 (001%): Signori della guerra
+	 1 (001%): Singularidad matematica
+	 1 (001%): Singularite@fr
+	 1 (001%): Singularitet
+	 1 (001%): Singularität
+	 1 (001%): Singularité polaire@fr
+	 1 (001%): Singulärer Punkt
+	 1 (001%): Singulære punkt på ei kurve
+	 1 (001%): Singulært punkt
+	 1 (001%): Skattetorp
+	 1 (001%): Skothent rím
+	 1 (001%): Sköna konsterna
+	 1 (001%): Slam diving@fr
+	 1 (001%): Slam dunk
+	 1 (001%): Slam dunk@id
+	 1 (001%): Slam dunk@pl
+	 1 (001%): Slam dunk@sr
+	 1 (001%): Slam-dunk@lv
+	 1 (001%): Sniðrím
+	 1 (001%): Società dell'Informazione
+	 1 (001%): Sortaldea@eu
+	 1 (001%): Stage Diving
+	 1 (001%): Stage diving
+	 1 (001%): Stagediven
+	 1 (001%): Stagediver
+	 1 (001%): Stagediving
+	 1 (001%): Stop Tonend Sein
+	 1 (001%): Stop Tonende Sein
+	 1 (001%): Střídavý rým
+	 1 (001%): Subsistoida
+	 1 (001%): Subsistointi
+	 1 (001%): Sulautettu ohjelma
+	 1 (001%): Telestesia
+	 1 (001%): Teraformace
+	 1 (001%): Teraforming
+	 1 (001%): Terformigo
+	 1 (001%): Term@ml
+	 1 (001%): Termumformung
+	 1 (001%): Terra-Santa@pt
+	 1 (001%): Terra-formation@fr
+	 1 (001%): Terraformaaminen
+	 1 (001%): Terraformacion
+	 1 (001%): Terraformacion de Marte
+	 1 (001%): Terraformación de Marte
+	 1 (001%): Terraformar
+	 1 (001%): Terraformaus
+	 1 (001%): Terraformação de Vênus@pt
+	 1 (001%): Terraforming
+	 1 (001%): Terraforming@fr
+	 1 (001%): Terraforming@id
+	 1 (001%): Terraforming@pl
+	 1 (001%): Terraforming@pt
+	 1 (001%): Terraforming@ur
+	 1 (001%): Terraformizacja@pl
+	 1 (001%): Terraformning
+	 1 (001%): Terraformointi
+	 1 (001%): Terraformung
+	 1 (001%): Terrafòrming
+	 1 (001%): Terramuodostus
+	 1 (001%): Terrasanta
+	 1 (001%): Terre-Sainte@fr
+	 1 (001%): Terrraformació
+	 1 (001%): Théologie de l'Église@fr
+	 1 (001%): Tilvera
+	 1 (001%): Tipiakage@fr
+	 1 (001%): Torppa
+	 1 (001%): Torpparikysymys
+	 1 (001%): Torpparilaitos
+	 1 (001%): Torpparit
+	 1 (001%): Tripla-doppia
+	 1 (001%): Triplatupla
+	 1 (001%): Triple doble
+	 1 (001%): Triple double@et
+	 1 (001%): Triple double@fr
+	 1 (001%): Triple double@pl
+	 1 (001%): Triple double@tr
+	 1 (001%): Triple-Double@et
+	 1 (001%): Triple-double
+	 1 (001%): Tripledouble@et
+	 1 (001%): Tuchün
+	 1 (001%): Tvírím
+	 1 (001%): Unua surgrimpo
+	 1 (001%): Uppfinningshöjd
+	 1 (001%): Uudiskeelend@et
+	 1 (001%): Uyak Çeşitleri@tr
+	 1 (001%): Uyak@tr
+	 1 (001%): Vara (filosofi)
+	 1 (001%): Veggjað rím
+	 1 (001%): Verbum novatum@la
+	 1 (001%): Vererdung
+	 1 (001%): Verheißenes Land
+	 1 (001%): Videncia
+	 1 (001%): Vidente
+	 1 (001%): Vidência@pt
+	 1 (001%): Vizuální rým
+	 1 (001%): Vocation effective@ia
+	 1 (001%): Vocation exterior@ia
+	 1 (001%): Vocation general@ia
+	 1 (001%): Vocation interior@ia
+	 1 (001%): Vocation particular@ia
+	 1 (001%): Vocation religieuse@fr
+	 1 (001%): Vocation special@ia
+	 1 (001%): Vocation universal@ia
+	 1 (001%): Vorhandensein
+	 1 (001%): Väsentlig singularitet
+	 1 (001%): Være
+	 1 (001%): Víxlrím
+	 1 (001%): Warlord@ml
+	 1 (001%): Warlord@pt
+	 1 (001%): Warlordismo@pt
+	 1 (001%): Wd@br
+	 1 (001%): Werkhöhe
+	 1 (001%): Wesentliche Singularität
+	 1 (001%): Worterfindungen
+	 1 (001%): Xenisme
+	 1 (001%): Yiffy
+	 1 (001%): Zahlenterm
+	 1 (001%): Zahlterm
+	 1 (001%): Zasľúbená zem
+	 1 (001%): Země zaslíbená
+	 1 (001%): approximate value
+	 1 (001%): approximately
+	 1 (001%): around
+	 1 (001%): arriving airport
+	 1 (001%): body surfing
+	 1 (001%): c.
+	 1 (001%): c:a
+	 1 (001%): ca
+	 1 (001%): ca.
+	 1 (001%): cameo role
+	 1 (001%): cca.
+	 1 (001%): cerca de
+	 1 (001%): circ.
+	 1 (001%): crowd surfing
+	 1 (001%): cult
+	 1 (001%): cult classic
+	 1 (001%): cult movie
+	 1 (001%): cult-movie
+	 1 (001%): entelecheia@pl
+	 1 (001%): estructura política
+	 1 (001%): etwa
+	 1 (001%): fiard
+	 1 (001%): film cult
+	 1 (001%): film culto
+	 1 (001%): fjåard
+	 1 (001%): flight origin
+	 1 (001%): in circa
+	 1 (001%): in etwa
+	 1 (001%): in tornu a'
+	 1 (001%): incirca
+	 1 (001%): intornu a'
+	 1 (001%): land warfare
+	 1 (001%): landing point
+	 1 (001%): neologizmus
+	 1 (001%): novotvar
+	 1 (001%): näherungsweise
+	 1 (001%): originating airport
+	 1 (001%): papalism
+	 1 (001%): papalist
+	 1 (001%): papism
+	 1 (001%): popery
+	 1 (001%): popish
+	 1 (001%): przybliżona wartość@pl
+	 1 (001%): règlement - livraison@fr
+	 1 (001%): slam dunk
+	 1 (001%): switch hitter
+	 1 (001%): takeoff point
+	 1 (001%): term in logic
+	 1 (001%): term in math
+	 1 (001%): term in rewriting systems
+	 1 (001%): term in universal algebra
+	 1 (001%): terminus airport
+	 1 (001%): type-site
+	 1 (001%): typesite
+	 1 (001%): ungefähr
+	 1 (001%): unknown
+	 1 (001%): valor aproximado
+	 1 (001%): vocación profesional
+	 1 (001%): w pobliżu@pl
+	 1 (001%): zirka
+	 1 (001%): Écclésialité@fr
+	 1 (001%): Écogenèse@fr
+	 1 (001%): Écogénèse@fr
+	 1 (001%): Österlandet
+	 1 (001%): Österländsk
+	 1 (001%): Østen
+	 1 (001%): Østerlandene
+	 1 (001%): Þrírím
+	 1 (001%): Ĉeftermo
+	 1 (001%): Địa khai hoá
+	 1 (001%): Štěk
+	 1 (001%): Ţara Sfântă
+	 1 (001%): Έκκλησιολογία@sr
+	 1 (001%): Νεολογισμός;@sr
+	 1 (001%): Νεολογισμός@sr
+	 1 (001%): Ρίμα@el
+	 1 (001%): Υλικολογισμικό@el
+	 1 (001%): Інформаційні революції
+	 1 (001%): Барлык@tt
+	 1 (001%): Бивање@sr
+	 1 (001%): Битисање@sr
+	 1 (001%): Бунга-бунга
+	 1 (001%): ВОВ
+	 1 (001%): Вөҗүд@tt
+	 1 (001%): Данк
+	 1 (001%): Дебългаризиране на българите мюсюлмани@bg
+	 1 (001%): Егзистенција@sr
+	 1 (001%): Екзистенція
+	 1 (001%): ЗОЖ
+	 1 (001%): Изящни изкуства@bg
+	 1 (001%): Изящното изкуство@bg
+	 1 (001%): Информационная революция
+	 1 (001%): Ислямизация в България през османското владичество@bg
+	 1 (001%): Ислямизация в България@bg
+	 1 (001%): Ислямизация@bg
+	 1 (001%): Ислямизиране@bg
+	 1 (001%): Камео наступ@sr
+	 1 (001%): Крауд-серфинг
+	 1 (001%): Культовое кино
+	 1 (001%): Математическая сингулярность
+	 1 (001%): НТП
+	 1 (001%): НТР
+	 1 (001%): Научно-технический прогресс
+	 1 (001%): Неологизм@ba
+	 1 (001%): Неологизмы
+	 1 (001%): Неологізми
+	 1 (001%): Ориент
+	 1 (001%): Ориента@bg
+	 1 (001%): Особая точка
+	 1 (001%): Особая точка функции
+	 1 (001%): Планетарная инженерия
+	 1 (001%): Полевые командиры
+	 1 (001%): Помохамеданчване@bg
+	 1 (001%): Потурчване на българите@bg
+	 1 (001%): Прозорливість
+	 1 (001%): Протологизам@sr
+	 1 (001%): Прошивка
+	 1 (001%): Репликация баз данных
+	 1 (001%): Рифмовка
+	 1 (001%): Рифмы
+	 1 (001%): Светите земи@bg
+	 1 (001%): Светите места@bg
+	 1 (001%): Святые места
+	 1 (001%): Сквозная рифма
+	 1 (001%): Слэмданк
+	 1 (001%): Теория сингулярностей
+	 1 (001%): Терраформация
+	 1 (001%): Терраформер
+	 1 (001%): Терраформинг
+	 1 (001%): Терраформирование планет
+	 1 (001%): Терраформування
+	 1 (001%): Терраформування планет
+	 1 (001%): Технический прогресс
+	 1 (001%): Убудаваная праграма@be-tarask
+	 1 (001%): Хакерские ценности
+	 1 (001%): Хәят@tt
+	 1 (001%): Экзистенция
+	 1 (001%): Экзистенция@tt
+	 1 (001%): Экклесиология
+	 1 (001%): Экклизиология
+	 1 (001%): Эхо рифма
+	 1 (001%): Эхо-рифма
+	 1 (001%): Ясновидство
+	 1 (001%): Ясновидящая
+	 1 (001%): Ясновидящий
+	 1 (001%): новотворба
+	 1 (001%): новотворен збор
+	 1 (001%): ок.
+	 1 (001%): ҰОС@kk
+	 1 (001%): ҰОС@kk-cyrl
+	 1 (001%): Կուլտ կինո
+	 1 (001%): Կուլտ ֆիլմ
+	 1 (001%): Կուլտ-կինո
+	 1 (001%): Կուլտային ֆիլմ
+	 1 (001%): Պաշտամունքային կինո
+	 1 (001%): Պաշտամունքային կինոնկար
+	 1 (001%): Պաշտամունքային կինոֆիլմ
+	 1 (001%): Պաշտամունքային ֆիլմ
+	 1 (001%): אידו של מרץ
+	 1 (001%): אידי מארס
+	 1 (001%): אידי מרס
+	 1 (001%): אידיו של מארס
+	 1 (001%): אידיו של מרס
+	 1 (001%): אריס
+	 1 (001%): גראם@yi
+	 1 (001%): דאבל טריפל דאבל
+	 1 (001%): הופעת קמאו
+	 1 (001%): הישגים סטטיסטיים אישיים ב - NBA
+	 1 (001%): הקינג
+	 1 (001%): חידושי לשון
+	 1 (001%): חידושי מילים
+	 1 (001%): חרז
+	 1 (001%): נאולוגיזם
+	 1 (001%): ניאולוגיזם
+	 1 (001%): נקודה סינגולרית
+	 1 (001%): סרט קאלט
+	 1 (001%): קאלט
+	 1 (001%): קוואדרופל דאבל
+	 1 (001%): רפליקציה
+	 1 (001%): תפקיד קמאו
+	 1 (001%): תפקיד קמע
+	 1 (001%): أرض مقدسة@ar
+	 1 (001%): ارض اقدس
+	 1 (001%): اسلم دانک
+	 1 (001%): اسلمة@ar
+	 1 (001%): الأراضي المقدسة@ar
+	 1 (001%): الأراضي المقدسه@ar
+	 1 (001%): الأرض المقدسة@ar
+	 1 (001%): الأسلمة@ar
+	 1 (001%): الاراضي المقدسة@ar
+	 1 (001%): البرنامج الثابت@ar
+	 1 (001%): الدعاة المسلمون@ar
+	 1 (001%): الدعوة@ar
+	 1 (001%): الفنون الجميلة@ar
+	 1 (001%): القافية@ar
+	 1 (001%): القواف@ar
+	 1 (001%): القوافي@ar
+	 1 (001%): الوجود@ar
+	 1 (001%): انقلاب اطلاعاتی
+	 1 (001%): انقلاب اطّلاعات
+	 1 (001%): اولین صعود
+	 1 (001%): جنگ سالار
+	 1 (001%): جنگ سالاران
+	 1 (001%): جنگ سالاری
+	 1 (001%): جنگسالار
+	 1 (001%): جنگ‌سالاران
+	 1 (001%): جنگ‌سالاری
+	 1 (001%): حرب البرية@ar
+	 1 (001%): حرب بريه@ar
+	 1 (001%): داعية إسلامي@ar
+	 1 (001%): دعوة إسلامية@ar
+	 1 (001%): زمین سازی
+	 1 (001%): زمین واره سازی
+	 1 (001%): زمینی سازی
+	 1 (001%): زمین‌سازی
+	 1 (001%): زمین‌واره سازی
+	 1 (001%): زمین‌وارهٔ سازی
+	 1 (001%): سرك(Circa)@ar
+	 1 (001%): سفت افزار
+	 1 (001%): شعر نو
+	 1 (001%): غزو بري@ar
+	 1 (001%): فنون جميله@ar
+	 1 (001%): قافي@ar
+	 1 (001%): لفظ محدث@ar
+	 1 (001%): نبرد زمینی
+	 1 (001%): نوواژه‌ها
+	 1 (001%): نيولوجيا@ar
+	 1 (001%): نیمهٔ ماهٔ مارس
+	 1 (001%): هفت هنر
+	 1 (001%): هنرهاي زيبا
+	 1 (001%): هنرهای هفتگانه
+	 1 (001%): واژه ابداعی
+	 1 (001%): واژه اختراعی
+	 1 (001%): وجود
+	 1 (001%): புண்ணிய பூமி
+	 1 (001%): விவிலியத் திருநாடு
+	 1 (001%): പടനായക പ്രഭു@ml
+	 1 (001%): การบัญญัติศัพท์@th
+	 1 (001%): คำคล้อง@th
+	 1 (001%): คำสัมผัส@th
+	 1 (001%): คำใหม่@th
+	 1 (001%): ดินแดนศักดิ์สิทธิ์@th
+	 1 (001%): ดินแดนอันศักดิ์สิทธิ์@th
+	 1 (001%): ทริปเปิล ดับเบิล@th
+	 1 (001%): บัญญัติศัพท์@th
+	 1 (001%): ศัพท์บัญญัติ@th
+	 1 (001%): สัมผัสนอก@th
+	 1 (001%): สัมผัสใน@th
+	 1 (001%): หนังคัลต์@th
+	 1 (001%): เสียงสัมผัส@th
+	 1 (001%): ნათელმხილველობა
+	 1 (001%): オリエント
+	 1 (001%): カルトフィルム
+	 1 (001%): カルトムービー
+	 1 (001%): キルカ
+	 1 (001%): クレアボヤンス
+	 1 (001%): サーカ
+	 1 (001%): スウィッチヒッター
+	 1 (001%): スペシャルゲスト
+	 1 (001%): テラ・フォーミング
+	 1 (001%): トリプルダブル
+	 1 (001%): ハイアート
+	 1 (001%): バルカン化
+	 1 (001%): ファイン・アート
+	 1 (001%): プラチナコレクション
+	 1 (001%): ヘルスプロモーション
+	 1 (001%): ヘルス・プロモーション
+	 1 (001%): 三雙
+	 1 (001%): 両打
+	 1 (001%): 両打ち
+	 1 (001%): 信息产业革命
+	 1 (001%): 信息革命
+	 1 (001%): 健康つくり
+	 1 (001%): 健康増進
+	 1 (001%): 入樽
+	 1 (001%): 友情出演
+	 1 (001%): 回教化
+	 1 (001%): 固件
+	 1 (001%): 地上戦
+	 1 (001%): 地球化
+	 1 (001%): 外星环境地球化
+	 1 (001%): 存在意義
+	 1 (001%): 情報技術革命
+	 1 (001%): 情報通信革命
+	 1 (001%): 惑星改造
+	 1 (001%): 新語
+	 1 (001%): 新语
+	 1 (001%): 新造字
+	 1 (001%): 新造詞
+	 1 (001%): 本体 (哲学)
+	 1 (001%): 東洋
+	 1 (001%): 東瀛
+	 1 (001%): 標準遺跡
+	 1 (001%): 民主和
+	 1 (001%): 灌籃
+	 1 (001%): 特別出演
+	 1 (001%): 生造字
+	 1 (001%): 私設軍
+	 1 (001%): 第四次工業革命
+	 1 (001%): 純粋美術
+	 1 (001%): 純粋芸術
+	 1 (001%): 聖都
+	 1 (001%): 軍閥
+	 1 (001%): 軔體
+	 1 (001%): 透視 (超能力)
+	 1 (001%): 邪典影剧
+	 1 (001%): 邪典电视剧
+	 1 (001%): 電腦革命
+	 1 (001%): 각운
+	 1 (001%): 까메오 출연
+	 1 (001%): 꽂아넣기
+	 1 (001%): 미분동형
+	 1 (001%): 미술가
+	 1 (001%): 슬램덩크
+	 1 (001%): 육상전
+	 1 (001%): 육지전
+	 1 (001%): 정치적 주체
+	 1 (001%): 존재성
+	 1 (001%): 지구화
+	 1 (001%): 컬트영화
+
+<http://www.wikidata.org/entity/P948c>:
+	 1 (001%): http://commons.wikimedia.org/wiki/File:Jerusalem_banner_Western_wall.jpg
+
+<http://www.wikidata.org/entity/P1482c>:
+	 1 (001%): http://stackoverflow.com/tags/firmware
+	 1 (001%): http://stackoverflow.com/tags/replication
+
+<http://www.wikidata.org/entity/P227s>:
+	 1 (001%): http://www.wikidata.org/entity/Q1332873S81CF6A9E-FD9B-4B99-83C6-DFAE5760E49A
+	 1 (001%): http://www.wikidata.org/entity/Q7482779SB363291F-1BD4-49E4-B0FB-9530C1651072
+
+<http://www.wikidata.org/entity/P17c>:
+	 1 (001%): http://www.wikidata.org/entity/Q155
+	 1 (001%): http://www.wikidata.org/entity/Q884
+
+<http://www.wikidata.org/entity/P361s>:
+	 1 (001%): http://www.wikidata.org/entity/Q1194369S9c28833a-4fa8-ac9a-6233-8a7375f4840e
+	 1 (001%): http://www.wikidata.org/entity/Q1445182Sc2b9b9c3-48e2-9915-044a-742479654423
+	 1 (001%): http://www.wikidata.org/entity/Q16748888Sefb22242-4ed8-1c63-4596-ef0f01bd6451
+	 1 (001%): http://www.wikidata.org/entity/Q5164391S71cd110f-413a-ba73-89c7-640a51731d9b
+	 1 (001%): http://www.wikidata.org/entity/Q7482779S2105b5a7-4a2d-ddee-e5fb-7ab34ccf53cc
+	 1 (001%): http://www.wikidata.org/entity/Q863349Sa646581a-424a-b68b-b442-eec968272caf
+
+<http://www.wikidata.org/entity/P1482s>:
+	 1 (001%): http://www.wikidata.org/entity/Q104851SA5B567A3-B379-46B8-AEFC-18C4E98A1365
+	 1 (001%): http://www.wikidata.org/entity/Q1332873SF9242FF6-F8F4-4309-AFF8-0C5D58A5CD6B
+
+<http://www.wikidata.org/entity/P227c>:
+	 1 (001%): 4076906-9
+	 1 (001%): 4742677-9
+
+<http://www.wikidata.org/entity/P17s>:
+	 1 (001%): http://www.wikidata.org/entity/Q622182S0496875d-412e-22e6-ec38-25cc1a7cf206
+	 1 (001%): http://www.wikidata.org/entity/Q706407S0b36da62-47dd-eda4-25ed-38608a0a6df9
+
+

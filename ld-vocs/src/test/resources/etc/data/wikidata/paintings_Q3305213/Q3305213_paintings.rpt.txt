@@ -1,0 +1,406 @@
+
+********************************************************************************
+* RESOURCES                                                                    *
+********************************************************************************
+
+Total n. of resources: 1000
+
+
+********************************************************************************
+* PROPERTIES                                                                   *
+********************************************************************************
+* This section lists the properties found for the selected resources.          *
+*                                                                              *
+* Meaning of the columns:                                                      *
+* #1: Number of resources that have at least one instance of this property     *
+* #2: Percentage against the total number of resources                         *
+* #3: The URI of the property                                                  *
+********************************************************************************
+
+Total n. of properties: 120
+
+1000 (100%): http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+1000 (100%): http://www.w3.org/2000/01/rdf-schema#label
+1000 (100%): http://www.wikidata.org/entity/P31c
+1000 (100%): http://www.wikidata.org/entity/P31s
+ 997 (100%): http://www.wikidata.org/entity/P195s
+ 980 (098%): http://schema.org/description
+ 979 (098%): http://www.wikidata.org/entity/P195c
+ 822 (082%): http://www.wikidata.org/entity/P276s
+ 816 (082%): http://www.wikidata.org/entity/P276c
+ 760 (076%): http://www.wikidata.org/entity/P217s
+ 318 (032%): http://www.wikidata.org/entity/P170s
+ 317 (032%): http://www.wikidata.org/entity/P170c
+ 316 (032%): http://www.wikidata.org/entity/P571c
+ 316 (032%): http://www.wikidata.org/entity/P571s
+ 295 (030%): http://www.wikidata.org/entity/P18c
+ 295 (030%): http://www.wikidata.org/entity/P18s
+ 211 (021%): http://www.wikidata.org/entity/P136c
+ 211 (021%): http://www.wikidata.org/entity/P136s
+ 189 (019%): http://www.wikidata.org/entity/P186s
+ 188 (019%): http://www.wikidata.org/entity/P186c
+ 162 (016%): http://www.wikidata.org/entity/P180s
+ 160 (016%): http://www.wikidata.org/entity/P180c
+ 121 (012%): http://www.w3.org/2004/02/skos/core#altLabel
+ 105 (010%): http://www.wikidata.org/entity/P646-freebase
+ 105 (010%): http://www.wikidata.org/entity/P646c
+ 105 (010%): http://www.wikidata.org/entity/P646s
+ 104 (010%): http://www.wikidata.org/entity/P135c
+ 104 (010%): http://www.wikidata.org/entity/P135s
+  70 (007%): http://www.wikidata.org/entity/P373c
+  70 (007%): http://www.wikidata.org/entity/P373s
+  53 (005%): http://www.wikidata.org/entity/P727c
+  53 (005%): http://www.wikidata.org/entity/P727s
+  47 (005%): http://www.wikidata.org/entity/P127s
+  40 (004%): http://www.wikidata.org/entity/P973c
+  40 (004%): http://www.wikidata.org/entity/P973s
+  39 (004%): http://www.wikidata.org/entity/P495c
+  39 (004%): http://www.wikidata.org/entity/P495s
+  35 (004%): http://www.wikidata.org/entity/P1071c
+  35 (004%): http://www.wikidata.org/entity/P1071s
+  30 (003%): http://www.wikidata.org/entity/P357s
+  27 (003%): http://www.wikidata.org/entity/P127c
+  27 (003%): http://www.wikidata.org/entity/P357c
+  27 (003%): http://www.wikidata.org/entity/P793s
+  26 (003%): http://www.wikidata.org/entity/P144c
+  26 (003%): http://www.wikidata.org/entity/P144s
+  25 (002%): http://www.wikidata.org/entity/P217c
+  24 (002%): http://www.wikidata.org/entity/P347c
+  24 (002%): http://www.wikidata.org/entity/P347s
+  20 (002%): http://www.wikidata.org/entity/P17c
+  20 (002%): http://www.wikidata.org/entity/P17s
+  20 (002%): http://www.wikidata.org/entity/P608s
+  16 (002%): http://www.wikidata.org/entity/P131c
+  16 (002%): http://www.wikidata.org/entity/P131s
+  16 (002%): http://www.wikidata.org/entity/P438s
+  14 (001%): http://www.wikidata.org/entity/P1212c
+  14 (001%): http://www.wikidata.org/entity/P1212s
+  12 (001%): http://www.wikidata.org/entity/P608c
+  11 (001%): http://www.wikidata.org/entity/P227-gnd
+  11 (001%): http://www.wikidata.org/entity/P227c
+  11 (001%): http://www.wikidata.org/entity/P227s
+  11 (001%): http://www.wikidata.org/entity/P268c
+  11 (001%): http://www.wikidata.org/entity/P268s
+   9 (001%): http://www.wikidata.org/entity/P921c
+   9 (001%): http://www.wikidata.org/entity/P921s
+   7 (001%): http://www.wikidata.org/entity/P214-viaf
+   7 (001%): http://www.wikidata.org/entity/P214c
+   7 (001%): http://www.wikidata.org/entity/P214s
+   7 (001%): http://www.wikidata.org/entity/P88s
+   6 (001%): http://www.wikidata.org/entity/P27c
+   6 (001%): http://www.wikidata.org/entity/P27s
+   6 (001%): http://www.wikidata.org/entity/P88c
+   4 (000%): http://www.wikidata.org/entity/P1184c
+   4 (000%): http://www.wikidata.org/entity/P1184s
+   4 (000%): http://www.wikidata.org/entity/P361c
+   4 (000%): http://www.wikidata.org/entity/P361s
+   4 (000%): http://www.wikidata.org/entity/P528s
+   4 (000%): http://www.wikidata.org/entity/P793c
+   3 (000%): http://www.wikidata.org/entity/P269-sudoc
+   3 (000%): http://www.wikidata.org/entity/P269c
+   3 (000%): http://www.wikidata.org/entity/P269s
+   3 (000%): http://www.wikidata.org/entity/P438c
+   3 (000%): http://www.wikidata.org/entity/P625c
+   3 (000%): http://www.wikidata.org/entity/P625s
+   3 (000%): http://www.wikidata.org/entity/P941s
+   2 (000%): http://www.wikidata.org/entity/P244-lcnaf
+   2 (000%): http://www.wikidata.org/entity/P244c
+   2 (000%): http://www.wikidata.org/entity/P244s
+   2 (000%): http://www.wikidata.org/entity/P350c
+   2 (000%): http://www.wikidata.org/entity/P350s
+   2 (000%): http://www.wikidata.org/entity/P737c
+   2 (000%): http://www.wikidata.org/entity/P737s
+   2 (000%): http://www.wikidata.org/entity/P941c
+   1 (000%): http://www.wikidata.org/entity/P1028s
+   1 (000%): http://www.wikidata.org/entity/P1259c
+   1 (000%): http://www.wikidata.org/entity/P1259s
+   1 (000%): http://www.wikidata.org/entity/P1264c
+   1 (000%): http://www.wikidata.org/entity/P1264s
+   1 (000%): http://www.wikidata.org/entity/P138c
+   1 (000%): http://www.wikidata.org/entity/P138s
+   1 (000%): http://www.wikidata.org/entity/P1419c
+   1 (000%): http://www.wikidata.org/entity/P1419s
+   1 (000%): http://www.wikidata.org/entity/P1435c
+   1 (000%): http://www.wikidata.org/entity/P1435s
+   1 (000%): http://www.wikidata.org/entity/P1476c
+   1 (000%): http://www.wikidata.org/entity/P1476s
+   1 (000%): http://www.wikidata.org/entity/P156c
+   1 (000%): http://www.wikidata.org/entity/P156s
+   1 (000%): http://www.wikidata.org/entity/P166s
+   1 (000%): http://www.wikidata.org/entity/P179c
+   1 (000%): http://www.wikidata.org/entity/P179s
+   1 (000%): http://www.wikidata.org/entity/P462c
+   1 (000%): http://www.wikidata.org/entity/P462s
+   1 (000%): http://www.wikidata.org/entity/P527c
+   1 (000%): http://www.wikidata.org/entity/P527s
+   1 (000%): http://www.wikidata.org/entity/P738c
+   1 (000%): http://www.wikidata.org/entity/P738s
+   1 (000%): http://www.wikidata.org/entity/P748c
+   1 (000%): http://www.wikidata.org/entity/P748s
+   1 (000%): http://www.wikidata.org/entity/P856c
+   1 (000%): http://www.wikidata.org/entity/P856s
+
+
+********************************************************************************
+* LANGUAGE DISTRIBUTION                                                        *
+********************************************************************************
+* This section lists the languages found for the selected resources.           *
+*                                                                              *
+* Meaning of the columns:                                                      *
+* #1: Code of the Language (i.e. found on literal ranges)                      *
+* #2: Number of resources that have at least one literal range of this lang    *
+* #3: Percentage against the total number of resources                         *
+********************************************************************************
+
+Total n. of languages: 35
+
+	1000 (100%): ? 
+	 210 (021%): fr
+	  81 (008%): pl
+	  28 (003%): pt
+	  25 (002%): th
+	  21 (002%): la
+	  20 (002%): br
+	  13 (001%): el
+	  13 (001%): tr
+	  10 (001%): hr
+	   9 (001%): en-gb
+	   7 (001%): ar
+	   7 (001%): zh-hans
+	   6 (001%): eu
+	   6 (001%): lt
+	   6 (001%): zh-hk
+	   4 (000%): bg
+	   4 (000%): et
+	   4 (000%): sr
+	   3 (000%): pa
+	   3 (000%): pt-br
+	   2 (000%): af
+	   2 (000%): en-x-simple
+	   2 (000%): hi
+	   2 (000%): ms
+	   1 (000%): arz
+	   1 (000%): be-tarask
+	   1 (000%): de-ch
+	   1 (000%): gsw
+	   1 (000%): id
+	   1 (000%): io
+	   1 (000%): lv
+	   1 (000%): mn
+	   1 (000%): pnb
+	   1 (000%): zh-tw
+
+<http://www.w3.org/2004/02/skos/core#altLabel>:
+	284 (068%): ? 
+	 78 (019%): fr
+	 21 (005%): th
+	 12 (003%): tr
+	  7 (002%): pt
+	  6 (001%): pl
+	  4 (001%): la
+	  1 (000%): arz
+	  1 (000%): br
+	  1 (000%): el
+	  1 (000%): eu
+	  1 (000%): hr
+	  1 (000%): sr
+
+<http://schema.org/description>:
+	2544 (095%): ? 
+	 126 (005%): fr
+	   3 (000%): el
+	   3 (000%): en-gb
+	   2 (000%): pt
+	   1 (000%): la
+	   1 (000%): ms
+
+<http://www.w3.org/2000/01/rdf-schema#label>:
+	1623 (077%): ? 
+	 207 (010%): fr
+	  81 (004%): pl
+	  26 (001%): pt
+	  25 (001%): th
+	  21 (001%): la
+	  20 (001%): br
+	  13 (001%): tr
+	  11 (001%): el
+	  10 (000%): hr
+	   7 (000%): ar
+	   7 (000%): en-gb
+	   7 (000%): zh-hans
+	   6 (000%): eu
+	   6 (000%): lt
+	   6 (000%): zh-hk
+	   4 (000%): bg
+	   4 (000%): et
+	   4 (000%): sr
+	   3 (000%): pa
+	   3 (000%): pt-br
+	   2 (000%): af
+	   2 (000%): en-x-simple
+	   2 (000%): hi
+	   2 (000%): ms
+	   1 (000%): arz
+	   1 (000%): be-tarask
+	   1 (000%): de-ch
+	   1 (000%): gsw
+	   1 (000%): id
+	   1 (000%): io
+	   1 (000%): lv
+	   1 (000%): mn
+	   1 (000%): pnb
+	   1 (000%): zh-tw
+
+
+********************************************************************************
+* PROPERTY VALUES STATISTICS                                                   *
+********************************************************************************
+* This section lists the values found for a specific property.                 *
+*                                                                              *
+* Meaning of the columns:                                                      *
+* #1: Number of properties with this literal                                   *
+* #2: Percentage against the total number of resources                         *
+* #3: The literal value and language if defined (see @)                        *
+********************************************************************************
+
+<http://www.wikidata.org/entity/P180>:
+
+<http://www.wikidata.org/entity/P31>:
+
+<http://www.wikidata.org/entity/P759>:
+
+<http://www.wikidata.org/entity/P727>:
+
+<http://www.wikidata.org/entity/P808>:
+
+<http://www.wikidata.org/entity/P1428>:
+
+<http://www.wikidata.org/entity/P1257>:
+
+<http://www.wikidata.org/entity/P217>:
+
+<http://www.wikidata.org/entity/P633>:
+
+<http://www.wikidata.org/entity/P245>:
+
+<http://www.wikidata.org/entity/P625>:
+
+<http://www.wikidata.org/entity/P136>:
+
+<http://www.wikidata.org/entity/P758>:
+
+<http://www.wikidata.org/entity/P269>:
+
+<http://www.wikidata.org/entity/P350>:
+
+<http://www.wikidata.org/entity/Q12418>:
+
+<http://www.wikidata.org/entity/P144>:
+
+<http://www.wikidata.org/entity/P1184>:
+
+<http://www.wikidata.org/entity/P1071>:
+
+<http://www.wikidata.org/entity/P84>:
+
+<http://www.wikidata.org/entity/P1639>:
+
+<http://www.wikidata.org/entity/P409>:
+
+<http://www.wikidata.org/entity/P1708>:
+
+<http://www.wikidata.org/entity/P88>:
+
+<http://www.wikidata.org/entity/P347>:
+
+<http://www.wikidata.org/entity/P941>:
+
+<http://www.wikidata.org/entity/P763>:
+
+<http://www.wikidata.org/entity/P973>:
+
+<http://www.wikidata.org/entity/P921>:
+
+<http://www.wikidata.org/entity/P214>:
+
+<http://www.wikidata.org/entity/P1133>:
+
+<http://www.wikidata.org/entity/P1476>:
+
+<http://www.wikidata.org/entity/P149>:
+
+<http://www.wikidata.org/entity/P359>:
+
+<http://www.wikidata.org/entity/P856>:
+
+<http://www.wikidata.org/entity/P1230>:
+
+<http://www.wikidata.org/entity/P1472>:
+
+<http://www.wikidata.org/entity/P189>:
+
+<http://www.wikidata.org/entity/P650>:
+
+<http://www.wikidata.org/entity/P170>:
+
+<http://www.wikidata.org/entity/P608>:
+
+<http://www.wikidata.org/entity/P17>:
+
+<http://www.wikidata.org/entity/P227>:
+
+<http://www.wikidata.org/entity/P477>:
+
+<http://www.wikidata.org/entity/P1259>:
+
+<http://www.wikidata.org/entity/P1700>:
+
+<http://www.wikidata.org/entity/P910>:
+
+<http://www.wikidata.org/entity/P18>:
+
+<http://www.wikidata.org/entity/P1300>:
+
+<http://www.wikidata.org/entity/P845>:
+
+<http://www.wikidata.org/entity/P186>:
+
+<http://www.wikidata.org/entity/P380>:
+
+<http://www.wikidata.org/entity/P528>:
+
+<http://www.wikidata.org/entity/P1422>:
+
+<http://www.wikidata.org/entity/P632>:
+
+<http://www.wikidata.org/entity/P1684>:
+
+<http://www.wikidata.org/entity/P466>:
+
+<http://www.wikidata.org/entity/P135>:
+
+<http://www.wikidata.org/entity/P757>:
+
+<http://www.wikidata.org/entity/P1551>:
+
+<http://www.wikidata.org/entity/P268>:
+
+<http://www.wikidata.org/entity/P1212>:
+
+<http://www.wikidata.org/entity/P127>:
+
+<http://www.wikidata.org/entity/P276>:
+
+<http://www.wikidata.org/entity/P381>:
+
+<http://www.wikidata.org/entity/P244>:
+
+<http://www.wikidata.org/entity/P793>:
+
+<http://www.wikidata.org/entity/P195>:
+
+<http://www.wikidata.org/entity/P571>:
+
+<http://www.wikidata.org/entity/P373>:
+
+

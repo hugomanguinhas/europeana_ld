@@ -1,0 +1,679 @@
+
+********************************************************************************
+* RESOURCES                                                                    *
+********************************************************************************
+
+Total n. of resources: 47
+
+
+********************************************************************************
+* PROPERTIES                                                                   *
+********************************************************************************
+* This section lists the properties found for the selected resources.          *
+*                                                                              *
+* Meaning of the columns:                                                      *
+* #1: Number of resources that have at least one instance of this property     *
+* #2: Percentage against the total number of resources                         *
+* #3: The URI of the property                                                  *
+********************************************************************************
+
+Total n. of properties: 22
+
+47 (100%): http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+47 (100%): http://www.w3.org/2000/01/rdf-schema#label
+47 (100%): http://www.wikidata.org/entity/P31c
+47 (100%): http://www.wikidata.org/entity/P31s
+ 9 (019%): http://www.w3.org/2004/02/skos/core#altLabel
+ 6 (013%): http://schema.org/description
+ 4 (009%): http://www.wikidata.org/entity/P646-freebase
+ 4 (009%): http://www.wikidata.org/entity/P646c
+ 4 (009%): http://www.wikidata.org/entity/P646s
+ 2 (004%): http://www.w3.org/2000/01/rdf-schema#subClassOf
+ 2 (004%): http://www.wikidata.org/entity/P279c
+ 2 (004%): http://www.wikidata.org/entity/P279s
+ 2 (004%): http://www.wikidata.org/entity/P910c
+ 2 (004%): http://www.wikidata.org/entity/P910s
+ 1 (002%): http://www.wikidata.org/entity/P18c
+ 1 (002%): http://www.wikidata.org/entity/P18s
+ 1 (002%): http://www.wikidata.org/entity/P361c
+ 1 (002%): http://www.wikidata.org/entity/P361s
+ 1 (002%): http://www.wikidata.org/entity/P373c
+ 1 (002%): http://www.wikidata.org/entity/P373s
+ 1 (002%): http://www.wikidata.org/entity/P508c
+ 1 (002%): http://www.wikidata.org/entity/P508s
+
+
+********************************************************************************
+* LANGUAGE DISTRIBUTION                                                        *
+********************************************************************************
+* This section lists the languages found for the selected resources.           *
+*                                                                              *
+* Meaning of the columns:                                                      *
+* #1: Code of the Language (i.e. found on literal ranges)                      *
+* #2: Number of resources that have at least one literal range of this lang    *
+* #3: Percentage against the total number of resources                         *
+********************************************************************************
+
+Total n. of languages: 41
+
+	47 (100%): ? 
+	 5 (011%): pl
+	 5 (011%): pt
+	 4 (009%): id
+	 3 (006%): ar
+	 3 (006%): fr
+	 2 (004%): en-gb
+	 2 (004%): en-x-simple
+	 2 (004%): et
+	 2 (004%): lt
+	 2 (004%): ml
+	 2 (004%): sr
+	 2 (004%): th
+	 2 (004%): tr
+	 2 (004%): ur
+	 2 (004%): zh-hans
+	 1 (002%): af
+	 1 (002%): an
+	 1 (002%): bg
+	 1 (002%): bs
+	 1 (002%): chy
+	 1 (002%): ckb
+	 1 (002%): el
+	 1 (002%): eu
+	 1 (002%): hi
+	 1 (002%): hr
+	 1 (002%): ik
+	 1 (002%): io
+	 1 (002%): kk
+	 1 (002%): ky
+	 1 (002%): lb
+	 1 (002%): lv
+	 1 (002%): ms
+	 1 (002%): ne
+	 1 (002%): pt-br
+	 1 (002%): qu
+	 1 (002%): sr-cyrl
+	 1 (002%): tg
+	 1 (002%): ug
+	 1 (002%): yi
+	 1 (002%): zh-hk
+
+<http://schema.org/description>:
+	11 (085%): ? 
+	 1 (008%): fr
+	 1 (008%): pl
+
+<http://www.w3.org/2004/02/skos/core#altLabel>:
+	123 (070%): ? 
+	  8 (005%): ar
+	  7 (004%): pt
+	  5 (003%): fr
+	  5 (003%): th
+	  4 (002%): qu
+	  3 (002%): et
+	  3 (002%): pl
+	  2 (001%): an
+	  2 (001%): hi
+	  2 (001%): id
+	  2 (001%): lb
+	  2 (001%): ml
+	  1 (001%): bg
+	  1 (001%): ckb
+	  1 (001%): lt
+	  1 (001%): lv
+	  1 (001%): tg
+	  1 (001%): tr
+	  1 (001%): ur
+
+<http://www.w3.org/2000/01/rdf-schema#label>:
+	115 (064%): ? 
+	  5 (003%): pl
+	  5 (003%): pt
+	  4 (002%): id
+	  3 (002%): ar
+	  3 (002%): fr
+	  2 (001%): en-gb
+	  2 (001%): en-x-simple
+	  2 (001%): et
+	  2 (001%): lt
+	  2 (001%): ml
+	  2 (001%): sr
+	  2 (001%): th
+	  2 (001%): tr
+	  2 (001%): ur
+	  2 (001%): zh-hans
+	  1 (001%): af
+	  1 (001%): an
+	  1 (001%): bg
+	  1 (001%): bs
+	  1 (001%): chy
+	  1 (001%): ckb
+	  1 (001%): el
+	  1 (001%): eu
+	  1 (001%): hi
+	  1 (001%): hr
+	  1 (001%): ik
+	  1 (001%): io
+	  1 (001%): kk
+	  1 (001%): ky
+	  1 (001%): lb
+	  1 (001%): lv
+	  1 (001%): ms
+	  1 (001%): ne
+	  1 (001%): pt-br
+	  1 (001%): qu
+	  1 (001%): sr-cyrl
+	  1 (001%): tg
+	  1 (001%): ug
+	  1 (001%): yi
+	  1 (001%): zh-hk
+
+
+********************************************************************************
+* PROPERTY VALUES STATISTICS                                                   *
+********************************************************************************
+* This section lists the values found for a specific property.                 *
+*                                                                              *
+* Meaning of the columns:                                                      *
+* #1: Number of properties with this literal                                   *
+* #2: Percentage against the total number of resources                         *
+* #3: The literal value and language if defined (see @)                        *
+********************************************************************************
+
+<http://www.wikidata.org/entity/P31c>:
+	47 (100%): http://www.wikidata.org/entity/Q215627
+	 1 (002%): http://www.wikidata.org/entity/Q4164871
+
+<http://www.wikidata.org/entity/P361c>:
+	 1 (002%): http://www.wikidata.org/entity/Q1134237
+
+<http://www.w3.org/2004/02/skos/core#altLabel>:
+	 1 (002%): Aluna@pt
+	 1 (002%): Alunno
+	 1 (002%): Alunos@pt
+	 1 (002%): Bierch@lb
+	 1 (002%): Courtier@th
+	 1 (002%): Crorepati@pl
+	 1 (002%): Debunk@pt
+	 1 (002%): Debunker@pt
+	 1 (002%): Debunking
+	 1 (002%): Demistificatore
+	 1 (002%): Discente
+	 1 (002%): Discente@pt
+	 1 (002%): Estudantil@pt
+	 1 (002%): Estudeyant@an
+	 1 (002%): Estudiante@qu
+	 1 (002%): Estudiants@an
+	 1 (002%): Estudiyante
+	 1 (002%): Estudyante
+	 1 (002%): Etudiant@fr
+	 1 (002%): Etudiants@fr
+	 1 (002%): Gioventù studiosa
+	 1 (002%): Haudegen
+	 1 (002%): Hovimestari
+	 1 (002%): Hovinainen
+	 1 (002%): Istudianti@qu
+	 1 (002%): Istudiyante
+	 1 (002%): Istudiyanti@qu
+	 1 (002%): Istudyante
+	 1 (002%): Istudyanti@qu
+	 1 (002%): Kautioun@lb
+	 1 (002%): Myfyrwyr
+	 1 (002%): Nag-aaral
+	 1 (002%): Nemi
+	 1 (002%): Nysproglig student
+	 1 (002%): Opiskelijat
+	 1 (002%): Pelajar@id
+	 1 (002%): Poręczenie@pl
+	 1 (002%): Poręczyciel@pl
+	 1 (002%): Promoter@ml
+	 1 (002%): Pupilo@pt
+	 1 (002%): Siswa@id
+	 1 (002%): Student
+	 1 (002%): Student@ml
+	 1 (002%): Studentai@lt
+	 1 (002%): Studenten
+	 1 (002%): Studentene
+	 1 (002%): Studenter
+	 1 (002%): Studenterna
+	 1 (002%): Studentessa
+	 1 (002%): Studenti
+	 1 (002%): Studenti@lv
+	 1 (002%): Studentin
+	 1 (002%): Studentka
+	 1 (002%): Studento
+	 1 (002%): Students
+	 1 (002%): Studera
+	 1 (002%): Studerade
+	 1 (002%): Studerande
+	 1 (002%): Studerat
+	 1 (002%): Studere
+	 1 (002%): Studerede
+	 1 (002%): Studeren
+	 1 (002%): Studeret
+	 1 (002%): Studiene
+	 1 (002%): Studier
+	 1 (002%): Studierende
+	 1 (002%): Studierender
+	 1 (002%): Studierne
+	 1 (002%): Studiet
+	 1 (002%): Studiker
+	 1 (002%): Studine
+	 1 (002%): Studiner
+	 1 (002%): Studium
+	 1 (002%): Studující
+	 1 (002%): Stundent
+	 1 (002%): Tudeng@et
+	 1 (002%): Tudengid@et
+	 1 (002%): Vysokoškolák
+	 1 (002%): dependent
+	 1 (002%): discente
+	 1 (002%): Élève@fr
+	 1 (002%): Étudiante@fr
+	 1 (002%): Étudiants@fr
+	 1 (002%): Öğrenciler@tr
+	 1 (002%): Üliõpilased@et
+	 1 (002%): Študent
+	 1 (002%): Študák
+	 1 (002%): študentka
+	 1 (002%): Двор
+	 1 (002%): Иждивенчество
+	 1 (002%): Придворний чин
+	 1 (002%): Придворный
+	 1 (002%): Придворный чин
+	 1 (002%): Студент@tg
+	 1 (002%): Студенти
+	 1 (002%): Студентка@bg
+	 1 (002%): Чин
+	 1 (002%): студентка
+	 1 (002%): студенты
+	 1 (002%): студенчество
+	 1 (002%): студиозус
+	 1 (002%): טכנאית מחשבים
+	 1 (002%): التلاميذ@ar
+	 1 (002%): التّلاميذ@ar
+	 1 (002%): الطالب@ar
+	 1 (002%): الطلاب@ar
+	 1 (002%): تلميذ@ar
+	 1 (002%): تلميذة@ar
+	 1 (002%): خوێندکار@ckb
+	 1 (002%): دانش آموز
+	 1 (002%): دانش آموزان
+	 1 (002%): دانش آموزها
+	 1 (002%): دانش اموز
+	 1 (002%): دانش‌آموزان
+	 1 (002%): دانش‌آموزها
+	 1 (002%): دانش‌اموز
+	 1 (002%): دانش‌اموزان
+	 1 (002%): دانش‌اموزها
+	 1 (002%): طالبة@ar
+	 1 (002%): طلاب@ar
+	 1 (002%): طلبہ@ur
+	 1 (002%): जे.एन.यू.@hi
+	 1 (002%): सेठ ज्ञानीराम बंसीधर पोदार महाविद्यालय@hi
+	 1 (002%): นักศึกษา@th
+	 1 (002%): นักศึกษามหาวิทยาลัย@th
+	 1 (002%): นิสิตนักศึกษา@th
+	 1 (002%): ผู้เรียน@th
+	 1 (002%): 中学生
+	 1 (002%): 園児
+	 1 (002%): 在学生
+	 1 (002%): 在校生
+	 1 (002%): 塾生
+	 1 (002%): 大学生
+	 1 (002%): 女娼
+	 1 (002%): 女學生
+	 1 (002%): 妓
+	 1 (002%): 妓女
+	 1 (002%): 娼
+	 1 (002%): 婊子
+	 1 (002%): 学徒
+	 1 (002%): 学生
+	 1 (002%): 学部生
+	 1 (002%): 學生
+	 1 (002%): 學生妹
+	 1 (002%): 小学生
+	 1 (002%): 幼稚園児
+	 1 (002%): 應召女
+	 1 (002%): 本科生
+	 1 (002%): 生徒
+	 1 (002%): 短大生
+	 1 (002%): 艺妓
+	 1 (002%): 藝娼
+	 1 (002%): 青楼女子
+	 1 (002%): 高専生
+	 1 (002%): 高校生
+	 1 (002%): 高等専門学生
+	 1 (002%): 고교생
+	 1 (002%): 고등학생
+	 1 (002%): 기숙생
+	 1 (002%): 남고생
+	 1 (002%): 남대생
+	 1 (002%): 남중생
+	 1 (002%): 남학생
+	 1 (002%): 대학생
+	 1 (002%): 대학원생
+	 1 (002%): 여대생
+	 1 (002%): 여중생
+	 1 (002%): 여학생
+	 1 (002%): 재학생
+	 1 (002%): 전교생
+	 1 (002%): 중고생
+	 1 (002%): 중학생
+	 1 (002%): 초등학생
+	 1 (002%): 초중고생
+	 1 (002%): 초중생
+
+<http://www.wikidata.org/entity/P646c>:
+	 1 (002%): /m/014cnc
+	 1 (002%): /m/01h3_3
+	 1 (002%): /m/01ts20
+	 1 (002%): /m/01vnjj
+
+<http://www.wikidata.org/entity/P373c>:
+	 1 (002%): Students
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>:
+	47 (100%): http://www.wikidata.org/entity/Q215627
+	47 (100%): http://www.wikidata.org/ontology#Item
+	 3 (006%): http://www.w3.org/2002/07/owl#Class
+	 1 (002%): http://www.wikidata.org/entity/Q4164871
+
+<http://www.wikidata.org/entity/P279s>:
+	 1 (002%): http://www.wikidata.org/entity/Q48282Sd8a0b673-4f7c-928f-3155-4cb3c923c221
+	 1 (002%): http://www.wikidata.org/entity/Q969772S75a9a297-49d0-0f3a-06c2-61c19303a464
+
+<http://www.wikidata.org/entity/P910s>:
+	 1 (002%): http://www.wikidata.org/entity/Q1511216S5e094722-4481-f632-c64e-790113736131
+	 1 (002%): http://www.wikidata.org/entity/Q48282S64790434-9851-44E2-A28D-C3D0B2DFD067
+
+<http://www.wikidata.org/entity/P508c>:
+	 1 (002%): 3227
+
+<http://www.wikidata.org/entity/P18c>:
+	 1 (002%): http://commons.wikimedia.org/wiki/File:A_gallant_courtier_in_elaborate_costume_walking_the_street_w_Wellcome_V0019521.jpg
+
+<http://schema.org/description>:
+	 1 (002%): Person der höfischen Gesellschaft, in einer vormodernen Monarchie
+	 1 (002%): a term that emerged in the 16th century and has been used as a term for pirates and swordsmen ever since
+	 1 (002%): carrocerias dockmaster
+	 1 (002%): educando o alumno dentro del ámbito académico
+	 1 (002%): learner, or someone who attends an educational institution
+	 1 (002%): osoba kształcąca się na studiach wyższych@pl
+	 1 (002%): person who is often in attendance at the court of a king or other royal personage
+	 1 (002%): person who relies on another as a primary source of income
+	 1 (002%): persona que forma parte de una corte real
+	 1 (002%): personne intégrée dans un cursus scolaire@fr
+	 1 (002%): player who is eligible to sign with any club or franchise
+	 1 (002%): بازیکن فوتبالی که در زمین می تواند پست‌های متفاوت بگیرد
+	 1 (002%): 학교에 다니면서 학습을 하는 사람. 초등학생, 중학생을 비롯한 모든 종류의 학생을 총칭하는 말
+
+<http://www.wikidata.org/entity/P361s>:
+	 1 (002%): http://www.wikidata.org/entity/Q1511216Sa8323994-40ce-9fe5-99e0-363a9c1703ff
+
+<http://www.wikidata.org/entity/P31s>:
+	 1 (002%): http://www.wikidata.org/entity/Q10294228SCC4CDB66-E82E-4C68-AE05-70669CF40D34
+	 1 (002%): http://www.wikidata.org/entity/Q10512400S1FD53E14-9103-4697-A140-28ABBD8378C2
+	 1 (002%): http://www.wikidata.org/entity/Q1338165S18382883-7B92-45B7-9361-5420288DAB62
+	 1 (002%): http://www.wikidata.org/entity/Q14290559SA0290C0C-8D03-4B6B-8D59-70406ECC2A98
+	 1 (002%): http://www.wikidata.org/entity/Q1511216S71c2834d-43f1-faa6-5019-823bcdcb5254
+	 1 (002%): http://www.wikidata.org/entity/Q1511216Sb8426b2a-474f-9988-1377-2ae0e0d465eb
+	 1 (002%): http://www.wikidata.org/entity/Q17301422S78603aef-4cdd-5f96-4f13-4676a07503a8
+	 1 (002%): http://www.wikidata.org/entity/Q2789476S3464CBC0-21A3-464B-8638-67943576859F
+	 1 (002%): http://www.wikidata.org/entity/Q3247976SE7E25CB8-9F98-4510-AA7F-78569FF3C79C
+	 1 (002%): http://www.wikidata.org/entity/Q3566099S0BF46D58-B0A8-4354-964F-08DED4A18AA3
+	 1 (002%): http://www.wikidata.org/entity/Q3704426S78B79F25-3DEF-4593-9EE2-8BC23A451406
+	 1 (002%): http://www.wikidata.org/entity/Q4198163S9D625BF1-7755-4438-BEAE-83B407B99A35
+	 1 (002%): http://www.wikidata.org/entity/Q4669974S3225F703-B1F0-46B5-929A-F797FB0E93F2
+	 1 (002%): http://www.wikidata.org/entity/Q4676869SAC740DB0-CFC0-42DB-B72C-DE8CED5A09A2
+	 1 (002%): http://www.wikidata.org/entity/Q4683969S82361200-ED9B-4625-B0D0-F1B95BA4EDE7
+	 1 (002%): http://www.wikidata.org/entity/Q4795498S6F45A519-CA0A-4B8F-8416-B3DDCADE6797
+	 1 (002%): http://www.wikidata.org/entity/Q4809061S2606E901-C1D3-41EB-B068-9BB90EDD1769
+	 1 (002%): http://www.wikidata.org/entity/Q4826687SEC9E4EC5-35E6-47BF-99C7-0BC74F62E50F
+	 1 (002%): http://www.wikidata.org/entity/Q48282S1AD4CD28-0744-4B00-B6F3-69240455D60D
+	 1 (002%): http://www.wikidata.org/entity/Q4863908SD53314F9-3BF4-4930-A60C-C191F6ACEE88
+	 1 (002%): http://www.wikidata.org/entity/Q4876062S2EC66639-CFC6-4FEC-B26E-EAD6EA98DF13
+	 1 (002%): http://www.wikidata.org/entity/Q4907411S6B756AD1-FB3A-4A2A-A377-08C0D35684A9
+	 1 (002%): http://www.wikidata.org/entity/Q5054349S376E1E06-DE65-4D00-814D-1F4F965CD641
+	 1 (002%): http://www.wikidata.org/entity/Q5100722S0A4ECD30-E71A-4072-8165-120AB10F24F8
+	 1 (002%): http://www.wikidata.org/entity/Q5156143S389E241C-B042-42DB-9D10-DDE125F6AF18
+	 1 (002%): http://www.wikidata.org/entity/Q5157573SDDE93E04-D544-4BA3-8BB1-B8DE19DCC3D5
+	 1 (002%): http://www.wikidata.org/entity/Q5172485S95C81FF1-3377-4C02-B560-A611F55929CA
+	 1 (002%): http://www.wikidata.org/entity/Q5179781S9DEDDA9F-C112-47CE-8F81-7B66FB92C5E2
+	 1 (002%): http://www.wikidata.org/entity/Q5188012S62E3B750-6386-4403-BB66-F2487DC4794B
+	 1 (002%): http://www.wikidata.org/entity/Q5188670S24A9A579-F553-4EDA-9684-74825A2189C9
+	 1 (002%): http://www.wikidata.org/entity/Q5196331SC886BC3C-888C-4005-ADF7-CB292C6B7E87
+	 1 (002%): http://www.wikidata.org/entity/Q5242772SE81C6225-1525-46F5-A368-CC3F1726F145
+	 1 (002%): http://www.wikidata.org/entity/Q5275973S330E66CD-6DAD-430F-8949-6FAAD93670DD
+	 1 (002%): http://www.wikidata.org/entity/Q5287232S763682DC-4398-42FD-A504-52558349C8E6
+	 1 (002%): http://www.wikidata.org/entity/Q5287498SECEB169F-C7FA-4C2C-82AC-1354939D3980
+	 1 (002%): http://www.wikidata.org/entity/Q5333558SFA69AE33-D6DA-49BE-A76F-A1EDBA3C35D9
+	 1 (002%): http://www.wikidata.org/entity/Q5397426SDBEE9A33-E201-4BAE-B139-57F4B7F6581E
+	 1 (002%): http://www.wikidata.org/entity/Q5403492S482FE15E-4162-4AFC-A595-066BD58A0CE0
+	 1 (002%): http://www.wikidata.org/entity/Q5432122S8330CE02-2D70-4191-892A-FAF322B6B500
+	 1 (002%): http://www.wikidata.org/entity/Q5436768S657ED541-936B-4FD8-8979-D817756AE6F6
+	 1 (002%): http://www.wikidata.org/entity/Q5446586S2A3D6AF5-D185-4C55-A957-C2CD8EC55F37
+	 1 (002%): http://www.wikidata.org/entity/Q5501373S00B9D972-5756-4920-B3F7-18BA9A496E22
+	 1 (002%): http://www.wikidata.org/entity/Q5581761SD7BA0034-F623-4A3C-B8B5-41541BD14801
+	 1 (002%): http://www.wikidata.org/entity/Q5611009S2AD675F3-CC4B-44CA-B1D2-EBFB2005AD4B
+	 1 (002%): http://www.wikidata.org/entity/Q5647167S13BE4863-738A-47A1-B725-D818667C84E1
+	 1 (002%): http://www.wikidata.org/entity/Q6041784S3E877406-53A3-413A-816A-718C6B65FA99
+	 1 (002%): http://www.wikidata.org/entity/Q6194437S6295E3CF-0001-4BF3-9DF3-7E8A08308697
+	 1 (002%): http://www.wikidata.org/entity/Q969772SD01E6A71-32B0-4B34-BD96-430F0DBEEC2A
+
+<http://www.wikidata.org/entity/P646s>:
+	 1 (002%): http://www.wikidata.org/entity/Q1511216SC6E9C058-B0F3-4458-9738-DEC65C1C37D9
+	 1 (002%): http://www.wikidata.org/entity/Q48282S16CF9EB5-9708-4536-98CD-565041F791FC
+	 1 (002%): http://www.wikidata.org/entity/Q6194437S2377d666-4889-30f1-1de5-0ee588f5ad1f
+	 1 (002%): http://www.wikidata.org/entity/Q969772S000F84C0-1864-43FA-9907-F05F12DCBF30
+
+<http://www.wikidata.org/entity/P373s>:
+	 1 (002%): http://www.wikidata.org/entity/Q48282SF681FE38-898B-46F6-8EB4-E81CEF134AB3
+
+<http://www.wikidata.org/entity/P279c>:
+	 1 (002%): http://www.wikidata.org/entity/Q215627
+	 1 (002%): http://www.wikidata.org/entity/Q937857
+
+<http://www.w3.org/2000/01/rdf-schema#label>:
+	 1 (002%): Abdi dalem@id
+	 1 (002%): Abstractor of title
+	 1 (002%): Acting instructor
+	 1 (002%): Adobe Certified Expert
+	 1 (002%): Adult learner
+	 1 (002%): Agen bebas@id
+	 1 (002%): Agent libre@fr
+	 1 (002%): Agent lliure
+	 1 (002%): Agente libre
+	 1 (002%): Aromachologist
+	 1 (002%): Assistant pastor
+	 1 (002%): Automobile repair technician
+	 1 (002%): Axente libre
+	 1 (002%): Barrow boy
+	 1 (002%): Beader
+	 1 (002%): Bierg@lb
+	 1 (002%): Bikini barista
+	 1 (002%): Caucus chair
+	 1 (002%): Chinese chef
+	 1 (002%): Co-signing
+	 1 (002%): Compasssmith
+	 1 (002%): Corporate promoter
+	 1 (002%): Cortesão@pt
+	 1 (002%): Cowman
+	 1 (002%): Crorepati
+	 1 (002%): Crossing sweeper
+	 1 (002%): Custodial participant
+	 1 (002%): Day-tripper
+	 1 (002%): Debunker
+	 1 (002%): Debunker@fr
+	 1 (002%): Debunker@id
+	 1 (002%): Demistificator
+	 1 (002%): Desenganador@pt
+	 1 (002%): Deviationism
+	 1 (002%): Deviationisme
+	 1 (002%): Digital Researcher
+	 1 (002%): Dockmaster
+	 1 (002%): Doctor of Chiropractic
+	 1 (002%): Dvořan
+	 1 (002%): Dworzanin@pl
+	 1 (002%): Economic vegetarianism
+	 1 (002%): Escribitionist
+	 1 (002%): Estudiant
+	 1 (002%): Estudiant@an
+	 1 (002%): Ethicurean
+	 1 (002%): Fall guy
+	 1 (002%): Fashion entrepreneur
+	 1 (002%): Fictitious defendants
+	 1 (002%): Free Agent
+	 1 (002%): Free agent
+	 1 (002%): Free agent@en-x-simple
+	 1 (002%): Freight conductor
+	 1 (002%): Gongoozler
+	 1 (002%): Groundling
+	 1 (002%): Guide
+	 1 (002%): Guide@en-gb
+	 1 (002%): Gästarbete
+	 1 (002%): Hallgató
+	 1 (002%): Hand model
+	 1 (002%): Heckler
+	 1 (002%): Heckler@pt
+	 1 (002%): Hirðmaður
+	 1 (002%): Hovimies
+	 1 (002%): Héne'enovâhétane@chy
+	 1 (002%): Höfling
+	 1 (002%): Ikaslea@eu
+	 1 (002%): Instructional design coordinator
+	 1 (002%): Kiropraktor
+	 1 (002%): Krorepati@pl
+	 1 (002%): Love Comes From Bottom Of Your Heart
+	 1 (002%): Mag-aaral
+	 1 (002%): Moyékoli
+	 1 (002%): Myfyriwr
+	 1 (002%): Navyarriqiri@ik
+	 1 (002%): Nemandi
+	 1 (002%): Pau Muntadas i Campeny
+	 1 (002%): Pelajar@ms
+	 1 (002%): Peserta didik@id
+	 1 (002%): Rekommandeur
+	 1 (002%): Rūmininkas@lt
+	 1 (002%): Serbest oyuncu@tr
+	 1 (002%): Sinh viên
+	 1 (002%): Studanto
+	 1 (002%): Student
+	 1 (002%): Student@af
+	 1 (002%): Student@bs
+	 1 (002%): Student@en-gb
+	 1 (002%): Student@en-x-simple
+	 1 (002%): Student@hr
+	 1 (002%): Studentas@lt
+	 1 (002%): Studento@io
+	 1 (002%): Students@lv
+	 1 (002%): Swashbuckler
+	 1 (002%): Swashbuckler@pt
+	 1 (002%): Talaba
+	 1 (002%): Trabajador extranjero
+	 1 (002%): Tələbə
+	 1 (002%): Umowa poręczenia@pl
+	 1 (002%): Vabaagent@et
+	 1 (002%): Vapaa pelaaja
+	 1 (002%): Vysokoškolský študent
+	 1 (002%): Wolny agent@pl
+	 1 (002%): Yachay munaq@qu
+	 1 (002%): barker
+	 1 (002%): cortesano
+	 1 (002%): courtier
+	 1 (002%): dependant
+	 1 (002%): estudante@pt
+	 1 (002%): estudante@pt-br
+	 1 (002%): estudiante
+	 1 (002%): foreign worker
+	 1 (002%): free agent
+	 1 (002%): guide
+	 1 (002%): hekler@sr
+	 1 (002%): opiskelija
+	 1 (002%): student
+	 1 (002%): student@pl
+	 1 (002%): studente
+	 1 (002%): Öğrenci@tr
+	 1 (002%): Üliõpilane@et
+	 1 (002%): étudiant@fr
+	 1 (002%): študent
+	 1 (002%): Ώριμοι φοιτητές@el
+	 1 (002%): Вільний агент
+	 1 (002%): Донишҷӯ@tg
+	 1 (002%): Иждивенец
+	 1 (002%): Придворные чины
+	 1 (002%): Придворні чини
+	 1 (002%): Свободный агент
+	 1 (002%): Студент
+	 1 (002%): Студент@bg
+	 1 (002%): Студент@kk
+	 1 (002%): Студентчилик@ky
+	 1 (002%): Трудова міграція
+	 1 (002%): студент
+	 1 (002%): студент@sr
+	 1 (002%): студент@sr-cyrl
+	 1 (002%): Ուսանող
+	 1 (002%): טכנאי מחשבים
+	 1 (002%): סטודנט
+	 1 (002%): סטודענט@yi
+	 1 (002%): שחקן חופשי
+	 1 (002%): ئوقۇغۇچى@ug
+	 1 (002%): الأخلاقوري@ar
+	 1 (002%): بازیکن آزاد
+	 1 (002%): دانش‌آموز
+	 1 (002%): دست‌روکن
+	 1 (002%): طالب@ar
+	 1 (002%): عمالة أجنبية@ar
+	 1 (002%): قوتابی@ckb
+	 1 (002%): متعلم@ur
+	 1 (002%): کارگر خارجی
+	 1 (002%): کروڑ پتی@ur
+	 1 (002%): विद्यार्थी@hi
+	 1 (002%): विद्यार्थी@ne
+	 1 (002%): പ്രമോട്ടർമാർ@ml
+	 1 (002%): വിദ്യാർത്ഥി@ml
+	 1 (002%): ข้าราชสำนัก@th
+	 1 (002%): นักเรียน@th
+	 1 (002%): སློབ་ཕྲུག་
+	 1 (002%): სტუდენტი
+	 1 (002%): フリーエージェント
+	 1 (002%): 在籍者
+	 1 (002%): 外国人労働者
+	 1 (002%): 外籍勞工
+	 1 (002%): 妓
+	 1 (002%): 娼妓
+	 1 (002%): 娼妓@zh-hans
+	 1 (002%): 娼妓@zh-hk
+	 1 (002%): 娼婦
+	 1 (002%): 学生
+	 1 (002%): 学生@zh-hans
+	 1 (002%): 學生
+	 1 (002%): 自由球員
+	 1 (002%): 길잡이
+	 1 (002%): 디벙커
+	 1 (002%): 발기인
+	 1 (002%): 어른 학생
+	 1 (002%): 자유계약선수제도
+	 1 (002%): 학생
+
+<http://www.wikidata.org/entity/P508s>:
+	 1 (002%): http://www.wikidata.org/entity/Q48282S30AF8CB7-3EAE-4125-B0B5-1473146AD4CE
+
+<http://www.wikidata.org/entity/P910c>:
+	 1 (002%): http://www.wikidata.org/entity/Q7039931
+	 1 (002%): http://www.wikidata.org/entity/Q7044373
+
+<http://www.w3.org/2000/01/rdf-schema#subClassOf>:
+	 1 (002%): http://www.wikidata.org/entity/Q215627
+	 1 (002%): http://www.wikidata.org/entity/Q937857
+
+<http://www.wikidata.org/entity/P18s>:
+	 1 (002%): http://www.wikidata.org/entity/Q1511216S9028b2c3-4779-3ac7-17f6-32025e7e3f82
+
+<http://www.wikidata.org/entity/P646-freebase>:
+	 1 (002%): http://rdf.freebase.com/ns/m.014cnc
+	 1 (002%): http://rdf.freebase.com/ns/m.01h3_3
+	 1 (002%): http://rdf.freebase.com/ns/m.01ts20
+	 1 (002%): http://rdf.freebase.com/ns/m.01vnjj
+
+

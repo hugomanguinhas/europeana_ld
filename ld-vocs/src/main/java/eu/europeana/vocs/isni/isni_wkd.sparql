@@ -1,0 +1,6 @@
+SELECT ?obj ?isni
+WHERE {
+  ?obj <http://www.wikidata.org/prop/direct/P213> ?isni ;
+       <http://www.wikidata.org/prop/direct/P31> ?parent .
+  ?parent <http://www.wikidata.org/prop/direct/P279>+ <http://www.wikidata.org/entity/Q1030034>
+}

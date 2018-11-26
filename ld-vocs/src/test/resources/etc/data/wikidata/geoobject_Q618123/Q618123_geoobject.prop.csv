@@ -1,0 +1,85 @@
+Description,http://schema.org/description
+Label,http://www.w3.org/2000/01/rdf-schema#label
+Alternative Label,http://www.w3.org/2004/02/skos/core#altLabel
+útvonaltérkép,http://www.wikidata.org/entity/P15
+патна мрежа,http://www.wikidata.org/entity/P16
+zemlja,http://www.wikidata.org/entity/P17
+hình ảnh,http://www.wikidata.org/entity/P18
+kontinens,http://www.wikidata.org/entity/P30
+estas,http://www.wikidata.org/entity/P31
+столиця,http://www.wikidata.org/entity/P36
+gjaldmiðill,http://www.wikidata.org/entity/P38
+கொடியின் படம்,http://www.wikidata.org/entity/P41
+gemeinsame Grenze mit,http://www.wikidata.org/entity/P47
+קבוצת כוכבים,http://www.wikidata.org/entity/P59
+nationalsång,http://www.wikidata.org/entity/P85
+ladawan ti eskudo,http://www.wikidata.org/entity/P94
+forma vlády,http://www.wikidata.org/entity/P122
+владельцем является,http://www.wikidata.org/entity/P127
+liegt in der Verwaltungseinheit,http://www.wikidata.org/entity/P131
+得名於,http://www.wikidata.org/entity/P138
+vallás,http://www.wikidata.org/entity/P140
+하위 행정 구역,http://www.wikidata.org/entity/P150
+logutipu,http://www.wikidata.org/entity/P154
+印章圖像,http://www.wikidata.org/entity/P158
+опис прапора,http://www.wikidata.org/entity/P163
+criaturi,http://www.wikidata.org/entity/P170
+製造商,http://www.wikidata.org/entity/P176
+udbredelseskort,http://www.wikidata.org/entity/P181
+Kundalik Yangiliklar,http://www.wikidata.org/entity/P190
+identificador FAVI,http://www.wikidata.org/entity/P214
+জিএনডি শনাক্তকারী,http://www.wikidata.org/entity/P227
+위치 지도 그림,http://www.wikidata.org/entity/P242
+Mpamantatra LCNAF,http://www.wikidata.org/entity/P244
+מזהה ULAN,http://www.wikidata.org/entity/P245
+anges i,http://www.wikidata.org/entity/P248
+BnF ପରିଚୟ,http://www.wikidata.org/entity/P268
+auturità SUDOC,http://www.wikidata.org/entity/P269
+ist eine Unterklasse von,http://www.wikidata.org/entity/P279
+Postleitzahl,http://www.wikidata.org/entity/P281
+ISO 3166-2 Code,http://www.wikidata.org/entity/P300
+NDL,http://www.wikidata.org/entity/P349
+је део,http://www.wikidata.org/entity/P361
+catigurìa di Commons,http://www.wikidata.org/entity/P373
+en el cuerpo astronómico,http://www.wikidata.org/entity/P376
+OpenStreetMap-Relations-ID,http://www.wikidata.org/entity/P402
+ústí,http://www.wikidata.org/entity/P403
+NLA Authorities,http://www.wikidata.org/entity/P409
+標準時間帯,http://www.wikidata.org/entity/P421
+Kod för Kinas administrativa indelning,http://www.wikidata.org/entity/P442
+ocupante,http://www.wikidata.org/entity/P466
+җирле телефон коды,http://www.wikidata.org/entity/P473
+alapítás/keletkezés ideje,http://www.wikidata.org/entity/P571
+hajoamis -tai lakkautuspäivä,http://www.wikidata.org/entity/P576
+kód NUTS,http://www.wikidata.org/entity/P605
+স্থানাঙ্ক,http://www.wikidata.org/entity/P625
+sport,http://www.wikidata.org/entity/P641
+De Kännong bei Friebähs (Freebase),http://www.wikidata.org/entity/P646
+NRHP referentni broj,http://www.wikidata.org/entity/P649
+NKC識別碼,http://www.wikidata.org/entity/P691
+nằm trên hoặc ven bờ,http://www.wikidata.org/entity/P706
+GNIS Antarctica ID,http://www.wikidata.org/entity/P804
+categoría de áreas protegidas de la IUCN,http://www.wikidata.org/entity/P814
+अधिकृत संकेतस्थळ,http://www.wikidata.org/entity/P856
+FIPS 10-4 (Länder und Unterteilungen weltweit),http://www.wikidata.org/entity/P901
+HDS identifikator,http://www.wikidata.org/entity/P902
+SELIBR идентификатор,http://www.wikidata.org/entity/P906
+hovudkategorien til emnet,http://www.wikidata.org/entity/P910
+baner pre Wikicesty,http://www.wikidata.org/entity/P948
+MusicBrainz-aluetunniste,http://www.wikidata.org/entity/P982
+dmoz (Open Directory Project),http://www.wikidata.org/entity/P998
+identificatore MusicBrainz,http://www.wikidata.org/entity/P1004
+Dewey Decimal Classification,http://www.wikidata.org/entity/P1036
+población,http://www.wikidata.org/entity/P1082
+座席数,http://www.wikidata.org/entity/P1083
+kod anaout EHAK,http://www.wikidata.org/entity/P1140
+portál tématu,http://www.wikidata.org/entity/P1151
+CANTIC-ID,http://www.wikidata.org/entity/P1273
+Gran Enciclopèdia Catalana-indentificatiecode,http://www.wikidata.org/entity/P1296
+representat/ada per,http://www.wikidata.org/entity/P1299
+lista di monumenti,http://www.wikidata.org/entity/P1456
+категорија за личности родени тука,http://www.wikidata.org/entity/P1464
+categoria per le persone morte in questo luogo,http://www.wikidata.org/entity/P1465
+kulturnoe-nasledie.ru-ID,http://www.wikidata.org/entity/P1483
+شناسهٔ جئونیمز,http://www.wikidata.org/entity/P1566
+старонка ўстановы на Вікісховішчы,http://www.wikidata.org/entity/P1612

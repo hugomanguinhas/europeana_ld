@@ -1,0 +1,72 @@
+Description,http://schema.org/description
+Label,http://www.w3.org/2000/01/rdf-schema#label
+Alternative Label,http://www.w3.org/2004/02/skos/core#altLabel
+zemlja,http://www.wikidata.org/entity/P17
+hình ảnh,http://www.wikidata.org/entity/P18
+estas,http://www.wikidata.org/entity/P31
+författare,http://www.wikidata.org/entity/P50
+監督,http://www.wikidata.org/entity/P57
+filmmanuskriptforfattar,http://www.wikidata.org/entity/P58
+comitent,http://www.wikidata.org/entity/P88
+সম্পাদক,http://www.wikidata.org/entity/P98
+ілюстратор,http://www.wikidata.org/entity/P110
+uitgever,http://www.wikidata.org/entity/P123
+ఉద్యమం,http://www.wikidata.org/entity/P135
+gen,http://www.wikidata.org/entity/P136
+得名於,http://www.wikidata.org/entity/P138
+წინამორბედი,http://www.wikidata.org/entity/P155
+succidutu di,http://www.wikidata.org/entity/P156
+diễn viên,http://www.wikidata.org/entity/P161
+атрыманыя ўзнагароды,http://www.wikidata.org/entity/P166
+criaturi,http://www.wikidata.org/entity/P170
+시리즈,http://www.wikidata.org/entity/P179
+изображённый объект,http://www.wikidata.org/entity/P180
+ISBN-13,http://www.wikidata.org/entity/P212
+identificador FAVI,http://www.wikidata.org/entity/P214
+জিএনডি শনাক্তকারী,http://www.wikidata.org/entity/P227
+OCLC,http://www.wikidata.org/entity/P243
+Mpamantatra LCNAF,http://www.wikidata.org/entity/P244
+BnF ପରିଚୟ,http://www.wikidata.org/entity/P268
+auturità SUDOC,http://www.wikidata.org/entity/P269
+місце видання,http://www.wikidata.org/entity/P291
+شناسه در بانک اینترنتی اطلاعات فیلم‌ها,http://www.wikidata.org/entity/P345
+NDL,http://www.wikidata.org/entity/P349
+شناسهٔ دیجیتالی,http://www.wikidata.org/entity/P356
+tựa đề,http://www.wikidata.org/entity/P357
+је део,http://www.wikidata.org/entity/P361
+jazyk originálu,http://www.wikidata.org/entity/P364
+catigurìa di Commons,http://www.wikidata.org/entity/P373
+phụ đề gốc,http://www.wikidata.org/entity/P392
+భాష,http://www.wikidata.org/entity/P407
+MusicBrainz идентификатор дела,http://www.wikidata.org/entity/P435
+utgivningsgruppsidentifikator för album i MusicBrainz,http://www.wikidata.org/entity/P436
+đài ban đầu,http://www.wikidata.org/entity/P449
+زادگاه فرهنگی,http://www.wikidata.org/entity/P495
+has part,http://www.wikidata.org/entity/P527
+alapítás/keletkezés ideje,http://www.wikidata.org/entity/P571
+تاریخ انتشار,http://www.wikidata.org/entity/P577
+স্থানাঙ্ক,http://www.wikidata.org/entity/P625
+sport,http://www.wikidata.org/entity/P641
+De Kännong bei Friebähs (Freebase),http://www.wikidata.org/entity/P646
+Open Library identifier,http://www.wikidata.org/entity/P648
+prevajalec,http://www.wikidata.org/entity/P655
+personaggi,http://www.wikidata.org/entity/P674
+szinkronszínész,http://www.wikidata.org/entity/P725
+artista de la portada,http://www.wikidata.org/entity/P736
+utgave,http://www.wikidata.org/entity/P747
+מיקום העלילה,http://www.wikidata.org/entity/P840
+अधिकृत संकेतस्थळ,http://www.wikidata.org/entity/P856
+SELIBR идентификатор,http://www.wikidata.org/entity/P906
+hovudkategorien til emnet,http://www.wikidata.org/entity/P910
+main subject,http://www.wikidata.org/entity/P921
+نمایشگاه ویکی‌انبار,http://www.wikidata.org/entity/P935
+baner pre Wikicesty,http://www.wikidata.org/entity/P948
+BNE идентификатор,http://www.wikidata.org/entity/P950
+آی‌اس‌بی‌ان-۱۰,http://www.wikidata.org/entity/P957
+file audio dell'elemento,http://www.wikidata.org/entity/P989
+код работы в LibraryThing,http://www.wikidata.org/entity/P1085
+ページ数,http://www.wikidata.org/entity/P1104
+опубликовано в,http://www.wikidata.org/entity/P1433
+opisuje izmišljeni univerzum,http://www.wikidata.org/entity/P1434
+Nupill Literatura Digital - Dokument,http://www.wikidata.org/entity/P1474
+כותר בשפת המקור,http://www.wikidata.org/entity/P1476
