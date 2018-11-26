@@ -12,12 +12,9 @@ import org.apache.jena.sparql.engine.http.QueryEngineHTTP;
 
 import static eu.europeana.vocs.VocsUtils.*;
 
-public class WikidataFetch {
-
-    public WikidataFetch(String endpoint)
-    {
-        SPARQL_ENDPOINT = endpoint;
-    }
+public class WikidataFetch
+{
+    public WikidataFetch(String endpoint) { SPARQL_ENDPOINT = endpoint; }
 
     public void fetchAll(String query, String varName, File dst) throws IOException
     {

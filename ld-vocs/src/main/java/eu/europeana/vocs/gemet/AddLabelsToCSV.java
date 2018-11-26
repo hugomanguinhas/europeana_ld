@@ -22,7 +22,7 @@ import org.apache.jena.vocabulary.SKOS;
 
 import com.github.jsonldjava.utils.JsonUtils;
 
-import eu.europeana.ld.deref.Dereferencer;
+import eu.europeana.ld.deref.DereferencerImpl;
 
 /**
  * 
@@ -34,7 +34,7 @@ import eu.europeana.ld.deref.Dereferencer;
  */
 public class AddLabelsToCSV
 {
-    private Dereferencer _dereferencer = new Dereferencer();
+    private DereferencerImpl _dereferencer = new DereferencerImpl();
     private CSVFormat    _format       = CSVFormat.EXCEL;
     private Charset      _charset      = Charset.forName("UTF-8");
 

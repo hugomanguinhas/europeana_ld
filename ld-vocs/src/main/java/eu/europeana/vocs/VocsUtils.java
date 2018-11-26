@@ -55,12 +55,13 @@ public class VocsUtils
     public static Pattern PATTERN_FREEBASE = Pattern.compile(".*freebase[.]com.*");
     public static Pattern PATTERN_LEXVO    = Pattern.compile(".*lexvo[.]org.*");
     public static Pattern PATTERN_WIKIDATA = Pattern.compile(".*wikidata[.]org.*");
+    public static Pattern PATTERN_GEONAMES = Pattern.compile("http[:]//sws[.]geonames[.]org/.*");
 
     public static String  URI_SAMEAS    = "http://www.w3.org/2002/07/owl#sameAs";
-    public static String  SPARQL_ENDPOINT  = "";
+    //public static String  SPARQL_ENDPOINT  = "";
 
     public static String  SPARQL_DBPEDIA_EN = "http://dbpedia.org/sparql";
-    public static String  SPARQL_WIKIDATA   = "http://wikisparql.org/sparql";
+    public static String  SPARQL_WIKIDATA   = "https://query.wikidata.org/sparql";
     //String sparql = "http://milenio.dcc.uchile.cl/sparql";
 
 
@@ -103,17 +104,6 @@ public class VocsUtils
     }
 
     public static String buildDESCRIBE(String uri) { return "DESCRIBE <" + uri + ">"; }
-
-    public static Model importNamespaces(Model src, Model dst)
-    {
-        NsIterator iter = src.listNameSpaces();
-        while ( iter.hasNext() )
-        {
-            String ns = iter.nextNs();
-            dst.setNsPrefix(src.getNsURIPrefix(ns), ns);
-        }
-        return dst;
-    }
 
     public static Model loadModel(File file) { return loadModel(null, file, null); }
 
@@ -175,13 +165,13 @@ public class VocsUtils
         return true;
     }
 
-    public static void loadModelFromSPARQL(Model m, String uri, boolean filter)
+    public static void loadModelFromSPARQL(Model m, String uri, boolean filter
+                                         , String sparql)
     {
         String sDescribe = buildDESCRIBE(uri);
 
         System.out.println(sDescribe);
-        QueryEngineHTTP endpoint
-            = new QueryEngineHTTP(SPARQL_ENDPOINT, sDescribe);
+        QueryEngineHTTP endpoint = new QueryEngineHTTP(sparql, sDescribe);
         try {
             Model mTemp = ModelFactory.createDefaultModel();
             endpoint.execDescribe(mTemp);
@@ -196,9 +186,10 @@ public class VocsUtils
         }
     }
 
-    public static void loadModelFromSPARQL(Model m, Collection<String> sa, boolean filter)
+    public static void loadModelFromSPARQL(Model m, Collection<String> sa
+                                         , boolean filter, String sparql)
     {
-        for ( String uri : sa ) { loadModelFromSPARQL(m, uri, filter); }
+        for ( String uri : sa ) { loadModelFromSPARQL(m, uri, filter, sparql); }
     }
 
     public static boolean loadModelFromCache(Model m, Collection<String> sa, Model mCache)

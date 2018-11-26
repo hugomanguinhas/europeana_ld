@@ -17,7 +17,7 @@ import org.apache.jena.vocabulary.SKOS;
 
 import com.github.jsonldjava.utils.JsonUtils;
 
-import eu.europeana.ld.deref.Dereferencer;
+import eu.europeana.ld.deref.DereferencerImpl;
 
 /**
  * 
@@ -32,7 +32,7 @@ public class GetGemetUsage
     private static String QUERY
         = "http://www.europeana.eu/api/v2/search.json?query=skos_concept%3A*gemet*&profile=facets&facet=skos_concept&rows=0&wskey=api2demo";
 
-    private Dereferencer _dereferencer = new Dereferencer();
+    private DereferencerImpl _dereferencer = new DereferencerImpl();
 
     public void run(File file) throws IOException
     {

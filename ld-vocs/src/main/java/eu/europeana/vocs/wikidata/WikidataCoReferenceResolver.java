@@ -18,11 +18,12 @@ public class WikidataCoReferenceResolver implements CoReferenceResolver
     private static String   QUERY = "SELECT ?x WHERE { <#URI#> <#PROPERTY#> ?x }";
     private static String[] EMPTY = new String[] {};
 
-    private String    _sparql  = null;
-    private String    _prop    = null;
-    private Processor _processor = null;
+    protected String    _sparql    = null;
+    protected String    _prop      = null;
+    protected Processor _processor = null;
 
-    public WikidataCoReferenceResolver(String sparql, String prop, Processor processor)
+    public WikidataCoReferenceResolver(String sparql, String prop
+                                     , Processor processor)
     {
         _prop      = prop;
         _processor = processor;

@@ -10,10 +10,13 @@ import org.apache.jena.sparql.engine.http.QueryEngineHTTP;
 
 public class CoReferenceResolverImpl implements CoReferenceResolver
 {
-    protected static String   QUERY = "PREFIX owl: <http://www.w3.org/2002/07/owl#> SELECT ?x WHERE { <#URI#> owl:sameAs ?x }";
+    protected static String   QUERY
+        = "SELECT ?x WHERE { <#URI#> <http://www.w3.org/2002/07/owl#sameAs> ?x }";
 
     private String  _sparql;
     private Pattern _accept;
+
+    public CoReferenceResolverImpl(String sparql) { this(sparql, null); }
 
     public CoReferenceResolverImpl(String sparql, Pattern accept)
     {
@@ -48,8 +51,7 @@ public class CoReferenceResolverImpl implements CoReferenceResolver
             while (rs.hasNext())
             {
                 String sameAs = rs.next().getResource("x").getURI();
-                if ( !_accept.matcher(sameAs).matches() ) { continue; }
-                l.add(sameAs);
+                if ( matches(sameAs) ) { l.add(sameAs); }
             }
             return ( l.size() == 0 ? EMPTY : l.toArray(EMPTY) );
         }
@@ -60,6 +62,11 @@ public class CoReferenceResolverImpl implements CoReferenceResolver
             endpoint.close();
         }
         return EMPTY;
+    }
+
+    protected boolean matches(String uri)
+    {
+        return (_accept == null ? true : _accept.matcher(uri).matches());
     }
 
     protected String getTemplate() { return QUERY; }

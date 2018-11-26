@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
+import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -16,129 +17,69 @@ import org.apache.jena.rdf.model.ResIterator;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
-import org.apache.jena.util.ResourceUtils;
+import org.apache.jena.vocabulary.RDFS;
+import org.apache.jena.vocabulary.SKOS;
 
 import eu.europeana.ld.analysis.AbsAnalysis;
 import eu.europeana.ld.analysis.ObjectStat;
-import eu.europeana.ld.analysis.property.DefaultPropertyStat;
+
 import static eu.europeana.vocs.VocsUtils.*;
+import static eu.europeana.vocs.wikidata.Wikidata.*;
 
 public class WikidataAnalysis extends AbsAnalysis
 {
-    private static Pattern pattern
-      = Pattern.compile("http[:][/][/]www[.]wikidata[.]org[/]entity[/]P\\d+([a-z])");
+    private static Collection<String> IGNORE
+        = Arrays.asList(NS_WDS, NS_PSV, NS_PQV, NS_WDATA, NS_WDREF, NS_WDNO
+                      , NS_PRV);
 
-    private static Collection<String> langLiterals = Arrays.asList(
-            "http://www.w3.org/2000/01/rdf-schema#label", "http://www.w3.org/2004/02/skos/core#altLabel", 
-            "http://schema.org/description");
+    private static Collection<String> PROPERTIES
+        = Arrays.asList(RDFS.label.getURI(), SKOS.altLabel.getURI()
+                      , "http://schema.org/description");
 
-    private File _srcList;
+    private Collection<String> _resources;
 
-    public WikidataAnalysis(File srcList) { _srcList = srcList; }
-    
+    public WikidataAnalysis(Collection<String> resources)
+    {
+        _resources = resources;
+    }
+
+    public WikidataAnalysis(File csvFile)
+    {
+        this(loadDataURLs(csvFile, null));
+    }
+
     public ObjectStat analyse(Model m) throws IOException
     {
-      //fixSubjects(m);
-      //fixPredicates(m);
+        ObjectStat stat  = new ObjectStat("Wikidata", true, true, true);
 
-        ObjectStat stat  = new ObjectStat("Wikidata", true, false, true);
+        Collection<String> props = new TreeSet();
 
-        Collection<String> saURIs = ( _srcList == null ? getPropertyURIs(m)
-                                                       : getPropertyURIsFromFile(_srcList));
-        for ( String uri : saURIs )
-        {
-            Property p = m.getProperty(uri);
-            if ( langLiterals.contains(uri) ) {
-                stat.addPropertyValue(new DefaultPropertyStat(p, false));
-            }
-            else {
-                stat.addPropertyValue(p);
-            }
-        }
-
-        ResIterator iter = m.listSubjects();
+        StmtIterator iter = m.listStatements();
         while ( iter.hasNext() )
         {
-            Resource r = iter.next();
-            if ( !PATTERN_WIKIDATA.matcher(r.getURI()).matches() ) { continue; }
-            stat.newObject(r);
+            Statement stmt = iter.nextStatement();
+            if ( !_resources.contains(stmt.getSubject().getURI()) ) { continue; }
+
+            String uri = stmt.getPredicate().getURI();
+            if ( !ignore(uri) ) { props.add(uri); }
         }
+
+        for ( String uri : props )
+        {
+            stat.addPropertyValue(m.getProperty(uri));
+        }
+
+        for ( String uri : _resources ) { stat.newObject(m.getResource(uri)); }
 
         return stat;
     }
 
-    private Model fixSubjects(Model m)
+    private boolean ignore(String uri)
     {
-        Collection<String> sa = new HashSet();
-
-        ResIterator iter = m.listSubjects();
-        while ( iter.hasNext() )
+        for ( String ns : IGNORE )
         {
-            String uri = iter.next().getURI();
-            if ( PATTERN_WIKIDATA.matcher(uri).matches() ) { sa.add(uri); }
+            if ( uri.startsWith(ns) ) { return true; }
         }
-
-        for ( String s : sa )
-        {
-            String sNew = getNew(s);
-            if ( sNew == null ) { continue; }
-
-            ResourceUtils.renameResource(m.getResource(s), sNew);
-        }
-
-        return m;
-    }
-
-    private Model fixPredicates(Model m)
-    {
-        List<Statement> l = new ArrayList();
-        StmtIterator iter = m.listStatements();
-        String uri;
-        while ( iter.hasNext() )
-        {
-            Statement stmt = iter.next();
-
-            uri = stmt.getPredicate().getURI();
-            if ( !PATTERN_WIKIDATA.matcher(uri).matches() ) { continue; }
-
-            String sNew = getNew(uri);
-            if ( sNew == null ) { continue; }
-
-            iter.remove();
-
-            l.add(stmt);
-        }
-
-        for ( Statement stmt : l )
-        {
-            String sNew = getNew(stmt.getPredicate().getURI());
-            m.add(stmt.getSubject(), m.getProperty(sNew), stmt.getObject());
-        }
-
-        return m;
-    }
-
-    private static String getNew(String s)
-    {
-        Matcher m = pattern.matcher(s);
-        if ( m.find() == false ) { return null; };
-
-        int i = m.start(1);
-        return s.substring(0, i);
-    }
-
-    private Collection<String> getPropertyURIs(Model m)
-    {
-        Collection<String> ret = new HashSet();
-        StmtIterator iter = m.listStatements();
-        while ( iter.hasNext() ) {
-            ret.add(iter.next().getPredicate().getURI());
-        }
-        return ret;
-    }
-
-    private Collection<String> getPropertyURIsFromFile(File f)
-    {
-        return loadDataURLs(f, PATTERN_WIKIDATA);
+        return false;
     }
 }

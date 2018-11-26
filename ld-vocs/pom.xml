@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>eu.europeana</groupId>
-    <artifactId>europeana-vocs</artifactId>
+    <artifactId>ld-vocs</artifactId>
     <version>0.1</version>
     <packaging>jar</packaging>
 
@@ -52,6 +52,21 @@ the specific language governing permissions and limitations under the Licence.
             <groupId>eu.europeana</groupId>
             <artifactId>ld-edm</artifactId>
             <version>0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.36</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-text</artifactId>
+            <version>1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.saxon</groupId>
+            <artifactId>Saxon-HE</artifactId>
+            <version>9.4</version>
         </dependency>
     </dependencies>
 
