@@ -68,9 +68,8 @@ public class DereferenceChecker
 
     private Boolean checkCacheImpl(String url)
     {
+        HttpMethod method = newMethod(url);
         try {
-            HttpMethod method = newMethod(url);
-
             HttpMethodParams params = new HttpMethodParams();
             params.setParameter(HttpMethodParams.RETRY_HANDLER, RETRY_HANDLER);
             method.setParams(params);
@@ -79,7 +78,8 @@ public class DereferenceChecker
             if ( iRet == 200 ) { return true;  }
             if ( iRet == 404 ) { return false; }
         }
-        catch (IOException e) {}
+        catch (IOException e) { e.printStackTrace(); }
+        finally               { method.releaseConnection(); }
 
         return null;
     }

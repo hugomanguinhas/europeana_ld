@@ -56,6 +56,26 @@ public class IRISupport
 
     public static boolean isRelativeIRI(String iri)
     {
-        return false;
+        return ( iri.startsWith("/")   || iri.startsWith("#")
+              || iri.startsWith("../") || iri.startsWith("./") );
+    }
+
+    public static boolean isIRI(String iri)
+    {
+        return ( isRelativeIRI(iri) || isAbsoluteIRI(iri) );
+    }
+
+    public static String fixRelativeIRI(String iri, String xmlbase)
+    {
+        if ( iri.startsWith("/")
+          || iri.startsWith("#") ) { return xmlbase + iri; }
+        
+        if ( iri.startsWith("../") 
+          || iri.startsWith("./") ) { return xmlbase + "/" + iri; }
+
+        int i = iri.indexOf("/");
+        if ( i > 0 && iri.lastIndexOf(':', i) < 0) { return xmlbase + "/" + iri; }
+
+        return iri;
     }
 }

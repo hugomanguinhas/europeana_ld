@@ -23,15 +23,15 @@ import org.apache.jena.vocabulary.RDF;
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoDatabase;
 
+import eu.europeana.ld.ResourceCallback;
 import eu.europeana.ld.edm.EDM;
-import eu.europeana.ld.harvester.HarvesterCallback;
 import eu.europeana.ld.mongo.MongoEntityHarvester;
 
 /**
  * @author Hugo Manguinhas <hugo.manguinhas@europeana.eu>
  * @since 18 Apr 2016
  */
-public class CompareDumpAgaintsMongo implements HarvesterCallback
+public class CompareDumpAgaintsMongo implements ResourceCallback
 {
     private Model       _model;
     private Set<String> _processed = new HashSet();

@@ -24,6 +24,7 @@ import org.apache.jena.rdf.model.NsIterator;
 import org.apache.jena.rdf.model.RDFReader;
 import org.apache.jena.rdf.model.RDFWriter;
 import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.riot.Lang;
 import org.apache.jena.riot.RDFDataMgr;
 import org.apache.jena.riot.RDFLanguages;
@@ -31,9 +32,7 @@ import org.apache.jena.riot.RiotException;
 import org.apache.jena.shared.JenaException;
 import org.apache.jena.util.FileUtils;
 
-
-
-
+import org.apache.jena.vocabulary.RDF;
 
 //import eu.europeana.edm.io.EDMXMLWriter;
 import static org.apache.commons.io.IOUtils.*;
@@ -46,6 +45,12 @@ public class JenaUtils
     public static void clearAll(Collection<Resource> col)
     {
         for ( Resource rsrc : col ) { rsrc.removeProperties(); }
+    }
+
+    public static Resource getType(Resource r)
+    {
+        Statement stmt = r.getProperty(RDF.type);
+        return (stmt == null ? null : stmt.getResource());
     }
 
     public static String getQName(Resource r)

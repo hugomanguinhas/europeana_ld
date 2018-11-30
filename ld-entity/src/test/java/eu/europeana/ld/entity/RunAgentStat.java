@@ -8,12 +8,12 @@ import static eu.europeana.ld.entity.TestingResources.*;
 
 public class RunAgentStat
 {
-    private static File DIR = new File("C:/Users/Hugo/Google Drive/Europeana/Entity Collection/entities/agents/champion_agent/");
+    private static File DIR = new File("D:/work/data/entities/agents/");
 
     public static final void main(String... args) throws IOException
     {
         //new AgentAnalysis().analyse(FILE_AGENTS_DBPEDIA);
-        new AgentAnalysis().analyse(new File(DIR, "mozart.xml"))
-                           .print(new File(DIR, "mozart.stat.txt"));
+        new AgentAnalysis().analyse(new File(DIR, "agents.xml"))
+                           .print(new File(DIR, "agents.stat.txt"));
     }
 }

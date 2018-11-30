@@ -4,6 +4,7 @@
 package eu.europeana.ld.edm.mongo;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 
 import org.apache.jena.rdf.model.Model;
@@ -15,17 +16,16 @@ import com.mongodb.BasicDBObject;
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoDatabase;
 
+import eu.europeana.ld.ResourceCallback;
 import eu.europeana.ld.edm.EDM;
 import eu.europeana.ld.edm.ORE;
-import eu.europeana.ld.edm.io.EDMDataFileNaming;
-import eu.europeana.ld.edm.io.EDMTurtleWriter;
-import eu.europeana.ld.edm.io.EDMXMLWriter;
-import eu.europeana.ld.harvester.HarvesterCallback;
+import eu.europeana.ld.edm.io.EDMDatasetFileNaming;
+import eu.europeana.ld.edm.io.TurtleRecordWriter;
+import eu.europeana.ld.edm.io.XMLRecordWriter;
 import eu.europeana.ld.harvester.StoreCallback;
 import eu.europeana.ld.jena.JenaUtils;
 import eu.europeana.ld.mongo.MongoEDMHarvester;
 import eu.europeana.ld.mongo.MongoEntityHarvester;
-import eu.europeana.ld.mongo.callback.FileCallback;
 import eu.europeana.ld.store.LDStore;
 import eu.europeana.ld.store.ZipLDStore;
 
@@ -39,30 +39,29 @@ public class RunDatabaseDump
 {
     public static final void main(String[] args) throws IOException
     {
-        MongoClient     client = new MongoClient("144.76.218.178", 27017);
-//        MongoClient     client = new MongoClient("mongo2.eanadev.org", 27017);
-        MongoDatabase   db     = client.getDatabase("europeana");
+        MongoClient     cli = new MongoClient("144.76.218.178", 27017);
+//      MongoClient     cli = new MongoClient("mongo2.eanadev.org", 27017);
+        MongoDatabase   db  = cli.getDatabase("europeana");
 
-        EDMTurtleWriter writer = new EDMTurtleWriter();
-        writer.start(new File("D:/work/data/virtuoso/dump.ttl.gz"));
+        TurtleRecordWriter writer = new TurtleRecordWriter();
+        writer.init(new FileOutputStream("D:/work/data/virtuoso/dump.ttl.gz"));
 
-        HarvesterCallback cb = new HarvesterCallback() {
+        ResourceCallback cb = new ResourceCallback() {
 
             @Override
-            public void handle(Resource r)
+            public void handle(Resource r, Status s)
             {
-                Model m = r.getModel();
-                try     { writer.write(m); }
+                try     { writer.write(r);                  }
                 catch(IOException e) { e.printStackTrace(); }
-                finally { m.removeAll();   }
+                finally { r.getModel().removeAll();         }
             }
         };
 
-        MongoEDMHarvester harvester = new MongoEDMHarvester(db, null);
+        MongoEDMHarvester harvester = new MongoEDMHarvester(cli, db, null, false);
         try {
             harvester.harvestBySearch("{'about': { $regex: '^/2063602/.*' }}", cb);
         }
         catch (Throwable t) { t.printStackTrace(); }
-        finally { client.close(); writer.finish(); }
+        finally { cli.close(); writer.close(); }
     }
 }

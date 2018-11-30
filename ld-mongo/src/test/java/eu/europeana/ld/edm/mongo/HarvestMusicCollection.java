@@ -22,13 +22,12 @@ import com.mongodb.client.MongoDatabase;
 
 import eu.europeana.ld.edm.EDM;
 import eu.europeana.ld.edm.ORE;
-import eu.europeana.ld.edm.io.EDMDataFileNaming;
-import eu.europeana.ld.edm.io.EDMXMLWriter;
+import eu.europeana.ld.edm.io.EDMDatasetFileNaming;
+import eu.europeana.ld.edm.io.XMLRecordWriter;
 import eu.europeana.ld.harvester.StoreCallback;
 import eu.europeana.ld.jena.JenaUtils;
 import eu.europeana.ld.mongo.MongoEDMHarvester;
 import eu.europeana.ld.mongo.MongoEntityHarvester;
-import eu.europeana.ld.mongo.callback.FileCallback;
 import eu.europeana.ld.store.LDStore;
 import eu.europeana.ld.store.ZipLDStore;
 
@@ -50,10 +49,10 @@ public class HarvestMusicCollection
 
         List<Map> fields = (List<Map>)JsonPath.read(m, "$.facets[0].fields");
 
-        MongoEDMHarvester harvester = new MongoEDMHarvester(db, null, true);
+        MongoEDMHarvester harvester = new MongoEDMHarvester(cli, db, null, true);
         File dstZip = new File("D:/work/data/mongo/dataset.zip");
-        LDStore store = new ZipLDStore(dstZip, new EDMXMLWriter()
-                      , Lang.RDFXML, new EDMDataFileNaming());
+        LDStore store = new ZipLDStore(dstZip, new XMLRecordWriter()
+                      , Lang.RDFXML, new EDMDatasetFileNaming());
         StoreCallback cb = new StoreCallback(store);
         cb.begin();
         try {

@@ -13,6 +13,7 @@ import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.vocabulary.SKOS;
 import org.apache.log4j.Logger;
 import org.bson.Document;
+import org.bson.conversions.Bson;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.MongoClient;
@@ -20,26 +21,20 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 
+import eu.europeana.ld.ResourceCallback;
+import eu.europeana.ld.ResourceCallback.Status;
 import eu.europeana.ld.edm.EDM;
-import eu.europeana.ld.harvester.HarvesterCallback;
 import eu.europeana.ld.harvester.LDHarvester;
-import eu.europeana.ld.harvester.HarvesterCallback.Status;
 
 /**
  * @author Hugo Manguinhas <hugo.manguinhas@europeana.eu>
  * @since 14 Apr 2016
  */
-public class MongoEntityHarvester implements LDHarvester
+public class MongoEntityHarvester extends MongoEnrichmentConstants 
+                                  implements MongoHarvester
 {
     private static Logger _log = Logger.getLogger(LDHarvester.class);
-    private static Map<Resource,String> _tableMap = new HashMap();
-
-    static {
-        _tableMap.put(EDM.Agent   , "people");
-        _tableMap.put(EDM.Place   , "place");
-        _tableMap.put(EDM.TimeSpan, "period");
-        _tableMap.put(SKOS.Concept, "concept");
-    }
+    private static int DEF_BATCHSIZE = 1000;
 
     private MongoClient       _cli;
     private MongoDatabase     _db;
@@ -61,19 +56,19 @@ public class MongoEntityHarvester implements LDHarvester
      **************************************************************************/
 
     @Override
-    public void harvestAll(HarvesterCallback cb)
+    public void harvestAll(ResourceCallback cb)
     {
         fetchAll(ModelFactory.createDefaultModel(), cb);
     }
 
     @Override
-    public void harvest(String uri, HarvesterCallback cb)
+    public void harvest(String uri, ResourceCallback cb)
     {
         fetchOne(uri, ModelFactory.createDefaultModel(), cb);
     }
 
     @Override
-    public void harvest(Collection<String> uris, HarvesterCallback cb)
+    public void harvest(Collection<String> uris, ResourceCallback cb)
     {
         fetchMany(uris, ModelFactory.createDefaultModel(), cb);
     }
@@ -101,28 +96,46 @@ public class MongoEntityHarvester implements LDHarvester
 
 
     /***************************************************************************
+     * Public Methods
+     **************************************************************************/
+
+    public void harvestBySearch(String query, ResourceCallback cb)
+    {
+        harvestBySearch(BasicDBObject.parse(query), cb);
+    }
+
+    public void harvestBySearch(Bson filter, ResourceCallback cb)
+    {
+        fetchMany(filter, ModelFactory.createDefaultModel(), cb);
+    }
+
+
+    /***************************************************************************
      * Private Methods - Fetch All
      **************************************************************************/
 
-    private Model fetchAll(Model model, HarvesterCallback cb)
+    private Model fetchAll(Model model, ResourceCallback cb)
     {
         MongoCollection<Document> col = getCollection();
-        if ( col == null ) { return null; }
+        if ( col   == null ) { return null; }
+
+        MongoCollection<Document> tList = _db.getCollection(TBL_TERM_LIST);
+        if ( tList == null ) { return null; }
 
         Status status = new Status(col.count(), 0);
 
-        MongoCursor<String> iter = col.distinct("codeUri", String.class)
-                                      .iterator();
+        MongoCursor<String> iter = col.distinct(FIELD_CODE_URI, String.class)
+                                      .batchSize(DEF_BATCHSIZE).iterator();
         try {
             while ( iter.hasNext() )
             {
                 status.cursor++;
                 String   id = iter.next();
 
-                Resource r  = fetchEntity(_db, model.getResource(id));
+                Resource r  = fetchEntity(tList, model.getResource(id));
                 logSuccess(id, status);
 
-                if ( r != null ) { cb.handle(r, status); }
+                if ( r != null ) { cb.handle(id, r, status); }
             }
         }
         finally { iter.close(); }
@@ -136,10 +149,13 @@ public class MongoEntityHarvester implements LDHarvester
      **************************************************************************/
 
     private Model fetchMany(Collection<String> uris, Model model
-                          , HarvesterCallback cb)
+                          , ResourceCallback cb)
     {
         MongoCollection<Document> col = getCollection();
-        if ( col == null ) { return null; }
+        if ( col   == null ) { return null; }
+
+        MongoCollection<Document> tList = _db.getCollection(TBL_TERM_LIST);
+        if ( tList == null ) { return null; }
 
         Status status = new Status(uris.size(), 0);
 
@@ -147,12 +163,26 @@ public class MongoEntityHarvester implements LDHarvester
         {
             status.cursor++;
 
-            Resource r = fetchEntity(_db, model.getResource(uri));
+            Resource r = fetchEntity(tList, model.getResource(uri));
             if ( r == null ) { logNotFound(uri, status); continue; }
 
             logSuccess(uri, status);
-            if ( cb != null ) { cb.handle(r, status); }
+            if ( cb != null ) { cb.handle(uri, r, status); }
         }
+        return model;
+    }
+
+    //TODO
+    private Model fetchMany(Bson filter, Model model, ResourceCallback cb)
+    {
+        MongoCollection<Document> col = getCollection();
+        if ( col == null ) { return null; }
+
+        MongoCollection<Document> tList = _db.getCollection(TBL_TERM_LIST);
+        if ( tList == null ) { return null; }
+
+        Status status = new Status(col.count(filter), 0);
+
         return model;
     }
 
@@ -161,18 +191,21 @@ public class MongoEntityHarvester implements LDHarvester
      * Private Methods - Fetch One
      **************************************************************************/
 
-    private Resource fetchOne(String uri, Model model, HarvesterCallback cb)
+    private Resource fetchOne(String uri, Model model, ResourceCallback cb)
     {
         MongoCollection<Document> col = getCollection();
         if ( col == null ) { return null; }
 
+        MongoCollection<Document> tList = _db.getCollection(TBL_TERM_LIST);
+        if ( tList == null ) { return null; }
+
         Status status = new Status(1, 1);
 
-        Resource r = fetchEntity(_db, model.getResource(uri));
+        Resource r = fetchEntity(tList, model.getResource(uri));
         if ( r == null ) { logNotFound(uri, status); return null; }
 
         logSuccess(uri, status);
-        if ( cb != null ) { cb.handle(r, status); }
+        if ( cb != null ) { cb.handle(uri, r, status); }
 
         return r;
     }
@@ -184,27 +217,21 @@ public class MongoEntityHarvester implements LDHarvester
 
     private MongoCollection<Document> getCollection()
     {
-        String table = _tableMap.get(_entityClass);
+        String table = RES2TABLE.get(_entityClass);
         return ( table == null ? null : _db.getCollection(table) );
     }
 
-    private Resource fetchEntity(MongoDatabase db, Resource r)
+    private Resource fetchEntity(MongoCollection<Document> tList, Resource r)
     {
         String uri = r.getURI();
-        MongoCursor<Document> iter = db.getCollection("TermList")
-                                       .find(new Document("codeUri", uri))
-                                       .iterator();
+        MongoCursor<Document> iter = tList.find(new Document(FIELD_CODE_URI, uri))
+                                          .noCursorTimeout(true).iterator();
         try {
-            if ( !iter.hasNext() ) {
-                _log.error("Could not find entry with uri: " + uri);
-                return null;
-            }
+            if ( !iter.hasNext() ) { logUnknown(uri); return null; }
 
             r = _parser.parse(iter.next(), r.getModel());
 
-            if ( iter.hasNext() ) {
-                _log.error("Found duplicate entry for uri: " + uri);
-            }
+            if ( iter.hasNext() ) { logDuplicate(uri); }
         }
         finally { iter.close(); }
 
@@ -215,6 +242,16 @@ public class MongoEntityHarvester implements LDHarvester
     /***************************************************************************
      * Private Methods - Logging
      **************************************************************************/
+
+    private void logUnknown(String id)
+    {
+        _log.error("Could not find entry with uri: " + id);
+    }
+
+    private void logDuplicate(String id)
+    {
+        _log.error("Found duplicate entry for uri: " + id);
+    }
 
     private void logSuccess(String id, Status status)
     {

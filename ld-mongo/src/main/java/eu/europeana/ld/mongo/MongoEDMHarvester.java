@@ -3,19 +3,16 @@
  */
 package eu.europeana.ld.mongo;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.TimeZone;
 import java.util.TreeMap;
-import java.util.TreeSet;
-
-import com.google.common.base.Charsets;
-import com.google.common.hash.HashCode;
-import com.google.common.hash.HashFunction;
-import com.google.common.hash.Hashing;
 
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
@@ -24,7 +21,7 @@ import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.rdf.model.ResIterator;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdf.model.Statement;
-import org.apache.jena.rdf.model.StmtIterator;
+import org.apache.jena.vocabulary.DCTerms;
 import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.SKOS;
 import org.apache.log4j.Logger;
@@ -40,37 +37,41 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 
+import eu.europeana.ld.ResourceCallback;
+import eu.europeana.ld.ResourceCallback.Status;
 import eu.europeana.ld.edm.CC;
 import eu.europeana.ld.edm.EDM;
 import eu.europeana.ld.edm.EuropeanaDataUtils;
 import eu.europeana.ld.edm.ORE;
-import eu.europeana.ld.harvester.HarvesterCallback;
 import eu.europeana.ld.harvester.LDHarvester;
-import eu.europeana.ld.harvester.HarvesterCallback.Status;
-
 import static org.apache.jena.util.ResourceUtils.*;
+import static eu.europeana.ld.mongo.MongoEDMConstants.*;
 import static eu.europeana.ld.mongo.MongoClassDef.*;
+import static eu.europeana.ld.mongo.MongoClassDef.JsonType.MAP;
+import static eu.europeana.ld.mongo.MongoUtils.*;
+import static eu.europeana.ld.mongo.TechnicalMetadataUtils.*;
 import static eu.europeana.ld.iri.IRISupport.*;
 
 /**
  * @author Hugo Manguinhas <hugo.manguinhas@europeana.eu>
  * @since 14 Apr 2016
  */
-public class MongoEDMHarvester implements LDHarvester
+public class MongoEDMHarvester implements MongoHarvester
 {
     private static Logger _log = Logger.getLogger(LDHarvester.class);
     private static Map<Resource,String> _tableMap = new HashMap();
+    private static SimpleDateFormat _dateFormat 
+        = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
 
-    private static int DEF_BATCHSIZE = 100;
-
-    static {
+    static
+    {
         _tableMap.put(EDM.Agent               , "Agent");
         _tableMap.put(ORE.Aggregation         , "Aggregation");
         _tableMap.put(SKOS.Concept            , "Concept");
         _tableMap.put(SKOS.ConceptScheme      , "ConceptScheme");
         _tableMap.put(EDM.EuropeanaAggregation, "EuropeanaAggregation");
         _tableMap.put(EDM.Event               , "Event");
-        //_tableMap.put(CC.License              , "License");
+        _tableMap.put(CC.License              , "License");
         _tableMap.put(EDM.PhysicalThing       , "PhysicalThing");
         _tableMap.put(EDM.Place               , "Place");
         _tableMap.put(EDM.ProvidedCHO         , "ProvidedCHO");
@@ -81,19 +82,38 @@ public class MongoEDMHarvester implements LDHarvester
         //_tableMap.put(EDM.WebResource         , "record");
     }
 
-    private MongoClient    _cli;
-    private MongoDatabase  _db;
-    private Resource       _entityClass;
-    private MongoEDMParser _parser = new MongoEDMParser();
-    private HashFunction   _hf     = Hashing.md5();
+    private MongoClient        _cli;
+    private MongoDatabase      _db;
+    private Resource           _entityClass;
+    private MongoEDMParser     _parser = new MongoEDMParser();
+    private BasicDBObject      _sort   = null;
+    private Collection<String> _filter = Collections.EMPTY_LIST;
+    private MongoBulkFetch     _fetch;
+    private boolean            _fixIRI;
+    private boolean            _techMeta;
+
 
     public MongoEDMHarvester(MongoClient cli, MongoDatabase db
-                           , Resource entityClass)
+                           , Resource entityClass, boolean sort
+                           , boolean fixIRI, boolean techMeta)
     {
         _cli         = cli;
         _db          = db;
         _entityClass = entityClass;
+        if ( sort ) { _sort   = new BasicDBObject(ABOUT, 1); }
+        _fetch = new MongoBulkFetch(db);
+        _fixIRI = fixIRI;
+        _techMeta = techMeta;
     }
+
+    public MongoEDMHarvester(MongoClient cli, MongoDatabase db
+            , Resource entityClass, boolean sort
+            , boolean fixIRI)
+    { 
+        this(cli, db, entityClass, sort, fixIRI, true);
+    }
+
+    public void setFilter(Collection<String> filter) { _filter = filter; }
 
 
     /***************************************************************************
@@ -120,19 +140,19 @@ public class MongoEDMHarvester implements LDHarvester
 
 
     @Override
-    public void harvestAll(HarvesterCallback cb)
+    public void harvestAll(ResourceCallback cb)
     {
         fetchAll(ModelFactory.createDefaultModel(), cb);
     }
 
     @Override
-    public void harvest(String uri, HarvesterCallback cb)
+    public void harvest(String uri, ResourceCallback cb)
     {
         fetchOne(uri, ModelFactory.createDefaultModel(), cb);
     }
 
     @Override
-    public void harvest(Collection<String> uris, HarvesterCallback cb)
+    public void harvest(Collection<String> uris, ResourceCallback cb)
     {
         fetchMany(uris, ModelFactory.createDefaultModel(), cb);
     }
@@ -145,27 +165,65 @@ public class MongoEDMHarvester implements LDHarvester
      * Public Methods
      **************************************************************************/
 
-    public void harvestBySearch(String query, HarvesterCallback cb)
+    public void harvestBySearch(String query, ResourceCallback cb)
     {
         harvestBySearch(BasicDBObject.parse(query), cb);
     }
 
-    public void harvestBySearch(Bson filter, HarvesterCallback cb)
+    public Model harvestBySearch(String query)
+    {
+        return harvestBySearch(BasicDBObject.parse(query));
+    }
+
+    public void harvestBySearch(Bson filter, ResourceCallback cb)
     {
         fetchMany(filter, ModelFactory.createDefaultModel(), cb);
+    }
+
+    public Model harvestBySearch(Bson filter)
+    {
+        return fetchMany(filter, ModelFactory.createDefaultModel(), null);
+    }
+
+    public void harvestDataset(ResourceCallback cb, String... datasets)
+    { 
+        harvestBySearch(getDatasetQuery(datasets), cb);
+    }
+
+    public Model harvestDataset(String... datasets)
+    { 
+        return harvestBySearch(getDatasetQuery(datasets));
     }
 
 
     /***************************************************************************
      * Private Methods
      **************************************************************************/
+    
+    private String getDatasetQuery(String... datasets)
+    {
+        String str = null;
+        for ( String dataset : datasets )
+        {
+            if ( dataset.trim().isEmpty() ) { continue; }
+
+            str = (str == null ? "" : str + "|") + "(" + dataset + ")";
+        }
+        return "{'about': { $regex: '^/" + str + "/.*' }}";
+    }
 
     private String normalizeURI(String uri)
     {
         if ( uri.startsWith(EuropeanaDataUtils.NS) ) {
             String path = uri.substring(EuropeanaDataUtils.NS.length()-1);
-            if ( _entityClass != null      ) { return path;              }
-            if ( path.startsWith("/item/") ) { return path.substring(5); }
+
+            if ( path.startsWith("/place/")   ) { return uri; }
+            if ( path.startsWith("/concept/") ) { return uri; }
+            if ( path.startsWith("/agent/")   ) { return uri; }
+            if ( path.startsWith("/time/")    ) { return uri; }
+
+            if ( _entityClass != null       ) { return path;              }
+            if ( path.startsWith("/item/")  ) { return path.substring(5); }
         }
         return uri;
     }
@@ -181,27 +239,30 @@ public class MongoEDMHarvester implements LDHarvester
      * Private Methods - Fetch All
      **************************************************************************/
 
-    private Model fetchAll(Model model, HarvesterCallback cb)
+    private Model fetchAll(Model model, ResourceCallback cb)
     {
         MongoCollection<Document> col = getCollection();
         if ( col == null ) { return null; }
 
         Status status = new Status(col.count(), 0);
 
-        MongoCursor<Document> iter = col.find().batchSize(DEF_BATCHSIZE)
-                                        .iterator();
+        MongoCursor<Document> iter = sort(col.find())
+                                     .noCursorTimeout(true)
+                                     .batchSize(DEF_BATCHSIZE).iterator();
         try {
             while ( iter.hasNext() )
             {
                 status.cursor++;
                 Document doc = iter.next();
-                String id = doc.getString("about");
+
+                String id = doc.getString(ABOUT);
+                if ( _filter.contains(id) ) { continue; }
 
                 Resource r = isRecord(doc) ? parseRecord(doc, model)
                                            : _parser.parse(doc, model);
                 logSuccess(id, status);
 
-                if ( cb != null ) { cb.handle(r, status); }
+                if ( cb != null ) { cb.handle(id, r, status); }
             }
         }
         finally { iter.close(); }
@@ -214,7 +275,7 @@ public class MongoEDMHarvester implements LDHarvester
      * Private Methods - Fetch Many
      **************************************************************************/
 
-    private Model fetchMany(Collection<String> uris, Model model, HarvesterCallback cb)
+    private Model fetchMany(Collection<String> uris, Model model, ResourceCallback cb)
     {
         MongoCollection<Document> col = getCollection();
         if ( col == null ) { return null; }
@@ -226,7 +287,9 @@ public class MongoEDMHarvester implements LDHarvester
         {
             status.cursor++;
             String id = normalizeURI(uri);
-            filter.put("about", id);
+            if ( _filter.contains(id) ) { continue; }
+
+            filter.put(ABOUT, id);
 
             Document doc = col.find(filter).first();
             if ( doc == null ) { logNotFound(id, status); continue; }
@@ -235,32 +298,35 @@ public class MongoEDMHarvester implements LDHarvester
                                          : _parser.parse(doc, model);
             logSuccess(id, status);
 
-            if ( cb != null ) { cb.handle(r, status); }
+            if ( cb != null ) { cb.handle(uri, r, status); }
         }
         return model;
     }
 
-    private Model fetchMany(Bson filter, Model model, HarvesterCallback cb)
+    private Model fetchMany(Bson filter, Model model, ResourceCallback cb)
     {
         MongoCollection<Document> col = getCollection();
         if ( col == null ) { return null; }
 
         Status status = new Status(col.count(filter), 0);
 
-        MongoCursor<Document> iter = col.find(filter)
-                                        .batchSize(DEF_BATCHSIZE).iterator();
+        MongoCursor<Document> iter = sort(col.find(filter))
+                                    .noCursorTimeout(true)
+                                    .batchSize(DEF_BATCHSIZE).iterator();
         try {
             while ( iter.hasNext() )
             {
                 status.cursor++;
                 Document doc = iter.next();
-                String id = doc.getString("about");
+
+                String id = doc.getString(ABOUT);
+                if ( _filter.contains(id) ) { continue; }
 
                 Resource r = isRecord(doc) ? parseRecord(doc, model)
                                              : _parser.parse(doc, model);
                 logSuccess(id, status);
 
-                if ( cb != null ) { cb.handle(r, status); }
+                if ( cb != null ) { cb.handle(id, r, status); }
             }
         }
         finally { iter.close(); }
@@ -273,23 +339,25 @@ public class MongoEDMHarvester implements LDHarvester
      * Private Methods - Fetch One
      **************************************************************************/
 
-    private Resource fetchOne(String uri, Model model, HarvesterCallback cb)
+    private Resource fetchOne(String uri, Model model, ResourceCallback cb)
     {
+        String id = normalizeURI(uri);
+        if ( _filter.contains(id) ) { return null; }
+
         MongoCollection<Document> col = getCollection();
         if ( col == null ) { return null; }
 
-        String id     = normalizeURI(uri);
         Status status = new Status(1, 1);
 
-        BasicDBObject filter = new BasicDBObject("about", id);
-        Document      doc    = col.find(filter).first();
+        BasicDBObject filter = new BasicDBObject(ABOUT, id);
+        Document      doc    = col.find(filter).batchSize(1).first();
         if ( doc == null ) { logNotFound(id, status); return null; }
 
         Resource r   = isRecord(doc) ? parseRecord(doc, model)
                                      : _parser.parse(doc, model);
         logSuccess(id, status);
 
-        if ( cb != null ) { cb.handle(r, status); }
+        if ( cb != null ) { cb.handle(id, r, status); }
         return r;
     }
 
@@ -298,23 +366,32 @@ public class MongoEDMHarvester implements LDHarvester
      * Private Methods - Record
      **************************************************************************/
 
+    private FindIterable<Document> sort(FindIterable<Document> doc)
+    {
+        return ( _sort == null ? doc : doc.sort(_sort) );
+    }
+
     private boolean isRecord(Document doc)
     {
-        return doc.get("className")
-                  .equals("eu.europeana.corelib.solr.bean.impl.FullBeanImpl");
+        String str = (String)doc.get(CLASSNAME);
+        return ( str == null
+              || str.equals("eu.europeana.corelib.solr.bean.impl.FullBeanImpl"));
     }
 
     private Resource parseRecord(Document doc, Model model)
     {
-        parseCollectionName(doc, model);
+        parseEuropeanaAggregationFields(doc, model);
 
-        List<Document> list = fetch(doc, "providedCHOs", "proxies"
-                                       , "aggregations", "europeanaAggregation"
-                                       , "concepts", "places", "agents"
-                                       , "timespans", "licenses");
-        for ( Document nested : list ) { parseNestedEntity(nested, model); }
+        Map<DBRef,Document> refs = fetch(doc, PROVIDED_CHOS, PROXIES
+                                       , AGGREGATIONS, EUROPEANA_AGGREGATION
+                                       , CONCEPTS, PLACES, AGENTS
+                                       , TIMESPANS, LICENSES, SERVICES);
+        for ( DBRef ref : refs.keySet() )
+        {
+            parseNestedEntity(fixClassName(ref, refs.get(ref)), model);
+        }
 
-        String   id = "http://data.europeana.eu/item" + doc.getString("about");
+        String   id = "http://data.europeana.eu/item" + doc.getString(ABOUT);
         Resource r  = model.getResource(id);
 
         assureReferentialIntegrity(r);
@@ -322,29 +399,44 @@ public class MongoEDMHarvester implements LDHarvester
         return r;
     }
 
-    private void parseCollectionName(Document doc, Model model)
+    private Document fixClassName(DBRef ref, Document doc)
+    {
+        String type = doc.getString("className");
+        if ( type != null ) { return doc; }
+
+        String name = getClassFromCollection(ref.getCollectionName());
+        if ( name != null ) { doc.put("className", name); }
+        return doc;
+    }
+
+    private void parseEuropeanaAggregationFields(Document doc, Model model)
     {
         String id = "http://data.europeana.eu/aggregation/europeana"
-                  + doc.getString("about");
+                  + doc.getString(ABOUT);
         Resource aggr = model.getResource(id);
-        parseValue(aggr, EDM.collectionName, doc.get("europeanaCollectionName"));
+        parseValue(aggr, EDM.datasetName , doc.get(EUROPEANA_COLLECTION_NAME));
+        parseValue(aggr, EDM.completeness, doc.get(EUROPEANA_COMPLETENESS));
+        parseValue(aggr, DCTerms.created , doc.get("timestampCreated"));
+        parseValue(aggr, DCTerms.modified, doc.get("timestampUpdated"));
     }
 
     private void parseNestedEntity(Document doc, Model model)
     {
         _parser.parse(doc, model);
 
-        String cn = doc.getString("className");
+        String cn = doc.getString(CLASSNAME);
         if ( CLASS_AGGREGATION.equals(cn) ) { parseWebResources(doc, model); }
     }
 
     private void parseValue(Resource r, Property p, Object o)
     {
         if ( o == null             ) { return; }
-        if ( o instanceof String   ) { parseValue(r, p, (String)o);  return; }
-      //if ( o instanceof Boolean  ) { parseValue(r, p, (Boolean)o); return; }
-      //if ( o instanceof Double  ) { parseValue(r, p, (Double)o);   return; }
-        if ( o instanceof List     ) { parseValue(r, p, (List)o);    return; }
+        if ( o instanceof String   ) { parseValue(r, p, (String)o);    return; }
+      //if ( o instanceof Boolean  ) { parseValue(r, p, (Boolean)o);   return; }
+      //if ( o instanceof Double  ) { parseValue(r, p, (Double)o);     return; }
+        if ( o instanceof List     ) { parseValue(r, p, (List)o);      return; }
+        if ( o instanceof Number   ) { parseValue(r, p, o.toString()); return; }
+        if ( o instanceof Date     ) { parseValue(r, p, (Date)o);      return; }
 
         _log.error("Unknown object: " + o + " of type: " + o.getClass());
     }
@@ -355,11 +447,16 @@ public class MongoEDMHarvester implements LDHarvester
         r.addLiteral(p, str);
     }
 
+    private void parseValue(Resource r, Property p, Date date)
+    {
+        _dateFormat.setTimeZone(TimeZone.getTimeZone("UTC"));
+        r.addLiteral(p, _dateFormat.format(date));
+    }
+
     private void parseValue(Resource r, Property p, List list)
     {
         for ( Object o : list ) { parseValue(r, p, o); }
     }
-
 
     /***************************************************************************
      * Private Methods - Referential Integrity
@@ -367,7 +464,8 @@ public class MongoEDMHarvester implements LDHarvester
 
     public void assureReferentialIntegrity(Resource r)
     {
-        String dsIRI = getDatasetID(r.getURI());
+        String mrIRI = r.getURI();
+        String dsIRI = getDatasetID(mrIRI);
         Model  model = r.getModel();
 
         Map<String,String> map = new TreeMap();
@@ -378,12 +476,11 @@ public class MongoEDMHarvester implements LDHarvester
                 String iri = iter.next().getURI();
                 if ( isAbsoluteIRI(iri) ) { continue; }
 
-                String newIRI = fixRelativeIRI(iri, dsIRI);
+                String newIRI = (_fixIRI ? fixRelativeIRI(iri, dsIRI) : iri);
 
                 if ( newIRI != iri )
                 {
-                    _log.info("Renaming resource <" + iri
-                            + "> to <" + newIRI + ">");
+                    logRenResource(mrIRI, iri, newIRI);
                     renameResource(model.getResource(iri), newIRI);
                 }
                 map.put(iri, newIRI);
@@ -405,8 +502,7 @@ public class MongoEDMHarvester implements LDHarvester
             model.add(stmt.getSubject(), stmt.getPredicate()
                     , model.getResource(iri));
             model.remove(stmt);
-            _log.info("Fixed resource reference \"" + value
-                    + "\" to <" + iri + ">");
+            logFixedRef(mrIRI, value, iri);
         }
     }
 
@@ -416,20 +512,6 @@ public class MongoEDMHarvester implements LDHarvester
         return (i > 0 ? recordIRI.substring(0, i) : recordIRI);
     }
 
-    private String fixRelativeIRI(String iri, String dsIRI)
-    {
-        if ( iri.startsWith("/")
-          || iri.startsWith("#") ) { return dsIRI + iri; }
-        
-        if ( iri.startsWith("../") 
-          || iri.startsWith("./") ) { return dsIRI + "/" + iri; }
-
-        int i = iri.indexOf("/");
-        if ( i > 0 && iri.lastIndexOf(':', i) < 0) { return dsIRI + "/" + iri; }
-
-        return iri;
-    }
-
 
     /***************************************************************************
      * Private Methods - Web Resources
@@ -437,44 +519,42 @@ public class MongoEDMHarvester implements LDHarvester
 
     private void parseWebResources(Document aggr, Model model)
     {
-        String recordId = aggr.getString("aggregatedCHO").replace("/item","");
+        String recordId = aggr.getString(AGGREGATED_CHO).replace("/item","");
 
-        for ( Document wr :  fetch(aggr, "webResources"))
+        Collection<Document> wrs = fetch(aggr, WEB_RESOURCES).values();
+
+        if ( !_techMeta ) { return; }
+
+        Map<Object,DBRef>   map  = new HashMap();
+        Map<DBRef,Document> twrs = new HashMap();
+        for ( Document wr :  wrs)
         {
-            parseWebResource(wr, recordId, model);
+            String id = getTechMetaID(recordId, wr.getString(ABOUT));
+            DBRef ref = new DBRef("WebResourceMetaInfo", id);
+            twrs.put(ref, null);
+            map.put(wr.get("_id"), ref);
+        }
+        _fetch.deref(twrs, "WebResourceMetaInfo");
+
+        for ( Document wr :  wrs)
+        {
+            DBRef ref = map.get(wr.get("_id"));
+            Document doc = appendTechMeta(twrs.get(ref), wr);
+            if ( !doc.containsKey("fileSize") )
+            {
+                logNoTechMeta(recordId, wr.getString(ABOUT));
+            }
+            _parser.parse(fixClassName(ref, doc), model);
         }
     }
 
-    private Resource parseWebResource(Document doc, String recordId
-                                    , Model model)
+    private Document appendTechMeta(Document docTm, Document docWr)
     {
-        return _parser.parse(appendTechMeta(recordId, doc), model);
-    }
-
-    private String getTechMetaID(String recordID, Document docWr)
-    {
-        String   aboutWr  = docWr.getString("about");
-        HashCode hashCode = _hf.newHasher()
-                .putString(aboutWr, Charsets.UTF_8)
-                .putString("-", Charsets.UTF_8)
-                .putString(recordID, Charsets.UTF_8)
-                .hash();
-        return hashCode.toString();
-    }
-
-    private Document appendTechMeta(String recordId, Document docWr)
-    {
-        String   id    = getTechMetaID(recordId, docWr);
-        Document docTm = fetch(_db.getCollection("WebResourceMetaInfo"), id);
         if ( docTm == null ) { return docWr; }
 
-        Document ret = appendFields(docTm, docWr, "imageMetaInfo"
-                                  , "audioMetaInfo", "videoMetaInfo");
-        if ( !ret.containsKey("fileSize") ) {
-            _log.error("Technical metadata empty for record <" + recordId
-                     + ">, media resource <" + id + ">");
-        }
-        return ret;
+        return appendFields(docTm, docWr
+                          , "imageMetaInfo", "audioMetaInfo", "videoMetaInfo"
+                          , "textMetaInfo");
     }
     
 
@@ -495,49 +575,47 @@ public class MongoEDMHarvester implements LDHarvester
      * Private Methods - Fetch References
      **************************************************************************/
 
-    private List<Document> fetch(Document doc, String... fields)
+    private Map<DBRef,Document> fetch(Document doc, String... fields)
     {
-        List empty = Collections.EMPTY_LIST;
-        List list  = empty;
+        Map<DBRef,Document> map = new HashMap();
         for ( String field : fields )
         {
-            Object obj = doc.get(field);
-            if ( obj == null   ) { continue; }
-
-            if ( list == empty ) { list = new ArrayList<Document>(10); }
-            fetch(list, obj);
+            _fetch.lookupRef(doc.get(field),map);
         }
-        return list;
-    }
+        _fetch.deref(map);
 
-    private void fetch(List<Document> ret, Object obj)
-    {
-        if ( obj instanceof List   ) { fetch(ret, (List)obj);  }
-        if ( obj instanceof DBRef  ) { fetch(ret, (DBRef)obj); }
-    }
-
-    private void fetch(List<Document> ret, List list)
-    {
-        for ( Object o : list ) { fetch(ret, o); }
-    }
-
-    private void fetch(List<Document> ret, DBRef ref)
-    {
-        String   col = ref.getCollectionName();
-        Document doc = fetch(_db.getCollection(col), (ObjectId)ref.getId());
-        if (doc != null) { ret.add(doc); }
-    }
-
-    private Document fetch(MongoCollection<Document> col, Object id)
-    {
-        if (col == null) { return null; }
-        return col.find(new BasicDBObject("_id", id)).first();
+        return map;
     }
 
 
     /***************************************************************************
      * Private Methods - Logging
      **************************************************************************/
+
+    private void logRenResource(String recordId, String iri, String newIri)
+    {
+        if (!_log.isInfoEnabled()) { return; }
+
+        _log.info("Renaming resource <" + iri + ">"
+                + " to <" + newIri + ">"
+                + " for record <" + recordId + ">");
+    }
+
+
+    private void logFixedRef(String recordId, String value, String iri)
+    {
+        if (!_log.isInfoEnabled()) { return; }
+
+        _log.info("Fixed resource reference \"" + value + "\""
+                + " to <" + iri + ">"
+                + " for record <" + recordId + ">");
+    }
+
+    private void logNoTechMeta(String recordId, String id)
+    {
+        _log.error("Technical metadata empty for record <" + recordId
+                + ">, media resource <" + id + ">");
+    }
 
     private void logSuccess(String id, Status status)
     {

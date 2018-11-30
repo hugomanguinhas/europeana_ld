@@ -77,6 +77,17 @@ public abstract class ToolkitCmd
         return file;
     }
 
+    protected File getOutputDir(CommandLine line)
+    {
+        File file = new File(line.getOptionValue("out"));
+        if ( file.exists() && !file.isDirectory() )
+        {
+            throw new RuntimeException("The output must be a directory!");
+        }
+        if ( !file.exists() ) { file.mkdirs(); }
+        return file;
+    }
+
     protected void printUsage(Options opts)
     {
         String name = getProperty("info.name");

@@ -20,16 +20,16 @@ public class EBUCORE
 
     public static final Property audioChannelNumber
         = createProperty(NS + "audioChannelNumber");
-    public static final Property bitRate     = createProperty(NS + "bitRate");
-    public static final Property duration    = createProperty(NS + "duration");
-    public static final Property fileSize    = createProperty(NS + "fileSize");
-    public static final Property frameRate   = createProperty(NS + "frameRate");
-    public static final Property hasMimeType = createProperty(NS + "hasMimeType");
-    public static final Property height      = createProperty(NS + "height");
-    public static final Property orientation = createProperty(NS + "orientation");
-    public static final Property sampleRate  = createProperty(NS + "sampleRate");
-    public static final Property sampleSize  = createProperty(NS + "sampleSize");
-    public static final Property width       = createProperty(NS + "width");
+    public static final Property bitRate      = createProperty(NS + "bitRate");
+    public static final Property duration     = createProperty(NS + "duration");
+    public static final Property fileByteSize = createProperty(NS + "fileByteSize");
+    public static final Property frameRate    = createProperty(NS + "frameRate");
+    public static final Property hasMimeType  = createProperty(NS + "hasMimeType");
+    public static final Property height       = createProperty(NS + "height");
+    public static final Property orientation  = createProperty(NS + "orientation");
+    public static final Property sampleRate   = createProperty(NS + "sampleRate");
+    public static final Property sampleSize   = createProperty(NS + "sampleSize");
+    public static final Property width        = createProperty(NS + "width");
     
     
     

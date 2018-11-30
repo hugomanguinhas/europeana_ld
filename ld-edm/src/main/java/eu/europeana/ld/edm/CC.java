@@ -12,7 +12,7 @@ import static org.apache.jena.rdf.model.ResourceFactory.*;
 public class CC
 {
     public static final String PREFIX = "cc";
-    public static final String NS     = "https://creativecommons.org/ns#";
+    public static final String NS     = "http://creativecommons.org/ns#";
 
     public static final Resource License      = createResource(NS + "License");
     public static final Property deprecatedOn = createProperty(NS, "deprecatedOn");

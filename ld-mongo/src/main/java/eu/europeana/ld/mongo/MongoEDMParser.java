@@ -3,7 +3,9 @@
  */
 package eu.europeana.ld.mongo;
 
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 import java.util.Properties;
 
@@ -13,6 +15,7 @@ import org.apache.jena.vocabulary.RDF;
 import org.apache.log4j.Logger;
 import org.bson.Document;
 
+import eu.europeana.ld.edm.EDM;
 import eu.europeana.ld.harvester.LDHarvester;
 import eu.europeana.ld.mongo.MongoClassDef.PropertyDef;
 
@@ -29,7 +32,9 @@ public class MongoEDMParser
                                                       , "edmPreviewNoDistribute"
                                                       , "webResources"
                                                       , "fileFormat");
-    private static String     DATA_NS = "http://data.europeana.eu";
+    public static String     DATA_NS = "http://data.europeana.eu";
+
+    private static SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd");
 
     protected Properties _props;
 
@@ -42,23 +47,26 @@ public class MongoEDMParser
 
     public Resource parse(Document doc, Model model)
     {
-        String uri = doc.getString("about");
-        if ( uri == null ) {
-            _log.error("Missing uri for <" + doc.getString("_id")
-                     + "> of type <" + doc.getString("className") + ">");
+        String uri  = doc.getString("about");
+        String type = doc.getString("className");
+        if ( uri == null ) { 
+            logMissingURI(doc.getString("_id"), type);
             return null;
         }
 
-        if ( uri.startsWith("/") ) { uri = DATA_NS + uri; }
+        if ( uri.startsWith("/") )
+        { 
+            if ( uri.startsWith("/aggregation/")
+              || uri.startsWith("/proxy/") ) { uri = DATA_NS + uri; }
+            else { uri = DATA_NS + "/item" + uri; }
+        }
 
         Resource resource = (uri == null ? model.createResource()
                                          : model.getResource(uri));
 
-        String        type = doc.getString("className");
         MongoClassDef def  = MongoClassDef.getDefinition(type);
-        if ( def == null ) {
-            _log.error("Unknown entity: " + type); return null;
-        }
+        if ( def == null ) { logUnknown(type); return null; }
+
         resource.addProperty(RDF.type, def.getType());
 
         parseEntity(doc, new ParserContext(resource, def));
@@ -87,9 +95,8 @@ public class MongoEDMParser
             if ( filter(key) ) { continue; }
 
             PropertyDef p = def.get(key);
-            if ( p == null ) { 
-                _log.error("Unsupported label: " + key
-                         + " for definition: " + def.getType().getLocalName());
+            if ( p == null ) {
+                logUnsupported(key, def.getType().getLocalName());
                 continue;
             }
 
@@ -106,9 +113,10 @@ public class MongoEDMParser
     private void parse(Object o, ParserContext ctxt)
     {
         if ( o == null             ) { return; }
-        if ( o instanceof String   ) { parseString((String)o, ctxt); return;  }
-        if ( o instanceof List     ) { parseArray((List)o, ctxt);    return;  }
-        if ( o instanceof Document ) { parseDoc((Document)o, ctxt);  return;  }
+        if ( o instanceof String   ) { parseString((String)o, ctxt); return; }
+        if ( o instanceof List     ) { parseArray((List)o, ctxt);    return; }
+        if ( o instanceof Document ) { parseDoc((Document)o, ctxt);  return; }
+        if ( o instanceof Date     ) { parseDate((Date)o, ctxt);     return; }
 
         ctxt.newValue(o);
       //if ( o instanceof Boolean  ) { ctxt.newValue((Boolean)o);    return;  }
@@ -118,8 +126,17 @@ public class MongoEDMParser
 
     private void parseDoc(Document d, ParserContext ctxt)
     {
-        if ( isSingleton(d) ) { parseSingleton(d, ctxt); return; }
-        parseLanguageMap(d, ctxt);
+        for ( String lang : d.keySet() )
+        {
+            ctxt.setLang(lang.equals("def") ? null : lang);
+            parse(d.get(lang), ctxt);
+        }
+        ctxt.setLang(null);
+    }
+
+    private void parseDate(Date date, ParserContext ctxt)
+    {
+        ctxt.newValue(DATE_FORMAT.format(date));
     }
 
     private void parseString(String str, ParserContext ctxt)
@@ -135,21 +152,6 @@ public class MongoEDMParser
         for ( Object o : list ) { parse(o, ctxt); }
     }
 
-    private void parseSingleton(Document doc, ParserContext ctxt)
-    {
-        parse(doc.get("def"), ctxt);
-    }
-
-    private void parseLanguageMap(Document doc, ParserContext ctxt)
-    {
-        for ( String lang : doc.keySet() )
-        {
-            ctxt.setLang(lang);
-            parse(doc.get(lang), ctxt);
-        }
-        ctxt.setLang(null);
-    }
-
     private boolean isRelativeResource(String uri)
     {
         return (uri.startsWith("/aggregation/")
@@ -157,9 +159,24 @@ public class MongoEDMParser
              || uri.startsWith("/proxy/"));
     }
 
-    private boolean isSingleton(Document doc)
+
+    /***************************************************************************
+     * Private Methods - Logging
+     **************************************************************************/
+
+    private void logUnknown(String type)
     {
-        return doc.containsKey("def");
+        _log.error("Unknown entity: " + type);
+    }
+
+    private void logMissingURI(String id, String type)
+    {
+        _log.error("Missing uri for <" + id + "> of type <" + type + ">");
+    }
+
+    private void logUnsupported(String label, String type)
+    {
+        _log.error("Unsupported label: " + label + " for definition: " + type);
     }
 
 
@@ -191,6 +208,11 @@ public class MongoEDMParser
 
         public void newValue(Object o)
         {
+            if ( EDM.hasColorSpace.equals(_property.getProperty())
+              && o instanceof String)
+            {
+                if ( "Gray".equals(o) ) { o = "grayscale"; }
+            }
             _property.newValue(o, this);
         }
     }

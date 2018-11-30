@@ -1,0 +1,757 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/3D-COFORM+consortium">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>3D-COFORM consortium</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Diputació+de+Barcelona">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Diputació de Barcelona</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/EUInsideDA">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>EUInsideDA</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Institut+d+Estudis+Ilerdencs.+Servei+d+Arxiu+i+Llegats">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Institut d'Estudis Ilerdencs. Servei d'Arxiu i Llegats</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Hispana">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Hispana</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Bibliothèques+Virtuelles+Humanistes">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Bibliothèques Virtuelles Humanistes</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Mediateca+de+la+Universidad+de+Oviedo+-+Encycloasturias">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Mediateca de la Universidad de Oviedo - Encycloasturias</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Filmoteca+de+Catalunya">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Filmoteca de Catalunya</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Biblioteca+de+l+Esport+de+la+Generalitat+de+Catalunya">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Biblioteca de l'Esport de la Generalitat de Catalunya</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Digitising+Contemporary+Art">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Digitising Contemporary Art</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/HOPE+-+Heritage+of+the+People+s+Europe">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>HOPE - Heritage of the People's Europe</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Centre+Excursionista+de+Catalunya+CEC+">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Centre Excursionista de Catalunya (CEC)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Athena">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Athena</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Spletna+galerija+Semantika+d.o.o.">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Spletna galerija, Semantika d.o.o.</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Archives+Portal+Europe">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Archives Portal Europe</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Centre+de+Documentació+i+Museu+Tèxtil">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Centre de Documentació i Museu Tèxtil</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/EUscreen+Project">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>EUscreen Project</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Pamiatkový+úrad+SR">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Pamiatkový úrad SR</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Archives+Départementales+de+la+Gironde">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Archives Départementales de la Gironde</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/CulturaItalia">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>CulturaItalia</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Kultura.hr+-+Ministry+of+Culture+of+the+Republic+of+Croatia">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Kultura.hr - Ministry of Culture of the Republic of Croatia</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/thinkMOTION">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>thinkMOTION</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Digitale+Collectie">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Digitale Collectie</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/EuropeanaLocal+Austria">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>EuropeanaLocal Austria</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Centre+de+Documentació+de+l+Orfeó+Català">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Centre de Documentació de l'Orfeó Català</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/EuropeanaConnect+-+EOD">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>EuropeanaConnect - EOD</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/MIMO+-+Musical+Instrument+Museums+Online">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>MIMO - Musical Instrument Museums Online</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Institut+Cartogràfic+de+Catalunya">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Institut Cartogràfic de Catalunya</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Europeana+1989">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Europeana 1989</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/MUSIT">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>MUSIT</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/moteur+Collections+France">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>moteur Collections ; France</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/The+Natural+Europe+Project">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>The Natural Europe Project</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Irish+Manuscripts+Commission">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Irish Manuscripts Commission</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Rijksmuseum">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Rijksmuseum</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Slovenian+National+E-content+Aggregator">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Slovenian National E-content Aggregator</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Instituto+de+Historia+Contemporânea+da+Faculdade+de+Ciências+Sociais+e+Humanas+da+Universidade+Nova+Lisboa+–+Portugal">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Instituto de Historia Contemporânea da Faculdade de Ciências Sociais e Humanas da Universidade Nova Lisboa – Portugal</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/National+Library+of+Finland">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>National Library of Finland</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/EuropeanaPhotography">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>EuropeanaPhotography</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Biblioteca+de+Catalunya">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Biblioteca de Catalunya</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Federacja+Bibliotek+Cyfrowych">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Federacja Bibliotek Cyfrowych</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/ConceptScheme">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Cyprus+Ministry+of+Education+and+Culture">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Cyprus Ministry of Education and Culture</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Kulturpool">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Kulturpool</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Institut+de+Cultura+de+Barcelona+ICUB+">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Institut de Cultura de Barcelona (ICUB)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Europeana+development">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Europeana development</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/The+European+Library">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>The European Library</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Biblioteca+de+Comerç+i+Turisme+de+la+Generalitat+de+Catalunya">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Biblioteca de Comerç i Turisme de la Generalitat de Catalunya</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Swedish+Open+Cultural+Heritage+|+K-samsök">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Swedish Open Cultural Heritage | K-samsök</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Museo+Galileo+-+Istituto+e+Museo+di+Storia+della+Scienza">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Museo Galileo - Istituto e Museo di Storia della Scienza</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Arts+Council+Norway">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Arts Council Norway</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Europeana+Food+and+Drink">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Europeana Food and Drink</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Institut+National+de+l+Audiovisuel">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Institut National de l'Audiovisuel</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Fundació+Bosch+i+Cardellach+Gremi+de+Fabricants+de+Sabadell">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Fundació Bosch i Cardellach ; Gremi de Fabricants de Sabadell</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/IRCAM-Institut+de+Recherche+et+Coordination+Acoustique+Musique">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>IRCAM-Institut de Recherche et Coordination Acoustique/Musique</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Federico+Zeri+Foundation">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Federico Zeri Foundation</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Europeana+Fashion">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Europeana Fashion</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Museo+Nacional+del+Prado">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Museo Nacional del Prado</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/ICM+Ard-Media">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>ICM Ard-Media</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Europeana+280">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Europeana 280</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Latvijas+Nacionâlâ+Bibliotçka">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Latvijas Nacionâlâ Bibliotçka</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Diplomatic+Documents+of+Switzerland+dodis.ch">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Diplomatic Documents of Switzerland, dodis.ch</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Slovenski+nacionalni+agregator+e-vsebin+-+Slovenian+National+E-content+Aggregator">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Slovenski nacionalni agregator e-vsebin - Slovenian National E-content Aggregator</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Universitat+de+Lleida">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Universitat de Lleida</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Judaica+Europeana">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Judaica Europeana</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Department+of+Information+Management+Hacettepe+University">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Department of Information Management, Hacettepe University</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Bulgariana">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Bulgariana</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Εθνικό+Κέντρο+Τεκμηρίωσης+ΕΚΤ+">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Εθνικό Κέντρο Τεκμηρίωσης (ΕΚΤ)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/http+digiphil.hu+">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>http://digiphil.hu/</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Instituto+dos+Museus+e+da+Conservação">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Instituto dos Museus e da Conservação</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Associació+de+Mestres+Rosa+Sensat">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Associació de Mestres Rosa Sensat</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Hellenic+Aggregator+at+Veria+Public+Library">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Hellenic Aggregator at Veria Public Library</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Thyssen-Bornemisza+Museum">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Thyssen-Bornemisza Museum</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Médiathèque+Valais+-+Martigny">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Médiathèque Valais - Martigny</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Wikimedia+Commons+Community">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Wikimedia Commons Community</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/DISMARC">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>DISMARC</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Universitat+de+Girona.+Biblioteca">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Universitat de Girona. Biblioteca</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Liberalisme">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Liberalisme</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Erfgoedplus.be">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Erfgoedplus.be</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/EAGLE">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>EAGLE</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Europeana+1914-1918">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Europeana 1914-1918</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/MaNDA+-+Hungarian+National+Digital+Archive+and+Film+Institute">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>MaNDA - Hungarian National Digital Archive and Film Institute</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Niedersächsische+Staats-+und+Universitätsbibliothek+Göttingen">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Niedersächsische Staats- und Universitätsbibliothek Göttingen</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Bibliothèque+municipale+de+Lyon">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Bibliothèque municipale de Lyon</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Landesarchiv+Baden-Württemberg">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Landesarchiv Baden-Württemberg</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Biblioteca+Virtual+Miguel+de+Cervantes">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Biblioteca Virtual Miguel de Cervantes</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Europeana+Local">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Europeana Local</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Universitat+de+Barcelona">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Universitat de Barcelona</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/BHL+Europe">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>BHL Europe</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Arxiu+Històric+de+Girona">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Arxiu Històric de Girona</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Slovenski+nacionalni+agregator+e-vsebin">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Slovenski nacionalni agregator e-vsebin</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Daguerreobase">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Daguerreobase</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/EuropeanaLocal+Sweden">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>EuropeanaLocal Sweden</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Slovak+national+gallery">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Slovak national gallery</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/University+College+Dublin+UCD+Library">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>University College Dublin, UCD Library</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Europeana+Inside+Sweden">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Europeana Inside Sweden</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/ECLAP+e-library+for+Performing+Arts">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>ECLAP, e-library for Performing Arts</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/CultureGrid">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>CultureGrid</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Linked+Heritage">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Linked Heritage</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Europeana">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Europeana</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Ateneu+Barcelonès">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Ateneu Barcelonès</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Universitätsbibliothek+Heidelberg">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Universitätsbibliothek Heidelberg</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Universitat+Autònoma+de+Barcelona">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Universitat Autònoma de Barcelona</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/ASSETS">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>ASSETS</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/RNOD+-+Portugal">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>RNOD - Portugal</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/KAMRA">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>KAMRA</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/EuropeanaTravel">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>EuropeanaTravel</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Deutsche+Digitale+Bibliothek">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Deutsche Digitale Bibliothek</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/STERNA">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>STERNA</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Biblioteca+Museu+Víctor+Balaguer">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Biblioteca Museu Víctor Balaguer</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Cité+de+la+musique">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Cité de la musique</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/OpenUp+">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>OpenUp!</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Universitat+Pompeu+Fabra">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Universitat Pompeu Fabra</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Österreichische+Mediathek">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Österreichische Mediathek</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Swiss+National+Library">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Swiss National Library</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/cIMeC+-+Institutul+de+Memorie+Culturală">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>cIMeC - Institutul de Memorie Culturală</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/EuropeanaLocal+Deutschland">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>EuropeanaLocal Deutschland</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/DK-National+Aggregation+Service">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>DK-National Aggregation Service</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/European+Commission">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>European Commission</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Universitat+Politècnica+de+Catalunya">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Universitat Politècnica de Catalunya</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Centre+Excursionista+de+Catalunya">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Centre Excursionista de Catalunya</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/EFG+-+The+European+Film+Gateway">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>EFG - The European Film Gateway</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Musées+lausannois">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Musées lausannois</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/EUscreenXL">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>EUscreenXL</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Biblioteca+Nazionale+Centrale+di+Firenze">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Biblioteca Nazionale Centrale di Firenze</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/DM2E">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>DM2E</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Europeana+Sounds">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Europeana Sounds</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/AthenaPlus">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>AthenaPlus</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/EuropeanaLocal+Portugal">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>EuropeanaLocal Portugal</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Centre+de+Lectura+de+Reus">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Centre de Lectura de Reus</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/ICAB">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>ICAB</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Békés+Megyei+Tudásház+es+Könyvtár+HU">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Békés Megyei Tudásház es Könyvtár, HU</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/The+Great+War+Archive+University+of+Oxford">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>The Great War Archive, University of Oxford</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Регионална+библиотека+ПЕНЧО+СЛАВЕЙКОВ+-+Варна+Public+Library+-+Varna">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Регионална библиотека ПЕНЧО СЛАВЕЙКОВ - Варна / Public Library - Varna</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/OAPEN">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>OAPEN</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/3D+ICONS">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>3D ICONS</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Fundação+Calouste+Gulbenkian+-+Portugal">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Fundação Calouste Gulbenkian - Portugal</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Muis+-Museums+Public+Portal">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Muis -Museums Public Portal</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/EuropeanaLocal+Romania">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>EuropeanaLocal Romania</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/University+of+Patras+Library+and+Information+Center">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>University of Patras/Library and Information Center</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Vlaamse+Kunstcollectie">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Vlaamse Kunstcollectie</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/LT-Aggregator+Service+National+Library+of+Lithuania">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>LT-Aggregator Service National Library of Lithuania</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Národní+muzeum+National+Museum+Czech+Republic">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Národní muzeum, National Museum, Czech Republic</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Across+Limits">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Across Limits</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Biblioteca+de+l+Orfeó+Català">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Biblioteca de l'Orfeó Català</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Universitat+de+Girona.+Biblioteca.+Fons+Bertrana">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Universitat de Girona. Biblioteca. Fons Bertrana</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/CARARE">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>CARARE</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Partage+Plus">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Partage Plus</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/LoCloud">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>LoCloud</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/EuroPhoto">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>EuroPhoto</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/Slovenské+národné+múzeum">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>Slovenské národné múzeum</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europeana.eu/provider/DIZI">
+    <skos:inScheme rdf:resource="http://data.europeana.eu/provider/ConceptScheme"/>
+    <skos:prefLabel>DIZI</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+</rdf:RDF>

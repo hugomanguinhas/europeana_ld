@@ -37,18 +37,18 @@
       ]
     },
     {
-      "id": "http://data.europeana.eu/place/base/2",
+      "id": "http://data.europeana.eu/place/base/999",
       "type": "Place",
       "prefLabel": "The Hague",
-      "edm:country": "Netherlands",
       "isPartOf": {
-        "id": "http://data.europeana.eu/place/base/200",
+        "id": "http://data.europeana.eu/place/base/109",
         "prefLabel": "Netherlands"
       }
     },
     {
       "id": "http://data.europeana.eu/concept/base/2",
-      "type": "Concept"
+      "type": "Concept",
+      "prefLabel": "Architecture"
     }
   ]
 }

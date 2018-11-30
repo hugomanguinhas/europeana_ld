@@ -1,8 +1,10 @@
 package eu.europeana.ld.edm;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.sparql.vocabulary.FOAF;
@@ -26,6 +28,11 @@ public class EDM
     public static final String NS
         = "http://www.europeana.eu/schemas/edm/";
 
+    public static final String JSONLD_CONTEXT
+        = "http://www.europeana.eu/schemas/context/edm.jsonld";
+    public static final String ENTITY_JSONLD_CONTEXT
+        = "http://www.europeana.eu/schemas/context/entity.jsonld";
+
     public static final Resource ProvidedCHO          = createResource(NS + "ProvidedCHO");
     public static final Resource EuropeanaAggregation = createResource(NS + "EuropeanaAggregation");
     public static final Resource WebResource          = createResource(NS + "WebResource");
@@ -34,12 +41,14 @@ public class EDM
     public static final Resource TimeSpan             = createResource(NS + "TimeSpan");
     public static final Resource Event                = createResource(NS + "Event");
     public static final Resource PhysicalThing        = createResource(NS + "PhysicalThing");
+    public static final Resource NonInformationResource = createResource(NS + "NonInformationResource");
 
     public static final Property about                = createProperty(RDF.getURI(), "about");
     public static final Property aggregatedCHO        = createProperty(NS, "aggregatedCHO");
     public static final Property begin                = createProperty(NS, "begin");
     public static final Property country              = createProperty(NS, "country");
-    public static final Property collectionName       = createProperty(NS, "collectionName");
+    public static final Property datasetName          = createProperty(NS, "datasetName");
+    public static final Property completeness         = createProperty(NS, "completeness");
     public static final Property currentLocation      = createProperty(NS, "currentLocation");
     public static final Property dataProvider         = createProperty(NS, "dataProvider");
     public static final Property end                  = createProperty(NS, "end");
@@ -80,16 +89,57 @@ public class EDM
     public  static Resource[] CLASSES
         = { EDM.ProvidedCHO, ORE.Aggregation, EDM.EuropeanaAggregation
           , ORE.Proxy, EDM.WebResource
-          , EDM.Place, EDM.Agent, EDM.TimeSpan, SKOS.Concept, CC.License };
+          , EDM.Place, EDM.Agent, EDM.TimeSpan, SKOS.Concept, CC.License
+          , SVCS.Service };
 
     public static String[] NAMESPACES
         = { RDF.getURI(), RDFS.getURI(), EDM.NS, DC.NS, DCTerms.NS, FOAF.NS
-          , ORE.NS, OWL.NS, RDAGR2.NS, SKOS.getURI(), ODRL.NS };
+          , ORE.NS, OWL.NS, RDAGR2.NS, SKOS.getURI(), ODRL.NS
+          , EBUCORE.NS, SVCS.NS, DOAP.NS };
+
+    public  static Property[] MEDIA_PROPERTIES
+        = { EDM.codecName, EBUCORE.hasMimeType, EBUCORE.fileByteSize
+          , EBUCORE.duration, EBUCORE.width, EBUCORE.height
+          , EDM.spatialResolution, EBUCORE.sampleSize, EBUCORE.sampleRate
+          , EBUCORE.bitRate, EBUCORE.frameRate, EDM.hasColorSpace
+          , EDM.componentColor, EBUCORE.orientation, EBUCORE.audioChannelNumber
+          };
 
     public static Map<String,String> PREFIXES = new HashMap();
 
     public static Resource[] CONTEXTUAL_ENTITIES
         = { Place, Agent, SKOS.Concept, TimeSpan };
+
+    public static boolean isContextualClass(Resource r)
+    {
+        return Arrays.asList(CONTEXTUAL_ENTITIES).contains(r);
+    }
+
+    public static Resource getResourceByQName(String name)
+    {
+        int i = name.indexOf(':');
+        if ( i <= 0 ) { return null; }
+
+        String ns = PREFIXES.get(name.substring(0,i));
+        if ( ns == null ) { return null; }
+        return createResource(ns + name.substring(i+1));
+    }
+
+    public static Property getPropertyByQName(String name)
+    {
+        int i = name.indexOf(':');
+        if ( i <= 0 ) { return null; }
+
+        String ns = PREFIXES.get(name.substring(0,i));
+        if ( ns == null ) { return null; }
+        return createProperty(ns + name.substring(i+1));
+    }
+
+    public static Model setPrefixes(Model m)
+    {
+        m.setNsPrefixes(PREFIXES);
+        return m;
+    }
 
     static {
         PREFIXES.put("dc"          , DC.NS);
@@ -107,5 +157,7 @@ public class EDM
         PREFIXES.put("xsd"         , XSD.NS);
         PREFIXES.put(CC.PREFIX     , CC.NS);
         PREFIXES.put(ODRL.PREFIX   , ODRL.NS);
+        PREFIXES.put(SVCS.PREFIX   , SVCS.NS);
+        PREFIXES.put(DOAP.PREFIX   , DOAP.NS);
     }
 }

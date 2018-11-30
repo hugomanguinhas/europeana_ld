@@ -19,5 +19,5 @@ public class SVCS
 
     public static final Resource Service     = createResource(NS + "Service");
 
-    public static final Property has_service = createProperty(NS + "Service");
+    public static final Property has_service = createProperty(NS + "has_service");
 }

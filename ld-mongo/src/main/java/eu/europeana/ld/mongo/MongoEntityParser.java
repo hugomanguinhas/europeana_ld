@@ -32,6 +32,8 @@ public class MongoEntityParser extends MongoEDMParser
 
     public Resource parse(Document doc, Model model)
     {
+        if ( doc == null ) { return null; }
+
         String uri = doc.getString("codeUri");
         if ( uri == null ) { return null; }
 

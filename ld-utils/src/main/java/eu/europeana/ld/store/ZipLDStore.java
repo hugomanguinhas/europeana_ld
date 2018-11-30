@@ -5,12 +5,10 @@ package eu.europeana.ld.store;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.StringBufferInputStream;
-import java.io.StringReader;
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.zip.ZipEntry;
@@ -21,9 +19,10 @@ import org.apache.commons.io.IOUtils;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.riot.Lang;
 
+import eu.europeana.ld.io.FileNaming;
 import eu.europeana.ld.jena.DefaultWriter;
 import eu.europeana.ld.jena.JenaUtils;
-import eu.europeana.ld.jena.ModelWriter;
+import eu.europeana.ld.jena.RecordWriter;
 
 /**
  * @author Hugo Manguinhas <hugo.manguinhas@europeana.eu>
@@ -32,14 +31,14 @@ import eu.europeana.ld.jena.ModelWriter;
 public class ZipLDStore implements LDStore
 {
     private File            _src;
-    private ModelWriter     _writer;
+    private RecordWriter     _writer;
     private Lang            _format;
     private FileNaming      _naming;
     private File            _tmp;
     private ZipOutputStream _zos;
     private Set<String>     _entries = new TreeSet();
 
-    public ZipLDStore(File src, ModelWriter writer
+    public ZipLDStore(File src, RecordWriter writer
                     , Lang format, FileNaming naming)
     {
         _src    = src;
@@ -50,7 +49,8 @@ public class ZipLDStore implements LDStore
 
     public ZipLDStore(File src, Lang format)
     {
-        this(src, new DefaultWriter(format), format, new DefaultFileNaming());
+        this(src, new DefaultWriter(format), format
+           , new FileNaming.DefaultFileNaming());
     }
 
     @Override
@@ -77,7 +77,7 @@ public class ZipLDStore implements LDStore
         _entries.add(name);
         try {
             _zos.putNextEntry(new ZipEntry(name));
-            _writer.write(content, _zos);
+            _writer.write(content.getResource(uri), _zos);
             _zos.closeEntry();
         }
         catch (IOException e) { e.printStackTrace(); }
@@ -114,28 +114,6 @@ public class ZipLDStore implements LDStore
         _entries.clear();
         _tmp = null;
     }
-
-    public static interface FileNaming
-    {
-        public String convert(String uri, Lang format);
-    }
-
-    public static class DefaultFileNaming implements FileNaming
-    {
-        public String convert(String uri, Lang format)
-        {
-            int i = uri.indexOf("://");
-            return appendExtension( i >= 0 ? uri.substring(i+3) : uri, format);
-        }
-
-        protected String appendExtension(String str, Lang format)
-        {
-            String ext = format.getFileExtensions().get(0);
-            return str + "." + ext;
-        }
-    }
-
-    
 
     private void transfer(File src, File dst)
     {
